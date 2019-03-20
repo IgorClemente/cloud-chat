@@ -1,0 +1,167 @@
+BCSymbolMap Version: 2.0
+-[AWSAuthUIConfiguration init]
+-[AWSAuthUIConfiguration addAWSSignInButtonViewClass:]
+-[AWSAuthUIConfiguration getAllSignInButtonViews]
+-[AWSAuthUIConfiguration hasSignInButtonView]
+-[AWSAuthUIConfiguration logoImage]
+-[AWSAuthUIConfiguration setLogoImage:]
+-[AWSAuthUIConfiguration backgroundColor]
+-[AWSAuthUIConfiguration setBackgroundColor:]
+-[AWSAuthUIConfiguration registeredSignInButtonViews]
+-[AWSAuthUIConfiguration setRegisteredSignInButtonViews:]
+-[AWSAuthUIConfiguration enableUserPoolsUI]
+-[AWSAuthUIConfiguration setEnableUserPoolsUI:]
+-[AWSAuthUIConfiguration isBackgroundColorFullScreen]
+-[AWSAuthUIConfiguration setIsBackgroundColorFullScreen:]
+-[AWSAuthUIConfiguration disableSignUpButton]
+-[AWSAuthUIConfiguration setDisableSignUpButton:]
+-[AWSAuthUIConfiguration font]
+-[AWSAuthUIConfiguration setFont:]
+-[AWSAuthUIConfiguration canCancel]
+-[AWSAuthUIConfiguration setCanCancel:]
+-[AWSAuthUIConfiguration .cxx_destruct]
+_OBJC_IVAR_$_AWSAuthUIConfiguration.logoImage
+_OBJC_IVAR_$_AWSAuthUIConfiguration.backgroundColor
+_OBJC_IVAR_$_AWSAuthUIConfiguration.registeredSignInButtonViews
+_OBJC_IVAR_$_AWSAuthUIConfiguration.enableUserPoolsUI
+_OBJC_IVAR_$_AWSAuthUIConfiguration.isBackgroundColorFullScreen
+_OBJC_IVAR_$_AWSAuthUIConfiguration.disableSignUpButton
+_OBJC_IVAR_$_AWSAuthUIConfiguration.font
+_OBJC_IVAR_$_AWSAuthUIConfiguration._canCancel
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_AWSUIConfiguration
+l_OBJC_LABEL_PROTOCOL_$_AWSUIConfiguration
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/distiller/project/AWSAuthSDK/Sources/AWSAuthUI/AWSAuthUIConfiguration.m
+/Users/distiller/project/AWSAuthSDK
+/Users/distiller/project/AWSAuthSDK/Sources/AWSAuthUI/AWSAuthUIConfiguration.h
++[AWSSignInViewController initialize]
+-[AWSSignInViewController initWithCoder:]
+-[AWSSignInViewController keyboardDidShow:]
+-[AWSSignInViewController keyboardDidHide:]
+-[AWSSignInViewController viewDidLoad]
+-[AWSSignInViewController viewWillAppear:]
+-[AWSSignInViewController touchesBegan:withEvent:]
+-[AWSSignInViewController handleLoginWithSignInProvider:]
+___57-[AWSSignInViewController handleLoginWithSignInProvider:]_block_invoke
+___57-[AWSSignInViewController handleLoginWithSignInProvider:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___57-[AWSSignInViewController handleLoginWithSignInProvider:]_block_invoke.116
+___copy_helper_block_.119
+___destroy_helper_block_.120
+___copy_helper_block_.125
+___destroy_helper_block_.126
+-[AWSSignInViewController setUpUserPoolsUI]
+-[AWSSignInViewController setUpLogo:]
+-[AWSSignInViewController setUpBackground:]
+-[AWSSignInViewController setUpResponders]
+-[AWSSignInViewController setUpNavigationController]
+-[AWSSignInViewController setUpFont]
+-[AWSSignInViewController barButtonClosePressed]
+-[AWSSignInViewController addButtonViewstoSignInView]
++[AWSSignInViewController getImageFromBundle:]
++[AWSSignInViewController getUIStoryboardFromBundle:]
++[AWSSignInViewController getViewControllerWithName:storyboard:]
++[AWSSignInViewController getAWSSignInViewControllerWithconfiguration:]
+-[AWSSignInViewController createInternalCompletionHandler]
+___58-[AWSSignInViewController createInternalCompletionHandler]_block_invoke
+___58-[AWSSignInViewController createInternalCompletionHandler]_block_invoke_2
+___copy_helper_block_.359
+___destroy_helper_block_.360
+___copy_helper_block_.362
+___destroy_helper_block_.363
+-[AWSSignInViewController handleUserPoolSignIn]
+-[AWSSignInViewController handleUserPoolSignUp]
+-[AWSSignInViewController handleUserPoolForgotPassword]
+-[AWSSignInViewController onLoginWithSignInProvider:result:error:]
+___66-[AWSSignInViewController onLoginWithSignInProvider:result:error:]_block_invoke
+___copy_helper_block_.374
+___destroy_helper_block_.375
+-[AWSSignInViewController canCancel]
+-[AWSSignInViewController setCanCancel:]
+-[AWSSignInViewController config]
+-[AWSSignInViewController setConfig:]
+-[AWSSignInViewController signInButton]
+-[AWSSignInViewController setSignInButton:]
+-[AWSSignInViewController signUpButton]
+-[AWSSignInViewController setSignUpButton:]
+-[AWSSignInViewController forgotPasswordButton]
+-[AWSSignInViewController setForgotPasswordButton:]
+-[AWSSignInViewController orSignInWithLabel]
+-[AWSSignInViewController setOrSignInWithLabel:]
+-[AWSSignInViewController logoView]
+-[AWSSignInViewController setLogoView:]
+-[AWSSignInViewController tableFormView]
+-[AWSSignInViewController setTableFormView:]
+-[AWSSignInViewController tableView]
+-[AWSSignInViewController setTableView:]
+-[AWSSignInViewController logoViewHeight]
+-[AWSSignInViewController setLogoViewHeight:]
+-[AWSSignInViewController completionHandler]
+-[AWSSignInViewController setCompletionHandler:]
+-[AWSSignInViewController completionHandlerCustom]
+-[AWSSignInViewController setCompletionHandlerCustom:]
+-[AWSSignInViewController passwordRow]
+-[AWSSignInViewController setPasswordRow:]
+-[AWSSignInViewController userNameRow]
+-[AWSSignInViewController setUserNameRow:]
+-[AWSSignInViewController tableDelegate]
+-[AWSSignInViewController setTableDelegate:]
+-[AWSSignInViewController providerRow1]
+-[AWSSignInViewController setProviderRow1:]
+-[AWSSignInViewController providerRow2]
+-[AWSSignInViewController setProviderRow2:]
+-[AWSSignInViewController providerRow3]
+-[AWSSignInViewController setProviderRow3:]
+-[AWSSignInViewController .cxx_destruct]
+___block_descriptor_tmp
+___block_descriptor_tmp.122
+___block_descriptor_tmp.128
+___block_descriptor_tmp.361
+___block_descriptor_tmp.365
+___block_descriptor_tmp.376
+_OBJC_IVAR_$_AWSSignInViewController.canCancel
+_OBJC_IVAR_$_AWSSignInViewController.config
+_OBJC_IVAR_$_AWSSignInViewController._signInButton
+_OBJC_IVAR_$_AWSSignInViewController._signUpButton
+_OBJC_IVAR_$_AWSSignInViewController._forgotPasswordButton
+_OBJC_IVAR_$_AWSSignInViewController._orSignInWithLabel
+_OBJC_IVAR_$_AWSSignInViewController._logoView
+_OBJC_IVAR_$_AWSSignInViewController._tableFormView
+_OBJC_IVAR_$_AWSSignInViewController._tableView
+_OBJC_IVAR_$_AWSSignInViewController._logoViewHeight
+_OBJC_IVAR_$_AWSSignInViewController._completionHandler
+_OBJC_IVAR_$_AWSSignInViewController._completionHandlerCustom
+_OBJC_IVAR_$_AWSSignInViewController._passwordRow
+_OBJC_IVAR_$_AWSSignInViewController._userNameRow
+_OBJC_IVAR_$_AWSSignInViewController._tableDelegate
+_OBJC_IVAR_$_AWSSignInViewController._providerRow1
+_OBJC_IVAR_$_AWSSignInViewController._providerRow2
+_OBJC_IVAR_$_AWSSignInViewController._providerRow3
+l_OBJC_PROTOCOL_$_AWSSignInDelegate
+l_OBJC_LABEL_PROTOCOL_$_AWSSignInDelegate
+/Users/distiller/project/AWSAuthSDK/Sources/AWSAuthUI/AWSSignInViewController.m
+/Users/distiller/project/AWSAuthSDK/Sources/AWSAuthUI/AWSSignInViewController.h
+__destroy_helper_block_
+__copy_helper_block_
+__66-[AWSSignInViewController onLoginWithSignInProvider:result:error:]_block_invoke
+__58-[AWSSignInViewController createInternalCompletionHandler]_block_invoke_2
+__58-[AWSSignInViewController createInternalCompletionHandler]_block_invoke
+__57-[AWSSignInViewController handleLoginWithSignInProvider:]_block_invoke.116
+__57-[AWSSignInViewController handleLoginWithSignInProvider:]_block_invoke_2
+__57-[AWSSignInViewController handleLoginWithSignInProvider:]_block_invoke
++[AWSAuthUIViewController presentViewControllerWithConfig:completionHandler:]
+___77+[AWSAuthUIViewController presentViewControllerWithConfig:completionHandler:]_block_invoke
++[AWSAuthUIViewController presentViewControllerWithNavigationController:configuration:completionHandler:]
+___105+[AWSAuthUIViewController presentViewControllerWithNavigationController:configuration:completionHandler:]_block_invoke
+___copy_helper_block_.55
+___destroy_helper_block_.56
++[AWSAuthUIViewController getDefaultAuthUIConfiguration]
++[AWSAuthUIViewController isConfigurationKeyPresent:]
+___block_descriptor_tmp.57
+/Users/distiller/project/AWSAuthSDK/Sources/AWSAuthUI/AWSAuthUIViewController.m
+__105+[AWSAuthUIViewController presentViewControllerWithNavigationController:configuration:completionHandler:]_block_invoke
+__77+[AWSAuthUIViewController presentViewControllerWithConfig:completionHandler:]_block_invoke
+/Users/distiller/Library/Developer/Xcode/DerivedData/AWSAuthSDK-awjpvqlgobdtszaszohsjogaibvn/Build/Intermediates.noindex/ArchiveIntermediates/AWSAuthUI/IntermediateBuildFilesPath/AWSAuthSDK.build/Release-iphoneos/AWSAuthUI.build/DerivedSources/AWSAuthUI_vers.c

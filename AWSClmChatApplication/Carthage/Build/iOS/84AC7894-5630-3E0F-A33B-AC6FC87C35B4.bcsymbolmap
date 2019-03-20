@@ -1,0 +1,1177 @@
+BCSymbolMap Version: 2.0
++[AWSMobileAnalyticsEventConstraintDecorator decoratorWithEvent:]
+-[AWSMobileAnalyticsEventConstraintDecorator initWithEvent:withMaxAttributesAndMetrics:]
+-[AWSMobileAnalyticsEventConstraintDecorator addAttribute:forKey:]
+-[AWSMobileAnalyticsEventConstraintDecorator addMetric:forKey:]
+-[AWSMobileAnalyticsEventConstraintDecorator eventType]
+-[AWSMobileAnalyticsEventConstraintDecorator attributeForKey:]
+-[AWSMobileAnalyticsEventConstraintDecorator metricForKey:]
+-[AWSMobileAnalyticsEventConstraintDecorator hasAttributeForKey:]
+-[AWSMobileAnalyticsEventConstraintDecorator hasMetricForKey:]
+-[AWSMobileAnalyticsEventConstraintDecorator allAttributes]
+-[AWSMobileAnalyticsEventConstraintDecorator allMetrics]
++[AWSMobileAnalyticsEventConstraintDecorator trimKey:forType:]
++[AWSMobileAnalyticsEventConstraintDecorator trimValue:]
+-[AWSMobileAnalyticsEventConstraintDecorator decoratedEvent]
+-[AWSMobileAnalyticsEventConstraintDecorator setDecoratedEvent:]
+-[AWSMobileAnalyticsEventConstraintDecorator maxAttributesAndMetrics]
+-[AWSMobileAnalyticsEventConstraintDecorator setMaxAttributesAndMetrics:]
+-[AWSMobileAnalyticsEventConstraintDecorator currentNumOfAttributesAndMetrics]
+-[AWSMobileAnalyticsEventConstraintDecorator setCurrentNumOfAttributesAndMetrics:]
+-[AWSMobileAnalyticsEventConstraintDecorator .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsEventConstraintDecorator._decoratedEvent
+_OBJC_IVAR_$_AWSMobileAnalyticsEventConstraintDecorator._maxAttributesAndMetrics
+_OBJC_IVAR_$_AWSMobileAnalyticsEventConstraintDecorator._currentNumOfAttributesAndMetrics
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsEvent
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsEvent
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsEventConstraintDecorator.m
+/Users/distiller/project
+-[AWSMobileAnalyticsClientContext dictionaryRepresentation]
+-[AWSMobileAnalyticsClientContext clientId]
+-[AWSMobileAnalyticsClientContext setClientId:]
+-[AWSMobileAnalyticsClientContext .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsClientContext._clientId
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsClientContext.m
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsClientContext.h
++[AWSMobileAnalyticsDefaultOptions optionsWithAllowEventCollection:withWANDelivery:]
+-[AWSMobileAnalyticsDefaultOptions initWithAllowEventCollection:withWANDelivery:]
+-[AWSMobileAnalyticsDefaultOptions allowEventCollection]
+-[AWSMobileAnalyticsDefaultOptions allowWANDelivery]
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultOptions._allowEventCollection
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultOptions._allowWANDelivery
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsOptions
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsOptions
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultOptions.m
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultOptions.h
++[AWSMobileAnalyticsPrefsUniqueIdService idService]
++[AWSMobileAnalyticsPrefsUniqueIdService idServiceWithGenerator:]
+-[AWSMobileAnalyticsPrefsUniqueIdService initWithIdGenerator:]
+-[AWSMobileAnalyticsPrefsUniqueIdService getUniqueIdWithContext:]
+-[AWSMobileAnalyticsPrefsUniqueIdService generator]
+-[AWSMobileAnalyticsPrefsUniqueIdService setGenerator:]
+-[AWSMobileAnalyticsPrefsUniqueIdService .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsPrefsUniqueIdService._generator
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsUniqueIdService
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsUniqueIdService
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsPrefsUniqueIdService.m
++[AWSMobileAnalyticsDelayedBlock delayedBlockWithDelay:withBlock:]
+-[AWSMobileAnalyticsDelayedBlock initWithWithDelay:withBlock:]
+-[AWSMobileAnalyticsDelayedBlock cancel]
+-[AWSMobileAnalyticsDelayedBlock execute]
+-[AWSMobileAnalyticsDelayedBlock handleCountDownTimer:]
+-[AWSMobileAnalyticsDelayedBlock blockToExecute]
+-[AWSMobileAnalyticsDelayedBlock setBlockToExecute:]
+-[AWSMobileAnalyticsDelayedBlock waitDelay]
+-[AWSMobileAnalyticsDelayedBlock setWaitDelay:]
+-[AWSMobileAnalyticsDelayedBlock latch]
+-[AWSMobileAnalyticsDelayedBlock setLatch:]
+-[AWSMobileAnalyticsDelayedBlock wasCancelled]
+-[AWSMobileAnalyticsDelayedBlock setWasCancelled:]
+-[AWSMobileAnalyticsDelayedBlock lock]
+-[AWSMobileAnalyticsDelayedBlock setLock:]
+-[AWSMobileAnalyticsDelayedBlock .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsDelayedBlock._blockToExecute
+_OBJC_IVAR_$_AWSMobileAnalyticsDelayedBlock._waitDelay
+_OBJC_IVAR_$_AWSMobileAnalyticsDelayedBlock._latch
+_OBJC_IVAR_$_AWSMobileAnalyticsDelayedBlock._wasCancelled
+_OBJC_IVAR_$_AWSMobileAnalyticsDelayedBlock._lock
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDelayedBlock.m
+-[AWSMobileAnalyticsFile initWithFileMananager:withAbsolutePath:]
+-[AWSMobileAnalyticsFile initWithFileMananager:withParent:withChildPath:]
+-[AWSMobileAnalyticsFile initWithFileMananager:withParentPath:withChildPath:]
+-[AWSMobileAnalyticsFile init]
+-[AWSMobileAnalyticsFile createNewFile]
+-[AWSMobileAnalyticsFile deleteFile]
+-[AWSMobileAnalyticsFile exists]
+-[AWSMobileAnalyticsFile mkdirs]
+-[AWSMobileAnalyticsFile length]
+-[AWSMobileAnalyticsFile listFiles]
+-[AWSMobileAnalyticsFile renameTo:]
+-[AWSMobileAnalyticsFile fileName]
+-[AWSMobileAnalyticsFile absolutePath]
+-[AWSMobileAnalyticsFile isFile]
+-[AWSMobileAnalyticsFile isDirectory]
+-[AWSMobileAnalyticsFile fileManager]
+-[AWSMobileAnalyticsFile setFileManager:]
+-[AWSMobileAnalyticsFile .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsFile._absolutePath
+_OBJC_IVAR_$_AWSMobileAnalyticsFile._fileName
+_OBJC_IVAR_$_AWSMobileAnalyticsFile._isDirectory
+_OBJC_IVAR_$_AWSMobileAnalyticsFile._isFile
+_OBJC_IVAR_$_AWSMobileAnalyticsFile._fileManager
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsFile.m
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsFile.h
+-[AWSMobileAnalyticsMonetizationEventBuilder build]
+-[AWSMobileAnalyticsMonetizationEventBuilder isValid]
+-[AWSMobileAnalyticsMonetizationEventBuilder initWithEventClient:]
+-[AWSMobileAnalyticsMonetizationEventBuilder productId]
+-[AWSMobileAnalyticsMonetizationEventBuilder setProductId:]
+-[AWSMobileAnalyticsMonetizationEventBuilder quantity]
+-[AWSMobileAnalyticsMonetizationEventBuilder setQuantity:]
+-[AWSMobileAnalyticsMonetizationEventBuilder itemPrice]
+-[AWSMobileAnalyticsMonetizationEventBuilder setItemPrice:]
+-[AWSMobileAnalyticsMonetizationEventBuilder formattedItemPrice]
+-[AWSMobileAnalyticsMonetizationEventBuilder setFormattedItemPrice:]
+-[AWSMobileAnalyticsMonetizationEventBuilder transactionId]
+-[AWSMobileAnalyticsMonetizationEventBuilder setTransactionId:]
+-[AWSMobileAnalyticsMonetizationEventBuilder currency]
+-[AWSMobileAnalyticsMonetizationEventBuilder setCurrency:]
+-[AWSMobileAnalyticsMonetizationEventBuilder store]
+-[AWSMobileAnalyticsMonetizationEventBuilder setStore:]
+-[AWSMobileAnalyticsMonetizationEventBuilder doBaseValidation]
+-[AWSMobileAnalyticsMonetizationEventBuilder .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsMonetizationEventBuilder.eventClient
+_OBJC_IVAR_$_AWSMobileAnalyticsMonetizationEventBuilder.productId
+_OBJC_IVAR_$_AWSMobileAnalyticsMonetizationEventBuilder.store
+_OBJC_IVAR_$_AWSMobileAnalyticsMonetizationEventBuilder.quantity
+_OBJC_IVAR_$_AWSMobileAnalyticsMonetizationEventBuilder.formattedItemPrice
+_OBJC_IVAR_$_AWSMobileAnalyticsMonetizationEventBuilder.isItemPriceSet
+_OBJC_IVAR_$_AWSMobileAnalyticsMonetizationEventBuilder.itemPrice
+_OBJC_IVAR_$_AWSMobileAnalyticsMonetizationEventBuilder.currency
+_OBJC_IVAR_$_AWSMobileAnalyticsMonetizationEventBuilder.transactionId
+_OBJC_IVAR_$_AWSMobileAnalyticsMonetizationEventBuilder.isQuantitySet
+/Users/distiller/project/AWSMobileAnalytics/AWSMobileAnalyticsMonetizationEventBuilder.m
+-[AWSMobileAnalyticsPausedSessionState resumeWithSessionClient:]
+-[AWSMobileAnalyticsPausedSessionState pauseWithSessionClient:]
+-[AWSMobileAnalyticsPausedSessionState startWithSessionClient:]
+-[AWSMobileAnalyticsPausedSessionState stopWithSessionClient:]
+-[AWSMobileAnalyticsPausedSessionState enterStateWithSessionClient:]
+-[AWSMobileAnalyticsPausedSessionState exitStateWithSessionClient:]
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsSessionClientState
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsSessionClientState
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsPausedSessionState.m
+-[AWSMobileAnalyticsSessionStore initWithFileManager:]
+-[AWSMobileAnalyticsSessionStore retrievePersistedSessionDetails]
+-[AWSMobileAnalyticsSessionStore createSessionFromSerializedDictionary:]
+-[AWSMobileAnalyticsSessionStore persistSessionDetails:]
+-[AWSMobileAnalyticsSessionStore deletePesistedSession]
+-[AWSMobileAnalyticsSessionStore fileLock]
+-[AWSMobileAnalyticsSessionStore setFileLock:]
+-[AWSMobileAnalyticsSessionStore fileManager]
+-[AWSMobileAnalyticsSessionStore setFileManager:]
+-[AWSMobileAnalyticsSessionStore file]
+-[AWSMobileAnalyticsSessionStore setFile:]
+-[AWSMobileAnalyticsSessionStore .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsSessionStore._fileLock
+_OBJC_IVAR_$_AWSMobileAnalyticsSessionStore._fileManager
+_OBJC_IVAR_$_AWSMobileAnalyticsSessionStore._file
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsSessionStore.m
+-[AWSMobileAnalyticsIOSSystem initWithIdentifier:]
+-[AWSMobileAnalyticsIOSSystem initWithIdentifier:insightsPrivateKey:]
+-[AWSMobileAnalyticsIOSSystem initWithIdentifier:insightsPrivateKey:withRootPath:]
+-[AWSMobileAnalyticsIOSSystem migrateMobileAnalyticsDataWithIdentifier:insightsPrivateKey:absolutePath:withRootFile:cachesClientIDRef:]
+-[AWSMobileAnalyticsIOSSystem performMigrateMobileAnalyticsDataWithInsightsPrivateKey:absolutePath:cachesClientIDRef:cachesDirectoryAbsolutePath:]
+-[AWSMobileAnalyticsIOSSystem readClientIDFromCachesDirectoryWithInsightsPrivateKey:cachesClientIDRef:cachesDirectoryAbsolutePath:]
++[AWSMobileAnalyticsIOSSystem rootFileDirectoryWithFileManager:]
+-[AWSMobileAnalyticsIOSSystem addSkipBackupAttributeToItemAtURL:withFileManager:]
+-[AWSMobileAnalyticsIOSSystem fileManager]
+-[AWSMobileAnalyticsIOSSystem setFileManager:]
+-[AWSMobileAnalyticsIOSSystem preferences]
+-[AWSMobileAnalyticsIOSSystem setPreferences:]
+-[AWSMobileAnalyticsIOSSystem connectivity]
+-[AWSMobileAnalyticsIOSSystem setConnectivity:]
+-[AWSMobileAnalyticsIOSSystem lifeCycleManager]
+-[AWSMobileAnalyticsIOSSystem .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsIOSSystem._lifeCycleManager
+_OBJC_IVAR_$_AWSMobileAnalyticsIOSSystem._fileManager
+_OBJC_IVAR_$_AWSMobileAnalyticsIOSSystem._preferences
+_OBJC_IVAR_$_AWSMobileAnalyticsIOSSystem._connectivity
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsSystem
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsSystem
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsIOSSystem.m
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsIOSSystem.h
+-[AWSMobileAnalyticsActiveSessionState resumeWithSessionClient:]
+-[AWSMobileAnalyticsActiveSessionState pauseWithSessionClient:]
+-[AWSMobileAnalyticsActiveSessionState startWithSessionClient:]
+-[AWSMobileAnalyticsActiveSessionState stopWithSessionClient:]
+-[AWSMobileAnalyticsActiveSessionState enterStateWithSessionClient:]
+-[AWSMobileAnalyticsActiveSessionState exitStateWithSessionClient:]
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsActiveSessionState.m
++[AWSMobileAnalyticsBufferedReader readerWithInputStream:]
++[AWSMobileAnalyticsBufferedReader readerWithInputStream:withBufferLength:]
+-[AWSMobileAnalyticsBufferedReader initWithInputStream:withBufferLength:]
+-[AWSMobileAnalyticsBufferedReader readLine:withError:]
+-[AWSMobileAnalyticsBufferedReader close]
+-[AWSMobileAnalyticsBufferedReader clearBuffers]
+-[AWSMobileAnalyticsBufferedReader inputStream]
+-[AWSMobileAnalyticsBufferedReader setInputStream:]
+-[AWSMobileAnalyticsBufferedReader readFromStream]
+-[AWSMobileAnalyticsBufferedReader setReadFromStream:]
+-[AWSMobileAnalyticsBufferedReader bufferLength]
+-[AWSMobileAnalyticsBufferedReader setBufferLength:]
+-[AWSMobileAnalyticsBufferedReader streamBuffer]
+-[AWSMobileAnalyticsBufferedReader setStreamBuffer:]
+-[AWSMobileAnalyticsBufferedReader lockObject]
+-[AWSMobileAnalyticsBufferedReader setLockObject:]
+-[AWSMobileAnalyticsBufferedReader .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsBufferedReader._inputStream
+_OBJC_IVAR_$_AWSMobileAnalyticsBufferedReader._readFromStream
+_OBJC_IVAR_$_AWSMobileAnalyticsBufferedReader._bufferLength
+_OBJC_IVAR_$_AWSMobileAnalyticsBufferedReader._streamBuffer
+_OBJC_IVAR_$_AWSMobileAnalyticsBufferedReader._lockObject
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsBufferedReader.m
+NSMakeRange
+/Applications/Xcode-10.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
++[AWSMobileAnalyticsVirtualMonetizationEventBuilder builderWithEventClient:]
+-[AWSMobileAnalyticsVirtualMonetizationEventBuilder initWithEventClient:]
+-[AWSMobileAnalyticsVirtualMonetizationEventBuilder withProductId:]
+-[AWSMobileAnalyticsVirtualMonetizationEventBuilder withItemPrice:]
+-[AWSMobileAnalyticsVirtualMonetizationEventBuilder withQuantity:]
+-[AWSMobileAnalyticsVirtualMonetizationEventBuilder withCurrency:]
+-[AWSMobileAnalyticsVirtualMonetizationEventBuilder isValid]
+-[AWSMobileAnalyticsVirtualMonetizationEventBuilder build]
+-[AWSMobileAnalyticsVirtualMonetizationEventBuilder isItemPriceSet]
+-[AWSMobileAnalyticsVirtualMonetizationEventBuilder setIsItemPriceSet:]
+-[AWSMobileAnalyticsVirtualMonetizationEventBuilder isQuantitySet]
+-[AWSMobileAnalyticsVirtualMonetizationEventBuilder setIsQuantitySet:]
+_OBJC_IVAR_$_AWSMobileAnalyticsVirtualMonetizationEventBuilder._isItemPriceSet
+_OBJC_IVAR_$_AWSMobileAnalyticsVirtualMonetizationEventBuilder._isQuantitySet
+/Users/distiller/project/AWSMobileAnalytics/AWSMobileAnalyticsVirtualMonetizationEventBuilder.m
+-[AWSMobileAnalyticsInactiveSessionState resumeWithSessionClient:]
+-[AWSMobileAnalyticsInactiveSessionState pauseWithSessionClient:]
+-[AWSMobileAnalyticsInactiveSessionState startWithSessionClient:]
+-[AWSMobileAnalyticsInactiveSessionState stopWithSessionClient:]
+-[AWSMobileAnalyticsInactiveSessionState enterStateWithSessionClient:]
+-[AWSMobileAnalyticsInactiveSessionState exitStateWithSessionClient:]
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsInactiveSessionState.m
++[AWSMobileAnalyticsConnectivityPolicy policyWithConnectivity:withConfiguration:withAllowWan:]
+-[AWSMobileAnalyticsConnectivityPolicy initWithConnectivity:withConfiguration:withAllowWan:]
+-[AWSMobileAnalyticsConnectivityPolicy isAllowed]
+-[AWSMobileAnalyticsConnectivityPolicy handleDeliveryAttempt:]
+-[AWSMobileAnalyticsConnectivityPolicy connectivity]
+-[AWSMobileAnalyticsConnectivityPolicy setConnectivity:]
+-[AWSMobileAnalyticsConnectivityPolicy configuration]
+-[AWSMobileAnalyticsConnectivityPolicy setConfiguration:]
+-[AWSMobileAnalyticsConnectivityPolicy allowWan]
+-[AWSMobileAnalyticsConnectivityPolicy setAllowWan:]
+-[AWSMobileAnalyticsConnectivityPolicy .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsConnectivityPolicy._connectivity
+_OBJC_IVAR_$_AWSMobileAnalyticsConnectivityPolicy._configuration
+_OBJC_IVAR_$_AWSMobileAnalyticsConnectivityPolicy._allowWan
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsDeliveryPolicy
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsDeliveryPolicy
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsConnectivityPolicy.m
++[AWSMobileAnalyticsIOSConnectivity defaultConnectivity]
+___56+[AWSMobileAnalyticsIOSConnectivity defaultConnectivity]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[AWSMobileAnalyticsIOSConnectivity init]
+-[AWSMobileAnalyticsIOSConnectivity initWithReachability:]
+-[AWSMobileAnalyticsIOSConnectivity isConnected]
+-[AWSMobileAnalyticsIOSConnectivity hasWifi]
+-[AWSMobileAnalyticsIOSConnectivity hasWANOnly]
+-[AWSMobileAnalyticsIOSConnectivity reachability]
+-[AWSMobileAnalyticsIOSConnectivity setReachability:]
+-[AWSMobileAnalyticsIOSConnectivity .cxx_destruct]
+_defaultConnectivity.reachability
+_defaultConnectivity.predicate
+___block_descriptor_tmp
+_OBJC_IVAR_$_AWSMobileAnalyticsIOSConnectivity._reachability
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsConnectivity
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsConnectivity
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsIOSConnectivity.m
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsIOSConnectivity.h
+__destroy_helper_block_
+__copy_helper_block_
+__56+[AWSMobileAnalyticsIOSConnectivity defaultConnectivity]_block_invoke
+/Applications/Xcode-10.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/once.h
++[AWSMobileAnalytics defaultMobileAnalytics]
++[AWSMobileAnalytics mobileAnalyticsForAppId:]
++[AWSMobileAnalytics mobileAnalyticsForAppId:identityPoolId:]
++[AWSMobileAnalytics mobileAnalyticsForAppId:configuration:]
++[AWSMobileAnalytics mobileAnalyticsForAppId:identityPoolId:completionBlock:]
++[AWSMobileAnalytics mobileAnalyticsForAppId:configuration:completionBlock:]
+___76+[AWSMobileAnalytics mobileAnalyticsForAppId:configuration:completionBlock:]_block_invoke
++[AWSMobileAnalytics mobileAnalyticsForAppId:insightsPrivateKey:]
++[AWSMobileAnalytics mobileAnalyticsForAppId:insightsPrivateKey:configuration:completionBlock:]
+___95+[AWSMobileAnalytics mobileAnalyticsForAppId:insightsPrivateKey:configuration:completionBlock:]_block_invoke
+-[AWSMobileAnalytics initWithAppId:insightsPrivateKey:configuration:settings:completionBlock:]
++[AWSMobileAnalytics removeCachedInstances]
+-[AWSMobileAnalytics eventClient]
+-[AWSMobileAnalytics sessionClient]
+-[AWSMobileAnalytics deliveryClient]
+-[AWSMobileAnalytics configuration]
+-[AWSMobileAnalytics setConfiguration:]
+-[AWSMobileAnalytics mobileAnalyticsContext]
+-[AWSMobileAnalytics insightsPrivateKey]
+-[AWSMobileAnalytics setInsightsPrivateKey:]
+-[AWSMobileAnalytics .cxx_destruct]
+__mobileAnalyticsForAppNamespace
+_mobileAnalyticsForAppId:configuration:completionBlock:.onceToken
+___block_literal_global
+_mobileAnalyticsForAppId:insightsPrivateKey:configuration:completionBlock:.onceToken
+___block_descriptor_tmp.35
+___block_literal_global.36
+_OBJC_IVAR_$_AWSMobileAnalytics._configuration
+_OBJC_IVAR_$_AWSMobileAnalytics._mobileAnalyticsContext
+_OBJC_IVAR_$_AWSMobileAnalytics._deliveryClient
+_OBJC_IVAR_$_AWSMobileAnalytics._eventClient
+_OBJC_IVAR_$_AWSMobileAnalytics._sessionClient
+_OBJC_IVAR_$_AWSMobileAnalytics._insightsPrivateKey
+/Users/distiller/project/AWSMobileAnalytics/AWSMobileAnalyticsService.m
+/Users/distiller/project/AWSMobileAnalytics/AWSMobileAnalyticsService.h
+__95+[AWSMobileAnalytics mobileAnalyticsForAppId:insightsPrivateKey:configuration:completionBlock:]_block_invoke
+__76+[AWSMobileAnalytics mobileAnalyticsForAppId:configuration:completionBlock:]_block_invoke
++[AWSBackgroundQueue emptyQueue]
+-[AWSBackgroundQueue init]
+-[AWSBackgroundQueue count]
+-[AWSBackgroundQueue addBackgroundTaskUsingBlock:]
+-[AWSBackgroundQueue countByEnumeratingWithState:objects:count:]
+-[AWSBackgroundQueue blockArray]
+-[AWSBackgroundQueue setBlockArray:]
+-[AWSBackgroundQueue .cxx_destruct]
++[AWSMobileAnalyticsIOSLifeCycleManager manager]
+-[AWSMobileAnalyticsIOSLifeCycleManager init]
+-[AWSMobileAnalyticsIOSLifeCycleManager dealloc]
+-[AWSMobileAnalyticsIOSLifeCycleManager addBackgroundObserverUsingBlock:]
+-[AWSMobileAnalyticsIOSLifeCycleManager removeBackgroundObserver:]
+-[AWSMobileAnalyticsIOSLifeCycleManager addForegroundObserverUsingBlock:]
+-[AWSMobileAnalyticsIOSLifeCycleManager removeForegroundObserver:]
+-[AWSMobileAnalyticsIOSLifeCycleManager executeBackgroundTasks:]
+___64-[AWSMobileAnalyticsIOSLifeCycleManager executeBackgroundTasks:]_block_invoke
+___64-[AWSMobileAnalyticsIOSLifeCycleManager executeBackgroundTasks:]_block_invoke.70
+___copy_helper_block_.75
+___destroy_helper_block_.76
+-[AWSMobileAnalyticsIOSLifeCycleManager applicationDidEnterBackground:]
+-[AWSMobileAnalyticsIOSLifeCycleManager applicationDidEnterForeground:]
+-[AWSMobileAnalyticsIOSLifeCycleManager queue]
+-[AWSMobileAnalyticsIOSLifeCycleManager setQueue:]
+-[AWSMobileAnalyticsIOSLifeCycleManager .cxx_destruct]
+_OBJC_IVAR_$_AWSBackgroundQueue._blockArray
+l_OBJC_PROTOCOL_$_NSFastEnumeration
+l_OBJC_LABEL_PROTOCOL_$_NSFastEnumeration
+___block_descriptor_tmp.77
+_OBJC_IVAR_$_AWSMobileAnalyticsIOSLifeCycleManager._queue
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsLifeCycleManager
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsLifeCycleManager
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsIOSLifeCycleManager.m
+__64-[AWSMobileAnalyticsIOSLifeCycleManager executeBackgroundTasks:]_block_invoke.70
+__64-[AWSMobileAnalyticsIOSLifeCycleManager executeBackgroundTasks:]_block_invoke
++[AWSMobileAnalyticsERSEvent JSONKeyPathsByPropertyKey]
++[AWSMobileAnalyticsERSEvent sessionJSONTransformer]
+-[AWSMobileAnalyticsERSEvent attributes]
+-[AWSMobileAnalyticsERSEvent setAttributes:]
+-[AWSMobileAnalyticsERSEvent eventType]
+-[AWSMobileAnalyticsERSEvent setEventType:]
+-[AWSMobileAnalyticsERSEvent metrics]
+-[AWSMobileAnalyticsERSEvent setMetrics:]
+-[AWSMobileAnalyticsERSEvent session]
+-[AWSMobileAnalyticsERSEvent setSession:]
+-[AWSMobileAnalyticsERSEvent timestamp]
+-[AWSMobileAnalyticsERSEvent setTimestamp:]
+-[AWSMobileAnalyticsERSEvent version]
+-[AWSMobileAnalyticsERSEvent setVersion:]
+-[AWSMobileAnalyticsERSEvent .cxx_destruct]
++[AWSMobileAnalyticsERSPutEventsInput JSONKeyPathsByPropertyKey]
++[AWSMobileAnalyticsERSPutEventsInput eventsJSONTransformer]
+-[AWSMobileAnalyticsERSPutEventsInput clientContext]
+-[AWSMobileAnalyticsERSPutEventsInput setClientContext:]
+-[AWSMobileAnalyticsERSPutEventsInput events]
+-[AWSMobileAnalyticsERSPutEventsInput setEvents:]
+-[AWSMobileAnalyticsERSPutEventsInput .cxx_destruct]
++[AWSMobileAnalyticsERSSession JSONKeyPathsByPropertyKey]
+-[AWSMobileAnalyticsERSSession duration]
+-[AWSMobileAnalyticsERSSession setDuration:]
+-[AWSMobileAnalyticsERSSession identifier]
+-[AWSMobileAnalyticsERSSession setIdentifier:]
+-[AWSMobileAnalyticsERSSession startTimestamp]
+-[AWSMobileAnalyticsERSSession setStartTimestamp:]
+-[AWSMobileAnalyticsERSSession stopTimestamp]
+-[AWSMobileAnalyticsERSSession setStopTimestamp:]
+-[AWSMobileAnalyticsERSSession .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsERSEvent._attributes
+_OBJC_IVAR_$_AWSMobileAnalyticsERSEvent._eventType
+_OBJC_IVAR_$_AWSMobileAnalyticsERSEvent._metrics
+_OBJC_IVAR_$_AWSMobileAnalyticsERSEvent._session
+_OBJC_IVAR_$_AWSMobileAnalyticsERSEvent._timestamp
+_OBJC_IVAR_$_AWSMobileAnalyticsERSEvent._version
+_OBJC_IVAR_$_AWSMobileAnalyticsERSPutEventsInput._clientContext
+_OBJC_IVAR_$_AWSMobileAnalyticsERSPutEventsInput._events
+_OBJC_IVAR_$_AWSMobileAnalyticsERSSession._duration
+_OBJC_IVAR_$_AWSMobileAnalyticsERSSession._identifier
+_OBJC_IVAR_$_AWSMobileAnalyticsERSSession._startTimestamp
+_OBJC_IVAR_$_AWSMobileAnalyticsERSSession._stopTimestamp
+/Users/distiller/project/AWSMobileAnalytics/AWSMobileAnalyticsERS/AWSMobileAnalyticsERSModel.m
+/Users/distiller/project/AWSMobileAnalytics/AWSMobileAnalyticsERS/AWSMobileAnalyticsERSModel.h
+-[AWSMobileAnalyticsJSONSerializer writeObject:]
+-[AWSMobileAnalyticsJSONSerializer writeArray:]
+-[AWSMobileAnalyticsJSONSerializer readObject:]
+-[AWSMobileAnalyticsJSONSerializer readArray:]
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsSerializer
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsSerializer
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsJSONSerializer.m
++[AWSMobileAnalyticsDefaultEvent defaultEventFromEvent:withInsightsContext:withEventTimestamp:]
++[AWSMobileAnalyticsDefaultEvent defaultEventWithInsightsContext:withEventTimestamp:withEventType:]
+-[AWSMobileAnalyticsDefaultEvent initWithEventType:withAttributes:withMetrics:withEventTimestamp:]
+-[AWSMobileAnalyticsDefaultEvent attributeForKey:]
+-[AWSMobileAnalyticsDefaultEvent addAttribute:forKey:]
+-[AWSMobileAnalyticsDefaultEvent hasAttributeForKey:]
+-[AWSMobileAnalyticsDefaultEvent allAttributes]
+-[AWSMobileAnalyticsDefaultEvent metricForKey:]
+-[AWSMobileAnalyticsDefaultEvent addMetric:forKey:]
+-[AWSMobileAnalyticsDefaultEvent hasMetricForKey:]
+-[AWSMobileAnalyticsDefaultEvent allMetrics]
+-[AWSMobileAnalyticsDefaultEvent description]
+-[AWSMobileAnalyticsDefaultEvent toDictionary]
+-[AWSMobileAnalyticsDefaultEvent eventType]
+-[AWSMobileAnalyticsDefaultEvent setEventType:]
+-[AWSMobileAnalyticsDefaultEvent eventTimestamp]
+-[AWSMobileAnalyticsDefaultEvent setEventTimestamp:]
+-[AWSMobileAnalyticsDefaultEvent attributes]
+-[AWSMobileAnalyticsDefaultEvent setAttributes:]
+-[AWSMobileAnalyticsDefaultEvent metrics]
+-[AWSMobileAnalyticsDefaultEvent setMetrics:]
+-[AWSMobileAnalyticsDefaultEvent .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultEvent._eventType
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultEvent._eventTimestamp
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultEvent._attributes
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultEvent._metrics
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsInternalEvent
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsInternalEvent
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultEvent.m
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultEvent.h
++[AWSMobileAnalyticsDefaultSessionClient initialize]
+-[AWSMobileAnalyticsDefaultSessionClient initWithEventClient:withDeliveryClient:withContext:]
+___93-[AWSMobileAnalyticsDefaultSessionClient initWithEventClient:withDeliveryClient:withContext:]_block_invoke
+___93-[AWSMobileAnalyticsDefaultSessionClient initWithEventClient:withDeliveryClient:withContext:]_block_invoke.50
+___copy_helper_block_.53
+___destroy_helper_block_.54
+-[AWSMobileAnalyticsDefaultSessionClient dealloc]
+-[AWSMobileAnalyticsDefaultSessionClient startSession]
+-[AWSMobileAnalyticsDefaultSessionClient stopSession]
+-[AWSMobileAnalyticsDefaultSessionClient pauseSession]
+-[AWSMobileAnalyticsDefaultSessionClient resumeSession]
+-[AWSMobileAnalyticsDefaultSessionClient startNewSession]
+-[AWSMobileAnalyticsDefaultSessionClient endCurrentSession]
+-[AWSMobileAnalyticsDefaultSessionClient pauseCurrentSession]
+-[AWSMobileAnalyticsDefaultSessionClient resumeCurrentSession]
+-[AWSMobileAnalyticsDefaultSessionClient getSessionState]
+-[AWSMobileAnalyticsDefaultSessionClient changeState:]
+-[AWSMobileAnalyticsDefaultSessionClient cancelDelayedBlock]
+-[AWSMobileAnalyticsDefaultSessionClient waitForSessionTimeout]
+___63-[AWSMobileAnalyticsDefaultSessionClient waitForSessionTimeout]_block_invoke
+___copy_helper_block_.174
+___destroy_helper_block_.175
+___63-[AWSMobileAnalyticsDefaultSessionClient waitForSessionTimeout]_block_invoke.183
+___copy_helper_block_.186
+___destroy_helper_block_.187
+-[AWSMobileAnalyticsDefaultSessionClient session]
+-[AWSMobileAnalyticsDefaultSessionClient setSession:]
+-[AWSMobileAnalyticsDefaultSessionClient context]
+-[AWSMobileAnalyticsDefaultSessionClient setContext:]
+-[AWSMobileAnalyticsDefaultSessionClient eventClient]
+-[AWSMobileAnalyticsDefaultSessionClient setEventClient:]
+-[AWSMobileAnalyticsDefaultSessionClient lifeCycleManager]
+-[AWSMobileAnalyticsDefaultSessionClient setLifeCycleManager:]
+-[AWSMobileAnalyticsDefaultSessionClient sessionStore]
+-[AWSMobileAnalyticsDefaultSessionClient setSessionStore:]
+-[AWSMobileAnalyticsDefaultSessionClient sessionRestartDelayMs]
+-[AWSMobileAnalyticsDefaultSessionClient setSessionRestartDelayMs:]
+-[AWSMobileAnalyticsDefaultSessionClient sessionResumeDelayMs]
+-[AWSMobileAnalyticsDefaultSessionClient setSessionResumeDelayMs:]
+-[AWSMobileAnalyticsDefaultSessionClient deliveryClient]
+-[AWSMobileAnalyticsDefaultSessionClient setDeliveryClient:]
+-[AWSMobileAnalyticsDefaultSessionClient foregroundObserverHandle]
+-[AWSMobileAnalyticsDefaultSessionClient setForegroundObserverHandle:]
+-[AWSMobileAnalyticsDefaultSessionClient backgroundObserverHandle]
+-[AWSMobileAnalyticsDefaultSessionClient setBackgroundObserverHandle:]
+-[AWSMobileAnalyticsDefaultSessionClient lockObject]
+-[AWSMobileAnalyticsDefaultSessionClient setLockObject:]
+-[AWSMobileAnalyticsDefaultSessionClient state]
+-[AWSMobileAnalyticsDefaultSessionClient setState:]
+-[AWSMobileAnalyticsDefaultSessionClient delayedBlock]
+-[AWSMobileAnalyticsDefaultSessionClient setDelayedBlock:]
+-[AWSMobileAnalyticsDefaultSessionClient .cxx_destruct]
+_INACTIVE_SESSION_STATE
+_PAUSED_SESSION_STATE
+_ACTIVE_SESSION_STATE
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultSessionClient._sessionStore
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultSessionClient._session
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultSessionClient._eventClient
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultSessionClient._context
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultSessionClient._deliveryClient
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultSessionClient._state
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultSessionClient._sessionRestartDelayMs
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultSessionClient._sessionResumeDelayMs
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultSessionClient._lifeCycleManager
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultSessionClient._foregroundObserverHandle
+___block_descriptor_tmp.55
+___block_descriptor_tmp.177
+___block_descriptor_tmp.188
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultSessionClient._backgroundObserverHandle
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultSessionClient._lockObject
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultSessionClient._delayedBlock
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsSessionClient
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsSessionClient
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultSessionClient.m
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultSessionClient.h
+__63-[AWSMobileAnalyticsDefaultSessionClient waitForSessionTimeout]_block_invoke.183
+__63-[AWSMobileAnalyticsDefaultSessionClient waitForSessionTimeout]_block_invoke
+__93-[AWSMobileAnalyticsDefaultSessionClient initWithEventClient:withDeliveryClient:withContext:]_block_invoke.50
+__93-[AWSMobileAnalyticsDefaultSessionClient initWithEventClient:withDeliveryClient:withContext:]_block_invoke
+-[AWSMobileAnalyticsSession initWithContext:]
+-[AWSMobileAnalyticsSession initWithSessionId:withStartTime:withStopTime:]
+-[AWSMobileAnalyticsSession timeDurationInMillis]
+-[AWSMobileAnalyticsSession stop]
+-[AWSMobileAnalyticsSession isPaused]
+-[AWSMobileAnalyticsSession pause]
+-[AWSMobileAnalyticsSession resume]
++[AWSMobileAnalyticsSession generateSessionIdWithContext:]
+-[AWSMobileAnalyticsSession startTime]
+-[AWSMobileAnalyticsSession stopTime]
+-[AWSMobileAnalyticsSession setStopTime:]
+-[AWSMobileAnalyticsSession sessionId]
+-[AWSMobileAnalyticsSession .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsSession._sessionId
+_OBJC_IVAR_$_AWSMobileAnalyticsSession._startTime
+_OBJC_IVAR_$_AWSMobileAnalyticsSession._stopTime
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsSession.m
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsSession.h
++[AWSMobileAnalyticsErrorUtils errorWithDomain:withDescription:withErrorCode:]
++[AWSMobileAnalyticsErrorUtils safeSetError:withError:]
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsErrorUtils.m
++[AWSMobileAnalyticsDateUtils isoTimestampLocale]
++[AWSMobileAnalyticsDateUtils isoDateTimeWithTimestamp:]
++[AWSMobileAnalyticsDateUtils isoDateTime:]
++[AWSMobileAnalyticsDateUtils utcTimeMillisNow]
++[AWSMobileAnalyticsDateUtils utcTimeMillisFromDate:]
++[AWSMobileAnalyticsDateUtils dateFromutcTimeMillis:]
++[AWSMobileAnalyticsDateUtils timestampLocale]
++[AWSMobileAnalyticsDateUtils iso8061FormatDateStamp:]
++[AWSMobileAnalyticsDateUtils iso8061FormatDateTime:]
+_isoTimestampLocale._tsLoc
+_timestampLocale._tsLoc
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDateUtils.m
++[AWSMobileAnalyticsStringUtils isBlank:]
++[AWSMobileAnalyticsStringUtils isNotBlank:]
++[AWSMobileAnalyticsStringUtils clipString:toMaxChars:andAppendEllipses:]
++[AWSMobileAnalyticsStringUtils trimString:toLength:orPadWith:]
++[AWSMobileAnalyticsStringUtils appendTo:theString:]
++[AWSMobileAnalyticsStringUtils appendTo:theString:withFormat:]
++[AWSMobileAnalyticsStringUtils dataToString:]
++[AWSMobileAnalyticsStringUtils stringToFloat:withFloat:]
++[AWSMobileAnalyticsStringUtils stringToDouble:withDouble:]
++[AWSMobileAnalyticsStringUtils stringToInt:withInt:]
++[AWSMobileAnalyticsStringUtils stringToLongLong:withLongLong:]
++[AWSMobileAnalyticsStringUtils stringToBool:withBool:]
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsStringUtils.m
++[AWSMobileAnalyticsSDKInfo sdkInfoFromBrazil]
++[AWSMobileAnalyticsSDKInfo sdkInfoWithName:withVersion:]
+-[AWSMobileAnalyticsSDKInfo initWithName:withVersion:]
+-[AWSMobileAnalyticsSDKInfo sdkVersion]
+-[AWSMobileAnalyticsSDKInfo setSdkVersion:]
+-[AWSMobileAnalyticsSDKInfo sdkName]
+-[AWSMobileAnalyticsSDKInfo setSdkName:]
+-[AWSMobileAnalyticsSDKInfo .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsSDKInfo._sdkVersion
+_OBJC_IVAR_$_AWSMobileAnalyticsSDKInfo._sdkName
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsSDKInfo.m
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsSDKInfo.h
+-[AWSDefaultSerializer writeObject:]
+-[AWSDefaultSerializer writeArray:]
+-[AWSDefaultSerializer readObject:]
+-[AWSDefaultSerializer readArray:]
++[AWSMobileAnalyticsSerializerFactory serializerFromFormatType:]
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsSerializerFactory.m
++[AWSMobileAnalyticsIOSPreferences preferencesWithFileManager:]
++[AWSMobileAnalyticsIOSPreferences preferencesWithFileManager:insightsPrivateKey:]
+-[AWSMobileAnalyticsIOSPreferences initWithFileManager:insightsPrivateKey:]
+-[AWSMobileAnalyticsIOSPreferences writePreferences]
+-[AWSMobileAnalyticsIOSPreferences loadPreferences]
+-[AWSMobileAnalyticsIOSPreferences legacyParentDirectory]
+-[AWSMobileAnalyticsIOSPreferences boolForKey:withOptValue:]
+-[AWSMobileAnalyticsIOSPreferences intForKey:withOptValue:]
+-[AWSMobileAnalyticsIOSPreferences longLongForKey:withOptValue:]
+-[AWSMobileAnalyticsIOSPreferences doubleForKey:withOptValue:]
+-[AWSMobileAnalyticsIOSPreferences stringForKey:withOptValue:]
+-[AWSMobileAnalyticsIOSPreferences putBool:forKey:]
+-[AWSMobileAnalyticsIOSPreferences putInt:forKey:]
+-[AWSMobileAnalyticsIOSPreferences putLongLong:forKey:]
+-[AWSMobileAnalyticsIOSPreferences putDouble:forKey:]
+-[AWSMobileAnalyticsIOSPreferences putString:forKey:]
+-[AWSMobileAnalyticsIOSPreferences file]
+-[AWSMobileAnalyticsIOSPreferences setFile:]
+-[AWSMobileAnalyticsIOSPreferences fileManager]
+-[AWSMobileAnalyticsIOSPreferences setFileManager:]
+-[AWSMobileAnalyticsIOSPreferences preferences]
+-[AWSMobileAnalyticsIOSPreferences setPreferences:]
+-[AWSMobileAnalyticsIOSPreferences insightsPrivateKey]
+-[AWSMobileAnalyticsIOSPreferences setInsightsPrivateKey:]
+-[AWSMobileAnalyticsIOSPreferences .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsIOSPreferences._insightsPrivateKey
+_OBJC_IVAR_$_AWSMobileAnalyticsIOSPreferences._file
+_OBJC_IVAR_$_AWSMobileAnalyticsIOSPreferences._fileManager
+_OBJC_IVAR_$_AWSMobileAnalyticsIOSPreferences._preferences
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsPreferences
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsPreferences
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsIOSPreferences.m
+-[AWSMobileAnalyticsDefaultFileManager initWithFileManager:withRootFile:]
+-[AWSMobileAnalyticsDefaultFileManager init]
+-[AWSMobileAnalyticsDefaultFileManager containsRootPath:]
+-[AWSMobileAnalyticsDefaultFileManager createDirectory:error:]
+-[AWSMobileAnalyticsDefaultFileManager getDirectory:error:]
+-[AWSMobileAnalyticsDefaultFileManager listFilesInDirectoryWithPath:error:]
+-[AWSMobileAnalyticsDefaultFileManager listFilesInDirectory:error:]
+-[AWSMobileAnalyticsDefaultFileManager createFileWithPath:error:]
+-[AWSMobileAnalyticsDefaultFileManager createFile:error:]
+-[AWSMobileAnalyticsDefaultFileManager deleteFileWithPath:error:]
+-[AWSMobileAnalyticsDefaultFileManager deleteFile:error:]
+-[AWSMobileAnalyticsDefaultFileManager newInputStreamWithPath:error:]
+-[AWSMobileAnalyticsDefaultFileManager newInputStream:error:]
+-[AWSMobileAnalyticsDefaultFileManager newOutputStreamWithPath:appendMode:error:]
+-[AWSMobileAnalyticsDefaultFileManager newOutputStream:appendMode:error:]
+-[AWSMobileAnalyticsDefaultFileManager tryCreateWriterWithFile:withError:]
+-[AWSMobileAnalyticsDefaultFileManager tryCreateReaderWithFile:withError:]
+-[AWSMobileAnalyticsDefaultFileManager readDataFromFile:withFormat:withError:]
+-[AWSMobileAnalyticsDefaultFileManager readDataFromFile:withFormat:withDataProcessor:withError:]
+-[AWSMobileAnalyticsDefaultFileManager readDataFromFile:withReader:withDataProcessor:withFormat:withError:]
+-[AWSMobileAnalyticsDefaultFileManager writeData:toFile:withFormat:withError:]
+-[AWSMobileAnalyticsDefaultFileManager writeData:toFile:withFormat:withDataProcessor:withError:]
+-[AWSMobileAnalyticsDefaultFileManager writeData:toFile:withWriter:withDataProcessor:withFormat:withError:]
+-[AWSMobileAnalyticsDefaultFileManager fileManager]
+-[AWSMobileAnalyticsDefaultFileManager setFileManager:]
+-[AWSMobileAnalyticsDefaultFileManager rootFile]
+-[AWSMobileAnalyticsDefaultFileManager setRootFile:]
+-[AWSMobileAnalyticsDefaultFileManager .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultFileManager._fileManager
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultFileManager._rootFile
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsFileManager
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsFileManager
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultFileManager.m
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultFileManager.h
++[AWSMobileAnalyticsFileEventStore fileStoreWithContext:]
+-[AWSMobileAnalyticsFileEventStore initWithContext:]
+-[AWSMobileAnalyticsFileEventStore eventsFileName]
+-[AWSMobileAnalyticsFileEventStore put:withError:]
+-[AWSMobileAnalyticsFileEventStore tryInitializeWriter:error:]
+-[AWSMobileAnalyticsFileEventStore iterator]
+-[AWSMobileAnalyticsFileEventStore deleteReadEvents:]
+-[AWSMobileAnalyticsFileEventStore context]
+-[AWSMobileAnalyticsFileEventStore setContext:]
+-[AWSMobileAnalyticsFileEventStore eventsFile]
+-[AWSMobileAnalyticsFileEventStore setEventsFile:]
+-[AWSMobileAnalyticsFileEventStore lock]
+-[AWSMobileAnalyticsFileEventStore setLock:]
+-[AWSMobileAnalyticsFileEventStore .cxx_destruct]
+-[AWSFileEventIterator initFileStore:]
+-[AWSFileEventIterator tryOpenReader]
+-[AWSFileEventIterator tryCloseReader]
+-[AWSFileEventIterator removeReadEvents]
+-[AWSFileEventIterator peek]
+-[AWSFileEventIterator hasNext]
+-[AWSFileEventIterator next]
+-[AWSFileEventIterator resetReader]
+-[AWSFileEventIterator eventStore]
+-[AWSFileEventIterator setEventStore:]
+-[AWSFileEventIterator linesRead]
+-[AWSFileEventIterator setLinesRead:]
+-[AWSFileEventIterator nextBuffer]
+-[AWSFileEventIterator setNextBuffer:]
+-[AWSFileEventIterator reader]
+-[AWSFileEventIterator setReader:]
+-[AWSFileEventIterator isEndOfFile]
+-[AWSFileEventIterator setIsEndOfFile:]
+-[AWSFileEventIterator .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsFileEventStore._context
+_OBJC_IVAR_$_AWSMobileAnalyticsFileEventStore._eventsFile
+_OBJC_IVAR_$_AWSMobileAnalyticsFileEventStore._lock
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsEventStore
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsEventStore
+_OBJC_IVAR_$_AWSFileEventIterator._eventStore
+_OBJC_IVAR_$_AWSFileEventIterator._linesRead
+_OBJC_IVAR_$_AWSFileEventIterator._nextBuffer
+_OBJC_IVAR_$_AWSFileEventIterator._reader
+_OBJC_IVAR_$_AWSFileEventIterator._isEndOfFile
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsEventIterator
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsEventIterator
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsFileEventStore.m
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsFileEventStore.h
++[AWSMobileAnalyticsWriter writerWithOutputStream:]
+-[AWSMobileAnalyticsWriter initWithOutputStream:]
+-[AWSMobileAnalyticsWriter write:error:]
+-[AWSMobileAnalyticsWriter writeLine:error:]
+-[AWSMobileAnalyticsWriter close]
+-[AWSMobileAnalyticsWriter outputStream]
+-[AWSMobileAnalyticsWriter setOutputStream:]
+-[AWSMobileAnalyticsWriter .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsWriter._outputStream
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsWriter.m
++[AWSMobileAnalyticsRandomUUIDGenerator generator]
+-[AWSMobileAnalyticsRandomUUIDGenerator generateUniqueIdString]
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsUniqueIdGenerator
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsUniqueIdGenerator
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsRandomUUIDGenerator.m
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsConfigurationKeys.m
++[AWSMobileAnalyticsERSResources sharedInstance]
+___48+[AWSMobileAnalyticsERSResources sharedInstance]_block_invoke
+-[AWSMobileAnalyticsERSResources JSONObject]
+-[AWSMobileAnalyticsERSResources init]
+-[AWSMobileAnalyticsERSResources definitionString]
+-[AWSMobileAnalyticsERSResources definitionDictionary]
+-[AWSMobileAnalyticsERSResources setDefinitionDictionary:]
+-[AWSMobileAnalyticsERSResources .cxx_destruct]
+_sharedInstance._sharedResources
+_sharedInstance.once_token
+_OBJC_IVAR_$_AWSMobileAnalyticsERSResources._definitionDictionary
+/Users/distiller/project/AWSMobileAnalytics/AWSMobileAnalyticsERS/AWSMobileAnalyticsERSResources.m
+__48+[AWSMobileAnalyticsERSResources sharedInstance]_block_invoke
++[AWSMobileAnalyticsDefaultConfiguration configurationWithSettings:]
+-[AWSMobileAnalyticsDefaultConfiguration initWithSettings:]
+-[AWSMobileAnalyticsDefaultConfiguration boolForKey:withOptValue:]
+-[AWSMobileAnalyticsDefaultConfiguration intForKey:withOptValue:]
+-[AWSMobileAnalyticsDefaultConfiguration longForKey:withOptValue:]
+-[AWSMobileAnalyticsDefaultConfiguration longLongForKey:withOptValue:]
+-[AWSMobileAnalyticsDefaultConfiguration doubleForKey:withOptValue:]
+-[AWSMobileAnalyticsDefaultConfiguration stringForKey:]
+-[AWSMobileAnalyticsDefaultConfiguration stringForKey:withOptValue:]
+-[AWSMobileAnalyticsDefaultConfiguration arrayForKey:]
+-[AWSMobileAnalyticsDefaultConfiguration arrayForKey:withOptValue:]
+-[AWSMobileAnalyticsDefaultConfiguration objectForKey:]
+-[AWSMobileAnalyticsDefaultConfiguration settings]
+-[AWSMobileAnalyticsDefaultConfiguration setSettings:]
+-[AWSMobileAnalyticsDefaultConfiguration .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultConfiguration._settings
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsConfiguring
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsConfiguring
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultConfiguration.m
++[AWSMobileAnalyticsAppleMonetizationEventBuilder builderWithEventClient:]
+-[AWSMobileAnalyticsAppleMonetizationEventBuilder initWithEventClient:]
+-[AWSMobileAnalyticsAppleMonetizationEventBuilder withProductId:]
+-[AWSMobileAnalyticsAppleMonetizationEventBuilder withItemPrice:andPriceLocale:]
+-[AWSMobileAnalyticsAppleMonetizationEventBuilder withQuantity:]
+-[AWSMobileAnalyticsAppleMonetizationEventBuilder withTransactionId:]
+-[AWSMobileAnalyticsAppleMonetizationEventBuilder isValid]
+-[AWSMobileAnalyticsAppleMonetizationEventBuilder build]
+-[AWSMobileAnalyticsAppleMonetizationEventBuilder isItemPriceSet]
+-[AWSMobileAnalyticsAppleMonetizationEventBuilder setIsItemPriceSet:]
+-[AWSMobileAnalyticsAppleMonetizationEventBuilder isQuantitySet]
+-[AWSMobileAnalyticsAppleMonetizationEventBuilder setIsQuantitySet:]
+_OBJC_IVAR_$_AWSMobileAnalyticsAppleMonetizationEventBuilder._isItemPriceSet
+_OBJC_IVAR_$_AWSMobileAnalyticsAppleMonetizationEventBuilder._isQuantitySet
+/Users/distiller/project/AWSMobileAnalytics/AWSMobileAnalyticsAppleMonetizationEventBuilder.m
+-[AWSMobileAnalyticsEnvironment init]
+-[AWSMobileAnalyticsEnvironment appVersion]
+-[AWSMobileAnalyticsEnvironment setAppVersion:]
+-[AWSMobileAnalyticsEnvironment appBuild]
+-[AWSMobileAnalyticsEnvironment setAppBuild:]
+-[AWSMobileAnalyticsEnvironment appPackageName]
+-[AWSMobileAnalyticsEnvironment setAppPackageName:]
+-[AWSMobileAnalyticsEnvironment appName]
+-[AWSMobileAnalyticsEnvironment setAppName:]
+-[AWSMobileAnalyticsEnvironment .cxx_destruct]
+-[AWSMobileAnalyticsConfiguration init]
+-[AWSMobileAnalyticsConfiguration useHttps]
+-[AWSMobileAnalyticsConfiguration setUseHttps:]
+-[AWSMobileAnalyticsConfiguration attributes]
+-[AWSMobileAnalyticsConfiguration setAttributes:]
+-[AWSMobileAnalyticsConfiguration environment]
+-[AWSMobileAnalyticsConfiguration setEnvironment:]
+-[AWSMobileAnalyticsConfiguration transmitOnWAN]
+-[AWSMobileAnalyticsConfiguration setTransmitOnWAN:]
+-[AWSMobileAnalyticsConfiguration enableEvents]
+-[AWSMobileAnalyticsConfiguration setEnableEvents:]
+-[AWSMobileAnalyticsConfiguration identificationStrategy]
+-[AWSMobileAnalyticsConfiguration setIdentificationStrategy:]
+-[AWSMobileAnalyticsConfiguration serviceConfiguration]
+-[AWSMobileAnalyticsConfiguration setServiceConfiguration:]
+-[AWSMobileAnalyticsConfiguration .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsEnvironment._appVersion
+_OBJC_IVAR_$_AWSMobileAnalyticsEnvironment._appBuild
+_OBJC_IVAR_$_AWSMobileAnalyticsEnvironment._appPackageName
+_OBJC_IVAR_$_AWSMobileAnalyticsEnvironment._appName
+_OBJC_IVAR_$_AWSMobileAnalyticsConfiguration._attributes
+_OBJC_IVAR_$_AWSMobileAnalyticsConfiguration._useHttps
+_OBJC_IVAR_$_AWSMobileAnalyticsConfiguration._environment
+_OBJC_IVAR_$_AWSMobileAnalyticsConfiguration._transmitOnWAN
+_OBJC_IVAR_$_AWSMobileAnalyticsConfiguration._enableEvents
+_OBJC_IVAR_$_AWSMobileAnalyticsConfiguration._identificationStrategy
+_OBJC_IVAR_$_AWSMobileAnalyticsConfiguration._serviceConfiguration
+/Users/distiller/project/AWSMobileAnalytics/AWSMobileAnalyticsConfiguration.m
+/Users/distiller/project/AWSMobileAnalytics/AWSMobileAnalyticsConfiguration.h
++[AWSMobileAnalyticsDefaultContext contextWithIdentifier:insightsPrivateKey:withSdkInfo:withConfigurationSettings:]
++[AWSMobileAnalyticsDefaultContext contextWithIdentifier:insightsPrivateKey:withClientConfiguration:withSdkInfo:withConfigurationSettings:]
+-[AWSMobileAnalyticsDefaultContext initWithIdentifier:insightsPrivateKey:withClientConfiguration:withSdkInfo:withConfigurationSettings:]
+-[AWSMobileAnalyticsDefaultContext synchronize]
+-[AWSMobileAnalyticsDefaultContext identifier]
+-[AWSMobileAnalyticsDefaultContext clientContext]
+-[AWSMobileAnalyticsDefaultContext configuration]
+-[AWSMobileAnalyticsDefaultContext uniqueId]
+-[AWSMobileAnalyticsDefaultContext ers]
+-[AWSMobileAnalyticsDefaultContext setErs:]
+-[AWSMobileAnalyticsDefaultContext sdkInfo]
+-[AWSMobileAnalyticsDefaultContext system]
+-[AWSMobileAnalyticsDefaultContext uniqueIdService]
+-[AWSMobileAnalyticsDefaultContext setUniqueIdService:]
+-[AWSMobileAnalyticsDefaultContext .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultContext._identifier
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultContext._sdkInfo
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultContext._system
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultContext._uniqueIdService
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultContext._uniqueId
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultContext._clientContext
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultContext._configuration
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultContext._ers
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsContext
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsContext
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultContext.m
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultContext.h
++[AWSMobileAnalyticsSubmissionTimePolicy policyWithPreferences:withTimeInterval:]
+-[AWSMobileAnalyticsSubmissionTimePolicy initWithPreferences:withTimeInterval:]
+-[AWSMobileAnalyticsSubmissionTimePolicy isAllowed]
+-[AWSMobileAnalyticsSubmissionTimePolicy handleDeliveryAttempt:]
+-[AWSMobileAnalyticsSubmissionTimePolicy preferences]
+-[AWSMobileAnalyticsSubmissionTimePolicy setPreferences:]
+-[AWSMobileAnalyticsSubmissionTimePolicy waitInterval]
+-[AWSMobileAnalyticsSubmissionTimePolicy setWaitInterval:]
+-[AWSMobileAnalyticsSubmissionTimePolicy lastSubmittedTime]
+-[AWSMobileAnalyticsSubmissionTimePolicy setLastSubmittedTime:]
+-[AWSMobileAnalyticsSubmissionTimePolicy .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsSubmissionTimePolicy._preferences
+_OBJC_IVAR_$_AWSMobileAnalyticsSubmissionTimePolicy._waitInterval
+_OBJC_IVAR_$_AWSMobileAnalyticsSubmissionTimePolicy._lastSubmittedTime
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsSubmissionTimePolicy.m
++[AWSMobileAnalyticsDefaultDeliveryClient deliveryClientWithContext:withWanDelivery:]
++[AWSMobileAnalyticsDefaultDeliveryClient deliveryClientWithContext:withWanDelivery:withOperationQueue:]
+-[AWSMobileAnalyticsDefaultDeliveryClient initWithConfiguration:withLifeCycleManager:withPolicyFactory:withOperationQueue:withEventStore:withSerializer:withClientContext:withERSService:]
+-[AWSMobileAnalyticsDefaultDeliveryClient forceDeliveryAndWaitForCompletion:]
+-[AWSMobileAnalyticsDefaultDeliveryClient waitForDeliveryOperations]
+-[AWSMobileAnalyticsDefaultDeliveryClient notify:]
+-[AWSMobileAnalyticsDefaultDeliveryClient enqueueEventForDelivery:]
+___67-[AWSMobileAnalyticsDefaultDeliveryClient enqueueEventForDelivery:]_block_invoke
+-[AWSMobileAnalyticsDefaultDeliveryClient attemptDelivery]
+-[AWSMobileAnalyticsDefaultDeliveryClient attemptDeliveryUsingPolicies:]
+___72-[AWSMobileAnalyticsDefaultDeliveryClient attemptDeliveryUsingPolicies:]_block_invoke
+___copy_helper_block_.136
+___destroy_helper_block_.137
+-[AWSMobileAnalyticsDefaultDeliveryClient batchedEvents]
+-[AWSMobileAnalyticsDefaultDeliveryClient submitEvents:andUpdatePolicies:]
+___74-[AWSMobileAnalyticsDefaultDeliveryClient submitEvents:andUpdatePolicies:]_block_invoke
+___copy_helper_block_.169
+___destroy_helper_block_.170
+-[AWSMobileAnalyticsDefaultDeliveryClient putEventsInputForEvents:]
+-[AWSMobileAnalyticsDefaultDeliveryClient configuration]
+-[AWSMobileAnalyticsDefaultDeliveryClient setConfiguration:]
+-[AWSMobileAnalyticsDefaultDeliveryClient factory]
+-[AWSMobileAnalyticsDefaultDeliveryClient setFactory:]
+-[AWSMobileAnalyticsDefaultDeliveryClient operationQueue]
+-[AWSMobileAnalyticsDefaultDeliveryClient setOperationQueue:]
+-[AWSMobileAnalyticsDefaultDeliveryClient eventStore]
+-[AWSMobileAnalyticsDefaultDeliveryClient setEventStore:]
+-[AWSMobileAnalyticsDefaultDeliveryClient serializer]
+-[AWSMobileAnalyticsDefaultDeliveryClient setSerializer:]
+-[AWSMobileAnalyticsDefaultDeliveryClient backgroundObserverHandle]
+-[AWSMobileAnalyticsDefaultDeliveryClient setBackgroundObserverHandle:]
+-[AWSMobileAnalyticsDefaultDeliveryClient clientContext]
+-[AWSMobileAnalyticsDefaultDeliveryClient setClientContext:]
+-[AWSMobileAnalyticsDefaultDeliveryClient ers]
+-[AWSMobileAnalyticsDefaultDeliveryClient setErs:]
+-[AWSMobileAnalyticsDefaultDeliveryClient .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultDeliveryClient._configuration
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultDeliveryClient._factory
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultDeliveryClient._operationQueue
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultDeliveryClient._eventStore
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultDeliveryClient._serializer
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultDeliveryClient._clientContext
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultDeliveryClient._ers
+___block_descriptor_tmp.138
+___block_descriptor_tmp.172
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultDeliveryClient._backgroundObserverHandle
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsEventObserver
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsEventObserver
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsDeliveryClient
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsDeliveryClient
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultDeliveryClient.m
+__74-[AWSMobileAnalyticsDefaultDeliveryClient submitEvents:andUpdatePolicies:]_block_invoke
+__72-[AWSMobileAnalyticsDefaultDeliveryClient attemptDeliveryUsingPolicies:]_block_invoke
+__67-[AWSMobileAnalyticsDefaultDeliveryClient enqueueEventForDelivery:]_block_invoke
++[AWSMobileAnalyticsDeliveryPolicyFactory factoryWithSystem:withPreferences:withConfiguration:withAllowWanSubmission:]
+-[AWSMobileAnalyticsDeliveryPolicyFactory initWithSystem:withConfiguration:withPreferences:withAllowWanSubmission:]
+-[AWSMobileAnalyticsDeliveryPolicyFactory createConnectivityPolicy]
+-[AWSMobileAnalyticsDeliveryPolicyFactory createForceSubmissionTimePolicy]
+-[AWSMobileAnalyticsDeliveryPolicyFactory createBackgroundSubmissionTimePolicy]
+-[AWSMobileAnalyticsDeliveryPolicyFactory configuration]
+-[AWSMobileAnalyticsDeliveryPolicyFactory setConfiguration:]
+-[AWSMobileAnalyticsDeliveryPolicyFactory system]
+-[AWSMobileAnalyticsDeliveryPolicyFactory setSystem:]
+-[AWSMobileAnalyticsDeliveryPolicyFactory preferences]
+-[AWSMobileAnalyticsDeliveryPolicyFactory setPreferences:]
+-[AWSMobileAnalyticsDeliveryPolicyFactory isWANAllowed]
+-[AWSMobileAnalyticsDeliveryPolicyFactory setIsWANAllowed:]
+-[AWSMobileAnalyticsDeliveryPolicyFactory forceSubmissionInterval]
+-[AWSMobileAnalyticsDeliveryPolicyFactory setForceSubmissionInterval:]
+-[AWSMobileAnalyticsDeliveryPolicyFactory backgroundSubmissionInterval]
+-[AWSMobileAnalyticsDeliveryPolicyFactory setBackgroundSubmissionInterval:]
+-[AWSMobileAnalyticsDeliveryPolicyFactory .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsDeliveryPolicyFactory._configuration
+_OBJC_IVAR_$_AWSMobileAnalyticsDeliveryPolicyFactory._system
+_OBJC_IVAR_$_AWSMobileAnalyticsDeliveryPolicyFactory._preferences
+_OBJC_IVAR_$_AWSMobileAnalyticsDeliveryPolicyFactory._isWANAllowed
+_OBJC_IVAR_$_AWSMobileAnalyticsDeliveryPolicyFactory._forceSubmissionInterval
+_OBJC_IVAR_$_AWSMobileAnalyticsDeliveryPolicyFactory._backgroundSubmissionInterval
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDeliveryPolicyFactory.m
++[AWSMobileAnalyticsERSResponseSerializer initialize]
+-[AWSMobileAnalyticsERSResponseSerializer responseObjectForResponse:originalRequest:currentRequest:data:error:]
++[AWSMobileAnalyticsERS initialize]
++[AWSMobileAnalyticsERS defaultMobileAnalyticsERS]
+___50+[AWSMobileAnalyticsERS defaultMobileAnalyticsERS]_block_invoke
++[AWSMobileAnalyticsERS registerMobileAnalyticsERSWithConfiguration:forKey:]
+___76+[AWSMobileAnalyticsERS registerMobileAnalyticsERSWithConfiguration:forKey:]_block_invoke
++[AWSMobileAnalyticsERS MobileAnalyticsERSForKey:]
++[AWSMobileAnalyticsERS removeMobileAnalyticsERSForKey:]
+-[AWSMobileAnalyticsERS init]
+-[AWSMobileAnalyticsERS initWithConfiguration:]
+-[AWSMobileAnalyticsERS invokeRequest:HTTPMethod:URLString:targetPrefix:operationName:outputClass:]
+-[AWSMobileAnalyticsERS putEvents:]
+-[AWSMobileAnalyticsERS putEvents:completionHandler:]
+___53-[AWSMobileAnalyticsERS putEvents:completionHandler:]_block_invoke
+-[AWSMobileAnalyticsERS configuration]
+-[AWSMobileAnalyticsERS setConfiguration:]
+-[AWSMobileAnalyticsERS networking]
+-[AWSMobileAnalyticsERS setNetworking:]
+-[AWSMobileAnalyticsERS .cxx_destruct]
+_errorCodeDictionary
+__serviceClients
+_defaultMobileAnalyticsERS._defaultMobileAnalyticsERS
+_defaultMobileAnalyticsERS.onceToken
+_registerMobileAnalyticsERSWithConfiguration:forKey:.onceToken
+___block_descriptor_tmp.113
+___block_literal_global.114
+_OBJC_IVAR_$_AWSMobileAnalyticsERS._configuration
+_OBJC_IVAR_$_AWSMobileAnalyticsERS._networking
+___block_descriptor_tmp.224
+/Users/distiller/project/AWSMobileAnalytics/AWSMobileAnalyticsERS/AWSMobileAnalyticsERSService.m
+/Users/distiller/project/AWSMobileAnalytics/AWSMobileAnalyticsERS/AWSMobileAnalyticsERSService.h
+__53-[AWSMobileAnalyticsERS putEvents:completionHandler:]_block_invoke
+__76+[AWSMobileAnalyticsERS registerMobileAnalyticsERSWithConfiguration:forKey:]_block_invoke
+__50+[AWSMobileAnalyticsERS defaultMobileAnalyticsERS]_block_invoke
++[AWSMobileAnalyticsCrypto cryptoWithSecretKey:]
++[AWSMobileAnalyticsCrypto cryptoWithSecretKey:withOptSecretKey:withPrefix:]
+-[AWSMobileAnalyticsCrypto initWithSecretKey:]
+-[AWSMobileAnalyticsCrypto encryptData:]
+-[AWSMobileAnalyticsCrypto decryptData:]
++[AWSMobileAnalyticsCrypto AES128EncryptDecrypt:withOperation:withKey:]
+-[AWSMobileAnalyticsCrypto secretKey]
+-[AWSMobileAnalyticsCrypto setSecretKey:]
+-[AWSMobileAnalyticsCrypto .cxx_destruct]
++[AWSMobileAnalyticsEncryptedBufferedReader readerWithReader:secretKey:]
+-[AWSMobileAnalyticsEncryptedBufferedReader initWithWithReader:withCrypto:]
+-[AWSMobileAnalyticsEncryptedBufferedReader readLine:withError:]
+-[AWSMobileAnalyticsEncryptedBufferedReader close]
+-[AWSMobileAnalyticsEncryptedBufferedReader crypto]
+-[AWSMobileAnalyticsEncryptedBufferedReader setCrypto:]
+-[AWSMobileAnalyticsEncryptedBufferedReader reader]
+-[AWSMobileAnalyticsEncryptedBufferedReader setReader:]
+-[AWSMobileAnalyticsEncryptedBufferedReader .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsCrypto._secretKey
+_OBJC_IVAR_$_AWSMobileAnalyticsEncryptedBufferedReader._crypto
+_OBJC_IVAR_$_AWSMobileAnalyticsEncryptedBufferedReader._reader
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsEncryptedBufferedReader.m
++[AWSMobileAnalyticsDefaultEventClient eventClientWithContext:withDeliveryClient:allowsEventCollection:]
+-[AWSMobileAnalyticsDefaultEventClient initWithContext:withDeliveryClient:allowsEventCollection:]
+-[AWSMobileAnalyticsDefaultEventClient recordEvent:]
+-[AWSMobileAnalyticsDefaultEventClient createEventWithEventType:]
+-[AWSMobileAnalyticsDefaultEventClient submitEvents]
+-[AWSMobileAnalyticsDefaultEventClient createInternalEvent:]
+-[AWSMobileAnalyticsDefaultEventClient createInternalEvent:withTimestamp:]
+-[AWSMobileAnalyticsDefaultEventClient recordEvent:andApplyGlobalAttributes:]
+-[AWSMobileAnalyticsDefaultEventClient notifyObserversForInternalEvent:]
+-[AWSMobileAnalyticsDefaultEventClient addGlobalAttribute:forKey:]
+-[AWSMobileAnalyticsDefaultEventClient addGlobalAttribute:forKey:forEventType:]
+-[AWSMobileAnalyticsDefaultEventClient addGlobalMetric:forKey:]
+-[AWSMobileAnalyticsDefaultEventClient addGlobalMetric:forKey:forEventType:]
+-[AWSMobileAnalyticsDefaultEventClient addEventObserver:]
+-[AWSMobileAnalyticsDefaultEventClient removeEventObserver:]
+-[AWSMobileAnalyticsDefaultEventClient removeGlobalAttributeForKey:]
+-[AWSMobileAnalyticsDefaultEventClient removeGlobalAttributeForKey:forEventType:]
+-[AWSMobileAnalyticsDefaultEventClient removeGlobalMetricForKey:]
+-[AWSMobileAnalyticsDefaultEventClient removeGlobalMetricForKey:forEventType:]
+-[AWSMobileAnalyticsDefaultEventClient deliveryClient]
+-[AWSMobileAnalyticsDefaultEventClient setDeliveryClient:]
+-[AWSMobileAnalyticsDefaultEventClient context]
+-[AWSMobileAnalyticsDefaultEventClient setContext:]
+-[AWSMobileAnalyticsDefaultEventClient reservedAttributes]
+-[AWSMobileAnalyticsDefaultEventClient setReservedAttributes:]
+-[AWSMobileAnalyticsDefaultEventClient eventTypeAttributes]
+-[AWSMobileAnalyticsDefaultEventClient setEventTypeAttributes:]
+-[AWSMobileAnalyticsDefaultEventClient eventTypeMetrics]
+-[AWSMobileAnalyticsDefaultEventClient setEventTypeMetrics:]
+-[AWSMobileAnalyticsDefaultEventClient globalAttributes]
+-[AWSMobileAnalyticsDefaultEventClient setGlobalAttributes:]
+-[AWSMobileAnalyticsDefaultEventClient globalMetrics]
+-[AWSMobileAnalyticsDefaultEventClient setGlobalMetrics:]
+-[AWSMobileAnalyticsDefaultEventClient eventObservers]
+-[AWSMobileAnalyticsDefaultEventClient setEventObservers:]
+-[AWSMobileAnalyticsDefaultEventClient allowEventCollection]
+-[AWSMobileAnalyticsDefaultEventClient setAllowEventCollection:]
+-[AWSMobileAnalyticsDefaultEventClient .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultEventClient._context
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultEventClient._deliveryClient
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultEventClient._reservedAttributes
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultEventClient._eventTypeAttributes
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultEventClient._eventTypeMetrics
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultEventClient._globalAttributes
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultEventClient._globalMetrics
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultEventClient._eventObservers
+_OBJC_IVAR_$_AWSMobileAnalyticsDefaultEventClient._allowEventCollection
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsEventClient
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsEventClient
+l_OBJC_PROTOCOL_$_AWSMobileAnalyticsInternalEventClient
+l_OBJC_LABEL_PROTOCOL_$_AWSMobileAnalyticsInternalEventClient
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultEventClient.m
+-[AWSMobileAnalyticsCountDownLatch initWithCount:]
+-[AWSMobileAnalyticsCountDownLatch countDown]
+-[AWSMobileAnalyticsCountDownLatch await]
+-[AWSMobileAnalyticsCountDownLatch count]
+-[AWSMobileAnalyticsCountDownLatch setCount:]
+-[AWSMobileAnalyticsCountDownLatch condition]
+-[AWSMobileAnalyticsCountDownLatch setCondition:]
+-[AWSMobileAnalyticsCountDownLatch .cxx_destruct]
+_OBJC_IVAR_$_AWSMobileAnalyticsCountDownLatch._count
+_OBJC_IVAR_$_AWSMobileAnalyticsCountDownLatch._condition
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsCountDownLatch.m
+/Users/distiller/project/AWSMobileAnalytics/Internal/AWSMobileAnalyticsCountDownLatch.h
+/Users/distiller/Library/Developer/Xcode/DerivedData/AWSiOSSDKv2-bvcffhrgbfjnfybjecennhscmaho/Build/Intermediates.noindex/ArchiveIntermediates/AWSMobileAnalytics/IntermediateBuildFilesPath/AWSiOSSDKv2.build/Release-iphoneos/AWSMobileAnalytics.build/DerivedSources/AWSMobileAnalytics_vers.c
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=409.12
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter

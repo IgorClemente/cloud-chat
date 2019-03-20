@@ -1,0 +1,776 @@
+BCSymbolMap Version: 2.0
++[AWSPollyResources sharedInstance]
+___35+[AWSPollyResources sharedInstance]_block_invoke
+-[AWSPollyResources JSONObject]
+-[AWSPollyResources init]
+-[AWSPollyResources definitionString]
+-[AWSPollyResources definitionDictionary]
+-[AWSPollyResources setDefinitionDictionary:]
+-[AWSPollyResources .cxx_destruct]
+_sharedInstance._sharedResources
+_sharedInstance.once_token
+___block_descriptor_tmp
+___block_literal_global
+_OBJC_IVAR_$_AWSPollyResources._definitionDictionary
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/distiller/project/AWSPolly/AWSPollyResources.m
+/Users/distiller/project
+__35+[AWSPollyResources sharedInstance]_block_invoke
+/Applications/Xcode-10.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/once.h
++[AWSPollyResponseSerializer initialize]
+-[AWSPollyResponseSerializer responseObjectForResponse:originalRequest:currentRequest:data:error:]
++[AWSPolly initialize]
++[AWSPolly defaultPolly]
+___24+[AWSPolly defaultPolly]_block_invoke
++[AWSPolly registerPollyWithConfiguration:forKey:]
+___50+[AWSPolly registerPollyWithConfiguration:forKey:]_block_invoke
++[AWSPolly PollyForKey:]
++[AWSPolly removePollyForKey:]
+-[AWSPolly init]
+-[AWSPolly initWithConfiguration:]
+-[AWSPolly invokeRequest:HTTPMethod:URLString:targetPrefix:operationName:outputClass:]
+-[AWSPolly deleteLexicon:]
+-[AWSPolly deleteLexicon:completionHandler:]
+___44-[AWSPolly deleteLexicon:completionHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[AWSPolly describeVoices:]
+-[AWSPolly describeVoices:completionHandler:]
+___45-[AWSPolly describeVoices:completionHandler:]_block_invoke
+___copy_helper_block_.245
+___destroy_helper_block_.246
+-[AWSPolly getLexicon:]
+-[AWSPolly getLexicon:completionHandler:]
+___41-[AWSPolly getLexicon:completionHandler:]_block_invoke
+___copy_helper_block_.253
+___destroy_helper_block_.254
+-[AWSPolly getSpeechSynthesisTask:]
+-[AWSPolly getSpeechSynthesisTask:completionHandler:]
+___53-[AWSPolly getSpeechSynthesisTask:completionHandler:]_block_invoke
+___copy_helper_block_.263
+___destroy_helper_block_.264
+-[AWSPolly listLexicons:]
+-[AWSPolly listLexicons:completionHandler:]
+___43-[AWSPolly listLexicons:completionHandler:]_block_invoke
+___copy_helper_block_.273
+___destroy_helper_block_.274
+-[AWSPolly listSpeechSynthesisTasks:]
+-[AWSPolly listSpeechSynthesisTasks:completionHandler:]
+___55-[AWSPolly listSpeechSynthesisTasks:completionHandler:]_block_invoke
+___copy_helper_block_.283
+___destroy_helper_block_.284
+-[AWSPolly putLexicon:]
+-[AWSPolly putLexicon:completionHandler:]
+___41-[AWSPolly putLexicon:completionHandler:]_block_invoke
+___copy_helper_block_.291
+___destroy_helper_block_.292
+-[AWSPolly startSpeechSynthesisTask:]
+-[AWSPolly startSpeechSynthesisTask:completionHandler:]
+___55-[AWSPolly startSpeechSynthesisTask:completionHandler:]_block_invoke
+___copy_helper_block_.299
+___destroy_helper_block_.300
+-[AWSPolly synthesizeSpeech:]
+-[AWSPolly synthesizeSpeech:completionHandler:]
+___47-[AWSPolly synthesizeSpeech:completionHandler:]_block_invoke
+___copy_helper_block_.309
+___destroy_helper_block_.310
+-[AWSPolly configuration]
+-[AWSPolly setConfiguration:]
+-[AWSPolly networking]
+-[AWSPolly setNetworking:]
+-[AWSPolly .cxx_destruct]
+_errorCodeDictionary
+__serviceClients
+_defaultPolly._defaultPolly
+_defaultPolly.onceToken
+_registerPollyWithConfiguration:forKey:.onceToken
+___block_descriptor_tmp.125
+___block_literal_global.126
+_OBJC_IVAR_$_AWSPolly._configuration
+_OBJC_IVAR_$_AWSPolly._networking
+___block_descriptor_tmp.235
+___block_descriptor_tmp.247
+___block_descriptor_tmp.255
+___block_descriptor_tmp.265
+___block_descriptor_tmp.275
+___block_descriptor_tmp.285
+___block_descriptor_tmp.293
+___block_descriptor_tmp.301
+___block_descriptor_tmp.311
+/Users/distiller/project/AWSPolly/AWSPollyService.m
+/Users/distiller/project/AWSPolly/AWSPollyService.h
+__destroy_helper_block_
+__copy_helper_block_
+__47-[AWSPolly synthesizeSpeech:completionHandler:]_block_invoke
+__55-[AWSPolly startSpeechSynthesisTask:completionHandler:]_block_invoke
+__41-[AWSPolly putLexicon:completionHandler:]_block_invoke
+__55-[AWSPolly listSpeechSynthesisTasks:completionHandler:]_block_invoke
+__43-[AWSPolly listLexicons:completionHandler:]_block_invoke
+__53-[AWSPolly getSpeechSynthesisTask:completionHandler:]_block_invoke
+__41-[AWSPolly getLexicon:completionHandler:]_block_invoke
+__45-[AWSPolly describeVoices:completionHandler:]_block_invoke
+__44-[AWSPolly deleteLexicon:completionHandler:]_block_invoke
+__50+[AWSPolly registerPollyWithConfiguration:forKey:]_block_invoke
+__24+[AWSPolly defaultPolly]_block_invoke
+/Users/distiller/project/AWSPolly/AWSPollyEnumTranslatorUtility.m
+stringForSpeechMark
+-[AWSPollySynthesizeSpeechURLBuilderRequest setLexiconNames:]
+-[AWSPollySynthesizeSpeechURLBuilderRequest setSpeechMarkTypes:]
+-[AWSPollySynthesizeSpeechURLBuilderRequest lexiconNames]
+-[AWSPollySynthesizeSpeechURLBuilderRequest languageCode]
+-[AWSPollySynthesizeSpeechURLBuilderRequest setLanguageCode:]
+-[AWSPollySynthesizeSpeechURLBuilderRequest speechMarkTypes]
+-[AWSPollySynthesizeSpeechURLBuilderRequest outputFormat]
+-[AWSPollySynthesizeSpeechURLBuilderRequest setOutputFormat:]
+-[AWSPollySynthesizeSpeechURLBuilderRequest sampleRate]
+-[AWSPollySynthesizeSpeechURLBuilderRequest setSampleRate:]
+-[AWSPollySynthesizeSpeechURLBuilderRequest text]
+-[AWSPollySynthesizeSpeechURLBuilderRequest setText:]
+-[AWSPollySynthesizeSpeechURLBuilderRequest textType]
+-[AWSPollySynthesizeSpeechURLBuilderRequest setTextType:]
+-[AWSPollySynthesizeSpeechURLBuilderRequest voiceId]
+-[AWSPollySynthesizeSpeechURLBuilderRequest setVoiceId:]
+-[AWSPollySynthesizeSpeechURLBuilderRequest expires]
+-[AWSPollySynthesizeSpeechURLBuilderRequest setExpires:]
+-[AWSPollySynthesizeSpeechURLBuilderRequest .cxx_destruct]
++[AWSPollySynthesizeSpeechURLBuilder initialize]
++[AWSPollySynthesizeSpeechURLBuilder defaultPollySynthesizeSpeechURLBuilder]
+___76+[AWSPollySynthesizeSpeechURLBuilder defaultPollySynthesizeSpeechURLBuilder]_block_invoke
++[AWSPollySynthesizeSpeechURLBuilder registerPollySynthesizeSpeechURLBuilder:forKey:]
+___85+[AWSPollySynthesizeSpeechURLBuilder registerPollySynthesizeSpeechURLBuilder:forKey:]_block_invoke
++[AWSPollySynthesizeSpeechURLBuilder PollySynthesizeSpeechURLBuilderForKey:]
++[AWSPollySynthesizeSpeechURLBuilder removePollySynthesizeSpeechURLBuilderForKey:]
+-[AWSPollySynthesizeSpeechURLBuilder init]
+-[AWSPollySynthesizeSpeechURLBuilder initWithConfiguration:]
+-[AWSPollySynthesizeSpeechURLBuilder getPreSignedURL:]
+___54-[AWSPollySynthesizeSpeechURLBuilder getPreSignedURL:]_block_invoke
+-[AWSPollySynthesizeSpeechURLBuilder stringFromOutputFormat:]
+-[AWSPollySynthesizeSpeechURLBuilder stringFromTextType:]
+-[AWSPollySynthesizeSpeechURLBuilder stringFromLanguageCode:]
+-[AWSPollySynthesizeSpeechURLBuilder stringFromVoiceId:]
+-[AWSPollySynthesizeSpeechURLBuilder configuration]
+-[AWSPollySynthesizeSpeechURLBuilder setConfiguration:]
+-[AWSPollySynthesizeSpeechURLBuilder .cxx_destruct]
+_OBJC_IVAR_$_AWSPollySynthesizeSpeechURLBuilderRequest._lexiconNames
+_OBJC_IVAR_$_AWSPollySynthesizeSpeechURLBuilderRequest._speechMarkTypes
+_OBJC_IVAR_$_AWSPollySynthesizeSpeechURLBuilderRequest._languageCode
+_OBJC_IVAR_$_AWSPollySynthesizeSpeechURLBuilderRequest._outputFormat
+_OBJC_IVAR_$_AWSPollySynthesizeSpeechURLBuilderRequest._sampleRate
+_OBJC_IVAR_$_AWSPollySynthesizeSpeechURLBuilderRequest._text
+_OBJC_IVAR_$_AWSPollySynthesizeSpeechURLBuilderRequest._textType
+_OBJC_IVAR_$_AWSPollySynthesizeSpeechURLBuilderRequest._voiceId
+_OBJC_IVAR_$_AWSPollySynthesizeSpeechURLBuilderRequest._expires
+_defaultPollySynthesizeSpeechURLBuilder._defaultPolly
+_defaultPollySynthesizeSpeechURLBuilder.onceToken
+_registerPollySynthesizeSpeechURLBuilder:forKey:.onceToken
+___block_descriptor_tmp.95
+___block_literal_global.96
+_OBJC_IVAR_$_AWSPollySynthesizeSpeechURLBuilder._configuration
+___block_descriptor_tmp.193
+/Users/distiller/project/AWSPolly/AWSPollySynthesizeSpeechURLBuilder.m
+__54-[AWSPollySynthesizeSpeechURLBuilder getPreSignedURL:]_block_invoke
+__85+[AWSPollySynthesizeSpeechURLBuilder registerPollySynthesizeSpeechURLBuilder:forKey:]_block_invoke
+__76+[AWSPollySynthesizeSpeechURLBuilder defaultPollySynthesizeSpeechURLBuilder]_block_invoke
+/Users/distiller/project/AWSPolly/AWSPollySynthesizeSpeechURLBuilder.h
++[AWSPollyDeleteLexiconInput JSONKeyPathsByPropertyKey]
+-[AWSPollyDeleteLexiconInput name]
+-[AWSPollyDeleteLexiconInput setName:]
+-[AWSPollyDeleteLexiconInput .cxx_destruct]
++[AWSPollyDescribeVoicesInput JSONKeyPathsByPropertyKey]
++[AWSPollyDescribeVoicesInput languageCodeJSONTransformer]
+___58+[AWSPollyDescribeVoicesInput languageCodeJSONTransformer]_block_invoke
+___58+[AWSPollyDescribeVoicesInput languageCodeJSONTransformer]_block_invoke_2
+-[AWSPollyDescribeVoicesInput includeAdditionalLanguageCodes]
+-[AWSPollyDescribeVoicesInput setIncludeAdditionalLanguageCodes:]
+-[AWSPollyDescribeVoicesInput languageCode]
+-[AWSPollyDescribeVoicesInput setLanguageCode:]
+-[AWSPollyDescribeVoicesInput nextToken]
+-[AWSPollyDescribeVoicesInput setNextToken:]
+-[AWSPollyDescribeVoicesInput .cxx_destruct]
++[AWSPollyDescribeVoicesOutput JSONKeyPathsByPropertyKey]
++[AWSPollyDescribeVoicesOutput voicesJSONTransformer]
+-[AWSPollyDescribeVoicesOutput nextToken]
+-[AWSPollyDescribeVoicesOutput setNextToken:]
+-[AWSPollyDescribeVoicesOutput voices]
+-[AWSPollyDescribeVoicesOutput setVoices:]
+-[AWSPollyDescribeVoicesOutput .cxx_destruct]
++[AWSPollyGetLexiconInput JSONKeyPathsByPropertyKey]
+-[AWSPollyGetLexiconInput name]
+-[AWSPollyGetLexiconInput setName:]
+-[AWSPollyGetLexiconInput .cxx_destruct]
++[AWSPollyGetLexiconOutput JSONKeyPathsByPropertyKey]
++[AWSPollyGetLexiconOutput lexiconJSONTransformer]
++[AWSPollyGetLexiconOutput lexiconAttributesJSONTransformer]
+-[AWSPollyGetLexiconOutput lexicon]
+-[AWSPollyGetLexiconOutput setLexicon:]
+-[AWSPollyGetLexiconOutput lexiconAttributes]
+-[AWSPollyGetLexiconOutput setLexiconAttributes:]
+-[AWSPollyGetLexiconOutput .cxx_destruct]
++[AWSPollyGetSpeechSynthesisTaskInput JSONKeyPathsByPropertyKey]
+-[AWSPollyGetSpeechSynthesisTaskInput taskId]
+-[AWSPollyGetSpeechSynthesisTaskInput setTaskId:]
+-[AWSPollyGetSpeechSynthesisTaskInput .cxx_destruct]
++[AWSPollyGetSpeechSynthesisTaskOutput JSONKeyPathsByPropertyKey]
++[AWSPollyGetSpeechSynthesisTaskOutput synthesisTaskJSONTransformer]
+-[AWSPollyGetSpeechSynthesisTaskOutput synthesisTask]
+-[AWSPollyGetSpeechSynthesisTaskOutput setSynthesisTask:]
+-[AWSPollyGetSpeechSynthesisTaskOutput .cxx_destruct]
++[AWSPollyLexicon JSONKeyPathsByPropertyKey]
+-[AWSPollyLexicon content]
+-[AWSPollyLexicon setContent:]
+-[AWSPollyLexicon name]
+-[AWSPollyLexicon setName:]
+-[AWSPollyLexicon .cxx_destruct]
++[AWSPollyLexiconAttributes JSONKeyPathsByPropertyKey]
++[AWSPollyLexiconAttributes languageCodeJSONTransformer]
+___56+[AWSPollyLexiconAttributes languageCodeJSONTransformer]_block_invoke
+___56+[AWSPollyLexiconAttributes languageCodeJSONTransformer]_block_invoke_2
++[AWSPollyLexiconAttributes lastModifiedJSONTransformer]
+___56+[AWSPollyLexiconAttributes lastModifiedJSONTransformer]_block_invoke
+___56+[AWSPollyLexiconAttributes lastModifiedJSONTransformer]_block_invoke_2
+-[AWSPollyLexiconAttributes alphabet]
+-[AWSPollyLexiconAttributes setAlphabet:]
+-[AWSPollyLexiconAttributes languageCode]
+-[AWSPollyLexiconAttributes setLanguageCode:]
+-[AWSPollyLexiconAttributes lastModified]
+-[AWSPollyLexiconAttributes setLastModified:]
+-[AWSPollyLexiconAttributes lexemesCount]
+-[AWSPollyLexiconAttributes setLexemesCount:]
+-[AWSPollyLexiconAttributes lexiconArn]
+-[AWSPollyLexiconAttributes setLexiconArn:]
+-[AWSPollyLexiconAttributes size]
+-[AWSPollyLexiconAttributes setSize:]
+-[AWSPollyLexiconAttributes .cxx_destruct]
++[AWSPollyLexiconDescription JSONKeyPathsByPropertyKey]
++[AWSPollyLexiconDescription attributesJSONTransformer]
+-[AWSPollyLexiconDescription attributes]
+-[AWSPollyLexiconDescription setAttributes:]
+-[AWSPollyLexiconDescription name]
+-[AWSPollyLexiconDescription setName:]
+-[AWSPollyLexiconDescription .cxx_destruct]
++[AWSPollyListLexiconsInput JSONKeyPathsByPropertyKey]
+-[AWSPollyListLexiconsInput nextToken]
+-[AWSPollyListLexiconsInput setNextToken:]
+-[AWSPollyListLexiconsInput .cxx_destruct]
++[AWSPollyListLexiconsOutput JSONKeyPathsByPropertyKey]
++[AWSPollyListLexiconsOutput lexiconsJSONTransformer]
+-[AWSPollyListLexiconsOutput lexicons]
+-[AWSPollyListLexiconsOutput setLexicons:]
+-[AWSPollyListLexiconsOutput nextToken]
+-[AWSPollyListLexiconsOutput setNextToken:]
+-[AWSPollyListLexiconsOutput .cxx_destruct]
++[AWSPollyListSpeechSynthesisTasksInput JSONKeyPathsByPropertyKey]
++[AWSPollyListSpeechSynthesisTasksInput statusJSONTransformer]
+___62+[AWSPollyListSpeechSynthesisTasksInput statusJSONTransformer]_block_invoke
+___62+[AWSPollyListSpeechSynthesisTasksInput statusJSONTransformer]_block_invoke_2
+-[AWSPollyListSpeechSynthesisTasksInput maxResults]
+-[AWSPollyListSpeechSynthesisTasksInput setMaxResults:]
+-[AWSPollyListSpeechSynthesisTasksInput nextToken]
+-[AWSPollyListSpeechSynthesisTasksInput setNextToken:]
+-[AWSPollyListSpeechSynthesisTasksInput status]
+-[AWSPollyListSpeechSynthesisTasksInput setStatus:]
+-[AWSPollyListSpeechSynthesisTasksInput .cxx_destruct]
++[AWSPollyListSpeechSynthesisTasksOutput JSONKeyPathsByPropertyKey]
++[AWSPollyListSpeechSynthesisTasksOutput synthesisTasksJSONTransformer]
+-[AWSPollyListSpeechSynthesisTasksOutput nextToken]
+-[AWSPollyListSpeechSynthesisTasksOutput setNextToken:]
+-[AWSPollyListSpeechSynthesisTasksOutput synthesisTasks]
+-[AWSPollyListSpeechSynthesisTasksOutput setSynthesisTasks:]
+-[AWSPollyListSpeechSynthesisTasksOutput .cxx_destruct]
++[AWSPollyPutLexiconInput JSONKeyPathsByPropertyKey]
+-[AWSPollyPutLexiconInput content]
+-[AWSPollyPutLexiconInput setContent:]
+-[AWSPollyPutLexiconInput name]
+-[AWSPollyPutLexiconInput setName:]
+-[AWSPollyPutLexiconInput .cxx_destruct]
++[AWSPollyStartSpeechSynthesisTaskInput JSONKeyPathsByPropertyKey]
++[AWSPollyStartSpeechSynthesisTaskInput languageCodeJSONTransformer]
+___68+[AWSPollyStartSpeechSynthesisTaskInput languageCodeJSONTransformer]_block_invoke
+___68+[AWSPollyStartSpeechSynthesisTaskInput languageCodeJSONTransformer]_block_invoke_2
++[AWSPollyStartSpeechSynthesisTaskInput outputFormatJSONTransformer]
+___68+[AWSPollyStartSpeechSynthesisTaskInput outputFormatJSONTransformer]_block_invoke
+___68+[AWSPollyStartSpeechSynthesisTaskInput outputFormatJSONTransformer]_block_invoke_2
++[AWSPollyStartSpeechSynthesisTaskInput textTypeJSONTransformer]
+___64+[AWSPollyStartSpeechSynthesisTaskInput textTypeJSONTransformer]_block_invoke
+___64+[AWSPollyStartSpeechSynthesisTaskInput textTypeJSONTransformer]_block_invoke_2
++[AWSPollyStartSpeechSynthesisTaskInput voiceIdJSONTransformer]
+___63+[AWSPollyStartSpeechSynthesisTaskInput voiceIdJSONTransformer]_block_invoke
+___63+[AWSPollyStartSpeechSynthesisTaskInput voiceIdJSONTransformer]_block_invoke_2
+-[AWSPollyStartSpeechSynthesisTaskInput languageCode]
+-[AWSPollyStartSpeechSynthesisTaskInput setLanguageCode:]
+-[AWSPollyStartSpeechSynthesisTaskInput lexiconNames]
+-[AWSPollyStartSpeechSynthesisTaskInput setLexiconNames:]
+-[AWSPollyStartSpeechSynthesisTaskInput outputFormat]
+-[AWSPollyStartSpeechSynthesisTaskInput setOutputFormat:]
+-[AWSPollyStartSpeechSynthesisTaskInput outputS3BucketName]
+-[AWSPollyStartSpeechSynthesisTaskInput setOutputS3BucketName:]
+-[AWSPollyStartSpeechSynthesisTaskInput outputS3KeyPrefix]
+-[AWSPollyStartSpeechSynthesisTaskInput setOutputS3KeyPrefix:]
+-[AWSPollyStartSpeechSynthesisTaskInput sampleRate]
+-[AWSPollyStartSpeechSynthesisTaskInput setSampleRate:]
+-[AWSPollyStartSpeechSynthesisTaskInput snsTopicArn]
+-[AWSPollyStartSpeechSynthesisTaskInput setSnsTopicArn:]
+-[AWSPollyStartSpeechSynthesisTaskInput speechMarkTypes]
+-[AWSPollyStartSpeechSynthesisTaskInput setSpeechMarkTypes:]
+-[AWSPollyStartSpeechSynthesisTaskInput text]
+-[AWSPollyStartSpeechSynthesisTaskInput setText:]
+-[AWSPollyStartSpeechSynthesisTaskInput textType]
+-[AWSPollyStartSpeechSynthesisTaskInput setTextType:]
+-[AWSPollyStartSpeechSynthesisTaskInput voiceId]
+-[AWSPollyStartSpeechSynthesisTaskInput setVoiceId:]
+-[AWSPollyStartSpeechSynthesisTaskInput .cxx_destruct]
++[AWSPollyStartSpeechSynthesisTaskOutput JSONKeyPathsByPropertyKey]
++[AWSPollyStartSpeechSynthesisTaskOutput synthesisTaskJSONTransformer]
+-[AWSPollyStartSpeechSynthesisTaskOutput synthesisTask]
+-[AWSPollyStartSpeechSynthesisTaskOutput setSynthesisTask:]
+-[AWSPollyStartSpeechSynthesisTaskOutput .cxx_destruct]
++[AWSPollySynthesisTask JSONKeyPathsByPropertyKey]
++[AWSPollySynthesisTask creationTimeJSONTransformer]
+___52+[AWSPollySynthesisTask creationTimeJSONTransformer]_block_invoke
+___52+[AWSPollySynthesisTask creationTimeJSONTransformer]_block_invoke_2
++[AWSPollySynthesisTask languageCodeJSONTransformer]
+___52+[AWSPollySynthesisTask languageCodeJSONTransformer]_block_invoke
+___52+[AWSPollySynthesisTask languageCodeJSONTransformer]_block_invoke_2
++[AWSPollySynthesisTask outputFormatJSONTransformer]
+___52+[AWSPollySynthesisTask outputFormatJSONTransformer]_block_invoke
+___52+[AWSPollySynthesisTask outputFormatJSONTransformer]_block_invoke_2
++[AWSPollySynthesisTask taskStatusJSONTransformer]
+___50+[AWSPollySynthesisTask taskStatusJSONTransformer]_block_invoke
+___50+[AWSPollySynthesisTask taskStatusJSONTransformer]_block_invoke_2
++[AWSPollySynthesisTask textTypeJSONTransformer]
+___48+[AWSPollySynthesisTask textTypeJSONTransformer]_block_invoke
+___48+[AWSPollySynthesisTask textTypeJSONTransformer]_block_invoke_2
++[AWSPollySynthesisTask voiceIdJSONTransformer]
+___47+[AWSPollySynthesisTask voiceIdJSONTransformer]_block_invoke
+___47+[AWSPollySynthesisTask voiceIdJSONTransformer]_block_invoke_2
+-[AWSPollySynthesisTask creationTime]
+-[AWSPollySynthesisTask setCreationTime:]
+-[AWSPollySynthesisTask languageCode]
+-[AWSPollySynthesisTask setLanguageCode:]
+-[AWSPollySynthesisTask lexiconNames]
+-[AWSPollySynthesisTask setLexiconNames:]
+-[AWSPollySynthesisTask outputFormat]
+-[AWSPollySynthesisTask setOutputFormat:]
+-[AWSPollySynthesisTask outputUri]
+-[AWSPollySynthesisTask setOutputUri:]
+-[AWSPollySynthesisTask requestCharacters]
+-[AWSPollySynthesisTask setRequestCharacters:]
+-[AWSPollySynthesisTask sampleRate]
+-[AWSPollySynthesisTask setSampleRate:]
+-[AWSPollySynthesisTask snsTopicArn]
+-[AWSPollySynthesisTask setSnsTopicArn:]
+-[AWSPollySynthesisTask speechMarkTypes]
+-[AWSPollySynthesisTask setSpeechMarkTypes:]
+-[AWSPollySynthesisTask taskId]
+-[AWSPollySynthesisTask setTaskId:]
+-[AWSPollySynthesisTask taskStatus]
+-[AWSPollySynthesisTask setTaskStatus:]
+-[AWSPollySynthesisTask taskStatusReason]
+-[AWSPollySynthesisTask setTaskStatusReason:]
+-[AWSPollySynthesisTask textType]
+-[AWSPollySynthesisTask setTextType:]
+-[AWSPollySynthesisTask voiceId]
+-[AWSPollySynthesisTask setVoiceId:]
+-[AWSPollySynthesisTask .cxx_destruct]
++[AWSPollySynthesizeSpeechInput JSONKeyPathsByPropertyKey]
++[AWSPollySynthesizeSpeechInput languageCodeJSONTransformer]
+___60+[AWSPollySynthesizeSpeechInput languageCodeJSONTransformer]_block_invoke
+___60+[AWSPollySynthesizeSpeechInput languageCodeJSONTransformer]_block_invoke_2
++[AWSPollySynthesizeSpeechInput outputFormatJSONTransformer]
+___60+[AWSPollySynthesizeSpeechInput outputFormatJSONTransformer]_block_invoke
+___60+[AWSPollySynthesizeSpeechInput outputFormatJSONTransformer]_block_invoke_2
++[AWSPollySynthesizeSpeechInput textTypeJSONTransformer]
+___56+[AWSPollySynthesizeSpeechInput textTypeJSONTransformer]_block_invoke
+___56+[AWSPollySynthesizeSpeechInput textTypeJSONTransformer]_block_invoke_2
++[AWSPollySynthesizeSpeechInput voiceIdJSONTransformer]
+___55+[AWSPollySynthesizeSpeechInput voiceIdJSONTransformer]_block_invoke
+___55+[AWSPollySynthesizeSpeechInput voiceIdJSONTransformer]_block_invoke_2
+-[AWSPollySynthesizeSpeechInput languageCode]
+-[AWSPollySynthesizeSpeechInput setLanguageCode:]
+-[AWSPollySynthesizeSpeechInput lexiconNames]
+-[AWSPollySynthesizeSpeechInput setLexiconNames:]
+-[AWSPollySynthesizeSpeechInput outputFormat]
+-[AWSPollySynthesizeSpeechInput setOutputFormat:]
+-[AWSPollySynthesizeSpeechInput sampleRate]
+-[AWSPollySynthesizeSpeechInput setSampleRate:]
+-[AWSPollySynthesizeSpeechInput speechMarkTypes]
+-[AWSPollySynthesizeSpeechInput setSpeechMarkTypes:]
+-[AWSPollySynthesizeSpeechInput text]
+-[AWSPollySynthesizeSpeechInput setText:]
+-[AWSPollySynthesizeSpeechInput textType]
+-[AWSPollySynthesizeSpeechInput setTextType:]
+-[AWSPollySynthesizeSpeechInput voiceId]
+-[AWSPollySynthesizeSpeechInput setVoiceId:]
+-[AWSPollySynthesizeSpeechInput .cxx_destruct]
++[AWSPollySynthesizeSpeechOutput JSONKeyPathsByPropertyKey]
+-[AWSPollySynthesizeSpeechOutput audioStream]
+-[AWSPollySynthesizeSpeechOutput setAudioStream:]
+-[AWSPollySynthesizeSpeechOutput contentType]
+-[AWSPollySynthesizeSpeechOutput setContentType:]
+-[AWSPollySynthesizeSpeechOutput requestCharacters]
+-[AWSPollySynthesizeSpeechOutput setRequestCharacters:]
+-[AWSPollySynthesizeSpeechOutput .cxx_destruct]
++[AWSPollyVoice JSONKeyPathsByPropertyKey]
++[AWSPollyVoice genderJSONTransformer]
+___38+[AWSPollyVoice genderJSONTransformer]_block_invoke
+___38+[AWSPollyVoice genderJSONTransformer]_block_invoke_2
++[AWSPollyVoice identifierJSONTransformer]
+___42+[AWSPollyVoice identifierJSONTransformer]_block_invoke
+___42+[AWSPollyVoice identifierJSONTransformer]_block_invoke_2
++[AWSPollyVoice languageCodeJSONTransformer]
+___44+[AWSPollyVoice languageCodeJSONTransformer]_block_invoke
+___44+[AWSPollyVoice languageCodeJSONTransformer]_block_invoke_2
+-[AWSPollyVoice additionalLanguageCodes]
+-[AWSPollyVoice setAdditionalLanguageCodes:]
+-[AWSPollyVoice gender]
+-[AWSPollyVoice setGender:]
+-[AWSPollyVoice identifier]
+-[AWSPollyVoice setIdentifier:]
+-[AWSPollyVoice languageCode]
+-[AWSPollyVoice setLanguageCode:]
+-[AWSPollyVoice languageName]
+-[AWSPollyVoice setLanguageName:]
+-[AWSPollyVoice name]
+-[AWSPollyVoice setName:]
+-[AWSPollyVoice .cxx_destruct]
+_OBJC_IVAR_$_AWSPollyDeleteLexiconInput._name
+___block_descriptor_tmp.92
+___block_literal_global.93
+_OBJC_IVAR_$_AWSPollyDescribeVoicesInput._includeAdditionalLanguageCodes
+_OBJC_IVAR_$_AWSPollyDescribeVoicesInput._languageCode
+_OBJC_IVAR_$_AWSPollyDescribeVoicesInput._nextToken
+_OBJC_IVAR_$_AWSPollyDescribeVoicesOutput._nextToken
+_OBJC_IVAR_$_AWSPollyDescribeVoicesOutput._voices
+_OBJC_IVAR_$_AWSPollyGetLexiconInput._name
+_OBJC_IVAR_$_AWSPollyGetLexiconOutput._lexicon
+_OBJC_IVAR_$_AWSPollyGetLexiconOutput._lexiconAttributes
+_OBJC_IVAR_$_AWSPollyGetSpeechSynthesisTaskInput._taskId
+_OBJC_IVAR_$_AWSPollyGetSpeechSynthesisTaskOutput._synthesisTask
+_OBJC_IVAR_$_AWSPollyLexicon._content
+_OBJC_IVAR_$_AWSPollyLexicon._name
+___block_descriptor_tmp.225
+___block_literal_global.226
+___block_descriptor_tmp.227
+___block_literal_global.228
+___block_descriptor_tmp.230
+___block_literal_global.231
+___block_descriptor_tmp.238
+___block_literal_global.239
+_OBJC_IVAR_$_AWSPollyLexiconAttributes._alphabet
+_OBJC_IVAR_$_AWSPollyLexiconAttributes._languageCode
+_OBJC_IVAR_$_AWSPollyLexiconAttributes._lastModified
+_OBJC_IVAR_$_AWSPollyLexiconAttributes._lexemesCount
+_OBJC_IVAR_$_AWSPollyLexiconAttributes._lexiconArn
+_OBJC_IVAR_$_AWSPollyLexiconAttributes._size
+_OBJC_IVAR_$_AWSPollyLexiconDescription._attributes
+_OBJC_IVAR_$_AWSPollyLexiconDescription._name
+_OBJC_IVAR_$_AWSPollyListLexiconsInput._nextToken
+_OBJC_IVAR_$_AWSPollyListLexiconsOutput._lexicons
+_OBJC_IVAR_$_AWSPollyListLexiconsOutput._nextToken
+___block_literal_global.312
+___block_descriptor_tmp.321
+___block_literal_global.322
+_OBJC_IVAR_$_AWSPollyListSpeechSynthesisTasksInput._maxResults
+_OBJC_IVAR_$_AWSPollyListSpeechSynthesisTasksInput._nextToken
+_OBJC_IVAR_$_AWSPollyListSpeechSynthesisTasksInput._status
+_OBJC_IVAR_$_AWSPollyListSpeechSynthesisTasksOutput._nextToken
+_OBJC_IVAR_$_AWSPollyListSpeechSynthesisTasksOutput._synthesisTasks
+_OBJC_IVAR_$_AWSPollyPutLexiconInput._content
+_OBJC_IVAR_$_AWSPollyPutLexiconInput._name
+___block_descriptor_tmp.391
+___block_literal_global.392
+___block_descriptor_tmp.393
+___block_literal_global.394
+___block_descriptor_tmp.395
+___block_literal_global.396
+___block_descriptor_tmp.405
+___block_literal_global.406
+___block_descriptor_tmp.407
+___block_literal_global.408
+___block_descriptor_tmp.411
+___block_literal_global.412
+___block_descriptor_tmp.413
+___block_literal_global.414
+___block_descriptor_tmp.529
+___block_literal_global.530
+_OBJC_IVAR_$_AWSPollyStartSpeechSynthesisTaskInput._languageCode
+_OBJC_IVAR_$_AWSPollyStartSpeechSynthesisTaskInput._lexiconNames
+_OBJC_IVAR_$_AWSPollyStartSpeechSynthesisTaskInput._outputFormat
+_OBJC_IVAR_$_AWSPollyStartSpeechSynthesisTaskInput._outputS3BucketName
+_OBJC_IVAR_$_AWSPollyStartSpeechSynthesisTaskInput._outputS3KeyPrefix
+_OBJC_IVAR_$_AWSPollyStartSpeechSynthesisTaskInput._sampleRate
+_OBJC_IVAR_$_AWSPollyStartSpeechSynthesisTaskInput._snsTopicArn
+_OBJC_IVAR_$_AWSPollyStartSpeechSynthesisTaskInput._speechMarkTypes
+_OBJC_IVAR_$_AWSPollyStartSpeechSynthesisTaskInput._text
+_OBJC_IVAR_$_AWSPollyStartSpeechSynthesisTaskInput._textType
+_OBJC_IVAR_$_AWSPollyStartSpeechSynthesisTaskInput._voiceId
+_OBJC_IVAR_$_AWSPollyStartSpeechSynthesisTaskOutput._synthesisTask
+___block_descriptor_tmp.608
+___block_literal_global.609
+___block_descriptor_tmp.610
+___block_literal_global.611
+___block_descriptor_tmp.612
+___block_literal_global.613
+___block_descriptor_tmp.614
+___block_literal_global.615
+___block_descriptor_tmp.616
+___block_literal_global.617
+___block_descriptor_tmp.618
+___block_literal_global.619
+___block_descriptor_tmp.620
+___block_literal_global.621
+___block_descriptor_tmp.622
+___block_literal_global.623
+___block_descriptor_tmp.624
+___block_literal_global.625
+___block_descriptor_tmp.626
+___block_literal_global.627
+___block_descriptor_tmp.628
+___block_literal_global.629
+___block_descriptor_tmp.630
+___block_literal_global.631
+_OBJC_IVAR_$_AWSPollySynthesisTask._creationTime
+_OBJC_IVAR_$_AWSPollySynthesisTask._languageCode
+_OBJC_IVAR_$_AWSPollySynthesisTask._lexiconNames
+_OBJC_IVAR_$_AWSPollySynthesisTask._outputFormat
+_OBJC_IVAR_$_AWSPollySynthesisTask._outputUri
+_OBJC_IVAR_$_AWSPollySynthesisTask._requestCharacters
+_OBJC_IVAR_$_AWSPollySynthesisTask._sampleRate
+_OBJC_IVAR_$_AWSPollySynthesisTask._snsTopicArn
+_OBJC_IVAR_$_AWSPollySynthesisTask._speechMarkTypes
+_OBJC_IVAR_$_AWSPollySynthesisTask._taskId
+_OBJC_IVAR_$_AWSPollySynthesisTask._taskStatus
+_OBJC_IVAR_$_AWSPollySynthesisTask._taskStatusReason
+_OBJC_IVAR_$_AWSPollySynthesisTask._textType
+_OBJC_IVAR_$_AWSPollySynthesisTask._voiceId
+___block_descriptor_tmp.661
+___block_literal_global.662
+___block_descriptor_tmp.663
+___block_literal_global.664
+___block_descriptor_tmp.665
+___block_literal_global.666
+___block_descriptor_tmp.667
+___block_literal_global.668
+___block_descriptor_tmp.669
+___block_literal_global.670
+___block_descriptor_tmp.671
+___block_literal_global.672
+___block_descriptor_tmp.673
+___block_literal_global.674
+___block_descriptor_tmp.675
+___block_literal_global.676
+_OBJC_IVAR_$_AWSPollySynthesizeSpeechInput._languageCode
+_OBJC_IVAR_$_AWSPollySynthesizeSpeechInput._lexiconNames
+_OBJC_IVAR_$_AWSPollySynthesizeSpeechInput._outputFormat
+_OBJC_IVAR_$_AWSPollySynthesizeSpeechInput._sampleRate
+_OBJC_IVAR_$_AWSPollySynthesizeSpeechInput._speechMarkTypes
+_OBJC_IVAR_$_AWSPollySynthesizeSpeechInput._text
+_OBJC_IVAR_$_AWSPollySynthesizeSpeechInput._textType
+_OBJC_IVAR_$_AWSPollySynthesizeSpeechInput._voiceId
+_OBJC_IVAR_$_AWSPollySynthesizeSpeechOutput._audioStream
+_OBJC_IVAR_$_AWSPollySynthesizeSpeechOutput._contentType
+_OBJC_IVAR_$_AWSPollySynthesizeSpeechOutput._requestCharacters
+___block_descriptor_tmp.716
+___block_literal_global.717
+___block_descriptor_tmp.722
+___block_literal_global.723
+___block_descriptor_tmp.724
+___block_literal_global.725
+___block_descriptor_tmp.726
+___block_literal_global.727
+___block_descriptor_tmp.728
+___block_literal_global.729
+___block_descriptor_tmp.730
+___block_literal_global.731
+_OBJC_IVAR_$_AWSPollyVoice._additionalLanguageCodes
+_OBJC_IVAR_$_AWSPollyVoice._gender
+_OBJC_IVAR_$_AWSPollyVoice._identifier
+_OBJC_IVAR_$_AWSPollyVoice._languageCode
+_OBJC_IVAR_$_AWSPollyVoice._languageName
+_OBJC_IVAR_$_AWSPollyVoice._name
+/Users/distiller/project/AWSPolly/AWSPollyModel.m
+/Users/distiller/project/AWSPolly/AWSPollyModel.h
+__44+[AWSPollyVoice languageCodeJSONTransformer]_block_invoke_2
+__44+[AWSPollyVoice languageCodeJSONTransformer]_block_invoke
+__42+[AWSPollyVoice identifierJSONTransformer]_block_invoke_2
+__42+[AWSPollyVoice identifierJSONTransformer]_block_invoke
+__38+[AWSPollyVoice genderJSONTransformer]_block_invoke_2
+__38+[AWSPollyVoice genderJSONTransformer]_block_invoke
+__55+[AWSPollySynthesizeSpeechInput voiceIdJSONTransformer]_block_invoke_2
+__55+[AWSPollySynthesizeSpeechInput voiceIdJSONTransformer]_block_invoke
+__56+[AWSPollySynthesizeSpeechInput textTypeJSONTransformer]_block_invoke_2
+__56+[AWSPollySynthesizeSpeechInput textTypeJSONTransformer]_block_invoke
+__60+[AWSPollySynthesizeSpeechInput outputFormatJSONTransformer]_block_invoke_2
+__60+[AWSPollySynthesizeSpeechInput outputFormatJSONTransformer]_block_invoke
+__60+[AWSPollySynthesizeSpeechInput languageCodeJSONTransformer]_block_invoke_2
+__60+[AWSPollySynthesizeSpeechInput languageCodeJSONTransformer]_block_invoke
+__47+[AWSPollySynthesisTask voiceIdJSONTransformer]_block_invoke_2
+__47+[AWSPollySynthesisTask voiceIdJSONTransformer]_block_invoke
+__48+[AWSPollySynthesisTask textTypeJSONTransformer]_block_invoke_2
+__48+[AWSPollySynthesisTask textTypeJSONTransformer]_block_invoke
+__50+[AWSPollySynthesisTask taskStatusJSONTransformer]_block_invoke_2
+__50+[AWSPollySynthesisTask taskStatusJSONTransformer]_block_invoke
+__52+[AWSPollySynthesisTask outputFormatJSONTransformer]_block_invoke_2
+__52+[AWSPollySynthesisTask outputFormatJSONTransformer]_block_invoke
+__52+[AWSPollySynthesisTask languageCodeJSONTransformer]_block_invoke_2
+__52+[AWSPollySynthesisTask languageCodeJSONTransformer]_block_invoke
+__52+[AWSPollySynthesisTask creationTimeJSONTransformer]_block_invoke_2
+__52+[AWSPollySynthesisTask creationTimeJSONTransformer]_block_invoke
+__63+[AWSPollyStartSpeechSynthesisTaskInput voiceIdJSONTransformer]_block_invoke_2
+__63+[AWSPollyStartSpeechSynthesisTaskInput voiceIdJSONTransformer]_block_invoke
+__64+[AWSPollyStartSpeechSynthesisTaskInput textTypeJSONTransformer]_block_invoke_2
+__64+[AWSPollyStartSpeechSynthesisTaskInput textTypeJSONTransformer]_block_invoke
+__68+[AWSPollyStartSpeechSynthesisTaskInput outputFormatJSONTransformer]_block_invoke_2
+__68+[AWSPollyStartSpeechSynthesisTaskInput outputFormatJSONTransformer]_block_invoke
+__68+[AWSPollyStartSpeechSynthesisTaskInput languageCodeJSONTransformer]_block_invoke_2
+__68+[AWSPollyStartSpeechSynthesisTaskInput languageCodeJSONTransformer]_block_invoke
+__62+[AWSPollyListSpeechSynthesisTasksInput statusJSONTransformer]_block_invoke_2
+__62+[AWSPollyListSpeechSynthesisTasksInput statusJSONTransformer]_block_invoke
+__56+[AWSPollyLexiconAttributes lastModifiedJSONTransformer]_block_invoke_2
+__56+[AWSPollyLexiconAttributes lastModifiedJSONTransformer]_block_invoke
+__56+[AWSPollyLexiconAttributes languageCodeJSONTransformer]_block_invoke_2
+__56+[AWSPollyLexiconAttributes languageCodeJSONTransformer]_block_invoke
+__58+[AWSPollyDescribeVoicesInput languageCodeJSONTransformer]_block_invoke_2
+__58+[AWSPollyDescribeVoicesInput languageCodeJSONTransformer]_block_invoke
+/Users/distiller/Library/Developer/Xcode/DerivedData/AWSiOSSDKv2-bvcffhrgbfjnfybjecennhscmaho/Build/Intermediates.noindex/ArchiveIntermediates/AWSPolly/IntermediateBuildFilesPath/AWSiOSSDKv2.build/Release-iphoneos/AWSPolly.build/DerivedSources/AWSPolly_vers.c
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=409.12
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter

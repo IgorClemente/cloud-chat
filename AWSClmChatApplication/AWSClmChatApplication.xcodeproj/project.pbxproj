@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D013809B222610E600998C61 /* SocialIdentityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D013809A222610E500998C61 /* SocialIdentityManager.swift */; };
+		D0199994223573BB00233500 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0199993223573BB00233500 /* Friend.swift */; };
+		D0199999223574DE00233500 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0199998223574DE00233500 /* Chat.swift */; };
+		D019999C2235775400233500 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019999B2235775400233500 /* Message.swift */; };
+		D019999E22357A5D00233500 /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019999D22357A5D00233500 /* ChatManager.swift */; };
+		D01999A022357ED300233500 /* DynamoDBController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019999F22357ED300233500 /* DynamoDBController.swift */; };
+		D01FA8A22224B59800780070 /* FacebookCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03487E62224AB1D00996E75 /* FacebookCore.framework */; };
+		D01FA8A32224B59800780070 /* FacebookCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D03487E62224AB1D00996E75 /* FacebookCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D01FA8A62224B59800780070 /* FacebookLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03487E82224AB1D00996E75 /* FacebookLogin.framework */; };
+		D01FA8A72224B59800780070 /* FacebookLogin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D03487E82224AB1D00996E75 /* FacebookLogin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D01FA8AA2224B59800780070 /* FacebookShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03487EA2224AB1D00996E75 /* FacebookShare.framework */; };
+		D01FA8AB2224B59800780070 /* FacebookShare.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D03487EA2224AB1D00996E75 /* FacebookShare.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D0421CFB223CB1CB00A9033E /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0421CFA223CB1CB00A9033E /* FriendTableViewCell.swift */; };
+		D04BE946222D980B00D7A0C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D04BE945222D980B00D7A0C7 /* GoogleService-Info.plist */; };
+		D0529F862225D6F000EC0EE4 /* CognitoIdentityPoolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0529F852225D6F000EC0EE4 /* CognitoIdentityPoolController.swift */; };
+		D074ADB5222DABAA004F9E79 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D074ADB4222DABAA004F9E79 /* GoogleSignIn.framework */; };
+		D074ADB6222DABAA004F9E79 /* GoogleSignIn.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D074ADB4222DABAA004F9E79 /* GoogleSignIn.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D09692C92229A33300AA5D0B /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09692C82229A33300AA5D0B /* SafariServices.framework */; };
+		D09692CB2229A33B00AA5D0B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09692CA2229A33B00AA5D0B /* SystemConfiguration.framework */; };
+		D09FA180223F0DD700F652F4 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09FA17F223F0DD700F652F4 /* AddFriendViewController.swift */; };
+		D0D459852234C1B300367600 /* AWSDynamoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D459812234C1B300367600 /* AWSDynamoDB.framework */; };
+		D0D459862234C1B300367600 /* AWSDynamoDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0D459812234C1B300367600 /* AWSDynamoDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D0D459882234CCD500367600 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D459872234CCD500367600 /* User.swift */; };
+		D0EC5598221BBA5A00B99170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EC5597221BBA5A00B99170 /* AppDelegate.swift */; };
+		D0EC559F221BBA5C00B99170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0EC559E221BBA5C00B99170 /* Assets.xcassets */; };
+		D0EC55AB221BBC4E00B99170 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EC55AA221BBC4E00B99170 /* AWSCore.framework */; };
+		D0EC55AC221BBC4E00B99170 /* AWSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0EC55AA221BBC4E00B99170 /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D0EC55AF221BBC6B00B99170 /* AWSCognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EC55AE221BBC6B00B99170 /* AWSCognito.framework */; };
+		D0EC55B0221BBC6B00B99170 /* AWSCognito.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0EC55AE221BBC6B00B99170 /* AWSCognito.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D0EC55B8221BC0E400B99170 /* AWSCognitoIdentityProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EC55B7221BC0E400B99170 /* AWSCognitoIdentityProvider.framework */; };
+		D0EC55B9221BC0E400B99170 /* AWSCognitoIdentityProvider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0EC55B7221BC0E400B99170 /* AWSCognitoIdentityProvider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D0EC55BB221BC12900B99170 /* AWSCognitoIdentityProviderASF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EC55BA221BC12900B99170 /* AWSCognitoIdentityProviderASF.framework */; };
+		D0EC55BC221BC12900B99170 /* AWSCognitoIdentityProviderASF.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0EC55BA221BC12900B99170 /* AWSCognitoIdentityProviderASF.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D0EC55BF221BC63100B99170 /* CognitoUserPoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EC55BE221BC63100B99170 /* CognitoUserPoolViewController.swift */; };
+		D0EC55C1221BC65400B99170 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EC55C0221BC65400B99170 /* HomeViewController.swift */; };
+		D0EC55C4221BC66700B99170 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EC55C2221BC66700B99170 /* LoginViewController.swift */; };
+		D0EC55C5221BC66700B99170 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EC55C3221BC66700B99170 /* SignupViewController.swift */; };
+		D0EC55CB221BC68100B99170 /* ChatJourney.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EC55C7221BC68100B99170 /* ChatJourney.storyboard */; };
+		D0EC55CC221BC68100B99170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EC55C8221BC68100B99170 /* LaunchScreen.storyboard */; };
+		D0EC55CD221BC68100B99170 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EC55CA221BC68100B99170 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D01FA8A42224B59800780070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D03487D62224AB1C00996E75 /* FacebookSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8115C0D71CFE540D001FF33B;
+			remoteInfo = FacebookCore;
+		};
+		D01FA8A82224B59800780070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D03487D62224AB1C00996E75 /* FacebookSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 811C5DF21CFFD36600E4A925;
+			remoteInfo = FacebookLogin;
+		};
+		D01FA8AC2224B59800780070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D03487D62224AB1C00996E75 /* FacebookSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 811C5DFF1CFFD36D00E4A925;
+			remoteInfo = FacebookShare;
+		};
+		D03487E52224AB1D00996E75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D03487D62224AB1C00996E75 /* FacebookSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8115C0D81CFE540D001FF33B;
+			remoteInfo = FacebookCore;
+		};
+		D03487E72224AB1D00996E75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D03487D62224AB1C00996E75 /* FacebookSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 811C5DFD1CFFD36600E4A925;
+			remoteInfo = FacebookLogin;
+		};
+		D03487E92224AB1D00996E75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D03487D62224AB1C00996E75 /* FacebookSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 811C5E0A1CFFD36D00E4A925;
+			remoteInfo = FacebookShare;
+		};
+		D03487F12224AB2A00996E75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D03487EB2224AB2A00996E75 /* FacebookSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8115C0D81CFE540D001FF33B;
+			remoteInfo = FacebookCore;
+		};
+		D03487F32224AB2A00996E75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D03487EB2224AB2A00996E75 /* FacebookSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 811C5DFD1CFFD36600E4A925;
+			remoteInfo = FacebookLogin;
+		};
+		D03487F52224AB2A00996E75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D03487EB2224AB2A00996E75 /* FacebookSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 811C5E0A1CFFD36D00E4A925;
+			remoteInfo = FacebookShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D0CCB21A222D9E0A0035E6FB /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EC55AD221BBC4E00B99170 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D01FA8AB2224B59800780070 /* FacebookShare.framework in Embed Frameworks */,
+				D0EC55BC221BC12900B99170 /* AWSCognitoIdentityProviderASF.framework in Embed Frameworks */,
+				D0EC55B0221BBC6B00B99170 /* AWSCognito.framework in Embed Frameworks */,
+				D0EC55B9221BC0E400B99170 /* AWSCognitoIdentityProvider.framework in Embed Frameworks */,
+				D0D459862234C1B300367600 /* AWSDynamoDB.framework in Embed Frameworks */,
+				D0EC55AC221BBC4E00B99170 /* AWSCore.framework in Embed Frameworks */,
+				D01FA8A72224B59800780070 /* FacebookLogin.framework in Embed Frameworks */,
+				D01FA8A32224B59800780070 /* FacebookCore.framework in Embed Frameworks */,
+				D074ADB6222DABAA004F9E79 /* GoogleSignIn.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D013809A222610E500998C61 /* SocialIdentityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialIdentityManager.swift; sourceTree = "<group>"; };
+		D0199993223573BB00233500 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		D0199998223574DE00233500 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		D019999B2235775400233500 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		D019999D22357A5D00233500 /* ChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
+		D019999F22357ED300233500 /* DynamoDBController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamoDBController.swift; sourceTree = "<group>"; };
+		D01FA8AE2224B5FC00780070 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01FA8B12224B61A00780070 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01FA8B42224B62900780070 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03487D62224AB1C00996E75 /* FacebookSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FacebookSwift.xcodeproj; path = "../FacebookSDK/facebook-swift-sdk/FacebookSwift.xcodeproj"; sourceTree = "<group>"; };
+		D03487EB2224AB2A00996E75 /* FacebookSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FacebookSwift.xcodeproj; path = "../FacebookSDK/facebook-swift-sdk/FacebookSwift.xcodeproj"; sourceTree = "<group>"; };
+		D0421CFA223CB1CB00A9033E /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		D04639C822206E6B00509CF5 /* ObjCBridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjCBridging-Header.h"; sourceTree = "<group>"; };
+		D04BE945222D980B00D7A0C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D0529F852225D6F000EC0EE4 /* CognitoIdentityPoolController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitoIdentityPoolController.swift; sourceTree = "<group>"; };
+		D074ADB4222DABAA004F9E79 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = Carthage/Build/iOS/GoogleSignIn.framework; sourceTree = "<group>"; };
+		D09692C82229A33300AA5D0B /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		D09692CA2229A33B00AA5D0B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D09FA17F223F0DD700F652F4 /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		D0D459812234C1B300367600 /* AWSDynamoDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSDynamoDB.framework; path = Carthage/Build/iOS/AWSDynamoDB.framework; sourceTree = "<group>"; };
+		D0D459872234CCD500367600 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D0EC5594221BBA5A00B99170 /* AWSClmChatApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSClmChatApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EC5597221BBA5A00B99170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0EC559E221BBA5C00B99170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0EC55A3221BBA5C00B99170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0EC55AA221BBC4E00B99170 /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCore.framework; path = Carthage/Build/iOS/AWSCore.framework; sourceTree = "<group>"; };
+		D0EC55AE221BBC6B00B99170 /* AWSCognito.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognito.framework; path = Carthage/Build/iOS/AWSCognito.framework; sourceTree = "<group>"; };
+		D0EC55B7221BC0E400B99170 /* AWSCognitoIdentityProvider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognitoIdentityProvider.framework; path = Carthage/Build/iOS/AWSCognitoIdentityProvider.framework; sourceTree = "<group>"; };
+		D0EC55BA221BC12900B99170 /* AWSCognitoIdentityProviderASF.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognitoIdentityProviderASF.framework; path = Carthage/Build/iOS/AWSCognitoIdentityProviderASF.framework; sourceTree = "<group>"; };
+		D0EC55BE221BC63100B99170 /* CognitoUserPoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CognitoUserPoolViewController.swift; sourceTree = "<group>"; };
+		D0EC55C0221BC65400B99170 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D0EC55C2221BC66700B99170 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D0EC55C3221BC66700B99170 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		D0EC55C7221BC68100B99170 /* ChatJourney.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ChatJourney.storyboard; sourceTree = "<group>"; };
+		D0EC55C9221BC68100B99170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0EC55CA221BC68100B99170 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0EC5591221BBA5A00B99170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EC55BB221BC12900B99170 /* AWSCognitoIdentityProviderASF.framework in Frameworks */,
+				D0EC55AF221BBC6B00B99170 /* AWSCognito.framework in Frameworks */,
+				D0EC55B8221BC0E400B99170 /* AWSCognitoIdentityProvider.framework in Frameworks */,
+				D0EC55AB221BBC4E00B99170 /* AWSCore.framework in Frameworks */,
+				D0D459852234C1B300367600 /* AWSDynamoDB.framework in Frameworks */,
+				D01FA8AA2224B59800780070 /* FacebookShare.framework in Frameworks */,
+				D01FA8A62224B59800780070 /* FacebookLogin.framework in Frameworks */,
+				D01FA8A22224B59800780070 /* FacebookCore.framework in Frameworks */,
+				D09692CB2229A33B00AA5D0B /* SystemConfiguration.framework in Frameworks */,
+				D09692C92229A33300AA5D0B /* SafariServices.framework in Frameworks */,
+				D074ADB5222DABAA004F9E79 /* GoogleSignIn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D019999A2235765C00233500 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0D459872234CCD500367600 /* User.swift */,
+				D0199993223573BB00233500 /* Friend.swift */,
+				D0199998223574DE00233500 /* Chat.swift */,
+				D019999B2235775400233500 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D03487D72224AB1C00996E75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D03487E62224AB1D00996E75 /* FacebookCore.framework */,
+				D03487E82224AB1D00996E75 /* FacebookLogin.framework */,
+				D03487EA2224AB1D00996E75 /* FacebookShare.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D03487EC2224AB2A00996E75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D03487F22224AB2A00996E75 /* FacebookCore.framework */,
+				D03487F42224AB2A00996E75 /* FacebookLogin.framework */,
+				D03487F62224AB2A00996E75 /* FacebookShare.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D05CBF49223C2CDE004D4A5D /* DynamoDB */ = {
+			isa = PBXGroup;
+			children = (
+				D019999F22357ED300233500 /* DynamoDBController.swift */,
+			);
+			path = DynamoDB;
+			sourceTree = "<group>";
+		};
+		D0D1FB5122248F4300A05063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D09692CA2229A33B00AA5D0B /* SystemConfiguration.framework */,
+				D09692C82229A33300AA5D0B /* SafariServices.framework */,
+				D03487EB2224AB2A00996E75 /* FacebookSwift.xcodeproj */,
+				D03487D62224AB1C00996E75 /* FacebookSwift.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0EC558B221BBA5A00B99170 = {
+			isa = PBXGroup;
+			children = (
+				D01FA8B42224B62900780070 /* FBSDKShareKit.framework */,
+				D01FA8B12224B61A00780070 /* FBSDKLoginKit.framework */,
+				D01FA8AE2224B5FC00780070 /* FBSDKCoreKit.framework */,
+				D074ADB4222DABAA004F9E79 /* GoogleSignIn.framework */,
+				D0EC55BA221BC12900B99170 /* AWSCognitoIdentityProviderASF.framework */,
+				D0EC55B7221BC0E400B99170 /* AWSCognitoIdentityProvider.framework */,
+				D0EC55AE221BBC6B00B99170 /* AWSCognito.framework */,
+				D0EC55AA221BBC4E00B99170 /* AWSCore.framework */,
+				D0D459812234C1B300367600 /* AWSDynamoDB.framework */,
+				D0EC5596221BBA5A00B99170 /* AWSClmChatApplication */,
+				D0D1FB5122248F4300A05063 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0EC5595221BBA5A00B99170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0EC5594221BBA5A00B99170 /* AWSClmChatApplication.app */,
+			);
+			name = Products;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D0EC5596221BBA5A00B99170 /* AWSClmChatApplication */ = {
+			isa = PBXGroup;
+			children = (
+				D04BE945222D980B00D7A0C7 /* GoogleService-Info.plist */,
+				D0EC55A3221BBA5C00B99170 /* Info.plist */,
+				D0EC55D0221BC73200B99170 /* Application Delegate */,
+				D0EC55CF221BC6FE00B99170 /* Resources Files */,
+				D0EC55CE221BC6D800B99170 /* Supporting Files */,
+				D0EC55BD221BC63100B99170 /* Controller */,
+				D0EC55C6221BC68100B99170 /* Storyboard */,
+				D04639C822206E6B00509CF5 /* ObjCBridging-Header.h */,
+				D019999A2235765C00233500 /* Model */,
+			);
+			path = AWSClmChatApplication;
+			sourceTree = "<group>";
+		};
+		D0EC55BD221BC63100B99170 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D05CBF49223C2CDE004D4A5D /* DynamoDB */,
+				D0EC55C0221BC65400B99170 /* HomeViewController.swift */,
+				D0EC55BE221BC63100B99170 /* CognitoUserPoolViewController.swift */,
+				D0EC55C2221BC66700B99170 /* LoginViewController.swift */,
+				D0EC55C3221BC66700B99170 /* SignupViewController.swift */,
+				D0529F852225D6F000EC0EE4 /* CognitoIdentityPoolController.swift */,
+				D013809A222610E500998C61 /* SocialIdentityManager.swift */,
+				D019999D22357A5D00233500 /* ChatManager.swift */,
+				D0421CFA223CB1CB00A9033E /* FriendTableViewCell.swift */,
+				D09FA17F223F0DD700F652F4 /* AddFriendViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D0EC55C6221BC68100B99170 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D0EC55C7221BC68100B99170 /* ChatJourney.storyboard */,
+				D0EC55C8221BC68100B99170 /* LaunchScreen.storyboard */,
+				D0EC55CA221BC68100B99170 /* MainStoryboard.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D0EC55CE221BC6D800B99170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0EC5595221BBA5A00B99170 /* Products */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0EC55CF221BC6FE00B99170 /* Resources Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0EC559E221BBA5C00B99170 /* Assets.xcassets */,
+			);
+			path = "Resources Files";
+			sourceTree = "<group>";
+		};
+		D0EC55D0221BC73200B99170 /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				D0EC5597221BBA5A00B99170 /* AppDelegate.swift */,
+			);
+			path = "Application Delegate";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0EC5593221BBA5A00B99170 /* AWSClmChatApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0EC55A6221BBA5C00B99170 /* Build configuration list for PBXNativeTarget "AWSClmChatApplication" */;
+			buildPhases = (
+				D0EC5590221BBA5A00B99170 /* Sources */,
+				D0EC5591221BBA5A00B99170 /* Frameworks */,
+				D0EC5592221BBA5A00B99170 /* Resources */,
+				D0EC55AD221BBC4E00B99170 /* Embed Frameworks */,
+				D0EC55A9221BBBAA00B99170 /* ShellScript */,
+				D0CCB21A222D9E0A0035E6FB /* Embed PlugIns */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D01FA8A52224B59800780070 /* PBXTargetDependency */,
+				D01FA8A92224B59800780070 /* PBXTargetDependency */,
+				D01FA8AD2224B59800780070 /* PBXTargetDependency */,
+			);
+			name = AWSClmChatApplication;
+			productName = AWSClmChatApplication;
+			productReference = D0EC5594221BBA5A00B99170 /* AWSClmChatApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0EC558C221BBA5A00B99170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Igor Clemente";
+				TargetAttributes = {
+					D0EC5593221BBA5A00B99170 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D0EC558F221BBA5A00B99170 /* Build configuration list for PBXProject "AWSClmChatApplication" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0EC558B221BBA5A00B99170;
+			productRefGroup = D0EC5595221BBA5A00B99170 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D03487D72224AB1C00996E75 /* Products */;
+					ProjectRef = D03487D62224AB1C00996E75 /* FacebookSwift.xcodeproj */;
+				},
+				{
+					ProductGroup = D03487EC2224AB2A00996E75 /* Products */;
+					ProjectRef = D03487EB2224AB2A00996E75 /* FacebookSwift.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D0EC5593221BBA5A00B99170 /* AWSClmChatApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D03487E62224AB1D00996E75 /* FacebookCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FacebookCore.framework;
+			remoteRef = D03487E52224AB1D00996E75 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D03487E82224AB1D00996E75 /* FacebookLogin.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FacebookLogin.framework;
+			remoteRef = D03487E72224AB1D00996E75 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D03487EA2224AB1D00996E75 /* FacebookShare.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FacebookShare.framework;
+			remoteRef = D03487E92224AB1D00996E75 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D03487F22224AB2A00996E75 /* FacebookCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FacebookCore.framework;
+			remoteRef = D03487F12224AB2A00996E75 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D03487F42224AB2A00996E75 /* FacebookLogin.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FacebookLogin.framework;
+			remoteRef = D03487F32224AB2A00996E75 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D03487F62224AB2A00996E75 /* FacebookShare.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FacebookShare.framework;
+			remoteRef = D03487F52224AB2A00996E75 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0EC5592221BBA5A00B99170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EC55CD221BC68100B99170 /* MainStoryboard.storyboard in Resources */,
+				D0EC55CB221BC68100B99170 /* ChatJourney.storyboard in Resources */,
+				D04BE946222D980B00D7A0C7 /* GoogleService-Info.plist in Resources */,
+				D0EC559F221BBA5C00B99170 /* Assets.xcassets in Resources */,
+				D0EC55CC221BC68100B99170 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0EC55A9221BBBAA00B99170 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nbash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework/strip-frameworks.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0EC5590221BBA5A00B99170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EC55C5221BC66700B99170 /* SignupViewController.swift in Sources */,
+				D013809B222610E600998C61 /* SocialIdentityManager.swift in Sources */,
+				D0EC55BF221BC63100B99170 /* CognitoUserPoolViewController.swift in Sources */,
+				D019999E22357A5D00233500 /* ChatManager.swift in Sources */,
+				D0199999223574DE00233500 /* Chat.swift in Sources */,
+				D0EC5598221BBA5A00B99170 /* AppDelegate.swift in Sources */,
+				D0D459882234CCD500367600 /* User.swift in Sources */,
+				D019999C2235775400233500 /* Message.swift in Sources */,
+				D0529F862225D6F000EC0EE4 /* CognitoIdentityPoolController.swift in Sources */,
+				D01999A022357ED300233500 /* DynamoDBController.swift in Sources */,
+				D0199994223573BB00233500 /* Friend.swift in Sources */,
+				D0EC55C4221BC66700B99170 /* LoginViewController.swift in Sources */,
+				D09FA180223F0DD700F652F4 /* AddFriendViewController.swift in Sources */,
+				D0EC55C1221BC65400B99170 /* HomeViewController.swift in Sources */,
+				D0421CFB223CB1CB00A9033E /* FriendTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D01FA8A52224B59800780070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FacebookCore;
+			targetProxy = D01FA8A42224B59800780070 /* PBXContainerItemProxy */;
+		};
+		D01FA8A92224B59800780070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FacebookLogin;
+			targetProxy = D01FA8A82224B59800780070 /* PBXContainerItemProxy */;
+		};
+		D01FA8AD2224B59800780070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FacebookShare;
+			targetProxy = D01FA8AC2224B59800780070 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0EC55C8221BC68100B99170 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0EC55C9221BC68100B99170 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0EC55A4221BBA5C00B99170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
+			};
+			name = Debug;
+		};
+		D0EC55A5221BBA5C00B99170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0EC55A7221BBA5C00B99170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MSY48RE9K;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/google_signin_sdk_4_4_0",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/AWSClmChatApplication/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clemente.AWSClmChatApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/AWSClmChatApplication/ObjCBridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0EC55A8221BBA5C00B99170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MSY48RE9K;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/google_signin_sdk_4_4_0",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/AWSClmChatApplication/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				"LD_MAP_FILE_PATH[arch=*]" = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clemente.AWSClmChatApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/AWSClmChatApplication/ObjCBridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0EC558F221BBA5A00B99170 /* Build configuration list for PBXProject "AWSClmChatApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EC55A4221BBA5C00B99170 /* Debug */,
+				D0EC55A5221BBA5C00B99170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0EC55A6221BBA5C00B99170 /* Build configuration list for PBXNativeTarget "AWSClmChatApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EC55A7221BBA5C00B99170 /* Debug */,
+				D0EC55A8221BBA5C00B99170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0EC558C221BBA5A00B99170 /* Project object */;
+}

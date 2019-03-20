@@ -1,0 +1,422 @@
+BCSymbolMap Version: 2.0
+-[AWSUserPoolsUIOperations loginWithUserName:password:navigationController:completionHandler:]
+-[AWSUserPoolsUIOperations initWithAuthUIConfiguration:]
+-[AWSUserPoolsUIOperations init]
+-[AWSUserPoolsUIOperations pushSignUpVCFromNavigationController:]
+-[AWSUserPoolsUIOperations pushForgotPasswordVCFromNavigationController:]
+-[AWSUserPoolsUIOperations getUserPoolsViewControllerWithIdentifier:]
+-[AWSUserPoolsUIOperations handleUserPoolSignInFlowStart]
+-[AWSUserPoolsUIOperations handleLoginWithSignInProvider:]
+___58-[AWSUserPoolsUIOperations handleLoginWithSignInProvider:]_block_invoke
+___58-[AWSUserPoolsUIOperations handleLoginWithSignInProvider:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_.74
+___destroy_helper_block_.75
+-[AWSUserPoolsUIOperations startPasswordAuthentication]
+-[AWSUserPoolsUIOperations startMultiFactorAuthentication]
+___58-[AWSUserPoolsUIOperations startMultiFactorAuthentication]_block_invoke
+___copy_helper_block_.80
+___destroy_helper_block_.81
+-[AWSUserPoolsUIOperations getPasswordAuthenticationDetails:passwordAuthenticationCompletionSource:]
+-[AWSUserPoolsUIOperations didCompletePasswordAuthenticationStepWithError:]
+___75-[AWSUserPoolsUIOperations didCompletePasswordAuthenticationStepWithError:]_block_invoke
+___copy_helper_block_.105
+___destroy_helper_block_.106
++[AWSUserPoolsUIOperations getViewControllerWithName:storyboard:]
++[AWSUserPoolsUIOperations getUIStoryboardFromBundle:]
+-[AWSUserPoolsUIOperations config]
+-[AWSUserPoolsUIOperations setConfig:]
+-[AWSUserPoolsUIOperations navigationController]
+-[AWSUserPoolsUIOperations setNavigationController:]
+-[AWSUserPoolsUIOperations completionHandler]
+-[AWSUserPoolsUIOperations setCompletionHandler:]
+-[AWSUserPoolsUIOperations passwordAuthenticationCompletion]
+-[AWSUserPoolsUIOperations setPasswordAuthenticationCompletion:]
+-[AWSUserPoolsUIOperations mfaViewController]
+-[AWSUserPoolsUIOperations setMfaViewController:]
+-[AWSUserPoolsUIOperations userName]
+-[AWSUserPoolsUIOperations setUserName:]
+-[AWSUserPoolsUIOperations password]
+-[AWSUserPoolsUIOperations setPassword:]
+-[AWSUserPoolsUIOperations .cxx_destruct]
+___block_descriptor_tmp
+___block_descriptor_tmp.77
+___block_descriptor_tmp.82
+___block_descriptor_tmp.107
+_OBJC_IVAR_$_AWSUserPoolsUIOperations._config
+_OBJC_IVAR_$_AWSUserPoolsUIOperations._navigationController
+_OBJC_IVAR_$_AWSUserPoolsUIOperations._completionHandler
+_OBJC_IVAR_$_AWSUserPoolsUIOperations._passwordAuthenticationCompletion
+_OBJC_IVAR_$_AWSUserPoolsUIOperations._mfaViewController
+_OBJC_IVAR_$_AWSUserPoolsUIOperations._userName
+_OBJC_IVAR_$_AWSUserPoolsUIOperations._password
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_AWSCognitoIdentityInteractiveAuthenticationDelegate
+l_OBJC_LABEL_PROTOCOL_$_AWSCognitoIdentityInteractiveAuthenticationDelegate
+l_OBJC_PROTOCOL_$_AWSCognitoIdentityPasswordAuthentication
+l_OBJC_LABEL_PROTOCOL_$_AWSCognitoIdentityPasswordAuthentication
+l_OBJC_PROTOCOL_$_AWSCognitoUserPoolsSignInHandler
+l_OBJC_LABEL_PROTOCOL_$_AWSCognitoUserPoolsSignInHandler
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/distiller/project/AWSAuthSDK/Sources/AWSUserPoolsSignIn/AWSUserPoolsUIOperations.m
+/Users/distiller/project/AWSAuthSDK
+__destroy_helper_block_
+__copy_helper_block_
+__75-[AWSUserPoolsUIOperations didCompletePasswordAuthenticationStepWithError:]_block_invoke
+__58-[AWSUserPoolsUIOperations startMultiFactorAuthentication]_block_invoke
+__58-[AWSUserPoolsUIOperations handleLoginWithSignInProvider:]_block_invoke_2
+__58-[AWSUserPoolsUIOperations handleLoginWithSignInProvider:]_block_invoke
+-[AWSFormTableDelegate init]
+-[AWSFormTableDelegate numberOfCells]
+-[AWSFormTableDelegate addCell:]
+-[AWSFormTableDelegate tableView:didSelectRowAtIndexPath:]
+-[AWSFormTableDelegate tableView:numberOfRowsInSection:]
+-[AWSFormTableDelegate showPassword:]
+-[AWSFormTableDelegate setButtonFont:]
+-[AWSFormTableDelegate tableView:cellForRowAtIndexPath:]
+-[AWSFormTableDelegate getValueForCell:forTableView:]
+-[AWSFormTableDelegate getAWSTableInputCell:forTableView:]
+-[AWSFormTableDelegate cells]
+-[AWSFormTableDelegate setCells:]
+-[AWSFormTableDelegate .cxx_destruct]
+_OBJC_IVAR_$_AWSFormTableDelegate._cells
+l_OBJC_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_PROTOCOL_$_UITableViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UITableViewDelegate
+l_OBJC_PROTOCOL_$_UITableViewDataSource
+l_OBJC_LABEL_PROTOCOL_$_UITableViewDataSource
+/Users/distiller/project/AWSAuthSDK/Sources/AWSUserPoolsSignIn/UserPoolsUI/AWSFormTableDelegate.m
+-[AWSFormTableCell initWithPlaceHolder:type:]
+-[AWSFormTableCell initWithPlaceHolder:staticText:]
+-[AWSFormTableCell placeHolder]
+-[AWSFormTableCell setPlaceHolder:]
+-[AWSFormTableCell inputType]
+-[AWSFormTableCell setInputType:]
+-[AWSFormTableCell staticText]
+-[AWSFormTableCell setStaticText:]
+-[AWSFormTableCell .cxx_destruct]
+_OBJC_IVAR_$_AWSFormTableCell._placeHolder
+_OBJC_IVAR_$_AWSFormTableCell._inputType
+_OBJC_IVAR_$_AWSFormTableCell._staticText
+/Users/distiller/project/AWSAuthSDK/Sources/AWSUserPoolsSignIn/UserPoolsUI/AWSFormTableCell.m
+/Users/distiller/project/AWSAuthSDK/Sources/AWSUserPoolsSignIn/UserPoolsUI/AWSFormTableCell.h
+-[AWSUserPoolForgotPasswordViewController viewDidLoad]
+-[AWSUserPoolForgotPasswordViewController touchesBegan:withEvent:]
+-[AWSUserPoolForgotPasswordViewController setUp]
+-[AWSUserPoolForgotPasswordViewController setUpBackground]
+-[AWSUserPoolForgotPasswordViewController prepareForSegue:sender:]
+-[AWSUserPoolForgotPasswordViewController onForgotPassword:]
+___60-[AWSUserPoolForgotPasswordViewController onForgotPassword:]_block_invoke
+___60-[AWSUserPoolForgotPasswordViewController onForgotPassword:]_block_invoke_2
+___copy_helper_block_.123
+___destroy_helper_block_.124
+-[AWSUserPoolForgotPasswordViewController tableFormView]
+-[AWSUserPoolForgotPasswordViewController setTableFormView:]
+-[AWSUserPoolForgotPasswordViewController tableView]
+-[AWSUserPoolForgotPasswordViewController setTableView:]
+-[AWSUserPoolForgotPasswordViewController config]
+-[AWSUserPoolForgotPasswordViewController setConfig:]
+-[AWSUserPoolForgotPasswordViewController pool]
+-[AWSUserPoolForgotPasswordViewController setPool:]
+-[AWSUserPoolForgotPasswordViewController user]
+-[AWSUserPoolForgotPasswordViewController setUser:]
+-[AWSUserPoolForgotPasswordViewController userNameRow]
+-[AWSUserPoolForgotPasswordViewController setUserNameRow:]
+-[AWSUserPoolForgotPasswordViewController tableDelegate]
+-[AWSUserPoolForgotPasswordViewController setTableDelegate:]
+-[AWSUserPoolForgotPasswordViewController .cxx_destruct]
+-[AWSUserPoolNewPasswordViewController viewDidLoad]
+-[AWSUserPoolNewPasswordViewController touchesBegan:withEvent:]
+-[AWSUserPoolNewPasswordViewController setUp]
+-[AWSUserPoolNewPasswordViewController setUpBackground]
+-[AWSUserPoolNewPasswordViewController onUpdatePassword:]
+___57-[AWSUserPoolNewPasswordViewController onUpdatePassword:]_block_invoke
+___57-[AWSUserPoolNewPasswordViewController onUpdatePassword:]_block_invoke_2
+___57-[AWSUserPoolNewPasswordViewController onUpdatePassword:]_block_invoke_3
+___copy_helper_block_.192
+___destroy_helper_block_.193
+___copy_helper_block_.196
+___destroy_helper_block_.197
+___copy_helper_block_.199
+___destroy_helper_block_.200
+-[AWSUserPoolNewPasswordViewController tableFormView]
+-[AWSUserPoolNewPasswordViewController setTableFormView:]
+-[AWSUserPoolNewPasswordViewController tableView]
+-[AWSUserPoolNewPasswordViewController setTableView:]
+-[AWSUserPoolNewPasswordViewController config]
+-[AWSUserPoolNewPasswordViewController setConfig:]
+-[AWSUserPoolNewPasswordViewController user]
+-[AWSUserPoolNewPasswordViewController setUser:]
+-[AWSUserPoolNewPasswordViewController updatedPasswordRow]
+-[AWSUserPoolNewPasswordViewController setUpdatedPasswordRow:]
+-[AWSUserPoolNewPasswordViewController confirmationCodeRow]
+-[AWSUserPoolNewPasswordViewController setConfirmationCodeRow:]
+-[AWSUserPoolNewPasswordViewController tableDelegate]
+-[AWSUserPoolNewPasswordViewController setTableDelegate:]
+-[AWSUserPoolNewPasswordViewController .cxx_destruct]
+_OBJC_IVAR_$_AWSUserPoolForgotPasswordViewController._userNameRow
+_OBJC_IVAR_$_AWSUserPoolForgotPasswordViewController._tableDelegate
+___block_descriptor_tmp.126
+_OBJC_IVAR_$_AWSUserPoolForgotPasswordViewController._tableFormView
+_OBJC_IVAR_$_AWSUserPoolForgotPasswordViewController._tableView
+_OBJC_IVAR_$_AWSUserPoolForgotPasswordViewController._config
+_OBJC_IVAR_$_AWSUserPoolForgotPasswordViewController._pool
+_OBJC_IVAR_$_AWSUserPoolForgotPasswordViewController._user
+_OBJC_IVAR_$_AWSUserPoolNewPasswordViewController._confirmationCodeRow
+_OBJC_IVAR_$_AWSUserPoolNewPasswordViewController._updatedPasswordRow
+_OBJC_IVAR_$_AWSUserPoolNewPasswordViewController._tableDelegate
+___block_descriptor_tmp.195
+___block_descriptor_tmp.198
+___block_descriptor_tmp.201
+_OBJC_IVAR_$_AWSUserPoolNewPasswordViewController._tableFormView
+_OBJC_IVAR_$_AWSUserPoolNewPasswordViewController._tableView
+_OBJC_IVAR_$_AWSUserPoolNewPasswordViewController._config
+_OBJC_IVAR_$_AWSUserPoolNewPasswordViewController._user
+/Users/distiller/project/AWSAuthSDK/Sources/AWSUserPoolsSignIn/UserPoolsUI/AWSUserPoolForgotPasswordViewController.m
+/Users/distiller/project/AWSAuthSDK/Sources/AWSUserPoolsSignIn/UserPoolsUI/AWSUserPoolForgotPasswordViewController.h
+__57-[AWSUserPoolNewPasswordViewController onUpdatePassword:]_block_invoke_3
+__57-[AWSUserPoolNewPasswordViewController onUpdatePassword:]_block_invoke_2
+__57-[AWSUserPoolNewPasswordViewController onUpdatePassword:]_block_invoke
+__60-[AWSUserPoolForgotPasswordViewController onForgotPassword:]_block_invoke_2
+__60-[AWSUserPoolForgotPasswordViewController onForgotPassword:]_block_invoke
++[AWSCognitoUserPoolsSignInProvider setupUserPoolWithId:cognitoIdentityUserPoolAppClientId:cognitoIdentityUserPoolAppClientSecret:region:]
++[AWSCognitoUserPoolsSignInProvider sharedInstance]
+___51+[AWSCognitoUserPoolsSignInProvider sharedInstance]_block_invoke
+-[AWSCognitoUserPoolsSignInProvider getUserPool]
+-[AWSCognitoUserPoolsSignInProvider setViewControllerForUserPoolsSignIn:]
+-[AWSCognitoUserPoolsSignInProvider identityProviderName]
+-[AWSCognitoUserPoolsSignInProvider token]
+___42-[AWSCognitoUserPoolsSignInProvider token]_block_invoke
+-[AWSCognitoUserPoolsSignInProvider isLoggedIn]
+-[AWSCognitoUserPoolsSignInProvider reloadSession]
+-[AWSCognitoUserPoolsSignInProvider completeLogin]
+-[AWSCognitoUserPoolsSignInProvider setInteractiveAuthDelegate:]
+-[AWSCognitoUserPoolsSignInProvider login:]
+___43-[AWSCognitoUserPoolsSignInProvider login:]_block_invoke
+-[AWSCognitoUserPoolsSignInProvider logout]
+-[AWSCognitoUserPoolsSignInProvider interceptApplication:didFinishLaunchingWithOptions:]
+-[AWSCognitoUserPoolsSignInProvider interceptApplication:openURL:sourceApplication:annotation:]
+-[AWSCognitoUserPoolsSignInProvider signInViewController]
+-[AWSCognitoUserPoolsSignInProvider setSignInViewController:]
+-[AWSCognitoUserPoolsSignInProvider completionHandler]
+-[AWSCognitoUserPoolsSignInProvider setCompletionHandler:]
+-[AWSCognitoUserPoolsSignInProvider interactiveAuthenticationDelegate]
+-[AWSCognitoUserPoolsSignInProvider setInteractiveAuthenticationDelegate:]
+-[AWSCognitoUserPoolsSignInProvider currentUserPool]
+-[AWSCognitoUserPoolsSignInProvider setCurrentUserPool:]
+-[AWSCognitoUserPoolsSignInProvider .cxx_destruct]
+_sharedInstance._sharedInstance
+_sharedInstance.onceToken
+___block_literal_global
+___block_descriptor_tmp.37
+___block_literal_global.38
+___block_descriptor_tmp.67
+_OBJC_IVAR_$_AWSCognitoUserPoolsSignInProvider._signInViewController
+_OBJC_IVAR_$_AWSCognitoUserPoolsSignInProvider._completionHandler
+_OBJC_IVAR_$_AWSCognitoUserPoolsSignInProvider._interactiveAuthenticationDelegate
+_OBJC_IVAR_$_AWSCognitoUserPoolsSignInProvider._currentUserPool
+l_OBJC_PROTOCOL_$_AWSIdentityProvider
+l_OBJC_LABEL_PROTOCOL_$_AWSIdentityProvider
+l_OBJC_PROTOCOL_$_AWSSignInProvider
+l_OBJC_LABEL_PROTOCOL_$_AWSSignInProvider
+/Users/distiller/project/AWSAuthSDK/Sources/AWSUserPoolsSignIn/AWSCognitoUserPoolsSignInProvider.m
+__43-[AWSCognitoUserPoolsSignInProvider login:]_block_invoke
+__42-[AWSCognitoUserPoolsSignInProvider token]_block_invoke
+__51+[AWSCognitoUserPoolsSignInProvider sharedInstance]_block_invoke
+/Applications/Xcode-10.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/once.h
+-[AWSUserPoolMFAViewController viewWillAppear:]
+-[AWSUserPoolMFAViewController viewDidLoad]
+-[AWSUserPoolMFAViewController touchesBegan:withEvent:]
+-[AWSUserPoolMFAViewController setUp]
+-[AWSUserPoolMFAViewController setUpBackground]
+-[AWSUserPoolMFAViewController onSignIn:]
+-[AWSUserPoolMFAViewController getMultiFactorAuthenticationCode:mfaCodeCompletionSource:]
+-[AWSUserPoolMFAViewController didCompleteMultifactorAuthenticationStepWithError:]
+___82-[AWSUserPoolMFAViewController didCompleteMultifactorAuthenticationStepWithError:]_block_invoke
+-[AWSUserPoolMFAViewController tableFormView]
+-[AWSUserPoolMFAViewController setTableFormView:]
+-[AWSUserPoolMFAViewController tableView]
+-[AWSUserPoolMFAViewController setTableView:]
+-[AWSUserPoolMFAViewController codeSentTo]
+-[AWSUserPoolMFAViewController setCodeSentTo:]
+-[AWSUserPoolMFAViewController config]
+-[AWSUserPoolMFAViewController setConfig:]
+-[AWSUserPoolMFAViewController destination]
+-[AWSUserPoolMFAViewController setDestination:]
+-[AWSUserPoolMFAViewController mfaCodeCompletionSource]
+-[AWSUserPoolMFAViewController setMfaCodeCompletionSource:]
+-[AWSUserPoolMFAViewController authenticationCodeRow]
+-[AWSUserPoolMFAViewController setAuthenticationCodeRow:]
+-[AWSUserPoolMFAViewController tableDelegate]
+-[AWSUserPoolMFAViewController setTableDelegate:]
+-[AWSUserPoolMFAViewController .cxx_destruct]
+_OBJC_IVAR_$_AWSUserPoolMFAViewController._authenticationCodeRow
+_OBJC_IVAR_$_AWSUserPoolMFAViewController._tableDelegate
+_OBJC_IVAR_$_AWSUserPoolMFAViewController._tableFormView
+_OBJC_IVAR_$_AWSUserPoolMFAViewController._tableView
+_OBJC_IVAR_$_AWSUserPoolMFAViewController._codeSentTo
+_OBJC_IVAR_$_AWSUserPoolMFAViewController._config
+_OBJC_IVAR_$_AWSUserPoolMFAViewController._destination
+_OBJC_IVAR_$_AWSUserPoolMFAViewController._mfaCodeCompletionSource
+l_OBJC_PROTOCOL_$_AWSCognitoIdentityMultiFactorAuthentication
+l_OBJC_LABEL_PROTOCOL_$_AWSCognitoIdentityMultiFactorAuthentication
+/Users/distiller/project/AWSAuthSDK/Sources/AWSUserPoolsSignIn/UserPoolsUI/AWSUserPoolMFAViewController.m
+/Users/distiller/project/AWSAuthSDK/Sources/AWSUserPoolsSignIn/UserPoolsUI/AWSUserPoolMFAViewController.h
+__82-[AWSUserPoolMFAViewController didCompleteMultifactorAuthenticationStepWithError:]_block_invoke
++[AWSUserPoolsUIHelper setUpFormShadowForView:]
++[AWSUserPoolsUIHelper getBackgroundColor:]
++[AWSUserPoolsUIHelper getFont:]
++[AWSUserPoolsUIHelper isBackgroundColorFullScreen:]
++[AWSUserPoolsUIHelper setAWSUIConfiguration:]
++[AWSUserPoolsUIHelper getAWSUIConfiguration]
+_awsUIConfiguration
+/Users/distiller/project/AWSAuthSDK/Sources/AWSUserPoolsSignIn/UserPoolsUI/AWSUserPoolsUIHelper.m
+-[AWSTableInputCell textEditingDidEnd:]
+___39-[AWSTableInputCell textEditingDidEnd:]_block_invoke
+-[AWSTableInputCell textEditingDidBegin:]
+-[AWSTableInputCell onTap]
+___26-[AWSTableInputCell onTap]_block_invoke
+___26-[AWSTableInputCell onTap]_block_invoke_2
+___copy_helper_block_.20
+___destroy_helper_block_.21
+___copy_helper_block_.27
+___destroy_helper_block_.28
+-[AWSTableInputCell setAWSTableInputCellFont]
+-[AWSTableInputCell placeHolderLabel]
+-[AWSTableInputCell setPlaceHolderLabel:]
+-[AWSTableInputCell headerLabel]
+-[AWSTableInputCell setHeaderLabel:]
+-[AWSTableInputCell inputBox]
+-[AWSTableInputCell setInputBox:]
+-[AWSTableInputCell textfieldView]
+-[AWSTableInputCell setTextfieldView:]
+-[AWSTableInputCell headerLabelView]
+-[AWSTableInputCell setHeaderLabelView:]
+-[AWSTableInputCell placeHolderView]
+-[AWSTableInputCell setPlaceHolderView:]
+-[AWSTableInputCell .cxx_destruct]
+___block_descriptor_tmp.22
+___block_descriptor_tmp.29
+_OBJC_IVAR_$_AWSTableInputCell._placeHolderLabel
+_OBJC_IVAR_$_AWSTableInputCell._headerLabel
+_OBJC_IVAR_$_AWSTableInputCell._inputBox
+_OBJC_IVAR_$_AWSTableInputCell._textfieldView
+_OBJC_IVAR_$_AWSTableInputCell._headerLabelView
+_OBJC_IVAR_$_AWSTableInputCell._placeHolderView
+/Users/distiller/project/AWSAuthSDK/Sources/AWSUserPoolsSignIn/UserPoolsUI/AWSTableInputCell.m
+/Users/distiller/project/AWSAuthSDK/Sources/AWSUserPoolsSignIn/UserPoolsUI/AWSTableInputCell.h
+__26-[AWSTableInputCell onTap]_block_invoke_2
+__26-[AWSTableInputCell onTap]_block_invoke
+__39-[AWSTableInputCell textEditingDidEnd:]_block_invoke
+-[AWSUserPoolSignUpViewController viewDidLoad]
+-[AWSUserPoolSignUpViewController touchesBegan:withEvent:]
+-[AWSUserPoolSignUpViewController setUp]
+-[AWSUserPoolSignUpViewController setUpBackground]
+-[AWSUserPoolSignUpViewController prepareForSegue:sender:]
+-[AWSUserPoolSignUpViewController onSignUpClicked:]
+___51-[AWSUserPoolSignUpViewController onSignUpClicked:]_block_invoke
+___51-[AWSUserPoolSignUpViewController onSignUpClicked:]_block_invoke_2
+___51-[AWSUserPoolSignUpViewController onSignUpClicked:]_block_invoke_3
+___copy_helper_block_.200
+___destroy_helper_block_.201
+-[AWSUserPoolSignUpViewController formView]
+-[AWSUserPoolSignUpViewController setFormView:]
+-[AWSUserPoolSignUpViewController tableFormView]
+-[AWSUserPoolSignUpViewController setTableFormView:]
+-[AWSUserPoolSignUpViewController tableView]
+-[AWSUserPoolSignUpViewController setTableView:]
+-[AWSUserPoolSignUpViewController config]
+-[AWSUserPoolSignUpViewController setConfig:]
+-[AWSUserPoolSignUpViewController pool]
+-[AWSUserPoolSignUpViewController setPool:]
+-[AWSUserPoolSignUpViewController sentTo]
+-[AWSUserPoolSignUpViewController setSentTo:]
+-[AWSUserPoolSignUpViewController userNameRow]
+-[AWSUserPoolSignUpViewController setUserNameRow:]
+-[AWSUserPoolSignUpViewController passwordRow]
+-[AWSUserPoolSignUpViewController setPasswordRow:]
+-[AWSUserPoolSignUpViewController phoneNumberRow]
+-[AWSUserPoolSignUpViewController setPhoneNumberRow:]
+-[AWSUserPoolSignUpViewController emailRow]
+-[AWSUserPoolSignUpViewController setEmailRow:]
+-[AWSUserPoolSignUpViewController tableDelegate]
+-[AWSUserPoolSignUpViewController setTableDelegate:]
+-[AWSUserPoolSignUpViewController .cxx_destruct]
+-[UserPoolSignUpConfirmationViewController viewDidLoad]
+-[UserPoolSignUpConfirmationViewController touchesBegan:withEvent:]
+-[UserPoolSignUpConfirmationViewController setUp]
+-[UserPoolSignUpConfirmationViewController setUpBackground]
+-[UserPoolSignUpConfirmationViewController onConfirmCode:]
+___58-[UserPoolSignUpConfirmationViewController onConfirmCode:]_block_invoke
+___58-[UserPoolSignUpConfirmationViewController onConfirmCode:]_block_invoke_2
+___58-[UserPoolSignUpConfirmationViewController onConfirmCode:]_block_invoke_3
+___copy_helper_block_.280
+___destroy_helper_block_.281
+___copy_helper_block_.283
+___destroy_helper_block_.284
+___copy_helper_block_.286
+___destroy_helper_block_.287
+-[UserPoolSignUpConfirmationViewController onResendConfirmationCode:]
+___69-[UserPoolSignUpConfirmationViewController onResendConfirmationCode:]_block_invoke
+___69-[UserPoolSignUpConfirmationViewController onResendConfirmationCode:]_block_invoke_2
+___copy_helper_block_.298
+___destroy_helper_block_.299
+___copy_helper_block_.301
+___destroy_helper_block_.302
+-[UserPoolSignUpConfirmationViewController tableFormView]
+-[UserPoolSignUpConfirmationViewController setTableFormView:]
+-[UserPoolSignUpConfirmationViewController tableView]
+-[UserPoolSignUpConfirmationViewController setTableView:]
+-[UserPoolSignUpConfirmationViewController config]
+-[UserPoolSignUpConfirmationViewController setConfig:]
+-[UserPoolSignUpConfirmationViewController sentTo]
+-[UserPoolSignUpConfirmationViewController setSentTo:]
+-[UserPoolSignUpConfirmationViewController user]
+-[UserPoolSignUpConfirmationViewController setUser:]
+-[UserPoolSignUpConfirmationViewController userNameRow]
+-[UserPoolSignUpConfirmationViewController setUserNameRow:]
+-[UserPoolSignUpConfirmationViewController confirmationCodeRow]
+-[UserPoolSignUpConfirmationViewController setConfirmationCodeRow:]
+-[UserPoolSignUpConfirmationViewController tableDelegate]
+-[UserPoolSignUpConfirmationViewController setTableDelegate:]
+-[UserPoolSignUpConfirmationViewController .cxx_destruct]
+_OBJC_IVAR_$_AWSUserPoolSignUpViewController._userNameRow
+_OBJC_IVAR_$_AWSUserPoolSignUpViewController._passwordRow
+_OBJC_IVAR_$_AWSUserPoolSignUpViewController._emailRow
+_OBJC_IVAR_$_AWSUserPoolSignUpViewController._phoneNumberRow
+_OBJC_IVAR_$_AWSUserPoolSignUpViewController._tableDelegate
+___block_descriptor_tmp.199
+___block_descriptor_tmp.203
+_OBJC_IVAR_$_AWSUserPoolSignUpViewController._formView
+_OBJC_IVAR_$_AWSUserPoolSignUpViewController._tableFormView
+_OBJC_IVAR_$_AWSUserPoolSignUpViewController._tableView
+_OBJC_IVAR_$_AWSUserPoolSignUpViewController._config
+_OBJC_IVAR_$_AWSUserPoolSignUpViewController._pool
+_OBJC_IVAR_$_AWSUserPoolSignUpViewController._sentTo
+_OBJC_IVAR_$_UserPoolSignUpConfirmationViewController._userNameRow
+_OBJC_IVAR_$_UserPoolSignUpConfirmationViewController._confirmationCodeRow
+_OBJC_IVAR_$_UserPoolSignUpConfirmationViewController._tableDelegate
+___block_descriptor_tmp.282
+___block_descriptor_tmp.285
+___block_descriptor_tmp.288
+___block_descriptor_tmp.300
+___block_descriptor_tmp.303
+_OBJC_IVAR_$_UserPoolSignUpConfirmationViewController._tableFormView
+_OBJC_IVAR_$_UserPoolSignUpConfirmationViewController._tableView
+_OBJC_IVAR_$_UserPoolSignUpConfirmationViewController._config
+_OBJC_IVAR_$_UserPoolSignUpConfirmationViewController._sentTo
+_OBJC_IVAR_$_UserPoolSignUpConfirmationViewController._user
+/Users/distiller/project/AWSAuthSDK/Sources/AWSUserPoolsSignIn/UserPoolsUI/AWSUserPoolSignUpViewController.m
+/Users/distiller/project/AWSAuthSDK/Sources/AWSUserPoolsSignIn/UserPoolsUI/AWSUserPoolSignUpViewController.h
+__69-[UserPoolSignUpConfirmationViewController onResendConfirmationCode:]_block_invoke_2
+__69-[UserPoolSignUpConfirmationViewController onResendConfirmationCode:]_block_invoke
+__58-[UserPoolSignUpConfirmationViewController onConfirmCode:]_block_invoke_3
+__58-[UserPoolSignUpConfirmationViewController onConfirmCode:]_block_invoke_2
+__58-[UserPoolSignUpConfirmationViewController onConfirmCode:]_block_invoke
+__51-[AWSUserPoolSignUpViewController onSignUpClicked:]_block_invoke_3
+__51-[AWSUserPoolSignUpViewController onSignUpClicked:]_block_invoke_2
+__51-[AWSUserPoolSignUpViewController onSignUpClicked:]_block_invoke
+/Users/distiller/Library/Developer/Xcode/DerivedData/AWSAuthSDK-awjpvqlgobdtszaszohsjogaibvn/Build/Intermediates.noindex/ArchiveIntermediates/AWSUserPoolsSignIn/IntermediateBuildFilesPath/AWSAuthSDK.build/Release-iphoneos/AWSUserPoolsSignIn.build/DerivedSources/AWSUserPoolsSignIn_vers.c

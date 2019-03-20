@@ -1,0 +1,1505 @@
+BCSymbolMap Version: 2.0
++[AWSLogsResources sharedInstance]
+___34+[AWSLogsResources sharedInstance]_block_invoke
+-[AWSLogsResources JSONObject]
+-[AWSLogsResources init]
+-[AWSLogsResources definitionString]
+-[AWSLogsResources definitionDictionary]
+-[AWSLogsResources setDefinitionDictionary:]
+-[AWSLogsResources .cxx_destruct]
+_sharedInstance._sharedResources
+_sharedInstance.once_token
+___block_descriptor_tmp
+___block_literal_global
+_OBJC_IVAR_$_AWSLogsResources._definitionDictionary
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/distiller/project/AWSLogs/AWSLogsResources.m
+/Users/distiller/project
+__34+[AWSLogsResources sharedInstance]_block_invoke
+/Applications/Xcode-10.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/once.h
++[AWSLogsAssociateKmsKeyRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsAssociateKmsKeyRequest kmsKeyId]
+-[AWSLogsAssociateKmsKeyRequest setKmsKeyId:]
+-[AWSLogsAssociateKmsKeyRequest logGroupName]
+-[AWSLogsAssociateKmsKeyRequest setLogGroupName:]
+-[AWSLogsAssociateKmsKeyRequest .cxx_destruct]
++[AWSLogsCancelExportTaskRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsCancelExportTaskRequest taskId]
+-[AWSLogsCancelExportTaskRequest setTaskId:]
+-[AWSLogsCancelExportTaskRequest .cxx_destruct]
++[AWSLogsCreateExportTaskRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsCreateExportTaskRequest destination]
+-[AWSLogsCreateExportTaskRequest setDestination:]
+-[AWSLogsCreateExportTaskRequest destinationPrefix]
+-[AWSLogsCreateExportTaskRequest setDestinationPrefix:]
+-[AWSLogsCreateExportTaskRequest from]
+-[AWSLogsCreateExportTaskRequest setFrom:]
+-[AWSLogsCreateExportTaskRequest logGroupName]
+-[AWSLogsCreateExportTaskRequest setLogGroupName:]
+-[AWSLogsCreateExportTaskRequest logStreamNamePrefix]
+-[AWSLogsCreateExportTaskRequest setLogStreamNamePrefix:]
+-[AWSLogsCreateExportTaskRequest taskName]
+-[AWSLogsCreateExportTaskRequest setTaskName:]
+-[AWSLogsCreateExportTaskRequest to]
+-[AWSLogsCreateExportTaskRequest setTo:]
+-[AWSLogsCreateExportTaskRequest .cxx_destruct]
++[AWSLogsCreateExportTaskResponse JSONKeyPathsByPropertyKey]
+-[AWSLogsCreateExportTaskResponse taskId]
+-[AWSLogsCreateExportTaskResponse setTaskId:]
+-[AWSLogsCreateExportTaskResponse .cxx_destruct]
++[AWSLogsCreateLogGroupRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsCreateLogGroupRequest kmsKeyId]
+-[AWSLogsCreateLogGroupRequest setKmsKeyId:]
+-[AWSLogsCreateLogGroupRequest logGroupName]
+-[AWSLogsCreateLogGroupRequest setLogGroupName:]
+-[AWSLogsCreateLogGroupRequest tags]
+-[AWSLogsCreateLogGroupRequest setTags:]
+-[AWSLogsCreateLogGroupRequest .cxx_destruct]
++[AWSLogsCreateLogStreamRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsCreateLogStreamRequest logGroupName]
+-[AWSLogsCreateLogStreamRequest setLogGroupName:]
+-[AWSLogsCreateLogStreamRequest logStreamName]
+-[AWSLogsCreateLogStreamRequest setLogStreamName:]
+-[AWSLogsCreateLogStreamRequest .cxx_destruct]
++[AWSLogsDeleteDestinationRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsDeleteDestinationRequest destinationName]
+-[AWSLogsDeleteDestinationRequest setDestinationName:]
+-[AWSLogsDeleteDestinationRequest .cxx_destruct]
++[AWSLogsDeleteLogGroupRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsDeleteLogGroupRequest logGroupName]
+-[AWSLogsDeleteLogGroupRequest setLogGroupName:]
+-[AWSLogsDeleteLogGroupRequest .cxx_destruct]
++[AWSLogsDeleteLogStreamRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsDeleteLogStreamRequest logGroupName]
+-[AWSLogsDeleteLogStreamRequest setLogGroupName:]
+-[AWSLogsDeleteLogStreamRequest logStreamName]
+-[AWSLogsDeleteLogStreamRequest setLogStreamName:]
+-[AWSLogsDeleteLogStreamRequest .cxx_destruct]
++[AWSLogsDeleteMetricFilterRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsDeleteMetricFilterRequest filterName]
+-[AWSLogsDeleteMetricFilterRequest setFilterName:]
+-[AWSLogsDeleteMetricFilterRequest logGroupName]
+-[AWSLogsDeleteMetricFilterRequest setLogGroupName:]
+-[AWSLogsDeleteMetricFilterRequest .cxx_destruct]
++[AWSLogsDeleteResourcePolicyRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsDeleteResourcePolicyRequest policyName]
+-[AWSLogsDeleteResourcePolicyRequest setPolicyName:]
+-[AWSLogsDeleteResourcePolicyRequest .cxx_destruct]
++[AWSLogsDeleteRetentionPolicyRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsDeleteRetentionPolicyRequest logGroupName]
+-[AWSLogsDeleteRetentionPolicyRequest setLogGroupName:]
+-[AWSLogsDeleteRetentionPolicyRequest .cxx_destruct]
++[AWSLogsDeleteSubscriptionFilterRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsDeleteSubscriptionFilterRequest filterName]
+-[AWSLogsDeleteSubscriptionFilterRequest setFilterName:]
+-[AWSLogsDeleteSubscriptionFilterRequest logGroupName]
+-[AWSLogsDeleteSubscriptionFilterRequest setLogGroupName:]
+-[AWSLogsDeleteSubscriptionFilterRequest .cxx_destruct]
++[AWSLogsDescribeDestinationsRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsDescribeDestinationsRequest destinationNamePrefix]
+-[AWSLogsDescribeDestinationsRequest setDestinationNamePrefix:]
+-[AWSLogsDescribeDestinationsRequest limit]
+-[AWSLogsDescribeDestinationsRequest setLimit:]
+-[AWSLogsDescribeDestinationsRequest nextToken]
+-[AWSLogsDescribeDestinationsRequest setNextToken:]
+-[AWSLogsDescribeDestinationsRequest .cxx_destruct]
++[AWSLogsDescribeDestinationsResponse JSONKeyPathsByPropertyKey]
++[AWSLogsDescribeDestinationsResponse destinationsJSONTransformer]
+-[AWSLogsDescribeDestinationsResponse destinations]
+-[AWSLogsDescribeDestinationsResponse setDestinations:]
+-[AWSLogsDescribeDestinationsResponse nextToken]
+-[AWSLogsDescribeDestinationsResponse setNextToken:]
+-[AWSLogsDescribeDestinationsResponse .cxx_destruct]
++[AWSLogsDescribeExportTasksRequest JSONKeyPathsByPropertyKey]
++[AWSLogsDescribeExportTasksRequest statusCodeJSONTransformer]
+___62+[AWSLogsDescribeExportTasksRequest statusCodeJSONTransformer]_block_invoke
+___62+[AWSLogsDescribeExportTasksRequest statusCodeJSONTransformer]_block_invoke_2
+-[AWSLogsDescribeExportTasksRequest limit]
+-[AWSLogsDescribeExportTasksRequest setLimit:]
+-[AWSLogsDescribeExportTasksRequest nextToken]
+-[AWSLogsDescribeExportTasksRequest setNextToken:]
+-[AWSLogsDescribeExportTasksRequest statusCode]
+-[AWSLogsDescribeExportTasksRequest setStatusCode:]
+-[AWSLogsDescribeExportTasksRequest taskId]
+-[AWSLogsDescribeExportTasksRequest setTaskId:]
+-[AWSLogsDescribeExportTasksRequest .cxx_destruct]
++[AWSLogsDescribeExportTasksResponse JSONKeyPathsByPropertyKey]
++[AWSLogsDescribeExportTasksResponse exportTasksJSONTransformer]
+-[AWSLogsDescribeExportTasksResponse exportTasks]
+-[AWSLogsDescribeExportTasksResponse setExportTasks:]
+-[AWSLogsDescribeExportTasksResponse nextToken]
+-[AWSLogsDescribeExportTasksResponse setNextToken:]
+-[AWSLogsDescribeExportTasksResponse .cxx_destruct]
++[AWSLogsDescribeLogGroupsRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsDescribeLogGroupsRequest limit]
+-[AWSLogsDescribeLogGroupsRequest setLimit:]
+-[AWSLogsDescribeLogGroupsRequest logGroupNamePrefix]
+-[AWSLogsDescribeLogGroupsRequest setLogGroupNamePrefix:]
+-[AWSLogsDescribeLogGroupsRequest nextToken]
+-[AWSLogsDescribeLogGroupsRequest setNextToken:]
+-[AWSLogsDescribeLogGroupsRequest .cxx_destruct]
++[AWSLogsDescribeLogGroupsResponse JSONKeyPathsByPropertyKey]
++[AWSLogsDescribeLogGroupsResponse logGroupsJSONTransformer]
+-[AWSLogsDescribeLogGroupsResponse logGroups]
+-[AWSLogsDescribeLogGroupsResponse setLogGroups:]
+-[AWSLogsDescribeLogGroupsResponse nextToken]
+-[AWSLogsDescribeLogGroupsResponse setNextToken:]
+-[AWSLogsDescribeLogGroupsResponse .cxx_destruct]
++[AWSLogsDescribeLogStreamsRequest JSONKeyPathsByPropertyKey]
++[AWSLogsDescribeLogStreamsRequest orderByJSONTransformer]
+___58+[AWSLogsDescribeLogStreamsRequest orderByJSONTransformer]_block_invoke
+___58+[AWSLogsDescribeLogStreamsRequest orderByJSONTransformer]_block_invoke_2
+-[AWSLogsDescribeLogStreamsRequest descending]
+-[AWSLogsDescribeLogStreamsRequest setDescending:]
+-[AWSLogsDescribeLogStreamsRequest limit]
+-[AWSLogsDescribeLogStreamsRequest setLimit:]
+-[AWSLogsDescribeLogStreamsRequest logGroupName]
+-[AWSLogsDescribeLogStreamsRequest setLogGroupName:]
+-[AWSLogsDescribeLogStreamsRequest logStreamNamePrefix]
+-[AWSLogsDescribeLogStreamsRequest setLogStreamNamePrefix:]
+-[AWSLogsDescribeLogStreamsRequest nextToken]
+-[AWSLogsDescribeLogStreamsRequest setNextToken:]
+-[AWSLogsDescribeLogStreamsRequest orderBy]
+-[AWSLogsDescribeLogStreamsRequest setOrderBy:]
+-[AWSLogsDescribeLogStreamsRequest .cxx_destruct]
++[AWSLogsDescribeLogStreamsResponse JSONKeyPathsByPropertyKey]
++[AWSLogsDescribeLogStreamsResponse logStreamsJSONTransformer]
+-[AWSLogsDescribeLogStreamsResponse logStreams]
+-[AWSLogsDescribeLogStreamsResponse setLogStreams:]
+-[AWSLogsDescribeLogStreamsResponse nextToken]
+-[AWSLogsDescribeLogStreamsResponse setNextToken:]
+-[AWSLogsDescribeLogStreamsResponse .cxx_destruct]
++[AWSLogsDescribeMetricFiltersRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsDescribeMetricFiltersRequest filterNamePrefix]
+-[AWSLogsDescribeMetricFiltersRequest setFilterNamePrefix:]
+-[AWSLogsDescribeMetricFiltersRequest limit]
+-[AWSLogsDescribeMetricFiltersRequest setLimit:]
+-[AWSLogsDescribeMetricFiltersRequest logGroupName]
+-[AWSLogsDescribeMetricFiltersRequest setLogGroupName:]
+-[AWSLogsDescribeMetricFiltersRequest metricName]
+-[AWSLogsDescribeMetricFiltersRequest setMetricName:]
+-[AWSLogsDescribeMetricFiltersRequest metricNamespace]
+-[AWSLogsDescribeMetricFiltersRequest setMetricNamespace:]
+-[AWSLogsDescribeMetricFiltersRequest nextToken]
+-[AWSLogsDescribeMetricFiltersRequest setNextToken:]
+-[AWSLogsDescribeMetricFiltersRequest .cxx_destruct]
++[AWSLogsDescribeMetricFiltersResponse JSONKeyPathsByPropertyKey]
++[AWSLogsDescribeMetricFiltersResponse metricFiltersJSONTransformer]
+-[AWSLogsDescribeMetricFiltersResponse metricFilters]
+-[AWSLogsDescribeMetricFiltersResponse setMetricFilters:]
+-[AWSLogsDescribeMetricFiltersResponse nextToken]
+-[AWSLogsDescribeMetricFiltersResponse setNextToken:]
+-[AWSLogsDescribeMetricFiltersResponse .cxx_destruct]
++[AWSLogsDescribeQueriesRequest JSONKeyPathsByPropertyKey]
++[AWSLogsDescribeQueriesRequest statusJSONTransformer]
+___54+[AWSLogsDescribeQueriesRequest statusJSONTransformer]_block_invoke
+___54+[AWSLogsDescribeQueriesRequest statusJSONTransformer]_block_invoke_2
+-[AWSLogsDescribeQueriesRequest logGroupName]
+-[AWSLogsDescribeQueriesRequest setLogGroupName:]
+-[AWSLogsDescribeQueriesRequest maxResults]
+-[AWSLogsDescribeQueriesRequest setMaxResults:]
+-[AWSLogsDescribeQueriesRequest nextToken]
+-[AWSLogsDescribeQueriesRequest setNextToken:]
+-[AWSLogsDescribeQueriesRequest status]
+-[AWSLogsDescribeQueriesRequest setStatus:]
+-[AWSLogsDescribeQueriesRequest .cxx_destruct]
++[AWSLogsDescribeQueriesResponse JSONKeyPathsByPropertyKey]
++[AWSLogsDescribeQueriesResponse queriesJSONTransformer]
+-[AWSLogsDescribeQueriesResponse nextToken]
+-[AWSLogsDescribeQueriesResponse setNextToken:]
+-[AWSLogsDescribeQueriesResponse queries]
+-[AWSLogsDescribeQueriesResponse setQueries:]
+-[AWSLogsDescribeQueriesResponse .cxx_destruct]
++[AWSLogsDescribeResourcePoliciesRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsDescribeResourcePoliciesRequest limit]
+-[AWSLogsDescribeResourcePoliciesRequest setLimit:]
+-[AWSLogsDescribeResourcePoliciesRequest nextToken]
+-[AWSLogsDescribeResourcePoliciesRequest setNextToken:]
+-[AWSLogsDescribeResourcePoliciesRequest .cxx_destruct]
++[AWSLogsDescribeResourcePoliciesResponse JSONKeyPathsByPropertyKey]
++[AWSLogsDescribeResourcePoliciesResponse resourcePoliciesJSONTransformer]
+-[AWSLogsDescribeResourcePoliciesResponse nextToken]
+-[AWSLogsDescribeResourcePoliciesResponse setNextToken:]
+-[AWSLogsDescribeResourcePoliciesResponse resourcePolicies]
+-[AWSLogsDescribeResourcePoliciesResponse setResourcePolicies:]
+-[AWSLogsDescribeResourcePoliciesResponse .cxx_destruct]
++[AWSLogsDescribeSubscriptionFiltersRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsDescribeSubscriptionFiltersRequest filterNamePrefix]
+-[AWSLogsDescribeSubscriptionFiltersRequest setFilterNamePrefix:]
+-[AWSLogsDescribeSubscriptionFiltersRequest limit]
+-[AWSLogsDescribeSubscriptionFiltersRequest setLimit:]
+-[AWSLogsDescribeSubscriptionFiltersRequest logGroupName]
+-[AWSLogsDescribeSubscriptionFiltersRequest setLogGroupName:]
+-[AWSLogsDescribeSubscriptionFiltersRequest nextToken]
+-[AWSLogsDescribeSubscriptionFiltersRequest setNextToken:]
+-[AWSLogsDescribeSubscriptionFiltersRequest .cxx_destruct]
++[AWSLogsDescribeSubscriptionFiltersResponse JSONKeyPathsByPropertyKey]
++[AWSLogsDescribeSubscriptionFiltersResponse subscriptionFiltersJSONTransformer]
+-[AWSLogsDescribeSubscriptionFiltersResponse nextToken]
+-[AWSLogsDescribeSubscriptionFiltersResponse setNextToken:]
+-[AWSLogsDescribeSubscriptionFiltersResponse subscriptionFilters]
+-[AWSLogsDescribeSubscriptionFiltersResponse setSubscriptionFilters:]
+-[AWSLogsDescribeSubscriptionFiltersResponse .cxx_destruct]
++[AWSLogsDestination JSONKeyPathsByPropertyKey]
+-[AWSLogsDestination accessPolicy]
+-[AWSLogsDestination setAccessPolicy:]
+-[AWSLogsDestination arn]
+-[AWSLogsDestination setArn:]
+-[AWSLogsDestination creationTime]
+-[AWSLogsDestination setCreationTime:]
+-[AWSLogsDestination destinationName]
+-[AWSLogsDestination setDestinationName:]
+-[AWSLogsDestination roleArn]
+-[AWSLogsDestination setRoleArn:]
+-[AWSLogsDestination targetArn]
+-[AWSLogsDestination setTargetArn:]
+-[AWSLogsDestination .cxx_destruct]
++[AWSLogsDisassociateKmsKeyRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsDisassociateKmsKeyRequest logGroupName]
+-[AWSLogsDisassociateKmsKeyRequest setLogGroupName:]
+-[AWSLogsDisassociateKmsKeyRequest .cxx_destruct]
++[AWSLogsExportTask JSONKeyPathsByPropertyKey]
++[AWSLogsExportTask executionInfoJSONTransformer]
++[AWSLogsExportTask statusJSONTransformer]
+-[AWSLogsExportTask destination]
+-[AWSLogsExportTask setDestination:]
+-[AWSLogsExportTask destinationPrefix]
+-[AWSLogsExportTask setDestinationPrefix:]
+-[AWSLogsExportTask executionInfo]
+-[AWSLogsExportTask setExecutionInfo:]
+-[AWSLogsExportTask from]
+-[AWSLogsExportTask setFrom:]
+-[AWSLogsExportTask logGroupName]
+-[AWSLogsExportTask setLogGroupName:]
+-[AWSLogsExportTask status]
+-[AWSLogsExportTask setStatus:]
+-[AWSLogsExportTask taskId]
+-[AWSLogsExportTask setTaskId:]
+-[AWSLogsExportTask taskName]
+-[AWSLogsExportTask setTaskName:]
+-[AWSLogsExportTask to]
+-[AWSLogsExportTask setTo:]
+-[AWSLogsExportTask .cxx_destruct]
++[AWSLogsExportTaskExecutionInfo JSONKeyPathsByPropertyKey]
+-[AWSLogsExportTaskExecutionInfo completionTime]
+-[AWSLogsExportTaskExecutionInfo setCompletionTime:]
+-[AWSLogsExportTaskExecutionInfo creationTime]
+-[AWSLogsExportTaskExecutionInfo setCreationTime:]
+-[AWSLogsExportTaskExecutionInfo .cxx_destruct]
++[AWSLogsExportTaskStatus JSONKeyPathsByPropertyKey]
++[AWSLogsExportTaskStatus codeJSONTransformer]
+___46+[AWSLogsExportTaskStatus codeJSONTransformer]_block_invoke
+___46+[AWSLogsExportTaskStatus codeJSONTransformer]_block_invoke_2
+-[AWSLogsExportTaskStatus code]
+-[AWSLogsExportTaskStatus setCode:]
+-[AWSLogsExportTaskStatus message]
+-[AWSLogsExportTaskStatus setMessage:]
+-[AWSLogsExportTaskStatus .cxx_destruct]
++[AWSLogsFilterLogEventsRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsFilterLogEventsRequest endTime]
+-[AWSLogsFilterLogEventsRequest setEndTime:]
+-[AWSLogsFilterLogEventsRequest filterPattern]
+-[AWSLogsFilterLogEventsRequest setFilterPattern:]
+-[AWSLogsFilterLogEventsRequest interleaved]
+-[AWSLogsFilterLogEventsRequest setInterleaved:]
+-[AWSLogsFilterLogEventsRequest limit]
+-[AWSLogsFilterLogEventsRequest setLimit:]
+-[AWSLogsFilterLogEventsRequest logGroupName]
+-[AWSLogsFilterLogEventsRequest setLogGroupName:]
+-[AWSLogsFilterLogEventsRequest logStreamNamePrefix]
+-[AWSLogsFilterLogEventsRequest setLogStreamNamePrefix:]
+-[AWSLogsFilterLogEventsRequest logStreamNames]
+-[AWSLogsFilterLogEventsRequest setLogStreamNames:]
+-[AWSLogsFilterLogEventsRequest nextToken]
+-[AWSLogsFilterLogEventsRequest setNextToken:]
+-[AWSLogsFilterLogEventsRequest startTime]
+-[AWSLogsFilterLogEventsRequest setStartTime:]
+-[AWSLogsFilterLogEventsRequest .cxx_destruct]
++[AWSLogsFilterLogEventsResponse JSONKeyPathsByPropertyKey]
++[AWSLogsFilterLogEventsResponse eventsJSONTransformer]
++[AWSLogsFilterLogEventsResponse searchedLogStreamsJSONTransformer]
+-[AWSLogsFilterLogEventsResponse events]
+-[AWSLogsFilterLogEventsResponse setEvents:]
+-[AWSLogsFilterLogEventsResponse nextToken]
+-[AWSLogsFilterLogEventsResponse setNextToken:]
+-[AWSLogsFilterLogEventsResponse searchedLogStreams]
+-[AWSLogsFilterLogEventsResponse setSearchedLogStreams:]
+-[AWSLogsFilterLogEventsResponse .cxx_destruct]
++[AWSLogsFilteredLogEvent JSONKeyPathsByPropertyKey]
+-[AWSLogsFilteredLogEvent eventId]
+-[AWSLogsFilteredLogEvent setEventId:]
+-[AWSLogsFilteredLogEvent ingestionTime]
+-[AWSLogsFilteredLogEvent setIngestionTime:]
+-[AWSLogsFilteredLogEvent logStreamName]
+-[AWSLogsFilteredLogEvent setLogStreamName:]
+-[AWSLogsFilteredLogEvent message]
+-[AWSLogsFilteredLogEvent setMessage:]
+-[AWSLogsFilteredLogEvent timestamp]
+-[AWSLogsFilteredLogEvent setTimestamp:]
+-[AWSLogsFilteredLogEvent .cxx_destruct]
++[AWSLogsGetLogEventsRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsGetLogEventsRequest endTime]
+-[AWSLogsGetLogEventsRequest setEndTime:]
+-[AWSLogsGetLogEventsRequest limit]
+-[AWSLogsGetLogEventsRequest setLimit:]
+-[AWSLogsGetLogEventsRequest logGroupName]
+-[AWSLogsGetLogEventsRequest setLogGroupName:]
+-[AWSLogsGetLogEventsRequest logStreamName]
+-[AWSLogsGetLogEventsRequest setLogStreamName:]
+-[AWSLogsGetLogEventsRequest nextToken]
+-[AWSLogsGetLogEventsRequest setNextToken:]
+-[AWSLogsGetLogEventsRequest startFromHead]
+-[AWSLogsGetLogEventsRequest setStartFromHead:]
+-[AWSLogsGetLogEventsRequest startTime]
+-[AWSLogsGetLogEventsRequest setStartTime:]
+-[AWSLogsGetLogEventsRequest .cxx_destruct]
++[AWSLogsGetLogEventsResponse JSONKeyPathsByPropertyKey]
++[AWSLogsGetLogEventsResponse eventsJSONTransformer]
+-[AWSLogsGetLogEventsResponse events]
+-[AWSLogsGetLogEventsResponse setEvents:]
+-[AWSLogsGetLogEventsResponse nextBackwardToken]
+-[AWSLogsGetLogEventsResponse setNextBackwardToken:]
+-[AWSLogsGetLogEventsResponse nextForwardToken]
+-[AWSLogsGetLogEventsResponse setNextForwardToken:]
+-[AWSLogsGetLogEventsResponse .cxx_destruct]
++[AWSLogsGetLogGroupFieldsRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsGetLogGroupFieldsRequest logGroupName]
+-[AWSLogsGetLogGroupFieldsRequest setLogGroupName:]
+-[AWSLogsGetLogGroupFieldsRequest time]
+-[AWSLogsGetLogGroupFieldsRequest setTime:]
+-[AWSLogsGetLogGroupFieldsRequest .cxx_destruct]
++[AWSLogsGetLogGroupFieldsResponse JSONKeyPathsByPropertyKey]
++[AWSLogsGetLogGroupFieldsResponse logGroupFieldsJSONTransformer]
+-[AWSLogsGetLogGroupFieldsResponse logGroupFields]
+-[AWSLogsGetLogGroupFieldsResponse setLogGroupFields:]
+-[AWSLogsGetLogGroupFieldsResponse .cxx_destruct]
++[AWSLogsGetLogRecordRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsGetLogRecordRequest logRecordPointer]
+-[AWSLogsGetLogRecordRequest setLogRecordPointer:]
+-[AWSLogsGetLogRecordRequest .cxx_destruct]
++[AWSLogsGetLogRecordResponse JSONKeyPathsByPropertyKey]
+-[AWSLogsGetLogRecordResponse logRecord]
+-[AWSLogsGetLogRecordResponse setLogRecord:]
+-[AWSLogsGetLogRecordResponse .cxx_destruct]
++[AWSLogsGetQueryResultsRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsGetQueryResultsRequest queryId]
+-[AWSLogsGetQueryResultsRequest setQueryId:]
+-[AWSLogsGetQueryResultsRequest .cxx_destruct]
++[AWSLogsGetQueryResultsResponse JSONKeyPathsByPropertyKey]
++[AWSLogsGetQueryResultsResponse statisticsJSONTransformer]
++[AWSLogsGetQueryResultsResponse statusJSONTransformer]
+___55+[AWSLogsGetQueryResultsResponse statusJSONTransformer]_block_invoke
+___55+[AWSLogsGetQueryResultsResponse statusJSONTransformer]_block_invoke_2
+-[AWSLogsGetQueryResultsResponse results]
+-[AWSLogsGetQueryResultsResponse setResults:]
+-[AWSLogsGetQueryResultsResponse statistics]
+-[AWSLogsGetQueryResultsResponse setStatistics:]
+-[AWSLogsGetQueryResultsResponse status]
+-[AWSLogsGetQueryResultsResponse setStatus:]
+-[AWSLogsGetQueryResultsResponse .cxx_destruct]
++[AWSLogsInputLogEvent JSONKeyPathsByPropertyKey]
+-[AWSLogsInputLogEvent message]
+-[AWSLogsInputLogEvent setMessage:]
+-[AWSLogsInputLogEvent timestamp]
+-[AWSLogsInputLogEvent setTimestamp:]
+-[AWSLogsInputLogEvent .cxx_destruct]
++[AWSLogsListTagsLogGroupRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsListTagsLogGroupRequest logGroupName]
+-[AWSLogsListTagsLogGroupRequest setLogGroupName:]
+-[AWSLogsListTagsLogGroupRequest .cxx_destruct]
++[AWSLogsListTagsLogGroupResponse JSONKeyPathsByPropertyKey]
+-[AWSLogsListTagsLogGroupResponse tags]
+-[AWSLogsListTagsLogGroupResponse setTags:]
+-[AWSLogsListTagsLogGroupResponse .cxx_destruct]
++[AWSLogsLogGroup JSONKeyPathsByPropertyKey]
+-[AWSLogsLogGroup arn]
+-[AWSLogsLogGroup setArn:]
+-[AWSLogsLogGroup creationTime]
+-[AWSLogsLogGroup setCreationTime:]
+-[AWSLogsLogGroup kmsKeyId]
+-[AWSLogsLogGroup setKmsKeyId:]
+-[AWSLogsLogGroup logGroupName]
+-[AWSLogsLogGroup setLogGroupName:]
+-[AWSLogsLogGroup metricFilterCount]
+-[AWSLogsLogGroup setMetricFilterCount:]
+-[AWSLogsLogGroup retentionInDays]
+-[AWSLogsLogGroup setRetentionInDays:]
+-[AWSLogsLogGroup storedBytes]
+-[AWSLogsLogGroup setStoredBytes:]
+-[AWSLogsLogGroup .cxx_destruct]
++[AWSLogsLogGroupField JSONKeyPathsByPropertyKey]
+-[AWSLogsLogGroupField name]
+-[AWSLogsLogGroupField setName:]
+-[AWSLogsLogGroupField percent]
+-[AWSLogsLogGroupField setPercent:]
+-[AWSLogsLogGroupField .cxx_destruct]
++[AWSLogsLogStream JSONKeyPathsByPropertyKey]
+-[AWSLogsLogStream arn]
+-[AWSLogsLogStream setArn:]
+-[AWSLogsLogStream creationTime]
+-[AWSLogsLogStream setCreationTime:]
+-[AWSLogsLogStream firstEventTimestamp]
+-[AWSLogsLogStream setFirstEventTimestamp:]
+-[AWSLogsLogStream lastEventTimestamp]
+-[AWSLogsLogStream setLastEventTimestamp:]
+-[AWSLogsLogStream lastIngestionTime]
+-[AWSLogsLogStream setLastIngestionTime:]
+-[AWSLogsLogStream logStreamName]
+-[AWSLogsLogStream setLogStreamName:]
+-[AWSLogsLogStream storedBytes]
+-[AWSLogsLogStream setStoredBytes:]
+-[AWSLogsLogStream uploadSequenceToken]
+-[AWSLogsLogStream setUploadSequenceToken:]
+-[AWSLogsLogStream .cxx_destruct]
++[AWSLogsMetricFilter JSONKeyPathsByPropertyKey]
++[AWSLogsMetricFilter metricTransformationsJSONTransformer]
+-[AWSLogsMetricFilter creationTime]
+-[AWSLogsMetricFilter setCreationTime:]
+-[AWSLogsMetricFilter filterName]
+-[AWSLogsMetricFilter setFilterName:]
+-[AWSLogsMetricFilter filterPattern]
+-[AWSLogsMetricFilter setFilterPattern:]
+-[AWSLogsMetricFilter logGroupName]
+-[AWSLogsMetricFilter setLogGroupName:]
+-[AWSLogsMetricFilter metricTransformations]
+-[AWSLogsMetricFilter setMetricTransformations:]
+-[AWSLogsMetricFilter .cxx_destruct]
++[AWSLogsMetricFilterMatchRecord JSONKeyPathsByPropertyKey]
+-[AWSLogsMetricFilterMatchRecord eventMessage]
+-[AWSLogsMetricFilterMatchRecord setEventMessage:]
+-[AWSLogsMetricFilterMatchRecord eventNumber]
+-[AWSLogsMetricFilterMatchRecord setEventNumber:]
+-[AWSLogsMetricFilterMatchRecord extractedValues]
+-[AWSLogsMetricFilterMatchRecord setExtractedValues:]
+-[AWSLogsMetricFilterMatchRecord .cxx_destruct]
++[AWSLogsMetricTransformation JSONKeyPathsByPropertyKey]
+-[AWSLogsMetricTransformation defaultValue]
+-[AWSLogsMetricTransformation setDefaultValue:]
+-[AWSLogsMetricTransformation metricName]
+-[AWSLogsMetricTransformation setMetricName:]
+-[AWSLogsMetricTransformation metricNamespace]
+-[AWSLogsMetricTransformation setMetricNamespace:]
+-[AWSLogsMetricTransformation metricValue]
+-[AWSLogsMetricTransformation setMetricValue:]
+-[AWSLogsMetricTransformation .cxx_destruct]
++[AWSLogsOutputLogEvent JSONKeyPathsByPropertyKey]
+-[AWSLogsOutputLogEvent ingestionTime]
+-[AWSLogsOutputLogEvent setIngestionTime:]
+-[AWSLogsOutputLogEvent message]
+-[AWSLogsOutputLogEvent setMessage:]
+-[AWSLogsOutputLogEvent timestamp]
+-[AWSLogsOutputLogEvent setTimestamp:]
+-[AWSLogsOutputLogEvent .cxx_destruct]
++[AWSLogsPutDestinationPolicyRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsPutDestinationPolicyRequest accessPolicy]
+-[AWSLogsPutDestinationPolicyRequest setAccessPolicy:]
+-[AWSLogsPutDestinationPolicyRequest destinationName]
+-[AWSLogsPutDestinationPolicyRequest setDestinationName:]
+-[AWSLogsPutDestinationPolicyRequest .cxx_destruct]
++[AWSLogsPutDestinationRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsPutDestinationRequest destinationName]
+-[AWSLogsPutDestinationRequest setDestinationName:]
+-[AWSLogsPutDestinationRequest roleArn]
+-[AWSLogsPutDestinationRequest setRoleArn:]
+-[AWSLogsPutDestinationRequest targetArn]
+-[AWSLogsPutDestinationRequest setTargetArn:]
+-[AWSLogsPutDestinationRequest .cxx_destruct]
++[AWSLogsPutDestinationResponse JSONKeyPathsByPropertyKey]
++[AWSLogsPutDestinationResponse destinationJSONTransformer]
+-[AWSLogsPutDestinationResponse destination]
+-[AWSLogsPutDestinationResponse setDestination:]
+-[AWSLogsPutDestinationResponse .cxx_destruct]
++[AWSLogsPutLogEventsRequest JSONKeyPathsByPropertyKey]
++[AWSLogsPutLogEventsRequest logEventsJSONTransformer]
+-[AWSLogsPutLogEventsRequest logEvents]
+-[AWSLogsPutLogEventsRequest setLogEvents:]
+-[AWSLogsPutLogEventsRequest logGroupName]
+-[AWSLogsPutLogEventsRequest setLogGroupName:]
+-[AWSLogsPutLogEventsRequest logStreamName]
+-[AWSLogsPutLogEventsRequest setLogStreamName:]
+-[AWSLogsPutLogEventsRequest sequenceToken]
+-[AWSLogsPutLogEventsRequest setSequenceToken:]
+-[AWSLogsPutLogEventsRequest .cxx_destruct]
++[AWSLogsPutLogEventsResponse JSONKeyPathsByPropertyKey]
++[AWSLogsPutLogEventsResponse rejectedLogEventsInfoJSONTransformer]
+-[AWSLogsPutLogEventsResponse nextSequenceToken]
+-[AWSLogsPutLogEventsResponse setNextSequenceToken:]
+-[AWSLogsPutLogEventsResponse rejectedLogEventsInfo]
+-[AWSLogsPutLogEventsResponse setRejectedLogEventsInfo:]
+-[AWSLogsPutLogEventsResponse .cxx_destruct]
++[AWSLogsPutMetricFilterRequest JSONKeyPathsByPropertyKey]
++[AWSLogsPutMetricFilterRequest metricTransformationsJSONTransformer]
+-[AWSLogsPutMetricFilterRequest filterName]
+-[AWSLogsPutMetricFilterRequest setFilterName:]
+-[AWSLogsPutMetricFilterRequest filterPattern]
+-[AWSLogsPutMetricFilterRequest setFilterPattern:]
+-[AWSLogsPutMetricFilterRequest logGroupName]
+-[AWSLogsPutMetricFilterRequest setLogGroupName:]
+-[AWSLogsPutMetricFilterRequest metricTransformations]
+-[AWSLogsPutMetricFilterRequest setMetricTransformations:]
+-[AWSLogsPutMetricFilterRequest .cxx_destruct]
++[AWSLogsPutResourcePolicyRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsPutResourcePolicyRequest policyDocument]
+-[AWSLogsPutResourcePolicyRequest setPolicyDocument:]
+-[AWSLogsPutResourcePolicyRequest policyName]
+-[AWSLogsPutResourcePolicyRequest setPolicyName:]
+-[AWSLogsPutResourcePolicyRequest .cxx_destruct]
++[AWSLogsPutResourcePolicyResponse JSONKeyPathsByPropertyKey]
++[AWSLogsPutResourcePolicyResponse resourcePolicyJSONTransformer]
+-[AWSLogsPutResourcePolicyResponse resourcePolicy]
+-[AWSLogsPutResourcePolicyResponse setResourcePolicy:]
+-[AWSLogsPutResourcePolicyResponse .cxx_destruct]
++[AWSLogsPutRetentionPolicyRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsPutRetentionPolicyRequest logGroupName]
+-[AWSLogsPutRetentionPolicyRequest setLogGroupName:]
+-[AWSLogsPutRetentionPolicyRequest retentionInDays]
+-[AWSLogsPutRetentionPolicyRequest setRetentionInDays:]
+-[AWSLogsPutRetentionPolicyRequest .cxx_destruct]
++[AWSLogsPutSubscriptionFilterRequest JSONKeyPathsByPropertyKey]
++[AWSLogsPutSubscriptionFilterRequest distributionJSONTransformer]
+___66+[AWSLogsPutSubscriptionFilterRequest distributionJSONTransformer]_block_invoke
+___66+[AWSLogsPutSubscriptionFilterRequest distributionJSONTransformer]_block_invoke_2
+-[AWSLogsPutSubscriptionFilterRequest destinationArn]
+-[AWSLogsPutSubscriptionFilterRequest setDestinationArn:]
+-[AWSLogsPutSubscriptionFilterRequest distribution]
+-[AWSLogsPutSubscriptionFilterRequest setDistribution:]
+-[AWSLogsPutSubscriptionFilterRequest filterName]
+-[AWSLogsPutSubscriptionFilterRequest setFilterName:]
+-[AWSLogsPutSubscriptionFilterRequest filterPattern]
+-[AWSLogsPutSubscriptionFilterRequest setFilterPattern:]
+-[AWSLogsPutSubscriptionFilterRequest logGroupName]
+-[AWSLogsPutSubscriptionFilterRequest setLogGroupName:]
+-[AWSLogsPutSubscriptionFilterRequest roleArn]
+-[AWSLogsPutSubscriptionFilterRequest setRoleArn:]
+-[AWSLogsPutSubscriptionFilterRequest .cxx_destruct]
++[AWSLogsQueryCompileError JSONKeyPathsByPropertyKey]
++[AWSLogsQueryCompileError locationJSONTransformer]
+-[AWSLogsQueryCompileError location]
+-[AWSLogsQueryCompileError setLocation:]
+-[AWSLogsQueryCompileError message]
+-[AWSLogsQueryCompileError setMessage:]
+-[AWSLogsQueryCompileError .cxx_destruct]
++[AWSLogsQueryCompileErrorLocation JSONKeyPathsByPropertyKey]
+-[AWSLogsQueryCompileErrorLocation endCharOffset]
+-[AWSLogsQueryCompileErrorLocation setEndCharOffset:]
+-[AWSLogsQueryCompileErrorLocation startCharOffset]
+-[AWSLogsQueryCompileErrorLocation setStartCharOffset:]
+-[AWSLogsQueryCompileErrorLocation .cxx_destruct]
++[AWSLogsQueryInfo JSONKeyPathsByPropertyKey]
++[AWSLogsQueryInfo statusJSONTransformer]
+___41+[AWSLogsQueryInfo statusJSONTransformer]_block_invoke
+___41+[AWSLogsQueryInfo statusJSONTransformer]_block_invoke_2
+-[AWSLogsQueryInfo createTime]
+-[AWSLogsQueryInfo setCreateTime:]
+-[AWSLogsQueryInfo logGroupName]
+-[AWSLogsQueryInfo setLogGroupName:]
+-[AWSLogsQueryInfo queryId]
+-[AWSLogsQueryInfo setQueryId:]
+-[AWSLogsQueryInfo queryString]
+-[AWSLogsQueryInfo setQueryString:]
+-[AWSLogsQueryInfo status]
+-[AWSLogsQueryInfo setStatus:]
+-[AWSLogsQueryInfo .cxx_destruct]
++[AWSLogsQueryStatistics JSONKeyPathsByPropertyKey]
+-[AWSLogsQueryStatistics bytesScanned]
+-[AWSLogsQueryStatistics setBytesScanned:]
+-[AWSLogsQueryStatistics recordsMatched]
+-[AWSLogsQueryStatistics setRecordsMatched:]
+-[AWSLogsQueryStatistics recordsScanned]
+-[AWSLogsQueryStatistics setRecordsScanned:]
+-[AWSLogsQueryStatistics .cxx_destruct]
++[AWSLogsRejectedLogEventsInfo JSONKeyPathsByPropertyKey]
+-[AWSLogsRejectedLogEventsInfo expiredLogEventEndIndex]
+-[AWSLogsRejectedLogEventsInfo setExpiredLogEventEndIndex:]
+-[AWSLogsRejectedLogEventsInfo tooNewLogEventStartIndex]
+-[AWSLogsRejectedLogEventsInfo setTooNewLogEventStartIndex:]
+-[AWSLogsRejectedLogEventsInfo tooOldLogEventEndIndex]
+-[AWSLogsRejectedLogEventsInfo setTooOldLogEventEndIndex:]
+-[AWSLogsRejectedLogEventsInfo .cxx_destruct]
++[AWSLogsResourcePolicy JSONKeyPathsByPropertyKey]
+-[AWSLogsResourcePolicy lastUpdatedTime]
+-[AWSLogsResourcePolicy setLastUpdatedTime:]
+-[AWSLogsResourcePolicy policyDocument]
+-[AWSLogsResourcePolicy setPolicyDocument:]
+-[AWSLogsResourcePolicy policyName]
+-[AWSLogsResourcePolicy setPolicyName:]
+-[AWSLogsResourcePolicy .cxx_destruct]
++[AWSLogsResultField JSONKeyPathsByPropertyKey]
+-[AWSLogsResultField field]
+-[AWSLogsResultField setField:]
+-[AWSLogsResultField value]
+-[AWSLogsResultField setValue:]
+-[AWSLogsResultField .cxx_destruct]
++[AWSLogsSearchedLogStream JSONKeyPathsByPropertyKey]
+-[AWSLogsSearchedLogStream logStreamName]
+-[AWSLogsSearchedLogStream setLogStreamName:]
+-[AWSLogsSearchedLogStream searchedCompletely]
+-[AWSLogsSearchedLogStream setSearchedCompletely:]
+-[AWSLogsSearchedLogStream .cxx_destruct]
++[AWSLogsStartQueryRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsStartQueryRequest endTime]
+-[AWSLogsStartQueryRequest setEndTime:]
+-[AWSLogsStartQueryRequest limit]
+-[AWSLogsStartQueryRequest setLimit:]
+-[AWSLogsStartQueryRequest logGroupName]
+-[AWSLogsStartQueryRequest setLogGroupName:]
+-[AWSLogsStartQueryRequest queryString]
+-[AWSLogsStartQueryRequest setQueryString:]
+-[AWSLogsStartQueryRequest startTime]
+-[AWSLogsStartQueryRequest setStartTime:]
+-[AWSLogsStartQueryRequest .cxx_destruct]
++[AWSLogsStartQueryResponse JSONKeyPathsByPropertyKey]
+-[AWSLogsStartQueryResponse queryId]
+-[AWSLogsStartQueryResponse setQueryId:]
+-[AWSLogsStartQueryResponse .cxx_destruct]
++[AWSLogsStopQueryRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsStopQueryRequest queryId]
+-[AWSLogsStopQueryRequest setQueryId:]
+-[AWSLogsStopQueryRequest .cxx_destruct]
++[AWSLogsStopQueryResponse JSONKeyPathsByPropertyKey]
+-[AWSLogsStopQueryResponse success]
+-[AWSLogsStopQueryResponse setSuccess:]
+-[AWSLogsStopQueryResponse .cxx_destruct]
++[AWSLogsSubscriptionFilter JSONKeyPathsByPropertyKey]
++[AWSLogsSubscriptionFilter distributionJSONTransformer]
+___56+[AWSLogsSubscriptionFilter distributionJSONTransformer]_block_invoke
+___56+[AWSLogsSubscriptionFilter distributionJSONTransformer]_block_invoke_2
+-[AWSLogsSubscriptionFilter creationTime]
+-[AWSLogsSubscriptionFilter setCreationTime:]
+-[AWSLogsSubscriptionFilter destinationArn]
+-[AWSLogsSubscriptionFilter setDestinationArn:]
+-[AWSLogsSubscriptionFilter distribution]
+-[AWSLogsSubscriptionFilter setDistribution:]
+-[AWSLogsSubscriptionFilter filterName]
+-[AWSLogsSubscriptionFilter setFilterName:]
+-[AWSLogsSubscriptionFilter filterPattern]
+-[AWSLogsSubscriptionFilter setFilterPattern:]
+-[AWSLogsSubscriptionFilter logGroupName]
+-[AWSLogsSubscriptionFilter setLogGroupName:]
+-[AWSLogsSubscriptionFilter roleArn]
+-[AWSLogsSubscriptionFilter setRoleArn:]
+-[AWSLogsSubscriptionFilter .cxx_destruct]
++[AWSLogsTagLogGroupRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsTagLogGroupRequest logGroupName]
+-[AWSLogsTagLogGroupRequest setLogGroupName:]
+-[AWSLogsTagLogGroupRequest tags]
+-[AWSLogsTagLogGroupRequest setTags:]
+-[AWSLogsTagLogGroupRequest .cxx_destruct]
++[AWSLogsTestMetricFilterRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsTestMetricFilterRequest filterPattern]
+-[AWSLogsTestMetricFilterRequest setFilterPattern:]
+-[AWSLogsTestMetricFilterRequest logEventMessages]
+-[AWSLogsTestMetricFilterRequest setLogEventMessages:]
+-[AWSLogsTestMetricFilterRequest .cxx_destruct]
++[AWSLogsTestMetricFilterResponse JSONKeyPathsByPropertyKey]
++[AWSLogsTestMetricFilterResponse matchesJSONTransformer]
+-[AWSLogsTestMetricFilterResponse matches]
+-[AWSLogsTestMetricFilterResponse setMatches:]
+-[AWSLogsTestMetricFilterResponse .cxx_destruct]
++[AWSLogsUntagLogGroupRequest JSONKeyPathsByPropertyKey]
+-[AWSLogsUntagLogGroupRequest logGroupName]
+-[AWSLogsUntagLogGroupRequest setLogGroupName:]
+-[AWSLogsUntagLogGroupRequest tags]
+-[AWSLogsUntagLogGroupRequest setTags:]
+-[AWSLogsUntagLogGroupRequest .cxx_destruct]
+_OBJC_IVAR_$_AWSLogsAssociateKmsKeyRequest._kmsKeyId
+_OBJC_IVAR_$_AWSLogsAssociateKmsKeyRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsCancelExportTaskRequest._taskId
+_OBJC_IVAR_$_AWSLogsCreateExportTaskRequest._destination
+_OBJC_IVAR_$_AWSLogsCreateExportTaskRequest._destinationPrefix
+_OBJC_IVAR_$_AWSLogsCreateExportTaskRequest._from
+_OBJC_IVAR_$_AWSLogsCreateExportTaskRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsCreateExportTaskRequest._logStreamNamePrefix
+_OBJC_IVAR_$_AWSLogsCreateExportTaskRequest._taskName
+_OBJC_IVAR_$_AWSLogsCreateExportTaskRequest._to
+_OBJC_IVAR_$_AWSLogsCreateExportTaskResponse._taskId
+_OBJC_IVAR_$_AWSLogsCreateLogGroupRequest._kmsKeyId
+_OBJC_IVAR_$_AWSLogsCreateLogGroupRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsCreateLogGroupRequest._tags
+_OBJC_IVAR_$_AWSLogsCreateLogStreamRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsCreateLogStreamRequest._logStreamName
+_OBJC_IVAR_$_AWSLogsDeleteDestinationRequest._destinationName
+_OBJC_IVAR_$_AWSLogsDeleteLogGroupRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsDeleteLogStreamRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsDeleteLogStreamRequest._logStreamName
+_OBJC_IVAR_$_AWSLogsDeleteMetricFilterRequest._filterName
+_OBJC_IVAR_$_AWSLogsDeleteMetricFilterRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsDeleteResourcePolicyRequest._policyName
+_OBJC_IVAR_$_AWSLogsDeleteRetentionPolicyRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsDeleteSubscriptionFilterRequest._filterName
+_OBJC_IVAR_$_AWSLogsDeleteSubscriptionFilterRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsDescribeDestinationsRequest._destinationNamePrefix
+_OBJC_IVAR_$_AWSLogsDescribeDestinationsRequest._limit
+_OBJC_IVAR_$_AWSLogsDescribeDestinationsRequest._nextToken
+_OBJC_IVAR_$_AWSLogsDescribeDestinationsResponse._destinations
+_OBJC_IVAR_$_AWSLogsDescribeDestinationsResponse._nextToken
+___block_descriptor_tmp.194
+___block_literal_global.195
+_OBJC_IVAR_$_AWSLogsDescribeExportTasksRequest._limit
+_OBJC_IVAR_$_AWSLogsDescribeExportTasksRequest._nextToken
+_OBJC_IVAR_$_AWSLogsDescribeExportTasksRequest._statusCode
+_OBJC_IVAR_$_AWSLogsDescribeExportTasksRequest._taskId
+_OBJC_IVAR_$_AWSLogsDescribeExportTasksResponse._exportTasks
+_OBJC_IVAR_$_AWSLogsDescribeExportTasksResponse._nextToken
+_OBJC_IVAR_$_AWSLogsDescribeLogGroupsRequest._limit
+_OBJC_IVAR_$_AWSLogsDescribeLogGroupsRequest._logGroupNamePrefix
+_OBJC_IVAR_$_AWSLogsDescribeLogGroupsRequest._nextToken
+_OBJC_IVAR_$_AWSLogsDescribeLogGroupsResponse._logGroups
+_OBJC_IVAR_$_AWSLogsDescribeLogGroupsResponse._nextToken
+___block_descriptor_tmp.246
+___block_literal_global.247
+___block_descriptor_tmp.252
+___block_literal_global.253
+_OBJC_IVAR_$_AWSLogsDescribeLogStreamsRequest._descending
+_OBJC_IVAR_$_AWSLogsDescribeLogStreamsRequest._limit
+_OBJC_IVAR_$_AWSLogsDescribeLogStreamsRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsDescribeLogStreamsRequest._logStreamNamePrefix
+_OBJC_IVAR_$_AWSLogsDescribeLogStreamsRequest._nextToken
+_OBJC_IVAR_$_AWSLogsDescribeLogStreamsRequest._orderBy
+_OBJC_IVAR_$_AWSLogsDescribeLogStreamsResponse._logStreams
+_OBJC_IVAR_$_AWSLogsDescribeLogStreamsResponse._nextToken
+_OBJC_IVAR_$_AWSLogsDescribeMetricFiltersRequest._filterNamePrefix
+_OBJC_IVAR_$_AWSLogsDescribeMetricFiltersRequest._limit
+_OBJC_IVAR_$_AWSLogsDescribeMetricFiltersRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsDescribeMetricFiltersRequest._metricName
+_OBJC_IVAR_$_AWSLogsDescribeMetricFiltersRequest._metricNamespace
+_OBJC_IVAR_$_AWSLogsDescribeMetricFiltersRequest._nextToken
+_OBJC_IVAR_$_AWSLogsDescribeMetricFiltersResponse._metricFilters
+_OBJC_IVAR_$_AWSLogsDescribeMetricFiltersResponse._nextToken
+___block_descriptor_tmp.316
+___block_literal_global.317
+___block_descriptor_tmp.328
+___block_literal_global.329
+_OBJC_IVAR_$_AWSLogsDescribeQueriesRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsDescribeQueriesRequest._maxResults
+_OBJC_IVAR_$_AWSLogsDescribeQueriesRequest._nextToken
+_OBJC_IVAR_$_AWSLogsDescribeQueriesRequest._status
+_OBJC_IVAR_$_AWSLogsDescribeQueriesResponse._nextToken
+_OBJC_IVAR_$_AWSLogsDescribeQueriesResponse._queries
+_OBJC_IVAR_$_AWSLogsDescribeResourcePoliciesRequest._limit
+_OBJC_IVAR_$_AWSLogsDescribeResourcePoliciesRequest._nextToken
+_OBJC_IVAR_$_AWSLogsDescribeResourcePoliciesResponse._nextToken
+_OBJC_IVAR_$_AWSLogsDescribeResourcePoliciesResponse._resourcePolicies
+_OBJC_IVAR_$_AWSLogsDescribeSubscriptionFiltersRequest._filterNamePrefix
+_OBJC_IVAR_$_AWSLogsDescribeSubscriptionFiltersRequest._limit
+_OBJC_IVAR_$_AWSLogsDescribeSubscriptionFiltersRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsDescribeSubscriptionFiltersRequest._nextToken
+_OBJC_IVAR_$_AWSLogsDescribeSubscriptionFiltersResponse._nextToken
+_OBJC_IVAR_$_AWSLogsDescribeSubscriptionFiltersResponse._subscriptionFilters
+_OBJC_IVAR_$_AWSLogsDestination._accessPolicy
+_OBJC_IVAR_$_AWSLogsDestination._arn
+_OBJC_IVAR_$_AWSLogsDestination._creationTime
+_OBJC_IVAR_$_AWSLogsDestination._destinationName
+_OBJC_IVAR_$_AWSLogsDestination._roleArn
+_OBJC_IVAR_$_AWSLogsDestination._targetArn
+_OBJC_IVAR_$_AWSLogsDisassociateKmsKeyRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsExportTask._destination
+_OBJC_IVAR_$_AWSLogsExportTask._destinationPrefix
+_OBJC_IVAR_$_AWSLogsExportTask._executionInfo
+_OBJC_IVAR_$_AWSLogsExportTask._from
+_OBJC_IVAR_$_AWSLogsExportTask._logGroupName
+_OBJC_IVAR_$_AWSLogsExportTask._status
+_OBJC_IVAR_$_AWSLogsExportTask._taskId
+_OBJC_IVAR_$_AWSLogsExportTask._taskName
+_OBJC_IVAR_$_AWSLogsExportTask._to
+_OBJC_IVAR_$_AWSLogsExportTaskExecutionInfo._completionTime
+_OBJC_IVAR_$_AWSLogsExportTaskExecutionInfo._creationTime
+___block_descriptor_tmp.449
+___block_literal_global.450
+___block_descriptor_tmp.451
+___block_literal_global.452
+_OBJC_IVAR_$_AWSLogsExportTaskStatus._code
+_OBJC_IVAR_$_AWSLogsExportTaskStatus._message
+_OBJC_IVAR_$_AWSLogsFilterLogEventsRequest._endTime
+_OBJC_IVAR_$_AWSLogsFilterLogEventsRequest._filterPattern
+_OBJC_IVAR_$_AWSLogsFilterLogEventsRequest._interleaved
+_OBJC_IVAR_$_AWSLogsFilterLogEventsRequest._limit
+_OBJC_IVAR_$_AWSLogsFilterLogEventsRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsFilterLogEventsRequest._logStreamNamePrefix
+_OBJC_IVAR_$_AWSLogsFilterLogEventsRequest._logStreamNames
+_OBJC_IVAR_$_AWSLogsFilterLogEventsRequest._nextToken
+_OBJC_IVAR_$_AWSLogsFilterLogEventsRequest._startTime
+_OBJC_IVAR_$_AWSLogsFilterLogEventsResponse._events
+_OBJC_IVAR_$_AWSLogsFilterLogEventsResponse._nextToken
+_OBJC_IVAR_$_AWSLogsFilterLogEventsResponse._searchedLogStreams
+_OBJC_IVAR_$_AWSLogsFilteredLogEvent._eventId
+_OBJC_IVAR_$_AWSLogsFilteredLogEvent._ingestionTime
+_OBJC_IVAR_$_AWSLogsFilteredLogEvent._logStreamName
+_OBJC_IVAR_$_AWSLogsFilteredLogEvent._message
+_OBJC_IVAR_$_AWSLogsFilteredLogEvent._timestamp
+_OBJC_IVAR_$_AWSLogsGetLogEventsRequest._endTime
+_OBJC_IVAR_$_AWSLogsGetLogEventsRequest._limit
+_OBJC_IVAR_$_AWSLogsGetLogEventsRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsGetLogEventsRequest._logStreamName
+_OBJC_IVAR_$_AWSLogsGetLogEventsRequest._nextToken
+_OBJC_IVAR_$_AWSLogsGetLogEventsRequest._startFromHead
+_OBJC_IVAR_$_AWSLogsGetLogEventsRequest._startTime
+_OBJC_IVAR_$_AWSLogsGetLogEventsResponse._events
+_OBJC_IVAR_$_AWSLogsGetLogEventsResponse._nextBackwardToken
+_OBJC_IVAR_$_AWSLogsGetLogEventsResponse._nextForwardToken
+_OBJC_IVAR_$_AWSLogsGetLogGroupFieldsRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsGetLogGroupFieldsRequest._time
+_OBJC_IVAR_$_AWSLogsGetLogGroupFieldsResponse._logGroupFields
+_OBJC_IVAR_$_AWSLogsGetLogRecordRequest._logRecordPointer
+_OBJC_IVAR_$_AWSLogsGetLogRecordResponse._logRecord
+_OBJC_IVAR_$_AWSLogsGetQueryResultsRequest._queryId
+___block_descriptor_tmp.624
+___block_literal_global.625
+___block_descriptor_tmp.626
+___block_literal_global.627
+_OBJC_IVAR_$_AWSLogsGetQueryResultsResponse._results
+_OBJC_IVAR_$_AWSLogsGetQueryResultsResponse._statistics
+_OBJC_IVAR_$_AWSLogsGetQueryResultsResponse._status
+_OBJC_IVAR_$_AWSLogsInputLogEvent._message
+_OBJC_IVAR_$_AWSLogsInputLogEvent._timestamp
+_OBJC_IVAR_$_AWSLogsListTagsLogGroupRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsListTagsLogGroupResponse._tags
+_OBJC_IVAR_$_AWSLogsLogGroup._arn
+_OBJC_IVAR_$_AWSLogsLogGroup._creationTime
+_OBJC_IVAR_$_AWSLogsLogGroup._kmsKeyId
+_OBJC_IVAR_$_AWSLogsLogGroup._logGroupName
+_OBJC_IVAR_$_AWSLogsLogGroup._metricFilterCount
+_OBJC_IVAR_$_AWSLogsLogGroup._retentionInDays
+_OBJC_IVAR_$_AWSLogsLogGroup._storedBytes
+_OBJC_IVAR_$_AWSLogsLogGroupField._name
+_OBJC_IVAR_$_AWSLogsLogGroupField._percent
+_OBJC_IVAR_$_AWSLogsLogStream._arn
+_OBJC_IVAR_$_AWSLogsLogStream._creationTime
+_OBJC_IVAR_$_AWSLogsLogStream._firstEventTimestamp
+_OBJC_IVAR_$_AWSLogsLogStream._lastEventTimestamp
+_OBJC_IVAR_$_AWSLogsLogStream._lastIngestionTime
+_OBJC_IVAR_$_AWSLogsLogStream._logStreamName
+_OBJC_IVAR_$_AWSLogsLogStream._storedBytes
+_OBJC_IVAR_$_AWSLogsLogStream._uploadSequenceToken
+_OBJC_IVAR_$_AWSLogsMetricFilter._creationTime
+_OBJC_IVAR_$_AWSLogsMetricFilter._filterName
+_OBJC_IVAR_$_AWSLogsMetricFilter._filterPattern
+_OBJC_IVAR_$_AWSLogsMetricFilter._logGroupName
+_OBJC_IVAR_$_AWSLogsMetricFilter._metricTransformations
+_OBJC_IVAR_$_AWSLogsMetricFilterMatchRecord._eventMessage
+_OBJC_IVAR_$_AWSLogsMetricFilterMatchRecord._eventNumber
+_OBJC_IVAR_$_AWSLogsMetricFilterMatchRecord._extractedValues
+_OBJC_IVAR_$_AWSLogsMetricTransformation._defaultValue
+_OBJC_IVAR_$_AWSLogsMetricTransformation._metricName
+_OBJC_IVAR_$_AWSLogsMetricTransformation._metricNamespace
+_OBJC_IVAR_$_AWSLogsMetricTransformation._metricValue
+_OBJC_IVAR_$_AWSLogsOutputLogEvent._ingestionTime
+_OBJC_IVAR_$_AWSLogsOutputLogEvent._message
+_OBJC_IVAR_$_AWSLogsOutputLogEvent._timestamp
+_OBJC_IVAR_$_AWSLogsPutDestinationPolicyRequest._accessPolicy
+_OBJC_IVAR_$_AWSLogsPutDestinationPolicyRequest._destinationName
+_OBJC_IVAR_$_AWSLogsPutDestinationRequest._destinationName
+_OBJC_IVAR_$_AWSLogsPutDestinationRequest._roleArn
+_OBJC_IVAR_$_AWSLogsPutDestinationRequest._targetArn
+_OBJC_IVAR_$_AWSLogsPutDestinationResponse._destination
+_OBJC_IVAR_$_AWSLogsPutLogEventsRequest._logEvents
+_OBJC_IVAR_$_AWSLogsPutLogEventsRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsPutLogEventsRequest._logStreamName
+_OBJC_IVAR_$_AWSLogsPutLogEventsRequest._sequenceToken
+_OBJC_IVAR_$_AWSLogsPutLogEventsResponse._nextSequenceToken
+_OBJC_IVAR_$_AWSLogsPutLogEventsResponse._rejectedLogEventsInfo
+_OBJC_IVAR_$_AWSLogsPutMetricFilterRequest._filterName
+_OBJC_IVAR_$_AWSLogsPutMetricFilterRequest._filterPattern
+_OBJC_IVAR_$_AWSLogsPutMetricFilterRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsPutMetricFilterRequest._metricTransformations
+_OBJC_IVAR_$_AWSLogsPutResourcePolicyRequest._policyDocument
+_OBJC_IVAR_$_AWSLogsPutResourcePolicyRequest._policyName
+_OBJC_IVAR_$_AWSLogsPutResourcePolicyResponse._resourcePolicy
+_OBJC_IVAR_$_AWSLogsPutRetentionPolicyRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsPutRetentionPolicyRequest._retentionInDays
+___block_descriptor_tmp.843
+___block_literal_global.844
+___block_descriptor_tmp.849
+___block_literal_global.850
+_OBJC_IVAR_$_AWSLogsPutSubscriptionFilterRequest._destinationArn
+_OBJC_IVAR_$_AWSLogsPutSubscriptionFilterRequest._distribution
+_OBJC_IVAR_$_AWSLogsPutSubscriptionFilterRequest._filterName
+_OBJC_IVAR_$_AWSLogsPutSubscriptionFilterRequest._filterPattern
+_OBJC_IVAR_$_AWSLogsPutSubscriptionFilterRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsPutSubscriptionFilterRequest._roleArn
+_OBJC_IVAR_$_AWSLogsQueryCompileError._location
+_OBJC_IVAR_$_AWSLogsQueryCompileError._message
+_OBJC_IVAR_$_AWSLogsQueryCompileErrorLocation._endCharOffset
+_OBJC_IVAR_$_AWSLogsQueryCompileErrorLocation._startCharOffset
+___block_descriptor_tmp.896
+___block_literal_global.897
+___block_descriptor_tmp.898
+___block_literal_global.899
+_OBJC_IVAR_$_AWSLogsQueryInfo._createTime
+_OBJC_IVAR_$_AWSLogsQueryInfo._logGroupName
+_OBJC_IVAR_$_AWSLogsQueryInfo._queryId
+_OBJC_IVAR_$_AWSLogsQueryInfo._queryString
+_OBJC_IVAR_$_AWSLogsQueryInfo._status
+_OBJC_IVAR_$_AWSLogsQueryStatistics._bytesScanned
+_OBJC_IVAR_$_AWSLogsQueryStatistics._recordsMatched
+_OBJC_IVAR_$_AWSLogsQueryStatistics._recordsScanned
+_OBJC_IVAR_$_AWSLogsRejectedLogEventsInfo._expiredLogEventEndIndex
+_OBJC_IVAR_$_AWSLogsRejectedLogEventsInfo._tooNewLogEventStartIndex
+_OBJC_IVAR_$_AWSLogsRejectedLogEventsInfo._tooOldLogEventEndIndex
+_OBJC_IVAR_$_AWSLogsResourcePolicy._lastUpdatedTime
+_OBJC_IVAR_$_AWSLogsResourcePolicy._policyDocument
+_OBJC_IVAR_$_AWSLogsResourcePolicy._policyName
+_OBJC_IVAR_$_AWSLogsResultField._field
+_OBJC_IVAR_$_AWSLogsResultField._value
+_OBJC_IVAR_$_AWSLogsSearchedLogStream._logStreamName
+_OBJC_IVAR_$_AWSLogsSearchedLogStream._searchedCompletely
+_OBJC_IVAR_$_AWSLogsStartQueryRequest._endTime
+_OBJC_IVAR_$_AWSLogsStartQueryRequest._limit
+_OBJC_IVAR_$_AWSLogsStartQueryRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsStartQueryRequest._queryString
+_OBJC_IVAR_$_AWSLogsStartQueryRequest._startTime
+_OBJC_IVAR_$_AWSLogsStartQueryResponse._queryId
+_OBJC_IVAR_$_AWSLogsStopQueryRequest._queryId
+_OBJC_IVAR_$_AWSLogsStopQueryResponse._success
+___block_descriptor_tmp.1007
+___block_literal_global.1008
+___block_descriptor_tmp.1009
+___block_literal_global.1010
+_OBJC_IVAR_$_AWSLogsSubscriptionFilter._creationTime
+_OBJC_IVAR_$_AWSLogsSubscriptionFilter._destinationArn
+_OBJC_IVAR_$_AWSLogsSubscriptionFilter._distribution
+_OBJC_IVAR_$_AWSLogsSubscriptionFilter._filterName
+_OBJC_IVAR_$_AWSLogsSubscriptionFilter._filterPattern
+_OBJC_IVAR_$_AWSLogsSubscriptionFilter._logGroupName
+_OBJC_IVAR_$_AWSLogsSubscriptionFilter._roleArn
+_OBJC_IVAR_$_AWSLogsTagLogGroupRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsTagLogGroupRequest._tags
+_OBJC_IVAR_$_AWSLogsTestMetricFilterRequest._filterPattern
+_OBJC_IVAR_$_AWSLogsTestMetricFilterRequest._logEventMessages
+_OBJC_IVAR_$_AWSLogsTestMetricFilterResponse._matches
+_OBJC_IVAR_$_AWSLogsUntagLogGroupRequest._logGroupName
+_OBJC_IVAR_$_AWSLogsUntagLogGroupRequest._tags
+/Users/distiller/project/AWSLogs/AWSLogsModel.m
+/Users/distiller/project/AWSLogs/AWSLogsModel.h
+__56+[AWSLogsSubscriptionFilter distributionJSONTransformer]_block_invoke_2
+__56+[AWSLogsSubscriptionFilter distributionJSONTransformer]_block_invoke
+__41+[AWSLogsQueryInfo statusJSONTransformer]_block_invoke_2
+__41+[AWSLogsQueryInfo statusJSONTransformer]_block_invoke
+__66+[AWSLogsPutSubscriptionFilterRequest distributionJSONTransformer]_block_invoke_2
+__66+[AWSLogsPutSubscriptionFilterRequest distributionJSONTransformer]_block_invoke
+__55+[AWSLogsGetQueryResultsResponse statusJSONTransformer]_block_invoke_2
+__55+[AWSLogsGetQueryResultsResponse statusJSONTransformer]_block_invoke
+__46+[AWSLogsExportTaskStatus codeJSONTransformer]_block_invoke_2
+__46+[AWSLogsExportTaskStatus codeJSONTransformer]_block_invoke
+__54+[AWSLogsDescribeQueriesRequest statusJSONTransformer]_block_invoke_2
+__54+[AWSLogsDescribeQueriesRequest statusJSONTransformer]_block_invoke
+__58+[AWSLogsDescribeLogStreamsRequest orderByJSONTransformer]_block_invoke_2
+__58+[AWSLogsDescribeLogStreamsRequest orderByJSONTransformer]_block_invoke
+__62+[AWSLogsDescribeExportTasksRequest statusCodeJSONTransformer]_block_invoke_2
+__62+[AWSLogsDescribeExportTasksRequest statusCodeJSONTransformer]_block_invoke
++[AWSLogsResponseSerializer initialize]
+-[AWSLogsResponseSerializer responseObjectForResponse:originalRequest:currentRequest:data:error:]
++[AWSLogs initialize]
++[AWSLogs defaultLogs]
+___22+[AWSLogs defaultLogs]_block_invoke
++[AWSLogs registerLogsWithConfiguration:forKey:]
+___48+[AWSLogs registerLogsWithConfiguration:forKey:]_block_invoke
++[AWSLogs LogsForKey:]
++[AWSLogs removeLogsForKey:]
+-[AWSLogs init]
+-[AWSLogs initWithConfiguration:]
+-[AWSLogs invokeRequest:HTTPMethod:URLString:targetPrefix:operationName:outputClass:]
+-[AWSLogs associateKmsKey:]
+-[AWSLogs associateKmsKey:completionHandler:]
+___45-[AWSLogs associateKmsKey:completionHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[AWSLogs cancelExportTask:]
+-[AWSLogs cancelExportTask:completionHandler:]
+___46-[AWSLogs cancelExportTask:completionHandler:]_block_invoke
+___copy_helper_block_.217
+___destroy_helper_block_.218
+-[AWSLogs createExportTask:]
+-[AWSLogs createExportTask:completionHandler:]
+___46-[AWSLogs createExportTask:completionHandler:]_block_invoke
+___copy_helper_block_.227
+___destroy_helper_block_.228
+-[AWSLogs createLogGroup:]
+-[AWSLogs createLogGroup:completionHandler:]
+___44-[AWSLogs createLogGroup:completionHandler:]_block_invoke
+___copy_helper_block_.234
+___destroy_helper_block_.235
+-[AWSLogs createLogStream:]
+-[AWSLogs createLogStream:completionHandler:]
+___45-[AWSLogs createLogStream:completionHandler:]_block_invoke
+___copy_helper_block_.241
+___destroy_helper_block_.242
+-[AWSLogs deleteDestination:]
+-[AWSLogs deleteDestination:completionHandler:]
+___47-[AWSLogs deleteDestination:completionHandler:]_block_invoke
+___copy_helper_block_.248
+___destroy_helper_block_.249
+-[AWSLogs deleteLogGroup:]
+-[AWSLogs deleteLogGroup:completionHandler:]
+___44-[AWSLogs deleteLogGroup:completionHandler:]_block_invoke
+___copy_helper_block_.255
+___destroy_helper_block_.256
+-[AWSLogs deleteLogStream:]
+-[AWSLogs deleteLogStream:completionHandler:]
+___45-[AWSLogs deleteLogStream:completionHandler:]_block_invoke
+___copy_helper_block_.262
+___destroy_helper_block_.263
+-[AWSLogs deleteMetricFilter:]
+-[AWSLogs deleteMetricFilter:completionHandler:]
+___48-[AWSLogs deleteMetricFilter:completionHandler:]_block_invoke
+___copy_helper_block_.269
+___destroy_helper_block_.270
+-[AWSLogs deleteResourcePolicy:]
+-[AWSLogs deleteResourcePolicy:completionHandler:]
+___50-[AWSLogs deleteResourcePolicy:completionHandler:]_block_invoke
+___copy_helper_block_.276
+___destroy_helper_block_.277
+-[AWSLogs deleteRetentionPolicy:]
+-[AWSLogs deleteRetentionPolicy:completionHandler:]
+___51-[AWSLogs deleteRetentionPolicy:completionHandler:]_block_invoke
+___copy_helper_block_.283
+___destroy_helper_block_.284
+-[AWSLogs deleteSubscriptionFilter:]
+-[AWSLogs deleteSubscriptionFilter:completionHandler:]
+___54-[AWSLogs deleteSubscriptionFilter:completionHandler:]_block_invoke
+___copy_helper_block_.290
+___destroy_helper_block_.291
+-[AWSLogs describeDestinations:]
+-[AWSLogs describeDestinations:completionHandler:]
+___50-[AWSLogs describeDestinations:completionHandler:]_block_invoke
+___copy_helper_block_.298
+___destroy_helper_block_.299
+-[AWSLogs describeExportTasks:]
+-[AWSLogs describeExportTasks:completionHandler:]
+___49-[AWSLogs describeExportTasks:completionHandler:]_block_invoke
+___copy_helper_block_.306
+___destroy_helper_block_.307
+-[AWSLogs describeLogGroups:]
+-[AWSLogs describeLogGroups:completionHandler:]
+___47-[AWSLogs describeLogGroups:completionHandler:]_block_invoke
+___copy_helper_block_.314
+___destroy_helper_block_.315
+-[AWSLogs describeLogStreams:]
+-[AWSLogs describeLogStreams:completionHandler:]
+___48-[AWSLogs describeLogStreams:completionHandler:]_block_invoke
+___copy_helper_block_.322
+___destroy_helper_block_.323
+-[AWSLogs describeMetricFilters:]
+-[AWSLogs describeMetricFilters:completionHandler:]
+___51-[AWSLogs describeMetricFilters:completionHandler:]_block_invoke
+___copy_helper_block_.330
+___destroy_helper_block_.331
+-[AWSLogs describeQueries:]
+-[AWSLogs describeQueries:completionHandler:]
+___45-[AWSLogs describeQueries:completionHandler:]_block_invoke
+___copy_helper_block_.338
+___destroy_helper_block_.339
+-[AWSLogs describeResourcePolicies:]
+-[AWSLogs describeResourcePolicies:completionHandler:]
+___54-[AWSLogs describeResourcePolicies:completionHandler:]_block_invoke
+___copy_helper_block_.346
+___destroy_helper_block_.347
+-[AWSLogs describeSubscriptionFilters:]
+-[AWSLogs describeSubscriptionFilters:completionHandler:]
+___57-[AWSLogs describeSubscriptionFilters:completionHandler:]_block_invoke
+___copy_helper_block_.354
+___destroy_helper_block_.355
+-[AWSLogs disassociateKmsKey:]
+-[AWSLogs disassociateKmsKey:completionHandler:]
+___48-[AWSLogs disassociateKmsKey:completionHandler:]_block_invoke
+___copy_helper_block_.361
+___destroy_helper_block_.362
+-[AWSLogs filterLogEvents:]
+-[AWSLogs filterLogEvents:completionHandler:]
+___45-[AWSLogs filterLogEvents:completionHandler:]_block_invoke
+___copy_helper_block_.369
+___destroy_helper_block_.370
+-[AWSLogs getLogEvents:]
+-[AWSLogs getLogEvents:completionHandler:]
+___42-[AWSLogs getLogEvents:completionHandler:]_block_invoke
+___copy_helper_block_.377
+___destroy_helper_block_.378
+-[AWSLogs getLogGroupFields:]
+-[AWSLogs getLogGroupFields:completionHandler:]
+___47-[AWSLogs getLogGroupFields:completionHandler:]_block_invoke
+___copy_helper_block_.385
+___destroy_helper_block_.386
+-[AWSLogs getLogRecord:]
+-[AWSLogs getLogRecord:completionHandler:]
+___42-[AWSLogs getLogRecord:completionHandler:]_block_invoke
+___copy_helper_block_.393
+___destroy_helper_block_.394
+-[AWSLogs getQueryResults:]
+-[AWSLogs getQueryResults:completionHandler:]
+___45-[AWSLogs getQueryResults:completionHandler:]_block_invoke
+___copy_helper_block_.401
+___destroy_helper_block_.402
+-[AWSLogs listTagsLogGroup:]
+-[AWSLogs listTagsLogGroup:completionHandler:]
+___46-[AWSLogs listTagsLogGroup:completionHandler:]_block_invoke
+___copy_helper_block_.409
+___destroy_helper_block_.410
+-[AWSLogs putDestination:]
+-[AWSLogs putDestination:completionHandler:]
+___44-[AWSLogs putDestination:completionHandler:]_block_invoke
+___copy_helper_block_.417
+___destroy_helper_block_.418
+-[AWSLogs putDestinationPolicy:]
+-[AWSLogs putDestinationPolicy:completionHandler:]
+___50-[AWSLogs putDestinationPolicy:completionHandler:]_block_invoke
+___copy_helper_block_.424
+___destroy_helper_block_.425
+-[AWSLogs putLogEvents:]
+-[AWSLogs putLogEvents:completionHandler:]
+___42-[AWSLogs putLogEvents:completionHandler:]_block_invoke
+___copy_helper_block_.432
+___destroy_helper_block_.433
+-[AWSLogs putMetricFilter:]
+-[AWSLogs putMetricFilter:completionHandler:]
+___45-[AWSLogs putMetricFilter:completionHandler:]_block_invoke
+___copy_helper_block_.439
+___destroy_helper_block_.440
+-[AWSLogs putResourcePolicy:]
+-[AWSLogs putResourcePolicy:completionHandler:]
+___47-[AWSLogs putResourcePolicy:completionHandler:]_block_invoke
+___copy_helper_block_.447
+___destroy_helper_block_.448
+-[AWSLogs putRetentionPolicy:]
+-[AWSLogs putRetentionPolicy:completionHandler:]
+___48-[AWSLogs putRetentionPolicy:completionHandler:]_block_invoke
+___copy_helper_block_.454
+___destroy_helper_block_.455
+-[AWSLogs putSubscriptionFilter:]
+-[AWSLogs putSubscriptionFilter:completionHandler:]
+___51-[AWSLogs putSubscriptionFilter:completionHandler:]_block_invoke
+___copy_helper_block_.461
+___destroy_helper_block_.462
+-[AWSLogs startQuery:]
+-[AWSLogs startQuery:completionHandler:]
+___40-[AWSLogs startQuery:completionHandler:]_block_invoke
+___copy_helper_block_.469
+___destroy_helper_block_.470
+-[AWSLogs stopQuery:]
+-[AWSLogs stopQuery:completionHandler:]
+___39-[AWSLogs stopQuery:completionHandler:]_block_invoke
+___copy_helper_block_.477
+___destroy_helper_block_.478
+-[AWSLogs tagLogGroup:]
+-[AWSLogs tagLogGroup:completionHandler:]
+___41-[AWSLogs tagLogGroup:completionHandler:]_block_invoke
+___copy_helper_block_.484
+___destroy_helper_block_.485
+-[AWSLogs testMetricFilter:]
+-[AWSLogs testMetricFilter:completionHandler:]
+___46-[AWSLogs testMetricFilter:completionHandler:]_block_invoke
+___copy_helper_block_.492
+___destroy_helper_block_.493
+-[AWSLogs untagLogGroup:]
+-[AWSLogs untagLogGroup:completionHandler:]
+___43-[AWSLogs untagLogGroup:completionHandler:]_block_invoke
+___copy_helper_block_.499
+___destroy_helper_block_.500
+-[AWSLogs configuration]
+-[AWSLogs setConfiguration:]
+-[AWSLogs networking]
+-[AWSLogs setNetworking:]
+-[AWSLogs .cxx_destruct]
+_errorCodeDictionary
+__serviceClients
+_defaultLogs._defaultLogs
+_defaultLogs.onceToken
+_registerLogsWithConfiguration:forKey:.onceToken
+___block_descriptor_tmp.96
+___block_literal_global.97
+_OBJC_IVAR_$_AWSLogs._configuration
+_OBJC_IVAR_$_AWSLogs._networking
+___block_descriptor_tmp.210
+___block_descriptor_tmp.219
+___block_descriptor_tmp.229
+___block_descriptor_tmp.236
+___block_descriptor_tmp.243
+___block_descriptor_tmp.250
+___block_descriptor_tmp.257
+___block_descriptor_tmp.264
+___block_descriptor_tmp.271
+___block_descriptor_tmp.278
+___block_descriptor_tmp.285
+___block_descriptor_tmp.292
+___block_descriptor_tmp.300
+___block_descriptor_tmp.308
+___block_descriptor_tmp.324
+___block_descriptor_tmp.332
+___block_descriptor_tmp.340
+___block_descriptor_tmp.348
+___block_descriptor_tmp.356
+___block_descriptor_tmp.363
+___block_descriptor_tmp.371
+___block_descriptor_tmp.379
+___block_descriptor_tmp.387
+___block_descriptor_tmp.395
+___block_descriptor_tmp.403
+___block_descriptor_tmp.411
+___block_descriptor_tmp.419
+___block_descriptor_tmp.426
+___block_descriptor_tmp.434
+___block_descriptor_tmp.441
+___block_descriptor_tmp.456
+___block_descriptor_tmp.463
+___block_descriptor_tmp.471
+___block_descriptor_tmp.479
+___block_descriptor_tmp.486
+___block_descriptor_tmp.494
+___block_descriptor_tmp.501
+/Users/distiller/project/AWSLogs/AWSLogsService.m
+/Users/distiller/project/AWSLogs/AWSLogsService.h
+__destroy_helper_block_
+__copy_helper_block_
+__43-[AWSLogs untagLogGroup:completionHandler:]_block_invoke
+__46-[AWSLogs testMetricFilter:completionHandler:]_block_invoke
+__41-[AWSLogs tagLogGroup:completionHandler:]_block_invoke
+__39-[AWSLogs stopQuery:completionHandler:]_block_invoke
+__40-[AWSLogs startQuery:completionHandler:]_block_invoke
+__51-[AWSLogs putSubscriptionFilter:completionHandler:]_block_invoke
+__48-[AWSLogs putRetentionPolicy:completionHandler:]_block_invoke
+__47-[AWSLogs putResourcePolicy:completionHandler:]_block_invoke
+__45-[AWSLogs putMetricFilter:completionHandler:]_block_invoke
+__42-[AWSLogs putLogEvents:completionHandler:]_block_invoke
+__50-[AWSLogs putDestinationPolicy:completionHandler:]_block_invoke
+__44-[AWSLogs putDestination:completionHandler:]_block_invoke
+__46-[AWSLogs listTagsLogGroup:completionHandler:]_block_invoke
+__45-[AWSLogs getQueryResults:completionHandler:]_block_invoke
+__42-[AWSLogs getLogRecord:completionHandler:]_block_invoke
+__47-[AWSLogs getLogGroupFields:completionHandler:]_block_invoke
+__42-[AWSLogs getLogEvents:completionHandler:]_block_invoke
+__45-[AWSLogs filterLogEvents:completionHandler:]_block_invoke
+__48-[AWSLogs disassociateKmsKey:completionHandler:]_block_invoke
+__57-[AWSLogs describeSubscriptionFilters:completionHandler:]_block_invoke
+__54-[AWSLogs describeResourcePolicies:completionHandler:]_block_invoke
+__45-[AWSLogs describeQueries:completionHandler:]_block_invoke
+__51-[AWSLogs describeMetricFilters:completionHandler:]_block_invoke
+__48-[AWSLogs describeLogStreams:completionHandler:]_block_invoke
+__47-[AWSLogs describeLogGroups:completionHandler:]_block_invoke
+__49-[AWSLogs describeExportTasks:completionHandler:]_block_invoke
+__50-[AWSLogs describeDestinations:completionHandler:]_block_invoke
+__54-[AWSLogs deleteSubscriptionFilter:completionHandler:]_block_invoke
+__51-[AWSLogs deleteRetentionPolicy:completionHandler:]_block_invoke
+__50-[AWSLogs deleteResourcePolicy:completionHandler:]_block_invoke
+__48-[AWSLogs deleteMetricFilter:completionHandler:]_block_invoke
+__45-[AWSLogs deleteLogStream:completionHandler:]_block_invoke
+__44-[AWSLogs deleteLogGroup:completionHandler:]_block_invoke
+__47-[AWSLogs deleteDestination:completionHandler:]_block_invoke
+__45-[AWSLogs createLogStream:completionHandler:]_block_invoke
+__44-[AWSLogs createLogGroup:completionHandler:]_block_invoke
+__46-[AWSLogs createExportTask:completionHandler:]_block_invoke
+__46-[AWSLogs cancelExportTask:completionHandler:]_block_invoke
+__45-[AWSLogs associateKmsKey:completionHandler:]_block_invoke
+__48+[AWSLogs registerLogsWithConfiguration:forKey:]_block_invoke
+__22+[AWSLogs defaultLogs]_block_invoke
+/Users/distiller/Library/Developer/Xcode/DerivedData/AWSiOSSDKv2-bvcffhrgbfjnfybjecennhscmaho/Build/Intermediates.noindex/ArchiveIntermediates/AWSLogs/IntermediateBuildFilesPath/AWSiOSSDKv2.build/Release-iphoneos/AWSLogs.build/DerivedSources/AWSLogs_vers.c
+__ZL15__ARCLite__loadv
+__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__ZL23NSAutoreleasePool_class
+__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+l_OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -mlinker-version=409.12 -march=armv7a
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_objc_storeStrong
+__arclite_objc_release
+__arclite_objc_retain
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+__arclite_objc_retainBlock
+__arclite_object_copy
+fixupCopiedReferences
+_class_getInstanceStart
+alignedInstanceStart
+__arclite_class_usesAutomaticRetainRelease
+classOrSuperClassesUseARR
+__arclite_object_setIvar
+isScannedOffset
+_ivar_getClass
+__arclite_object_setInstanceVariable
+add_image_hook_ARC
+patch_t<void (id *, id)>
+patch_t<id (id)>
+patch_t<void (id)>
+patch_t<id (id, unsigned long)>
+patch_t<void (id, objc_ivar *, id)>
+patch_t<objc_ivar *(id, const char *, void *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+__arclite_NSArray_objectAtIndexedSubscript
+patch_lazy_pointers
+__arclite_objc_autoreleasePoolPop
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+patch_t<void (void *)>
+patch_t<void *()>
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_ARC
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
+install_subscripting
+addMethod
+indexedGetter
+install_autoreleasepool

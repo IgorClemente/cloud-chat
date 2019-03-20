@@ -1,0 +1,1410 @@
+BCSymbolMap Version: 2.0
+-[AWSCognitoDatasetMetadata initWithDatasetName:dataSource:]
+-[AWSCognitoDatasetMetadata isDeleted]
+-[AWSCognitoDatasetMetadata name]
+-[AWSCognitoDatasetMetadata setName:]
+-[AWSCognitoDatasetMetadata lastSyncCount]
+-[AWSCognitoDatasetMetadata setLastSyncCount:]
+-[AWSCognitoDatasetMetadata creationDate]
+-[AWSCognitoDatasetMetadata setCreationDate:]
+-[AWSCognitoDatasetMetadata dataStorage]
+-[AWSCognitoDatasetMetadata setDataStorage:]
+-[AWSCognitoDatasetMetadata lastModifiedBy]
+-[AWSCognitoDatasetMetadata setLastModifiedBy:]
+-[AWSCognitoDatasetMetadata lastModifiedDate]
+-[AWSCognitoDatasetMetadata setLastModifiedDate:]
+-[AWSCognitoDatasetMetadata numRecords]
+-[AWSCognitoDatasetMetadata setNumRecords:]
+-[AWSCognitoDatasetMetadata .cxx_destruct]
+-[AWSCognitoDataset initWithDatasetName:sqliteManager:cognitoService:]
+-[AWSCognitoDataset dealloc]
+-[AWSCognitoDataset stringForKey:]
+-[AWSCognitoDataset setString:forKey:]
+-[AWSCognitoDataset putRecord:error:]
+-[AWSCognitoDataset recordForKey:]
+-[AWSCognitoDataset getRecordById:error:]
+-[AWSCognitoDataset removeRecordById:error:]
+-[AWSCognitoDataset getAllRecords]
+-[AWSCognitoDataset getAll]
+-[AWSCognitoDataset removeObjectForKey:]
+-[AWSCognitoDataset clear]
+-[AWSCognitoDataset size]
+-[AWSCognitoDataset sizeForKey:]
+-[AWSCognitoDataset sizeForRecord:]
+-[AWSCognitoDataset sizeForString:]
+-[AWSCognitoDataset syncPull:]
+___30-[AWSCognitoDataset syncPull:]_block_invoke
+___30-[AWSCognitoDataset syncPull:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_.289
+___destroy_helper_block_.290
+-[AWSCognitoDataset syncPush:]
+___30-[AWSCognitoDataset syncPush:]_block_invoke
+___copy_helper_block_.335
+___destroy_helper_block_.336
+-[AWSCognitoDataset synchronize]
+___32-[AWSCognitoDataset synchronize]_block_invoke
+___32-[AWSCognitoDataset synchronize]_block_invoke_2
+___32-[AWSCognitoDataset synchronize]_block_invoke_3
+___copy_helper_block_.361
+___destroy_helper_block_.362
+___copy_helper_block_.364
+___destroy_helper_block_.365
+___copy_helper_block_.369
+___destroy_helper_block_.370
+___32-[AWSCognitoDataset synchronize]_block_invoke.372
+___copy_helper_block_.375
+___destroy_helper_block_.376
+-[AWSCognitoDataset synchronizeInternal:]
+___41-[AWSCognitoDataset synchronizeInternal:]_block_invoke
+___copy_helper_block_.387
+___destroy_helper_block_.388
+___41-[AWSCognitoDataset synchronizeInternal:]_block_invoke.390
+___copy_helper_block_.393
+___destroy_helper_block_.394
+-[AWSCognitoDataset synchronizeOnConnectivity]
+___46-[AWSCognitoDataset synchronizeOnConnectivity]_block_invoke
+___46-[AWSCognitoDataset synchronizeOnConnectivity]_block_invoke_2
+___copy_helper_block_.405
+___destroy_helper_block_.406
+___copy_helper_block_.408
+___destroy_helper_block_.409
+-[AWSCognitoDataset subscribe]
+___30-[AWSCognitoDataset subscribe]_block_invoke
+-[AWSCognitoDataset unsubscribe]
+___32-[AWSCognitoDataset unsubscribe]_block_invoke
+-[AWSCognitoDataset identityChanged:]
+-[AWSCognitoDataset checkForLocalMergedDatasets]
+___48-[AWSCognitoDataset checkForLocalMergedDatasets]_block_invoke
+___copy_helper_block_.432
+___destroy_helper_block_.433
+-[AWSCognitoDataset postDidStartSynchronizeNotification]
+___56-[AWSCognitoDataset postDidStartSynchronizeNotification]_block_invoke
+___copy_helper_block_.442
+___destroy_helper_block_.443
+-[AWSCognitoDataset postDidEndSynchronizeNotification]
+___54-[AWSCognitoDataset postDidEndSynchronizeNotification]_block_invoke
+___copy_helper_block_.445
+___destroy_helper_block_.446
+-[AWSCognitoDataset postDidChangeLocalValueFromRemoteNotification:]
+___67-[AWSCognitoDataset postDidChangeLocalValueFromRemoteNotification:]_block_invoke
+___copy_helper_block_.450
+___destroy_helper_block_.451
+-[AWSCognitoDataset postDidChangeRemoteValueNotification:]
+___58-[AWSCognitoDataset postDidChangeRemoteValueNotification:]_block_invoke
+___copy_helper_block_.453
+___destroy_helper_block_.454
+-[AWSCognitoDataset postDidFailToSynchronizeNotification:]
+___58-[AWSCognitoDataset postDidFailToSynchronizeNotification:]_block_invoke
+___copy_helper_block_.458
+___destroy_helper_block_.459
+-[AWSCognitoDataset conflictHandler]
+-[AWSCognitoDataset setConflictHandler:]
+-[AWSCognitoDataset datasetDeletedHandler]
+-[AWSCognitoDataset setDatasetDeletedHandler:]
+-[AWSCognitoDataset datasetMergedHandler]
+-[AWSCognitoDataset setDatasetMergedHandler:]
+-[AWSCognitoDataset synchronizeRetries]
+-[AWSCognitoDataset setSynchronizeRetries:]
+-[AWSCognitoDataset synchronizeOnWiFiOnly]
+-[AWSCognitoDataset setSynchronizeOnWiFiOnly:]
+-[AWSCognitoDataset syncSessionToken]
+-[AWSCognitoDataset setSyncSessionToken:]
+-[AWSCognitoDataset sqliteManager]
+-[AWSCognitoDataset setSqliteManager:]
+-[AWSCognitoDataset cognitoService]
+-[AWSCognitoDataset setCognitoService:]
+-[AWSCognitoDataset reachability]
+-[AWSCognitoDataset setReachability:]
+-[AWSCognitoDataset currentSyncCount]
+-[AWSCognitoDataset setCurrentSyncCount:]
+-[AWSCognitoDataset records]
+-[AWSCognitoDataset setRecords:]
+-[AWSCognitoDataset synchronizeQueue]
+-[AWSCognitoDataset setSynchronizeQueue:]
+-[AWSCognitoDataset serializer]
+-[AWSCognitoDataset setSerializer:]
+-[AWSCognitoDataset .cxx_destruct]
+_OBJC_IVAR_$_AWSCognitoDatasetMetadata._name
+_OBJC_IVAR_$_AWSCognitoDatasetMetadata._lastSyncCount
+_OBJC_IVAR_$_AWSCognitoDatasetMetadata._creationDate
+_OBJC_IVAR_$_AWSCognitoDatasetMetadata._dataStorage
+_OBJC_IVAR_$_AWSCognitoDatasetMetadata._lastModifiedBy
+_OBJC_IVAR_$_AWSCognitoDatasetMetadata._lastModifiedDate
+_OBJC_IVAR_$_AWSCognitoDatasetMetadata._numRecords
+_OBJC_IVAR_$_AWSCognitoDataset._sqliteManager
+_OBJC_IVAR_$_AWSCognitoDataset._cognitoService
+_OBJC_IVAR_$_AWSCognitoDataset._reachability
+_OBJC_IVAR_$_AWSCognitoDataset._synchronizeQueue
+_OBJC_IVAR_$_AWSCognitoDataset._serializer
+___block_descriptor_tmp
+___block_descriptor_tmp.292
+___block_descriptor_tmp.337
+___block_descriptor_tmp.363
+___block_descriptor_tmp.366
+___block_descriptor_tmp.371
+___block_descriptor_tmp.377
+___block_descriptor_tmp.389
+___block_descriptor_tmp.395
+___block_descriptor_tmp.407
+___block_descriptor_tmp.410
+___block_descriptor_tmp.416
+___block_literal_global
+___block_descriptor_tmp.424
+___block_literal_global.425
+___block_descriptor_tmp.434
+___block_descriptor_tmp.444
+___block_descriptor_tmp.447
+___block_descriptor_tmp.452
+___block_descriptor_tmp.455
+___block_descriptor_tmp.460
+_OBJC_IVAR_$_AWSCognitoDataset._conflictHandler
+_OBJC_IVAR_$_AWSCognitoDataset._datasetDeletedHandler
+_OBJC_IVAR_$_AWSCognitoDataset._datasetMergedHandler
+_OBJC_IVAR_$_AWSCognitoDataset._synchronizeRetries
+_OBJC_IVAR_$_AWSCognitoDataset._synchronizeOnWiFiOnly
+_OBJC_IVAR_$_AWSCognitoDataset._syncSessionToken
+_OBJC_IVAR_$_AWSCognitoDataset._currentSyncCount
+_OBJC_IVAR_$_AWSCognitoDataset._records
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/distiller/project/AWSCognito/AWSCognitoDataset.m
+/Users/distiller/project
+/Users/distiller/project/AWSCognito/AWSCognitoDataset.h
+__destroy_helper_block_
+__copy_helper_block_
+__58-[AWSCognitoDataset postDidFailToSynchronizeNotification:]_block_invoke
+__58-[AWSCognitoDataset postDidChangeRemoteValueNotification:]_block_invoke
+__67-[AWSCognitoDataset postDidChangeLocalValueFromRemoteNotification:]_block_invoke
+__54-[AWSCognitoDataset postDidEndSynchronizeNotification]_block_invoke
+__56-[AWSCognitoDataset postDidStartSynchronizeNotification]_block_invoke
+__48-[AWSCognitoDataset checkForLocalMergedDatasets]_block_invoke
+__32-[AWSCognitoDataset unsubscribe]_block_invoke
+__30-[AWSCognitoDataset subscribe]_block_invoke
+__46-[AWSCognitoDataset synchronizeOnConnectivity]_block_invoke_2
+__46-[AWSCognitoDataset synchronizeOnConnectivity]_block_invoke
+__41-[AWSCognitoDataset synchronizeInternal:]_block_invoke.390
+__41-[AWSCognitoDataset synchronizeInternal:]_block_invoke
+__32-[AWSCognitoDataset synchronize]_block_invoke.372
+__32-[AWSCognitoDataset synchronize]_block_invoke_3
+__32-[AWSCognitoDataset synchronize]_block_invoke_2
+__32-[AWSCognitoDataset synchronize]_block_invoke
+__30-[AWSCognitoDataset syncPush:]_block_invoke
+__30-[AWSCognitoDataset syncPull:]_block_invoke_2
+__30-[AWSCognitoDataset syncPull:]_block_invoke
++[AWSCognitoUtil millisSinceEpochToDate:]
++[AWSCognitoUtil secondsSinceEpochToDate:]
++[AWSCognitoUtil getTimeMillisForDate:]
++[AWSCognitoUtil hexEncode:]
++[AWSCognitoUtil errorRemoteDataStorageFailed:]
++[AWSCognitoUtil errorInvalidDataValue:key:value:]
++[AWSCognitoUtil errorUserDataSizeLimitExceeded:]
++[AWSCognitoUtil errorLocalDataStorageFailed:]
++[AWSCognitoUtil errorIllegalArgument:]
++[AWSCognitoUtil retrieveValue:]
++[AWSCognitoUtil isValidRecordValueType:]
++[AWSCognitoUtil pushPlatformString:]
++[AWSCognitoUtil pushPlatform]
++[AWSCognitoUtil deviceIdKey:]
++[AWSCognitoUtil deviceIdentityKey:]
+/Users/distiller/project/AWSCognito/Internal/AWSCognitoUtil.m
++[AWSCognitoSyncResponseSerializer initialize]
+-[AWSCognitoSyncResponseSerializer responseObjectForResponse:originalRequest:currentRequest:data:error:]
++[AWSCognitoSync defaultCognitoSync]
+___36+[AWSCognitoSync defaultCognitoSync]_block_invoke
++[AWSCognitoSync registerCognitoSyncWithConfiguration:forKey:]
+___62+[AWSCognitoSync registerCognitoSyncWithConfiguration:forKey:]_block_invoke
++[AWSCognitoSync CognitoSyncForKey:]
++[AWSCognitoSync removeCognitoSyncForKey:]
+-[AWSCognitoSync init]
+-[AWSCognitoSync initWithConfiguration:]
+-[AWSCognitoSync invokeRequest:HTTPMethod:URLString:targetPrefix:operationName:outputClass:]
+-[AWSCognitoSync bulkPublish:]
+-[AWSCognitoSync bulkPublish:completionHandler:]
+___48-[AWSCognitoSync bulkPublish:completionHandler:]_block_invoke
+-[AWSCognitoSync deleteDataset:]
+-[AWSCognitoSync deleteDataset:completionHandler:]
+___50-[AWSCognitoSync deleteDataset:completionHandler:]_block_invoke
+___copy_helper_block_.222
+___destroy_helper_block_.223
+-[AWSCognitoSync describeDataset:]
+-[AWSCognitoSync describeDataset:completionHandler:]
+___52-[AWSCognitoSync describeDataset:completionHandler:]_block_invoke
+___copy_helper_block_.230
+___destroy_helper_block_.231
+-[AWSCognitoSync describeIdentityPoolUsage:]
+-[AWSCognitoSync describeIdentityPoolUsage:completionHandler:]
+___62-[AWSCognitoSync describeIdentityPoolUsage:completionHandler:]_block_invoke
+___copy_helper_block_.240
+___destroy_helper_block_.241
+-[AWSCognitoSync describeIdentityUsage:]
+-[AWSCognitoSync describeIdentityUsage:completionHandler:]
+___58-[AWSCognitoSync describeIdentityUsage:completionHandler:]_block_invoke
+___copy_helper_block_.250
+___destroy_helper_block_.251
+-[AWSCognitoSync getBulkPublishDetails:]
+-[AWSCognitoSync getBulkPublishDetails:completionHandler:]
+___58-[AWSCognitoSync getBulkPublishDetails:completionHandler:]_block_invoke
+___copy_helper_block_.260
+___destroy_helper_block_.261
+-[AWSCognitoSync getCognitoEvents:]
+-[AWSCognitoSync getCognitoEvents:completionHandler:]
+___53-[AWSCognitoSync getCognitoEvents:completionHandler:]_block_invoke
+___copy_helper_block_.270
+___destroy_helper_block_.271
+-[AWSCognitoSync getIdentityPoolConfiguration:]
+-[AWSCognitoSync getIdentityPoolConfiguration:completionHandler:]
+___65-[AWSCognitoSync getIdentityPoolConfiguration:completionHandler:]_block_invoke
+___copy_helper_block_.280
+___destroy_helper_block_.281
+-[AWSCognitoSync listDatasets:]
+-[AWSCognitoSync listDatasets:completionHandler:]
+___49-[AWSCognitoSync listDatasets:completionHandler:]_block_invoke
+___copy_helper_block_.290
+___destroy_helper_block_.291
+-[AWSCognitoSync listIdentityPoolUsage:]
+-[AWSCognitoSync listIdentityPoolUsage:completionHandler:]
+___58-[AWSCognitoSync listIdentityPoolUsage:completionHandler:]_block_invoke
+___copy_helper_block_.300
+___destroy_helper_block_.301
+-[AWSCognitoSync listRecords:]
+-[AWSCognitoSync listRecords:completionHandler:]
+___48-[AWSCognitoSync listRecords:completionHandler:]_block_invoke
+___copy_helper_block_.310
+___destroy_helper_block_.311
+-[AWSCognitoSync registerDevice:]
+-[AWSCognitoSync registerDevice:completionHandler:]
+___51-[AWSCognitoSync registerDevice:completionHandler:]_block_invoke
+___copy_helper_block_.320
+___destroy_helper_block_.321
+-[AWSCognitoSync setCognitoEvents:]
+-[AWSCognitoSync setCognitoEvents:completionHandler:]
+___53-[AWSCognitoSync setCognitoEvents:completionHandler:]_block_invoke
+___copy_helper_block_.327
+___destroy_helper_block_.328
+-[AWSCognitoSync setIdentityPoolConfiguration:]
+-[AWSCognitoSync setIdentityPoolConfiguration:completionHandler:]
+___65-[AWSCognitoSync setIdentityPoolConfiguration:completionHandler:]_block_invoke
+-[AWSCognitoSync subscribeToDataset:]
+-[AWSCognitoSync subscribeToDataset:completionHandler:]
+___55-[AWSCognitoSync subscribeToDataset:completionHandler:]_block_invoke
+___copy_helper_block_.345
+___destroy_helper_block_.346
+-[AWSCognitoSync unsubscribeFromDataset:]
+-[AWSCognitoSync unsubscribeFromDataset:completionHandler:]
+___59-[AWSCognitoSync unsubscribeFromDataset:completionHandler:]_block_invoke
+___copy_helper_block_.353
+___destroy_helper_block_.354
+-[AWSCognitoSync updateRecords:]
+-[AWSCognitoSync updateRecords:completionHandler:]
+___50-[AWSCognitoSync updateRecords:completionHandler:]_block_invoke
+-[AWSCognitoSync configuration]
+-[AWSCognitoSync setConfiguration:]
+-[AWSCognitoSync networking]
+-[AWSCognitoSync setNetworking:]
+-[AWSCognitoSync .cxx_destruct]
+_errorCodeDictionary
+__serviceClients
+_defaultCognitoSync._defaultCognitoSync
+_defaultCognitoSync.onceToken
+_registerCognitoSyncWithConfiguration:forKey:.onceToken
+___block_descriptor_tmp.102
+___block_literal_global.103
+_OBJC_IVAR_$_AWSCognitoSync._configuration
+_OBJC_IVAR_$_AWSCognitoSync._networking
+___block_descriptor_tmp.212
+___block_descriptor_tmp.224
+___block_descriptor_tmp.232
+___block_descriptor_tmp.242
+___block_descriptor_tmp.252
+___block_descriptor_tmp.262
+___block_descriptor_tmp.272
+___block_descriptor_tmp.282
+___block_descriptor_tmp.302
+___block_descriptor_tmp.312
+___block_descriptor_tmp.322
+___block_descriptor_tmp.329
+___block_descriptor_tmp.347
+___block_descriptor_tmp.355
+/Users/distiller/project/AWSCognito/CognitoSync/AWSCognitoSyncService.m
+/Users/distiller/project/AWSCognito/CognitoSync/AWSCognitoSyncService.h
+__50-[AWSCognitoSync updateRecords:completionHandler:]_block_invoke
+__59-[AWSCognitoSync unsubscribeFromDataset:completionHandler:]_block_invoke
+__55-[AWSCognitoSync subscribeToDataset:completionHandler:]_block_invoke
+__65-[AWSCognitoSync setIdentityPoolConfiguration:completionHandler:]_block_invoke
+__53-[AWSCognitoSync setCognitoEvents:completionHandler:]_block_invoke
+__51-[AWSCognitoSync registerDevice:completionHandler:]_block_invoke
+__48-[AWSCognitoSync listRecords:completionHandler:]_block_invoke
+__58-[AWSCognitoSync listIdentityPoolUsage:completionHandler:]_block_invoke
+__49-[AWSCognitoSync listDatasets:completionHandler:]_block_invoke
+__65-[AWSCognitoSync getIdentityPoolConfiguration:completionHandler:]_block_invoke
+__53-[AWSCognitoSync getCognitoEvents:completionHandler:]_block_invoke
+__58-[AWSCognitoSync getBulkPublishDetails:completionHandler:]_block_invoke
+__58-[AWSCognitoSync describeIdentityUsage:completionHandler:]_block_invoke
+__62-[AWSCognitoSync describeIdentityPoolUsage:completionHandler:]_block_invoke
+__52-[AWSCognitoSync describeDataset:completionHandler:]_block_invoke
+__50-[AWSCognitoSync deleteDataset:completionHandler:]_block_invoke
+__48-[AWSCognitoSync bulkPublish:completionHandler:]_block_invoke
+__62+[AWSCognitoSync registerCognitoSyncWithConfiguration:forKey:]_block_invoke
+/Applications/Xcode-10.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/once.h
+__36+[AWSCognitoSync defaultCognitoSync]_block_invoke
++[AWSCognito bundleIdentifier]
++[AWSCognito kitDisplayVersion]
++[AWSCognito initializeIfNeeded]
++[AWSCognito initialize]
++[AWSCognito defaultCognito]
+___28+[AWSCognito defaultCognito]_block_invoke
++[AWSCognito registerCognitoWithConfiguration:forKey:]
+___54+[AWSCognito registerCognitoWithConfiguration:forKey:]_block_invoke
++[AWSCognito CognitoForKey:]
++[AWSCognito removeCognitoForKey:]
+-[AWSCognito init]
+-[AWSCognito initWithConfiguration:]
+-[AWSCognito dealloc]
+-[AWSCognito openOrCreateDataset:]
+-[AWSCognito wipe]
+-[AWSCognito refreshDatasetMetadata]
+___36-[AWSCognito refreshDatasetMetadata]_block_invoke
+___36-[AWSCognito refreshDatasetMetadata]_block_invoke.181
+___copy_helper_block_.202
+___destroy_helper_block_.203
+-[AWSCognito listDatasets]
+-[AWSCognito setDeviceId:]
+-[AWSCognito identityChanged:]
+___30-[AWSCognito identityChanged:]_block_invoke
+___copy_helper_block_.217
+___destroy_helper_block_.218
++[AWSCognito cognitoDeviceId]
++[AWSCognito cognitoDeviceIdentity]
+-[AWSCognito registerDevice:]
+-[AWSCognito registerDeviceInternal:]
+___37-[AWSCognito registerDeviceInternal:]_block_invoke
+___37-[AWSCognito registerDeviceInternal:]_block_invoke_2
+___copy_helper_block_.252
+___destroy_helper_block_.253
+___copy_helper_block_.257
+___destroy_helper_block_.258
+___37-[AWSCognito registerDeviceInternal:]_block_invoke.260
++[AWSCognito setPushPlatform:]
++[AWSCognito pushPlatform]
+-[AWSCognito subscribe:]
+-[AWSCognito subscribeAll]
+-[AWSCognito unsubscribe:]
+-[AWSCognito unsubscribeAll]
++[AWSCognito defaultConflictHandler]
+___36+[AWSCognito defaultConflictHandler]_block_invoke
+-[AWSCognito configuration]
+-[AWSCognito conflictHandler]
+-[AWSCognito setConflictHandler:]
+-[AWSCognito datasetDeletedHandler]
+-[AWSCognito setDatasetDeletedHandler:]
+-[AWSCognito datasetMergedHandler]
+-[AWSCognito setDatasetMergedHandler:]
+-[AWSCognito deviceId]
+-[AWSCognito synchronizeRetries]
+-[AWSCognito setSynchronizeRetries:]
+-[AWSCognito synchronizeOnWiFiOnly]
+-[AWSCognito setSynchronizeOnWiFiOnly:]
+-[AWSCognito sqliteManager]
+-[AWSCognito setSqliteManager:]
+-[AWSCognito cognitoService]
+-[AWSCognito setCognitoService:]
+-[AWSCognito cognitoCredentialsProvider]
+-[AWSCognito setCognitoCredentialsProvider:]
+-[AWSCognito keychain]
+-[AWSCognito setKeychain:]
+-[AWSCognito .cxx_destruct]
+_keychain
+__pushPlatform
+_defaultCognito._defaultCognito
+_defaultCognito.onceToken
+_registerCognitoWithConfiguration:forKey:.onceToken
+___block_descriptor_tmp.80
+___block_literal_global.81
+_OBJC_IVAR_$_AWSCognito._configuration
+_OBJC_IVAR_$_AWSCognito._cognitoCredentialsProvider
+_OBJC_IVAR_$_AWSCognito._deviceId
+_OBJC_IVAR_$_AWSCognito._synchronizeRetries
+_OBJC_IVAR_$_AWSCognito._synchronizeOnWiFiOnly
+_OBJC_IVAR_$_AWSCognito._conflictHandler
+_OBJC_IVAR_$_AWSCognito._sqliteManager
+_OBJC_IVAR_$_AWSCognito._cognitoService
+___block_descriptor_tmp.178
+___block_descriptor_tmp.204
+___block_descriptor_tmp.219
+___block_descriptor_tmp.254
+___block_descriptor_tmp.259
+___block_descriptor_tmp.261
+___block_literal_global.262
+___block_descriptor_tmp.287
+___block_literal_global.288
+_OBJC_IVAR_$_AWSCognito._datasetDeletedHandler
+_OBJC_IVAR_$_AWSCognito._datasetMergedHandler
+_OBJC_IVAR_$_AWSCognito._keychain
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_FABKit
+l_OBJC_LABEL_PROTOCOL_$_FABKit
+/Users/distiller/project/AWSCognito/AWSCognitoService.m
+/Users/distiller/project/AWSCognito/AWSCognitoService.h
+__36+[AWSCognito defaultConflictHandler]_block_invoke
+__37-[AWSCognito registerDeviceInternal:]_block_invoke.260
+__37-[AWSCognito registerDeviceInternal:]_block_invoke_2
+__37-[AWSCognito registerDeviceInternal:]_block_invoke
+__30-[AWSCognito identityChanged:]_block_invoke
+__36-[AWSCognito refreshDatasetMetadata]_block_invoke.181
+__36-[AWSCognito refreshDatasetMetadata]_block_invoke
+__54+[AWSCognito registerCognitoWithConfiguration:forKey:]_block_invoke
+__28+[AWSCognito defaultCognito]_block_invoke
+/Users/distiller/project/AWSCognito/Internal/AWSCognitoConstants.m
+-[AWSCognitoRecordTuple initWithLocalRecord:remoteRecord:]
+-[AWSCognitoRecordTuple localRecord]
+-[AWSCognitoRecordTuple remoteRecord]
+-[AWSCognitoRecordTuple .cxx_destruct]
+-[AWSCognitoConflict resolveWithLocalRecord]
+-[AWSCognitoConflict resolveWithRemoteRecord]
+-[AWSCognitoConflict resolveWithValue:]
+-[AWSCognitoResolvedConflict initWithRemoteRecord:]
+-[AWSCognitoResolvedConflict initWithLocalRecord:]
+-[AWSCognitoResolvedConflict initWithValue:newValue:]
++[AWSCognitoResolvedConflict resolvedConflictWithRemoteRecord:]
++[AWSCognitoResolvedConflict resolvedConflictWithLocalRecord:]
++[AWSCognitoResolvedConflict resolvedConflictWithValue:newValue:]
+-[AWSCognitoResolvedConflict resolvedConflict]
+-[AWSCognitoResolvedConflict conflict]
+-[AWSCognitoResolvedConflict .cxx_destruct]
+_OBJC_IVAR_$_AWSCognitoRecordTuple._localRecord
+_OBJC_IVAR_$_AWSCognitoRecordTuple._remoteRecord
+_OBJC_IVAR_$_AWSCognitoResolvedConflict._conflict
+_OBJC_IVAR_$_AWSCognitoResolvedConflict._resolvedConflict
+/Users/distiller/project/AWSCognito/AWSCognitoConflict.m
+/Users/distiller/project/AWSCognito/Internal/AWSCognitoConflict_Internal.h
+/Users/distiller/project/AWSCognito/AWSCognitoConflict.h
++[AWSCognitoSyncBulkPublishRequest JSONKeyPathsByPropertyKey]
+-[AWSCognitoSyncBulkPublishRequest identityPoolId]
+-[AWSCognitoSyncBulkPublishRequest setIdentityPoolId:]
+-[AWSCognitoSyncBulkPublishRequest .cxx_destruct]
++[AWSCognitoSyncBulkPublishResponse JSONKeyPathsByPropertyKey]
+-[AWSCognitoSyncBulkPublishResponse identityPoolId]
+-[AWSCognitoSyncBulkPublishResponse setIdentityPoolId:]
+-[AWSCognitoSyncBulkPublishResponse .cxx_destruct]
++[AWSCognitoSyncCognitoStreams JSONKeyPathsByPropertyKey]
++[AWSCognitoSyncCognitoStreams streamingStatusJSONTransformer]
+___62+[AWSCognitoSyncCognitoStreams streamingStatusJSONTransformer]_block_invoke
+___62+[AWSCognitoSyncCognitoStreams streamingStatusJSONTransformer]_block_invoke_2
+-[AWSCognitoSyncCognitoStreams roleArn]
+-[AWSCognitoSyncCognitoStreams setRoleArn:]
+-[AWSCognitoSyncCognitoStreams streamName]
+-[AWSCognitoSyncCognitoStreams setStreamName:]
+-[AWSCognitoSyncCognitoStreams streamingStatus]
+-[AWSCognitoSyncCognitoStreams setStreamingStatus:]
+-[AWSCognitoSyncCognitoStreams .cxx_destruct]
++[AWSCognitoSyncDataset JSONKeyPathsByPropertyKey]
++[AWSCognitoSyncDataset creationDateJSONTransformer]
+___52+[AWSCognitoSyncDataset creationDateJSONTransformer]_block_invoke
+___52+[AWSCognitoSyncDataset creationDateJSONTransformer]_block_invoke_2
++[AWSCognitoSyncDataset lastModifiedDateJSONTransformer]
+___56+[AWSCognitoSyncDataset lastModifiedDateJSONTransformer]_block_invoke
+___56+[AWSCognitoSyncDataset lastModifiedDateJSONTransformer]_block_invoke_2
+-[AWSCognitoSyncDataset creationDate]
+-[AWSCognitoSyncDataset setCreationDate:]
+-[AWSCognitoSyncDataset dataStorage]
+-[AWSCognitoSyncDataset setDataStorage:]
+-[AWSCognitoSyncDataset datasetName]
+-[AWSCognitoSyncDataset setDatasetName:]
+-[AWSCognitoSyncDataset identityId]
+-[AWSCognitoSyncDataset setIdentityId:]
+-[AWSCognitoSyncDataset lastModifiedBy]
+-[AWSCognitoSyncDataset setLastModifiedBy:]
+-[AWSCognitoSyncDataset lastModifiedDate]
+-[AWSCognitoSyncDataset setLastModifiedDate:]
+-[AWSCognitoSyncDataset numRecords]
+-[AWSCognitoSyncDataset setNumRecords:]
+-[AWSCognitoSyncDataset .cxx_destruct]
++[AWSCognitoSyncDeleteDatasetRequest JSONKeyPathsByPropertyKey]
+-[AWSCognitoSyncDeleteDatasetRequest datasetName]
+-[AWSCognitoSyncDeleteDatasetRequest setDatasetName:]
+-[AWSCognitoSyncDeleteDatasetRequest identityId]
+-[AWSCognitoSyncDeleteDatasetRequest setIdentityId:]
+-[AWSCognitoSyncDeleteDatasetRequest identityPoolId]
+-[AWSCognitoSyncDeleteDatasetRequest setIdentityPoolId:]
+-[AWSCognitoSyncDeleteDatasetRequest .cxx_destruct]
++[AWSCognitoSyncDeleteDatasetResponse JSONKeyPathsByPropertyKey]
++[AWSCognitoSyncDeleteDatasetResponse datasetJSONTransformer]
+-[AWSCognitoSyncDeleteDatasetResponse dataset]
+-[AWSCognitoSyncDeleteDatasetResponse setDataset:]
+-[AWSCognitoSyncDeleteDatasetResponse .cxx_destruct]
++[AWSCognitoSyncDescribeDatasetRequest JSONKeyPathsByPropertyKey]
+-[AWSCognitoSyncDescribeDatasetRequest datasetName]
+-[AWSCognitoSyncDescribeDatasetRequest setDatasetName:]
+-[AWSCognitoSyncDescribeDatasetRequest identityId]
+-[AWSCognitoSyncDescribeDatasetRequest setIdentityId:]
+-[AWSCognitoSyncDescribeDatasetRequest identityPoolId]
+-[AWSCognitoSyncDescribeDatasetRequest setIdentityPoolId:]
+-[AWSCognitoSyncDescribeDatasetRequest .cxx_destruct]
++[AWSCognitoSyncDescribeDatasetResponse JSONKeyPathsByPropertyKey]
++[AWSCognitoSyncDescribeDatasetResponse datasetJSONTransformer]
+-[AWSCognitoSyncDescribeDatasetResponse dataset]
+-[AWSCognitoSyncDescribeDatasetResponse setDataset:]
+-[AWSCognitoSyncDescribeDatasetResponse .cxx_destruct]
++[AWSCognitoSyncDescribeIdentityPoolUsageRequest JSONKeyPathsByPropertyKey]
+-[AWSCognitoSyncDescribeIdentityPoolUsageRequest identityPoolId]
+-[AWSCognitoSyncDescribeIdentityPoolUsageRequest setIdentityPoolId:]
+-[AWSCognitoSyncDescribeIdentityPoolUsageRequest .cxx_destruct]
++[AWSCognitoSyncDescribeIdentityPoolUsageResponse JSONKeyPathsByPropertyKey]
++[AWSCognitoSyncDescribeIdentityPoolUsageResponse identityPoolUsageJSONTransformer]
+-[AWSCognitoSyncDescribeIdentityPoolUsageResponse identityPoolUsage]
+-[AWSCognitoSyncDescribeIdentityPoolUsageResponse setIdentityPoolUsage:]
+-[AWSCognitoSyncDescribeIdentityPoolUsageResponse .cxx_destruct]
++[AWSCognitoSyncDescribeIdentityUsageRequest JSONKeyPathsByPropertyKey]
+-[AWSCognitoSyncDescribeIdentityUsageRequest identityId]
+-[AWSCognitoSyncDescribeIdentityUsageRequest setIdentityId:]
+-[AWSCognitoSyncDescribeIdentityUsageRequest identityPoolId]
+-[AWSCognitoSyncDescribeIdentityUsageRequest setIdentityPoolId:]
+-[AWSCognitoSyncDescribeIdentityUsageRequest .cxx_destruct]
++[AWSCognitoSyncDescribeIdentityUsageResponse JSONKeyPathsByPropertyKey]
++[AWSCognitoSyncDescribeIdentityUsageResponse identityUsageJSONTransformer]
+-[AWSCognitoSyncDescribeIdentityUsageResponse identityUsage]
+-[AWSCognitoSyncDescribeIdentityUsageResponse setIdentityUsage:]
+-[AWSCognitoSyncDescribeIdentityUsageResponse .cxx_destruct]
++[AWSCognitoSyncGetBulkPublishDetailsRequest JSONKeyPathsByPropertyKey]
+-[AWSCognitoSyncGetBulkPublishDetailsRequest identityPoolId]
+-[AWSCognitoSyncGetBulkPublishDetailsRequest setIdentityPoolId:]
+-[AWSCognitoSyncGetBulkPublishDetailsRequest .cxx_destruct]
++[AWSCognitoSyncGetBulkPublishDetailsResponse JSONKeyPathsByPropertyKey]
++[AWSCognitoSyncGetBulkPublishDetailsResponse bulkPublishCompleteTimeJSONTransformer]
+___85+[AWSCognitoSyncGetBulkPublishDetailsResponse bulkPublishCompleteTimeJSONTransformer]_block_invoke
+___85+[AWSCognitoSyncGetBulkPublishDetailsResponse bulkPublishCompleteTimeJSONTransformer]_block_invoke_2
++[AWSCognitoSyncGetBulkPublishDetailsResponse bulkPublishStartTimeJSONTransformer]
+___82+[AWSCognitoSyncGetBulkPublishDetailsResponse bulkPublishStartTimeJSONTransformer]_block_invoke
+___82+[AWSCognitoSyncGetBulkPublishDetailsResponse bulkPublishStartTimeJSONTransformer]_block_invoke_2
++[AWSCognitoSyncGetBulkPublishDetailsResponse bulkPublishStatusJSONTransformer]
+___79+[AWSCognitoSyncGetBulkPublishDetailsResponse bulkPublishStatusJSONTransformer]_block_invoke
+___79+[AWSCognitoSyncGetBulkPublishDetailsResponse bulkPublishStatusJSONTransformer]_block_invoke_2
+-[AWSCognitoSyncGetBulkPublishDetailsResponse bulkPublishCompleteTime]
+-[AWSCognitoSyncGetBulkPublishDetailsResponse setBulkPublishCompleteTime:]
+-[AWSCognitoSyncGetBulkPublishDetailsResponse bulkPublishStartTime]
+-[AWSCognitoSyncGetBulkPublishDetailsResponse setBulkPublishStartTime:]
+-[AWSCognitoSyncGetBulkPublishDetailsResponse bulkPublishStatus]
+-[AWSCognitoSyncGetBulkPublishDetailsResponse setBulkPublishStatus:]
+-[AWSCognitoSyncGetBulkPublishDetailsResponse failureMessage]
+-[AWSCognitoSyncGetBulkPublishDetailsResponse setFailureMessage:]
+-[AWSCognitoSyncGetBulkPublishDetailsResponse identityPoolId]
+-[AWSCognitoSyncGetBulkPublishDetailsResponse setIdentityPoolId:]
+-[AWSCognitoSyncGetBulkPublishDetailsResponse .cxx_destruct]
++[AWSCognitoSyncGetCognitoEventsRequest JSONKeyPathsByPropertyKey]
+-[AWSCognitoSyncGetCognitoEventsRequest identityPoolId]
+-[AWSCognitoSyncGetCognitoEventsRequest setIdentityPoolId:]
+-[AWSCognitoSyncGetCognitoEventsRequest .cxx_destruct]
++[AWSCognitoSyncGetCognitoEventsResponse JSONKeyPathsByPropertyKey]
+-[AWSCognitoSyncGetCognitoEventsResponse events]
+-[AWSCognitoSyncGetCognitoEventsResponse setEvents:]
+-[AWSCognitoSyncGetCognitoEventsResponse .cxx_destruct]
++[AWSCognitoSyncGetIdentityPoolConfigurationRequest JSONKeyPathsByPropertyKey]
+-[AWSCognitoSyncGetIdentityPoolConfigurationRequest identityPoolId]
+-[AWSCognitoSyncGetIdentityPoolConfigurationRequest setIdentityPoolId:]
+-[AWSCognitoSyncGetIdentityPoolConfigurationRequest .cxx_destruct]
++[AWSCognitoSyncGetIdentityPoolConfigurationResponse JSONKeyPathsByPropertyKey]
++[AWSCognitoSyncGetIdentityPoolConfigurationResponse cognitoStreamsJSONTransformer]
++[AWSCognitoSyncGetIdentityPoolConfigurationResponse pushSyncJSONTransformer]
+-[AWSCognitoSyncGetIdentityPoolConfigurationResponse cognitoStreams]
+-[AWSCognitoSyncGetIdentityPoolConfigurationResponse setCognitoStreams:]
+-[AWSCognitoSyncGetIdentityPoolConfigurationResponse identityPoolId]
+-[AWSCognitoSyncGetIdentityPoolConfigurationResponse setIdentityPoolId:]
+-[AWSCognitoSyncGetIdentityPoolConfigurationResponse pushSync]
+-[AWSCognitoSyncGetIdentityPoolConfigurationResponse setPushSync:]
+-[AWSCognitoSyncGetIdentityPoolConfigurationResponse .cxx_destruct]
++[AWSCognitoSyncIdentityPoolUsage JSONKeyPathsByPropertyKey]
++[AWSCognitoSyncIdentityPoolUsage lastModifiedDateJSONTransformer]
+___66+[AWSCognitoSyncIdentityPoolUsage lastModifiedDateJSONTransformer]_block_invoke
+___66+[AWSCognitoSyncIdentityPoolUsage lastModifiedDateJSONTransformer]_block_invoke_2
+-[AWSCognitoSyncIdentityPoolUsage dataStorage]
+-[AWSCognitoSyncIdentityPoolUsage setDataStorage:]
+-[AWSCognitoSyncIdentityPoolUsage identityPoolId]
+-[AWSCognitoSyncIdentityPoolUsage setIdentityPoolId:]
+-[AWSCognitoSyncIdentityPoolUsage lastModifiedDate]
+-[AWSCognitoSyncIdentityPoolUsage setLastModifiedDate:]
+-[AWSCognitoSyncIdentityPoolUsage syncSessionsCount]
+-[AWSCognitoSyncIdentityPoolUsage setSyncSessionsCount:]
+-[AWSCognitoSyncIdentityPoolUsage .cxx_destruct]
++[AWSCognitoSyncIdentityUsage JSONKeyPathsByPropertyKey]
++[AWSCognitoSyncIdentityUsage lastModifiedDateJSONTransformer]
+___62+[AWSCognitoSyncIdentityUsage lastModifiedDateJSONTransformer]_block_invoke
+___62+[AWSCognitoSyncIdentityUsage lastModifiedDateJSONTransformer]_block_invoke_2
+-[AWSCognitoSyncIdentityUsage dataStorage]
+-[AWSCognitoSyncIdentityUsage setDataStorage:]
+-[AWSCognitoSyncIdentityUsage datasetCount]
+-[AWSCognitoSyncIdentityUsage setDatasetCount:]
+-[AWSCognitoSyncIdentityUsage identityId]
+-[AWSCognitoSyncIdentityUsage setIdentityId:]
+-[AWSCognitoSyncIdentityUsage identityPoolId]
+-[AWSCognitoSyncIdentityUsage setIdentityPoolId:]
+-[AWSCognitoSyncIdentityUsage lastModifiedDate]
+-[AWSCognitoSyncIdentityUsage setLastModifiedDate:]
+-[AWSCognitoSyncIdentityUsage .cxx_destruct]
++[AWSCognitoSyncListDatasetsRequest JSONKeyPathsByPropertyKey]
+-[AWSCognitoSyncListDatasetsRequest identityId]
+-[AWSCognitoSyncListDatasetsRequest setIdentityId:]
+-[AWSCognitoSyncListDatasetsRequest identityPoolId]
+-[AWSCognitoSyncListDatasetsRequest setIdentityPoolId:]
+-[AWSCognitoSyncListDatasetsRequest maxResults]
+-[AWSCognitoSyncListDatasetsRequest setMaxResults:]
+-[AWSCognitoSyncListDatasetsRequest nextToken]
+-[AWSCognitoSyncListDatasetsRequest setNextToken:]
+-[AWSCognitoSyncListDatasetsRequest .cxx_destruct]
++[AWSCognitoSyncListDatasetsResponse JSONKeyPathsByPropertyKey]
++[AWSCognitoSyncListDatasetsResponse datasetsJSONTransformer]
+-[AWSCognitoSyncListDatasetsResponse count]
+-[AWSCognitoSyncListDatasetsResponse setCount:]
+-[AWSCognitoSyncListDatasetsResponse datasets]
+-[AWSCognitoSyncListDatasetsResponse setDatasets:]
+-[AWSCognitoSyncListDatasetsResponse nextToken]
+-[AWSCognitoSyncListDatasetsResponse setNextToken:]
+-[AWSCognitoSyncListDatasetsResponse .cxx_destruct]
++[AWSCognitoSyncListIdentityPoolUsageRequest JSONKeyPathsByPropertyKey]
+-[AWSCognitoSyncListIdentityPoolUsageRequest maxResults]
+-[AWSCognitoSyncListIdentityPoolUsageRequest setMaxResults:]
+-[AWSCognitoSyncListIdentityPoolUsageRequest nextToken]
+-[AWSCognitoSyncListIdentityPoolUsageRequest setNextToken:]
+-[AWSCognitoSyncListIdentityPoolUsageRequest .cxx_destruct]
++[AWSCognitoSyncListIdentityPoolUsageResponse JSONKeyPathsByPropertyKey]
++[AWSCognitoSyncListIdentityPoolUsageResponse identityPoolUsagesJSONTransformer]
+-[AWSCognitoSyncListIdentityPoolUsageResponse count]
+-[AWSCognitoSyncListIdentityPoolUsageResponse setCount:]
+-[AWSCognitoSyncListIdentityPoolUsageResponse identityPoolUsages]
+-[AWSCognitoSyncListIdentityPoolUsageResponse setIdentityPoolUsages:]
+-[AWSCognitoSyncListIdentityPoolUsageResponse maxResults]
+-[AWSCognitoSyncListIdentityPoolUsageResponse setMaxResults:]
+-[AWSCognitoSyncListIdentityPoolUsageResponse nextToken]
+-[AWSCognitoSyncListIdentityPoolUsageResponse setNextToken:]
+-[AWSCognitoSyncListIdentityPoolUsageResponse .cxx_destruct]
++[AWSCognitoSyncListRecordsRequest JSONKeyPathsByPropertyKey]
+-[AWSCognitoSyncListRecordsRequest datasetName]
+-[AWSCognitoSyncListRecordsRequest setDatasetName:]
+-[AWSCognitoSyncListRecordsRequest identityId]
+-[AWSCognitoSyncListRecordsRequest setIdentityId:]
+-[AWSCognitoSyncListRecordsRequest identityPoolId]
+-[AWSCognitoSyncListRecordsRequest setIdentityPoolId:]
+-[AWSCognitoSyncListRecordsRequest lastSyncCount]
+-[AWSCognitoSyncListRecordsRequest setLastSyncCount:]
+-[AWSCognitoSyncListRecordsRequest maxResults]
+-[AWSCognitoSyncListRecordsRequest setMaxResults:]
+-[AWSCognitoSyncListRecordsRequest nextToken]
+-[AWSCognitoSyncListRecordsRequest setNextToken:]
+-[AWSCognitoSyncListRecordsRequest syncSessionToken]
+-[AWSCognitoSyncListRecordsRequest setSyncSessionToken:]
+-[AWSCognitoSyncListRecordsRequest .cxx_destruct]
++[AWSCognitoSyncListRecordsResponse JSONKeyPathsByPropertyKey]
++[AWSCognitoSyncListRecordsResponse recordsJSONTransformer]
+-[AWSCognitoSyncListRecordsResponse count]
+-[AWSCognitoSyncListRecordsResponse setCount:]
+-[AWSCognitoSyncListRecordsResponse datasetDeletedAfterRequestedSyncCount]
+-[AWSCognitoSyncListRecordsResponse setDatasetDeletedAfterRequestedSyncCount:]
+-[AWSCognitoSyncListRecordsResponse datasetExists]
+-[AWSCognitoSyncListRecordsResponse setDatasetExists:]
+-[AWSCognitoSyncListRecordsResponse datasetSyncCount]
+-[AWSCognitoSyncListRecordsResponse setDatasetSyncCount:]
+-[AWSCognitoSyncListRecordsResponse lastModifiedBy]
+-[AWSCognitoSyncListRecordsResponse setLastModifiedBy:]
+-[AWSCognitoSyncListRecordsResponse mergedDatasetNames]
+-[AWSCognitoSyncListRecordsResponse setMergedDatasetNames:]
+-[AWSCognitoSyncListRecordsResponse nextToken]
+-[AWSCognitoSyncListRecordsResponse setNextToken:]
+-[AWSCognitoSyncListRecordsResponse records]
+-[AWSCognitoSyncListRecordsResponse setRecords:]
+-[AWSCognitoSyncListRecordsResponse syncSessionToken]
+-[AWSCognitoSyncListRecordsResponse setSyncSessionToken:]
+-[AWSCognitoSyncListRecordsResponse .cxx_destruct]
++[AWSCognitoSyncPushSync JSONKeyPathsByPropertyKey]
+-[AWSCognitoSyncPushSync applicationArns]
+-[AWSCognitoSyncPushSync setApplicationArns:]
+-[AWSCognitoSyncPushSync roleArn]
+-[AWSCognitoSyncPushSync setRoleArn:]
+-[AWSCognitoSyncPushSync .cxx_destruct]
++[AWSCognitoSyncRecord JSONKeyPathsByPropertyKey]
++[AWSCognitoSyncRecord deviceLastModifiedDateJSONTransformer]
+___61+[AWSCognitoSyncRecord deviceLastModifiedDateJSONTransformer]_block_invoke
+___61+[AWSCognitoSyncRecord deviceLastModifiedDateJSONTransformer]_block_invoke_2
++[AWSCognitoSyncRecord lastModifiedDateJSONTransformer]
+___55+[AWSCognitoSyncRecord lastModifiedDateJSONTransformer]_block_invoke
+___55+[AWSCognitoSyncRecord lastModifiedDateJSONTransformer]_block_invoke_2
+-[AWSCognitoSyncRecord deviceLastModifiedDate]
+-[AWSCognitoSyncRecord setDeviceLastModifiedDate:]
+-[AWSCognitoSyncRecord key]
+-[AWSCognitoSyncRecord setKey:]
+-[AWSCognitoSyncRecord lastModifiedBy]
+-[AWSCognitoSyncRecord setLastModifiedBy:]
+-[AWSCognitoSyncRecord lastModifiedDate]
+-[AWSCognitoSyncRecord setLastModifiedDate:]
+-[AWSCognitoSyncRecord syncCount]
+-[AWSCognitoSyncRecord setSyncCount:]
+-[AWSCognitoSyncRecord value]
+-[AWSCognitoSyncRecord setValue:]
+-[AWSCognitoSyncRecord .cxx_destruct]
++[AWSCognitoSyncRecordPatch JSONKeyPathsByPropertyKey]
++[AWSCognitoSyncRecordPatch deviceLastModifiedDateJSONTransformer]
+___66+[AWSCognitoSyncRecordPatch deviceLastModifiedDateJSONTransformer]_block_invoke
+___66+[AWSCognitoSyncRecordPatch deviceLastModifiedDateJSONTransformer]_block_invoke_2
++[AWSCognitoSyncRecordPatch opJSONTransformer]
+___46+[AWSCognitoSyncRecordPatch opJSONTransformer]_block_invoke
+___46+[AWSCognitoSyncRecordPatch opJSONTransformer]_block_invoke_2
+-[AWSCognitoSyncRecordPatch deviceLastModifiedDate]
+-[AWSCognitoSyncRecordPatch setDeviceLastModifiedDate:]
+-[AWSCognitoSyncRecordPatch key]
+-[AWSCognitoSyncRecordPatch setKey:]
+-[AWSCognitoSyncRecordPatch op]
+-[AWSCognitoSyncRecordPatch setOp:]
+-[AWSCognitoSyncRecordPatch syncCount]
+-[AWSCognitoSyncRecordPatch setSyncCount:]
+-[AWSCognitoSyncRecordPatch value]
+-[AWSCognitoSyncRecordPatch setValue:]
+-[AWSCognitoSyncRecordPatch .cxx_destruct]
++[AWSCognitoSyncRegisterDeviceRequest JSONKeyPathsByPropertyKey]
++[AWSCognitoSyncRegisterDeviceRequest platformJSONTransformer]
+___62+[AWSCognitoSyncRegisterDeviceRequest platformJSONTransformer]_block_invoke
+___62+[AWSCognitoSyncRegisterDeviceRequest platformJSONTransformer]_block_invoke_2
+-[AWSCognitoSyncRegisterDeviceRequest identityId]
+-[AWSCognitoSyncRegisterDeviceRequest setIdentityId:]
+-[AWSCognitoSyncRegisterDeviceRequest identityPoolId]
+-[AWSCognitoSyncRegisterDeviceRequest setIdentityPoolId:]
+-[AWSCognitoSyncRegisterDeviceRequest platform]
+-[AWSCognitoSyncRegisterDeviceRequest setPlatform:]
+-[AWSCognitoSyncRegisterDeviceRequest token]
+-[AWSCognitoSyncRegisterDeviceRequest setToken:]
+-[AWSCognitoSyncRegisterDeviceRequest .cxx_destruct]
++[AWSCognitoSyncRegisterDeviceResponse JSONKeyPathsByPropertyKey]
+-[AWSCognitoSyncRegisterDeviceResponse deviceId]
+-[AWSCognitoSyncRegisterDeviceResponse setDeviceId:]
+-[AWSCognitoSyncRegisterDeviceResponse .cxx_destruct]
++[AWSCognitoSyncSetCognitoEventsRequest JSONKeyPathsByPropertyKey]
+-[AWSCognitoSyncSetCognitoEventsRequest events]
+-[AWSCognitoSyncSetCognitoEventsRequest setEvents:]
+-[AWSCognitoSyncSetCognitoEventsRequest identityPoolId]
+-[AWSCognitoSyncSetCognitoEventsRequest setIdentityPoolId:]
+-[AWSCognitoSyncSetCognitoEventsRequest .cxx_destruct]
++[AWSCognitoSyncSetIdentityPoolConfigurationRequest JSONKeyPathsByPropertyKey]
++[AWSCognitoSyncSetIdentityPoolConfigurationRequest cognitoStreamsJSONTransformer]
++[AWSCognitoSyncSetIdentityPoolConfigurationRequest pushSyncJSONTransformer]
+-[AWSCognitoSyncSetIdentityPoolConfigurationRequest cognitoStreams]
+-[AWSCognitoSyncSetIdentityPoolConfigurationRequest setCognitoStreams:]
+-[AWSCognitoSyncSetIdentityPoolConfigurationRequest identityPoolId]
+-[AWSCognitoSyncSetIdentityPoolConfigurationRequest setIdentityPoolId:]
+-[AWSCognitoSyncSetIdentityPoolConfigurationRequest pushSync]
+-[AWSCognitoSyncSetIdentityPoolConfigurationRequest setPushSync:]
+-[AWSCognitoSyncSetIdentityPoolConfigurationRequest .cxx_destruct]
++[AWSCognitoSyncSetIdentityPoolConfigurationResponse JSONKeyPathsByPropertyKey]
++[AWSCognitoSyncSetIdentityPoolConfigurationResponse cognitoStreamsJSONTransformer]
++[AWSCognitoSyncSetIdentityPoolConfigurationResponse pushSyncJSONTransformer]
+-[AWSCognitoSyncSetIdentityPoolConfigurationResponse cognitoStreams]
+-[AWSCognitoSyncSetIdentityPoolConfigurationResponse setCognitoStreams:]
+-[AWSCognitoSyncSetIdentityPoolConfigurationResponse identityPoolId]
+-[AWSCognitoSyncSetIdentityPoolConfigurationResponse setIdentityPoolId:]
+-[AWSCognitoSyncSetIdentityPoolConfigurationResponse pushSync]
+-[AWSCognitoSyncSetIdentityPoolConfigurationResponse setPushSync:]
+-[AWSCognitoSyncSetIdentityPoolConfigurationResponse .cxx_destruct]
++[AWSCognitoSyncSubscribeToDatasetRequest JSONKeyPathsByPropertyKey]
+-[AWSCognitoSyncSubscribeToDatasetRequest datasetName]
+-[AWSCognitoSyncSubscribeToDatasetRequest setDatasetName:]
+-[AWSCognitoSyncSubscribeToDatasetRequest deviceId]
+-[AWSCognitoSyncSubscribeToDatasetRequest setDeviceId:]
+-[AWSCognitoSyncSubscribeToDatasetRequest identityId]
+-[AWSCognitoSyncSubscribeToDatasetRequest setIdentityId:]
+-[AWSCognitoSyncSubscribeToDatasetRequest identityPoolId]
+-[AWSCognitoSyncSubscribeToDatasetRequest setIdentityPoolId:]
+-[AWSCognitoSyncSubscribeToDatasetRequest .cxx_destruct]
++[AWSCognitoSyncUnsubscribeFromDatasetRequest JSONKeyPathsByPropertyKey]
+-[AWSCognitoSyncUnsubscribeFromDatasetRequest datasetName]
+-[AWSCognitoSyncUnsubscribeFromDatasetRequest setDatasetName:]
+-[AWSCognitoSyncUnsubscribeFromDatasetRequest deviceId]
+-[AWSCognitoSyncUnsubscribeFromDatasetRequest setDeviceId:]
+-[AWSCognitoSyncUnsubscribeFromDatasetRequest identityId]
+-[AWSCognitoSyncUnsubscribeFromDatasetRequest setIdentityId:]
+-[AWSCognitoSyncUnsubscribeFromDatasetRequest identityPoolId]
+-[AWSCognitoSyncUnsubscribeFromDatasetRequest setIdentityPoolId:]
+-[AWSCognitoSyncUnsubscribeFromDatasetRequest .cxx_destruct]
++[AWSCognitoSyncUpdateRecordsRequest JSONKeyPathsByPropertyKey]
++[AWSCognitoSyncUpdateRecordsRequest recordPatchesJSONTransformer]
+-[AWSCognitoSyncUpdateRecordsRequest clientContext]
+-[AWSCognitoSyncUpdateRecordsRequest setClientContext:]
+-[AWSCognitoSyncUpdateRecordsRequest datasetName]
+-[AWSCognitoSyncUpdateRecordsRequest setDatasetName:]
+-[AWSCognitoSyncUpdateRecordsRequest deviceId]
+-[AWSCognitoSyncUpdateRecordsRequest setDeviceId:]
+-[AWSCognitoSyncUpdateRecordsRequest identityId]
+-[AWSCognitoSyncUpdateRecordsRequest setIdentityId:]
+-[AWSCognitoSyncUpdateRecordsRequest identityPoolId]
+-[AWSCognitoSyncUpdateRecordsRequest setIdentityPoolId:]
+-[AWSCognitoSyncUpdateRecordsRequest recordPatches]
+-[AWSCognitoSyncUpdateRecordsRequest setRecordPatches:]
+-[AWSCognitoSyncUpdateRecordsRequest syncSessionToken]
+-[AWSCognitoSyncUpdateRecordsRequest setSyncSessionToken:]
+-[AWSCognitoSyncUpdateRecordsRequest .cxx_destruct]
++[AWSCognitoSyncUpdateRecordsResponse JSONKeyPathsByPropertyKey]
++[AWSCognitoSyncUpdateRecordsResponse recordsJSONTransformer]
+-[AWSCognitoSyncUpdateRecordsResponse records]
+-[AWSCognitoSyncUpdateRecordsResponse setRecords:]
+-[AWSCognitoSyncUpdateRecordsResponse .cxx_destruct]
+_OBJC_IVAR_$_AWSCognitoSyncBulkPublishRequest._identityPoolId
+_OBJC_IVAR_$_AWSCognitoSyncBulkPublishResponse._identityPoolId
+___block_descriptor_tmp.41
+___block_literal_global.42
+_OBJC_IVAR_$_AWSCognitoSyncCognitoStreams._roleArn
+_OBJC_IVAR_$_AWSCognitoSyncCognitoStreams._streamName
+_OBJC_IVAR_$_AWSCognitoSyncCognitoStreams._streamingStatus
+___block_descriptor_tmp.97
+___block_literal_global.98
+___block_descriptor_tmp.105
+___block_literal_global.106
+___block_descriptor_tmp.114
+___block_literal_global.115
+___block_descriptor_tmp.116
+___block_literal_global.117
+_OBJC_IVAR_$_AWSCognitoSyncDataset._creationDate
+_OBJC_IVAR_$_AWSCognitoSyncDataset._dataStorage
+_OBJC_IVAR_$_AWSCognitoSyncDataset._datasetName
+_OBJC_IVAR_$_AWSCognitoSyncDataset._identityId
+_OBJC_IVAR_$_AWSCognitoSyncDataset._lastModifiedBy
+_OBJC_IVAR_$_AWSCognitoSyncDataset._lastModifiedDate
+_OBJC_IVAR_$_AWSCognitoSyncDataset._numRecords
+_OBJC_IVAR_$_AWSCognitoSyncDeleteDatasetRequest._datasetName
+_OBJC_IVAR_$_AWSCognitoSyncDeleteDatasetRequest._identityId
+_OBJC_IVAR_$_AWSCognitoSyncDeleteDatasetRequest._identityPoolId
+_OBJC_IVAR_$_AWSCognitoSyncDeleteDatasetResponse._dataset
+_OBJC_IVAR_$_AWSCognitoSyncDescribeDatasetRequest._datasetName
+_OBJC_IVAR_$_AWSCognitoSyncDescribeDatasetRequest._identityId
+_OBJC_IVAR_$_AWSCognitoSyncDescribeDatasetRequest._identityPoolId
+_OBJC_IVAR_$_AWSCognitoSyncDescribeDatasetResponse._dataset
+_OBJC_IVAR_$_AWSCognitoSyncDescribeIdentityPoolUsageRequest._identityPoolId
+_OBJC_IVAR_$_AWSCognitoSyncDescribeIdentityPoolUsageResponse._identityPoolUsage
+_OBJC_IVAR_$_AWSCognitoSyncDescribeIdentityUsageRequest._identityId
+_OBJC_IVAR_$_AWSCognitoSyncDescribeIdentityUsageRequest._identityPoolId
+_OBJC_IVAR_$_AWSCognitoSyncDescribeIdentityUsageResponse._identityUsage
+_OBJC_IVAR_$_AWSCognitoSyncGetBulkPublishDetailsRequest._identityPoolId
+___block_descriptor_tmp.234
+___block_literal_global.235
+___block_descriptor_tmp.236
+___block_literal_global.237
+___block_descriptor_tmp.238
+___block_literal_global.239
+___block_descriptor_tmp.240
+___block_literal_global.241
+___block_literal_global.243
+___block_literal_global.253
+_OBJC_IVAR_$_AWSCognitoSyncGetBulkPublishDetailsResponse._bulkPublishCompleteTime
+_OBJC_IVAR_$_AWSCognitoSyncGetBulkPublishDetailsResponse._bulkPublishStartTime
+_OBJC_IVAR_$_AWSCognitoSyncGetBulkPublishDetailsResponse._bulkPublishStatus
+_OBJC_IVAR_$_AWSCognitoSyncGetBulkPublishDetailsResponse._failureMessage
+_OBJC_IVAR_$_AWSCognitoSyncGetBulkPublishDetailsResponse._identityPoolId
+_OBJC_IVAR_$_AWSCognitoSyncGetCognitoEventsRequest._identityPoolId
+_OBJC_IVAR_$_AWSCognitoSyncGetCognitoEventsResponse._events
+_OBJC_IVAR_$_AWSCognitoSyncGetIdentityPoolConfigurationRequest._identityPoolId
+_OBJC_IVAR_$_AWSCognitoSyncGetIdentityPoolConfigurationResponse._cognitoStreams
+_OBJC_IVAR_$_AWSCognitoSyncGetIdentityPoolConfigurationResponse._identityPoolId
+_OBJC_IVAR_$_AWSCognitoSyncGetIdentityPoolConfigurationResponse._pushSync
+___block_descriptor_tmp.325
+___block_literal_global.326
+___block_descriptor_tmp.327
+___block_literal_global.328
+_OBJC_IVAR_$_AWSCognitoSyncIdentityPoolUsage._dataStorage
+_OBJC_IVAR_$_AWSCognitoSyncIdentityPoolUsage._identityPoolId
+_OBJC_IVAR_$_AWSCognitoSyncIdentityPoolUsage._lastModifiedDate
+_OBJC_IVAR_$_AWSCognitoSyncIdentityPoolUsage._syncSessionsCount
+___block_descriptor_tmp.340
+___block_literal_global.341
+___block_descriptor_tmp.342
+___block_literal_global.343
+_OBJC_IVAR_$_AWSCognitoSyncIdentityUsage._dataStorage
+_OBJC_IVAR_$_AWSCognitoSyncIdentityUsage._datasetCount
+_OBJC_IVAR_$_AWSCognitoSyncIdentityUsage._identityId
+_OBJC_IVAR_$_AWSCognitoSyncIdentityUsage._identityPoolId
+_OBJC_IVAR_$_AWSCognitoSyncIdentityUsage._lastModifiedDate
+_OBJC_IVAR_$_AWSCognitoSyncListDatasetsRequest._identityId
+_OBJC_IVAR_$_AWSCognitoSyncListDatasetsRequest._identityPoolId
+_OBJC_IVAR_$_AWSCognitoSyncListDatasetsRequest._maxResults
+_OBJC_IVAR_$_AWSCognitoSyncListDatasetsRequest._nextToken
+_OBJC_IVAR_$_AWSCognitoSyncListDatasetsResponse._count
+_OBJC_IVAR_$_AWSCognitoSyncListDatasetsResponse._datasets
+_OBJC_IVAR_$_AWSCognitoSyncListDatasetsResponse._nextToken
+_OBJC_IVAR_$_AWSCognitoSyncListIdentityPoolUsageRequest._maxResults
+_OBJC_IVAR_$_AWSCognitoSyncListIdentityPoolUsageRequest._nextToken
+_OBJC_IVAR_$_AWSCognitoSyncListIdentityPoolUsageResponse._count
+_OBJC_IVAR_$_AWSCognitoSyncListIdentityPoolUsageResponse._identityPoolUsages
+_OBJC_IVAR_$_AWSCognitoSyncListIdentityPoolUsageResponse._maxResults
+_OBJC_IVAR_$_AWSCognitoSyncListIdentityPoolUsageResponse._nextToken
+_OBJC_IVAR_$_AWSCognitoSyncListRecordsRequest._datasetName
+_OBJC_IVAR_$_AWSCognitoSyncListRecordsRequest._identityId
+_OBJC_IVAR_$_AWSCognitoSyncListRecordsRequest._identityPoolId
+_OBJC_IVAR_$_AWSCognitoSyncListRecordsRequest._lastSyncCount
+_OBJC_IVAR_$_AWSCognitoSyncListRecordsRequest._maxResults
+_OBJC_IVAR_$_AWSCognitoSyncListRecordsRequest._nextToken
+_OBJC_IVAR_$_AWSCognitoSyncListRecordsRequest._syncSessionToken
+_OBJC_IVAR_$_AWSCognitoSyncListRecordsResponse._count
+_OBJC_IVAR_$_AWSCognitoSyncListRecordsResponse._datasetDeletedAfterRequestedSyncCount
+_OBJC_IVAR_$_AWSCognitoSyncListRecordsResponse._datasetExists
+_OBJC_IVAR_$_AWSCognitoSyncListRecordsResponse._datasetSyncCount
+_OBJC_IVAR_$_AWSCognitoSyncListRecordsResponse._lastModifiedBy
+_OBJC_IVAR_$_AWSCognitoSyncListRecordsResponse._mergedDatasetNames
+_OBJC_IVAR_$_AWSCognitoSyncListRecordsResponse._nextToken
+_OBJC_IVAR_$_AWSCognitoSyncListRecordsResponse._records
+_OBJC_IVAR_$_AWSCognitoSyncListRecordsResponse._syncSessionToken
+_OBJC_IVAR_$_AWSCognitoSyncPushSync._applicationArns
+_OBJC_IVAR_$_AWSCognitoSyncPushSync._roleArn
+___block_descriptor_tmp.505
+___block_literal_global.506
+___block_descriptor_tmp.507
+___block_literal_global.508
+___block_descriptor_tmp.509
+___block_literal_global.510
+___block_descriptor_tmp.511
+___block_literal_global.512
+_OBJC_IVAR_$_AWSCognitoSyncRecord._deviceLastModifiedDate
+_OBJC_IVAR_$_AWSCognitoSyncRecord._key
+_OBJC_IVAR_$_AWSCognitoSyncRecord._lastModifiedBy
+_OBJC_IVAR_$_AWSCognitoSyncRecord._lastModifiedDate
+_OBJC_IVAR_$_AWSCognitoSyncRecord._syncCount
+_OBJC_IVAR_$_AWSCognitoSyncRecord._value
+___block_descriptor_tmp.540
+___block_literal_global.541
+___block_descriptor_tmp.542
+___block_literal_global.543
+___block_descriptor_tmp.544
+___block_literal_global.545
+___block_descriptor_tmp.550
+___block_literal_global.551
+_OBJC_IVAR_$_AWSCognitoSyncRecordPatch._deviceLastModifiedDate
+_OBJC_IVAR_$_AWSCognitoSyncRecordPatch._key
+_OBJC_IVAR_$_AWSCognitoSyncRecordPatch._op
+_OBJC_IVAR_$_AWSCognitoSyncRecordPatch._syncCount
+_OBJC_IVAR_$_AWSCognitoSyncRecordPatch._value
+___block_descriptor_tmp.568
+___block_literal_global.569
+___block_descriptor_tmp.578
+___block_literal_global.579
+_OBJC_IVAR_$_AWSCognitoSyncRegisterDeviceRequest._identityId
+_OBJC_IVAR_$_AWSCognitoSyncRegisterDeviceRequest._identityPoolId
+_OBJC_IVAR_$_AWSCognitoSyncRegisterDeviceRequest._platform
+_OBJC_IVAR_$_AWSCognitoSyncRegisterDeviceRequest._token
+_OBJC_IVAR_$_AWSCognitoSyncRegisterDeviceResponse._deviceId
+_OBJC_IVAR_$_AWSCognitoSyncSetCognitoEventsRequest._events
+_OBJC_IVAR_$_AWSCognitoSyncSetCognitoEventsRequest._identityPoolId
+_OBJC_IVAR_$_AWSCognitoSyncSetIdentityPoolConfigurationRequest._cognitoStreams
+_OBJC_IVAR_$_AWSCognitoSyncSetIdentityPoolConfigurationRequest._identityPoolId
+_OBJC_IVAR_$_AWSCognitoSyncSetIdentityPoolConfigurationRequest._pushSync
+_OBJC_IVAR_$_AWSCognitoSyncSetIdentityPoolConfigurationResponse._cognitoStreams
+_OBJC_IVAR_$_AWSCognitoSyncSetIdentityPoolConfigurationResponse._identityPoolId
+_OBJC_IVAR_$_AWSCognitoSyncSetIdentityPoolConfigurationResponse._pushSync
+_OBJC_IVAR_$_AWSCognitoSyncSubscribeToDatasetRequest._datasetName
+_OBJC_IVAR_$_AWSCognitoSyncSubscribeToDatasetRequest._deviceId
+_OBJC_IVAR_$_AWSCognitoSyncSubscribeToDatasetRequest._identityId
+_OBJC_IVAR_$_AWSCognitoSyncSubscribeToDatasetRequest._identityPoolId
+_OBJC_IVAR_$_AWSCognitoSyncUnsubscribeFromDatasetRequest._datasetName
+_OBJC_IVAR_$_AWSCognitoSyncUnsubscribeFromDatasetRequest._deviceId
+_OBJC_IVAR_$_AWSCognitoSyncUnsubscribeFromDatasetRequest._identityId
+_OBJC_IVAR_$_AWSCognitoSyncUnsubscribeFromDatasetRequest._identityPoolId
+_OBJC_IVAR_$_AWSCognitoSyncUpdateRecordsRequest._clientContext
+_OBJC_IVAR_$_AWSCognitoSyncUpdateRecordsRequest._datasetName
+_OBJC_IVAR_$_AWSCognitoSyncUpdateRecordsRequest._deviceId
+_OBJC_IVAR_$_AWSCognitoSyncUpdateRecordsRequest._identityId
+_OBJC_IVAR_$_AWSCognitoSyncUpdateRecordsRequest._identityPoolId
+_OBJC_IVAR_$_AWSCognitoSyncUpdateRecordsRequest._recordPatches
+_OBJC_IVAR_$_AWSCognitoSyncUpdateRecordsRequest._syncSessionToken
+_OBJC_IVAR_$_AWSCognitoSyncUpdateRecordsResponse._records
+/Users/distiller/project/AWSCognito/CognitoSync/AWSCognitoSyncModel.m
+/Users/distiller/project/AWSCognito/CognitoSync/AWSCognitoSyncModel.h
+__62+[AWSCognitoSyncRegisterDeviceRequest platformJSONTransformer]_block_invoke_2
+__62+[AWSCognitoSyncRegisterDeviceRequest platformJSONTransformer]_block_invoke
+__46+[AWSCognitoSyncRecordPatch opJSONTransformer]_block_invoke_2
+__46+[AWSCognitoSyncRecordPatch opJSONTransformer]_block_invoke
+__66+[AWSCognitoSyncRecordPatch deviceLastModifiedDateJSONTransformer]_block_invoke_2
+__66+[AWSCognitoSyncRecordPatch deviceLastModifiedDateJSONTransformer]_block_invoke
+__55+[AWSCognitoSyncRecord lastModifiedDateJSONTransformer]_block_invoke_2
+__55+[AWSCognitoSyncRecord lastModifiedDateJSONTransformer]_block_invoke
+__61+[AWSCognitoSyncRecord deviceLastModifiedDateJSONTransformer]_block_invoke_2
+__61+[AWSCognitoSyncRecord deviceLastModifiedDateJSONTransformer]_block_invoke
+__62+[AWSCognitoSyncIdentityUsage lastModifiedDateJSONTransformer]_block_invoke_2
+__62+[AWSCognitoSyncIdentityUsage lastModifiedDateJSONTransformer]_block_invoke
+__66+[AWSCognitoSyncIdentityPoolUsage lastModifiedDateJSONTransformer]_block_invoke_2
+__66+[AWSCognitoSyncIdentityPoolUsage lastModifiedDateJSONTransformer]_block_invoke
+__79+[AWSCognitoSyncGetBulkPublishDetailsResponse bulkPublishStatusJSONTransformer]_block_invoke_2
+__79+[AWSCognitoSyncGetBulkPublishDetailsResponse bulkPublishStatusJSONTransformer]_block_invoke
+__82+[AWSCognitoSyncGetBulkPublishDetailsResponse bulkPublishStartTimeJSONTransformer]_block_invoke_2
+__82+[AWSCognitoSyncGetBulkPublishDetailsResponse bulkPublishStartTimeJSONTransformer]_block_invoke
+__85+[AWSCognitoSyncGetBulkPublishDetailsResponse bulkPublishCompleteTimeJSONTransformer]_block_invoke_2
+__85+[AWSCognitoSyncGetBulkPublishDetailsResponse bulkPublishCompleteTimeJSONTransformer]_block_invoke
+__56+[AWSCognitoSyncDataset lastModifiedDateJSONTransformer]_block_invoke_2
+__56+[AWSCognitoSyncDataset lastModifiedDateJSONTransformer]_block_invoke
+__52+[AWSCognitoSyncDataset creationDateJSONTransformer]_block_invoke_2
+__52+[AWSCognitoSyncDataset creationDateJSONTransformer]_block_invoke
+__62+[AWSCognitoSyncCognitoStreams streamingStatusJSONTransformer]_block_invoke_2
+__62+[AWSCognitoSyncCognitoStreams streamingStatusJSONTransformer]_block_invoke
++[AWSCognitoSyncResources sharedInstance]
+___41+[AWSCognitoSyncResources sharedInstance]_block_invoke
+-[AWSCognitoSyncResources JSONObject]
+-[AWSCognitoSyncResources init]
+-[AWSCognitoSyncResources definitionString]
+-[AWSCognitoSyncResources definitionDictionary]
+-[AWSCognitoSyncResources setDefinitionDictionary:]
+-[AWSCognitoSyncResources .cxx_destruct]
+_sharedInstance._sharedResources
+_sharedInstance.once_token
+_OBJC_IVAR_$_AWSCognitoSyncResources._definitionDictionary
+/Users/distiller/project/AWSCognito/CognitoSync/AWSCognitoSyncResources.m
+__41+[AWSCognitoSyncResources sharedInstance]_block_invoke
+-[AWSCognitoRecordMetadata initWithId:]
+-[AWSCognitoRecordMetadata initWithDictionary:]
+-[AWSCognitoRecordMetadata isEqualMetadata:]
+-[AWSCognitoRecordMetadata recordId]
+-[AWSCognitoRecordMetadata lastModified]
+-[AWSCognitoRecordMetadata setLastModified:]
+-[AWSCognitoRecordMetadata lastModifiedBy]
+-[AWSCognitoRecordMetadata setLastModifiedBy:]
+-[AWSCognitoRecordMetadata isDirty]
+-[AWSCognitoRecordMetadata dirtyCount]
+-[AWSCognitoRecordMetadata setDirtyCount:]
+-[AWSCognitoRecordMetadata syncCount]
+-[AWSCognitoRecordMetadata setSyncCount:]
+-[AWSCognitoRecordMetadata .cxx_destruct]
+-[AWSCognitoRecord initWithId:data:]
+-[AWSCognitoRecord initWithDictionary:]
+-[AWSCognitoRecord isEqual:]
+-[AWSCognitoRecord dictionaryRepresentation]
+-[AWSCognitoRecord copyForFlush]
+-[AWSCognitoRecord copy]
+-[AWSCognitoRecord isDirty]
+-[AWSCognitoRecord isDeleted]
+-[AWSCognitoRecord description]
+-[AWSCognitoRecord data]
+-[AWSCognitoRecord setData:]
+-[AWSCognitoRecord .cxx_destruct]
+-[AWSCognitoRecordValue init]
+-[AWSCognitoRecordValue initWithString:]
+-[AWSCognitoRecordValue initWithJson:type:]
+-[AWSCognitoRecordValue initWithString:type:]
+-[AWSCognitoRecordValue string]
+-[AWSCognitoRecordValue toJsonString]
+-[AWSCognitoRecordValue isEqual:]
+-[AWSCognitoRecordValue description]
+-[AWSCognitoRecordValue type]
+-[AWSCognitoRecordValue setType:]
+-[AWSCognitoRecordValue stringValue]
+-[AWSCognitoRecordValue setStringValue:]
+-[AWSCognitoRecordValue .cxx_destruct]
+_OBJC_IVAR_$_AWSCognitoRecordMetadata._recordId
+_OBJC_IVAR_$_AWSCognitoRecordMetadata._lastModified
+_OBJC_IVAR_$_AWSCognitoRecordMetadata._lastModifiedBy
+_OBJC_IVAR_$_AWSCognitoRecordMetadata._dirtyCount
+_OBJC_IVAR_$_AWSCognitoRecordMetadata._syncCount
+_OBJC_IVAR_$_AWSCognitoRecordMetadata._dirty
+_OBJC_IVAR_$_AWSCognitoRecord._data
+_OBJC_IVAR_$_AWSCognitoRecordValue._type
+_OBJC_IVAR_$_AWSCognitoRecordValue._stringValue
+/Users/distiller/project/AWSCognito/AWSCognitoRecord.m
+/Users/distiller/project/AWSCognito/Internal/AWSCognitoRecord_Internal.h
+/Users/distiller/project/AWSCognito/AWSCognitoRecord.h
+-[AWSCognitoSQLiteManager initWithIdentityId:deviceId:]
+-[AWSCognitoSQLiteManager setupSQL]
+-[AWSCognitoSQLiteManager deleteAllData]
+___40-[AWSCognitoSQLiteManager deleteAllData]_block_invoke
+-[AWSCognitoSQLiteManager initializeTables]
+___43-[AWSCognitoSQLiteManager initializeTables]_block_invoke
+___copy_helper_block_.41
+___destroy_helper_block_.42
+-[AWSCognitoSQLiteManager initializeDatasetTables:]
+___51-[AWSCognitoSQLiteManager initializeDatasetTables:]_block_invoke
+___copy_helper_block_.58
+___destroy_helper_block_.59
+-[AWSCognitoSQLiteManager getDatasets:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___39-[AWSCognitoSQLiteManager getDatasets:]_block_invoke
+___copy_helper_block_.100
+___destroy_helper_block_.101
+-[AWSCognitoSQLiteManager loadDatasetMetadata:error:]
+___53-[AWSCognitoSQLiteManager loadDatasetMetadata:error:]_block_invoke
+___copy_helper_block_.107
+___destroy_helper_block_.108
+-[AWSCognitoSQLiteManager updateDatasetMetadata:error:]
+___55-[AWSCognitoSQLiteManager updateDatasetMetadata:error:]_block_invoke
+___copy_helper_block_.114
+___destroy_helper_block_.115
+-[AWSCognitoSQLiteManager putDatasetMetadata:error:]
+___52-[AWSCognitoSQLiteManager putDatasetMetadata:error:]_block_invoke
+___copy_helper_block_.137
+___destroy_helper_block_.138
+-[AWSCognitoSQLiteManager getRecordById_internal:datasetName:error:sync:]
+___73-[AWSCognitoSQLiteManager getRecordById_internal:datasetName:error:sync:]_block_invoke
+___copy_helper_block_.158
+___destroy_helper_block_.159
+-[AWSCognitoSQLiteManager getRecordById:datasetName:error:]
+-[AWSCognitoSQLiteManager identityId]
+-[AWSCognitoSQLiteManager recordsUpdatedAfterLastSync:error:]
+___61-[AWSCognitoSQLiteManager recordsUpdatedAfterLastSync:error:]_block_invoke
+___copy_helper_block_.170
+___destroy_helper_block_.171
+-[AWSCognitoSQLiteManager allRecords:]
+___38-[AWSCognitoSQLiteManager allRecords:]_block_invoke
+___copy_helper_block_.178
+___destroy_helper_block_.179
+-[AWSCognitoSQLiteManager putRecord:datasetName:error:]
+___55-[AWSCognitoSQLiteManager putRecord:datasetName:error:]_block_invoke
+___copy_helper_block_.195
+___destroy_helper_block_.196
+-[AWSCognitoSQLiteManager conditionallyPutRecord:datasetName:withCurrentState:error:]
+-[AWSCognitoSQLiteManager resetStatement:]
+-[AWSCognitoSQLiteManager conditionallyPutResolvedRecords:datasetName:error:]
+-[AWSCognitoSQLiteManager flagRecordAsDeletedById:datasetName:error:]
+___69-[AWSCognitoSQLiteManager flagRecordAsDeletedById:datasetName:error:]_block_invoke
+___copy_helper_block_.228
+___destroy_helper_block_.229
+-[AWSCognitoSQLiteManager deleteRecordById:datasetName:error:]
+___62-[AWSCognitoSQLiteManager deleteRecordById:datasetName:error:]_block_invoke
+___copy_helper_block_.235
+___destroy_helper_block_.236
+-[AWSCognitoSQLiteManager updateWithRemoteChanges:nonConflicts:resolvedConflicts:error:]
+___88-[AWSCognitoSQLiteManager updateWithRemoteChanges:nonConflicts:resolvedConflicts:error:]_block_invoke
+___copy_helper_block_.251
+___destroy_helper_block_.252
+-[AWSCognitoSQLiteManager updateLocalRecordMetadata:records:error:]
+___67-[AWSCognitoSQLiteManager updateLocalRecordMetadata:records:error:]_block_invoke
+___copy_helper_block_.256
+___destroy_helper_block_.257
+-[AWSCognitoSQLiteManager numRecords:]
+___38-[AWSCognitoSQLiteManager numRecords:]_block_invoke
+___copy_helper_block_.263
+___destroy_helper_block_.264
+-[AWSCognitoSQLiteManager lastSyncCount:]
+___41-[AWSCognitoSQLiteManager lastSyncCount:]_block_invoke
+-[AWSCognitoSQLiteManager updateLastSyncCount:syncCount:lastModifiedBy:]
+___72-[AWSCognitoSQLiteManager updateLastSyncCount:syncCount:lastModifiedBy:]_block_invoke
+___copy_helper_block_.275
+___destroy_helper_block_.276
+-[AWSCognitoSQLiteManager reparentDatasets:withNewId:error:]
+___60-[AWSCognitoSQLiteManager reparentDatasets:withNewId:error:]_block_invoke
+___copy_helper_block_.296
+___destroy_helper_block_.297
+-[AWSCognitoSQLiteManager getMergeDatasets:error:]
+___50-[AWSCognitoSQLiteManager getMergeDatasets:error:]_block_invoke
+___copy_helper_block_.307
+___destroy_helper_block_.308
+-[AWSCognitoSQLiteManager filePath]
+-[AWSCognitoSQLiteManager resetSyncCount:error:]
+___48-[AWSCognitoSQLiteManager resetSyncCount:error:]_block_invoke
+___copy_helper_block_.328
+___destroy_helper_block_.329
+-[AWSCognitoSQLiteManager deleteMetadata:error:]
+___48-[AWSCognitoSQLiteManager deleteMetadata:error:]_block_invoke
+-[AWSCognitoSQLiteManager deleteDataset:error:]
+___47-[AWSCognitoSQLiteManager deleteDataset:error:]_block_invoke
+___copy_helper_block_.342
+___destroy_helper_block_.343
+-[AWSCognitoSQLiteManager columnExists:columnName:]
+___51-[AWSCognitoSQLiteManager columnExists:columnName:]_block_invoke
+___copy_helper_block_.347
+___destroy_helper_block_.348
+-[AWSCognitoSQLiteManager deleteSQLiteDatabase]
+___47-[AWSCognitoSQLiteManager deleteSQLiteDatabase]_block_invoke
+___copy_helper_block_.359
+___destroy_helper_block_.360
+-[AWSCognitoSQLiteManager setIdentityId:]
+-[AWSCognitoSQLiteManager deviceId]
+-[AWSCognitoSQLiteManager setDeviceId:]
+-[AWSCognitoSQLiteManager sqlite]
+-[AWSCognitoSQLiteManager setSqlite:]
+-[AWSCognitoSQLiteManager dispatchQueue]
+-[AWSCognitoSQLiteManager setDispatchQueue:]
+-[AWSCognitoSQLiteManager .cxx_destruct]
+_OBJC_IVAR_$_AWSCognitoSQLiteManager._identityId
+_OBJC_IVAR_$_AWSCognitoSQLiteManager._deviceId
+_OBJC_IVAR_$_AWSCognitoSQLiteManager._dispatchQueue
+_OBJC_IVAR_$_AWSCognitoSQLiteManager._sqlite
+___block_descriptor_tmp.43
+___block_descriptor_tmp.60
+___block_descriptor_tmp.109
+___block_descriptor_tmp.139
+___block_descriptor_tmp.160
+___block_descriptor_tmp.172
+___block_descriptor_tmp.180
+___block_descriptor_tmp.197
+___block_descriptor_tmp.230
+___block_descriptor_tmp.237
+___block_descriptor_tmp.253
+___block_descriptor_tmp.258
+___block_descriptor_tmp.265
+___block_descriptor_tmp.277
+___block_descriptor_tmp.298
+___block_descriptor_tmp.309
+___block_descriptor_tmp.330
+___block_descriptor_tmp.344
+___block_descriptor_tmp.349
+___block_descriptor_tmp.361
+/Users/distiller/project/AWSCognito/Internal/AWSCognitoSQLiteManager.m
+/Users/distiller/project/AWSCognito/Internal/AWSCognitoSQLiteManager.h
+__47-[AWSCognitoSQLiteManager deleteSQLiteDatabase]_block_invoke
+__51-[AWSCognitoSQLiteManager columnExists:columnName:]_block_invoke
+__47-[AWSCognitoSQLiteManager deleteDataset:error:]_block_invoke
+__48-[AWSCognitoSQLiteManager deleteMetadata:error:]_block_invoke
+__48-[AWSCognitoSQLiteManager resetSyncCount:error:]_block_invoke
+__50-[AWSCognitoSQLiteManager getMergeDatasets:error:]_block_invoke
+__60-[AWSCognitoSQLiteManager reparentDatasets:withNewId:error:]_block_invoke
+__72-[AWSCognitoSQLiteManager updateLastSyncCount:syncCount:lastModifiedBy:]_block_invoke
+__41-[AWSCognitoSQLiteManager lastSyncCount:]_block_invoke
+__38-[AWSCognitoSQLiteManager numRecords:]_block_invoke
+__67-[AWSCognitoSQLiteManager updateLocalRecordMetadata:records:error:]_block_invoke
+__88-[AWSCognitoSQLiteManager updateWithRemoteChanges:nonConflicts:resolvedConflicts:error:]_block_invoke
+__62-[AWSCognitoSQLiteManager deleteRecordById:datasetName:error:]_block_invoke
+__69-[AWSCognitoSQLiteManager flagRecordAsDeletedById:datasetName:error:]_block_invoke
+__55-[AWSCognitoSQLiteManager putRecord:datasetName:error:]_block_invoke
+__38-[AWSCognitoSQLiteManager allRecords:]_block_invoke
+__61-[AWSCognitoSQLiteManager recordsUpdatedAfterLastSync:error:]_block_invoke
+__73-[AWSCognitoSQLiteManager getRecordById_internal:datasetName:error:sync:]_block_invoke
+__52-[AWSCognitoSQLiteManager putDatasetMetadata:error:]_block_invoke
+__55-[AWSCognitoSQLiteManager updateDatasetMetadata:error:]_block_invoke
+__53-[AWSCognitoSQLiteManager loadDatasetMetadata:error:]_block_invoke
+__39-[AWSCognitoSQLiteManager getDatasets:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__51-[AWSCognitoSQLiteManager initializeDatasetTables:]_block_invoke
+__43-[AWSCognitoSQLiteManager initializeTables]_block_invoke
+__40-[AWSCognitoSQLiteManager deleteAllData]_block_invoke
+/Users/distiller/Library/Developer/Xcode/DerivedData/AWSiOSSDKv2-bvcffhrgbfjnfybjecennhscmaho/Build/Intermediates.noindex/ArchiveIntermediates/AWSCognito/IntermediateBuildFilesPath/AWSiOSSDKv2.build/Release-iphoneos/AWSCognito.build/DerivedSources/AWSCognito_vers.c
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=409.12
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter

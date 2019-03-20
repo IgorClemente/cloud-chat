@@ -1,0 +1,116 @@
+BCSymbolMap Version: 2.0
+-[AWSFacebookSignInButton initWithCoder:]
+-[AWSFacebookSignInButton initWithFrame:]
+-[AWSFacebookSignInButton commonInit]
+-[AWSFacebookSignInButton dealloc]
+-[AWSFacebookSignInButton observeValueForKeyPath:ofObject:change:context:]
+-[AWSFacebookSignInButton initFacebookButton]
+-[AWSFacebookSignInButton initLogo]
+-[AWSFacebookSignInButton initStackView]
+-[AWSFacebookSignInButton initLabel]
+-[AWSFacebookSignInButton setUpButtonEffects]
+-[AWSFacebookSignInButton setupSmallFacebookButton]
+-[AWSFacebookSignInButton setupLargeFacebookButton]
+-[AWSFacebookSignInButton getImageFromBundle:]
+-[AWSFacebookSignInButton setSignInProvider:]
+-[AWSFacebookSignInButton logInWithProvider:]
+___45-[AWSFacebookSignInButton logInWithProvider:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[AWSFacebookSignInButton delegate]
+-[AWSFacebookSignInButton setDelegate:]
+-[AWSFacebookSignInButton buttonStyle]
+-[AWSFacebookSignInButton setButtonStyle:]
+-[AWSFacebookSignInButton textLabel]
+-[AWSFacebookSignInButton setTextLabel:]
+-[AWSFacebookSignInButton signInProvider]
+-[AWSFacebookSignInButton facebookButton]
+-[AWSFacebookSignInButton setFacebookButton:]
+-[AWSFacebookSignInButton facebookStackView]
+-[AWSFacebookSignInButton setFacebookStackView:]
+-[AWSFacebookSignInButton facebookLogoImageView]
+-[AWSFacebookSignInButton setFacebookLogoImageView:]
+-[AWSFacebookSignInButton .cxx_destruct]
+_OBJC_IVAR_$_AWSFacebookSignInButton._signInProvider
+_OBJC_IVAR_$_AWSFacebookSignInButton.buttonStyle
+_OBJC_IVAR_$_AWSFacebookSignInButton._facebookButton
+_OBJC_IVAR_$_AWSFacebookSignInButton._facebookStackView
+_OBJC_IVAR_$_AWSFacebookSignInButton._textLabel
+___block_descriptor_tmp
+_OBJC_IVAR_$_AWSFacebookSignInButton.delegate
+_OBJC_IVAR_$_AWSFacebookSignInButton._facebookLogoImageView
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_AWSSignInButtonView
+l_OBJC_LABEL_PROTOCOL_$_AWSSignInButtonView
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/distiller/project/AWSAuthSDK/Sources/AWSFacebookSignIn/AWSFacebookSignInButton.m
+/Users/distiller/project/AWSAuthSDK
+/Users/distiller/project/AWSAuthSDK/Sources/AWSFacebookSignIn/AWSFacebookSignInButton.h
+/Users/distiller/project/AWSAuthSDK/Sources/AWSAuthCore/AWSSignInButtonView.h
+__destroy_helper_block_
+__copy_helper_block_
+__45-[AWSFacebookSignInButton logInWithProvider:]_block_invoke
++[AWSFacebookSignInProvider sharedInstance]
+___43+[AWSFacebookSignInProvider sharedInstance]_block_invoke
+-[AWSFacebookSignInProvider init]
+-[AWSFacebookSignInProvider createFBSDKLoginManager]
+-[AWSFacebookSignInProvider setLoginBehavior:]
+-[AWSFacebookSignInProvider setPermissions:]
+-[AWSFacebookSignInProvider setViewControllerForFacebookSignIn:]
+-[AWSFacebookSignInProvider identityProviderName]
+-[AWSFacebookSignInProvider token]
+___34-[AWSFacebookSignInProvider token]_block_invoke
+-[AWSFacebookSignInProvider isLoggedIn]
+-[AWSFacebookSignInProvider reloadSession]
+___42-[AWSFacebookSignInProvider reloadSession]_block_invoke
+___copy_helper_block_.83
+___destroy_helper_block_.84
+-[AWSFacebookSignInProvider completeLogin]
+-[AWSFacebookSignInProvider login:]
+___35-[AWSFacebookSignInProvider login:]_block_invoke
+___copy_helper_block_.116
+___destroy_helper_block_.117
+-[AWSFacebookSignInProvider logout]
+-[AWSFacebookSignInProvider interceptApplication:didFinishLaunchingWithOptions:]
+-[AWSFacebookSignInProvider interceptApplication:openURL:sourceApplication:annotation:]
+-[AWSFacebookSignInProvider isConfigurationKeyPresent]
+-[AWSFacebookSignInProvider getPermissionsFromConfig]
+-[AWSFacebookSignInProvider facebookLogin]
+-[AWSFacebookSignInProvider setFacebookLogin:]
+-[AWSFacebookSignInProvider savedLoginBehavior]
+-[AWSFacebookSignInProvider setSavedLoginBehavior:]
+-[AWSFacebookSignInProvider requestedPermissions]
+-[AWSFacebookSignInProvider setRequestedPermissions:]
+-[AWSFacebookSignInProvider signInViewController]
+-[AWSFacebookSignInProvider setSignInViewController:]
+-[AWSFacebookSignInProvider completionHandler]
+-[AWSFacebookSignInProvider setCompletionHandler:]
+-[AWSFacebookSignInProvider taskCompletionSource]
+-[AWSFacebookSignInProvider setTaskCompletionSource:]
+-[AWSFacebookSignInProvider .cxx_destruct]
+_sharedInstance._sharedInstance
+_sharedInstance.onceToken
+___block_literal_global
+_OBJC_IVAR_$_AWSFacebookSignInProvider._requestedPermissions
+_OBJC_IVAR_$_AWSFacebookSignInProvider._signInViewController
+_OBJC_IVAR_$_AWSFacebookSignInProvider._savedLoginBehavior
+_OBJC_IVAR_$_AWSFacebookSignInProvider._taskCompletionSource
+___block_descriptor_tmp.74
+___block_descriptor_tmp.86
+___block_descriptor_tmp.119
+_OBJC_IVAR_$_AWSFacebookSignInProvider._facebookLogin
+_OBJC_IVAR_$_AWSFacebookSignInProvider._completionHandler
+l_OBJC_PROTOCOL_$_AWSIdentityProvider
+l_OBJC_LABEL_PROTOCOL_$_AWSIdentityProvider
+l_OBJC_PROTOCOL_$_AWSSignInProvider
+l_OBJC_LABEL_PROTOCOL_$_AWSSignInProvider
+l_OBJC_PROTOCOL_$_AWSSignInProviderApplicationIntercept
+l_OBJC_LABEL_PROTOCOL_$_AWSSignInProviderApplicationIntercept
+/Users/distiller/project/AWSAuthSDK/Sources/AWSFacebookSignIn/AWSFacebookSignInProvider.m
+__35-[AWSFacebookSignInProvider login:]_block_invoke
+__42-[AWSFacebookSignInProvider reloadSession]_block_invoke
+__34-[AWSFacebookSignInProvider token]_block_invoke
+__43+[AWSFacebookSignInProvider sharedInstance]_block_invoke
+/Applications/Xcode-10.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/once.h
+/Users/distiller/Library/Developer/Xcode/DerivedData/AWSAuthSDK-awjpvqlgobdtszaszohsjogaibvn/Build/Intermediates.noindex/ArchiveIntermediates/AWSFacebookSignIn/IntermediateBuildFilesPath/AWSAuthSDK.build/Release-iphoneos/AWSFacebookSignIn.build/DerivedSources/AWSFacebookSignIn_vers.c

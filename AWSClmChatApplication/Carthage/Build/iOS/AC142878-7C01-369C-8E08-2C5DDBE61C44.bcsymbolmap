@@ -1,0 +1,2104 @@
+BCSymbolMap Version: 2.0
+-[AWSLexSignature initWithCredentialsProvider:endpoint:]
+-[AWSLexSignature interceptRequest:]
+___36-[AWSLexSignature interceptRequest:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[AWSLexSignature signRequest:credentials:]
+-[AWSLexSignature credentialsProvider]
+-[AWSLexSignature endpoint]
+-[AWSLexSignature setEndpoint:]
+-[AWSLexSignature .cxx_destruct]
+_OBJC_IVAR_$_AWSLexSignature._credentialsProvider
+_OBJC_IVAR_$_AWSLexSignature._endpoint
+___block_descriptor_tmp
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_AWSNetworkingRequestInterceptor
+l_OBJC_LABEL_PROTOCOL_$_AWSNetworkingRequestInterceptor
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/distiller/project/AWSLex/AWSLexSignature.m
+/Users/distiller/project
+/Users/distiller/project/AWSLex/AWSLexSignature.h
+__destroy_helper_block_
+__copy_helper_block_
+__36-[AWSLexSignature interceptRequest:]_block_invoke
++[AWSLexPostContentRequest(Extension) sessionAttributesJSONTransformer]
+___71+[AWSLexPostContentRequest(Extension) sessionAttributesJSONTransformer]_block_invoke
+___71+[AWSLexPostContentRequest(Extension) sessionAttributesJSONTransformer]_block_invoke_2
++[AWSLexPostContentResponse(Extension) slotsJSONTransformer]
+___60+[AWSLexPostContentResponse(Extension) slotsJSONTransformer]_block_invoke
+___60+[AWSLexPostContentResponse(Extension) slotsJSONTransformer]_block_invoke_2
++[AWSLexPostContentResponse(Extension) sessionAttributesJSONTransformer]
+___72+[AWSLexPostContentResponse(Extension) sessionAttributesJSONTransformer]_block_invoke
+___72+[AWSLexPostContentResponse(Extension) sessionAttributesJSONTransformer]_block_invoke_2
+___block_literal_global
+___block_descriptor_tmp.8
+___block_literal_global.9
+___block_descriptor_tmp.20
+___block_literal_global.21
+___block_descriptor_tmp.22
+___block_literal_global.23
+___block_descriptor_tmp.24
+___block_literal_global.25
+___block_descriptor_tmp.26
+___block_literal_global.27
+/Users/distiller/project/AWSLex/AWSLexModel+Extensions.m
+__72+[AWSLexPostContentResponse(Extension) sessionAttributesJSONTransformer]_block_invoke_2
+__72+[AWSLexPostContentResponse(Extension) sessionAttributesJSONTransformer]_block_invoke
+__60+[AWSLexPostContentResponse(Extension) slotsJSONTransformer]_block_invoke_2
+__60+[AWSLexPostContentResponse(Extension) slotsJSONTransformer]_block_invoke
+__71+[AWSLexPostContentRequest(Extension) sessionAttributesJSONTransformer]_block_invoke_2
+__71+[AWSLexPostContentRequest(Extension) sessionAttributesJSONTransformer]_block_invoke
+-[AWSLexSwitchModeInput initWithOutputText:intent:sessionAttributes:slotToElicit:slots:dialogState:audioStream:audioContentType:inputTranscript:]
+-[AWSLexSwitchModeInput intent]
+-[AWSLexSwitchModeInput setIntent:]
+-[AWSLexSwitchModeInput outputText]
+-[AWSLexSwitchModeInput setOutputText:]
+-[AWSLexSwitchModeInput slots]
+-[AWSLexSwitchModeInput setSlots:]
+-[AWSLexSwitchModeInput elicitSlot]
+-[AWSLexSwitchModeInput setElicitSlot:]
+-[AWSLexSwitchModeInput dialogState]
+-[AWSLexSwitchModeInput setDialogState:]
+-[AWSLexSwitchModeInput sessionAttributes]
+-[AWSLexSwitchModeInput setSessionAttributes:]
+-[AWSLexSwitchModeInput audioStream]
+-[AWSLexSwitchModeInput setAudioStream:]
+-[AWSLexSwitchModeInput audioContentType]
+-[AWSLexSwitchModeInput setAudioContentType:]
+-[AWSLexSwitchModeInput inputTranscript]
+-[AWSLexSwitchModeInput setInputTranscript:]
+-[AWSLexSwitchModeInput .cxx_destruct]
+-[AWSLexSwitchModeResponse interactionMode]
+-[AWSLexSwitchModeResponse setInteractionMode:]
+-[AWSLexSwitchModeResponse sessionAttributes]
+-[AWSLexSwitchModeResponse setSessionAttributes:]
+-[AWSLexSwitchModeResponse .cxx_destruct]
+-[AWSLexInteractionKitConfig init]
+-[AWSLexInteractionKitConfig privateInit]
+-[AWSLexInteractionKitConfig initWithBotName:botAlias:]
+___55-[AWSLexInteractionKitConfig initWithBotName:botAlias:]_block_invoke
+-[AWSLexInteractionKitConfig setGlobalSessionAttribute:forKey:]
+-[AWSLexInteractionKitConfig removeGlobalSessionAttribute:]
+-[AWSLexInteractionKitConfig clearAllGlobalSessionAttributes]
++[AWSLexInteractionKitConfig defaultInteractionKitConfigWithBotName:botAlias:]
+-[AWSLexInteractionKitConfig copyWithZone:]
+-[AWSLexInteractionKitConfig botName]
+-[AWSLexInteractionKitConfig setBotName:]
+-[AWSLexInteractionKitConfig botAlias]
+-[AWSLexInteractionKitConfig setBotAlias:]
+-[AWSLexInteractionKitConfig userId]
+-[AWSLexInteractionKitConfig setUserId:]
+-[AWSLexInteractionKitConfig globalSessionAttributes]
+-[AWSLexInteractionKitConfig setGlobalSessionAttributes:]
+-[AWSLexInteractionKitConfig noSpeechTimeoutInterval]
+-[AWSLexInteractionKitConfig setNoSpeechTimeoutInterval:]
+-[AWSLexInteractionKitConfig maxSpeechTimeoutInterval]
+-[AWSLexInteractionKitConfig setMaxSpeechTimeoutInterval:]
+-[AWSLexInteractionKitConfig startpointingThreshold]
+-[AWSLexInteractionKitConfig setStartpointingThreshold:]
+-[AWSLexInteractionKitConfig endpointingThreshold]
+-[AWSLexInteractionKitConfig setEndpointingThreshold:]
+-[AWSLexInteractionKitConfig lrtThreshold]
+-[AWSLexInteractionKitConfig setLrtThreshold:]
+-[AWSLexInteractionKitConfig autoPlayback]
+-[AWSLexInteractionKitConfig setAutoPlayback:]
+-[AWSLexInteractionKitConfig encoding]
+-[AWSLexInteractionKitConfig setEncoding:]
+-[AWSLexInteractionKitConfig .cxx_destruct]
+-[AWSLexInteractionKit init]
++[AWSLexInteractionKit defaultInteractionKit]
+___45+[AWSLexInteractionKit defaultInteractionKit]_block_invoke
++[AWSLexInteractionKit registerInteractionKitWithServiceConfiguration:interactionKitConfiguration:forKey:]
+___106+[AWSLexInteractionKit registerInteractionKitWithServiceConfiguration:interactionKitConfiguration:forKey:]_block_invoke
++[AWSLexInteractionKit interactionKitForKey:]
++[AWSLexInteractionKit removeInteractionKitForKey:]
+-[AWSLexInteractionKit initWithServiceConfiguration:interactionKitConfig:]
+-[AWSLexInteractionKit interactionKitConfig:]
+-[AWSLexInteractionKit blueFrontAudioEncoding:]
+-[AWSLexInteractionKit cancel]
+-[AWSLexInteractionKit textInTextOut:]
+-[AWSLexInteractionKit textInTextOut:sessionAttributes:]
+-[AWSLexInteractionKit textInAudioOut:]
+-[AWSLexInteractionKit textInAudioOut:sessionAttributes:]
+-[AWSLexInteractionKit audioInAudioOut]
+-[AWSLexInteractionKit audioInAudioOutWithSessionAttributes:]
+-[AWSLexInteractionKit audioInTextOut]
+-[AWSLexInteractionKit audioInTextOutWithSessionAttributes:]
+-[AWSLexInteractionKit didReady]
+___32-[AWSLexInteractionKit didReady]_block_invoke
+-[AWSLexInteractionKit didStart]
+___32-[AWSLexInteractionKit didStart]_block_invoke
+___copy_helper_block_.319
+___destroy_helper_block_.320
+-[AWSLexInteractionKit didEnd]
+-[AWSLexInteractionKit didProduceAudio:]
+-[AWSLexInteractionKit didDetectSoundLevelChange:]
+___50-[AWSLexInteractionKit didDetectSoundLevelChange:]_block_invoke
+___copy_helper_block_.340
+___destroy_helper_block_.341
+-[AWSLexInteractionKit didHaveError:]
+-[AWSLexInteractionKit didDetectStartOfSpeech]
+-[AWSLexInteractionKit didDetectEndOfSpeech]
+-[AWSLexInteractionKit releaseAudioSource]
+-[AWSLexInteractionKit resetStates]
+-[AWSLexInteractionKit handleEndOfSpeech]
+___41-[AWSLexInteractionKit handleEndOfSpeech]_block_invoke
+___copy_helper_block_.360
+___destroy_helper_block_.361
+-[AWSLexInteractionKit closeStreams]
+-[AWSLexInteractionKit handleNoSpeechTimeout]
+-[AWSLexInteractionKit handleMaxSpeechTimeout]
+-[AWSLexInteractionKit setupAndStartListeningForMode:]
+-[AWSLexInteractionKit stopListening]
+-[AWSLexInteractionKit streamAudio:]
+-[AWSLexInteractionKit startStreaming]
+-[AWSLexInteractionKit stream:handleEvent:]
+-[AWSLexInteractionKit startConversation:]
+___42-[AWSLexInteractionKit startConversation:]_block_invoke
+___copy_helper_block_.437
+___destroy_helper_block_.438
+___42-[AWSLexInteractionKit startConversation:]_block_invoke.445
+___copy_helper_block_.450
+___destroy_helper_block_.451
+___42-[AWSLexInteractionKit startConversation:]_block_invoke.453
+___42-[AWSLexInteractionKit startConversation:]_block_invoke_2
+___copy_helper_block_.474
+___destroy_helper_block_.475
+___42-[AWSLexInteractionKit startConversation:]_block_invoke.484
+___42-[AWSLexInteractionKit startConversation:]_block_invoke_2.488
+___copy_helper_block_.489
+___destroy_helper_block_.490
+___copy_helper_block_.494
+___destroy_helper_block_.495
+___copy_helper_block_.497
+___destroy_helper_block_.498
+-[AWSLexInteractionKit dispatchBlockOnMainQueue:]
+-[AWSLexInteractionKit dispatchBlockOnInteractionDelegateQueue:]
+-[AWSLexInteractionKit handleError:]
+___36-[AWSLexInteractionKit handleError:]_block_invoke
+___copy_helper_block_.504
+___destroy_helper_block_.505
+-[AWSLexInteractionKit enqueuePlayback:]
+___40-[AWSLexInteractionKit enqueuePlayback:]_block_invoke
+___copy_helper_block_.520
+___destroy_helper_block_.521
+___40-[AWSLexInteractionKit enqueuePlayback:]_block_invoke.526
+___copy_helper_block_.533
+___destroy_helper_block_.534
+___40-[AWSLexInteractionKit enqueuePlayback:]_block_invoke.538
+___copy_helper_block_.541
+___destroy_helper_block_.542
+___40-[AWSLexInteractionKit enqueuePlayback:]_block_invoke.546
+___copy_helper_block_.547
+___destroy_helper_block_.548
+-[AWSLexInteractionKit resetInputStream]
+-[AWSLexInteractionKit interactionKitConfig]
+-[AWSLexInteractionKit setInteractionKitConfig:]
+-[AWSLexInteractionKit interactionDelegate]
+-[AWSLexInteractionKit setInteractionDelegate:]
+-[AWSLexInteractionKit microphoneDelegate]
+-[AWSLexInteractionKit setMicrophoneDelegate:]
+-[AWSLexInteractionKit audioPlayerDelegate]
+-[AWSLexInteractionKit setAudioPlayerDelegate:]
+-[AWSLexInteractionKit configuration]
+-[AWSLexInteractionKit serviceClient]
+-[AWSLexInteractionKit setServiceClient:]
+-[AWSLexInteractionKit sessionAttributes]
+-[AWSLexInteractionKit setSessionAttributes:]
+-[AWSLexInteractionKit resumeListening]
+-[AWSLexInteractionKit setResumeListening:]
+-[AWSLexInteractionKit currentState]
+-[AWSLexInteractionKit setCurrentState:]
+-[AWSLexInteractionKit .cxx_destruct]
++[AWSLexAudioSession sharedInstance]
+___36+[AWSLexAudioSession sharedInstance]_block_invoke
+-[AWSLexAudioSession setPlayAndRecordCategory:]
+-[AWSLexAudioSession overrideOutputAudioPort:]
+-[AWSLexAudioSession requestRecordPermission:]
+-[AWSLexAudioSession startObservingAudioSessionRouteChangeNotification]
+-[AWSLexAudioSession endObservingAudioSessionRouteChangeNotification]
+-[AWSLexAudioSession routeDidChange:]
+-[AWSLexAudioSession observingRouteChangeNotification]
+-[AWSLexAudioSession setObservingRouteChangeNotification:]
+-[AWSLexAudioPlayer dealloc]
+-[AWSLexAudioPlayer initWithData:]
+-[AWSLexAudioPlayer start]
+-[AWSLexAudioPlayer audioPlayerDidFinishPlaying:successfully:]
+-[AWSLexAudioPlayer audioPlayerDecodeErrorDidOccur:error:]
+-[AWSLexAudioPlayer errorBlock]
+-[AWSLexAudioPlayer setErrorBlock:]
+-[AWSLexAudioPlayer completionBlock]
+-[AWSLexAudioPlayer setCompletionBlock:]
+-[AWSLexAudioPlayer preparedBlock]
+-[AWSLexAudioPlayer setPreparedBlock:]
+-[AWSLexAudioPlayer audioPlayer]
+-[AWSLexAudioPlayer setAudioPlayer:]
+-[AWSLexAudioPlayer audioData]
+-[AWSLexAudioPlayer setAudioData:]
+-[AWSLexAudioPlayer .cxx_destruct]
+_OBJC_IVAR_$_AWSLexSwitchModeInput._intent
+_OBJC_IVAR_$_AWSLexSwitchModeInput._slots
+_OBJC_IVAR_$_AWSLexSwitchModeInput._sessionAttributes
+_OBJC_IVAR_$_AWSLexSwitchModeInput._outputText
+_OBJC_IVAR_$_AWSLexSwitchModeInput._elicitSlot
+_OBJC_IVAR_$_AWSLexSwitchModeInput._dialogState
+_OBJC_IVAR_$_AWSLexSwitchModeInput._audioStream
+_OBJC_IVAR_$_AWSLexSwitchModeInput._audioContentType
+_OBJC_IVAR_$_AWSLexSwitchModeInput._inputTranscript
+_OBJC_IVAR_$_AWSLexSwitchModeResponse._interactionMode
+_OBJC_IVAR_$_AWSLexSwitchModeResponse._sessionAttributes
+_initWithBotName:botAlias:.onceToken
+_globalSessionAttributes
+_OBJC_IVAR_$_AWSLexInteractionKitConfig._botName
+_OBJC_IVAR_$_AWSLexInteractionKitConfig._botAlias
+_OBJC_IVAR_$_AWSLexInteractionKitConfig._encoding
+_OBJC_IVAR_$_AWSLexInteractionKitConfig._endpointingThreshold
+_OBJC_IVAR_$_AWSLexInteractionKitConfig._startpointingThreshold
+_OBJC_IVAR_$_AWSLexInteractionKitConfig._lrtThreshold
+_OBJC_IVAR_$_AWSLexInteractionKitConfig._noSpeechTimeoutInterval
+_OBJC_IVAR_$_AWSLexInteractionKitConfig._maxSpeechTimeoutInterval
+_OBJC_IVAR_$_AWSLexInteractionKitConfig._autoPlayback
+_OBJC_IVAR_$_AWSLexInteractionKitConfig._userId
+_OBJC_IVAR_$_AWSLexInteractionKitConfig._globalSessionAttributes
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+__serviceClients
+_defaultInteractionKit._defaultInteractionKit
+_defaultInteractionKit.onceToken
+___block_descriptor_tmp.204
+___block_literal_global.205
+_registerInteractionKitWithServiceConfiguration:interactionKitConfiguration:forKey:.onceToken
+___block_descriptor_tmp.228
+___block_literal_global.229
+_OBJC_IVAR_$_AWSLexInteractionKit._configuration
+_OBJC_IVAR_$_AWSLexInteractionKit._interactionKitConfig
+_OBJC_IVAR_$_AWSLexInteractionKit.vadConfig
+_OBJC_IVAR_$_AWSLexInteractionKit._serviceClient
+_OBJC_IVAR_$_AWSLexInteractionKit.interactionDelegateQueue
+_OBJC_IVAR_$_AWSLexInteractionKit.postRequest
+_OBJC_IVAR_$_AWSLexInteractionKit.textInput
+_OBJC_IVAR_$_AWSLexInteractionKit.sessionAttributesForSpeechInput
+___block_descriptor_tmp.301
+_OBJC_IVAR_$_AWSLexInteractionKit.recordingStartDate
+___block_descriptor_tmp.321
+_OBJC_IVAR_$_AWSLexInteractionKit.isListening
+_OBJC_IVAR_$_AWSLexInteractionKit.speechState
+_OBJC_IVAR_$_AWSLexInteractionKit.isEndpointed
+_OBJC_IVAR_$_AWSLexInteractionKit.audioStartpointedTime
+_OBJC_IVAR_$_AWSLexInteractionKit.isStartpointed
+_OBJC_IVAR_$_AWSLexInteractionKit.isStreaming
+___block_descriptor_tmp.343
+_OBJC_IVAR_$_AWSLexInteractionKit.audioSource
+_OBJC_IVAR_$_AWSLexInteractionKit.isErrored
+_OBJC_IVAR_$_AWSLexInteractionKit.producerAudioBuffer
+___block_descriptor_tmp.362
+_OBJC_IVAR_$_AWSLexInteractionKit.producerStream
+_OBJC_IVAR_$_AWSLexInteractionKit.consumerStream
+_OBJC_IVAR_$_AWSLexInteractionKit.consumerAudioBuffer
+_OBJC_IVAR_$_AWSLexInteractionKit.numOfBytesSent
+___block_descriptor_tmp.440
+___block_descriptor_tmp.452
+___block_descriptor_tmp.476
+___block_descriptor_tmp.491
+___block_descriptor_tmp.496
+___block_descriptor_tmp.499
+___block_descriptor_tmp.506
+_OBJC_IVAR_$_AWSLexInteractionKit.audioPlayer
+___block_descriptor_tmp.523
+___block_descriptor_tmp.535
+___block_descriptor_tmp.543
+___block_descriptor_tmp.549
+_OBJC_IVAR_$_AWSLexInteractionKit._interactionDelegate
+_OBJC_IVAR_$_AWSLexInteractionKit._microphoneDelegate
+_OBJC_IVAR_$_AWSLexInteractionKit._audioPlayerDelegate
+_OBJC_IVAR_$_AWSLexInteractionKit._sessionAttributes
+_OBJC_IVAR_$_AWSLexInteractionKit._resumeListening
+_OBJC_IVAR_$_AWSLexInteractionKit._currentState
+l_OBJC_PROTOCOL_$_BFAudioSourceDelegate
+l_OBJC_LABEL_PROTOCOL_$_BFAudioSourceDelegate
+l_OBJC_PROTOCOL_$_NSStreamDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSStreamDelegate
+l_OBJC_PROTOCOL_$_AWSLexRequestRetryHandlerDelegate
+l_OBJC_LABEL_PROTOCOL_$_AWSLexRequestRetryHandlerDelegate
+_sharedInstance.shared
+_sharedInstance.token
+___block_descriptor_tmp.685
+___block_literal_global.686
+_OBJC_IVAR_$_AWSLexAudioSession._observingRouteChangeNotification
+_OBJC_IVAR_$_AWSLexAudioPlayer._errorBlock
+_OBJC_IVAR_$_AWSLexAudioPlayer._completionBlock
+_OBJC_IVAR_$_AWSLexAudioPlayer._preparedBlock
+_OBJC_IVAR_$_AWSLexAudioPlayer._audioPlayer
+_OBJC_IVAR_$_AWSLexAudioPlayer._audioData
+l_OBJC_PROTOCOL_$_AVAudioPlayerDelegate
+l_OBJC_LABEL_PROTOCOL_$_AVAudioPlayerDelegate
+/Users/distiller/project/AWSLex/AWSLexInteractionKit.m
+/Users/distiller/project/AWSLex/AWSLexInteractionKit.h
+__36+[AWSLexAudioSession sharedInstance]_block_invoke
+/Applications/Xcode-10.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/once.h
+__40-[AWSLexInteractionKit enqueuePlayback:]_block_invoke.546
+__40-[AWSLexInteractionKit enqueuePlayback:]_block_invoke.538
+__40-[AWSLexInteractionKit enqueuePlayback:]_block_invoke.526
+__40-[AWSLexInteractionKit enqueuePlayback:]_block_invoke
+__36-[AWSLexInteractionKit handleError:]_block_invoke
+__42-[AWSLexInteractionKit startConversation:]_block_invoke_2.488
+__42-[AWSLexInteractionKit startConversation:]_block_invoke.484
+__42-[AWSLexInteractionKit startConversation:]_block_invoke_2
+__42-[AWSLexInteractionKit startConversation:]_block_invoke.453
+__42-[AWSLexInteractionKit startConversation:]_block_invoke.445
+__42-[AWSLexInteractionKit startConversation:]_block_invoke
+__41-[AWSLexInteractionKit handleEndOfSpeech]_block_invoke
+__50-[AWSLexInteractionKit didDetectSoundLevelChange:]_block_invoke
+__32-[AWSLexInteractionKit didStart]_block_invoke
+__32-[AWSLexInteractionKit didReady]_block_invoke
+__106+[AWSLexInteractionKit registerInteractionKitWithServiceConfiguration:interactionKitConfiguration:forKey:]_block_invoke
+__45+[AWSLexInteractionKit defaultInteractionKit]_block_invoke
+__55-[AWSLexInteractionKitConfig initWithBotName:botAlias:]_block_invoke
++[AWSLexButton JSONKeyPathsByPropertyKey]
+-[AWSLexButton text]
+-[AWSLexButton setText:]
+-[AWSLexButton value]
+-[AWSLexButton setValue:]
+-[AWSLexButton .cxx_destruct]
++[AWSLexGenericAttachment JSONKeyPathsByPropertyKey]
++[AWSLexGenericAttachment buttonsJSONTransformer]
+-[AWSLexGenericAttachment attachmentLinkUrl]
+-[AWSLexGenericAttachment setAttachmentLinkUrl:]
+-[AWSLexGenericAttachment buttons]
+-[AWSLexGenericAttachment setButtons:]
+-[AWSLexGenericAttachment imageUrl]
+-[AWSLexGenericAttachment setImageUrl:]
+-[AWSLexGenericAttachment subTitle]
+-[AWSLexGenericAttachment setSubTitle:]
+-[AWSLexGenericAttachment title]
+-[AWSLexGenericAttachment setTitle:]
+-[AWSLexGenericAttachment .cxx_destruct]
++[AWSLexPostContentRequest JSONKeyPathsByPropertyKey]
+-[AWSLexPostContentRequest accept]
+-[AWSLexPostContentRequest setAccept:]
+-[AWSLexPostContentRequest botAlias]
+-[AWSLexPostContentRequest setBotAlias:]
+-[AWSLexPostContentRequest botName]
+-[AWSLexPostContentRequest setBotName:]
+-[AWSLexPostContentRequest contentType]
+-[AWSLexPostContentRequest setContentType:]
+-[AWSLexPostContentRequest inputStream]
+-[AWSLexPostContentRequest setInputStream:]
+-[AWSLexPostContentRequest sessionAttributes]
+-[AWSLexPostContentRequest setSessionAttributes:]
+-[AWSLexPostContentRequest userId]
+-[AWSLexPostContentRequest setUserId:]
+-[AWSLexPostContentRequest .cxx_destruct]
++[AWSLexPostContentResponse JSONKeyPathsByPropertyKey]
++[AWSLexPostContentResponse dialogStateJSONTransformer]
+___55+[AWSLexPostContentResponse dialogStateJSONTransformer]_block_invoke
+___55+[AWSLexPostContentResponse dialogStateJSONTransformer]_block_invoke_2
+-[AWSLexPostContentResponse audioStream]
+-[AWSLexPostContentResponse setAudioStream:]
+-[AWSLexPostContentResponse contentType]
+-[AWSLexPostContentResponse setContentType:]
+-[AWSLexPostContentResponse dialogState]
+-[AWSLexPostContentResponse setDialogState:]
+-[AWSLexPostContentResponse inputTranscript]
+-[AWSLexPostContentResponse setInputTranscript:]
+-[AWSLexPostContentResponse intentName]
+-[AWSLexPostContentResponse setIntentName:]
+-[AWSLexPostContentResponse message]
+-[AWSLexPostContentResponse setMessage:]
+-[AWSLexPostContentResponse sessionAttributes]
+-[AWSLexPostContentResponse setSessionAttributes:]
+-[AWSLexPostContentResponse slotToElicit]
+-[AWSLexPostContentResponse setSlotToElicit:]
+-[AWSLexPostContentResponse slots]
+-[AWSLexPostContentResponse setSlots:]
+-[AWSLexPostContentResponse .cxx_destruct]
++[AWSLexPostTextRequest JSONKeyPathsByPropertyKey]
+-[AWSLexPostTextRequest botAlias]
+-[AWSLexPostTextRequest setBotAlias:]
+-[AWSLexPostTextRequest botName]
+-[AWSLexPostTextRequest setBotName:]
+-[AWSLexPostTextRequest inputText]
+-[AWSLexPostTextRequest setInputText:]
+-[AWSLexPostTextRequest sessionAttributes]
+-[AWSLexPostTextRequest setSessionAttributes:]
+-[AWSLexPostTextRequest userId]
+-[AWSLexPostTextRequest setUserId:]
+-[AWSLexPostTextRequest .cxx_destruct]
++[AWSLexPostTextResponse JSONKeyPathsByPropertyKey]
++[AWSLexPostTextResponse dialogStateJSONTransformer]
+___52+[AWSLexPostTextResponse dialogStateJSONTransformer]_block_invoke
+___52+[AWSLexPostTextResponse dialogStateJSONTransformer]_block_invoke_2
++[AWSLexPostTextResponse responseCardJSONTransformer]
+-[AWSLexPostTextResponse dialogState]
+-[AWSLexPostTextResponse setDialogState:]
+-[AWSLexPostTextResponse intentName]
+-[AWSLexPostTextResponse setIntentName:]
+-[AWSLexPostTextResponse message]
+-[AWSLexPostTextResponse setMessage:]
+-[AWSLexPostTextResponse responseCard]
+-[AWSLexPostTextResponse setResponseCard:]
+-[AWSLexPostTextResponse sessionAttributes]
+-[AWSLexPostTextResponse setSessionAttributes:]
+-[AWSLexPostTextResponse slotToElicit]
+-[AWSLexPostTextResponse setSlotToElicit:]
+-[AWSLexPostTextResponse slots]
+-[AWSLexPostTextResponse setSlots:]
+-[AWSLexPostTextResponse .cxx_destruct]
++[AWSLexResponseCard JSONKeyPathsByPropertyKey]
++[AWSLexResponseCard contentTypeJSONTransformer]
+___48+[AWSLexResponseCard contentTypeJSONTransformer]_block_invoke
+___48+[AWSLexResponseCard contentTypeJSONTransformer]_block_invoke_2
++[AWSLexResponseCard genericAttachmentsJSONTransformer]
+-[AWSLexResponseCard contentType]
+-[AWSLexResponseCard setContentType:]
+-[AWSLexResponseCard genericAttachments]
+-[AWSLexResponseCard setGenericAttachments:]
+-[AWSLexResponseCard version]
+-[AWSLexResponseCard setVersion:]
+-[AWSLexResponseCard .cxx_destruct]
+_OBJC_IVAR_$_AWSLexButton._text
+_OBJC_IVAR_$_AWSLexButton._value
+_OBJC_IVAR_$_AWSLexGenericAttachment._attachmentLinkUrl
+_OBJC_IVAR_$_AWSLexGenericAttachment._buttons
+_OBJC_IVAR_$_AWSLexGenericAttachment._imageUrl
+_OBJC_IVAR_$_AWSLexGenericAttachment._subTitle
+_OBJC_IVAR_$_AWSLexGenericAttachment._title
+_OBJC_IVAR_$_AWSLexPostContentRequest._accept
+_OBJC_IVAR_$_AWSLexPostContentRequest._botAlias
+_OBJC_IVAR_$_AWSLexPostContentRequest._botName
+_OBJC_IVAR_$_AWSLexPostContentRequest._contentType
+_OBJC_IVAR_$_AWSLexPostContentRequest._inputStream
+_OBJC_IVAR_$_AWSLexPostContentRequest._sessionAttributes
+_OBJC_IVAR_$_AWSLexPostContentRequest._userId
+___block_descriptor_tmp.152
+___block_literal_global.153
+_OBJC_IVAR_$_AWSLexPostContentResponse._audioStream
+_OBJC_IVAR_$_AWSLexPostContentResponse._contentType
+_OBJC_IVAR_$_AWSLexPostContentResponse._dialogState
+_OBJC_IVAR_$_AWSLexPostContentResponse._inputTranscript
+_OBJC_IVAR_$_AWSLexPostContentResponse._intentName
+_OBJC_IVAR_$_AWSLexPostContentResponse._message
+_OBJC_IVAR_$_AWSLexPostContentResponse._sessionAttributes
+_OBJC_IVAR_$_AWSLexPostContentResponse._slotToElicit
+_OBJC_IVAR_$_AWSLexPostContentResponse._slots
+_OBJC_IVAR_$_AWSLexPostTextRequest._botAlias
+_OBJC_IVAR_$_AWSLexPostTextRequest._botName
+_OBJC_IVAR_$_AWSLexPostTextRequest._inputText
+_OBJC_IVAR_$_AWSLexPostTextRequest._sessionAttributes
+_OBJC_IVAR_$_AWSLexPostTextRequest._userId
+___block_descriptor_tmp.211
+___block_literal_global.212
+___block_descriptor_tmp.213
+___block_literal_global.214
+_OBJC_IVAR_$_AWSLexPostTextResponse._dialogState
+_OBJC_IVAR_$_AWSLexPostTextResponse._intentName
+_OBJC_IVAR_$_AWSLexPostTextResponse._message
+_OBJC_IVAR_$_AWSLexPostTextResponse._responseCard
+_OBJC_IVAR_$_AWSLexPostTextResponse._sessionAttributes
+_OBJC_IVAR_$_AWSLexPostTextResponse._slotToElicit
+_OBJC_IVAR_$_AWSLexPostTextResponse._slots
+___block_descriptor_tmp.231
+___block_literal_global.232
+___block_descriptor_tmp.235
+___block_literal_global.236
+_OBJC_IVAR_$_AWSLexResponseCard._contentType
+_OBJC_IVAR_$_AWSLexResponseCard._genericAttachments
+_OBJC_IVAR_$_AWSLexResponseCard._version
+/Users/distiller/project/AWSLex/AWSLexModel.m
+/Users/distiller/project/AWSLex/AWSLexModel.h
+__48+[AWSLexResponseCard contentTypeJSONTransformer]_block_invoke_2
+__48+[AWSLexResponseCard contentTypeJSONTransformer]_block_invoke
+__52+[AWSLexPostTextResponse dialogStateJSONTransformer]_block_invoke_2
+__52+[AWSLexPostTextResponse dialogStateJSONTransformer]_block_invoke
+__55+[AWSLexPostContentResponse dialogStateJSONTransformer]_block_invoke_2
+__55+[AWSLexPostContentResponse dialogStateJSONTransformer]_block_invoke
++[UIColor(AWSLexVoiceButton) colorWithHexValue:]
+-[UIView(AWSLexVoiceButton) pushTransition:]
+-[AWSLexVoiceButtonResponse initWithOutputText:intent:sessionAttributes:slotToElicit:slots:dialogState:audioStream:audioContentType:inputTranscript:]
+-[AWSLexVoiceButtonResponse intent]
+-[AWSLexVoiceButtonResponse setIntent:]
+-[AWSLexVoiceButtonResponse outputText]
+-[AWSLexVoiceButtonResponse setOutputText:]
+-[AWSLexVoiceButtonResponse slots]
+-[AWSLexVoiceButtonResponse setSlots:]
+-[AWSLexVoiceButtonResponse elicitSlot]
+-[AWSLexVoiceButtonResponse setElicitSlot:]
+-[AWSLexVoiceButtonResponse dialogState]
+-[AWSLexVoiceButtonResponse setDialogState:]
+-[AWSLexVoiceButtonResponse sessionAttributes]
+-[AWSLexVoiceButtonResponse setSessionAttributes:]
+-[AWSLexVoiceButtonResponse audioStream]
+-[AWSLexVoiceButtonResponse setAudioStream:]
+-[AWSLexVoiceButtonResponse audioContentType]
+-[AWSLexVoiceButtonResponse setAudioContentType:]
+-[AWSLexVoiceButtonResponse inputTranscript]
+-[AWSLexVoiceButtonResponse setInputTranscript:]
+-[AWSLexVoiceButtonResponse .cxx_destruct]
+-[AWSLexVoiceButton defaultMicImageColor]
+-[AWSLexVoiceButton defaultLexImageColor]
+-[AWSLexVoiceButton setMicrophoneImageColor:]
+-[AWSLexVoiceButton microphoneImageColor]
+-[AWSLexVoiceButton lexImageColor]
+-[AWSLexVoiceButton initWithCoder:]
+-[AWSLexVoiceButton getImageFromBundle:]
+-[AWSLexVoiceButton willMoveToSuperview:]
+-[AWSLexVoiceButton setDelegates]
+-[AWSLexVoiceButton removeDelegates]
+-[AWSLexVoiceButton intrinsicContentSize]
+-[AWSLexVoiceButton layoutSubviews]
+-[AWSLexVoiceButton startMonitoring:]
+___37-[AWSLexVoiceButton startMonitoring:]_block_invoke
+-[AWSLexVoiceButton handleError:]
+___33-[AWSLexVoiceButton handleError:]_block_invoke
+___copy_helper_block_.225
+___destroy_helper_block_.226
+-[AWSLexVoiceButton startListening]
+-[AWSLexVoiceButton startDisplay]
+-[AWSLexVoiceButton stopDisplay]
+-[AWSLexVoiceButton setButtonImage:imageTintColor:animated:]
+-[AWSLexVoiceButton addShapeLayer]
+-[AWSLexVoiceButton handleDisplayLink]
+-[AWSLexVoiceButton progressLayer]
+-[AWSLexVoiceButton startProgress]
+-[AWSLexVoiceButton stopProgress]
+-[AWSLexVoiceButton interactionKit:onSoundLevelChanged:]
+-[AWSLexVoiceButton interactionKitOnRecordingStart:]
+-[AWSLexVoiceButton interactionKitOnRecordingEnd:audioStream:contentType:]
+-[AWSLexVoiceButton interactionKit:onError:]
+___44-[AWSLexVoiceButton interactionKit:onError:]_block_invoke
+___copy_helper_block_.349
+___destroy_helper_block_.350
+-[AWSLexVoiceButton resetError:]
+-[AWSLexVoiceButton interactionKit:switchModeInput:completionSource:]
+___69-[AWSLexVoiceButton interactionKit:switchModeInput:completionSource:]_block_invoke
+___copy_helper_block_.371
+___destroy_helper_block_.372
+-[AWSLexVoiceButton interactionKit:onDialogReadyForFulfillmentForIntent:slots:]
+-[AWSLexVoiceButton interactionKitOnAudioPlaybackStarted:]
+-[AWSLexVoiceButton interactionKitOnAudioPlaybackFinished:]
+-[AWSLexVoiceButton delegate]
+-[AWSLexVoiceButton setDelegate:]
+-[AWSLexVoiceButton animateOnImageSwitching]
+-[AWSLexVoiceButton setAnimateOnImageSwitching:]
+-[AWSLexVoiceButton setLexImageColor:]
+-[AWSLexVoiceButton errorColor]
+-[AWSLexVoiceButton setErrorColor:]
+-[AWSLexVoiceButton voiceLevel]
+-[AWSLexVoiceButton setVoiceLevel:]
+-[AWSLexVoiceButton displayLink]
+-[AWSLexVoiceButton setDisplayLink:]
+-[AWSLexVoiceButton progressLink]
+-[AWSLexVoiceButton setProgressLink:]
+-[AWSLexVoiceButton rightShapeLayer]
+-[AWSLexVoiceButton setRightShapeLayer:]
+-[AWSLexVoiceButton leftShapeLayer]
+-[AWSLexVoiceButton setLeftShapeLayer:]
+-[AWSLexVoiceButton microphoneImage]
+-[AWSLexVoiceButton setMicrophoneImage:]
+-[AWSLexVoiceButton listenImage]
+-[AWSLexVoiceButton setListenImage:]
+-[AWSLexVoiceButton backgroundLayer]
+-[AWSLexVoiceButton setBackgroundLayer:]
+-[AWSLexVoiceButton setProgressLayer:]
+-[AWSLexVoiceButton interactionKit]
+-[AWSLexVoiceButton setInteractionKit:]
+-[AWSLexVoiceButton setDefaultMicImageColor:]
+-[AWSLexVoiceButton setDefaultLexImageColor:]
+-[AWSLexVoiceButton .cxx_destruct]
+_OBJC_IVAR_$_AWSLexVoiceButtonResponse._intent
+_OBJC_IVAR_$_AWSLexVoiceButtonResponse._slots
+_OBJC_IVAR_$_AWSLexVoiceButtonResponse._sessionAttributes
+_OBJC_IVAR_$_AWSLexVoiceButtonResponse._outputText
+_OBJC_IVAR_$_AWSLexVoiceButtonResponse._elicitSlot
+_OBJC_IVAR_$_AWSLexVoiceButtonResponse._dialogState
+_OBJC_IVAR_$_AWSLexVoiceButtonResponse._audioStream
+_OBJC_IVAR_$_AWSLexVoiceButtonResponse._audioContentType
+_OBJC_IVAR_$_AWSLexVoiceButtonResponse._inputTranscript
+_OBJC_IVAR_$_AWSLexVoiceButton._defaultMicImageColor
+_OBJC_IVAR_$_AWSLexVoiceButton._defaultLexImageColor
+_OBJC_IVAR_$_AWSLexVoiceButton._microphoneImageColor
+_OBJC_IVAR_$_AWSLexVoiceButton.imageButton
+_OBJC_IVAR_$_AWSLexVoiceButton._lexImageColor
+_OBJC_IVAR_$_AWSLexVoiceButton.lightGrey
+_OBJC_IVAR_$_AWSLexVoiceButton.timingFunction
+_OBJC_IVAR_$_AWSLexVoiceButton.isListening
+_OBJC_IVAR_$_AWSLexVoiceButton.canListen
+_OBJC_IVAR_$_AWSLexVoiceButton.center
+_OBJC_IVAR_$_AWSLexVoiceButton._progressLayer
+_OBJC_IVAR_$_AWSLexVoiceButton.isAnimating
+___block_descriptor_tmp.351
+___block_descriptor_tmp.373
+_OBJC_IVAR_$_AWSLexVoiceButton._delegate
+_OBJC_IVAR_$_AWSLexVoiceButton._animateOnImageSwitching
+_OBJC_IVAR_$_AWSLexVoiceButton._errorColor
+_OBJC_IVAR_$_AWSLexVoiceButton._voiceLevel
+_OBJC_IVAR_$_AWSLexVoiceButton._displayLink
+_OBJC_IVAR_$_AWSLexVoiceButton._progressLink
+_OBJC_IVAR_$_AWSLexVoiceButton._rightShapeLayer
+_OBJC_IVAR_$_AWSLexVoiceButton._leftShapeLayer
+_OBJC_IVAR_$_AWSLexVoiceButton._microphoneImage
+_OBJC_IVAR_$_AWSLexVoiceButton._listenImage
+_OBJC_IVAR_$_AWSLexVoiceButton._backgroundLayer
+_OBJC_IVAR_$_AWSLexVoiceButton._interactionKit
+_OBJC_IVAR_$_AWSLexVoiceButton.onTouch
+l_OBJC_PROTOCOL_$_AWSLexInteractionDelegate
+l_OBJC_LABEL_PROTOCOL_$_AWSLexInteractionDelegate
+l_OBJC_PROTOCOL_$_AWSLexMicrophoneDelegate
+l_OBJC_LABEL_PROTOCOL_$_AWSLexMicrophoneDelegate
+l_OBJC_PROTOCOL_$_AWSLexAudioPlayerDelegate
+l_OBJC_LABEL_PROTOCOL_$_AWSLexAudioPlayerDelegate
+_OBJC_IVAR_$_AWSLexVoiceButton.errorFired
+/Users/distiller/project/AWSLex/AWSLexVoiceButton.m
+/Users/distiller/project/AWSLex/AWSLexVoiceButton.h
+__69-[AWSLexVoiceButton interactionKit:switchModeInput:completionSource:]_block_invoke
+__44-[AWSLexVoiceButton interactionKit:onError:]_block_invoke
+__33-[AWSLexVoiceButton handleError:]_block_invoke
+__37-[AWSLexVoiceButton startMonitoring:]_block_invoke
+CGSizeMake
+/Applications/Xcode-10.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
++[AWSLexResources sharedInstance]
+___33+[AWSLexResources sharedInstance]_block_invoke
+-[AWSLexResources JSONObject]
+-[AWSLexResources init]
+-[AWSLexResources definitionString]
+-[AWSLexResources definitionDictionary]
+-[AWSLexResources setDefinitionDictionary:]
+-[AWSLexResources .cxx_destruct]
+_sharedInstance._sharedResources
+_sharedInstance.once_token
+_OBJC_IVAR_$_AWSLexResources._definitionDictionary
+/Users/distiller/project/AWSLex/AWSLexResources.m
+__33+[AWSLexResources sharedInstance]_block_invoke
+-[AWSLexRequestRetryHandler shouldRetry:originalRequest:response:data:error:]
+-[AWSLexRequestRetryHandler resetParameters:]
+-[AWSLexRequestRetryHandler delegate]
+-[AWSLexRequestRetryHandler setDelegate:]
+-[AWSLexRequestRetryHandler .cxx_destruct]
+_OBJC_IVAR_$_AWSLexRequestRetryHandler._delegate
+/Users/distiller/project/AWSLex/AWSLexRequestRetryHandler.m
+/Users/distiller/project/AWSLex/AWSLexRequestRetryHandler.h
++[AWSLexResponseSerializer initialize]
+-[AWSLexResponseSerializer responseObjectForResponse:originalRequest:currentRequest:data:error:]
++[AWSLex initialize]
++[AWSLex defaultLex]
+___20+[AWSLex defaultLex]_block_invoke
++[AWSLex registerLexWithConfiguration:forKey:]
+___46+[AWSLex registerLexWithConfiguration:forKey:]_block_invoke
++[AWSLex LexForKey:]
++[AWSLex removeLexForKey:]
+-[AWSLex init]
+-[AWSLex initWithConfiguration:]
+-[AWSLex invokeRequest:HTTPMethod:URLString:targetPrefix:operationName:outputClass:]
+-[AWSLex postContent:]
+-[AWSLex postContent:completionHandler:]
+___40-[AWSLex postContent:completionHandler:]_block_invoke
+-[AWSLex postText:]
+-[AWSLex postText:completionHandler:]
+___37-[AWSLex postText:completionHandler:]_block_invoke
+___copy_helper_block_.226
+___destroy_helper_block_.227
+-[AWSLex configuration]
+-[AWSLex setConfiguration:]
+-[AWSLex networking]
+-[AWSLex setNetworking:]
+-[AWSLex .cxx_destruct]
+_errorCodeDictionary
+_defaultLex._defaultLex
+_defaultLex.onceToken
+_registerLexWithConfiguration:forKey:.onceToken
+___block_descriptor_tmp.106
+___block_literal_global.107
+_OBJC_IVAR_$_AWSLex._configuration
+_OBJC_IVAR_$_AWSLex._networking
+___block_descriptor_tmp.216
+/Users/distiller/project/AWSLex/AWSLexService.m
+/Users/distiller/project/AWSLex/AWSLexService.h
+__37-[AWSLex postText:completionHandler:]_block_invoke
+__40-[AWSLex postContent:completionHandler:]_block_invoke
+__46+[AWSLex registerLexWithConfiguration:forKey:]_block_invoke
+__20+[AWSLex defaultLex]_block_invoke
+/Users/distiller/Library/Developer/Xcode/DerivedData/AWSiOSSDKv2-bvcffhrgbfjnfybjecennhscmaho/Build/Intermediates.noindex/ArchiveIntermediates/AWSLex/IntermediateBuildFilesPath/AWSiOSSDKv2.build/Release-iphoneos/AWSLex.build/DerivedSources/AWSLex_vers.c
+/tmp/xcodebuild20170410-98154-gzkhqt/object-dir20170410-98154-1knur3d/variant-normal/armv7/front_end_util.o
+Apple LLVM version 8.0.0 (clang-800.0.38)
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/ThirdParty/webrtc/signal_processing/front_end_util.c
+/private/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS
+DnnScoringFix
+DnnScoring
+GetStackedFeature
+PushAudio
+applyCMVNS
+MeanNormalizationFlt
+FloatAdd
+FloatScale
+SampleToLFBEFlt
+checkDigitalSilence
+ApplyLogFlt
+PowerSpectrumToMelEnergiesFlt
+SampleToPowerSpectrumFlt
+ExtractWindowFlt
+PoveyWindowFnFlt
+RemoveDcOffsetFlt
+PreemphasizeFlt
+softmax
+sigmoid
+affineFix
+WebRtcSpl_AddSatW32
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/ThirdParty/webrtc/signal_processing/include/spl_inl.h
+quantize32bit
+quantize16bit
+affine
+/tmp/xcodebuild20170410-98154-gzkhqt/object-dir20170410-98154-1knur3d/variant-normal/armv7/webrtc_vad.o
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/ThirdParty/webrtc/vad/webrtc_vad.c
+WebRtcVad_reset_dnn
+getDnnInstHandle
+_ValidRateAndFrameLength
+WebRtcVad_ValidRateAndFrameLength
+WebRtcVad_Process
+WebRtcVad_set_dnn_scoring_mode
+WebRtcVad_set_dnn_lrt_threshold
+WebRtcVad_Init
+WebRtcVad_Free
+DnnVad_Free
+WebRtcVad_Create
+-[BFDecoder decode:]
+/tmp/xcodebuild20170410-98154-gzkhqt/object-dir20170410-98154-1knur3d/variant-normal/armv7/BFDecoder.o
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/Classes/codec/decoder/BFDecoder.m
+/tmp/xcodebuild20170410-98154-gzkhqt/object-dir20170410-98154-1knur3d/variant-normal/armv7/vad_core.o
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/ThirdParty/webrtc/vad/vad_core.c
+WebRtcVad_DNN_CalcVad
+WebRtcVad_InitCore
+-[BFOpusEncoder initWithAudioFormat:inputFrameDuration:outputBitrate:complexity:]
+-[BFOpusEncoder createEncoder]
+-[BFOpusEncoder encode:]
+-[BFOpusEncoder bufferSizeForDuration:]
+-[BFOpusEncoder dealloc]
+_OBJC_IVAR_$_BFOpusEncoder.mAudioFormatIn
+_OBJC_IVAR_$_BFOpusEncoder.mOutputBitRate
+_OBJC_IVAR_$_BFOpusEncoder.mComplexity
+_OBJC_IVAR_$_BFOpusEncoder.mInputFrameSize
+_OBJC_IVAR_$_BFOpusEncoder.mEncoder
+/tmp/xcodebuild20170410-98154-gzkhqt/object-dir20170410-98154-1knur3d/variant-normal/armv7/BFOpusEncoder.o
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/Classes/codec/encoder/BFOpusEncoder.m
+-[BFLPCM16Encoder init]
+-[BFLPCM16Encoder initWithSampleRate:channels:]
+-[BFLPCM16Encoder encode:]
+-[BFLPCM16Encoder bufferSizeForDuration:]
++[BFLPCM16Encoder createAudioFormatFromSampleRate:channels:]
+_OBJC_IVAR_$_BFLPCM16Encoder.mSampleRate
+/tmp/xcodebuild20170410-98154-gzkhqt/object-dir20170410-98154-1knur3d/variant-normal/armv7/BFLPCM16Encoder.o
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/Classes/codec/encoder/BFLPCM16Encoder.m
++[NSError(BFAudioSourceError) bfas_errorWithCode:message:]
+/tmp/xcodebuild20170410-98154-gzkhqt/object-dir20170410-98154-1knur3d/variant-normal/armv7/NSError+BFAudioSourceError.o
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/Classes/error/NSError+BFAudioSourceError.m
+-[BFVoiceActivityDetector initWithVADConfig:audioStreamFormat:]
+-[BFVoiceActivityDetector setup]
+___32-[BFVoiceActivityDetector setup]_block_invoke
+-[BFVoiceActivityDetector createVADHandler]
+-[BFVoiceActivityDetector processSamples:withLength:]
+___53-[BFVoiceActivityDetector processSamples:withLength:]_block_invoke
+___copy_helper_block_.14
+___destroy_helper_block_.15
+-[BFVoiceActivityDetector dealloc]
+___34-[BFVoiceActivityDetector dealloc]_block_invoke
+___copy_helper_block_.23
+___destroy_helper_block_.24
+-[BFVoiceActivityDetector delegate]
+-[BFVoiceActivityDetector setDelegate:]
+-[BFVoiceActivityDetector .cxx_destruct]
+_OBJC_IVAR_$_BFVoiceActivityDetector.mVADConfig
+_OBJC_IVAR_$_BFVoiceActivityDetector.mAudioStreamFormat
+_OBJC_IVAR_$_BFVoiceActivityDetector.mVADQueue
+_OBJC_IVAR_$_BFVoiceActivityDetector.mSpeechDetected
+_OBJC_IVAR_$_BFVoiceActivityDetector.mVADHandler
+_OBJC_IVAR_$_BFVoiceActivityDetector.mConsecutiveSpeechFrames
+_OBJC_IVAR_$_BFVoiceActivityDetector.mConsecutiveNoSpeechFrames
+___block_descriptor_tmp.16
+___block_descriptor_tmp.25
+_OBJC_IVAR_$_BFVoiceActivityDetector._delegate
+/tmp/xcodebuild20170410-98154-gzkhqt/object-dir20170410-98154-1knur3d/variant-normal/armv7/BFVoiceActivityDetector.o
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/Classes/vad/BFVoiceActivityDetector.m
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/Classes/vad/BFVoiceActivityDetector.h
+__34-[BFVoiceActivityDetector dealloc]_block_invoke
+__53-[BFVoiceActivityDetector processSamples:withLength:]_block_invoke
+__32-[BFVoiceActivityDetector setup]_block_invoke
+-[BFVADConfig init]
+-[BFVADConfig initWithLrtThreshold:startpointingThreshold:endpointingThreshold:]
+-[BFVADConfig startpointingThreshold]
+-[BFVADConfig endpointingThreshold]
+-[BFVADConfig lrtThreshold]
+_OBJC_IVAR_$_BFVADConfig._lrtThreshold
+_OBJC_IVAR_$_BFVADConfig._startpointingThreshold
+_OBJC_IVAR_$_BFVADConfig._endpointingThreshold
+/tmp/xcodebuild20170410-98154-gzkhqt/object-dir20170410-98154-1knur3d/variant-normal/armv7/BFVADConfig.o
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/Classes/vad/BFVADConfig.m
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/Classes/vad/BFVADConfig.h
+-[BFAudioRecorder initWithEncoding:voiceActivityDetectorConfiguration:allowAudioPlayback:]
+-[BFAudioRecorder initWithEncoding:voiceActivityDetectorConfiguration:]
+-[BFAudioRecorder initWithEncoding:]
+-[BFAudioRecorder init]
++[BFAudioRecorder createEncoderFromAudioEncoding:audioStreamFormat:]
+-[BFAudioRecorder start]
+-[BFAudioRecorder stop]
+-[BFAudioRecorder encodeAudio:]
+-[BFAudioRecorder audioBufferSize]
+-[BFAudioRecorder dispatchBlockOnDelegateQueue:]
+-[BFAudioRecorder dispatchBlockOnAudioProcessingQueue:]
+-[BFAudioRecorder didReadyForRecording]
+___39-[BFAudioRecorder didReadyForRecording]_block_invoke
+-[BFAudioRecorder didStartRecording]
+___36-[BFAudioRecorder didStartRecording]_block_invoke
+___copy_helper_block_.64
+___destroy_helper_block_.65
+-[BFAudioRecorder didStopRecording]
+___35-[BFAudioRecorder didStopRecording]_block_invoke
+___copy_helper_block_.69
+___destroy_helper_block_.70
+-[BFAudioRecorder didRecordAudio:]
+___34-[BFAudioRecorder didRecordAudio:]_block_invoke
+___34-[BFAudioRecorder didRecordAudio:]_block_invoke_2
+___copy_helper_block_.78
+___destroy_helper_block_.79
+___copy_helper_block_.81
+___destroy_helper_block_.82
+-[BFAudioRecorder didDetectSoundLevelChange:]
+___45-[BFAudioRecorder didDetectSoundLevelChange:]_block_invoke
+___copy_helper_block_.88
+___destroy_helper_block_.89
+-[BFAudioRecorder didHaveError:]
+___32-[BFAudioRecorder didHaveError:]_block_invoke
+___copy_helper_block_.93
+___destroy_helper_block_.94
+-[BFAudioRecorder didHaveStartOfSpeech]
+___39-[BFAudioRecorder didHaveStartOfSpeech]_block_invoke
+___copy_helper_block_.98
+___destroy_helper_block_.99
+-[BFAudioRecorder didHaveEndOfSpeech]
+___37-[BFAudioRecorder didHaveEndOfSpeech]_block_invoke
+___copy_helper_block_.103
+___destroy_helper_block_.104
+-[BFAudioRecorder isRecording]
+-[BFAudioRecorder setIsRecording:]
+-[BFAudioRecorder .cxx_destruct]
+_OBJC_IVAR_$_BFAudioRecorder.mAudioRecordingFormat
+_OBJC_IVAR_$_BFAudioRecorder.mEncoder
+_OBJC_IVAR_$_BFAudioRecorder.mVoiceActivityDetector
+_OBJC_IVAR_$_BFAudioRecorder._isRecording
+_OBJC_IVAR_$_BFAudioRecorder.mAudioOrchestrator
+_OBJC_IVAR_$_BFAudioRecorder.mAudioProcessingQueue
+_OBJC_IVAR_$_BFAudioRecorder.mAudioBuffer
+_OBJC_IVAR_$_BFAudioRecorder.mNumOfBytesEncoded
+___block_descriptor_tmp.66
+___block_descriptor_tmp.71
+___block_descriptor_tmp.80
+___block_descriptor_tmp.83
+___block_descriptor_tmp.90
+___block_descriptor_tmp.95
+___block_descriptor_tmp.100
+___block_descriptor_tmp.105
+l_OBJC_PROTOCOL_$_BFAudioRecordingOrchestatorDelegate
+l_OBJC_LABEL_PROTOCOL_$_BFAudioRecordingOrchestatorDelegate
+l_OBJC_PROTOCOL_$_BFVoiceActivityDetectorDelegate
+l_OBJC_LABEL_PROTOCOL_$_BFVoiceActivityDetectorDelegate
+/tmp/xcodebuild20170410-98154-gzkhqt/object-dir20170410-98154-1knur3d/variant-normal/armv7/BFAudioRecorder.o
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/Classes/recorder/BFAudioRecorder.m
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/Classes/recorder/BFAudioRecorder.h
+__37-[BFAudioRecorder didHaveEndOfSpeech]_block_invoke
+__39-[BFAudioRecorder didHaveStartOfSpeech]_block_invoke
+__32-[BFAudioRecorder didHaveError:]_block_invoke
+__45-[BFAudioRecorder didDetectSoundLevelChange:]_block_invoke
+__34-[BFAudioRecorder didRecordAudio:]_block_invoke_2
+__34-[BFAudioRecorder didRecordAudio:]_block_invoke
+__35-[BFAudioRecorder didStopRecording]_block_invoke
+__36-[BFAudioRecorder didStartRecording]_block_invoke
+__39-[BFAudioRecorder didReadyForRecording]_block_invoke
+-[BFAudioSource initWithEncoding:]
+-[BFAudioSource initWithEncoding:voiceActivityDetectorConfiguration:]
+-[BFAudioSource start]
+-[BFAudioSource stop]
+-[BFAudioSource audioBufferSize]
+-[BFAudioSource contentType]
+-[BFAudioSource setContentType:]
+-[BFAudioSource encoding]
+-[BFAudioSource vadConfig]
+-[BFAudioSource delegate]
+-[BFAudioSource setDelegate:]
+-[BFAudioSource delegateQueue]
+-[BFAudioSource .cxx_destruct]
+_OBJC_IVAR_$_BFAudioSource._vadConfig
+_OBJC_IVAR_$_BFAudioSource._encoding
+_OBJC_IVAR_$_BFAudioSource._delegateQueue
+_OBJC_IVAR_$_BFAudioSource._contentType
+_OBJC_IVAR_$_BFAudioSource._delegate
+/tmp/xcodebuild20170410-98154-gzkhqt/object-dir20170410-98154-1knur3d/variant-normal/armv7/BFAudioSource.o
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/Classes/BFAudioSource.m
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/Classes/BFAudioSource.h
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/Classes/BFAudioSource+Protected.h
+-[BFAudioRecordingOrchestrator initWithAudioStreamFormat:bufferDuration:allowAudioPlayback:]
+-[BFAudioRecordingOrchestrator startRecording]
+-[BFAudioRecordingOrchestrator stopRecording]
+-[BFAudioRecordingOrchestrator setUpAudioSession]
+-[BFAudioRecordingOrchestrator createInputAudioQueue]
+-[BFAudioRecordingOrchestrator bufferSizeForDuration:]
+-[BFAudioRecordingOrchestrator startSoundLevelTimer]
+-[BFAudioRecordingOrchestrator stopSoundLevelTimer]
+-[BFAudioRecordingOrchestrator checkSoundLevelChanges]
+___54-[BFAudioRecordingOrchestrator checkSoundLevelChanges]_block_invoke
+-[BFAudioRecordingOrchestrator soundLevel]
+-[BFAudioRecordingOrchestrator delegate]
+-[BFAudioRecordingOrchestrator setDelegate:]
+-[BFAudioRecordingOrchestrator .cxx_destruct]
+_OBJC_IVAR_$_BFAudioRecordingOrchestrator.mAudioStreamFormat
+_OBJC_IVAR_$_BFAudioRecordingOrchestrator.mPreferredBufferDuration
+_OBJC_IVAR_$_BFAudioRecordingOrchestrator.mBufferSize
+_OBJC_IVAR_$_BFAudioRecordingOrchestrator.mAllowAudioPlayback
+_OBJC_IVAR_$_BFAudioRecordingOrchestrator.mAudioInputQueue
+_OBJC_IVAR_$_BFAudioRecordingOrchestrator.mAudioInputQueueBuffer
+_OBJC_IVAR_$_BFAudioRecordingOrchestrator.mSoundLevelTimer
+_OBJC_IVAR_$_BFAudioRecordingOrchestrator.mSoundLevel
+_OBJC_IVAR_$_BFAudioRecordingOrchestrator._delegate
+/tmp/xcodebuild20170410-98154-gzkhqt/object-dir20170410-98154-1knur3d/variant-normal/armv7/BFAudioRecordingOrchestrator.o
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/Classes/recorder/BFAudioRecordingOrchestrator.m
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/Classes/recorder/BFAudioRecordingOrchestrator.h
+__54-[BFAudioRecordingOrchestrator checkSoundLevelChanges]_block_invoke
+audioQueueInputCallback
+-[BFEncoder encode:]
+-[BFEncoder setContentType:]
+-[BFEncoder bufferSizeForDuration:]
+-[BFEncoder contentType]
+-[BFEncoder .cxx_destruct]
+_OBJC_IVAR_$_BFEncoder._contentType
+/tmp/xcodebuild20170410-98154-gzkhqt/object-dir20170410-98154-1knur3d/variant-normal/armv7/BFEncoder.o
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/Classes/codec/encoder/BFEncoder.m
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/Classes/codec/encoder/BFEncoder.h
+/tmp/xcodebuild20170410-98154-gzkhqt/object-dir20170410-98154-1knur3d/variant-normal/armv7/split_radix_complex_fft.o
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/ThirdParty/webrtc/signal_processing/split_radix_complex_fft.c
+SplitRadixRealFft_Compute
+ComplexAddProduct
+ComplexMul
+ComplexImExp
+SplitRadixComplexFft_Compute
+SplitRadixComplexFft_Compute2
+ComputeRecursive
+BitReversePermute
+FreeSplitRadixComplexFFT
+CreateSplitRadixComplexFFT
+/tmp/xcodebuild20170410-98154-gzkhqt/object-dir20170410-98154-1knur3d/variant-normal/armv7/dnn_model1.o
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/ThirdParty/webrtc/signal_processing/dnn_model1.c
+-[BFOpusDecoder initWithAudioFormat:inputFrameDuration:inputBitrate:]
+-[BFOpusDecoder create]
+-[BFOpusDecoder decode:]
+-[BFOpusDecoder dealloc]
+_OBJC_IVAR_$_BFOpusDecoder.mAudioFormat
+_OBJC_IVAR_$_BFOpusDecoder.mInputFrameDuration
+_OBJC_IVAR_$_BFOpusDecoder.mInputBitrate
+_OBJC_IVAR_$_BFOpusDecoder.mInputFrameSize
+_OBJC_IVAR_$_BFOpusDecoder.mDecoder
+/tmp/xcodebuild20170410-98154-gzkhqt/object-dir20170410-98154-1knur3d/variant-normal/armv7/BFOpusDecoder.o
+/tmp/xcodebuild20170410-98154-gzkhqt/workspace/BlueAudioSourceiOS/Classes/codec/decoder/BFOpusDecoder.m
+__ZL15__ARCLite__loadv
+__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__ZL23NSAutoreleasePool_class
+__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+l_OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -mlinker-version=409.12 -march=armv7a
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_objc_storeStrong
+__arclite_objc_release
+__arclite_objc_retain
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+__arclite_objc_retainBlock
+__arclite_object_copy
+fixupCopiedReferences
+_class_getInstanceStart
+alignedInstanceStart
+__arclite_class_usesAutomaticRetainRelease
+classOrSuperClassesUseARR
+__arclite_object_setIvar
+isScannedOffset
+_ivar_getClass
+__arclite_object_setInstanceVariable
+add_image_hook_ARC
+patch_t<void (id *, id)>
+patch_t<id (id)>
+patch_t<void (id)>
+patch_t<id (id, unsigned long)>
+patch_t<void (id, objc_ivar *, id)>
+patch_t<objc_ivar *(id, const char *, void *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+__arclite_NSArray_objectAtIndexedSubscript
+patch_lazy_pointers
+__arclite_objc_autoreleasePoolPop
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+patch_t<void (void *)>
+patch_t<void *()>
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_ARC
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
+install_subscripting
+addMethod
+indexedGetter
+install_autoreleasepool
+_denormalise_bands
+_quant_all_bands
+_quant_band
+_compute_theta
+_deinterleave_hadamard
+_quant_partition
+_interleave_hadamard
+_comb_filter
+_opus_custom_encoder_ctl
+_celt_encode_with_ec
+_run_prefilter
+_transient_analysis
+_compute_mdcts
+_tf_analysis
+_dynalloc_analysis
+_opus_custom_decoder_ctl
+_celt_decode_with_ec
+_celt_decode_lost
+_ec_dec_uint
+_ec_encode
+_ec_enc_bit_logp
+_ec_enc_icdf
+_ec_enc_uint
+_ec_enc_done
+_opus_fft
+_ec_laplace_encode
+_clt_mdct_forward
+_clt_mdct_backward
+_pitch_downsample
+_celt_pitch_xcorr_c
+_pitch_search
+_celt_fir
+_celt_iir
+__celt_autocorr
+_quant_coarse_energy
+_quant_coarse_energy_impl
+_amp2Log2
+_compute_allocation
+_alg_quant
+_exp_rotation
+_alg_unquant
+_silk_CNG
+_silk_decode_core
+_silk_decode_frame
+_silk_decode_indices
+_silk_decode_pulses
+_silk_InitDecoder
+_silk_Decode
+_silk_InitEncoder
+_silk_Encode
+_silk_encode_indices
+_silk_encode_pulses
+_silk_gains_quant
+_silk_NLSF_decode
+_silk_NSQ
+_silk_NSQ_del_dec
+_silk_noise_shape_quantizer_del_dec
+_silk_PLC_conceal
+_silk_VAD_GetSA_Q8
+_silk_NLSF_encode
+_silk_stereo_LR_to_MS
+_silk_control_encoder
+_silk_setup_resamplers
+_silk_ana_filt_bank_1
+_silk_LPC_analysis_filter
+_silk_LPC_inverse_pred_gain
+_silk_NLSF2A
+_silk_NLSF_stabilize
+_silk_resampler_init
+_silk_resampler
+_silk_resampler_private_down_FIR
+_silk_resampler_private_IIR_FIR
+_silk_resampler_private_up2_HQ
+_silk_stereo_decode_pred
+_silk_stereo_find_predictor
+_silk_stereo_quant_pred
+_silk_encode_frame_FLP
+_silk_LPC_analysis_filter_FLP
+_silk_A2NLSF_FLP
+_silk_NSQ_wrapper_FLP
+_silk_burg_modified_FLP
+_silk_inner_product_FLP
+_silk_LPC_inverse_pred_gain_FLP
+_opus_packet_parse_impl
+_opus_decode_native
+_opus_decode_frame
+_optimize_framesize
+_downmix_float
+_downmix_int
+_opus_encode_native
+_opus_repacketizer_cat_impl
+_opus_repacketizer_out_range_impl
+_run_analysis
+_compute_qn.exp2_table8
+_quant_band.bit_interleave_table
+_quant_band.bit_deinterleave_table
+_ordery_table
+_tf_select_table
+_comb_filter.gains
+_opus_strerror.error_strings
+_tapset_icdf
+_spread_icdf
+_celt_encode_with_ec.intensity_thresholds
+_celt_encode_with_ec.intensity_histeresis
+_trim_icdf
+_transient_analysis.inv_table
+_tapset_icdf.1
+_spread_icdf.2
+_trim_icdf.3
+_.memset_pattern.4
+_CELT_PVQ_U_ROW
+_CELT_PVQ_U_DATA
+_mode48000_960_120
+_eband5ms
+_band_allocation
+_logN400
+_window120
+_fft_state48000_960_0
+_fft_state48000_960_1
+_fft_state48000_960_2
+_fft_state48000_960_3
+_mdct_twiddles960
+_cache_index50
+_cache_bits50
+_cache_caps50
+_fft_bitrev60
+_fft_twiddles48000_960
+_fft_bitrev120
+_fft_bitrev240
+_fft_bitrev480
+_second_check
+_eMeans
+_e_prob_model
+_pred_coef
+_beta_coef
+_small_energy_icdf
+_.memset_pattern.75
+_LOG2_FRAC_TABLE
+_exp_rotation.SPREAD_FACTOR
+_HARM_ATT_Q15
+_PLC_RAND_ATTENUATE_V_Q15
+_PLC_RAND_ATTENUATE_UV_Q15
+_silk_gain_iCDF
+_silk_delta_gain_iCDF
+_silk_LTP_per_index_iCDF
+_silk_LTP_gain_iCDF_ptrs
+_silk_LTP_gain_iCDF_0
+_silk_LTP_gain_iCDF_1
+_silk_LTP_gain_iCDF_2
+_silk_LTP_gain_BITS_Q5_ptrs
+_silk_LTP_gain_BITS_Q5_0
+_silk_LTP_gain_BITS_Q5_1
+_silk_LTP_gain_BITS_Q5_2
+_silk_LTP_vq_ptrs_Q7
+_silk_LTP_gain_vq_0
+_silk_LTP_gain_vq_1
+_silk_LTP_gain_vq_2
+_silk_LTP_vq_gain_ptrs_Q7
+_silk_LTP_gain_vq_0_gain
+_silk_LTP_gain_vq_1_gain
+_silk_LTP_gain_vq_2_gain
+_silk_LTP_vq_sizes
+_silk_NLSF_CB_NB_MB
+_silk_NLSF_CB1_NB_MB_Q8
+_silk_NLSF_CB1_iCDF_NB_MB
+_silk_NLSF_PRED_NB_MB_Q8
+_silk_NLSF_CB2_SELECT_NB_MB
+_silk_NLSF_CB2_iCDF_NB_MB
+_silk_NLSF_CB2_BITS_NB_MB_Q5
+_silk_NLSF_DELTA_MIN_NB_MB_Q15
+_silk_NLSF_CB_WB
+_silk_NLSF_CB1_WB_Q8
+_silk_NLSF_CB1_iCDF_WB
+_silk_NLSF_PRED_WB_Q8
+_silk_NLSF_CB2_SELECT_WB
+_silk_NLSF_CB2_iCDF_WB
+_silk_NLSF_CB2_BITS_WB_Q5
+_silk_NLSF_DELTA_MIN_WB_Q15
+_silk_TargetRate_table_NB
+_silk_TargetRate_table_MB
+_silk_TargetRate_table_WB
+_silk_SNR_table_Q1
+_silk_stereo_pred_quant_Q13
+_silk_stereo_pred_joint_iCDF
+_silk_stereo_only_code_mid_iCDF
+_silk_LBRR_flags_iCDF_ptr
+_silk_LBRR_flags_2_iCDF
+_silk_LBRR_flags_3_iCDF
+_silk_lsb_iCDF
+_silk_LTPscale_iCDF
+_silk_type_offset_VAD_iCDF
+_silk_type_offset_no_VAD_iCDF
+_silk_NLSF_interpolation_factor_iCDF
+_silk_Quantization_Offsets_Q10
+_silk_LTPScales_table_Q14
+_silk_uniform3_iCDF
+_silk_uniform4_iCDF
+_silk_uniform5_iCDF
+_silk_uniform6_iCDF
+_silk_uniform8_iCDF
+_silk_NLSF_EXT_iCDF
+_silk_Transition_LP_B_Q28
+_silk_Transition_LP_A_Q28
+_silk_pitch_lag_iCDF
+_silk_pitch_delta_iCDF
+_silk_pitch_contour_iCDF
+_silk_pitch_contour_NB_iCDF
+_silk_pitch_contour_10_ms_iCDF
+_silk_pitch_contour_10_ms_NB_iCDF
+_silk_pulses_per_block_iCDF
+_silk_pulses_per_block_BITS_Q5
+_silk_rate_levels_iCDF
+_silk_rate_levels_BITS_Q5
+_silk_shell_code_table0
+_silk_shell_code_table1
+_silk_shell_code_table2
+_silk_shell_code_table3
+_silk_shell_code_table_offsets
+_silk_sign_iCDF
+_.memset_pattern.186
+_tiltWeights
+_silk_LSFCosTab_FIX_Q12
+_silk_NLSF2A.ordering16
+_silk_NLSF2A.ordering10
+_silk_CB_lags_stage2_10_ms
+_silk_CB_lags_stage3_10_ms
+_silk_Lag_range_stage3_10_ms
+_silk_CB_lags_stage2
+_silk_CB_lags_stage3
+_silk_Lag_range_stage3
+_silk_nb_cbk_searchs_stage3
+_delay_matrix_enc
+_delay_matrix_dec
+_silk_Resampler_3_4_COEFS
+_silk_Resampler_2_3_COEFS
+_silk_Resampler_1_2_COEFS
+_silk_Resampler_1_3_COEFS
+_silk_Resampler_1_4_COEFS
+_silk_Resampler_1_6_COEFS
+_silk_resampler_frac_FIR_12
+_sigm_LUT_neg_Q15
+_sigm_LUT_slope_Q10
+_sigm_LUT_pos_Q15
+_.memset_pattern1
+_.memset_pattern2
+_.memset_pattern.361
+_mono_voice_bandwidth_thresholds
+_mono_music_bandwidth_thresholds
+_stereo_voice_bandwidth_thresholds
+_stereo_music_bandwidth_thresholds
+_analysis_window
+_tbands
+_extra_bands
+_dct_table
+_tansig_table
+_weights
+Apple LLVM version 7.0.0 (clang-700.1.76)
+src/mlp_data.c
+/Users/oberlina/Documents/workplace/bluefront-bidi-ios/src/Opus-iOS/build/src/opus-1.1
+src/mlp.c
+src/analysis.c
+src/repacketizer.c
+src/opus_encoder.c
+src/opus_decoder.c
+src/opus.c
+./silk/float/sort_FLP.c
+./silk/float/schur_FLP.c
+./silk/float/scale_vector_FLP.c
+./silk/float/scale_copy_vector_FLP.c
+./silk/float/pitch_analysis_core_FLP.c
+./silk/float/LPC_inv_pred_gain_FLP.c
+./silk/float/levinsondurbin_FLP.c
+./silk/float/k2a_FLP.c
+./silk/float/inner_product_FLP.c
+./silk/float/energy_FLP.c
+./silk/float/bwexpander_FLP.c
+./silk/float/burg_modified_FLP.c
+./silk/float/autocorrelation_FLP.c
+./silk/float/wrappers_FLP.c
+./silk/float/warped_autocorrelation_FLP.c
+./silk/float/solve_LS_FLP.c
+./silk/float/residual_energy_FLP.c
+./silk/float/regularize_correlations_FLP.c
+./silk/float/process_gains_FLP.c
+./silk/float/prefilter_FLP.c
+./silk/float/noise_shape_analysis_FLP.c
+./silk/float/LTP_scale_ctrl_FLP.c
+./silk/float/LTP_analysis_filter_FLP.c
+./silk/float/LPC_analysis_filter_FLP.c
+./silk/float/find_pred_coefs_FLP.c
+./silk/float/find_pitch_lags_FLP.c
+./silk/float/find_LTP_FLP.c
+./silk/float/find_LPC_FLP.c
+./silk/float/encode_frame_FLP.c
+./silk/float/corrMatrix_FLP.c
+./silk/float/apply_sine_window_FLP.c
+./silk/stereo_quant_pred.c
+./silk/stereo_find_predictor.c
+./silk/stereo_encode_pred.c
+./silk/stereo_decode_pred.c
+./silk/sum_sqr_shift.c
+./silk/sort.c
+./silk/sigm_Q15.c
+./silk/resampler_rom.c
+./silk/resampler_private_up2_HQ.c
+./silk/resampler_private_IIR_FIR.c
+./silk/resampler_private_down_FIR.c
+./silk/resampler_private_AR2.c
+./silk/resampler_down2.c
+./silk/resampler_down2_3.c
+./silk/resampler.c
+./silk/pitch_est_tables.c
+./silk/NLSF_VQ_weights_laroia.c
+./silk/NLSF_stabilize.c
+./silk/NLSF2A.c
+./silk/table_LSF_cos.c
+./silk/LPC_inv_pred_gain.c
+./silk/LPC_analysis_filter.c
+./silk/log2lin.c
+./silk/lin2log.c
+./silk/inner_prod_aligned.c
+./silk/decode_pitch.c
+./silk/bwexpander.c
+./silk/bwexpander_32.c
+./silk/biquad_alt.c
+./silk/ana_filt_bank_1.c
+./silk/A2NLSF.c
+./silk/control_codec.c
+./silk/init_encoder.c
+./silk/control_SNR.c
+./silk/check_control_input.c
+./silk/stereo_MS_to_LR.c
+./silk/stereo_LR_to_MS.c
+./silk/process_NLSFs.c
+./silk/NLSF_del_dec_quant.c
+./silk/NLSF_unpack.c
+./silk/NLSF_VQ.c
+./silk/NLSF_encode.c
+./silk/HP_variable_cutoff.c
+./silk/VQ_WMat_EC.c
+./silk/quant_LTP_gains.c
+./silk/control_audio_bandwidth.c
+./silk/VAD.c
+./silk/tables_pulses_per_block.c
+./silk/tables_pitch_lag.c
+./silk/tables_other.c
+./silk/tables_NLSF_CB_WB.c
+./silk/tables_NLSF_CB_NB_MB.c
+./silk/tables_LTP.c
+./silk/tables_gain.c
+./silk/shell_coder.c
+./silk/PLC.c
+./silk/NSQ_del_dec.c
+./silk/NSQ.c
+./silk/NLSF_decode.c
+./silk/LP_variable_cutoff.c
+./silk/interpolate.c
+./silk/gain_quant.c
+./silk/encode_pulses.c
+./silk/encode_indices.c
+./silk/enc_API.c
+./silk/dec_API.c
+./silk/decoder_set_fs.c
+./silk/decode_pulses.c
+./silk/decode_indices.c
+./silk/decode_parameters.c
+./silk/decode_frame.c
+./silk/decode_core.c
+./silk/init_decoder.c
+./silk/code_signs.c
+./silk/CNG.c
+./celt/vq.c
+./celt/rate.c
+./celt/quant_bands.c
+./celt/celt_lpc.c
+./celt/pitch.c
+./celt/modes.c
+./celt/mdct.c
+./celt/mathops.c
+./celt/laplace.c
+./celt/kiss_fft.c
+./celt/entenc.c
+./celt/entdec.c
+./celt/entcode.c
+./celt/cwrs.c
+./celt/celt_decoder.c
+./celt/celt_encoder.c
+./celt/celt.c
+./celt/bands.c
+run_analysis
+tonality_get_info
+tonality_analysis
+mlp_process
+tansig_approx
+fast_atan2f
+opus_multistream_packet_unpad
+opus_repacketizer_init
+opus_multistream_packet_pad
+opus_packet_pad
+opus_repacketizer_cat
+opus_packet_unpad
+opus_repacketizer_out
+opus_repacketizer_out_range
+opus_repacketizer_out_range_impl
+encode_size
+opus_repacketizer_get_nb_frames
+opus_repacketizer_cat_impl
+opus_packet_get_nb_frames
+opus_packet_get_samples_per_frame
+opus_repacketizer_destroy
+opus_free
+./celt/os_support.h
+opus_repacketizer_create
+opus_alloc
+opus_repacketizer_get_size
+opus_encoder_destroy
+opus_encoder_ctl
+user_bitrate_to_bitrate
+opus_encode_float
+compute_frame_size
+frame_size_select
+opus_encode
+opus_encode_native
+ec_tell
+./celt/entcode.h
+gen_toc
+ec_enc_shrink
+celt/entenc.c
+ec_enc_uint
+ec_encode
+ec_enc_normalize
+ec_enc_carry_out
+ec_write_byte
+ec_enc_bit_logp
+stereo_fade
+gain_fade
+FLOAT2INT16
+./celt/float_cast.h
+dc_reject
+hp_cutoff
+silk_biquad_float
+silk_log2lin
+silk/log2lin.c
+ec_enc_init
+compute_stereo_width
+downmix_int
+downmix_float
+optimize_framesize
+transient_viterbi
+transient_boost
+opus_encoder_create
+opus_encoder_get_size
+celt_encoder_get_size
+celt/celt_encoder.c
+opus_encoder_init
+celt_encoder_init
+resampling_factor
+celt/celt.c
+opus_custom_encoder_init_arch
+opus_custom_encoder_get_size
+opus_decoder_get_nb_samples
+opus_packet_get_nb_samples
+opus_decoder_destroy
+opus_decoder_ctl
+opus_decode_float
+opus_decode
+opus_packet_get_nb_channels
+opus_packet_get_bandwidth
+opus_decode_frame
+smooth_fade
+ec_dec_bit_logp
+celt/entdec.c
+ec_dec_normalize
+ec_read_byte
+ec_dec_uint
+ec_dec_update
+ec_decode
+ec_dec_init
+opus_decode_native
+opus_packet_get_mode
+opus_decoder_create
+opus_decoder_get_size
+celt_decoder_get_size
+celt/celt_decoder.c
+opus_decoder_init
+celt_decoder_init
+opus_custom_decoder_init
+opus_custom_decoder_get_size
+opus_packet_parse
+opus_packet_parse_impl
+parse_size
+opus_pcm_soft_clip
+silk_LPC_inverse_pred_gain_FLP
+silk/float/LPC_inv_pred_gain_FLP.c
+silk_inner_product_FLP
+silk/float/inner_product_FLP.c
+silk_burg_modified_FLP
+silk/float/burg_modified_FLP.c
+silk_energy_FLP
+silk/float/energy_FLP.c
+silk_NSQ_wrapper_FLP
+silk/float/wrappers_FLP.c
+silk_float2int
+./silk/float/SigProc_FLP.h
+silk_A2NLSF_FLP
+silk_A2NLSF
+silk/A2NLSF.c
+silk_A2NLSF_eval_poly
+silk_A2NLSF_init
+silk_A2NLSF_trans_poly
+silk_bwexpander_32
+silk/bwexpander_32.c
+silk_LPC_analysis_filter_FLP
+silk/float/LPC_analysis_filter_FLP.c
+silk_LPC_analysis_filter16_FLP
+silk_LPC_analysis_filter12_FLP
+silk_LPC_analysis_filter10_FLP
+silk_LPC_analysis_filter8_FLP
+silk_LPC_analysis_filter6_FLP
+silk_encode_frame_FLP
+silk/float/encode_frame_FLP.c
+silk_gains_ID
+silk/gain_quant.c
+silk_max_32
+./silk/SigProc_FIX.h
+silk_min_32
+silk_LBRR_encode_FLP
+silk_gains_dequant
+silk_max_int
+silk_min_int
+silk_prefilter_FLP
+silk/float/prefilter_FLP.c
+silk_prefilt_FLP
+silk_warped_LPC_analysis_filter_FLP
+silk_process_gains_FLP
+silk/float/process_gains_FLP.c
+silk_sigmoid
+silk_find_pred_coefs_FLP
+silk/float/find_pred_coefs_FLP.c
+silk_residual_energy_FLP
+silk/float/residual_energy_FLP.c
+silk_process_NLSFs_FLP
+silk_process_NLSFs
+silk/process_NLSFs.c
+silk_interpolate
+silk/interpolate.c
+silk_NLSF_VQ_weights_laroia
+silk/NLSF_VQ_weights_laroia.c
+silk_find_LPC_FLP
+silk/float/find_LPC_FLP.c
+silk_NLSF2A_FLP
+silk_scale_copy_vector_FLP
+silk/float/scale_copy_vector_FLP.c
+silk_LTP_analysis_filter_FLP
+silk/float/LTP_analysis_filter_FLP.c
+silk_LTP_scale_ctrl_FLP
+silk/float/LTP_scale_ctrl_FLP.c
+silk_quant_LTP_gains_FLP
+silk_quant_LTP_gains
+silk/quant_LTP_gains.c
+silk_lin2log
+silk/lin2log.c
+silk_CLZ_FRAC
+./silk/Inlines.h
+silk_ROR32
+silk_CLZ32
+./silk/macros.h
+silk_VQ_WMat_EC
+silk/VQ_WMat_EC.c
+silk_find_LTP_FLP
+silk/float/find_LTP_FLP.c
+silk_log2
+silk_scale_vector_FLP
+silk/float/scale_vector_FLP.c
+silk_residual_energy_covar_FLP
+silk_solve_LDL_FLP
+silk/float/solve_LS_FLP.c
+silk_SolveWithUpperTriangularFromLowerWdiagOnes_FLP
+silk_SolveWithLowerTriangularWdiagOnes_FLP
+silk_LDL_FLP
+silk_regularize_correlations_FLP
+silk/float/regularize_correlations_FLP.c
+silk_corrVector_FLP
+silk/float/corrMatrix_FLP.c
+silk_corrMatrix_FLP
+silk_noise_shape_analysis_FLP
+silk/float/noise_shape_analysis_FLP.c
+warped_true2monic_coefs
+silk_bwexpander_FLP
+silk/float/bwexpander_FLP.c
+warped_gain
+silk_levinsondurbin_FLP
+silk/float/levinsondurbin_FLP.c
+silk_autocorrelation_FLP
+silk/float/autocorrelation_FLP.c
+silk_warped_autocorrelation_FLP
+silk/float/warped_autocorrelation_FLP.c
+silk_apply_sine_window_FLP
+silk/float/apply_sine_window_FLP.c
+silk_find_pitch_lags_FLP
+silk/float/find_pitch_lags_FLP.c
+silk_pitch_analysis_core_FLP
+silk/float/pitch_analysis_core_FLP.c
+silk_P_Ana_calc_energy_st3
+silk_P_Ana_calc_corr_st3
+silk_insertion_sort_decreasing_FLP
+silk/float/sort_FLP.c
+silk_short2float_array
+silk_resampler_down2
+silk/resampler_down2.c
+silk_float2short_array
+silk_resampler_down2_3
+silk/resampler_down2_3.c
+silk_resampler_private_AR2
+silk/resampler_private_AR2.c
+silk_k2a_FLP
+silk/float/k2a_FLP.c
+silk_schur_FLP
+silk/float/schur_FLP.c
+silk_LP_variable_cutoff
+silk/LP_variable_cutoff.c
+silk_biquad_alt
+silk/biquad_alt.c
+silk_LP_interpolate_filter_taps
+silk_stereo_quant_pred
+silk/stereo_quant_pred.c
+silk_stereo_find_predictor
+silk/stereo_find_predictor.c
+silk_DIV32_varQ
+silk_SQRT_APPROX
+silk_inner_prod_aligned_scale
+silk/inner_prod_aligned.c
+silk_sum_sqr_shift
+silk/sum_sqr_shift.c
+silk_stereo_decode_pred
+silk/stereo_decode_pred.c
+ec_dec_icdf
+silk_resampler_private_up2_HQ
+silk/resampler_private_up2_HQ.c
+silk_resampler_private_IIR_FIR
+silk/resampler_private_IIR_FIR.c
+silk_resampler_private_IIR_FIR_INTERPOL
+silk_resampler_private_down_FIR
+silk/resampler_private_down_FIR.c
+silk_resampler_private_down_FIR_INTERPOL
+silk_resampler
+silk/resampler.c
+silk_resampler_private_up2_HQ_wrapper
+silk_resampler_init
+silk_NLSF_stabilize
+silk/NLSF_stabilize.c
+silk_insertion_sort_increasing_all_values_int16
+silk/sort.c
+silk_NLSF2A
+silk/NLSF2A.c
+silk_NLSF2A_find_poly
+silk_LPC_inverse_pred_gain
+silk/LPC_inv_pred_gain.c
+LPC_inverse_pred_gain_QA
+silk_INVERSE32_varQ
+silk_LPC_analysis_filter
+silk/LPC_analysis_filter.c
+silk_ana_filt_bank_1
+silk/ana_filt_bank_1.c
+silk_setup_resamplers
+silk/control_codec.c
+silk_control_encoder
+silk_setup_LBRR
+silk_setup_complexity
+silk_setup_fs
+silk_control_audio_bandwidth
+silk/control_audio_bandwidth.c
+silk_stereo_LR_to_MS
+silk/stereo_LR_to_MS.c
+silk_NLSF_encode
+silk/NLSF_encode.c
+silk_insertion_sort_increasing
+silk_NLSF_del_dec_quant
+silk/NLSF_del_dec_quant.c
+silk_NLSF_unpack
+silk/NLSF_unpack.c
+silk_NLSF_VQ
+silk/NLSF_VQ.c
+silk_VAD_GetSA_Q8
+silk/VAD.c
+silk_VAD_GetNoiseLevels
+silk_sigm_Q15
+silk/sigm_Q15.c
+silk_PLC_conceal
+silk/PLC.c
+silk_max_16
+silk_bwexpander
+silk/bwexpander.c
+silk_noise_shape_quantizer_del_dec
+silk/NSQ_del_dec.c
+silk_NSQ_del_dec
+silk_nsq_del_dec_scale_states
+silk_NSQ
+silk/NSQ.c
+silk_noise_shape_quantizer
+silk_nsq_scale_states
+silk_NLSF_decode
+silk/NLSF_decode.c
+silk_NLSF_residual_dequant
+silk_gains_quant
+silk_encode_pulses
+silk/encode_pulses.c
+combine_and_check
+silk_encode_signs
+silk/code_signs.c
+silk_shell_encoder
+silk/shell_coder.c
+encode_split
+combine_pulses
+silk_encode_indices
+silk/encode_indices.c
+silk_Encode
+silk/enc_API.c
+ec_enc_patch_initial_bits
+silk_control_SNR
+silk/control_SNR.c
+silk_encode_do_VAD_FLP
+silk_stereo_encode_mid_only
+silk/stereo_encode_pred.c
+silk_stereo_encode_pred
+silk_HP_variable_cutoff
+silk/HP_variable_cutoff.c
+silk_init_encoder
+silk/init_encoder.c
+silk_VAD_Init
+check_control_input
+silk/check_control_input.c
+silk_InitEncoder
+silk_QueryEncoder
+silk_Decode
+silk/dec_API.c
+silk_stereo_MS_to_LR
+silk/stereo_MS_to_LR.c
+silk_stereo_decode_mid_only
+silk_decoder_set_fs
+silk/decoder_set_fs.c
+silk_init_decoder
+silk/init_decoder.c
+silk_PLC_Reset
+silk_CNG_Reset
+silk/CNG.c
+silk_InitDecoder
+silk_decode_pulses
+silk/decode_pulses.c
+silk_decode_signs
+silk_shell_decoder
+decode_split
+silk_decode_indices
+silk/decode_indices.c
+silk_decode_frame
+silk/decode_frame.c
+silk_PLC_glue_frames
+silk_PLC
+silk_PLC_update
+silk_decode_parameters
+silk/decode_parameters.c
+silk_decode_pitch
+silk/decode_pitch.c
+silk_decode_core
+silk/decode_core.c
+silk_CNG
+silk_CNG_exc
+alg_unquant
+celt/vq.c
+extract_collapse_mask
+normalise_residual
+decode_pulses
+celt/cwrs.c
+cwrsi
+exp_rotation
+exp_rotation1
+alg_quant
+encode_pulses
+icwrs
+compute_allocation
+celt/rate.c
+interp_bits2pulses
+amp2Log2
+celt/quant_bands.c
+quant_coarse_energy_impl
+quant_coarse_energy
+ec_tell_frac
+celt/entcode.c
+loss_distortion
+_celt_autocorr
+celt/celt_lpc.c
+celt_iir
+xcorr_kernel
+./celt/pitch.h
+celt_fir
+pitch_search
+celt/pitch.c
+find_best_pitch
+celt_pitch_xcorr_c
+pitch_downsample
+celt_fir5
+_celt_lpc
+clt_mdct_backward
+celt/mdct.c
+opus_ifft
+celt/kiss_fft.c
+ki_bfly5
+ki_bfly3
+ki_bfly4
+ki_bfly2
+clt_mdct_forward
+ec_laplace_encode
+celt/laplace.c
+ec_encode_bin
+ec_laplace_get_freq1
+opus_fft
+kf_bfly5
+kf_bfly3
+kf_bfly4
+kf_bfly2
+ec_enc_done
+ec_write_byte_at_end
+ec_enc_bits
+ec_enc_icdf
+ec_dec_bits
+ec_read_byte_from_end
+celt_decode_lost
+deemphasis
+compute_inv_mdcts
+renormalise_vector
+celt_lcg_rand
+celt/bands.c
+celt_decode_with_ec
+unquant_energy_finalise
+anti_collapse
+unquant_fine_energy
+init_caps
+tf_decode
+unquant_coarse_energy
+ec_laplace_decode
+ec_decode_bin
+opus_custom_decoder_ctl
+dynalloc_analysis
+tf_analysis
+l1_metric
+haar1
+compute_mdcts
+transient_analysis
+run_prefilter
+remove_doubling
+dual_inner_prod
+celt_encode_with_ec
+hysteresis_decision
+quant_energy_finalise
+quant_fine_energy
+compute_vbr
+alloc_trim_analysis
+stereo_analysis
+spreading_decision
+tf_encode
+normalise_bands
+compute_band_energies
+patch_transient_decision
+celt_preemphasis
+celt_maxabs16
+./celt/mathops.h
+opus_custom_encoder_ctl
+opus_get_version_string
+opus_strerror
+comb_filter
+comb_filter_const
+interleave_hadamard
+quant_partition
+get_pulses
+./celt/rate.h
+pulses2bits
+bits2pulses
+deinterleave_hadamard
+compute_theta
+bitexact_log2tan
+bitexact_cos
+intensity_stereo
+stereo_split
+isqrt32
+celt/mathops.c
+stereo_itheta
+compute_qn
+quant_band
+quant_band_n1
+quant_all_bands
+quant_band_stereo
+stereo_merge
+denormalise_bands

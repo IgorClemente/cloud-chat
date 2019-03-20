@@ -1,0 +1,124 @@
+BCSymbolMap Version: 2.0
+-[AWSGoogleSignInButton initWithCoder:]
+-[AWSGoogleSignInButton initWithFrame:]
+-[AWSGoogleSignInButton commonInit]
+-[AWSGoogleSignInButton dealloc]
+-[AWSGoogleSignInButton observeValueForKeyPath:ofObject:change:context:]
+-[AWSGoogleSignInButton initGoogleButton]
+-[AWSGoogleSignInButton initLogo]
+-[AWSGoogleSignInButton initStackView]
+-[AWSGoogleSignInButton initLabel]
+-[AWSGoogleSignInButton setUpButtonEffects]
+-[AWSGoogleSignInButton setupSmallGoogleButton]
+-[AWSGoogleSignInButton setupLargeGoogleButton]
+-[AWSGoogleSignInButton getImageFromBundle:]
+-[AWSGoogleSignInButton setSignInProvider:]
+-[AWSGoogleSignInButton logInWithProvider:]
+___43-[AWSGoogleSignInButton logInWithProvider:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[AWSGoogleSignInButton delegate]
+-[AWSGoogleSignInButton setDelegate:]
+-[AWSGoogleSignInButton buttonStyle]
+-[AWSGoogleSignInButton setButtonStyle:]
+-[AWSGoogleSignInButton textLabel]
+-[AWSGoogleSignInButton setTextLabel:]
+-[AWSGoogleSignInButton signInProvider]
+-[AWSGoogleSignInButton signInButton]
+-[AWSGoogleSignInButton setSignInButton:]
+-[AWSGoogleSignInButton googleButton]
+-[AWSGoogleSignInButton setGoogleButton:]
+-[AWSGoogleSignInButton googleStackView]
+-[AWSGoogleSignInButton setGoogleStackView:]
+-[AWSGoogleSignInButton googleLogoImageView]
+-[AWSGoogleSignInButton setGoogleLogoImageView:]
+-[AWSGoogleSignInButton .cxx_destruct]
+_OBJC_IVAR_$_AWSGoogleSignInButton._signInProvider
+_OBJC_IVAR_$_AWSGoogleSignInButton.buttonStyle
+_OBJC_IVAR_$_AWSGoogleSignInButton._googleButton
+_OBJC_IVAR_$_AWSGoogleSignInButton._googleStackView
+_OBJC_IVAR_$_AWSGoogleSignInButton._textLabel
+___block_descriptor_tmp
+_OBJC_IVAR_$_AWSGoogleSignInButton.delegate
+_OBJC_IVAR_$_AWSGoogleSignInButton._signInButton
+_OBJC_IVAR_$_AWSGoogleSignInButton._googleLogoImageView
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_AWSSignInButtonView
+l_OBJC_LABEL_PROTOCOL_$_AWSSignInButtonView
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/distiller/project/AWSAuthSDK/Sources/AWSGoogleSignIn/AWSGoogleSignInButton.m
+/Users/distiller/project/AWSAuthSDK
+/Users/distiller/project/AWSAuthSDK/Sources/AWSGoogleSignIn/AWSGoogleSignInButton.h
+/Users/distiller/project/AWSAuthSDK/Sources/AWSAuthCore/AWSSignInButtonView.h
+__destroy_helper_block_
+__copy_helper_block_
+__43-[AWSGoogleSignInButton logInWithProvider:]_block_invoke
++[AWSGoogleSignInProvider sharedInstance]
+___41+[AWSGoogleSignInProvider sharedInstance]_block_invoke
+-[AWSGoogleSignInProvider initWithGoogleClientID:]
+-[AWSGoogleSignInProvider setScopes:]
+-[AWSGoogleSignInProvider setViewControllerForGoogleSignIn:]
+-[AWSGoogleSignInProvider identityProviderName]
+-[AWSGoogleSignInProvider token]
+___32-[AWSGoogleSignInProvider token]_block_invoke
+___32-[AWSGoogleSignInProvider token]_block_invoke_2
+___copy_helper_block_.101
+___destroy_helper_block_.102
+___copy_helper_block_.106
+___destroy_helper_block_.107
+-[AWSGoogleSignInProvider isLoggedIn]
+-[AWSGoogleSignInProvider reloadSession]
+-[AWSGoogleSignInProvider completeLoginWithToken]
+-[AWSGoogleSignInProvider login:]
+-[AWSGoogleSignInProvider logout]
+-[AWSGoogleSignInProvider signIn:didSignInForUser:withError:]
+-[AWSGoogleSignInProvider signIn:didDisconnectWithUser:withError:]
+-[AWSGoogleSignInProvider signInWillDispatch:error:]
+-[AWSGoogleSignInProvider signIn:presentViewController:]
+-[AWSGoogleSignInProvider signIn:dismissViewController:]
+-[AWSGoogleSignInProvider interceptApplication:didFinishLaunchingWithOptions:]
+-[AWSGoogleSignInProvider interceptApplication:openURL:sourceApplication:annotation:]
+-[AWSGoogleSignInProvider application:openURL:options:]
+-[AWSGoogleSignInProvider application:openURL:sourceApplication:annotation:]
+-[AWSGoogleSignInProvider isConfigurationKeyPresent]
+-[AWSGoogleSignInProvider getPermissionsFromConfig]
+-[AWSGoogleSignInProvider taskCompletionSource]
+-[AWSGoogleSignInProvider setTaskCompletionSource:]
+-[AWSGoogleSignInProvider semaphore]
+-[AWSGoogleSignInProvider setSemaphore:]
+-[AWSGoogleSignInProvider executor]
+-[AWSGoogleSignInProvider setExecutor:]
+-[AWSGoogleSignInProvider signInViewController]
+-[AWSGoogleSignInProvider setSignInViewController:]
+-[AWSGoogleSignInProvider completionHandler]
+-[AWSGoogleSignInProvider setCompletionHandler:]
+-[AWSGoogleSignInProvider signInClient]
+-[AWSGoogleSignInProvider setSignInClient:]
+-[AWSGoogleSignInProvider .cxx_destruct]
+_sharedInstance._sharedInstance
+_sharedInstance.onceToken
+_OBJC_IVAR_$_AWSGoogleSignInProvider._semaphore
+_OBJC_IVAR_$_AWSGoogleSignInProvider._executor
+_OBJC_IVAR_$_AWSGoogleSignInProvider._signInViewController
+_OBJC_IVAR_$_AWSGoogleSignInProvider._signInClient
+___block_descriptor_tmp.103
+___block_descriptor_tmp.109
+_OBJC_IVAR_$_AWSGoogleSignInProvider._taskCompletionSource
+_OBJC_IVAR_$_AWSGoogleSignInProvider._completionHandler
+l_OBJC_PROTOCOL_$_GIDSignInDelegate
+l_OBJC_LABEL_PROTOCOL_$_GIDSignInDelegate
+l_OBJC_PROTOCOL_$_GIDSignInUIDelegate
+l_OBJC_LABEL_PROTOCOL_$_GIDSignInUIDelegate
+l_OBJC_PROTOCOL_$_AWSIdentityProvider
+l_OBJC_LABEL_PROTOCOL_$_AWSIdentityProvider
+l_OBJC_PROTOCOL_$_AWSSignInProvider
+l_OBJC_LABEL_PROTOCOL_$_AWSSignInProvider
+l_OBJC_PROTOCOL_$_AWSSignInProviderApplicationIntercept
+l_OBJC_LABEL_PROTOCOL_$_AWSSignInProviderApplicationIntercept
+/Users/distiller/project/AWSAuthSDK/Sources/AWSGoogleSignIn/AWSGoogleSignInProvider.m
+__32-[AWSGoogleSignInProvider token]_block_invoke_2
+__32-[AWSGoogleSignInProvider token]_block_invoke
+__41+[AWSGoogleSignInProvider sharedInstance]_block_invoke
+/Applications/Xcode-10.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/once.h
+/Users/distiller/Library/Developer/Xcode/DerivedData/AWSAuthSDK-awjpvqlgobdtszaszohsjogaibvn/Build/Intermediates.noindex/ArchiveIntermediates/AWSGoogleSignIn/IntermediateBuildFilesPath/AWSAuthSDK.build/Release-iphoneos/AWSGoogleSignIn.build/DerivedSources/AWSGoogleSignIn_vers.c

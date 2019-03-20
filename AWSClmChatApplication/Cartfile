@@ -1,0 +1,3 @@
+github "aws/aws-sdk-ios"
+github "facebook/facebook-sdk-swift"
+github "https://github.com/fabio914/GoogleSignIn-iOS" ~> 4.2

@@ -1,0 +1,744 @@
+BCSymbolMap Version: 2.0
++[AWSSQSResponseSerializer initialize]
+-[AWSSQSResponseSerializer responseObjectForResponse:originalRequest:currentRequest:data:error:]
++[AWSSQS initialize]
++[AWSSQS defaultSQS]
+___20+[AWSSQS defaultSQS]_block_invoke
++[AWSSQS registerSQSWithConfiguration:forKey:]
+___46+[AWSSQS registerSQSWithConfiguration:forKey:]_block_invoke
++[AWSSQS SQSForKey:]
++[AWSSQS removeSQSForKey:]
+-[AWSSQS init]
+-[AWSSQS initWithConfiguration:]
+-[AWSSQS invokeRequest:HTTPMethod:URLString:targetPrefix:operationName:outputClass:]
+-[AWSSQS addPermission:]
+-[AWSSQS addPermission:completionHandler:]
+___42-[AWSSQS addPermission:completionHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[AWSSQS changeMessageVisibility:]
+-[AWSSQS changeMessageVisibility:completionHandler:]
+___52-[AWSSQS changeMessageVisibility:completionHandler:]_block_invoke
+___copy_helper_block_.210
+___destroy_helper_block_.211
+-[AWSSQS changeMessageVisibilityBatch:]
+-[AWSSQS changeMessageVisibilityBatch:completionHandler:]
+___57-[AWSSQS changeMessageVisibilityBatch:completionHandler:]_block_invoke
+___copy_helper_block_.220
+___destroy_helper_block_.221
+-[AWSSQS createQueue:]
+-[AWSSQS createQueue:completionHandler:]
+___40-[AWSSQS createQueue:completionHandler:]_block_invoke
+___copy_helper_block_.228
+___destroy_helper_block_.229
+-[AWSSQS deleteMessage:]
+-[AWSSQS deleteMessage:completionHandler:]
+___42-[AWSSQS deleteMessage:completionHandler:]_block_invoke
+___copy_helper_block_.235
+___destroy_helper_block_.236
+-[AWSSQS deleteMessageBatch:]
+-[AWSSQS deleteMessageBatch:completionHandler:]
+___47-[AWSSQS deleteMessageBatch:completionHandler:]_block_invoke
+___copy_helper_block_.243
+___destroy_helper_block_.244
+-[AWSSQS deleteQueue:]
+-[AWSSQS deleteQueue:completionHandler:]
+___40-[AWSSQS deleteQueue:completionHandler:]_block_invoke
+___copy_helper_block_.250
+___destroy_helper_block_.251
+-[AWSSQS getQueueAttributes:]
+-[AWSSQS getQueueAttributes:completionHandler:]
+___47-[AWSSQS getQueueAttributes:completionHandler:]_block_invoke
+___copy_helper_block_.258
+___destroy_helper_block_.259
+-[AWSSQS getQueueUrl:]
+-[AWSSQS getQueueUrl:completionHandler:]
+___40-[AWSSQS getQueueUrl:completionHandler:]_block_invoke
+___copy_helper_block_.266
+___destroy_helper_block_.267
+-[AWSSQS listDeadLetterSourceQueues:]
+-[AWSSQS listDeadLetterSourceQueues:completionHandler:]
+___55-[AWSSQS listDeadLetterSourceQueues:completionHandler:]_block_invoke
+___copy_helper_block_.274
+___destroy_helper_block_.275
+-[AWSSQS listQueueTags:]
+-[AWSSQS listQueueTags:completionHandler:]
+___42-[AWSSQS listQueueTags:completionHandler:]_block_invoke
+___copy_helper_block_.282
+___destroy_helper_block_.283
+-[AWSSQS listQueues:]
+-[AWSSQS listQueues:completionHandler:]
+___39-[AWSSQS listQueues:completionHandler:]_block_invoke
+___copy_helper_block_.290
+___destroy_helper_block_.291
+-[AWSSQS purgeQueue:]
+-[AWSSQS purgeQueue:completionHandler:]
+___39-[AWSSQS purgeQueue:completionHandler:]_block_invoke
+___copy_helper_block_.297
+___destroy_helper_block_.298
+-[AWSSQS receiveMessage:]
+-[AWSSQS receiveMessage:completionHandler:]
+___43-[AWSSQS receiveMessage:completionHandler:]_block_invoke
+___copy_helper_block_.305
+___destroy_helper_block_.306
+-[AWSSQS removePermission:]
+-[AWSSQS removePermission:completionHandler:]
+___45-[AWSSQS removePermission:completionHandler:]_block_invoke
+___copy_helper_block_.312
+___destroy_helper_block_.313
+-[AWSSQS sendMessage:]
+-[AWSSQS sendMessage:completionHandler:]
+___40-[AWSSQS sendMessage:completionHandler:]_block_invoke
+___copy_helper_block_.320
+___destroy_helper_block_.321
+-[AWSSQS sendMessageBatch:]
+-[AWSSQS sendMessageBatch:completionHandler:]
+___45-[AWSSQS sendMessageBatch:completionHandler:]_block_invoke
+___copy_helper_block_.328
+___destroy_helper_block_.329
+-[AWSSQS setQueueAttributes:]
+-[AWSSQS setQueueAttributes:completionHandler:]
+___47-[AWSSQS setQueueAttributes:completionHandler:]_block_invoke
+___copy_helper_block_.335
+___destroy_helper_block_.336
+-[AWSSQS tagQueue:]
+-[AWSSQS tagQueue:completionHandler:]
+___37-[AWSSQS tagQueue:completionHandler:]_block_invoke
+___copy_helper_block_.342
+___destroy_helper_block_.343
+-[AWSSQS untagQueue:]
+-[AWSSQS untagQueue:completionHandler:]
+___39-[AWSSQS untagQueue:completionHandler:]_block_invoke
+___copy_helper_block_.349
+___destroy_helper_block_.350
+-[AWSSQS configuration]
+-[AWSSQS setConfiguration:]
+-[AWSSQS networking]
+-[AWSSQS setNetworking:]
+-[AWSSQS .cxx_destruct]
+_errorCodeDictionary
+__serviceClients
+_defaultSQS._defaultSQS
+_defaultSQS.onceToken
+___block_descriptor_tmp
+___block_literal_global
+_registerSQSWithConfiguration:forKey:.onceToken
+___block_descriptor_tmp.102
+___block_literal_global.103
+_OBJC_IVAR_$_AWSSQS._configuration
+_OBJC_IVAR_$_AWSSQS._networking
+___block_descriptor_tmp.203
+___block_descriptor_tmp.212
+___block_descriptor_tmp.222
+___block_descriptor_tmp.230
+___block_descriptor_tmp.237
+___block_descriptor_tmp.245
+___block_descriptor_tmp.252
+___block_descriptor_tmp.260
+___block_descriptor_tmp.268
+___block_descriptor_tmp.276
+___block_descriptor_tmp.284
+___block_descriptor_tmp.292
+___block_descriptor_tmp.299
+___block_descriptor_tmp.307
+___block_descriptor_tmp.314
+___block_descriptor_tmp.322
+___block_descriptor_tmp.330
+___block_descriptor_tmp.337
+___block_descriptor_tmp.344
+___block_descriptor_tmp.351
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/distiller/project/AWSSQS/AWSSQSService.m
+/Users/distiller/project
+/Users/distiller/project/AWSSQS/AWSSQSService.h
+__destroy_helper_block_
+__copy_helper_block_
+__39-[AWSSQS untagQueue:completionHandler:]_block_invoke
+__37-[AWSSQS tagQueue:completionHandler:]_block_invoke
+__47-[AWSSQS setQueueAttributes:completionHandler:]_block_invoke
+__45-[AWSSQS sendMessageBatch:completionHandler:]_block_invoke
+__40-[AWSSQS sendMessage:completionHandler:]_block_invoke
+__45-[AWSSQS removePermission:completionHandler:]_block_invoke
+__43-[AWSSQS receiveMessage:completionHandler:]_block_invoke
+__39-[AWSSQS purgeQueue:completionHandler:]_block_invoke
+__39-[AWSSQS listQueues:completionHandler:]_block_invoke
+__42-[AWSSQS listQueueTags:completionHandler:]_block_invoke
+__55-[AWSSQS listDeadLetterSourceQueues:completionHandler:]_block_invoke
+__40-[AWSSQS getQueueUrl:completionHandler:]_block_invoke
+__47-[AWSSQS getQueueAttributes:completionHandler:]_block_invoke
+__40-[AWSSQS deleteQueue:completionHandler:]_block_invoke
+__47-[AWSSQS deleteMessageBatch:completionHandler:]_block_invoke
+__42-[AWSSQS deleteMessage:completionHandler:]_block_invoke
+__40-[AWSSQS createQueue:completionHandler:]_block_invoke
+__57-[AWSSQS changeMessageVisibilityBatch:completionHandler:]_block_invoke
+__52-[AWSSQS changeMessageVisibility:completionHandler:]_block_invoke
+__42-[AWSSQS addPermission:completionHandler:]_block_invoke
+__46+[AWSSQS registerSQSWithConfiguration:forKey:]_block_invoke
+/Applications/Xcode-10.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/once.h
+__20+[AWSSQS defaultSQS]_block_invoke
++[AWSSQSAddPermissionRequest JSONKeyPathsByPropertyKey]
+-[AWSSQSAddPermissionRequest AWSAccountIds]
+-[AWSSQSAddPermissionRequest setAWSAccountIds:]
+-[AWSSQSAddPermissionRequest actions]
+-[AWSSQSAddPermissionRequest setActions:]
+-[AWSSQSAddPermissionRequest label]
+-[AWSSQSAddPermissionRequest setLabel:]
+-[AWSSQSAddPermissionRequest queueUrl]
+-[AWSSQSAddPermissionRequest setQueueUrl:]
+-[AWSSQSAddPermissionRequest .cxx_destruct]
++[AWSSQSBatchResultErrorEntry JSONKeyPathsByPropertyKey]
+-[AWSSQSBatchResultErrorEntry code]
+-[AWSSQSBatchResultErrorEntry setCode:]
+-[AWSSQSBatchResultErrorEntry identifier]
+-[AWSSQSBatchResultErrorEntry setIdentifier:]
+-[AWSSQSBatchResultErrorEntry message]
+-[AWSSQSBatchResultErrorEntry setMessage:]
+-[AWSSQSBatchResultErrorEntry senderFault]
+-[AWSSQSBatchResultErrorEntry setSenderFault:]
+-[AWSSQSBatchResultErrorEntry .cxx_destruct]
++[AWSSQSChangeMessageVisibilityBatchRequest JSONKeyPathsByPropertyKey]
++[AWSSQSChangeMessageVisibilityBatchRequest entriesJSONTransformer]
+-[AWSSQSChangeMessageVisibilityBatchRequest entries]
+-[AWSSQSChangeMessageVisibilityBatchRequest setEntries:]
+-[AWSSQSChangeMessageVisibilityBatchRequest queueUrl]
+-[AWSSQSChangeMessageVisibilityBatchRequest setQueueUrl:]
+-[AWSSQSChangeMessageVisibilityBatchRequest .cxx_destruct]
++[AWSSQSChangeMessageVisibilityBatchRequestEntry JSONKeyPathsByPropertyKey]
+-[AWSSQSChangeMessageVisibilityBatchRequestEntry identifier]
+-[AWSSQSChangeMessageVisibilityBatchRequestEntry setIdentifier:]
+-[AWSSQSChangeMessageVisibilityBatchRequestEntry receiptHandle]
+-[AWSSQSChangeMessageVisibilityBatchRequestEntry setReceiptHandle:]
+-[AWSSQSChangeMessageVisibilityBatchRequestEntry visibilityTimeout]
+-[AWSSQSChangeMessageVisibilityBatchRequestEntry setVisibilityTimeout:]
+-[AWSSQSChangeMessageVisibilityBatchRequestEntry .cxx_destruct]
++[AWSSQSChangeMessageVisibilityBatchResult JSONKeyPathsByPropertyKey]
++[AWSSQSChangeMessageVisibilityBatchResult failedJSONTransformer]
++[AWSSQSChangeMessageVisibilityBatchResult successfulJSONTransformer]
+-[AWSSQSChangeMessageVisibilityBatchResult failed]
+-[AWSSQSChangeMessageVisibilityBatchResult setFailed:]
+-[AWSSQSChangeMessageVisibilityBatchResult successful]
+-[AWSSQSChangeMessageVisibilityBatchResult setSuccessful:]
+-[AWSSQSChangeMessageVisibilityBatchResult .cxx_destruct]
++[AWSSQSChangeMessageVisibilityBatchResultEntry JSONKeyPathsByPropertyKey]
+-[AWSSQSChangeMessageVisibilityBatchResultEntry identifier]
+-[AWSSQSChangeMessageVisibilityBatchResultEntry setIdentifier:]
+-[AWSSQSChangeMessageVisibilityBatchResultEntry .cxx_destruct]
++[AWSSQSChangeMessageVisibilityRequest JSONKeyPathsByPropertyKey]
+-[AWSSQSChangeMessageVisibilityRequest queueUrl]
+-[AWSSQSChangeMessageVisibilityRequest setQueueUrl:]
+-[AWSSQSChangeMessageVisibilityRequest receiptHandle]
+-[AWSSQSChangeMessageVisibilityRequest setReceiptHandle:]
+-[AWSSQSChangeMessageVisibilityRequest visibilityTimeout]
+-[AWSSQSChangeMessageVisibilityRequest setVisibilityTimeout:]
+-[AWSSQSChangeMessageVisibilityRequest .cxx_destruct]
++[AWSSQSCreateQueueRequest JSONKeyPathsByPropertyKey]
+-[AWSSQSCreateQueueRequest attributes]
+-[AWSSQSCreateQueueRequest setAttributes:]
+-[AWSSQSCreateQueueRequest queueName]
+-[AWSSQSCreateQueueRequest setQueueName:]
+-[AWSSQSCreateQueueRequest .cxx_destruct]
++[AWSSQSCreateQueueResult JSONKeyPathsByPropertyKey]
+-[AWSSQSCreateQueueResult queueUrl]
+-[AWSSQSCreateQueueResult setQueueUrl:]
+-[AWSSQSCreateQueueResult .cxx_destruct]
++[AWSSQSDeleteMessageBatchRequest JSONKeyPathsByPropertyKey]
++[AWSSQSDeleteMessageBatchRequest entriesJSONTransformer]
+-[AWSSQSDeleteMessageBatchRequest entries]
+-[AWSSQSDeleteMessageBatchRequest setEntries:]
+-[AWSSQSDeleteMessageBatchRequest queueUrl]
+-[AWSSQSDeleteMessageBatchRequest setQueueUrl:]
+-[AWSSQSDeleteMessageBatchRequest .cxx_destruct]
++[AWSSQSDeleteMessageBatchRequestEntry JSONKeyPathsByPropertyKey]
+-[AWSSQSDeleteMessageBatchRequestEntry identifier]
+-[AWSSQSDeleteMessageBatchRequestEntry setIdentifier:]
+-[AWSSQSDeleteMessageBatchRequestEntry receiptHandle]
+-[AWSSQSDeleteMessageBatchRequestEntry setReceiptHandle:]
+-[AWSSQSDeleteMessageBatchRequestEntry .cxx_destruct]
++[AWSSQSDeleteMessageBatchResult JSONKeyPathsByPropertyKey]
++[AWSSQSDeleteMessageBatchResult failedJSONTransformer]
++[AWSSQSDeleteMessageBatchResult successfulJSONTransformer]
+-[AWSSQSDeleteMessageBatchResult failed]
+-[AWSSQSDeleteMessageBatchResult setFailed:]
+-[AWSSQSDeleteMessageBatchResult successful]
+-[AWSSQSDeleteMessageBatchResult setSuccessful:]
+-[AWSSQSDeleteMessageBatchResult .cxx_destruct]
++[AWSSQSDeleteMessageBatchResultEntry JSONKeyPathsByPropertyKey]
+-[AWSSQSDeleteMessageBatchResultEntry identifier]
+-[AWSSQSDeleteMessageBatchResultEntry setIdentifier:]
+-[AWSSQSDeleteMessageBatchResultEntry .cxx_destruct]
++[AWSSQSDeleteMessageRequest JSONKeyPathsByPropertyKey]
+-[AWSSQSDeleteMessageRequest queueUrl]
+-[AWSSQSDeleteMessageRequest setQueueUrl:]
+-[AWSSQSDeleteMessageRequest receiptHandle]
+-[AWSSQSDeleteMessageRequest setReceiptHandle:]
+-[AWSSQSDeleteMessageRequest .cxx_destruct]
++[AWSSQSDeleteQueueRequest JSONKeyPathsByPropertyKey]
+-[AWSSQSDeleteQueueRequest queueUrl]
+-[AWSSQSDeleteQueueRequest setQueueUrl:]
+-[AWSSQSDeleteQueueRequest .cxx_destruct]
++[AWSSQSGetQueueAttributesRequest JSONKeyPathsByPropertyKey]
+-[AWSSQSGetQueueAttributesRequest attributeNames]
+-[AWSSQSGetQueueAttributesRequest setAttributeNames:]
+-[AWSSQSGetQueueAttributesRequest queueUrl]
+-[AWSSQSGetQueueAttributesRequest setQueueUrl:]
+-[AWSSQSGetQueueAttributesRequest .cxx_destruct]
++[AWSSQSGetQueueAttributesResult JSONKeyPathsByPropertyKey]
+-[AWSSQSGetQueueAttributesResult attributes]
+-[AWSSQSGetQueueAttributesResult setAttributes:]
+-[AWSSQSGetQueueAttributesResult .cxx_destruct]
++[AWSSQSGetQueueUrlRequest JSONKeyPathsByPropertyKey]
+-[AWSSQSGetQueueUrlRequest queueName]
+-[AWSSQSGetQueueUrlRequest setQueueName:]
+-[AWSSQSGetQueueUrlRequest queueOwnerAWSAccountId]
+-[AWSSQSGetQueueUrlRequest setQueueOwnerAWSAccountId:]
+-[AWSSQSGetQueueUrlRequest .cxx_destruct]
++[AWSSQSGetQueueUrlResult JSONKeyPathsByPropertyKey]
+-[AWSSQSGetQueueUrlResult queueUrl]
+-[AWSSQSGetQueueUrlResult setQueueUrl:]
+-[AWSSQSGetQueueUrlResult .cxx_destruct]
++[AWSSQSListDeadLetterSourceQueuesRequest JSONKeyPathsByPropertyKey]
+-[AWSSQSListDeadLetterSourceQueuesRequest queueUrl]
+-[AWSSQSListDeadLetterSourceQueuesRequest setQueueUrl:]
+-[AWSSQSListDeadLetterSourceQueuesRequest .cxx_destruct]
++[AWSSQSListDeadLetterSourceQueuesResult JSONKeyPathsByPropertyKey]
+-[AWSSQSListDeadLetterSourceQueuesResult queueUrls]
+-[AWSSQSListDeadLetterSourceQueuesResult setQueueUrls:]
+-[AWSSQSListDeadLetterSourceQueuesResult .cxx_destruct]
++[AWSSQSListQueueTagsRequest JSONKeyPathsByPropertyKey]
+-[AWSSQSListQueueTagsRequest queueUrl]
+-[AWSSQSListQueueTagsRequest setQueueUrl:]
+-[AWSSQSListQueueTagsRequest .cxx_destruct]
++[AWSSQSListQueueTagsResult JSONKeyPathsByPropertyKey]
+-[AWSSQSListQueueTagsResult tags]
+-[AWSSQSListQueueTagsResult setTags:]
+-[AWSSQSListQueueTagsResult .cxx_destruct]
++[AWSSQSListQueuesRequest JSONKeyPathsByPropertyKey]
+-[AWSSQSListQueuesRequest queueNamePrefix]
+-[AWSSQSListQueuesRequest setQueueNamePrefix:]
+-[AWSSQSListQueuesRequest .cxx_destruct]
++[AWSSQSListQueuesResult JSONKeyPathsByPropertyKey]
+-[AWSSQSListQueuesResult queueUrls]
+-[AWSSQSListQueuesResult setQueueUrls:]
+-[AWSSQSListQueuesResult .cxx_destruct]
++[AWSSQSMessage JSONKeyPathsByPropertyKey]
++[AWSSQSMessage messageAttributesJSONTransformer]
+___49+[AWSSQSMessage messageAttributesJSONTransformer]_block_invoke
+___49+[AWSSQSMessage messageAttributesJSONTransformer]_block_invoke_2
+-[AWSSQSMessage attributes]
+-[AWSSQSMessage setAttributes:]
+-[AWSSQSMessage body]
+-[AWSSQSMessage setBody:]
+-[AWSSQSMessage MD5OfBody]
+-[AWSSQSMessage setMD5OfBody:]
+-[AWSSQSMessage MD5OfMessageAttributes]
+-[AWSSQSMessage setMD5OfMessageAttributes:]
+-[AWSSQSMessage messageAttributes]
+-[AWSSQSMessage setMessageAttributes:]
+-[AWSSQSMessage messageId]
+-[AWSSQSMessage setMessageId:]
+-[AWSSQSMessage receiptHandle]
+-[AWSSQSMessage setReceiptHandle:]
+-[AWSSQSMessage .cxx_destruct]
++[AWSSQSMessageAttributeValue JSONKeyPathsByPropertyKey]
+-[AWSSQSMessageAttributeValue binaryListValues]
+-[AWSSQSMessageAttributeValue setBinaryListValues:]
+-[AWSSQSMessageAttributeValue binaryValue]
+-[AWSSQSMessageAttributeValue setBinaryValue:]
+-[AWSSQSMessageAttributeValue dataType]
+-[AWSSQSMessageAttributeValue setDataType:]
+-[AWSSQSMessageAttributeValue stringListValues]
+-[AWSSQSMessageAttributeValue setStringListValues:]
+-[AWSSQSMessageAttributeValue stringValue]
+-[AWSSQSMessageAttributeValue setStringValue:]
+-[AWSSQSMessageAttributeValue .cxx_destruct]
++[AWSSQSPurgeQueueRequest JSONKeyPathsByPropertyKey]
+-[AWSSQSPurgeQueueRequest queueUrl]
+-[AWSSQSPurgeQueueRequest setQueueUrl:]
+-[AWSSQSPurgeQueueRequest .cxx_destruct]
++[AWSSQSReceiveMessageRequest JSONKeyPathsByPropertyKey]
+-[AWSSQSReceiveMessageRequest attributeNames]
+-[AWSSQSReceiveMessageRequest setAttributeNames:]
+-[AWSSQSReceiveMessageRequest maxNumberOfMessages]
+-[AWSSQSReceiveMessageRequest setMaxNumberOfMessages:]
+-[AWSSQSReceiveMessageRequest messageAttributeNames]
+-[AWSSQSReceiveMessageRequest setMessageAttributeNames:]
+-[AWSSQSReceiveMessageRequest queueUrl]
+-[AWSSQSReceiveMessageRequest setQueueUrl:]
+-[AWSSQSReceiveMessageRequest receiveRequestAttemptId]
+-[AWSSQSReceiveMessageRequest setReceiveRequestAttemptId:]
+-[AWSSQSReceiveMessageRequest visibilityTimeout]
+-[AWSSQSReceiveMessageRequest setVisibilityTimeout:]
+-[AWSSQSReceiveMessageRequest waitTimeSeconds]
+-[AWSSQSReceiveMessageRequest setWaitTimeSeconds:]
+-[AWSSQSReceiveMessageRequest .cxx_destruct]
++[AWSSQSReceiveMessageResult JSONKeyPathsByPropertyKey]
++[AWSSQSReceiveMessageResult messagesJSONTransformer]
+-[AWSSQSReceiveMessageResult messages]
+-[AWSSQSReceiveMessageResult setMessages:]
+-[AWSSQSReceiveMessageResult .cxx_destruct]
++[AWSSQSRemovePermissionRequest JSONKeyPathsByPropertyKey]
+-[AWSSQSRemovePermissionRequest label]
+-[AWSSQSRemovePermissionRequest setLabel:]
+-[AWSSQSRemovePermissionRequest queueUrl]
+-[AWSSQSRemovePermissionRequest setQueueUrl:]
+-[AWSSQSRemovePermissionRequest .cxx_destruct]
++[AWSSQSSendMessageBatchRequest JSONKeyPathsByPropertyKey]
++[AWSSQSSendMessageBatchRequest entriesJSONTransformer]
+-[AWSSQSSendMessageBatchRequest entries]
+-[AWSSQSSendMessageBatchRequest setEntries:]
+-[AWSSQSSendMessageBatchRequest queueUrl]
+-[AWSSQSSendMessageBatchRequest setQueueUrl:]
+-[AWSSQSSendMessageBatchRequest .cxx_destruct]
++[AWSSQSSendMessageBatchRequestEntry JSONKeyPathsByPropertyKey]
++[AWSSQSSendMessageBatchRequestEntry messageAttributesJSONTransformer]
+___70+[AWSSQSSendMessageBatchRequestEntry messageAttributesJSONTransformer]_block_invoke
+___70+[AWSSQSSendMessageBatchRequestEntry messageAttributesJSONTransformer]_block_invoke_2
+-[AWSSQSSendMessageBatchRequestEntry delaySeconds]
+-[AWSSQSSendMessageBatchRequestEntry setDelaySeconds:]
+-[AWSSQSSendMessageBatchRequestEntry identifier]
+-[AWSSQSSendMessageBatchRequestEntry setIdentifier:]
+-[AWSSQSSendMessageBatchRequestEntry messageAttributes]
+-[AWSSQSSendMessageBatchRequestEntry setMessageAttributes:]
+-[AWSSQSSendMessageBatchRequestEntry messageBody]
+-[AWSSQSSendMessageBatchRequestEntry setMessageBody:]
+-[AWSSQSSendMessageBatchRequestEntry messageDeduplicationId]
+-[AWSSQSSendMessageBatchRequestEntry setMessageDeduplicationId:]
+-[AWSSQSSendMessageBatchRequestEntry messageGroupId]
+-[AWSSQSSendMessageBatchRequestEntry setMessageGroupId:]
+-[AWSSQSSendMessageBatchRequestEntry .cxx_destruct]
++[AWSSQSSendMessageBatchResult JSONKeyPathsByPropertyKey]
++[AWSSQSSendMessageBatchResult failedJSONTransformer]
++[AWSSQSSendMessageBatchResult successfulJSONTransformer]
+-[AWSSQSSendMessageBatchResult failed]
+-[AWSSQSSendMessageBatchResult setFailed:]
+-[AWSSQSSendMessageBatchResult successful]
+-[AWSSQSSendMessageBatchResult setSuccessful:]
+-[AWSSQSSendMessageBatchResult .cxx_destruct]
++[AWSSQSSendMessageBatchResultEntry JSONKeyPathsByPropertyKey]
+-[AWSSQSSendMessageBatchResultEntry identifier]
+-[AWSSQSSendMessageBatchResultEntry setIdentifier:]
+-[AWSSQSSendMessageBatchResultEntry MD5OfMessageAttributes]
+-[AWSSQSSendMessageBatchResultEntry setMD5OfMessageAttributes:]
+-[AWSSQSSendMessageBatchResultEntry MD5OfMessageBody]
+-[AWSSQSSendMessageBatchResultEntry setMD5OfMessageBody:]
+-[AWSSQSSendMessageBatchResultEntry messageId]
+-[AWSSQSSendMessageBatchResultEntry setMessageId:]
+-[AWSSQSSendMessageBatchResultEntry sequenceNumber]
+-[AWSSQSSendMessageBatchResultEntry setSequenceNumber:]
+-[AWSSQSSendMessageBatchResultEntry .cxx_destruct]
++[AWSSQSSendMessageRequest JSONKeyPathsByPropertyKey]
++[AWSSQSSendMessageRequest messageAttributesJSONTransformer]
+___60+[AWSSQSSendMessageRequest messageAttributesJSONTransformer]_block_invoke
+___60+[AWSSQSSendMessageRequest messageAttributesJSONTransformer]_block_invoke_2
+-[AWSSQSSendMessageRequest delaySeconds]
+-[AWSSQSSendMessageRequest setDelaySeconds:]
+-[AWSSQSSendMessageRequest messageAttributes]
+-[AWSSQSSendMessageRequest setMessageAttributes:]
+-[AWSSQSSendMessageRequest messageBody]
+-[AWSSQSSendMessageRequest setMessageBody:]
+-[AWSSQSSendMessageRequest messageDeduplicationId]
+-[AWSSQSSendMessageRequest setMessageDeduplicationId:]
+-[AWSSQSSendMessageRequest messageGroupId]
+-[AWSSQSSendMessageRequest setMessageGroupId:]
+-[AWSSQSSendMessageRequest queueUrl]
+-[AWSSQSSendMessageRequest setQueueUrl:]
+-[AWSSQSSendMessageRequest .cxx_destruct]
++[AWSSQSSendMessageResult JSONKeyPathsByPropertyKey]
+-[AWSSQSSendMessageResult MD5OfMessageAttributes]
+-[AWSSQSSendMessageResult setMD5OfMessageAttributes:]
+-[AWSSQSSendMessageResult MD5OfMessageBody]
+-[AWSSQSSendMessageResult setMD5OfMessageBody:]
+-[AWSSQSSendMessageResult messageId]
+-[AWSSQSSendMessageResult setMessageId:]
+-[AWSSQSSendMessageResult sequenceNumber]
+-[AWSSQSSendMessageResult setSequenceNumber:]
+-[AWSSQSSendMessageResult .cxx_destruct]
++[AWSSQSSetQueueAttributesRequest JSONKeyPathsByPropertyKey]
+-[AWSSQSSetQueueAttributesRequest attributes]
+-[AWSSQSSetQueueAttributesRequest setAttributes:]
+-[AWSSQSSetQueueAttributesRequest queueUrl]
+-[AWSSQSSetQueueAttributesRequest setQueueUrl:]
+-[AWSSQSSetQueueAttributesRequest .cxx_destruct]
++[AWSSQSTagQueueRequest JSONKeyPathsByPropertyKey]
+-[AWSSQSTagQueueRequest queueUrl]
+-[AWSSQSTagQueueRequest setQueueUrl:]
+-[AWSSQSTagQueueRequest tags]
+-[AWSSQSTagQueueRequest setTags:]
+-[AWSSQSTagQueueRequest .cxx_destruct]
++[AWSSQSUntagQueueRequest JSONKeyPathsByPropertyKey]
+-[AWSSQSUntagQueueRequest queueUrl]
+-[AWSSQSUntagQueueRequest setQueueUrl:]
+-[AWSSQSUntagQueueRequest tagKeys]
+-[AWSSQSUntagQueueRequest setTagKeys:]
+-[AWSSQSUntagQueueRequest .cxx_destruct]
+_OBJC_IVAR_$_AWSSQSAddPermissionRequest._AWSAccountIds
+_OBJC_IVAR_$_AWSSQSAddPermissionRequest._actions
+_OBJC_IVAR_$_AWSSQSAddPermissionRequest._label
+_OBJC_IVAR_$_AWSSQSAddPermissionRequest._queueUrl
+_OBJC_IVAR_$_AWSSQSBatchResultErrorEntry._code
+_OBJC_IVAR_$_AWSSQSBatchResultErrorEntry._identifier
+_OBJC_IVAR_$_AWSSQSBatchResultErrorEntry._message
+_OBJC_IVAR_$_AWSSQSBatchResultErrorEntry._senderFault
+_OBJC_IVAR_$_AWSSQSChangeMessageVisibilityBatchRequest._entries
+_OBJC_IVAR_$_AWSSQSChangeMessageVisibilityBatchRequest._queueUrl
+_OBJC_IVAR_$_AWSSQSChangeMessageVisibilityBatchRequestEntry._identifier
+_OBJC_IVAR_$_AWSSQSChangeMessageVisibilityBatchRequestEntry._receiptHandle
+_OBJC_IVAR_$_AWSSQSChangeMessageVisibilityBatchRequestEntry._visibilityTimeout
+_OBJC_IVAR_$_AWSSQSChangeMessageVisibilityBatchResult._failed
+_OBJC_IVAR_$_AWSSQSChangeMessageVisibilityBatchResult._successful
+_OBJC_IVAR_$_AWSSQSChangeMessageVisibilityBatchResultEntry._identifier
+_OBJC_IVAR_$_AWSSQSChangeMessageVisibilityRequest._queueUrl
+_OBJC_IVAR_$_AWSSQSChangeMessageVisibilityRequest._receiptHandle
+_OBJC_IVAR_$_AWSSQSChangeMessageVisibilityRequest._visibilityTimeout
+_OBJC_IVAR_$_AWSSQSCreateQueueRequest._attributes
+_OBJC_IVAR_$_AWSSQSCreateQueueRequest._queueName
+_OBJC_IVAR_$_AWSSQSCreateQueueResult._queueUrl
+_OBJC_IVAR_$_AWSSQSDeleteMessageBatchRequest._entries
+_OBJC_IVAR_$_AWSSQSDeleteMessageBatchRequest._queueUrl
+_OBJC_IVAR_$_AWSSQSDeleteMessageBatchRequestEntry._identifier
+_OBJC_IVAR_$_AWSSQSDeleteMessageBatchRequestEntry._receiptHandle
+_OBJC_IVAR_$_AWSSQSDeleteMessageBatchResult._failed
+_OBJC_IVAR_$_AWSSQSDeleteMessageBatchResult._successful
+_OBJC_IVAR_$_AWSSQSDeleteMessageBatchResultEntry._identifier
+_OBJC_IVAR_$_AWSSQSDeleteMessageRequest._queueUrl
+_OBJC_IVAR_$_AWSSQSDeleteMessageRequest._receiptHandle
+_OBJC_IVAR_$_AWSSQSDeleteQueueRequest._queueUrl
+_OBJC_IVAR_$_AWSSQSGetQueueAttributesRequest._attributeNames
+_OBJC_IVAR_$_AWSSQSGetQueueAttributesRequest._queueUrl
+_OBJC_IVAR_$_AWSSQSGetQueueAttributesResult._attributes
+_OBJC_IVAR_$_AWSSQSGetQueueUrlRequest._queueName
+_OBJC_IVAR_$_AWSSQSGetQueueUrlRequest._queueOwnerAWSAccountId
+_OBJC_IVAR_$_AWSSQSGetQueueUrlResult._queueUrl
+_OBJC_IVAR_$_AWSSQSListDeadLetterSourceQueuesRequest._queueUrl
+_OBJC_IVAR_$_AWSSQSListDeadLetterSourceQueuesResult._queueUrls
+_OBJC_IVAR_$_AWSSQSListQueueTagsRequest._queueUrl
+_OBJC_IVAR_$_AWSSQSListQueueTagsResult._tags
+_OBJC_IVAR_$_AWSSQSListQueuesRequest._queueNamePrefix
+_OBJC_IVAR_$_AWSSQSListQueuesResult._queueUrls
+___block_descriptor_tmp.270
+___block_literal_global.271
+_OBJC_IVAR_$_AWSSQSMessage._attributes
+_OBJC_IVAR_$_AWSSQSMessage._body
+_OBJC_IVAR_$_AWSSQSMessage._MD5OfBody
+_OBJC_IVAR_$_AWSSQSMessage._MD5OfMessageAttributes
+_OBJC_IVAR_$_AWSSQSMessage._messageAttributes
+_OBJC_IVAR_$_AWSSQSMessage._messageId
+_OBJC_IVAR_$_AWSSQSMessage._receiptHandle
+_OBJC_IVAR_$_AWSSQSMessageAttributeValue._binaryListValues
+_OBJC_IVAR_$_AWSSQSMessageAttributeValue._binaryValue
+_OBJC_IVAR_$_AWSSQSMessageAttributeValue._dataType
+_OBJC_IVAR_$_AWSSQSMessageAttributeValue._stringListValues
+_OBJC_IVAR_$_AWSSQSMessageAttributeValue._stringValue
+_OBJC_IVAR_$_AWSSQSPurgeQueueRequest._queueUrl
+_OBJC_IVAR_$_AWSSQSReceiveMessageRequest._attributeNames
+_OBJC_IVAR_$_AWSSQSReceiveMessageRequest._maxNumberOfMessages
+_OBJC_IVAR_$_AWSSQSReceiveMessageRequest._messageAttributeNames
+_OBJC_IVAR_$_AWSSQSReceiveMessageRequest._queueUrl
+_OBJC_IVAR_$_AWSSQSReceiveMessageRequest._receiveRequestAttemptId
+_OBJC_IVAR_$_AWSSQSReceiveMessageRequest._visibilityTimeout
+_OBJC_IVAR_$_AWSSQSReceiveMessageRequest._waitTimeSeconds
+_OBJC_IVAR_$_AWSSQSReceiveMessageResult._messages
+_OBJC_IVAR_$_AWSSQSRemovePermissionRequest._label
+_OBJC_IVAR_$_AWSSQSRemovePermissionRequest._queueUrl
+_OBJC_IVAR_$_AWSSQSSendMessageBatchRequest._entries
+_OBJC_IVAR_$_AWSSQSSendMessageBatchRequest._queueUrl
+___block_descriptor_tmp.426
+___block_literal_global.427
+___block_descriptor_tmp.428
+___block_literal_global.429
+_OBJC_IVAR_$_AWSSQSSendMessageBatchRequestEntry._delaySeconds
+_OBJC_IVAR_$_AWSSQSSendMessageBatchRequestEntry._identifier
+_OBJC_IVAR_$_AWSSQSSendMessageBatchRequestEntry._messageAttributes
+_OBJC_IVAR_$_AWSSQSSendMessageBatchRequestEntry._messageBody
+_OBJC_IVAR_$_AWSSQSSendMessageBatchRequestEntry._messageDeduplicationId
+_OBJC_IVAR_$_AWSSQSSendMessageBatchRequestEntry._messageGroupId
+_OBJC_IVAR_$_AWSSQSSendMessageBatchResult._failed
+_OBJC_IVAR_$_AWSSQSSendMessageBatchResult._successful
+_OBJC_IVAR_$_AWSSQSSendMessageBatchResultEntry._identifier
+_OBJC_IVAR_$_AWSSQSSendMessageBatchResultEntry._MD5OfMessageAttributes
+_OBJC_IVAR_$_AWSSQSSendMessageBatchResultEntry._MD5OfMessageBody
+_OBJC_IVAR_$_AWSSQSSendMessageBatchResultEntry._messageId
+_OBJC_IVAR_$_AWSSQSSendMessageBatchResultEntry._sequenceNumber
+___block_descriptor_tmp.473
+___block_literal_global.474
+___block_descriptor_tmp.475
+___block_literal_global.476
+_OBJC_IVAR_$_AWSSQSSendMessageRequest._delaySeconds
+_OBJC_IVAR_$_AWSSQSSendMessageRequest._messageAttributes
+_OBJC_IVAR_$_AWSSQSSendMessageRequest._messageBody
+_OBJC_IVAR_$_AWSSQSSendMessageRequest._messageDeduplicationId
+_OBJC_IVAR_$_AWSSQSSendMessageRequest._messageGroupId
+_OBJC_IVAR_$_AWSSQSSendMessageRequest._queueUrl
+_OBJC_IVAR_$_AWSSQSSendMessageResult._MD5OfMessageAttributes
+_OBJC_IVAR_$_AWSSQSSendMessageResult._MD5OfMessageBody
+_OBJC_IVAR_$_AWSSQSSendMessageResult._messageId
+_OBJC_IVAR_$_AWSSQSSendMessageResult._sequenceNumber
+_OBJC_IVAR_$_AWSSQSSetQueueAttributesRequest._attributes
+_OBJC_IVAR_$_AWSSQSSetQueueAttributesRequest._queueUrl
+_OBJC_IVAR_$_AWSSQSTagQueueRequest._queueUrl
+_OBJC_IVAR_$_AWSSQSTagQueueRequest._tags
+_OBJC_IVAR_$_AWSSQSUntagQueueRequest._queueUrl
+_OBJC_IVAR_$_AWSSQSUntagQueueRequest._tagKeys
+/Users/distiller/project/AWSSQS/AWSSQSModel.m
+/Users/distiller/project/AWSSQS/AWSSQSModel.h
+__60+[AWSSQSSendMessageRequest messageAttributesJSONTransformer]_block_invoke_2
+__60+[AWSSQSSendMessageRequest messageAttributesJSONTransformer]_block_invoke
+__70+[AWSSQSSendMessageBatchRequestEntry messageAttributesJSONTransformer]_block_invoke_2
+__70+[AWSSQSSendMessageBatchRequestEntry messageAttributesJSONTransformer]_block_invoke
+__49+[AWSSQSMessage messageAttributesJSONTransformer]_block_invoke_2
+__49+[AWSSQSMessage messageAttributesJSONTransformer]_block_invoke
++[AWSSQSResources sharedInstance]
+___33+[AWSSQSResources sharedInstance]_block_invoke
+-[AWSSQSResources JSONObject]
+-[AWSSQSResources init]
+-[AWSSQSResources definitionString]
+-[AWSSQSResources definitionDictionary]
+-[AWSSQSResources setDefinitionDictionary:]
+-[AWSSQSResources .cxx_destruct]
+_sharedInstance._sharedResources
+_sharedInstance.once_token
+_OBJC_IVAR_$_AWSSQSResources._definitionDictionary
+/Users/distiller/project/AWSSQS/AWSSQSResources.m
+__33+[AWSSQSResources sharedInstance]_block_invoke
+/Users/distiller/Library/Developer/Xcode/DerivedData/AWSiOSSDKv2-bvcffhrgbfjnfybjecennhscmaho/Build/Intermediates.noindex/ArchiveIntermediates/AWSSQS/IntermediateBuildFilesPath/AWSiOSSDKv2.build/Release-iphoneos/AWSSQS.build/DerivedSources/AWSSQS_vers.c
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=409.12
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter

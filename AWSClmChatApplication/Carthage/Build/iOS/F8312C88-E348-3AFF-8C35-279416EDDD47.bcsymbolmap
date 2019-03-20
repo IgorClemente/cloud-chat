@@ -1,0 +1,102 @@
+BCSymbolMap Version: 2.0
++[AWSIdentityManager defaultIdentityManager]
+___44+[AWSIdentityManager defaultIdentityManager]_block_invoke
+-[AWSIdentityManager initWithCredentialProvider:]
+-[AWSIdentityManager authState]
+-[AWSIdentityManager logins]
+___28-[AWSIdentityManager logins]_block_invoke
+-[AWSIdentityManager identityId]
+-[AWSIdentityManager credentialsProvider]
+-[AWSIdentityManager setCredentialsProvider:]
+-[AWSIdentityManager .cxx_destruct]
+_defaultIdentityManager._defaultIdentityManager
+_defaultIdentityManager.onceToken
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp.39
+___block_literal_global.40
+_OBJC_IVAR_$_AWSIdentityManager._credentialsProvider
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_AWSIdentityProviderManager
+l_OBJC_LABEL_PROTOCOL_$_AWSIdentityProviderManager
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/distiller/project/AWSAuthSDK/Sources/AWSAuthCore/AWSIdentityManager.m
+/Users/distiller/project/AWSAuthSDK
+/Users/distiller/project/AWSAuthSDK/Sources/AWSAuthCore/AWSIdentityManager.h
+__28-[AWSIdentityManager logins]_block_invoke
+__44+[AWSIdentityManager defaultIdentityManager]_block_invoke
+/Applications/Xcode-10.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/once.h
++[AWSSignInManager sharedInstance]
+___34+[AWSSignInManager sharedInstance]_block_invoke
+-[AWSSignInManager setDontFederate]
+-[AWSSignInManager reSignInWithUsername:password:]
+-[AWSSignInManager registerAWSSignInProvider:]
+-[AWSSignInManager signInProviderForKey:]
+-[AWSSignInManager getRegisteredSignInProviders]
+-[AWSSignInManager isLoggedIn]
+-[AWSSignInManager wipeAll]
+-[AWSSignInManager logoutWithCompletionHandler:]
+___48-[AWSSignInManager logoutWithCompletionHandler:]_block_invoke
+___48-[AWSSignInManager logoutWithCompletionHandler:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_.46
+___destroy_helper_block_.47
+-[AWSSignInManager loginWithSignInProviderKey:completionHandler:]
+-[AWSSignInManager resumeSessionWithCompletionHandler:]
+-[AWSSignInManager completeLogin]
+___33-[AWSSignInManager completeLogin]_block_invoke
+___33-[AWSSignInManager completeLogin]_block_invoke_2
+___copy_helper_block_.84
+___destroy_helper_block_.85
+___copy_helper_block_.87
+___destroy_helper_block_.88
+-[AWSSignInManager interceptApplication:didFinishLaunchingWithOptions:]
+-[AWSSignInManager interceptApplication:openURL:sourceApplication:annotation:]
+-[AWSSignInManager delegate]
+-[AWSSignInManager setDelegate:]
+-[AWSSignInManager completionHandler]
+-[AWSSignInManager setCompletionHandler:]
+-[AWSSignInManager currentSignInProvider]
+-[AWSSignInManager setCurrentSignInProvider:]
+-[AWSSignInManager potentialSignInProvider]
+-[AWSSignInManager setPotentialSignInProvider:]
+-[AWSSignInManager shouldFederate]
+-[AWSSignInManager setShouldFederate:]
+-[AWSSignInManager pendingSignIn]
+-[AWSSignInManager setPendingSignIn:]
+-[AWSSignInManager pendingUsername]
+-[AWSSignInManager setPendingUsername:]
+-[AWSSignInManager pendingPassword]
+-[AWSSignInManager setPendingPassword:]
+-[AWSSignInManager .cxx_destruct]
+_signInProviderInfo
+_sharedInstance._sharedSignInManager
+_sharedInstance.onceToken
+_identityManager
+___block_descriptor_tmp.45
+___block_descriptor_tmp.49
+___block_descriptor_tmp.86
+___block_descriptor_tmp.89
+l_OBJC_PROTOCOL_$_AWSSignInProviderApplicationIntercept
+l_OBJC_LABEL_PROTOCOL_$_AWSSignInProviderApplicationIntercept
+l_OBJC_PROTOCOL_REFERENCE_$_AWSSignInProviderApplicationIntercept
+_OBJC_IVAR_$_AWSSignInManager._delegate
+_OBJC_IVAR_$_AWSSignInManager._completionHandler
+_OBJC_IVAR_$_AWSSignInManager._currentSignInProvider
+_OBJC_IVAR_$_AWSSignInManager._potentialSignInProvider
+_OBJC_IVAR_$_AWSSignInManager._shouldFederate
+_OBJC_IVAR_$_AWSSignInManager._pendingSignIn
+_OBJC_IVAR_$_AWSSignInManager._pendingUsername
+_OBJC_IVAR_$_AWSSignInManager._pendingPassword
+/Users/distiller/project/AWSAuthSDK/Sources/AWSAuthCore/AWSSignInManager.m
+/Users/distiller/project/AWSAuthSDK/Sources/AWSAuthCore/AWSSignInManager.h
+__destroy_helper_block_
+__copy_helper_block_
+__33-[AWSSignInManager completeLogin]_block_invoke_2
+__33-[AWSSignInManager completeLogin]_block_invoke
+__48-[AWSSignInManager logoutWithCompletionHandler:]_block_invoke_2
+__48-[AWSSignInManager logoutWithCompletionHandler:]_block_invoke
+__34+[AWSSignInManager sharedInstance]_block_invoke
+/Users/distiller/Library/Developer/Xcode/DerivedData/AWSAuthSDK-awjpvqlgobdtszaszohsjogaibvn/Build/Intermediates.noindex/ArchiveIntermediates/AWSAuthCore/IntermediateBuildFilesPath/AWSAuthSDK.build/Release-iphoneos/AWSAuthCore.build/DerivedSources/AWSAuthCore_vers.c

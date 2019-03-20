@@ -1,0 +1,1944 @@
+BCSymbolMap Version: 2.0
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+/Users/fdelaantonio/Library/Developer/Xcode/DerivedData/GoogleSignIn-bebhjwgzsgtqfxdjzhofphixykti/Build/Intermediates.noindex/ArchiveIntermediates/GoogleSignIn/IntermediateBuildFilesPath/GoogleSignIn.build/Release-iphoneos/GoogleSignIn.build/DerivedSources/GoogleSignIn_vers.c
+/Users/fdelaantonio/Desktop/lala/GoogleSignIn-iOS
++[GTMLogger sharedLogger]
++[GTMLogger setSharedLogger:]
++[GTMLogger standardLogger]
++[GTMLogger standardLoggerWithStderr]
++[GTMLogger standardLoggerWithStdoutAndStderr]
++[GTMLogger standardLoggerWithPath:]
++[GTMLogger loggerWithWriter:formatter:filter:]
++[GTMLogger logger]
+-[GTMLogger init]
+-[GTMLogger initWithWriter:formatter:filter:]
+-[GTMLogger dealloc]
+-[GTMLogger writer]
+-[GTMLogger setWriter:]
+-[GTMLogger formatter]
+-[GTMLogger setFormatter:]
+-[GTMLogger filter]
+-[GTMLogger setFilter:]
+-[GTMLogger logDebug:]
+-[GTMLogger logInfo:]
+-[GTMLogger logError:]
+-[GTMLogger logAssert:]
+-[GTMLogger(GTMLoggerMacroHelpers) logFuncDebug:msg:]
+-[GTMLogger(GTMLoggerMacroHelpers) logFuncInfo:msg:]
+-[GTMLogger(GTMLoggerMacroHelpers) logFuncError:msg:]
+-[GTMLogger(GTMLoggerMacroHelpers) logFuncAssert:msg:]
+-[GTMLogger(PrivateMethods) logInternalFunc:format:valist:level:]
++[NSFileHandle(GTMFileHandleLogWriter) fileHandleForLoggingAtPath:mode:]
+-[NSFileHandle(GTMFileHandleLogWriter) logMessage:level:]
+-[NSArray(GTMArrayCompositeLogWriter) logMessage:level:]
+-[GTMLogger(GTMLoggerLogWriter) logMessage:level:]
+-[GTMLogBasicFormatter prettyNameForFunc:]
+-[GTMLogBasicFormatter stringForFunc:withFormat:valist:level:]
+-[GTMLogStandardFormatter init]
+-[GTMLogStandardFormatter dealloc]
+-[GTMLogStandardFormatter stringForFunc:withFormat:valist:level:]
+-[GTMLogLevelFilter init]
+_IsVerboseLoggingEnabled
+-[GTMLogLevelFilter dealloc]
+-[GTMLogLevelFilter filterAllowsMessage:level:]
+-[GTMLogLevelFilter observeValueForKeyPath:ofObject:change:context:]
+-[GTMLogNoFilter filterAllowsMessage:level:]
+-[GTMLogAllowedLevelFilter initWithAllowedLevels:]
+-[GTMLogAllowedLevelFilter init]
+-[GTMLogAllowedLevelFilter dealloc]
+-[GTMLogAllowedLevelFilter filterAllowsMessage:level:]
+-[GTMLogMininumLevelFilter initWithMinimumLevel:]
+-[GTMLogMaximumLevelFilter initWithMaximumLevel:]
+_gSharedLogger
+_OBJC_IVAR_$_GTMLogger.formatter_
+_OBJC_IVAR_$_GTMLogger.filter_
+_OBJC_IVAR_$_GTMLogger.writer_
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_GTMLogWriter
+l_OBJC_LABEL_PROTOCOL_$_GTMLogWriter
+l_OBJC_PROTOCOL_REFERENCE_$_GTMLogWriter
+l_OBJC_PROTOCOL_$_GTMLogFormatter
+l_OBJC_LABEL_PROTOCOL_$_GTMLogFormatter
+_OBJC_IVAR_$_GTMLogStandardFormatter.dateFormatter_
+_OBJC_IVAR_$_GTMLogStandardFormatter.pname_
+_OBJC_IVAR_$_GTMLogStandardFormatter.pid_
+_OBJC_IVAR_$_GTMLogLevelFilter.userDefaults_
+_OBJC_IVAR_$_GTMLogLevelFilter.verboseLoggingEnabled_
+l_OBJC_PROTOCOL_$_GTMLogFilter
+l_OBJC_LABEL_PROTOCOL_$_GTMLogFilter
+_OBJC_IVAR_$_GTMLogAllowedLevelFilter.allowedLevels_
++[NSDictionary(GTMNSDictionaryURLArgumentsAdditions) gtm_dictionaryWithHttpArgumentsString:]
+-[NSDictionary(GTMNSDictionaryURLArgumentsAdditions) gtm_httpArgumentsString]
+-[NSString(GTMNSStringURLArgumentsAdditions) gtm_stringByEscapingForURLArgument]
+-[NSString(GTMNSStringURLArgumentsAdditions) gtm_stringByUnescapingFromURLArgument]
++[GTMOAuth2AuthorizationArgs argsWithRequest:delegate:selector:completionHandler:thread:]
+-[GTMOAuth2AuthorizationArgs dealloc]
+-[GTMOAuth2AuthorizationArgs request]
+-[GTMOAuth2AuthorizationArgs setRequest:]
+-[GTMOAuth2AuthorizationArgs delegate]
+-[GTMOAuth2AuthorizationArgs setDelegate:]
+-[GTMOAuth2AuthorizationArgs selector]
+-[GTMOAuth2AuthorizationArgs setSelector:]
+-[GTMOAuth2AuthorizationArgs completionHandler]
+-[GTMOAuth2AuthorizationArgs setCompletionHandler:]
+-[GTMOAuth2AuthorizationArgs thread]
+-[GTMOAuth2AuthorizationArgs setThread:]
+-[GTMOAuth2AuthorizationArgs error]
+-[GTMOAuth2AuthorizationArgs setError:]
++[GTMOAuth2Authentication authenticationWithServiceProvider:tokenURL:redirectURI:clientID:clientSecret:]
+-[GTMOAuth2Authentication init]
+-[GTMOAuth2Authentication description]
+-[GTMOAuth2Authentication dealloc]
+-[GTMOAuth2Authentication setKeysForResponseDictionary:]
+-[GTMOAuth2Authentication setKeysForResponseString:]
+-[GTMOAuth2Authentication setKeysForResponseJSONData:]
++[GTMOAuth2Authentication dictionaryWithJSONData:]
+-[GTMOAuth2Authentication authorizeRequest:completionHandler:]
+-[GTMOAuth2Authentication authorizeRequest:delegate:didFinishSelector:]
+-[GTMOAuth2Authentication authorizeRequestArgs:]
+-[GTMOAuth2Authentication auth:finishedRefreshWithFetcher:error:]
+-[GTMOAuth2Authentication isAuthorizingRequest:]
+-[GTMOAuth2Authentication isAuthorizedRequest:]
+-[GTMOAuth2Authentication stopAuthorization]
+-[GTMOAuth2Authentication stopAuthorizationForRequest:]
+-[GTMOAuth2Authentication authorizeRequestImmediateArgs:]
+___57-[GTMOAuth2Authentication authorizeRequestImmediateArgs:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[GTMOAuth2Authentication invokeCallbackArgs:]
+-[GTMOAuth2Authentication authorizeRequest:]
+-[GTMOAuth2Authentication canAuthorize]
+-[GTMOAuth2Authentication shouldRefreshAccessToken]
+-[GTMOAuth2Authentication waitForCompletionWithTimeout:]
+-[GTMOAuth2Authentication userAgent]
+-[GTMOAuth2Authentication beginTokenFetchWithDelegate:didFinishSelector:]
+-[GTMOAuth2Authentication tokenFetcher:finishedWithData:error:]
+-[GTMOAuth2Authentication notifyFetchIsRunning:fetcher:type:]
+-[GTMOAuth2Authentication setKeysForPersistenceResponseString:]
+-[GTMOAuth2Authentication persistenceResponseString]
+-[GTMOAuth2Authentication primeForRefresh]
+-[GTMOAuth2Authentication reset]
+-[GTMOAuth2Authentication parameters]
+-[GTMOAuth2Authentication authorizationToken]
+-[GTMOAuth2Authentication accessToken]
+-[GTMOAuth2Authentication setAccessToken:]
+-[GTMOAuth2Authentication refreshToken]
+-[GTMOAuth2Authentication setRefreshToken:]
+-[GTMOAuth2Authentication code]
+-[GTMOAuth2Authentication setCode:]
+-[GTMOAuth2Authentication assertion]
+-[GTMOAuth2Authentication setAssertion:]
+-[GTMOAuth2Authentication refreshScope]
+-[GTMOAuth2Authentication setRefreshScope:]
+-[GTMOAuth2Authentication errorString]
+-[GTMOAuth2Authentication setErrorString:]
+-[GTMOAuth2Authentication tokenType]
+-[GTMOAuth2Authentication setTokenType:]
+-[GTMOAuth2Authentication scope]
+-[GTMOAuth2Authentication setScope:]
+-[GTMOAuth2Authentication expiresIn]
+-[GTMOAuth2Authentication setExpiresIn:]
+-[GTMOAuth2Authentication updateExpirationDate]
+-[GTMOAuth2Authentication serviceProvider]
+-[GTMOAuth2Authentication setServiceProvider:]
+-[GTMOAuth2Authentication userID]
+-[GTMOAuth2Authentication setUserID:]
+-[GTMOAuth2Authentication userEmail]
+-[GTMOAuth2Authentication setUserEmail:]
+-[GTMOAuth2Authentication userEmailIsVerified]
+-[GTMOAuth2Authentication setUserEmailIsVerified:]
+-[GTMOAuth2Authentication parameterForKey:]
+-[GTMOAuth2Authentication setParameter:forKey:]
+-[GTMOAuth2Authentication addParametersFromDictionary:]
+-[GTMOAuth2Authentication setProperty:forKey:]
+-[GTMOAuth2Authentication propertyForKey:]
++[GTMOAuth2Authentication encodedOAuthValueForString:]
++[GTMOAuth2Authentication encodedQueryParametersForDictionary:]
++[GTMOAuth2Authentication invokeDelegate:selector:object:object:object:]
++[GTMOAuth2Authentication unencodedOAuthParameterForString:]
++[GTMOAuth2Authentication dictionaryWithResponseString:]
++[GTMOAuth2Authentication dictionaryWithResponseData:]
++[GTMOAuth2Authentication scopeWithStrings:]
+-[GTMOAuth2Authentication clientID]
+-[GTMOAuth2Authentication setClientID:]
+-[GTMOAuth2Authentication clientSecret]
+-[GTMOAuth2Authentication setClientSecret:]
+-[GTMOAuth2Authentication redirectURI]
+-[GTMOAuth2Authentication setRedirectURI:]
+-[GTMOAuth2Authentication authorizationTokenKey]
+-[GTMOAuth2Authentication setAuthorizationTokenKey:]
+-[GTMOAuth2Authentication tokenURL]
+-[GTMOAuth2Authentication setTokenURL:]
+-[GTMOAuth2Authentication expirationDate]
+-[GTMOAuth2Authentication setExpirationDate:]
+-[GTMOAuth2Authentication additionalTokenRequestParameters]
+-[GTMOAuth2Authentication setAdditionalTokenRequestParameters:]
+-[GTMOAuth2Authentication additionalGrantTypeRequestParameters]
+-[GTMOAuth2Authentication setAdditionalGrantTypeRequestParameters:]
+-[GTMOAuth2Authentication refreshFetcher]
+-[GTMOAuth2Authentication setRefreshFetcher:]
+-[GTMOAuth2Authentication fetcherService]
+-[GTMOAuth2Authentication setFetcherService:]
+-[GTMOAuth2Authentication shouldAuthorizeAllRequests]
+-[GTMOAuth2Authentication setShouldAuthorizeAllRequests:]
+-[GTMOAuth2Authentication userData]
+-[GTMOAuth2Authentication setUserData:]
+-[GTMOAuth2Authentication properties]
+-[GTMOAuth2Authentication setProperties:]
+-[GTMOAuth2Authentication authorizationQueue]
+-[GTMOAuth2Authentication setAuthorizationQueue:]
+_OBJC_IVAR_$_GTMOAuth2AuthorizationArgs.request_
+_OBJC_IVAR_$_GTMOAuth2AuthorizationArgs.delegate_
+_OBJC_IVAR_$_GTMOAuth2AuthorizationArgs.completionHandler_
+_OBJC_IVAR_$_GTMOAuth2AuthorizationArgs.thread_
+_OBJC_IVAR_$_GTMOAuth2AuthorizationArgs.error_
+_OBJC_IVAR_$_GTMOAuth2AuthorizationArgs.sel_
+_OBJC_IVAR_$_GTMOAuth2Authentication.authorizationQueue_
+_OBJC_IVAR_$_GTMOAuth2Authentication.parameters_
+_OBJC_IVAR_$_GTMOAuth2Authentication.clientID_
+_OBJC_IVAR_$_GTMOAuth2Authentication.clientSecret_
+_OBJC_IVAR_$_GTMOAuth2Authentication.redirectURI_
+_OBJC_IVAR_$_GTMOAuth2Authentication.authorizationTokenKey_
+_OBJC_IVAR_$_GTMOAuth2Authentication.tokenURL_
+_OBJC_IVAR_$_GTMOAuth2Authentication.expirationDate_
+_OBJC_IVAR_$_GTMOAuth2Authentication.additionalTokenRequestParameters_
+_OBJC_IVAR_$_GTMOAuth2Authentication.additionalGrantTypeRequestParameters_
+_OBJC_IVAR_$_GTMOAuth2Authentication.refreshFetcher_
+_OBJC_IVAR_$_GTMOAuth2Authentication.userData_
+_OBJC_IVAR_$_GTMOAuth2Authentication.properties_
+___block_descriptor_tmp
+_OBJC_IVAR_$_GTMOAuth2Authentication.fetcherService_
+_OBJC_IVAR_$_GTMOAuth2Authentication.shouldAuthorizeAllRequests_
+l_OBJC_PROTOCOL_$_GTMFetcherAuthorizationProtocol
+l_OBJC_LABEL_PROTOCOL_$_GTMFetcherAuthorizationProtocol
++[GTMOAuth2SignIn googleAuthorizationURL]
++[GTMOAuth2SignIn googleTokenURL]
++[GTMOAuth2SignIn googleRevocationURL]
++[GTMOAuth2SignIn googleUserInfoURL]
++[GTMOAuth2SignIn nativeClientRedirectURI]
++[GTMOAuth2SignIn standardGoogleAuthenticationForScope:clientID:clientSecret:]
+-[GTMOAuth2SignIn addScopeForGoogleUserInfo]
+-[GTMOAuth2SignIn initWithAuthentication:authorizationURL:delegate:webRequestSelector:finishedSelector:]
+-[GTMOAuth2SignIn dealloc]
+-[GTMOAuth2SignIn cancelSigningIn]
+-[GTMOAuth2SignIn startSigningIn]
+-[GTMOAuth2SignIn parametersForWebRequest]
+-[GTMOAuth2SignIn startWebRequest]
++[GTMOAuth2SignIn mutableURLRequestWithURL:paramString:]
+-[GTMOAuth2SignIn windowWasClosed]
+-[GTMOAuth2SignIn closeTheWindow]
+-[GTMOAuth2SignIn requestRedirectedToRequest:]
+-[GTMOAuth2SignIn titleChanged:]
+-[GTMOAuth2SignIn cookiesChanged:]
+-[GTMOAuth2SignIn loadFailedWithError:]
+-[GTMOAuth2SignIn authCodeObtained]
+-[GTMOAuth2SignIn auth:finishedWithFetcher:error:]
++[GTMOAuth2SignIn userInfoFetcherWithAuth:]
+-[GTMOAuth2SignIn fetchGoogleUserInfo]
+-[GTMOAuth2SignIn infoFetcher:finishedWithData:error:]
+-[GTMOAuth2SignIn updateGoogleUserInfoWithData:]
+-[GTMOAuth2SignIn finishSignInWithError:]
+-[GTMOAuth2SignIn invokeFinalCallbackWithError:]
+-[GTMOAuth2SignIn startReachabilityCheck]
+_ReachabilityCallBack
+-[GTMOAuth2SignIn destroyUnreachabilityTimer]
+-[GTMOAuth2SignIn reachabilityTarget:changedFlags:]
+-[GTMOAuth2SignIn reachabilityTimerFired:]
+-[GTMOAuth2SignIn stopReachabilityCheck]
++[GTMOAuth2SignIn revokeTokenForGoogleAuthentication:]
+___54+[GTMOAuth2SignIn revokeTokenForGoogleAuthentication:]_block_invoke
++[GTMOAuth2SignIn decodeWebSafeBase64:]
+-[GTMOAuth2SignIn authentication]
+-[GTMOAuth2SignIn setAuthentication:]
+-[GTMOAuth2SignIn authorizationURL]
+-[GTMOAuth2SignIn setAuthorizationURL:]
+-[GTMOAuth2SignIn additionalAuthorizationParameters]
+-[GTMOAuth2SignIn setAdditionalAuthorizationParameters:]
+-[GTMOAuth2SignIn delegate]
+-[GTMOAuth2SignIn setDelegate:]
+-[GTMOAuth2SignIn webRequestSelector]
+-[GTMOAuth2SignIn setWebRequestSelector:]
+-[GTMOAuth2SignIn finishedSelector]
+-[GTMOAuth2SignIn setFinishedSelector:]
+-[GTMOAuth2SignIn hasHandledCallback]
+-[GTMOAuth2SignIn setHasHandledCallback:]
+-[GTMOAuth2SignIn pendingFetcher]
+-[GTMOAuth2SignIn setPendingFetcher:]
+-[GTMOAuth2SignIn userData]
+-[GTMOAuth2SignIn setUserData:]
+-[GTMOAuth2SignIn shouldFetchGoogleUserEmail]
+-[GTMOAuth2SignIn setShouldFetchGoogleUserEmail:]
+-[GTMOAuth2SignIn shouldFetchGoogleUserProfile]
+-[GTMOAuth2SignIn setShouldFetchGoogleUserProfile:]
+-[GTMOAuth2SignIn userProfile]
+-[GTMOAuth2SignIn setUserProfile:]
+-[GTMOAuth2SignIn networkLossTimeoutInterval]
+-[GTMOAuth2SignIn setNetworkLossTimeoutInterval:]
+_OBJC_IVAR_$_GTMOAuth2SignIn.auth_
+_OBJC_IVAR_$_GTMOAuth2SignIn.authorizationURL_
+_OBJC_IVAR_$_GTMOAuth2SignIn.delegate_
+_OBJC_IVAR_$_GTMOAuth2SignIn.webRequestSelector_
+_OBJC_IVAR_$_GTMOAuth2SignIn.finishedSelector_
+_OBJC_IVAR_$_GTMOAuth2SignIn.shouldFetchGoogleUserEmail_
+_OBJC_IVAR_$_GTMOAuth2SignIn.networkLossTimeoutInterval_
+_OBJC_IVAR_$_GTMOAuth2SignIn.additionalAuthorizationParameters_
+_OBJC_IVAR_$_GTMOAuth2SignIn.pendingFetcher_
+_OBJC_IVAR_$_GTMOAuth2SignIn.userProfile_
+_OBJC_IVAR_$_GTMOAuth2SignIn.userData_
+_OBJC_IVAR_$_GTMOAuth2SignIn.reachabilityRef_
+_OBJC_IVAR_$_GTMOAuth2SignIn.networkLossTimer_
+_OBJC_IVAR_$_GTMOAuth2SignIn.hasNotifiedNetworkLoss_
+___block_descriptor_tmp.325
+___block_literal_global.326
+_decodeWebSafeBase64:.decodingTable
+_decodeWebSafeBase64:.hasInited
+_OBJC_IVAR_$_GTMOAuth2SignIn.hasHandledCallback_
+_OBJC_IVAR_$_GTMOAuth2SignIn.shouldFetchGoogleUserProfile_
++[GTMOAuth2ViewControllerTouch controllerWithScope:clientID:clientSecret:keychainItemName:delegate:finishedSelector:]
+-[GTMOAuth2ViewControllerTouch initWithScope:clientID:clientSecret:keychainItemName:delegate:finishedSelector:]
++[GTMOAuth2ViewControllerTouch controllerWithScope:clientID:clientSecret:keychainItemName:completionHandler:]
+-[GTMOAuth2ViewControllerTouch initWithScope:clientID:clientSecret:keychainItemName:completionHandler:]
++[GTMOAuth2ViewControllerTouch controllerWithAuthentication:authorizationURL:keychainItemName:delegate:finishedSelector:]
+-[GTMOAuth2ViewControllerTouch initWithAuthentication:authorizationURL:keychainItemName:delegate:finishedSelector:]
++[GTMOAuth2ViewControllerTouch controllerWithAuthentication:authorizationURL:keychainItemName:completionHandler:]
+-[GTMOAuth2ViewControllerTouch initWithAuthentication:authorizationURL:keychainItemName:completionHandler:]
+-[GTMOAuth2ViewControllerTouch dealloc]
++[GTMOAuth2ViewControllerTouch authNibName]
++[GTMOAuth2ViewControllerTouch authNibBundle]
++[GTMOAuth2ViewControllerTouch authForGoogleFromKeychainForName:clientID:clientSecret:]
++[GTMOAuth2ViewControllerTouch authForGoogleFromKeychainForName:clientID:clientSecret:error:]
++[GTMOAuth2ViewControllerTouch authorizeFromKeychainForName:authentication:error:]
++[GTMOAuth2ViewControllerTouch removeAuthFromKeychainForName:]
++[GTMOAuth2ViewControllerTouch saveParamsToKeychainForName:authentication:]
++[GTMOAuth2ViewControllerTouch saveParamsToKeychainForName:accessibility:authentication:error:]
+-[GTMOAuth2ViewControllerTouch loadView]
+-[GTMOAuth2ViewControllerTouch viewDidLoad]
+-[GTMOAuth2ViewControllerTouch setUpNavigation]
+-[GTMOAuth2ViewControllerTouch popView]
+-[GTMOAuth2ViewControllerTouch notifyWithName:webView:kind:]
+-[GTMOAuth2ViewControllerTouch cancelSigningIn]
++[GTMOAuth2ViewControllerTouch signInClass]
++[GTMOAuth2ViewControllerTouch setSignInClass:]
++[GTMOAuth2ViewControllerTouch revokeTokenForGoogleAuthentication:]
+-[GTMOAuth2ViewControllerTouch authentication]
+-[GTMOAuth2ViewControllerTouch swapOutCookies]
+-[GTMOAuth2ViewControllerTouch swapInCookies]
+-[GTMOAuth2ViewControllerTouch systemCookieStorage]
+-[GTMOAuth2ViewControllerTouch swapBrowserCookies:]
+-[GTMOAuth2ViewControllerTouch setNetworkLossTimeoutInterval:]
+-[GTMOAuth2ViewControllerTouch networkLossTimeoutInterval]
+-[GTMOAuth2ViewControllerTouch shouldUseKeychain]
+-[GTMOAuth2ViewControllerTouch showsInitialActivityIndicator]
+-[GTMOAuth2ViewControllerTouch setShowsInitialActivityIndicator:]
+-[GTMOAuth2ViewControllerTouch setProperty:forKey:]
+-[GTMOAuth2ViewControllerTouch propertyForKey:]
+-[GTMOAuth2ViewControllerTouch signIn:displayRequest:]
+-[GTMOAuth2ViewControllerTouch signIn:finishedWithAuth:error:]
+-[GTMOAuth2ViewControllerTouch moveWebViewFromUnderNavigationBar]
+-[GTMOAuth2ViewControllerTouch isNavigationBarTranslucent]
+-[GTMOAuth2ViewControllerTouch viewWillAppear:]
+-[GTMOAuth2ViewControllerTouch viewDidAppear:]
+-[GTMOAuth2ViewControllerTouch viewWillDisappear:]
+-[GTMOAuth2ViewControllerTouch isBeingObscured:]
+-[GTMOAuth2ViewControllerTouch viewDidLayoutSubviews]
+-[GTMOAuth2ViewControllerTouch webView:shouldStartLoadWithRequest:navigationType:]
+-[GTMOAuth2ViewControllerTouch updateUI]
+-[GTMOAuth2ViewControllerTouch webViewDidStartLoad:]
+-[GTMOAuth2ViewControllerTouch webViewDidFinishLoad:]
+-[GTMOAuth2ViewControllerTouch webView:didFailLoadWithError:]
+-[GTMOAuth2ViewControllerTouch request]
+-[GTMOAuth2ViewControllerTouch setRequest:]
+-[GTMOAuth2ViewControllerTouch systemCookies]
+-[GTMOAuth2ViewControllerTouch setSystemCookies:]
+-[GTMOAuth2ViewControllerTouch signInCookies]
+-[GTMOAuth2ViewControllerTouch setSignInCookies:]
+-[GTMOAuth2ViewControllerTouch backButton]
+-[GTMOAuth2ViewControllerTouch setBackButton:]
+-[GTMOAuth2ViewControllerTouch forwardButton]
+-[GTMOAuth2ViewControllerTouch setForwardButton:]
+-[GTMOAuth2ViewControllerTouch navButtonsView]
+-[GTMOAuth2ViewControllerTouch setNavButtonsView:]
+-[GTMOAuth2ViewControllerTouch rightBarButtonItem]
+-[GTMOAuth2ViewControllerTouch setRightBarButtonItem:]
+-[GTMOAuth2ViewControllerTouch webView]
+-[GTMOAuth2ViewControllerTouch setWebView:]
+-[GTMOAuth2ViewControllerTouch initialActivityIndicator]
+-[GTMOAuth2ViewControllerTouch setInitialActivityIndicator:]
+-[GTMOAuth2ViewControllerTouch keychainItemName]
+-[GTMOAuth2ViewControllerTouch setKeychainItemName:]
+-[GTMOAuth2ViewControllerTouch keychainItemAccessibility]
+-[GTMOAuth2ViewControllerTouch setKeychainItemAccessibility:]
+-[GTMOAuth2ViewControllerTouch initialHTMLString]
+-[GTMOAuth2ViewControllerTouch setInitialHTMLString:]
+-[GTMOAuth2ViewControllerTouch browserCookiesURL]
+-[GTMOAuth2ViewControllerTouch setBrowserCookiesURL:]
+-[GTMOAuth2ViewControllerTouch signIn]
+-[GTMOAuth2ViewControllerTouch userData]
+-[GTMOAuth2ViewControllerTouch setUserData:]
+-[GTMOAuth2ViewControllerTouch properties]
+-[GTMOAuth2ViewControllerTouch setProperties:]
+-[GTMOAuth2ViewControllerTouch popViewBlock]
+-[GTMOAuth2ViewControllerTouch setPopViewBlock:]
++[GTMOAuth2Keychain defaultKeychain]
++[GTMOAuth2Keychain setDefaultKeychain:]
+-[GTMOAuth2Keychain keyForService:account:]
++[GTMOAuth2Keychain keychainQueryForService:account:]
+-[GTMOAuth2Keychain keychainQueryForService:account:]
+-[GTMOAuth2Keychain passwordForService:account:error:]
+-[GTMOAuth2Keychain removePasswordForService:account:error:]
+-[GTMOAuth2Keychain setPassword:forService:accessibility:account:error:]
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.completionBlock_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.delegate_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.finishedSelector_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.signIn_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.savedCookiePolicy_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.webView_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.backButton_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.forwardButton_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.initialActivityIndicator_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.navButtonsView_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.rightBarButtonItem_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.request_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.systemCookies_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.signInCookies_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.popViewBlock_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.keychainItemName_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.initialHTMLString_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.browserCookiesURL_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.userData_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.properties_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.didDismissSelf_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.hasNotifiedWebViewStartedLoading_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.hasCalledFinished_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.hasDoneFinalRedirect_
+_gSignInClass
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.mustShowActivityIndicator_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.isViewShown_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.didViewAppear_
+_OBJC_IVAR_$_GTMOAuth2ViewControllerTouch.keychainItemAccessibility_
+l_OBJC_PROTOCOL_$_UINavigationControllerDelegate
+l_OBJC_LABEL_PROTOCOL_$_UINavigationControllerDelegate
+l_OBJC_PROTOCOL_$_UIWebViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIWebViewDelegate
+_gGTMOAuth2DefaultKeychain
++[GTMSessionFetcher load]
++[GTMSessionFetcher fetcherWithRequest:]
++[GTMSessionFetcher fetcherWithURL:]
++[GTMSessionFetcher fetcherWithURLString:]
++[GTMSessionFetcher fetcherWithDownloadResumeData:]
++[GTMSessionFetcher fetcherWithSessionIdentifier:]
++[GTMSessionFetcher sessionIdentifierToFetcherMap]
+___50+[GTMSessionFetcher sessionIdentifierToFetcherMap]_block_invoke
++[GTMSessionFetcher appAllowsInsecureRequests]
+___46+[GTMSessionFetcher appAllowsInsecureRequests]_block_invoke
+-[GTMSessionFetcher init]
+-[GTMSessionFetcher initWithRequest:]
+-[GTMSessionFetcher initWithRequest:configuration:]
+-[GTMSessionFetcher copyWithZone:]
+-[GTMSessionFetcher description]
+-[GTMSessionFetcher dealloc]
+-[GTMSessionFetcher beginFetchWithCompletionHandler:]
+-[GTMSessionFetcher beginFetchForRetry]
+-[GTMSessionFetcher completionHandlerWithTarget:didFinishSelector:]
+___67-[GTMSessionFetcher completionHandlerWithTarget:didFinishSelector:]_block_invoke
+-[GTMSessionFetcher beginFetchWithDelegate:didFinishSelector:]
+-[GTMSessionFetcher beginFetchMayDelay:mayAuthorize:]
+___53-[GTMSessionFetcher beginFetchMayDelay:mayAuthorize:]_block_invoke
+___copy_helper_block_.160
+___destroy_helper_block_.161
+_IsLocalhost
+___53-[GTMSessionFetcher beginFetchMayDelay:mayAuthorize:]_block_invoke.250
+___53-[GTMSessionFetcher beginFetchMayDelay:mayAuthorize:]_block_invoke_2
+___copy_helper_block_.255
+___destroy_helper_block_.256
+___copy_helper_block_.258
+___destroy_helper_block_.259
+___53-[GTMSessionFetcher beginFetchMayDelay:mayAuthorize:]_block_invoke.343
+___copy_helper_block_.350
+___destroy_helper_block_.351
+-[GTMSessionFetcher simulateFetchForTestBlock]
+___46-[GTMSessionFetcher simulateFetchForTestBlock]_block_invoke
+___46-[GTMSessionFetcher simulateFetchForTestBlock]_block_invoke_2
+___46-[GTMSessionFetcher simulateFetchForTestBlock]_block_invoke_3
+___46-[GTMSessionFetcher simulateFetchForTestBlock]_block_invoke_4
+___copy_helper_block_.383
+___destroy_helper_block_.384
+___copy_helper_block_.386
+___destroy_helper_block_.387
+___copy_helper_block_.391
+___destroy_helper_block_.392
+___46-[GTMSessionFetcher simulateFetchForTestBlock]_block_invoke.398
+___copy_helper_block_.399
+___destroy_helper_block_.400
+___copy_helper_block_.402
+___destroy_helper_block_.403
+-[GTMSessionFetcher simulateByteTransferReportWithDataLength:block:]
+___68-[GTMSessionFetcher simulateByteTransferReportWithDataLength:block:]_block_invoke
+___copy_helper_block_.406
+___destroy_helper_block_.407
+-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke
+___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke_2
+___copy_helper_block_.414
+___destroy_helper_block_.415
+___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke.419
+___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke_2.433
+___copy_helper_block_.437
+___destroy_helper_block_.438
+___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke.440
+___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke_2.441
+___copy_helper_block_.445
+___destroy_helper_block_.446
+___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke.448
+___copy_helper_block_.449
+___destroy_helper_block_.450
+___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke.455
+___copy_helper_block_.456
+___destroy_helper_block_.457
+___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke.461
+___copy_helper_block_.462
+___destroy_helper_block_.463
+___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke.471
+___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke_2.472
+___copy_helper_block_.476
+___destroy_helper_block_.477
+___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke.479
+___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke_2.484
+___copy_helper_block_.485
+___destroy_helper_block_.486
+___copy_helper_block_.491
+___destroy_helper_block_.492
+-[GTMSessionFetcher simulateByteTransferWithData:block:]
+___56-[GTMSessionFetcher simulateByteTransferWithData:block:]_block_invoke
+___copy_helper_block_.500
+___destroy_helper_block_.501
+-[GTMSessionFetcher setSessionTask:]
+-[GTMSessionFetcher sessionTask]
++[GTMSessionFetcher fetcherUserDefaults]
+___40+[GTMSessionFetcher fetcherUserDefaults]_block_invoke
+-[GTMSessionFetcher addPersistedBackgroundSessionToDefaults]
+-[GTMSessionFetcher removePersistedBackgroundSessionFromDefaults]
++[GTMSessionFetcher activePersistedBackgroundSessions]
++[GTMSessionFetcher fetchersForBackgroundSessions]
++[GTMSessionFetcher application:handleEventsForBackgroundURLSession:completionHandler:]
+-[GTMSessionFetcher sessionIdentifier]
+-[GTMSessionFetcher setSessionIdentifier:]
+-[GTMSessionFetcher setSessionIdentifierInternal:]
+-[GTMSessionFetcher sessionUserInfo]
+___36-[GTMSessionFetcher sessionUserInfo]_block_invoke
+-[GTMSessionFetcher setSessionUserInfo:]
+-[GTMSessionFetcher sessionIdentifierDefaultMetadata]
+-[GTMSessionFetcher restoreDefaultStateForSessionIdentifierMetadata]
+-[GTMSessionFetcher sessionIdentifierMetadata]
+-[GTMSessionFetcher sessionIdentifierMetadataUnsynchronized]
+-[GTMSessionFetcher createSessionIdentifierWithMetadata:]
+-[GTMSessionFetcher failToBeginFetchWithError:]
++[GTMSessionFetcher staticCookieStorage]
+___40+[GTMSessionFetcher staticCookieStorage]_block_invoke
+-[GTMSessionFetcher endBackgroundTask]
+-[GTMSessionFetcher authorizeRequest]
+-[GTMSessionFetcher authorizer:request:finishedWithError:]
+-[GTMSessionFetcher canFetchWithBackgroundSession]
+-[GTMSessionFetcher isFetching]
+-[GTMSessionFetcher isFetchingUnsynchronized]
+-[GTMSessionFetcher response]
+-[GTMSessionFetcher responseUnsynchronized]
+-[GTMSessionFetcher statusCode]
+-[GTMSessionFetcher statusCodeUnsynchronized]
+-[GTMSessionFetcher responseHeaders]
+-[GTMSessionFetcher responseHeadersUnsynchronized]
+-[GTMSessionFetcher releaseCallbacks]
+-[GTMSessionFetcher forgetSessionIdentifierForFetcher]
+-[GTMSessionFetcher forgetSessionIdentifierForFetcherWithoutSyncCheck]
+-[GTMSessionFetcher stopFetching]
+-[GTMSessionFetcher stopFetchReleasingCallbacks:]
+___49-[GTMSessionFetcher stopFetchReleasingCallbacks:]_block_invoke
+___49-[GTMSessionFetcher stopFetchReleasingCallbacks:]_block_invoke_2
+___copy_helper_block_.659
+___destroy_helper_block_.660
+___copy_helper_block_.662
+___destroy_helper_block_.663
+-[GTMSessionFetcher setStopNotificationNeeded:]
+-[GTMSessionFetcher sendStopNotificationIfNeeded]
+-[GTMSessionFetcher retryFetch]
+-[GTMSessionFetcher waitForCompletionWithTimeout:]
++[GTMSessionFetcher setGlobalTestBlock:]
++[GTMSessionFetcher setSubstituteUIApplication:]
++[GTMSessionFetcher substituteUIApplication]
++[GTMSessionFetcher fetcherUIApplication]
+___41+[GTMSessionFetcher fetcherUIApplication]_block_invoke
+-[GTMSessionFetcher URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]
+___93-[GTMSessionFetcher URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]_block_invoke
+___93-[GTMSessionFetcher URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]_block_invoke_2
+___copy_helper_block_.731
+___destroy_helper_block_.732
+___copy_helper_block_.734
+___destroy_helper_block_.735
+-[GTMSessionFetcher URLSession:dataTask:didReceiveResponse:completionHandler:]
+___78-[GTMSessionFetcher URLSession:dataTask:didReceiveResponse:completionHandler:]_block_invoke
+___78-[GTMSessionFetcher URLSession:dataTask:didReceiveResponse:completionHandler:]_block_invoke_2
+___copy_helper_block_.741
+___destroy_helper_block_.742
+___copy_helper_block_.744
+___destroy_helper_block_.745
+___78-[GTMSessionFetcher URLSession:dataTask:didReceiveResponse:completionHandler:]_block_invoke.747
+___78-[GTMSessionFetcher URLSession:dataTask:didReceiveResponse:completionHandler:]_block_invoke_2.748
+___copy_helper_block_.749
+___destroy_helper_block_.750
+___copy_helper_block_.752
+___destroy_helper_block_.753
+-[GTMSessionFetcher URLSession:dataTask:didBecomeDownloadTask:]
+-[GTMSessionFetcher URLSession:task:didReceiveChallenge:completionHandler:]
+___75-[GTMSessionFetcher URLSession:task:didReceiveChallenge:completionHandler:]_block_invoke
+___copy_helper_block_.757
+___destroy_helper_block_.758
+-[GTMSessionFetcher respondToChallenge:completionHandler:]
+___58-[GTMSessionFetcher respondToChallenge:completionHandler:]_block_invoke
+___copy_helper_block_.773
+___destroy_helper_block_.774
++[GTMSessionFetcher evaluateServerTrust:forRequest:completionHandler:]
+___70+[GTMSessionFetcher evaluateServerTrust:forRequest:completionHandler:]_block_invoke
+___copy_helper_block_.782
+___destroy_helper_block_.783
+-[GTMSessionFetcher invokeOnCallbackQueueUnlessStopped:]
+-[GTMSessionFetcher invokeOnCallbackQueueAfterUserStopped:block:]
+-[GTMSessionFetcher invokeOnCallbackUnsynchronizedQueueAfterUserStopped:block:]
+-[GTMSessionFetcher invokeOnCallbackQueue:afterUserStopped:block:]
+___66-[GTMSessionFetcher invokeOnCallbackQueue:afterUserStopped:block:]_block_invoke
+___copy_helper_block_.789
+___destroy_helper_block_.790
+-[GTMSessionFetcher invokeFetchCallbacksOnCallbackQueueWithData:error:]
+___71-[GTMSessionFetcher invokeFetchCallbacksOnCallbackQueueWithData:error:]_block_invoke
+___copy_helper_block_.794
+___destroy_helper_block_.795
+-[GTMSessionFetcher postNotificationOnMainThreadWithName:userInfo:requireAsync:]
+___80-[GTMSessionFetcher postNotificationOnMainThreadWithName:userInfo:requireAsync:]_block_invoke
+___copy_helper_block_.802
+___destroy_helper_block_.803
+-[GTMSessionFetcher URLSession:task:needNewBodyStream:]
+___55-[GTMSessionFetcher URLSession:task:needNewBodyStream:]_block_invoke
+___copy_helper_block_.805
+___destroy_helper_block_.806
+-[GTMSessionFetcher URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]
+___93-[GTMSessionFetcher URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]_block_invoke
+___copy_helper_block_.808
+___destroy_helper_block_.809
+-[GTMSessionFetcher URLSession:dataTask:didReceiveData:]
+___56-[GTMSessionFetcher URLSession:dataTask:didReceiveData:]_block_invoke
+___copy_helper_block_.811
+___destroy_helper_block_.812
+___56-[GTMSessionFetcher URLSession:dataTask:didReceiveData:]_block_invoke.816
+___copy_helper_block_.817
+___destroy_helper_block_.818
+-[GTMSessionFetcher URLSession:dataTask:willCacheResponse:completionHandler:]
+___77-[GTMSessionFetcher URLSession:dataTask:willCacheResponse:completionHandler:]_block_invoke
+___copy_helper_block_.820
+___destroy_helper_block_.821
+-[GTMSessionFetcher URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:]
+___102-[GTMSessionFetcher URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:]_block_invoke
+___copy_helper_block_.823
+___destroy_helper_block_.824
+-[GTMSessionFetcher URLSession:downloadTask:didResumeAtOffset:expectedTotalBytes:]
+-[GTMSessionFetcher URLSession:downloadTask:didFinishDownloadingToURL:]
+-[GTMSessionFetcher URLSession:task:didCompleteWithError:]
+___58-[GTMSessionFetcher URLSession:task:didCompleteWithError:]_block_invoke
+___copy_helper_block_.851
+___destroy_helper_block_.852
+-[GTMSessionFetcher URLSessionDidFinishEventsForBackgroundURLSession:]
+-[GTMSessionFetcher URLSession:didBecomeInvalidWithError:]
+-[GTMSessionFetcher finishWithError:shouldRetry:]
+_GTMErrorUserInfoForData
+___49-[GTMSessionFetcher finishWithError:shouldRetry:]_block_invoke
+___copy_helper_block_.860
+___destroy_helper_block_.861
+-[GTMSessionFetcher shouldReleaseCallbacksUponCompletion]
+-[GTMSessionFetcher logNowWithError:]
+-[GTMSessionFetcher isRetryError:]
+-[GTMSessionFetcher shouldRetryNowForStatus:error:forceAssumeRetry:response:]
+___77-[GTMSessionFetcher shouldRetryNowForStatus:error:forceAssumeRetry:response:]_block_invoke
+___copy_helper_block_.890
+___destroy_helper_block_.891
+-[GTMSessionFetcher hasRetryAfterInterval]
+-[GTMSessionFetcher retryAfterInterval]
+-[GTMSessionFetcher beginRetryTimer]
+___36-[GTMSessionFetcher beginRetryTimer]_block_invoke
+___copy_helper_block_.920
+___destroy_helper_block_.921
+-[GTMSessionFetcher retryTimerFired:]
+___37-[GTMSessionFetcher retryTimerFired:]_block_invoke
+___copy_helper_block_.936
+___destroy_helper_block_.937
+-[GTMSessionFetcher destroyRetryTimer]
+-[GTMSessionFetcher retryCount]
+-[GTMSessionFetcher nextRetryInterval]
+-[GTMSessionFetcher nextRetryIntervalUnsynchronized]
+-[GTMSessionFetcher retryTimer]
+-[GTMSessionFetcher isRetryEnabled]
+-[GTMSessionFetcher isRetryEnabledUnsynchronized]
+-[GTMSessionFetcher setRetryEnabled:]
+-[GTMSessionFetcher maxRetryInterval]
+-[GTMSessionFetcher setMaxRetryInterval:]
+-[GTMSessionFetcher minRetryInterval]
+-[GTMSessionFetcher setMinRetryInterval:]
+-[GTMSessionFetcher systemCompletionHandler]
+-[GTMSessionFetcher setSystemCompletionHandler:]
++[GTMSessionFetcher setSystemCompletionHandler:forSessionIdentifier:]
++[GTMSessionFetcher systemCompletionHandlerForSessionIdentifier:]
+-[GTMSessionFetcher request]
+-[GTMSessionFetcher setRequest:]
+-[GTMSessionFetcher mutableRequestForTesting]
+-[GTMSessionFetcher mutableRequest]
+-[GTMSessionFetcher setMutableRequest:]
+-[GTMSessionFetcher updateMutableRequest:]
+-[GTMSessionFetcher setRequestValue:forHTTPHeaderField:]
+-[GTMSessionFetcher updateRequestValue:forHTTPHeaderField:]
+-[GTMSessionFetcher setResponse:]
+-[GTMSessionFetcher bodyLength]
+-[GTMSessionFetcher useUploadTask]
+-[GTMSessionFetcher setUseUploadTask:]
+-[GTMSessionFetcher bodyFileURL]
+-[GTMSessionFetcher setBodyFileURL:]
+-[GTMSessionFetcher bodyStreamProvider]
+-[GTMSessionFetcher setBodyStreamProvider:]
+-[GTMSessionFetcher authorizer]
+-[GTMSessionFetcher setAuthorizer:]
+-[GTMSessionFetcher downloadedData]
+-[GTMSessionFetcher setDownloadedData:]
+-[GTMSessionFetcher downloadedLength]
+-[GTMSessionFetcher setDownloadedLength:]
+-[GTMSessionFetcher callbackQueue]
+-[GTMSessionFetcher setCallbackQueue:]
+-[GTMSessionFetcher session]
+-[GTMSessionFetcher servicePriority]
+-[GTMSessionFetcher setServicePriority:]
+-[GTMSessionFetcher setSession:]
+-[GTMSessionFetcher canShareSession]
+-[GTMSessionFetcher setCanShareSession:]
+-[GTMSessionFetcher useBackgroundSession]
+-[GTMSessionFetcher setUseBackgroundSession:]
+-[GTMSessionFetcher isUsingBackgroundSession]
+-[GTMSessionFetcher setUsingBackgroundSession:]
+-[GTMSessionFetcher sessionNeedingInvalidation]
+-[GTMSessionFetcher setSessionNeedingInvalidation:]
+-[GTMSessionFetcher sessionDelegateQueue]
+-[GTMSessionFetcher setSessionDelegateQueue:]
+-[GTMSessionFetcher userStoppedFetching]
+-[GTMSessionFetcher userData]
+-[GTMSessionFetcher setUserData:]
+-[GTMSessionFetcher destinationFileURL]
+-[GTMSessionFetcher setDestinationFileURL:]
+-[GTMSessionFetcher setProperties:]
+-[GTMSessionFetcher properties]
+-[GTMSessionFetcher setProperty:forKey:]
+-[GTMSessionFetcher propertyForKey:]
+-[GTMSessionFetcher addPropertiesFromDictionary:]
+-[GTMSessionFetcher setCommentWithFormat:]
++[GTMSessionFetcher setLoggingEnabled:]
++[GTMSessionFetcher isLoggingEnabled]
+-[GTMSessionFetcher downloadResumeData]
+-[GTMSessionFetcher setDownloadResumeData:]
+-[GTMSessionFetcher configuration]
+-[GTMSessionFetcher setConfiguration:]
+-[GTMSessionFetcher configurationBlock]
+-[GTMSessionFetcher setConfigurationBlock:]
+-[GTMSessionFetcher wasCreatedFromBackgroundSession]
+-[GTMSessionFetcher taskDescription]
+-[GTMSessionFetcher setTaskDescription:]
+-[GTMSessionFetcher taskPriority]
+-[GTMSessionFetcher setTaskPriority:]
+-[GTMSessionFetcher completionHandler]
+-[GTMSessionFetcher setCompletionHandler:]
+-[GTMSessionFetcher credential]
+-[GTMSessionFetcher setCredential:]
+-[GTMSessionFetcher proxyCredential]
+-[GTMSessionFetcher setProxyCredential:]
+-[GTMSessionFetcher bodyData]
+-[GTMSessionFetcher setBodyData:]
+-[GTMSessionFetcher service]
+-[GTMSessionFetcher setService:]
+-[GTMSessionFetcher serviceHost]
+-[GTMSessionFetcher setServiceHost:]
+-[GTMSessionFetcher accumulateDataBlock]
+-[GTMSessionFetcher setAccumulateDataBlock:]
+-[GTMSessionFetcher receivedProgressBlock]
+-[GTMSessionFetcher setReceivedProgressBlock:]
+-[GTMSessionFetcher downloadProgressBlock]
+-[GTMSessionFetcher setDownloadProgressBlock:]
+-[GTMSessionFetcher resumeDataBlock]
+-[GTMSessionFetcher setResumeDataBlock:]
+-[GTMSessionFetcher didReceiveResponseBlock]
+-[GTMSessionFetcher setDidReceiveResponseBlock:]
+-[GTMSessionFetcher challengeBlock]
+-[GTMSessionFetcher setChallengeBlock:]
+-[GTMSessionFetcher willRedirectBlock]
+-[GTMSessionFetcher setWillRedirectBlock:]
+-[GTMSessionFetcher sendProgressBlock]
+-[GTMSessionFetcher setSendProgressBlock:]
+-[GTMSessionFetcher willCacheURLResponseBlock]
+-[GTMSessionFetcher setWillCacheURLResponseBlock:]
+-[GTMSessionFetcher retryBlock]
+-[GTMSessionFetcher setRetryBlock:]
+-[GTMSessionFetcher retryFactor]
+-[GTMSessionFetcher setRetryFactor:]
+-[GTMSessionFetcher allowedInsecureSchemes]
+-[GTMSessionFetcher setAllowedInsecureSchemes:]
+-[GTMSessionFetcher allowLocalhostRequest]
+-[GTMSessionFetcher setAllowLocalhostRequest:]
+-[GTMSessionFetcher allowInvalidServerCertificates]
+-[GTMSessionFetcher setAllowInvalidServerCertificates:]
+-[GTMSessionFetcher cookieStorage]
+-[GTMSessionFetcher setCookieStorage:]
+-[GTMSessionFetcher initialBeginFetchDate]
+-[GTMSessionFetcher testBlock]
+-[GTMSessionFetcher setTestBlock:]
+-[GTMSessionFetcher testBlockAccumulateDataChunkCount]
+-[GTMSessionFetcher setTestBlockAccumulateDataChunkCount:]
+-[GTMSessionFetcher comment]
+-[GTMSessionFetcher setComment:]
+-[GTMSessionFetcher log]
+-[GTMSessionFetcher setLog:]
+-[GTMSessionFetcher backgroundTaskIdentifier]
+-[GTMSessionFetcher setBackgroundTaskIdentifier:]
+-[GTMSessionFetcher skipBackgroundTask]
+-[GTMSessionFetcher setSkipBackgroundTask:]
+-[GTMSessionFetcher .cxx_destruct]
+-[GTMSessionFetcher(BackwardsCompatibilityOnly) setCookieStorageMethod:]
+-[GTMSessionCookieStorage init]
+-[GTMSessionCookieStorage cookies]
+-[GTMSessionCookieStorage setCookie:]
+-[GTMSessionCookieStorage internalSetCookie:]
+-[GTMSessionCookieStorage setCookies:]
+-[GTMSessionCookieStorage setCookies:forURL:mainDocumentURL:]
+-[GTMSessionCookieStorage deleteCookie:]
+-[GTMSessionCookieStorage cookiesForURL:]
+-[GTMSessionCookieStorage storeCookies:forTask:]
+-[GTMSessionCookieStorage getCookiesForTask:completionHandler:]
+-[GTMSessionCookieStorage cookieMatchingCookie:]
+-[GTMSessionCookieStorage removeExpiredCookies]
++[GTMSessionCookieStorage hasCookieExpired:]
+-[GTMSessionCookieStorage removeAllCookies]
+-[GTMSessionCookieStorage cookieAcceptPolicy]
+-[GTMSessionCookieStorage setCookieAcceptPolicy:]
+-[GTMSessionCookieStorage .cxx_destruct]
+___GTMFetcherSystemVersionString_block_invoke
+_OBJC_IVAR_$_GTMSessionFetcher._wasCreatedFromBackgroundSession
+_OBJC_IVAR_$_GTMSessionFetcher._sessionIdentifierUUID
+_sessionIdentifierToFetcherMap.gSessionIdentifierToFetcherMap
+_sessionIdentifierToFetcherMap.onceToken
+___block_literal_global
+_appAllowsInsecureRequests.allowsInsecureRequests
+_appAllowsInsecureRequests.onceToken
+___block_descriptor_tmp.68
+___block_literal_global.69
+_OBJC_IVAR_$_GTMSessionFetcher._backgroundTaskIdentifier
+_OBJC_IVAR_$_GTMSessionFetcher._request
+_OBJC_IVAR_$_GTMSessionFetcher._configuration
+_OBJC_IVAR_$_GTMSessionFetcher._bodyLength
+_OBJC_IVAR_$_GTMSessionFetcher._callbackQueue
+_OBJC_IVAR_$_GTMSessionFetcher._callbackGroup
+_OBJC_IVAR_$_GTMSessionFetcher._delegateQueue
+_OBJC_IVAR_$_GTMSessionFetcher._minRetryInterval
+_OBJC_IVAR_$_GTMSessionFetcher._maxRetryInterval
+_OBJC_IVAR_$_GTMSessionFetcher._taskPriority
+_OBJC_IVAR_$_GTMSessionFetcher._testBlockAccumulateDataChunkCount
+_OBJC_IVAR_$_GTMSessionFetcher._completionHandler
+___block_descriptor_tmp.143
+___block_descriptor_tmp.163
+_OBJC_IVAR_$_GTMSessionFetcher._initialBeginFetchDate
+_OBJC_IVAR_$_GTMSessionFetcher._downloadResumeData
+_OBJC_IVAR_$_GTMSessionFetcher._allowedInsecureSchemes
+_OBJC_IVAR_$_GTMSessionFetcher._service
+_OBJC_IVAR_$_GTMSessionFetcher._configurationBlock
+_OBJC_IVAR_$_GTMSessionFetcher._shouldInvalidateSession
+___block_descriptor_tmp.257
+___block_descriptor_tmp.261
+_OBJC_IVAR_$_GTMSessionFetcher._servicePriority
+_OBJC_IVAR_$_GTMSessionFetcher._bodyData
+_OBJC_IVAR_$_GTMSessionFetcher._authorizer
+_OBJC_IVAR_$_GTMSessionFetcher._session
+_OBJC_IVAR_$_GTMSessionFetcher._destinationFileURL
+_OBJC_IVAR_$_GTMSessionFetcher._accumulateDataBlock
+_OBJC_IVAR_$_GTMSessionFetcher._taskDescription
+_OBJC_IVAR_$_GTMSessionFetcher._testBlock
+_gGlobalTestBlock
+_OBJC_IVAR_$_GTMSessionFetcher._isUsingTestBlock
+___block_descriptor_tmp.352
+_OBJC_IVAR_$_GTMSessionFetcher._initialRequestDate
+_OBJC_IVAR_$_GTMSessionFetcher._sessionTask
+___block_descriptor_tmp.385
+___block_descriptor_tmp.388
+___block_descriptor_tmp.394
+___block_descriptor_tmp.401
+___block_descriptor_tmp.405
+___block_descriptor_tmp.408
+_OBJC_IVAR_$_GTMSessionFetcher._willRedirectBlock
+_OBJC_IVAR_$_GTMSessionFetcher._didReceiveResponseBlock
+_OBJC_IVAR_$_GTMSessionFetcher._sendProgressBlock
+_OBJC_IVAR_$_GTMSessionFetcher._downloadProgressBlock
+_OBJC_IVAR_$_GTMSessionFetcher._receivedProgressBlock
+_OBJC_IVAR_$_GTMSessionFetcher._willCacheURLResponseBlock
+___block_descriptor_tmp.412
+___block_literal_global.413
+___block_descriptor_tmp.416
+_OBJC_IVAR_$_GTMSessionFetcher._challengeBlock
+___block_descriptor_tmp.435
+___block_literal_global.436
+___block_descriptor_tmp.439
+___block_descriptor_tmp.443
+___block_literal_global.444
+___block_descriptor_tmp.447
+___block_descriptor_tmp.452
+___block_descriptor_tmp.458
+___block_descriptor_tmp.465
+_OBJC_IVAR_$_GTMSessionFetcher._downloadedData
+___block_descriptor_tmp.474
+___block_literal_global.475
+___block_descriptor_tmp.478
+_OBJC_IVAR_$_GTMSessionFetcher._response
+___block_descriptor_tmp.488
+___block_descriptor_tmp.493
+___block_descriptor_tmp.502
+_fetcherUserDefaults.gFetcherUserDefaults
+_fetcherUserDefaults.onceToken
+___block_descriptor_tmp.505
+___block_literal_global.506
+_OBJC_IVAR_$_GTMSessionFetcher._sessionIdentifier
+_OBJC_IVAR_$_GTMSessionFetcher._usingBackgroundSession
+_OBJC_IVAR_$_GTMSessionFetcher._canShareSession
+_OBJC_IVAR_$_GTMSessionFetcher._sessionUserInfo
+___block_descriptor_tmp.544
+___block_literal_global.545
+_OBJC_IVAR_$_GTMSessionFetcher._bodyFileURL
+_OBJC_IVAR_$_GTMSessionFetcher._didCreateSessionIdentifier
+_OBJC_IVAR_$_GTMSessionFetcher._hasStoppedFetching
+_staticCookieStorage.gCookieStorage
+_staticCookieStorage.onceToken
+___block_descriptor_tmp.604
+___block_literal_global.605
+_OBJC_IVAR_$_GTMSessionFetcher._userStoppedFetching
+_OBJC_IVAR_$_GTMSessionFetcher._resumeDataBlock
+___block_descriptor_tmp.661
+___block_descriptor_tmp.665
+_OBJC_IVAR_$_GTMSessionFetcher._sessionNeedingInvalidation
+_OBJC_IVAR_$_GTMSessionFetcher._isStopNotificationNeeded
+_gSubstituteUIApp
+_fetcherUIApplication.applicationClass
+_fetcherUIApplication.onceToken
+___block_descriptor_tmp.694
+___block_literal_global.695
+___block_descriptor_tmp.733
+___block_descriptor_tmp.736
+_OBJC_IVAR_$_GTMSessionFetcher._downloadedLength
+___block_descriptor_tmp.743
+___block_descriptor_tmp.746
+___block_descriptor_tmp.751
+___block_descriptor_tmp.754
+___block_descriptor_tmp.759
+___block_descriptor_tmp.776
+_OBJC_IVAR_$_GTMSessionFetcher._allowInvalidServerCertificates
+_OBJC_IVAR_$_GTMSessionFetcher._credential
+_OBJC_IVAR_$_GTMSessionFetcher._proxyCredential
+___block_descriptor_tmp.784
+___block_descriptor_tmp.791
+___block_descriptor_tmp.796
+___block_descriptor_tmp.804
+_OBJC_IVAR_$_GTMSessionFetcher._bodyStreamProvider
+___block_descriptor_tmp.807
+___block_descriptor_tmp.810
+___block_descriptor_tmp.813
+___block_descriptor_tmp.819
+___block_descriptor_tmp.822
+___block_descriptor_tmp.825
+_OBJC_IVAR_$_GTMSessionFetcher._downloadTaskErrorData
+_OBJC_IVAR_$_GTMSessionFetcher._downloadFinishedError
+___block_descriptor_tmp.853
+___block_descriptor_tmp.862
+_OBJC_IVAR_$_GTMSessionFetcher._retryCount
+_OBJC_IVAR_$_GTMSessionFetcher._hasAttemptedAuthRefresh
+_OBJC_IVAR_$_GTMSessionFetcher._retryBlock
+___block_descriptor_tmp.892
+___block_descriptor_tmp.922
+_OBJC_IVAR_$_GTMSessionFetcher._lastRetryInterval
+_OBJC_IVAR_$_GTMSessionFetcher._retryTimer
+___block_descriptor_tmp.938
+_OBJC_IVAR_$_GTMSessionFetcher._retryFactor
+_OBJC_IVAR_$_GTMSessionFetcher._isRetryEnabled
+_gSystemCompletionHandlers
+_OBJC_IVAR_$_GTMSessionFetcher._useUploadTask
+_OBJC_IVAR_$_GTMSessionFetcher._userRequestedBackgroundSession
+_OBJC_IVAR_$_GTMSessionFetcher._userData
+_OBJC_IVAR_$_GTMSessionFetcher._properties
+_OBJC_IVAR_$_GTMSessionFetcher._serviceHost
+_OBJC_IVAR_$_GTMSessionFetcher._allowLocalhostRequest
+_OBJC_IVAR_$_GTMSessionFetcher._cookieStorage
+_OBJC_IVAR_$_GTMSessionFetcher._comment
+_OBJC_IVAR_$_GTMSessionFetcher._log
+_OBJC_IVAR_$_GTMSessionFetcher._skipBackgroundTask
+l_OBJC_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
+_OBJC_IVAR_$_GTMSessionCookieStorage._cookies
+_OBJC_IVAR_$_GTMSessionCookieStorage._policy
+_GTMFetcherCleanedUserAgentString.charsToDelete
+_GTMFetcherSystemVersionString.sSavedSystemString
+_GTMFetcherSystemVersionString.onceToken
+___block_descriptor_tmp.1449
+___block_literal_global.1450
+_GTMFetcherApplicationIdentifier.sAppIDMap
+-[GTMSessionFetcherService init]
+-[GTMSessionFetcherService dealloc]
+-[GTMSessionFetcherService fetcherWithRequest:fetcherClass:]
+-[GTMSessionFetcherService fetcherWithRequest:]
+-[GTMSessionFetcherService fetcherWithURL:]
+-[GTMSessionFetcherService fetcherWithURLString:]
+-[GTMSessionFetcherService session]
+-[GTMSessionFetcherService sessionForFetcherCreation]
+-[GTMSessionFetcherService sessionDelegate]
+-[GTMSessionFetcherService addRunningFetcher:forHost:]
+-[GTMSessionFetcherService addDelayedFetcher:forHost:]
+-[GTMSessionFetcherService isDelayingFetcher:]
+-[GTMSessionFetcherService fetcherShouldBeginFetching:]
+-[GTMSessionFetcherService startFetcher:]
+-[GTMSessionFetcherService delegateDispatcherForFetcher:]
+-[GTMSessionFetcherService fetcherDidCreateSession:]
+-[GTMSessionFetcherService fetcherDidBeginFetching:]
+-[GTMSessionFetcherService stopFetcher:]
+-[GTMSessionFetcherService fetcherDidStop:]
+-[GTMSessionFetcherService numberOfFetchers]
+-[GTMSessionFetcherService numberOfRunningFetchers]
+-[GTMSessionFetcherService numberOfDelayedFetchers]
+-[GTMSessionFetcherService issuedFetchers]
+___42-[GTMSessionFetcherService issuedFetchers]_block_invoke
+-[GTMSessionFetcherService issuedFetchersWithRequestURL:]
+___57-[GTMSessionFetcherService issuedFetchersWithRequestURL:]_block_invoke
+___copy_helper_block_.214
+___destroy_helper_block_.215
+-[GTMSessionFetcherService stopAllFetchers]
+-[GTMSessionFetcherService stoppedAllFetchersDate]
+-[GTMSessionFetcherService reuseSession]
+-[GTMSessionFetcherService setReuseSession:]
+-[GTMSessionFetcherService resetSession]
+-[GTMSessionFetcherService resetSessionInternal]
+-[GTMSessionFetcherService resetSessionForDispatcherDiscardTimer:]
+-[GTMSessionFetcherService unusedSessionTimeout]
+-[GTMSessionFetcherService setUnusedSessionTimeout:]
+-[GTMSessionFetcherService abandonDispatcher]
+-[GTMSessionFetcherService runningFetchersByHost]
+-[GTMSessionFetcherService setRunningFetchersByHost:]
+-[GTMSessionFetcherService delayedFetchersByHost]
+-[GTMSessionFetcherService setDelayedFetchersByHost:]
+-[GTMSessionFetcherService authorizer]
+-[GTMSessionFetcherService setAuthorizer:]
+-[GTMSessionFetcherService detachAuthorizer]
+-[GTMSessionFetcherService callbackQueue]
+-[GTMSessionFetcherService setCallbackQueue:]
+-[GTMSessionFetcherService sessionDelegateQueue]
+-[GTMSessionFetcherService setSessionDelegateQueue:]
+-[GTMSessionFetcherService delegateQueue]
++[GTMSessionFetcherService numberOfNonBackgroundSessionFetchers:]
+-[GTMSessionFetcherService maxRunningFetchersPerHost]
+-[GTMSessionFetcherService setMaxRunningFetchersPerHost:]
+-[GTMSessionFetcherService configuration]
+-[GTMSessionFetcherService setConfiguration:]
+-[GTMSessionFetcherService configurationBlock]
+-[GTMSessionFetcherService setConfigurationBlock:]
+-[GTMSessionFetcherService cookieStorage]
+-[GTMSessionFetcherService setCookieStorage:]
+-[GTMSessionFetcherService userAgent]
+-[GTMSessionFetcherService setUserAgent:]
+-[GTMSessionFetcherService challengeBlock]
+-[GTMSessionFetcherService setChallengeBlock:]
+-[GTMSessionFetcherService credential]
+-[GTMSessionFetcherService setCredential:]
+-[GTMSessionFetcherService proxyCredential]
+-[GTMSessionFetcherService setProxyCredential:]
+-[GTMSessionFetcherService allowedInsecureSchemes]
+-[GTMSessionFetcherService setAllowedInsecureSchemes:]
+-[GTMSessionFetcherService allowLocalhostRequest]
+-[GTMSessionFetcherService setAllowLocalhostRequest:]
+-[GTMSessionFetcherService allowInvalidServerCertificates]
+-[GTMSessionFetcherService setAllowInvalidServerCertificates:]
+-[GTMSessionFetcherService isRetryEnabled]
+-[GTMSessionFetcherService setRetryEnabled:]
+-[GTMSessionFetcherService retryBlock]
+-[GTMSessionFetcherService setRetryBlock:]
+-[GTMSessionFetcherService maxRetryInterval]
+-[GTMSessionFetcherService setMaxRetryInterval:]
+-[GTMSessionFetcherService minRetryInterval]
+-[GTMSessionFetcherService setMinRetryInterval:]
+-[GTMSessionFetcherService properties]
+-[GTMSessionFetcherService setProperties:]
+-[GTMSessionFetcherService testBlock]
+-[GTMSessionFetcherService setTestBlock:]
+-[GTMSessionFetcherService skipBackgroundTask]
+-[GTMSessionFetcherService setSkipBackgroundTask:]
+-[GTMSessionFetcherService .cxx_destruct]
++[GTMSessionFetcherService(TestingSupport) mockFetcherServiceWithFakedData:fakedError:]
+___87+[GTMSessionFetcherService(TestingSupport) mockFetcherServiceWithFakedData:fakedError:]_block_invoke
+-[GTMSessionFetcherService(TestingSupport) waitForCompletionOfAllFetchersWithTimeout:]
+-[GTMSessionFetcherService(BackwardsCompatibilityOnly) cookieStorageMethod]
+-[GTMSessionFetcherService(BackwardsCompatibilityOnly) setCookieStorageMethod:]
+-[GTMSessionFetcherSessionDelegateDispatcher init]
+-[GTMSessionFetcherSessionDelegateDispatcher initWithParentService:sessionDiscardInterval:]
+-[GTMSessionFetcherSessionDelegateDispatcher description]
+-[GTMSessionFetcherSessionDelegateDispatcher discardTimer]
+-[GTMSessionFetcherSessionDelegateDispatcher startDiscardTimer]
+-[GTMSessionFetcherSessionDelegateDispatcher destroyDiscardTimer]
+-[GTMSessionFetcherSessionDelegateDispatcher discardTimerFired:]
+-[GTMSessionFetcherSessionDelegateDispatcher abandon]
+-[GTMSessionFetcherSessionDelegateDispatcher startSessionUsage]
+-[GTMSessionFetcherSessionDelegateDispatcher destroySessionAndTimer]
+-[GTMSessionFetcherSessionDelegateDispatcher setFetcher:forTask:]
+-[GTMSessionFetcherSessionDelegateDispatcher removeFetcher:]
+-[GTMSessionFetcherSessionDelegateDispatcher fetcherForTask:]
+-[GTMSessionFetcherSessionDelegateDispatcher removeTaskFromMap:]
+-[GTMSessionFetcherSessionDelegateDispatcher setSession:]
+-[GTMSessionFetcherSessionDelegateDispatcher session]
+-[GTMSessionFetcherSessionDelegateDispatcher discardInterval]
+-[GTMSessionFetcherSessionDelegateDispatcher setDiscardInterval:]
+-[GTMSessionFetcherSessionDelegateDispatcher URLSession:didBecomeInvalidWithError:]
+___83-[GTMSessionFetcherSessionDelegateDispatcher URLSession:didBecomeInvalidWithError:]_block_invoke
+___copy_helper_block_.525
+___destroy_helper_block_.526
+-[GTMSessionFetcherSessionDelegateDispatcher URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]
+-[GTMSessionFetcherSessionDelegateDispatcher URLSession:task:didReceiveChallenge:completionHandler:]
+-[GTMSessionFetcherSessionDelegateDispatcher URLSession:task:needNewBodyStream:]
+-[GTMSessionFetcherSessionDelegateDispatcher URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]
+-[GTMSessionFetcherSessionDelegateDispatcher URLSession:task:didCompleteWithError:]
+-[GTMSessionFetcherSessionDelegateDispatcher URLSession:dataTask:didReceiveResponse:completionHandler:]
+-[GTMSessionFetcherSessionDelegateDispatcher URLSession:dataTask:didBecomeDownloadTask:]
+-[GTMSessionFetcherSessionDelegateDispatcher URLSession:dataTask:didReceiveData:]
+-[GTMSessionFetcherSessionDelegateDispatcher URLSession:dataTask:willCacheResponse:completionHandler:]
+-[GTMSessionFetcherSessionDelegateDispatcher URLSession:downloadTask:didFinishDownloadingToURL:]
+-[GTMSessionFetcherSessionDelegateDispatcher URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:]
+-[GTMSessionFetcherSessionDelegateDispatcher URLSession:downloadTask:didResumeAtOffset:expectedTotalBytes:]
+-[GTMSessionFetcherSessionDelegateDispatcher .cxx_destruct]
+_OBJC_IVAR_$_GTMSessionFetcherService._delayedFetchersByHost
+_OBJC_IVAR_$_GTMSessionFetcherService._runningFetchersByHost
+_OBJC_IVAR_$_GTMSessionFetcherService._maxRunningFetchersPerHost
+_OBJC_IVAR_$_GTMSessionFetcherService._cookieStorageMethod
+_OBJC_IVAR_$_GTMSessionFetcherService._unusedSessionTimeout
+_OBJC_IVAR_$_GTMSessionFetcherService._delegateDispatcher
+_OBJC_IVAR_$_GTMSessionFetcherService._callbackQueue
+_OBJC_IVAR_$_GTMSessionFetcherService._delegateQueue
+_OBJC_IVAR_$_GTMSessionFetcherService._sessionCreationSemaphore
+_OBJC_IVAR_$_GTMSessionFetcherService._userAgent
+_OBJC_IVAR_$_GTMSessionFetcherService._stoppedFetchersToWaitFor
+___block_descriptor_tmp.217
+_OBJC_IVAR_$_GTMSessionFetcherService._stoppedAllFetchersDate
+_OBJC_IVAR_$_GTMSessionFetcherService._authorizer
+_OBJC_IVAR_$_GTMSessionFetcherService._configuration
+_OBJC_IVAR_$_GTMSessionFetcherService._configurationBlock
+_OBJC_IVAR_$_GTMSessionFetcherService._cookieStorage
+_OBJC_IVAR_$_GTMSessionFetcherService._challengeBlock
+_OBJC_IVAR_$_GTMSessionFetcherService._credential
+_OBJC_IVAR_$_GTMSessionFetcherService._proxyCredential
+_OBJC_IVAR_$_GTMSessionFetcherService._allowedInsecureSchemes
+_OBJC_IVAR_$_GTMSessionFetcherService._allowLocalhostRequest
+_OBJC_IVAR_$_GTMSessionFetcherService._allowInvalidServerCertificates
+_OBJC_IVAR_$_GTMSessionFetcherService._retryEnabled
+_OBJC_IVAR_$_GTMSessionFetcherService._retryBlock
+_OBJC_IVAR_$_GTMSessionFetcherService._maxRetryInterval
+_OBJC_IVAR_$_GTMSessionFetcherService._minRetryInterval
+_OBJC_IVAR_$_GTMSessionFetcherService._properties
+_OBJC_IVAR_$_GTMSessionFetcherService._testBlock
+_OBJC_IVAR_$_GTMSessionFetcherService._skipBackgroundTask
+l_OBJC_PROTOCOL_$_GTMSessionFetcherServiceProtocol
+l_OBJC_LABEL_PROTOCOL_$_GTMSessionFetcherServiceProtocol
+_OBJC_IVAR_$_GTMSessionFetcherService._timeout
+_OBJC_IVAR_$_GTMSessionFetcherSessionDelegateDispatcher._discardInterval
+_OBJC_IVAR_$_GTMSessionFetcherSessionDelegateDispatcher._parentService
+_OBJC_IVAR_$_GTMSessionFetcherSessionDelegateDispatcher._session
+_OBJC_IVAR_$_GTMSessionFetcherSessionDelegateDispatcher._taskToFetcherMap
+_OBJC_IVAR_$_GTMSessionFetcherSessionDelegateDispatcher._discardTimer
+___block_descriptor_tmp.528
++[GTMSessionUploadFetcher load]
++[GTMSessionUploadFetcher uploadFetcherWithRequest:uploadMIMEType:chunkSize:fetcherService:]
++[GTMSessionUploadFetcher uploadFetcherWithLocation:uploadMIMEType:chunkSize:fetcherService:]
++[GTMSessionUploadFetcher uploadFetcherForSessionIdentifierMetadata:]
++[GTMSessionUploadFetcher uploadFetcherWithRequest:fetcherService:]
++[GTMSessionUploadFetcher uploadFetcherPointerArrayForBackgroundSessions]
+___73+[GTMSessionUploadFetcher uploadFetcherPointerArrayForBackgroundSessions]_block_invoke
++[GTMSessionUploadFetcher uploadFetcherForSessionIdentifier:]
++[GTMSessionUploadFetcher uploadFetchersForBackgroundSessions]
+-[GTMSessionUploadFetcher setUploadData:]
+-[GTMSessionUploadFetcher uploadData]
+-[GTMSessionUploadFetcher setUploadFileHandle:]
+-[GTMSessionUploadFetcher uploadFileHandle]
+-[GTMSessionUploadFetcher setUploadFileURL:]
+-[GTMSessionUploadFetcher uploadFileURL]
+-[GTMSessionUploadFetcher setUploadFileLength:]
+-[GTMSessionUploadFetcher setUploadDataLength:provider:]
+-[GTMSessionUploadFetcher uploadDataProvider]
+-[GTMSessionUploadFetcher setUploadMIMEType:]
+-[GTMSessionUploadFetcher uploadMIMEType]
+-[GTMSessionUploadFetcher setChunkSize:]
+-[GTMSessionUploadFetcher chunkSize]
+-[GTMSessionUploadFetcher setupRequestHeaders]
+-[GTMSessionUploadFetcher setLocationURL:uploadMIMEType:chunkSize:]
+-[GTMSessionUploadFetcher fullUploadLength]
+-[GTMSessionUploadFetcher generateChunkSubdataWithOffset:length:response:]
+___74-[GTMSessionUploadFetcher generateChunkSubdataWithOffset:length:response:]_block_invoke
+___74-[GTMSessionUploadFetcher generateChunkSubdataWithOffset:length:response:]_block_invoke.195
+___copy_helper_block_.198
+___destroy_helper_block_.199
+-[GTMSessionUploadFetcher generateChunkSubdataFromFileHandle:offset:length:response:]
+-[GTMSessionUploadFetcher generateChunkSubdataFromFileURL:offset:length:response:]
+-[GTMSessionUploadFetcher uploadChunkUnavailableErrorWithDescription:]
+-[GTMSessionUploadFetcher prematureFailureErrorWithUserInfo:]
++[GTMSessionUploadFetcher uploadStatusFromResponseHeaders:]
+-[GTMSessionUploadFetcher setCompletionHandler:]
+-[GTMSessionUploadFetcher setDelegateCallbackQueue:]
+-[GTMSessionUploadFetcher delegateCallbackQueue]
+-[GTMSessionUploadFetcher isRestartedUpload]
+-[GTMSessionUploadFetcher chunkFetcher]
+-[GTMSessionUploadFetcher setChunkFetcher:]
+-[GTMSessionUploadFetcher setFetcherInFlight:]
+-[GTMSessionUploadFetcher fetcherInFlight]
+-[GTMSessionUploadFetcher setCancellationHandler:]
+-[GTMSessionUploadFetcher cancellationHandler]
+-[GTMSessionUploadFetcher beginFetchForRetry]
+-[GTMSessionUploadFetcher beginFetchWithCompletionHandler:]
+___59-[GTMSessionUploadFetcher beginFetchWithCompletionHandler:]_block_invoke
+___59-[GTMSessionUploadFetcher beginFetchWithCompletionHandler:]_block_invoke_2
+___copy_helper_block_.254
+___destroy_helper_block_.255
+___copy_helper_block_.260
+___destroy_helper_block_.261
+-[GTMSessionUploadFetcher beginChunkFetches]
+-[GTMSessionUploadFetcher URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]
+-[GTMSessionUploadFetcher shouldReleaseCallbacksUponCompletion]
+-[GTMSessionUploadFetcher invokeFinalCallbackWithData:error:shouldInvalidateLocation:]
+___86-[GTMSessionUploadFetcher invokeFinalCallbackWithData:error:shouldInvalidateLocation:]_block_invoke
+___copy_helper_block_.291
+___destroy_helper_block_.292
+-[GTMSessionUploadFetcher releaseUploadAndBaseCallbacks:]
+-[GTMSessionUploadFetcher stopFetchReleasingCallbacks:]
+-[GTMSessionUploadFetcher uploadNextChunkWithOffset:]
+-[GTMSessionUploadFetcher sendQueryForUploadOffsetWithFetcherProperties:]
+-[GTMSessionUploadFetcher queryFetcher:finishedWithData:error:]
+-[GTMSessionUploadFetcher sendCancelUploadWithFetcherProperties:]
+___65-[GTMSessionUploadFetcher sendCancelUploadWithFetcherProperties:]_block_invoke
+___copy_helper_block_.336
+___destroy_helper_block_.337
+-[GTMSessionUploadFetcher uploadNextChunkWithOffset:fetcherProperties:]
+___71-[GTMSessionUploadFetcher uploadNextChunkWithOffset:fetcherProperties:]_block_invoke
+___71-[GTMSessionUploadFetcher uploadNextChunkWithOffset:fetcherProperties:]_block_invoke_2
+___copy_helper_block_.362
+___destroy_helper_block_.363
+___copy_helper_block_.366
+___destroy_helper_block_.367
+-[GTMSessionUploadFetcher beginChunkFetcher:offset:]
+-[GTMSessionUploadFetcher attachSendProgressBlockToChunkFetcher:]
+___65-[GTMSessionUploadFetcher attachSendProgressBlockToChunkFetcher:]_block_invoke
+___copy_helper_block_.376
+___destroy_helper_block_.377
+-[GTMSessionUploadFetcher uploadSessionIdentifierMetadata]
+-[GTMSessionUploadFetcher uploadFetcherWithProperties:isQueryFetch:]
+___68-[GTMSessionUploadFetcher uploadFetcherWithProperties:isQueryFetch:]_block_invoke
+___68-[GTMSessionUploadFetcher uploadFetcherWithProperties:isQueryFetch:]_block_invoke_2
+___copy_helper_block_.455
+___destroy_helper_block_.456
+-[GTMSessionUploadFetcher chunkFetcher:finishedWithData:error:]
+-[GTMSessionUploadFetcher destroyChunkFetcher]
+-[GTMSessionUploadFetcher invokeDelegateWithDidSendBytes:totalBytesSent:totalBytesExpectedToSend:]
+___98-[GTMSessionUploadFetcher invokeDelegateWithDidSendBytes:totalBytesSent:totalBytesExpectedToSend:]_block_invoke
+___copy_helper_block_.490
+___destroy_helper_block_.491
+-[GTMSessionUploadFetcher retrieveUploadChunkGranularityFromResponseHeaders:]
+-[GTMSessionUploadFetcher isPaused]
+-[GTMSessionUploadFetcher pauseFetching]
+-[GTMSessionUploadFetcher resumeFetching]
+-[GTMSessionUploadFetcher stopFetching]
+___39-[GTMSessionUploadFetcher stopFetching]_block_invoke
+___copy_helper_block_.498
+___destroy_helper_block_.499
+-[GTMSessionUploadFetcher triggerCancellationHandlerForFetch:data:error:]
+-[GTMSessionUploadFetcher updateChunkFetcher:forChunkAtOffset:]
++[GTMSessionUploadFetcher removePointer:fromPointerArray:]
+-[GTMSessionUploadFetcher useBackgroundSession]
+-[GTMSessionUploadFetcher setUseBackgroundSession:]
+-[GTMSessionUploadFetcher canFetchWithBackgroundSession]
+-[GTMSessionUploadFetcher responseHeaders]
+-[GTMSessionUploadFetcher statusCodeUnsynchronized]
+-[GTMSessionUploadFetcher setStatusCode:]
+-[GTMSessionUploadFetcher initialBodyLength]
+-[GTMSessionUploadFetcher setInitialBodyLength:]
+-[GTMSessionUploadFetcher initialBodySent]
+-[GTMSessionUploadFetcher setInitialBodySent:]
+-[GTMSessionUploadFetcher uploadLocationURL]
+-[GTMSessionUploadFetcher setUploadLocationURL:]
+-[GTMSessionUploadFetcher activeFetcher]
+-[GTMSessionUploadFetcher isFetching]
+-[GTMSessionUploadFetcher waitForCompletionWithTimeout:]
+-[GTMSessionUploadFetcher currentOffset]
+-[GTMSessionUploadFetcher setCurrentOffset:]
+-[GTMSessionUploadFetcher delegateCompletionHandler]
+-[GTMSessionUploadFetcher lastChunkRequest]
+-[GTMSessionUploadFetcher setLastChunkRequest:]
+-[GTMSessionUploadFetcher isSubdataGenerating]
+-[GTMSessionUploadFetcher setSubdataGenerating:]
+-[GTMSessionUploadFetcher shouldInitiateOffsetQuery]
+-[GTMSessionUploadFetcher setShouldInitiateOffsetQuery:]
+-[GTMSessionUploadFetcher uploadGranularity]
+-[GTMSessionUploadFetcher setUploadGranularity:]
+-[GTMSessionUploadFetcher .cxx_destruct]
+-[GTMSessionFetcher(GTMSessionUploadFetcherMethods) parentUploadFetcher]
+_uploadFetcherPointerArrayForBackgroundSessions.gUploadFetcherPointerArrayForBackgroundSessions
+_uploadFetcherPointerArrayForBackgroundSessions.onceToken
+_OBJC_IVAR_$_GTMSessionUploadFetcher._chunkFetcher
+_OBJC_IVAR_$_GTMSessionUploadFetcher._fetcherInFlight
+_OBJC_IVAR_$_GTMSessionUploadFetcher._uploadData
+_OBJC_IVAR_$_GTMSessionUploadFetcher._uploadFileHandle
+_OBJC_IVAR_$_GTMSessionUploadFetcher._uploadFileURL
+_OBJC_IVAR_$_GTMSessionUploadFetcher._uploadFileLength
+_OBJC_IVAR_$_GTMSessionUploadFetcher._uploadDataProvider
+_OBJC_IVAR_$_GTMSessionUploadFetcher._uploadMIMEType
+_OBJC_IVAR_$_GTMSessionUploadFetcher._chunkSize
+_OBJC_IVAR_$_GTMSessionUploadFetcher._uploadLocationURL
+_OBJC_IVAR_$_GTMSessionUploadFetcher._recentChunkStatusCode
+_OBJC_IVAR_$_GTMSessionUploadFetcher._isRestartedUpload
+___block_descriptor_tmp.192
+___block_descriptor_tmp.201
+_OBJC_IVAR_$_GTMSessionUploadFetcher._delegateCompletionHandler
+_OBJC_IVAR_$_GTMSessionUploadFetcher._delegateCallbackQueue
+_OBJC_IVAR_$_GTMSessionUploadFetcher._cancellationHandler
+___block_descriptor_tmp.263
+___block_descriptor_tmp.293
+_OBJC_IVAR_$_GTMSessionUploadFetcher._isCancelInFlight
+___block_descriptor_tmp.338
+___block_descriptor_tmp.365
+___block_descriptor_tmp.369
+___block_descriptor_tmp.379
+_OBJC_IVAR_$_GTMSessionUploadFetcher._currentOffset
+_OBJC_IVAR_$_GTMSessionUploadFetcher._recentChunkReponseHeaders
+_OBJC_IVAR_$_GTMSessionUploadFetcher._isPaused
+___block_descriptor_tmp.500
+_OBJC_IVAR_$_GTMSessionUploadFetcher._useBackgroundSessionOnChunkFetchers
+_OBJC_IVAR_$_GTMSessionUploadFetcher._initialBodyLength
+_OBJC_IVAR_$_GTMSessionUploadFetcher._initialBodySent
+_OBJC_IVAR_$_GTMSessionUploadFetcher._lastChunkRequest
+_OBJC_IVAR_$_GTMSessionUploadFetcher._subdataGenerating
+_OBJC_IVAR_$_GTMSessionUploadFetcher._shouldInitiateOffsetQuery
+_OBJC_IVAR_$_GTMSessionUploadFetcher._uploadGranularity
+_OBJC_IVAR_$_GTMSessionUploadFetcher._isSubdataGenerating
+-[GIDGTMOAuth2AuthenticationEMMChainedDelegate initWithDelegate:selector:]
+-[GIDGTMOAuth2AuthenticationEMMChainedDelegate didFinishTokenFetchWithAuth:fetcher:error:]
+___90-[GIDGTMOAuth2AuthenticationEMMChainedDelegate didFinishTokenFetchWithAuth:fetcher:error:]_block_invoke
+-[GIDGTMOAuth2AuthenticationEMMChainedDelegate .cxx_destruct]
+-[GIDGTMOAuth2AuthenticationWithEMMSupport beginTokenFetchWithDelegate:didFinishSelector:]
+-[GIDAuthentication initWithGTMAuth:]
+-[GIDAuthentication GTMAuth]
+-[GIDAuthentication fetcherAuthorizer]
+-[GIDAuthentication getAccessTokenWithHandler:]
+-[GIDAuthentication refreshAccessTokenWithHandler:]
+-[GIDAuthentication getTokensWithHandler:]
+-[GIDAuthentication refreshTokensWithHandler:]
+_kNewIOSSystemName_block_invoke
+___46-[GIDAuthentication refreshTokensWithHandler:]_block_invoke
+___copy_helper_block_.144
+___destroy_helper_block_.145
++[GIDAuthentication decodedIdTokenFromString:]
++[GIDAuthentication authenticationHandlerWithAccessTokenHandler:]
+___65+[GIDAuthentication authenticationHandlerWithAccessTokenHandler:]_block_invoke
+___copy_helper_block_.163
+___destroy_helper_block_.164
++[GIDAuthentication dateWithNumber:]
++[GIDAuthentication parametersWithParameters:emmSupport:isPasscodeInfoRequired:]
++[GIDAuthentication updatedEMMParametersWithParameters:]
++[GIDAuthentication handleTokenFetchEMMError:completion:]
+___57+[GIDAuthentication handleTokenFetchEMMError:completion:]_block_invoke
+___copy_helper_block_.205
+___destroy_helper_block_.206
+-[GIDAuthentication initWithCoder:]
+-[GIDAuthentication encodeWithCoder:]
+-[GIDAuthentication clientID]
+-[GIDAuthentication accessToken]
+-[GIDAuthentication accessTokenExpirationDate]
+-[GIDAuthentication refreshToken]
+-[GIDAuthentication idToken]
+-[GIDAuthentication idTokenExpirationDate]
+-[GIDAuthentication .cxx_destruct]
+_OBJC_IVAR_$_GIDGTMOAuth2AuthenticationEMMChainedDelegate._delegate
+_OBJC_IVAR_$_GIDGTMOAuth2AuthenticationEMMChainedDelegate._selector
+_OBJC_IVAR_$_GIDAuthentication._clientID
+_OBJC_IVAR_$_GIDAuthentication._accessToken
+_OBJC_IVAR_$_GIDAuthentication._accessTokenExpirationDate
+_OBJC_IVAR_$_GIDAuthentication._refreshToken
+_OBJC_IVAR_$_GIDAuthentication._userEmail
+_OBJC_IVAR_$_GIDAuthentication._idToken
+_OBJC_IVAR_$_GIDAuthentication._idTokenExpirationDate
+_OBJC_IVAR_$_GIDAuthentication._authenticationHandlerQueue
+_OBJC_IVAR_$_GIDAuthentication._emmSupport
+_OBJC_IVAR_$_GIDAuthentication._emmPasscodeInfoRequired
+___block_descriptor_tmp.120
+___block_descriptor_tmp.147
+___block_descriptor_tmp.165
+___block_descriptor_tmp.208
+l_OBJC_PROTOCOL_$_NSCoding
+l_OBJC_LABEL_PROTOCOL_$_NSCoding
+-[GIDCallbackQueue init]
+-[GIDCallbackQueue wait]
+-[GIDCallbackQueue next]
+-[GIDCallbackQueue reset]
+-[GIDCallbackQueue addCallback:]
+-[GIDCallbackQueue fire]
+-[GIDCallbackQueue .cxx_destruct]
+_OBJC_IVAR_$_GIDCallbackQueue._queue
+_OBJC_IVAR_$_GIDCallbackQueue._pending
+_OBJC_IVAR_$_GIDCallbackQueue._strongSelf
+_OBJC_IVAR_$_GIDCallbackQueue._firing
++[GIDEMMErrorHandler sharedInstance]
+___36+[GIDEMMErrorHandler sharedInstance]_block_invoke
+-[GIDEMMErrorHandler handleErrorFromResponse:completion:]
+___57-[GIDEMMErrorHandler handleErrorFromResponse:completion:]_block_invoke
+___57-[GIDEMMErrorHandler handleErrorFromResponse:completion:]_block_invoke_2
+___copy_helper_block_.66
+___destroy_helper_block_.67
+___copy_helper_block_.77
+___destroy_helper_block_.78
+-[GIDEMMErrorHandler deviceNotCompliantAlertWithCompletion:]
+___60-[GIDEMMErrorHandler deviceNotCompliantAlertWithCompletion:]_block_invoke
+___copy_helper_block_.89
+___destroy_helper_block_.90
+-[GIDEMMErrorHandler passcodeRequiredAlertWithCompletion:]
+___58-[GIDEMMErrorHandler passcodeRequiredAlertWithCompletion:]_block_invoke
+___copy_helper_block_.101
+___destroy_helper_block_.102
+___58-[GIDEMMErrorHandler passcodeRequiredAlertWithCompletion:]_block_invoke.106
+___copy_helper_block_.109
+___destroy_helper_block_.110
+-[GIDEMMErrorHandler appVerificationRequiredAlertWithURL:completion:]
+___69-[GIDEMMErrorHandler appVerificationRequiredAlertWithURL:completion:]_block_invoke
+___copy_helper_block_.116
+___destroy_helper_block_.117
+___69-[GIDEMMErrorHandler appVerificationRequiredAlertWithURL:completion:]_block_invoke.121
+___copy_helper_block_.122
+___destroy_helper_block_.123
+___69-[GIDEMMErrorHandler appVerificationRequiredAlertWithURL:completion:]_block_invoke.125
+___copy_helper_block_.126
+___destroy_helper_block_.127
+-[GIDEMMErrorHandler unableToAccessString]
+-[GIDEMMErrorHandler passcodeRequiredString]
+-[GIDEMMErrorHandler appVerificationTitleString]
+-[GIDEMMErrorHandler appVerificationTextString]
+-[GIDEMMErrorHandler appVerificationActionString]
+-[GIDEMMErrorHandler deviceNotCompliantString]
+-[GIDEMMErrorHandler settingsString]
+-[GIDEMMErrorHandler okayString]
+-[GIDEMMErrorHandler cancelString]
+_sharedInstance.once
+_sharedInstance.sharedInstance
+_OBJC_IVAR_$_GIDEMMErrorHandler._pendingDialog
+___block_descriptor_tmp.79
+___block_descriptor_tmp.92
+___block_descriptor_tmp.103
+___block_descriptor_tmp.111
+___block_descriptor_tmp.118
+___block_descriptor_tmp.124
+___block_descriptor_tmp.128
+-[GIDGoogleUser initWithAuthentication:requestedScopes:]
+-[GIDGoogleUser initWithCoder:]
+-[GIDGoogleUser encodeWithCoder:]
+-[GIDGoogleUser userID]
+-[GIDGoogleUser profile]
+-[GIDGoogleUser authentication]
+-[GIDGoogleUser accessibleScopes]
+-[GIDGoogleUser grantedScopes]
+-[GIDGoogleUser hostedDomain]
+-[GIDGoogleUser serverAuthCode]
+-[GIDGoogleUser .cxx_destruct]
+_OBJC_IVAR_$_GIDGoogleUser._authentication
+_OBJC_IVAR_$_GIDGoogleUser._accessibleScopes
+_OBJC_IVAR_$_GIDGoogleUser._grantedScopes
+_OBJC_IVAR_$_GIDGoogleUser._serverAuthCode
+_OBJC_IVAR_$_GIDGoogleUser._profile
+_OBJC_IVAR_$_GIDGoogleUser._userID
+_OBJC_IVAR_$_GIDGoogleUser._hostedDomain
+-[GIDProfileData initWithAuthentication:]
+-[GIDProfileData hasImage]
+-[GIDProfileData imageURLWithDimension:]
+-[GIDProfileData initWithCoder:]
+-[GIDProfileData encodeWithCoder:]
+-[GIDProfileData email]
+-[GIDProfileData name]
+-[GIDProfileData givenName]
+-[GIDProfileData familyName]
+-[GIDProfileData .cxx_destruct]
+_OBJC_IVAR_$_GIDProfileData._email
+_OBJC_IVAR_$_GIDProfileData._name
+_OBJC_IVAR_$_GIDProfileData._givenName
+_OBJC_IVAR_$_GIDProfileData._familyName
+_OBJC_IVAR_$_GIDProfileData._imageURL
+-[GIDAppSwitchScheme initWithDictionary:]
+_objectWithClass
+-[GIDAppSwitchScheme isFirstPartyApp]
+-[GIDAppSwitchScheme scheme]
+-[GIDAppSwitchScheme protocolVersion]
+-[GIDAppSwitchScheme rate]
+-[GIDAppSwitchScheme isWebBrowserScheme]
+-[GIDAppSwitchScheme isWebViewScheme]
+-[GIDAppSwitchScheme isSafariViewControllerScheme]
+-[GIDAppSwitchScheme isAuthenticationSessionScheme]
+-[GIDAppSwitchScheme .cxx_destruct]
+-[GIDAppSwitchConfig initWithDictionary:]
+-[GIDAppSwitchConfig schemes]
+-[GIDAppSwitchConfig .cxx_destruct]
+-[GIDRuntimeConfig initWithDictionary:]
+_configObjectWithClass
++[GIDRuntimeConfig defaultConfig]
+-[GIDRuntimeConfig appSwitch]
+-[GIDRuntimeConfig developerMessage]
+-[GIDRuntimeConfig redirectURLString]
+-[GIDRuntimeConfig emmSupport]
+-[GIDRuntimeConfig .cxx_destruct]
+_OBJC_IVAR_$_GIDAppSwitchScheme._scheme
+_OBJC_IVAR_$_GIDAppSwitchScheme._protocolVersion
+_OBJC_IVAR_$_GIDAppSwitchScheme._rate
+_OBJC_IVAR_$_GIDAppSwitchScheme._isWebBrowserScheme
+_OBJC_IVAR_$_GIDAppSwitchScheme._isWebViewScheme
+_OBJC_IVAR_$_GIDAppSwitchScheme._isSafariViewControllerScheme
+_OBJC_IVAR_$_GIDAppSwitchScheme._isAuthenticationSessionScheme
+_OBJC_IVAR_$_GIDAppSwitchConfig._schemes
+_OBJC_IVAR_$_GIDRuntimeConfig._appSwitch
+_OBJC_IVAR_$_GIDRuntimeConfig._developerMessage
+_OBJC_IVAR_$_GIDRuntimeConfig._redirectURLString
+_OBJC_IVAR_$_GIDRuntimeConfig._emmSupport
+-[GIDRuntimeConfigFetcher initWithSDKVersion:clientID:bundleID:]
+-[GIDRuntimeConfigFetcher fetchWithCompletionHandler:]
++[GIDRuntimeConfigFetcher serverURLPrefix]
++[GIDRuntimeConfigFetcher setServerURLPrefix:]
+-[GIDRuntimeConfigFetcher fetchWithURLString:history:]
+___54-[GIDRuntimeConfigFetcher fetchWithURLString:history:]_block_invoke
+-[GIDRuntimeConfigFetcher .cxx_destruct]
+_gServerURLPrefix
+_OBJC_IVAR_$_GIDRuntimeConfigFetcher._version
+_OBJC_IVAR_$_GIDRuntimeConfigFetcher._query
+_OBJC_IVAR_$_GIDRuntimeConfigFetcher._handlers
++[GIDScopes hasUserIDScope:]
+_hasScopeInArray
+_hasUserID
++[GIDScopes hasSocialScope:]
+_hasSocial
++[GIDScopes scopesWithBasicProfile:]
+_addScopeTo
+_hasEmail
+_hasProfile
+-[GIDAuthFlow auth]
+-[GIDAuthFlow setAuth:]
+-[GIDAuthFlow error]
+-[GIDAuthFlow setError:]
+-[GIDAuthFlow emmSupport]
+-[GIDAuthFlow setEmmSupport:]
+-[GIDAuthFlow .cxx_destruct]
+-[GIDAuthenticationSession initWithURL:callbackURLScheme:completionHandler:]
+-[GIDAuthenticationSession start]
+-[GIDAuthenticationSession cancel]
+-[GIDAuthenticationSession .cxx_destruct]
++[GIDSignIn sharedInstance]
+___27+[GIDSignIn sharedInstance]_block_invoke
+-[GIDSignIn init]
+-[GIDSignIn errorWithString:code:]
+-[GIDSignIn keychainError]
+-[GIDSignIn unknownError]
+-[GIDSignIn canceledError]
+-[GIDSignIn noSignInHandlersInstalledError]
+-[GIDSignIn hasAuthInKeychain]
+-[GIDSignIn signInSilently]
+-[GIDSignIn signIn]
+-[GIDSignIn handleURL:sourceApplication:annotation:]
+-[GIDSignIn signOut]
+-[GIDSignIn disconnect]
++[GIDSignIn automaticallyNotifiesObserversForKey:]
+-[GIDSignIn setClientID:]
+-[GIDSignIn setScopes:]
+-[GIDSignIn setShouldFetchBasicProfile:]
+-[GIDSignIn setHostedDomain:]
+-[GIDSignIn appSwitchRandomNumber]
+-[GIDSignIn appBundleID]
+-[GIDSignIn fetchUserID:]
+___25-[GIDSignIn fetchUserID:]_block_invoke
+___copy_helper_block_.245
+___destroy_helper_block_.246
+-[GIDSignIn lastAuthenticateTimestamp]
+-[GIDSignIn fetchRuntimeConfigWithHandler:]
+___43-[GIDSignIn fetchRuntimeConfigWithHandler:]_block_invoke
++[GIDSignIn supportsCurrentUserKVO]
+-[GIDSignIn URLIsFromBrowser:sourceApplication:]
+-[GIDSignIn URLIsFromSSO:sourceApplication:]
+-[GIDSignIn URLIsFromDevicePolicy:sourceApplication:]
+-[GIDSignIn handleURL:fromGoogleSSOApp:]
+-[GIDSignIn handleDevicePolicyAppURL:]
++[GIDSignIn isOperatingSystemAtLeast9]
+-[GIDSignIn assertValidParameters]
+-[GIDSignIn assertValidUIDelegate]
+-[GIDSignIn isFreshInstall]
+-[GIDSignIn removeAllKeychainEntries]
+-[GIDSignIn clearAuthentication]
+-[GIDSignIn fingerprint]
+-[GIDSignIn didChangeParameters]
+-[GIDSignIn stringFromKeychain:]
+-[GIDSignIn save:toKeychain:]
+-[GIDSignIn removeKeychain:]
+-[GIDSignIn saveFingerprint]
+-[GIDSignIn matchesSavedFingerprint]
+-[GIDSignIn saveEMMSupport:]
+-[GIDSignIn savedEMMSupport]
+-[GIDSignIn getEscapedKeychainNames]
+-[GIDSignIn setEscapedKeychainNames:]
+-[GIDSignIn addSavedKeychainName:]
+-[GIDSignIn clearSavedKeychainNames]
+-[GIDSignIn authenticateWithOptions:runtimeConfig:]
+-[GIDSignIn redirectURI]
+-[GIDSignIn randomString]
+-[GIDSignIn generateVerifier]
+-[GIDSignIn oauth2URLWithParams:verifier:]
+-[GIDSignIn schemesWithAppSwitchConfig:includeWebBrowserScheme:includeWebViewScheme:includeSafariViewControllerScheme:]
+-[GIDSignIn finishWithKeychainError]
+-[GIDSignIn addAdditionalTokenRequestParameters:toAuth:]
+-[GIDSignIn addOpenIDRealmToAuth:]
+-[GIDSignIn addServerClientIDToAuth:]
+-[GIDSignIn addVerifierToAuth:]
+-[GIDSignIn removeAdditionalTokenRequestParametersFromAuth:]
+-[GIDSignIn sdkVersionLoggingValue]
+-[GIDSignIn signOutWithUser:]
+-[GIDSignIn disconnectWithUser:]
+___32-[GIDSignIn disconnectWithUser:]_block_invoke
+___copy_helper_block_.517
+___destroy_helper_block_.518
+-[GIDSignIn informUIDelegateOfDispatchResult:]
+-[GIDSignIn authenticateInteractivelyWithOptions:]
+___50-[GIDSignIn authenticateInteractivelyWithOptions:]_block_invoke
+___copy_helper_block_.533
+___destroy_helper_block_.534
+-[GIDSignIn signInWithOptions:]
+___31-[GIDSignIn signInWithOptions:]_block_invoke
+___copy_helper_block_.555
+___destroy_helper_block_.556
+-[GIDSignIn clearAndAuthenticateWithOptions:]
+___45-[GIDSignIn clearAndAuthenticateWithOptions:]_block_invoke
+___copy_helper_block_.572
+___destroy_helper_block_.573
+-[GIDSignIn addCodeReadyCallbacks:]
+-[GIDSignIn parseAuthURL:fromSSO:authFlow:]
+___43-[GIDSignIn parseAuthURL:fromSSO:authFlow:]_block_invoke
+___copy_helper_block_.596
+___destroy_helper_block_.597
+-[GIDSignIn maybeFetchToken:fallback:]
+___38-[GIDSignIn maybeFetchToken:fallback:]_block_invoke
+___38-[GIDSignIn maybeFetchToken:fallback:]_block_invoke_2
+___copy_helper_block_.636
+___destroy_helper_block_.637
+___copy_helper_block_.642
+___destroy_helper_block_.643
+-[GIDSignIn addSaveAuthCallback:toKeychain:]
+___44-[GIDSignIn addSaveAuthCallback:toKeychain:]_block_invoke
+___copy_helper_block_.657
+___destroy_helper_block_.658
+-[GIDSignIn addClearVerifierCallback:]
+___38-[GIDSignIn addClearVerifierCallback:]_block_invoke
+___copy_helper_block_.660
+___destroy_helper_block_.661
+-[GIDSignIn addDecodeIdTokenCallback:]
+___38-[GIDSignIn addDecodeIdTokenCallback:]_block_invoke
+___38-[GIDSignIn addDecodeIdTokenCallback:]_block_invoke_2
+___copy_helper_block_.694
+___destroy_helper_block_.695
+___copy_helper_block_.697
+___destroy_helper_block_.698
+-[GIDSignIn addCallUIDelegateCallback:]
+___39-[GIDSignIn addCallUIDelegateCallback:]_block_invoke
+___copy_helper_block_.702
+___destroy_helper_block_.703
+-[GIDSignIn addCallDelegateCallback:]
+___37-[GIDSignIn addCallDelegateCallback:]_block_invoke
+___copy_helper_block_.705
+___destroy_helper_block_.706
+-[GIDSignIn startFetchURL:fromAuth:withComment:withCompletionHandler:]
+-[GIDSignIn didDisconnectWithUser:error:]
+-[GIDSignIn openInBrowser:]
+-[GIDSignIn signInWebViewController:shouldTreatURLAsAuthResponse:]
+-[GIDSignIn signInWebViewControllerNeedsDismissing:]
+-[GIDSignIn signInWebViewController:shouldKeepLSOCookiesForAuthResponseURL:]
+-[GIDSignIn signInWebViewControllerDidComplete:withURL:error:]
+-[GIDSignIn openWebViewWithURL:]
+-[GIDSignIn safariViewControllerDidFinish:]
+-[GIDSignIn startSafariViewControllerWithExtraParams:verifier:]
+-[GIDSignIn closeSafariViewController]
+-[GIDSignIn startAuthenticationSessionWithExtraParams:verifier:]
+___64-[GIDSignIn startAuthenticationSessionWithExtraParams:verifier:]_block_invoke
+___copy_helper_block_.748
+___destroy_helper_block_.749
+-[GIDSignIn closeAuthenticationSession]
+-[GIDSignIn presentViewController:]
+-[GIDSignIn dismissViewController:]
+-[GIDSignIn SSOURLOfScheme:verifier:params:]
+-[GIDSignIn dealloc]
+-[GIDSignIn currentUser]
+-[GIDSignIn delegate]
+-[GIDSignIn setDelegate:]
+-[GIDSignIn uiDelegate]
+-[GIDSignIn setUiDelegate:]
+-[GIDSignIn clientID]
+-[GIDSignIn scopes]
+-[GIDSignIn shouldFetchBasicProfile]
+-[GIDSignIn language]
+-[GIDSignIn setLanguage:]
+-[GIDSignIn loginHint]
+-[GIDSignIn setLoginHint:]
+-[GIDSignIn serverClientID]
+-[GIDSignIn setServerClientID:]
+-[GIDSignIn openIDRealm]
+-[GIDSignIn setOpenIDRealm:]
+-[GIDSignIn hostedDomain]
+-[GIDSignIn allowsCanOpenURL]
+-[GIDSignIn setAllowsCanOpenURL:]
+-[GIDSignIn .cxx_destruct]
+_OBJC_IVAR_$_GIDAuthFlow._auth
+_OBJC_IVAR_$_GIDAuthFlow._error
+_OBJC_IVAR_$_GIDAuthFlow._emmSupport
+_OBJC_IVAR_$_GIDAuthenticationSession._authenticationSession
+_OBJC_IVAR_$_GIDSignIn._allowsCanOpenURL
+_OBJC_IVAR_$_GIDSignIn._language
+_OBJC_IVAR_$_GIDSignIn._scopes
+_OBJC_IVAR_$_GIDSignIn._shouldFetchBasicProfile
+_OBJC_IVAR_$_GIDSignIn._hasSafariViewController
+_OBJC_IVAR_$_GIDSignIn._hasAuthenticationSession
+_OBJC_IVAR_$_GIDSignIn._scopeString
+_OBJC_IVAR_$_GIDSignIn._clientID
+_OBJC_IVAR_$_GIDSignIn._currentUser
+_OBJC_IVAR_$_GIDSignIn._keychainName
+_OBJC_IVAR_$_GIDSignIn._schemes
+_OBJC_IVAR_$_GIDSignIn._configFetcher
+_OBJC_IVAR_$_GIDSignIn._hostedDomain
+___block_descriptor_tmp.247
+_OBJC_IVAR_$_GIDSignIn._lastAuthenticateTimestamp
+_OBJC_IVAR_$_GIDSignIn._uiDelegate
+_OBJC_IVAR_$_GIDSignIn._safariViewController
+_OBJC_IVAR_$_GIDSignIn._authenticationSession
+_OBJC_IVAR_$_GIDSignIn._additionalParameterKeychainName
+_OBJC_IVAR_$_GIDSignIn._delegate
+_OBJC_IVAR_$_GIDSignIn._loginHint
+_OBJC_IVAR_$_GIDSignIn._serverClientID
+_OBJC_IVAR_$_GIDSignIn._openIDRealm
+___block_descriptor_tmp.520
+_OBJC_IVAR_$_GIDSignIn._uiDelegateDispatchCalled
+___block_descriptor_tmp.536
+___block_descriptor_tmp.558
+___block_descriptor_tmp.574
+___block_descriptor_tmp.598
+___block_descriptor_tmp.639
+___block_descriptor_tmp.645
+___block_descriptor_tmp.659
+___block_descriptor_tmp.662
+___block_descriptor_tmp.696
+___block_descriptor_tmp.699
+___block_descriptor_tmp.704
+___block_descriptor_tmp.707
+l_OBJC_PROTOCOL_$_GIDSignInWebViewControllerDelegate
+l_OBJC_LABEL_PROTOCOL_$_GIDSignInWebViewControllerDelegate
+l_OBJC_PROTOCOL_$_SFSafariViewControllerDelegate
+l_OBJC_LABEL_PROTOCOL_$_SFSafariViewControllerDelegate
+-[GIDSignInButton initWithFrame:]
+-[GIDSignInButton sharedInit]
+-[GIDSignInButton dealloc]
+-[GIDSignInButton initWithCoder:]
+-[GIDSignInButton encodeWithCoder:]
+-[GIDSignInButton updateUI]
+-[GIDSignInButton loadIcon]
+-[GIDSignInButton switchToPressed]
+-[GIDSignInButton switchToNormal]
+-[GIDSignInButton switchToDisabled]
+-[GIDSignInButton setStyle:]
+-[GIDSignInButton setColorScheme:]
+-[GIDSignInButton setEnabled:]
+-[GIDSignInButton setButtonState:]
+-[GIDSignInButton setFrame:]
+-[GIDSignInButton pressed]
+-[GIDSignInButton minWidth]
+-[GIDSignInButton isConstraint:equalToConstraint:]
+-[GIDSignInButton sizeThatFits:]
+-[GIDSignInButton updateConstraints]
+-[GIDSignInButton drawRect:]
+-[GIDSignInButton drawButtonBackground:]
+_colorForStyleState
+-[GIDSignInButton drawButtonText:]
+-[GIDSignInButton buttonText]
++[GIDSignInButton buttonTextFont]
++[GIDSignInButton textSize:withFont:]
+-[GIDSignInButton style]
+-[GIDSignInButton colorScheme]
+-[GIDSignInButton buttonState]
+-[GIDSignInButton .cxx_destruct]
+-[UIImage(GIDAdditions_Private) gid_imageWithBlendMode:color:]
+_OBJC_IVAR_$_GIDSignInButton._style
+_OBJC_IVAR_$_GIDSignInButton._colorScheme
+_OBJC_IVAR_$_GIDSignInButton._buttonState
+_OBJC_IVAR_$_GIDSignInButton._icon
+_kColors
++[GIDSignInCallbackSchemes relevantURLSchemes]
+-[GIDSignInCallbackSchemes init]
+-[GIDSignInCallbackSchemes initWithClientIdentifier:]
+-[GIDSignInCallbackSchemes clientIdentifierScheme]
+-[GIDSignInCallbackSchemes allSchemes]
+-[GIDSignInCallbackSchemes unsupportedSchemes]
+-[GIDSignInCallbackSchemes URLSchemeIsCallbackScheme:]
+-[GIDSignInCallbackSchemes .cxx_destruct]
+_OBJC_IVAR_$_GIDSignInCallbackSchemes._clientIdentifier
++[GIDSignInInternalOptions defaultOptions]
++[GIDSignInInternalOptions silentOptions]
++[GIDSignInInternalOptions optionsWithExtraParams:]
++[GIDSignInInternalOptions optionsWithExtraParams:fallbackHandler:]
++[GIDSignInInternalOptions continuationOptionsWithExtraParams:]
++[GIDSignInInternalOptions firstPartyOptionsWithFallbackHandler:]
+-[GIDSignInInternalOptions interactive]
+-[GIDSignInInternalOptions continuation]
+-[GIDSignInInternalOptions allowsWebView]
+-[GIDSignInInternalOptions allowsBrowser]
+-[GIDSignInInternalOptions allowsExtension]
+-[GIDSignInInternalOptions allowsSafariViewController]
+-[GIDSignInInternalOptions extraParams]
+-[GIDSignInInternalOptions fallbackHandler]
+-[GIDSignInInternalOptions .cxx_destruct]
+_OBJC_IVAR_$_GIDSignInInternalOptions._interactive
+_OBJC_IVAR_$_GIDSignInInternalOptions._continuation
+_OBJC_IVAR_$_GIDSignInInternalOptions._allowsWebView
+_OBJC_IVAR_$_GIDSignInInternalOptions._allowsBrowser
+_OBJC_IVAR_$_GIDSignInInternalOptions._allowsExtension
+_OBJC_IVAR_$_GIDSignInInternalOptions._allowsSafariViewController
+_OBJC_IVAR_$_GIDSignInInternalOptions._extraParams
+_OBJC_IVAR_$_GIDSignInInternalOptions._fallbackHandler
++[GIDSignInPreferences googleAuthorizationURL]
++[GIDSignInPreferences googleTokenInfoServerURL]
++[GIDSignInPreferences googleTokenURL]
++[GIDSignInStrings localizedStringForKey:text:]
++[GIDSignInStrings signInString]
++[GIDSignInStrings signInWithGoogleString]
++[GIDSignInStrings promoTitleString]
++[GIDSignInStrings promoMessageString]
++[GIDSignInStrings promoActionCancelString]
++[GIDSignInStrings promoActionInstallString]
+-[GIDSignInWebView initWithFrame:]
+-[GIDSignInWebView initializeSubviews]
+-[GIDSignInWebView createWebView]
+-[GIDSignInWebView createSpinner]
+-[GIDSignInWebView layoutSubviews]
+-[GIDSignInWebView loadRequest:]
+-[GIDSignInWebView webView:shouldStartLoadWithRequest:navigationType:]
+-[GIDSignInWebView webViewDidStartLoad:]
+-[GIDSignInWebView webViewDidFinishLoad:]
+-[GIDSignInWebView webView:didFailLoadWithError:]
+-[GIDSignInWebView delegate]
+-[GIDSignInWebView setDelegate:]
+-[GIDSignInWebView webView]
+-[GIDSignInWebView setWebView:]
+-[GIDSignInWebView spinner]
+-[GIDSignInWebView setSpinner:]
+-[GIDSignInWebView .cxx_destruct]
+_OBJC_IVAR_$_GIDSignInWebView._webView
+_OBJC_IVAR_$_GIDSignInWebView._spinner
+_OBJC_IVAR_$_GIDSignInWebView._delegate
+-[GIDSignInWebViewController initWithNibName:bundle:]
+-[GIDSignInWebViewController initWithCoder:]
+-[GIDSignInWebViewController initWithURL:delegate:]
++[GIDSignInWebViewController purgeCookieCache]
+-[GIDSignInWebViewController startProtectedCookieSection]
+___57-[GIDSignInWebViewController startProtectedCookieSection]_block_invoke
+-[GIDSignInWebViewController endProtectedCookieSectionKeepingLSOCookies:]
+-[GIDSignInWebViewController loadView]
+-[GIDSignInWebViewController viewWillAppear:]
+-[GIDSignInWebViewController viewDidAppear:]
+-[GIDSignInWebViewController completeWithURL:error:]
+-[GIDSignInWebViewController viewWillDisappear:]
+-[GIDSignInWebViewController viewDidDisappear:]
+-[GIDSignInWebViewController cancel]
+-[GIDSignInWebViewController signInWebView:shouldStartLoadWithRequest:navigationType:]
+-[GIDSignInWebViewController signInWebView:didFailLoadWithError:]
+-[GIDSignInWebViewController URL]
+-[GIDSignInWebViewController setURL:]
+-[GIDSignInWebViewController delegate]
+-[GIDSignInWebViewController setDelegate:]
+-[GIDSignInWebViewController .cxx_destruct]
+_OBJC_IVAR_$_GIDSignInWebViewController._URL
+_OBJC_IVAR_$_GIDSignInWebViewController._delegate
+_gLSOCookies
+_startProtectedCookieSection.onceToken
+_gApplicationCookies
+_OBJC_IVAR_$_GIDSignInWebViewController._pendingError
+_OBJC_IVAR_$_GIDSignInWebViewController._pendingURL
+_OBJC_IVAR_$_GIDSignInWebViewController._shouldKeepLSOCookies
+l_OBJC_PROTOCOL_$_GIDSignInWebViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_GIDSignInWebViewDelegate
+_OBJC_IVAR_$_GIDSignInWebViewController._didDispatchToIOL
++[GIDSignInWebViewURLProtocol injectHTTPHeaders:]
++[GIDSignInWebViewURLProtocol canInitWithRequest:]
++[GIDTokenFetchDelegate beginTokenFetchWithAuth:handler:]
+-[GIDTokenFetchDelegate initWithHandler:]
+-[GIDTokenFetchDelegate didFinishTokenFetchWithAuth:fetcher:error:]
+-[GIDTokenFetchDelegate .cxx_destruct]
+_OBJC_IVAR_$_GIDTokenFetchDelegate._handler
++[NSBundle(GID3PAdditions) gid_frameworkBundle]
++[NSBundle(GID3PAdditions) gid_registerFonts]
+___45+[NSBundle(GID3PAdditions) gid_registerFonts]_block_invoke
+_gid_registerFonts.once
+-[GIDSignIn(PleaseLinkSafariServicesFramework) pleaseLinkSafariServicesFramework]
+-[MDMPasscodeCache init]
+-[MDMPasscodeCache dealloc]
++[MDMPasscodeCache sharedInstance]
+___34+[MDMPasscodeCache sharedInstance]_block_invoke
+-[MDMPasscodeCache passcodeState]
+___33-[MDMPasscodeCache passcodeState]_block_invoke
+-[MDMPasscodeCache hasLocalAuthentication]
+-[MDMPasscodeCache hasKeychain]
+-[MDMPasscodeCache applicationDidEnterBackground:]
+-[MDMPasscodeCache obtainLocalAuthenticationInfo]
+-[MDMPasscodeCache obtainKeychainInfo]
+-[MDMPasscodeCache status]
+-[MDMPasscodeCache info]
+-[MDMPasscodeCache .cxx_destruct]
+_OBJC_IVAR_$_MDMPasscodeCache._hasLocalAuthentication
+_OBJC_IVAR_$_MDMPasscodeCache._hasKeychain
+_sharedInstance.onceToken
+_OBJC_IVAR_$_MDMPasscodeCache._localAuthenticationInfo
+_OBJC_IVAR_$_MDMPasscodeCache._hasEnteredBackground
+_OBJC_IVAR_$_MDMPasscodeCache._keychainInfo
+_OBJC_IVAR_$_MDMPasscodeCache._keychainExpireTime
+_passcodeState.workQueue
+_passcodeState.semaphore
+___block_descriptor_tmp.36
+_OBJC_IVAR_$_MDMPasscodeCache._cachedState
+_obtainLocalAuthenticationInfo.context
+_obtainKeychainInfo.attributes
+_obtainKeychainInfo.query
+-[MDMPasscodeState initWithStatus:info:]
++[MDMPasscodeState passcodeState]
+-[MDMPasscodeState status]
+-[MDMPasscodeState info]
+-[MDMPasscodeState .cxx_destruct]
+_OBJC_IVAR_$_MDMPasscodeState._status
+_OBJC_IVAR_$_MDMPasscodeState._info
+-[NSURL(FIFE) numberOfPathComponentsInLegacyFIFEURL]
+-[NSURL(FIFE) isLegacyFIFEURL]
+-[NSURL(FIFE) isLegacyFIFEURLWithArguments]
+-[NSURL(FIFE) URLByAppendingTrailingSlash]
+-[NSURL(FIFE) legacyFIFEArgumentsString]
+-[NSURL(FIFE) FIFELegacyURLWithArgumentsString:]
+-[NSURL(FIFE) FIFEURLWithArguments:stripExistingOptions:]
+-[NSURL(FIFE) maximumFIFEImageSize]
+-[NSURL(FIFE) FIFEArgumentsString]
+-[NSURL(FIFE) FIFEArgumentsArray]
+-[NSURL(FIFE) URLByRemovingFIFEInfo]
+-[NSURL(FIFE) FIFEURLRequestingMaxSize:]
+-[NSURL(FIFE) FIFEURLRequestingExactDimensions:]
+-[NSURL(FIFE) FIFEURLRequestingDimensions:stripExistingOptions:]
+-[NSURL(FIFE) FIFEURLRequestingDimensions:]
+-[NSURL(FIFE) FIFEURLRequestingSmartCropToMaxSize:]
+-[NSURL(FIFE) FIFEURLRequestingSmartCropToDimensions:]
+-[NSURL(FIFE) FIFEURLRequestingCenteredCropToDimensions:]
+-[NSURL(FIFE) isFIFEUrl]
+___24-[NSURL(FIFE) isFIFEUrl]_block_invoke
+_KeyFromArgument
+_isFIFEUrl.regex
+_isFIFEUrl.once
