@@ -1,21 +1,21 @@
 {
-  "commitish" : "b84c183d8fd063a9a3e2fb21972327cc71e8b1e8",
+  "commitish" : "a733baa1f51126ee83864ec8032eb23e76fa2b2b",
   "iOS" : [
     {
       "name" : "FBSDKPlacesKit",
-      "hash" : "4d645daab61abe07a47d4e503dc5b66b9034b5e2eedff6c7804748fc901013ce"
+      "hash" : "fe35281e6ae60d680528838dd469745a5999ad5152a07934ab25a59b307db739"
     },
     {
       "name" : "FBSDKLoginKit",
-      "hash" : "f0130a7b18cf8c02bc5a895b0aed8708213cfccd59d5612e41995d54b587a98e"
+      "hash" : "8f179773f2d072abdbff622925b77b0d15e3d376e2d5b48ca7ef352e5b1fd010"
     },
     {
       "name" : "FBSDKShareKit",
-      "hash" : "269ff96abea6aee46f90087f62972d3d2498fa29f560a4c4022a3d3d96f8e3ec"
+      "hash" : "12f0164837a882ab673b28dd12b3f5c0ac42d4960e81ecf919dd5aead6dfe05b"
     },
     {
       "name" : "FBSDKCoreKit",
-      "hash" : "be0b6af7e446754fb3255cb327aea8cb458190ba9c915f5e5bdafb5ff027aed1"
+      "hash" : "7eb835851636d38854220af47b831d3b08b2f4dd2e15e995f64d926ba4477c22"
     }
   ]
 }

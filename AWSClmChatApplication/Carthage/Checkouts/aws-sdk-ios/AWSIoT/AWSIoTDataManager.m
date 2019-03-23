@@ -209,6 +209,12 @@ static NSString *const AWSInfoIoTDataManager = @"IoTDataManager";
 
 @implementation AWSIoTDataManager
 
+/*
+ This version is for metrics collection for AWS IoT purpose only. It may be different
+ than the version of AWS SDK for iOS. Update this version when there's a change in AWSIoT.
+ */
+static const NSString *SDK_VERSION = @"2.6.19";
+
 static AWSSynchronizedMutableDictionary *_serviceClients = nil;
 
 + (instancetype)defaultIoTDataManager {
@@ -333,10 +339,60 @@ static AWSSynchronizedMutableDictionary *_serviceClients = nil;
     [self.mqttClient setIsMetricsEnabled:enabled];
 }
 
+- (void)addUserMetaData:(NSDictionary<NSString *, NSString *> *)userMetaData {
+
+    // validate the length of username field
+    NSMutableString *userMetadata = [NSMutableString stringWithFormat:@"%@%@", @"?SDK=iOS&Version=", SDK_VERSION];
+    NSUInteger baseLength = [userMetadata length];
+
+    // Append each of the user-specified key-value pair to the connection username
+    if (userMetaData != [ NSNull null ]) {
+        for (id key in userMetaData) {
+            if (!([key isEqualToString:@"SDK"] || [key isEqualToString:@"Version"])) {
+                [userMetadata appendFormat:@"&%@=%@", key, [userMetaData objectForKey:key]];
+            } else {
+                AWSDDLogWarn(@"Keynames 'SDK' and 'Version' are reserved and will be skipped");
+            }
+        }
+    }
+
+    if ([userMetadata length] > 255) {
+        AWSDDLogWarn(@"Total number of characters in username fields cannot exceed (%lu)", (255 - baseLength));
+        self.mqttClient.userMetaData = [userMetadata substringToIndex:255];
+    } else {
+        self.mqttClient.userMetaData = userMetadata;
+    }
+}
+
+- (BOOL)connectUsingALPNWithClientId:(NSString *)clientId
+                        cleanSession:(BOOL)cleanSession
+                       certificateId:(NSString *)certificateId
+                      statusCallback:(void (^)(AWSIoTMQTTStatus status))callback
+{
+    return [self connectWithClientId:clientId
+                        cleanSession:cleanSession
+                       certificateId:certificateId
+                      statusCallback:callback
+                                port:443];
+}
+
+- (BOOL)connectWithClientId:(NSString*)clientId
+               cleanSession:(BOOL)cleanSession
+              certificateId:(NSString *)certificateId
+             statusCallback:(void (^)(AWSIoTMQTTStatus status))callback
+{
+      return [self connectWithClientId:clientId
+                                cleanSession:cleanSession
+                               certificateId:certificateId
+                              statusCallback:callback
+                                  port:8883];
+}
+
 - (BOOL)connectWithClientId:(NSString*)clientId
                cleanSession:(BOOL)cleanSession
                 certificateId:(NSString *)certificateId
              statusCallback:(void (^)(AWSIoTMQTTStatus status))callback
+                       port:(UInt32)port
 {
     AWSDDLogDebug(@"<<%@>>In connectWithClientID", [NSThread currentThread]);
     AWSDDLogInfo(@"hostName: %@", self.IoTData.configuration.endpoint.hostName);
@@ -367,7 +423,7 @@ static AWSSynchronizedMutableDictionary *_serviceClients = nil;
     
     return [self.mqttClient connectWithClientId:clientId
                                      toHost:self.IoTData.configuration.endpoint.hostName
-                                       port:8883
+                                       port:port
                                cleanSession:cleanSession
                               certificateId:certificateId
                                   keepAlive:self.mqttConfiguration.keepAliveTimeInterval

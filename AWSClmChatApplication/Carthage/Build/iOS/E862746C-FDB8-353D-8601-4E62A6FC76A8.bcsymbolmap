@@ -1,0 +1,885 @@
+BCSymbolMap Version: 2.0
++[AWSSNSResources sharedInstance]
+___33+[AWSSNSResources sharedInstance]_block_invoke
+-[AWSSNSResources JSONObject]
+-[AWSSNSResources init]
+-[AWSSNSResources definitionString]
+-[AWSSNSResources definitionDictionary]
+-[AWSSNSResources setDefinitionDictionary:]
+-[AWSSNSResources .cxx_destruct]
+_sharedInstance._sharedResources
+_sharedInstance.once_token
+___block_descriptor_tmp
+___block_literal_global
+_OBJC_IVAR_$_AWSSNSResources._definitionDictionary
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/distiller/project/AWSSNS/AWSSNSResources.m
+/Users/distiller/project
+__33+[AWSSNSResources sharedInstance]_block_invoke
+/Applications/Xcode-10.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/once.h
++[AWSSNSResponseSerializer initialize]
+-[AWSSNSResponseSerializer responseObjectForResponse:originalRequest:currentRequest:data:error:]
++[AWSSNS initialize]
++[AWSSNS defaultSNS]
+___20+[AWSSNS defaultSNS]_block_invoke
++[AWSSNS registerSNSWithConfiguration:forKey:]
+___46+[AWSSNS registerSNSWithConfiguration:forKey:]_block_invoke
++[AWSSNS SNSForKey:]
++[AWSSNS removeSNSForKey:]
+-[AWSSNS init]
+-[AWSSNS initWithConfiguration:]
+-[AWSSNS invokeRequest:HTTPMethod:URLString:targetPrefix:operationName:outputClass:]
+-[AWSSNS addPermission:]
+-[AWSSNS addPermission:completionHandler:]
+___42-[AWSSNS addPermission:completionHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[AWSSNS checkIfPhoneNumberIsOptedOut:]
+-[AWSSNS checkIfPhoneNumberIsOptedOut:completionHandler:]
+___57-[AWSSNS checkIfPhoneNumberIsOptedOut:completionHandler:]_block_invoke
+___copy_helper_block_.217
+___destroy_helper_block_.218
+-[AWSSNS confirmSubscription:]
+-[AWSSNS confirmSubscription:completionHandler:]
+___48-[AWSSNS confirmSubscription:completionHandler:]_block_invoke
+___copy_helper_block_.225
+___destroy_helper_block_.226
+-[AWSSNS createPlatformApplication:]
+-[AWSSNS createPlatformApplication:completionHandler:]
+___54-[AWSSNS createPlatformApplication:completionHandler:]_block_invoke
+___copy_helper_block_.233
+___destroy_helper_block_.234
+-[AWSSNS createPlatformEndpoint:]
+-[AWSSNS createPlatformEndpoint:completionHandler:]
+___51-[AWSSNS createPlatformEndpoint:completionHandler:]_block_invoke
+___copy_helper_block_.241
+___destroy_helper_block_.242
+-[AWSSNS createTopic:]
+-[AWSSNS createTopic:completionHandler:]
+___40-[AWSSNS createTopic:completionHandler:]_block_invoke
+___copy_helper_block_.249
+___destroy_helper_block_.250
+-[AWSSNS deleteEndpoint:]
+-[AWSSNS deleteEndpoint:completionHandler:]
+___43-[AWSSNS deleteEndpoint:completionHandler:]_block_invoke
+___copy_helper_block_.256
+___destroy_helper_block_.257
+-[AWSSNS deletePlatformApplication:]
+-[AWSSNS deletePlatformApplication:completionHandler:]
+___54-[AWSSNS deletePlatformApplication:completionHandler:]_block_invoke
+___copy_helper_block_.263
+___destroy_helper_block_.264
+-[AWSSNS deleteTopic:]
+-[AWSSNS deleteTopic:completionHandler:]
+___40-[AWSSNS deleteTopic:completionHandler:]_block_invoke
+___copy_helper_block_.270
+___destroy_helper_block_.271
+-[AWSSNS getEndpointAttributes:]
+-[AWSSNS getEndpointAttributes:completionHandler:]
+___50-[AWSSNS getEndpointAttributes:completionHandler:]_block_invoke
+___copy_helper_block_.278
+___destroy_helper_block_.279
+-[AWSSNS getPlatformApplicationAttributes:]
+-[AWSSNS getPlatformApplicationAttributes:completionHandler:]
+___61-[AWSSNS getPlatformApplicationAttributes:completionHandler:]_block_invoke
+___copy_helper_block_.286
+___destroy_helper_block_.287
+-[AWSSNS getSMSAttributes:]
+-[AWSSNS getSMSAttributes:completionHandler:]
+___45-[AWSSNS getSMSAttributes:completionHandler:]_block_invoke
+___copy_helper_block_.294
+___destroy_helper_block_.295
+-[AWSSNS getSubscriptionAttributes:]
+-[AWSSNS getSubscriptionAttributes:completionHandler:]
+___54-[AWSSNS getSubscriptionAttributes:completionHandler:]_block_invoke
+___copy_helper_block_.302
+___destroy_helper_block_.303
+-[AWSSNS getTopicAttributes:]
+-[AWSSNS getTopicAttributes:completionHandler:]
+___47-[AWSSNS getTopicAttributes:completionHandler:]_block_invoke
+___copy_helper_block_.310
+___destroy_helper_block_.311
+-[AWSSNS listEndpointsByPlatformApplication:]
+-[AWSSNS listEndpointsByPlatformApplication:completionHandler:]
+___63-[AWSSNS listEndpointsByPlatformApplication:completionHandler:]_block_invoke
+___copy_helper_block_.318
+___destroy_helper_block_.319
+-[AWSSNS listPhoneNumbersOptedOut:]
+-[AWSSNS listPhoneNumbersOptedOut:completionHandler:]
+___53-[AWSSNS listPhoneNumbersOptedOut:completionHandler:]_block_invoke
+___copy_helper_block_.326
+___destroy_helper_block_.327
+-[AWSSNS listPlatformApplications:]
+-[AWSSNS listPlatformApplications:completionHandler:]
+___53-[AWSSNS listPlatformApplications:completionHandler:]_block_invoke
+___copy_helper_block_.334
+___destroy_helper_block_.335
+-[AWSSNS listSubscriptions:]
+-[AWSSNS listSubscriptions:completionHandler:]
+___46-[AWSSNS listSubscriptions:completionHandler:]_block_invoke
+___copy_helper_block_.342
+___destroy_helper_block_.343
+-[AWSSNS listSubscriptionsByTopic:]
+-[AWSSNS listSubscriptionsByTopic:completionHandler:]
+___53-[AWSSNS listSubscriptionsByTopic:completionHandler:]_block_invoke
+___copy_helper_block_.350
+___destroy_helper_block_.351
+-[AWSSNS listTopics:]
+-[AWSSNS listTopics:completionHandler:]
+___39-[AWSSNS listTopics:completionHandler:]_block_invoke
+___copy_helper_block_.358
+___destroy_helper_block_.359
+-[AWSSNS optInPhoneNumber:]
+-[AWSSNS optInPhoneNumber:completionHandler:]
+___45-[AWSSNS optInPhoneNumber:completionHandler:]_block_invoke
+___copy_helper_block_.366
+___destroy_helper_block_.367
+-[AWSSNS publish:]
+-[AWSSNS publish:completionHandler:]
+___36-[AWSSNS publish:completionHandler:]_block_invoke
+___copy_helper_block_.374
+___destroy_helper_block_.375
+-[AWSSNS removePermission:]
+-[AWSSNS removePermission:completionHandler:]
+___45-[AWSSNS removePermission:completionHandler:]_block_invoke
+___copy_helper_block_.381
+___destroy_helper_block_.382
+-[AWSSNS setEndpointAttributes:]
+-[AWSSNS setEndpointAttributes:completionHandler:]
+___50-[AWSSNS setEndpointAttributes:completionHandler:]_block_invoke
+___copy_helper_block_.388
+___destroy_helper_block_.389
+-[AWSSNS setPlatformApplicationAttributes:]
+-[AWSSNS setPlatformApplicationAttributes:completionHandler:]
+___61-[AWSSNS setPlatformApplicationAttributes:completionHandler:]_block_invoke
+___copy_helper_block_.395
+___destroy_helper_block_.396
+-[AWSSNS setSMSAttributes:]
+-[AWSSNS setSMSAttributes:completionHandler:]
+___45-[AWSSNS setSMSAttributes:completionHandler:]_block_invoke
+___copy_helper_block_.403
+___destroy_helper_block_.404
+-[AWSSNS setSubscriptionAttributes:]
+-[AWSSNS setSubscriptionAttributes:completionHandler:]
+___54-[AWSSNS setSubscriptionAttributes:completionHandler:]_block_invoke
+___copy_helper_block_.410
+___destroy_helper_block_.411
+-[AWSSNS setTopicAttributes:]
+-[AWSSNS setTopicAttributes:completionHandler:]
+___47-[AWSSNS setTopicAttributes:completionHandler:]_block_invoke
+___copy_helper_block_.417
+___destroy_helper_block_.418
+-[AWSSNS subscribe:]
+-[AWSSNS subscribe:completionHandler:]
+___38-[AWSSNS subscribe:completionHandler:]_block_invoke
+___copy_helper_block_.425
+___destroy_helper_block_.426
+-[AWSSNS unsubscribe:]
+-[AWSSNS unsubscribe:completionHandler:]
+___40-[AWSSNS unsubscribe:completionHandler:]_block_invoke
+___copy_helper_block_.432
+___destroy_helper_block_.433
+-[AWSSNS configuration]
+-[AWSSNS setConfiguration:]
+-[AWSSNS networking]
+-[AWSSNS setNetworking:]
+-[AWSSNS .cxx_destruct]
+_errorCodeDictionary
+__serviceClients
+_defaultSNS._defaultSNS
+_defaultSNS.onceToken
+_registerSNSWithConfiguration:forKey:.onceToken
+___block_descriptor_tmp.106
+___block_literal_global.107
+_OBJC_IVAR_$_AWSSNS._configuration
+_OBJC_IVAR_$_AWSSNS._networking
+___block_descriptor_tmp.207
+___block_descriptor_tmp.219
+___block_descriptor_tmp.227
+___block_descriptor_tmp.235
+___block_descriptor_tmp.243
+___block_descriptor_tmp.251
+___block_descriptor_tmp.258
+___block_descriptor_tmp.265
+___block_descriptor_tmp.272
+___block_descriptor_tmp.280
+___block_descriptor_tmp.288
+___block_descriptor_tmp.296
+___block_descriptor_tmp.304
+___block_descriptor_tmp.312
+___block_descriptor_tmp.320
+___block_descriptor_tmp.328
+___block_descriptor_tmp.336
+___block_descriptor_tmp.344
+___block_descriptor_tmp.352
+___block_descriptor_tmp.360
+___block_descriptor_tmp.368
+___block_descriptor_tmp.376
+___block_descriptor_tmp.383
+___block_descriptor_tmp.390
+___block_descriptor_tmp.397
+___block_descriptor_tmp.405
+___block_descriptor_tmp.412
+___block_descriptor_tmp.419
+___block_descriptor_tmp.427
+___block_descriptor_tmp.434
+/Users/distiller/project/AWSSNS/AWSSNSService.m
+/Users/distiller/project/AWSSNS/AWSSNSService.h
+__destroy_helper_block_
+__copy_helper_block_
+__40-[AWSSNS unsubscribe:completionHandler:]_block_invoke
+__38-[AWSSNS subscribe:completionHandler:]_block_invoke
+__47-[AWSSNS setTopicAttributes:completionHandler:]_block_invoke
+__54-[AWSSNS setSubscriptionAttributes:completionHandler:]_block_invoke
+__45-[AWSSNS setSMSAttributes:completionHandler:]_block_invoke
+__61-[AWSSNS setPlatformApplicationAttributes:completionHandler:]_block_invoke
+__50-[AWSSNS setEndpointAttributes:completionHandler:]_block_invoke
+__45-[AWSSNS removePermission:completionHandler:]_block_invoke
+__36-[AWSSNS publish:completionHandler:]_block_invoke
+__45-[AWSSNS optInPhoneNumber:completionHandler:]_block_invoke
+__39-[AWSSNS listTopics:completionHandler:]_block_invoke
+__53-[AWSSNS listSubscriptionsByTopic:completionHandler:]_block_invoke
+__46-[AWSSNS listSubscriptions:completionHandler:]_block_invoke
+__53-[AWSSNS listPlatformApplications:completionHandler:]_block_invoke
+__53-[AWSSNS listPhoneNumbersOptedOut:completionHandler:]_block_invoke
+__63-[AWSSNS listEndpointsByPlatformApplication:completionHandler:]_block_invoke
+__47-[AWSSNS getTopicAttributes:completionHandler:]_block_invoke
+__54-[AWSSNS getSubscriptionAttributes:completionHandler:]_block_invoke
+__45-[AWSSNS getSMSAttributes:completionHandler:]_block_invoke
+__61-[AWSSNS getPlatformApplicationAttributes:completionHandler:]_block_invoke
+__50-[AWSSNS getEndpointAttributes:completionHandler:]_block_invoke
+__40-[AWSSNS deleteTopic:completionHandler:]_block_invoke
+__54-[AWSSNS deletePlatformApplication:completionHandler:]_block_invoke
+__43-[AWSSNS deleteEndpoint:completionHandler:]_block_invoke
+__40-[AWSSNS createTopic:completionHandler:]_block_invoke
+__51-[AWSSNS createPlatformEndpoint:completionHandler:]_block_invoke
+__54-[AWSSNS createPlatformApplication:completionHandler:]_block_invoke
+__48-[AWSSNS confirmSubscription:completionHandler:]_block_invoke
+__57-[AWSSNS checkIfPhoneNumberIsOptedOut:completionHandler:]_block_invoke
+__42-[AWSSNS addPermission:completionHandler:]_block_invoke
+__46+[AWSSNS registerSNSWithConfiguration:forKey:]_block_invoke
+__20+[AWSSNS defaultSNS]_block_invoke
++[AWSSNSAddPermissionInput JSONKeyPathsByPropertyKey]
+-[AWSSNSAddPermissionInput AWSAccountId]
+-[AWSSNSAddPermissionInput setAWSAccountId:]
+-[AWSSNSAddPermissionInput actionName]
+-[AWSSNSAddPermissionInput setActionName:]
+-[AWSSNSAddPermissionInput label]
+-[AWSSNSAddPermissionInput setLabel:]
+-[AWSSNSAddPermissionInput topicArn]
+-[AWSSNSAddPermissionInput setTopicArn:]
+-[AWSSNSAddPermissionInput .cxx_destruct]
++[AWSSNSCheckIfPhoneNumberIsOptedOutInput JSONKeyPathsByPropertyKey]
+-[AWSSNSCheckIfPhoneNumberIsOptedOutInput phoneNumber]
+-[AWSSNSCheckIfPhoneNumberIsOptedOutInput setPhoneNumber:]
+-[AWSSNSCheckIfPhoneNumberIsOptedOutInput .cxx_destruct]
++[AWSSNSCheckIfPhoneNumberIsOptedOutResponse JSONKeyPathsByPropertyKey]
+-[AWSSNSCheckIfPhoneNumberIsOptedOutResponse isOptedOut]
+-[AWSSNSCheckIfPhoneNumberIsOptedOutResponse setIsOptedOut:]
+-[AWSSNSCheckIfPhoneNumberIsOptedOutResponse .cxx_destruct]
++[AWSSNSConfirmSubscriptionInput JSONKeyPathsByPropertyKey]
+-[AWSSNSConfirmSubscriptionInput authenticateOnUnsubscribe]
+-[AWSSNSConfirmSubscriptionInput setAuthenticateOnUnsubscribe:]
+-[AWSSNSConfirmSubscriptionInput token]
+-[AWSSNSConfirmSubscriptionInput setToken:]
+-[AWSSNSConfirmSubscriptionInput topicArn]
+-[AWSSNSConfirmSubscriptionInput setTopicArn:]
+-[AWSSNSConfirmSubscriptionInput .cxx_destruct]
++[AWSSNSConfirmSubscriptionResponse JSONKeyPathsByPropertyKey]
+-[AWSSNSConfirmSubscriptionResponse subscriptionArn]
+-[AWSSNSConfirmSubscriptionResponse setSubscriptionArn:]
+-[AWSSNSConfirmSubscriptionResponse .cxx_destruct]
++[AWSSNSCreateEndpointResponse JSONKeyPathsByPropertyKey]
+-[AWSSNSCreateEndpointResponse endpointArn]
+-[AWSSNSCreateEndpointResponse setEndpointArn:]
+-[AWSSNSCreateEndpointResponse .cxx_destruct]
++[AWSSNSCreatePlatformApplicationInput JSONKeyPathsByPropertyKey]
+-[AWSSNSCreatePlatformApplicationInput attributes]
+-[AWSSNSCreatePlatformApplicationInput setAttributes:]
+-[AWSSNSCreatePlatformApplicationInput name]
+-[AWSSNSCreatePlatformApplicationInput setName:]
+-[AWSSNSCreatePlatformApplicationInput platform]
+-[AWSSNSCreatePlatformApplicationInput setPlatform:]
+-[AWSSNSCreatePlatformApplicationInput .cxx_destruct]
++[AWSSNSCreatePlatformApplicationResponse JSONKeyPathsByPropertyKey]
+-[AWSSNSCreatePlatformApplicationResponse platformApplicationArn]
+-[AWSSNSCreatePlatformApplicationResponse setPlatformApplicationArn:]
+-[AWSSNSCreatePlatformApplicationResponse .cxx_destruct]
++[AWSSNSCreatePlatformEndpointInput JSONKeyPathsByPropertyKey]
+-[AWSSNSCreatePlatformEndpointInput attributes]
+-[AWSSNSCreatePlatformEndpointInput setAttributes:]
+-[AWSSNSCreatePlatformEndpointInput customUserData]
+-[AWSSNSCreatePlatformEndpointInput setCustomUserData:]
+-[AWSSNSCreatePlatformEndpointInput platformApplicationArn]
+-[AWSSNSCreatePlatformEndpointInput setPlatformApplicationArn:]
+-[AWSSNSCreatePlatformEndpointInput token]
+-[AWSSNSCreatePlatformEndpointInput setToken:]
+-[AWSSNSCreatePlatformEndpointInput .cxx_destruct]
++[AWSSNSCreateTopicInput JSONKeyPathsByPropertyKey]
+-[AWSSNSCreateTopicInput attributes]
+-[AWSSNSCreateTopicInput setAttributes:]
+-[AWSSNSCreateTopicInput name]
+-[AWSSNSCreateTopicInput setName:]
+-[AWSSNSCreateTopicInput .cxx_destruct]
++[AWSSNSCreateTopicResponse JSONKeyPathsByPropertyKey]
+-[AWSSNSCreateTopicResponse topicArn]
+-[AWSSNSCreateTopicResponse setTopicArn:]
+-[AWSSNSCreateTopicResponse .cxx_destruct]
++[AWSSNSDeleteEndpointInput JSONKeyPathsByPropertyKey]
+-[AWSSNSDeleteEndpointInput endpointArn]
+-[AWSSNSDeleteEndpointInput setEndpointArn:]
+-[AWSSNSDeleteEndpointInput .cxx_destruct]
++[AWSSNSDeletePlatformApplicationInput JSONKeyPathsByPropertyKey]
+-[AWSSNSDeletePlatformApplicationInput platformApplicationArn]
+-[AWSSNSDeletePlatformApplicationInput setPlatformApplicationArn:]
+-[AWSSNSDeletePlatformApplicationInput .cxx_destruct]
++[AWSSNSDeleteTopicInput JSONKeyPathsByPropertyKey]
+-[AWSSNSDeleteTopicInput topicArn]
+-[AWSSNSDeleteTopicInput setTopicArn:]
+-[AWSSNSDeleteTopicInput .cxx_destruct]
++[AWSSNSEndpoint JSONKeyPathsByPropertyKey]
+-[AWSSNSEndpoint attributes]
+-[AWSSNSEndpoint setAttributes:]
+-[AWSSNSEndpoint endpointArn]
+-[AWSSNSEndpoint setEndpointArn:]
+-[AWSSNSEndpoint .cxx_destruct]
++[AWSSNSGetEndpointAttributesInput JSONKeyPathsByPropertyKey]
+-[AWSSNSGetEndpointAttributesInput endpointArn]
+-[AWSSNSGetEndpointAttributesInput setEndpointArn:]
+-[AWSSNSGetEndpointAttributesInput .cxx_destruct]
++[AWSSNSGetEndpointAttributesResponse JSONKeyPathsByPropertyKey]
+-[AWSSNSGetEndpointAttributesResponse attributes]
+-[AWSSNSGetEndpointAttributesResponse setAttributes:]
+-[AWSSNSGetEndpointAttributesResponse .cxx_destruct]
++[AWSSNSGetPlatformApplicationAttributesInput JSONKeyPathsByPropertyKey]
+-[AWSSNSGetPlatformApplicationAttributesInput platformApplicationArn]
+-[AWSSNSGetPlatformApplicationAttributesInput setPlatformApplicationArn:]
+-[AWSSNSGetPlatformApplicationAttributesInput .cxx_destruct]
++[AWSSNSGetPlatformApplicationAttributesResponse JSONKeyPathsByPropertyKey]
+-[AWSSNSGetPlatformApplicationAttributesResponse attributes]
+-[AWSSNSGetPlatformApplicationAttributesResponse setAttributes:]
+-[AWSSNSGetPlatformApplicationAttributesResponse .cxx_destruct]
++[AWSSNSGetSMSAttributesInput JSONKeyPathsByPropertyKey]
+-[AWSSNSGetSMSAttributesInput attributes]
+-[AWSSNSGetSMSAttributesInput setAttributes:]
+-[AWSSNSGetSMSAttributesInput .cxx_destruct]
++[AWSSNSGetSMSAttributesResponse JSONKeyPathsByPropertyKey]
+-[AWSSNSGetSMSAttributesResponse attributes]
+-[AWSSNSGetSMSAttributesResponse setAttributes:]
+-[AWSSNSGetSMSAttributesResponse .cxx_destruct]
++[AWSSNSGetSubscriptionAttributesInput JSONKeyPathsByPropertyKey]
+-[AWSSNSGetSubscriptionAttributesInput subscriptionArn]
+-[AWSSNSGetSubscriptionAttributesInput setSubscriptionArn:]
+-[AWSSNSGetSubscriptionAttributesInput .cxx_destruct]
++[AWSSNSGetSubscriptionAttributesResponse JSONKeyPathsByPropertyKey]
+-[AWSSNSGetSubscriptionAttributesResponse attributes]
+-[AWSSNSGetSubscriptionAttributesResponse setAttributes:]
+-[AWSSNSGetSubscriptionAttributesResponse .cxx_destruct]
++[AWSSNSGetTopicAttributesInput JSONKeyPathsByPropertyKey]
+-[AWSSNSGetTopicAttributesInput topicArn]
+-[AWSSNSGetTopicAttributesInput setTopicArn:]
+-[AWSSNSGetTopicAttributesInput .cxx_destruct]
++[AWSSNSGetTopicAttributesResponse JSONKeyPathsByPropertyKey]
+-[AWSSNSGetTopicAttributesResponse attributes]
+-[AWSSNSGetTopicAttributesResponse setAttributes:]
+-[AWSSNSGetTopicAttributesResponse .cxx_destruct]
++[AWSSNSListEndpointsByPlatformApplicationInput JSONKeyPathsByPropertyKey]
+-[AWSSNSListEndpointsByPlatformApplicationInput nextToken]
+-[AWSSNSListEndpointsByPlatformApplicationInput setNextToken:]
+-[AWSSNSListEndpointsByPlatformApplicationInput platformApplicationArn]
+-[AWSSNSListEndpointsByPlatformApplicationInput setPlatformApplicationArn:]
+-[AWSSNSListEndpointsByPlatformApplicationInput .cxx_destruct]
++[AWSSNSListEndpointsByPlatformApplicationResponse JSONKeyPathsByPropertyKey]
++[AWSSNSListEndpointsByPlatformApplicationResponse endpointsJSONTransformer]
+-[AWSSNSListEndpointsByPlatformApplicationResponse endpoints]
+-[AWSSNSListEndpointsByPlatformApplicationResponse setEndpoints:]
+-[AWSSNSListEndpointsByPlatformApplicationResponse nextToken]
+-[AWSSNSListEndpointsByPlatformApplicationResponse setNextToken:]
+-[AWSSNSListEndpointsByPlatformApplicationResponse .cxx_destruct]
++[AWSSNSListPhoneNumbersOptedOutInput JSONKeyPathsByPropertyKey]
+-[AWSSNSListPhoneNumbersOptedOutInput nextToken]
+-[AWSSNSListPhoneNumbersOptedOutInput setNextToken:]
+-[AWSSNSListPhoneNumbersOptedOutInput .cxx_destruct]
++[AWSSNSListPhoneNumbersOptedOutResponse JSONKeyPathsByPropertyKey]
+-[AWSSNSListPhoneNumbersOptedOutResponse nextToken]
+-[AWSSNSListPhoneNumbersOptedOutResponse setNextToken:]
+-[AWSSNSListPhoneNumbersOptedOutResponse phoneNumbers]
+-[AWSSNSListPhoneNumbersOptedOutResponse setPhoneNumbers:]
+-[AWSSNSListPhoneNumbersOptedOutResponse .cxx_destruct]
++[AWSSNSListPlatformApplicationsInput JSONKeyPathsByPropertyKey]
+-[AWSSNSListPlatformApplicationsInput nextToken]
+-[AWSSNSListPlatformApplicationsInput setNextToken:]
+-[AWSSNSListPlatformApplicationsInput .cxx_destruct]
++[AWSSNSListPlatformApplicationsResponse JSONKeyPathsByPropertyKey]
++[AWSSNSListPlatformApplicationsResponse platformApplicationsJSONTransformer]
+-[AWSSNSListPlatformApplicationsResponse nextToken]
+-[AWSSNSListPlatformApplicationsResponse setNextToken:]
+-[AWSSNSListPlatformApplicationsResponse platformApplications]
+-[AWSSNSListPlatformApplicationsResponse setPlatformApplications:]
+-[AWSSNSListPlatformApplicationsResponse .cxx_destruct]
++[AWSSNSListSubscriptionsByTopicInput JSONKeyPathsByPropertyKey]
+-[AWSSNSListSubscriptionsByTopicInput nextToken]
+-[AWSSNSListSubscriptionsByTopicInput setNextToken:]
+-[AWSSNSListSubscriptionsByTopicInput topicArn]
+-[AWSSNSListSubscriptionsByTopicInput setTopicArn:]
+-[AWSSNSListSubscriptionsByTopicInput .cxx_destruct]
++[AWSSNSListSubscriptionsByTopicResponse JSONKeyPathsByPropertyKey]
++[AWSSNSListSubscriptionsByTopicResponse subscriptionsJSONTransformer]
+-[AWSSNSListSubscriptionsByTopicResponse nextToken]
+-[AWSSNSListSubscriptionsByTopicResponse setNextToken:]
+-[AWSSNSListSubscriptionsByTopicResponse subscriptions]
+-[AWSSNSListSubscriptionsByTopicResponse setSubscriptions:]
+-[AWSSNSListSubscriptionsByTopicResponse .cxx_destruct]
++[AWSSNSListSubscriptionsInput JSONKeyPathsByPropertyKey]
+-[AWSSNSListSubscriptionsInput nextToken]
+-[AWSSNSListSubscriptionsInput setNextToken:]
+-[AWSSNSListSubscriptionsInput .cxx_destruct]
++[AWSSNSListSubscriptionsResponse JSONKeyPathsByPropertyKey]
++[AWSSNSListSubscriptionsResponse subscriptionsJSONTransformer]
+-[AWSSNSListSubscriptionsResponse nextToken]
+-[AWSSNSListSubscriptionsResponse setNextToken:]
+-[AWSSNSListSubscriptionsResponse subscriptions]
+-[AWSSNSListSubscriptionsResponse setSubscriptions:]
+-[AWSSNSListSubscriptionsResponse .cxx_destruct]
++[AWSSNSListTopicsInput JSONKeyPathsByPropertyKey]
+-[AWSSNSListTopicsInput nextToken]
+-[AWSSNSListTopicsInput setNextToken:]
+-[AWSSNSListTopicsInput .cxx_destruct]
++[AWSSNSListTopicsResponse JSONKeyPathsByPropertyKey]
++[AWSSNSListTopicsResponse topicsJSONTransformer]
+-[AWSSNSListTopicsResponse nextToken]
+-[AWSSNSListTopicsResponse setNextToken:]
+-[AWSSNSListTopicsResponse topics]
+-[AWSSNSListTopicsResponse setTopics:]
+-[AWSSNSListTopicsResponse .cxx_destruct]
++[AWSSNSMessageAttributeValue JSONKeyPathsByPropertyKey]
+-[AWSSNSMessageAttributeValue binaryValue]
+-[AWSSNSMessageAttributeValue setBinaryValue:]
+-[AWSSNSMessageAttributeValue dataType]
+-[AWSSNSMessageAttributeValue setDataType:]
+-[AWSSNSMessageAttributeValue stringValue]
+-[AWSSNSMessageAttributeValue setStringValue:]
+-[AWSSNSMessageAttributeValue .cxx_destruct]
++[AWSSNSOptInPhoneNumberInput JSONKeyPathsByPropertyKey]
+-[AWSSNSOptInPhoneNumberInput phoneNumber]
+-[AWSSNSOptInPhoneNumberInput setPhoneNumber:]
+-[AWSSNSOptInPhoneNumberInput .cxx_destruct]
++[AWSSNSPlatformApplication JSONKeyPathsByPropertyKey]
+-[AWSSNSPlatformApplication attributes]
+-[AWSSNSPlatformApplication setAttributes:]
+-[AWSSNSPlatformApplication platformApplicationArn]
+-[AWSSNSPlatformApplication setPlatformApplicationArn:]
+-[AWSSNSPlatformApplication .cxx_destruct]
++[AWSSNSPublishInput JSONKeyPathsByPropertyKey]
++[AWSSNSPublishInput messageAttributesJSONTransformer]
+___54+[AWSSNSPublishInput messageAttributesJSONTransformer]_block_invoke
+___54+[AWSSNSPublishInput messageAttributesJSONTransformer]_block_invoke_2
+-[AWSSNSPublishInput message]
+-[AWSSNSPublishInput setMessage:]
+-[AWSSNSPublishInput messageAttributes]
+-[AWSSNSPublishInput setMessageAttributes:]
+-[AWSSNSPublishInput messageStructure]
+-[AWSSNSPublishInput setMessageStructure:]
+-[AWSSNSPublishInput phoneNumber]
+-[AWSSNSPublishInput setPhoneNumber:]
+-[AWSSNSPublishInput subject]
+-[AWSSNSPublishInput setSubject:]
+-[AWSSNSPublishInput targetArn]
+-[AWSSNSPublishInput setTargetArn:]
+-[AWSSNSPublishInput topicArn]
+-[AWSSNSPublishInput setTopicArn:]
+-[AWSSNSPublishInput .cxx_destruct]
++[AWSSNSPublishResponse JSONKeyPathsByPropertyKey]
+-[AWSSNSPublishResponse messageId]
+-[AWSSNSPublishResponse setMessageId:]
+-[AWSSNSPublishResponse .cxx_destruct]
++[AWSSNSRemovePermissionInput JSONKeyPathsByPropertyKey]
+-[AWSSNSRemovePermissionInput label]
+-[AWSSNSRemovePermissionInput setLabel:]
+-[AWSSNSRemovePermissionInput topicArn]
+-[AWSSNSRemovePermissionInput setTopicArn:]
+-[AWSSNSRemovePermissionInput .cxx_destruct]
++[AWSSNSSetEndpointAttributesInput JSONKeyPathsByPropertyKey]
+-[AWSSNSSetEndpointAttributesInput attributes]
+-[AWSSNSSetEndpointAttributesInput setAttributes:]
+-[AWSSNSSetEndpointAttributesInput endpointArn]
+-[AWSSNSSetEndpointAttributesInput setEndpointArn:]
+-[AWSSNSSetEndpointAttributesInput .cxx_destruct]
++[AWSSNSSetPlatformApplicationAttributesInput JSONKeyPathsByPropertyKey]
+-[AWSSNSSetPlatformApplicationAttributesInput attributes]
+-[AWSSNSSetPlatformApplicationAttributesInput setAttributes:]
+-[AWSSNSSetPlatformApplicationAttributesInput platformApplicationArn]
+-[AWSSNSSetPlatformApplicationAttributesInput setPlatformApplicationArn:]
+-[AWSSNSSetPlatformApplicationAttributesInput .cxx_destruct]
++[AWSSNSSetSMSAttributesInput JSONKeyPathsByPropertyKey]
+-[AWSSNSSetSMSAttributesInput attributes]
+-[AWSSNSSetSMSAttributesInput setAttributes:]
+-[AWSSNSSetSMSAttributesInput .cxx_destruct]
++[AWSSNSSetSubscriptionAttributesInput JSONKeyPathsByPropertyKey]
+-[AWSSNSSetSubscriptionAttributesInput attributeName]
+-[AWSSNSSetSubscriptionAttributesInput setAttributeName:]
+-[AWSSNSSetSubscriptionAttributesInput attributeValue]
+-[AWSSNSSetSubscriptionAttributesInput setAttributeValue:]
+-[AWSSNSSetSubscriptionAttributesInput subscriptionArn]
+-[AWSSNSSetSubscriptionAttributesInput setSubscriptionArn:]
+-[AWSSNSSetSubscriptionAttributesInput .cxx_destruct]
++[AWSSNSSetTopicAttributesInput JSONKeyPathsByPropertyKey]
+-[AWSSNSSetTopicAttributesInput attributeName]
+-[AWSSNSSetTopicAttributesInput setAttributeName:]
+-[AWSSNSSetTopicAttributesInput attributeValue]
+-[AWSSNSSetTopicAttributesInput setAttributeValue:]
+-[AWSSNSSetTopicAttributesInput topicArn]
+-[AWSSNSSetTopicAttributesInput setTopicArn:]
+-[AWSSNSSetTopicAttributesInput .cxx_destruct]
++[AWSSNSSubscribeInput JSONKeyPathsByPropertyKey]
+-[AWSSNSSubscribeInput attributes]
+-[AWSSNSSubscribeInput setAttributes:]
+-[AWSSNSSubscribeInput endpoint]
+-[AWSSNSSubscribeInput setEndpoint:]
+-[AWSSNSSubscribeInput protocols]
+-[AWSSNSSubscribeInput setProtocols:]
+-[AWSSNSSubscribeInput returnSubscriptionArn]
+-[AWSSNSSubscribeInput setReturnSubscriptionArn:]
+-[AWSSNSSubscribeInput topicArn]
+-[AWSSNSSubscribeInput setTopicArn:]
+-[AWSSNSSubscribeInput .cxx_destruct]
++[AWSSNSSubscribeResponse JSONKeyPathsByPropertyKey]
+-[AWSSNSSubscribeResponse subscriptionArn]
+-[AWSSNSSubscribeResponse setSubscriptionArn:]
+-[AWSSNSSubscribeResponse .cxx_destruct]
++[AWSSNSSubscription JSONKeyPathsByPropertyKey]
+-[AWSSNSSubscription endpoint]
+-[AWSSNSSubscription setEndpoint:]
+-[AWSSNSSubscription owner]
+-[AWSSNSSubscription setOwner:]
+-[AWSSNSSubscription protocols]
+-[AWSSNSSubscription setProtocols:]
+-[AWSSNSSubscription subscriptionArn]
+-[AWSSNSSubscription setSubscriptionArn:]
+-[AWSSNSSubscription topicArn]
+-[AWSSNSSubscription setTopicArn:]
+-[AWSSNSSubscription .cxx_destruct]
++[AWSSNSTopic JSONKeyPathsByPropertyKey]
+-[AWSSNSTopic topicArn]
+-[AWSSNSTopic setTopicArn:]
+-[AWSSNSTopic .cxx_destruct]
++[AWSSNSUnsubscribeInput JSONKeyPathsByPropertyKey]
+-[AWSSNSUnsubscribeInput subscriptionArn]
+-[AWSSNSUnsubscribeInput setSubscriptionArn:]
+-[AWSSNSUnsubscribeInput .cxx_destruct]
+_OBJC_IVAR_$_AWSSNSAddPermissionInput._AWSAccountId
+_OBJC_IVAR_$_AWSSNSAddPermissionInput._actionName
+_OBJC_IVAR_$_AWSSNSAddPermissionInput._label
+_OBJC_IVAR_$_AWSSNSAddPermissionInput._topicArn
+_OBJC_IVAR_$_AWSSNSCheckIfPhoneNumberIsOptedOutInput._phoneNumber
+_OBJC_IVAR_$_AWSSNSCheckIfPhoneNumberIsOptedOutResponse._isOptedOut
+_OBJC_IVAR_$_AWSSNSConfirmSubscriptionInput._authenticateOnUnsubscribe
+_OBJC_IVAR_$_AWSSNSConfirmSubscriptionInput._token
+_OBJC_IVAR_$_AWSSNSConfirmSubscriptionInput._topicArn
+_OBJC_IVAR_$_AWSSNSConfirmSubscriptionResponse._subscriptionArn
+_OBJC_IVAR_$_AWSSNSCreateEndpointResponse._endpointArn
+_OBJC_IVAR_$_AWSSNSCreatePlatformApplicationInput._attributes
+_OBJC_IVAR_$_AWSSNSCreatePlatformApplicationInput._name
+_OBJC_IVAR_$_AWSSNSCreatePlatformApplicationInput._platform
+_OBJC_IVAR_$_AWSSNSCreatePlatformApplicationResponse._platformApplicationArn
+_OBJC_IVAR_$_AWSSNSCreatePlatformEndpointInput._attributes
+_OBJC_IVAR_$_AWSSNSCreatePlatformEndpointInput._customUserData
+_OBJC_IVAR_$_AWSSNSCreatePlatformEndpointInput._platformApplicationArn
+_OBJC_IVAR_$_AWSSNSCreatePlatformEndpointInput._token
+_OBJC_IVAR_$_AWSSNSCreateTopicInput._attributes
+_OBJC_IVAR_$_AWSSNSCreateTopicInput._name
+_OBJC_IVAR_$_AWSSNSCreateTopicResponse._topicArn
+_OBJC_IVAR_$_AWSSNSDeleteEndpointInput._endpointArn
+_OBJC_IVAR_$_AWSSNSDeletePlatformApplicationInput._platformApplicationArn
+_OBJC_IVAR_$_AWSSNSDeleteTopicInput._topicArn
+_OBJC_IVAR_$_AWSSNSEndpoint._attributes
+_OBJC_IVAR_$_AWSSNSEndpoint._endpointArn
+_OBJC_IVAR_$_AWSSNSGetEndpointAttributesInput._endpointArn
+_OBJC_IVAR_$_AWSSNSGetEndpointAttributesResponse._attributes
+_OBJC_IVAR_$_AWSSNSGetPlatformApplicationAttributesInput._platformApplicationArn
+_OBJC_IVAR_$_AWSSNSGetPlatformApplicationAttributesResponse._attributes
+_OBJC_IVAR_$_AWSSNSGetSMSAttributesInput._attributes
+_OBJC_IVAR_$_AWSSNSGetSMSAttributesResponse._attributes
+_OBJC_IVAR_$_AWSSNSGetSubscriptionAttributesInput._subscriptionArn
+_OBJC_IVAR_$_AWSSNSGetSubscriptionAttributesResponse._attributes
+_OBJC_IVAR_$_AWSSNSGetTopicAttributesInput._topicArn
+_OBJC_IVAR_$_AWSSNSGetTopicAttributesResponse._attributes
+_OBJC_IVAR_$_AWSSNSListEndpointsByPlatformApplicationInput._nextToken
+_OBJC_IVAR_$_AWSSNSListEndpointsByPlatformApplicationInput._platformApplicationArn
+_OBJC_IVAR_$_AWSSNSListEndpointsByPlatformApplicationResponse._endpoints
+_OBJC_IVAR_$_AWSSNSListEndpointsByPlatformApplicationResponse._nextToken
+_OBJC_IVAR_$_AWSSNSListPhoneNumbersOptedOutInput._nextToken
+_OBJC_IVAR_$_AWSSNSListPhoneNumbersOptedOutResponse._nextToken
+_OBJC_IVAR_$_AWSSNSListPhoneNumbersOptedOutResponse._phoneNumbers
+_OBJC_IVAR_$_AWSSNSListPlatformApplicationsInput._nextToken
+_OBJC_IVAR_$_AWSSNSListPlatformApplicationsResponse._nextToken
+_OBJC_IVAR_$_AWSSNSListPlatformApplicationsResponse._platformApplications
+_OBJC_IVAR_$_AWSSNSListSubscriptionsByTopicInput._nextToken
+_OBJC_IVAR_$_AWSSNSListSubscriptionsByTopicInput._topicArn
+_OBJC_IVAR_$_AWSSNSListSubscriptionsByTopicResponse._nextToken
+_OBJC_IVAR_$_AWSSNSListSubscriptionsByTopicResponse._subscriptions
+_OBJC_IVAR_$_AWSSNSListSubscriptionsInput._nextToken
+_OBJC_IVAR_$_AWSSNSListSubscriptionsResponse._nextToken
+_OBJC_IVAR_$_AWSSNSListSubscriptionsResponse._subscriptions
+_OBJC_IVAR_$_AWSSNSListTopicsInput._nextToken
+_OBJC_IVAR_$_AWSSNSListTopicsResponse._nextToken
+_OBJC_IVAR_$_AWSSNSListTopicsResponse._topics
+_OBJC_IVAR_$_AWSSNSMessageAttributeValue._binaryValue
+_OBJC_IVAR_$_AWSSNSMessageAttributeValue._dataType
+_OBJC_IVAR_$_AWSSNSMessageAttributeValue._stringValue
+_OBJC_IVAR_$_AWSSNSOptInPhoneNumberInput._phoneNumber
+_OBJC_IVAR_$_AWSSNSPlatformApplication._attributes
+_OBJC_IVAR_$_AWSSNSPlatformApplication._platformApplicationArn
+___block_descriptor_tmp.339
+___block_literal_global.340
+_OBJC_IVAR_$_AWSSNSPublishInput._message
+_OBJC_IVAR_$_AWSSNSPublishInput._messageAttributes
+_OBJC_IVAR_$_AWSSNSPublishInput._messageStructure
+_OBJC_IVAR_$_AWSSNSPublishInput._phoneNumber
+_OBJC_IVAR_$_AWSSNSPublishInput._subject
+_OBJC_IVAR_$_AWSSNSPublishInput._targetArn
+_OBJC_IVAR_$_AWSSNSPublishInput._topicArn
+_OBJC_IVAR_$_AWSSNSPublishResponse._messageId
+_OBJC_IVAR_$_AWSSNSRemovePermissionInput._label
+_OBJC_IVAR_$_AWSSNSRemovePermissionInput._topicArn
+_OBJC_IVAR_$_AWSSNSSetEndpointAttributesInput._attributes
+_OBJC_IVAR_$_AWSSNSSetEndpointAttributesInput._endpointArn
+_OBJC_IVAR_$_AWSSNSSetPlatformApplicationAttributesInput._attributes
+_OBJC_IVAR_$_AWSSNSSetPlatformApplicationAttributesInput._platformApplicationArn
+_OBJC_IVAR_$_AWSSNSSetSMSAttributesInput._attributes
+_OBJC_IVAR_$_AWSSNSSetSubscriptionAttributesInput._attributeName
+_OBJC_IVAR_$_AWSSNSSetSubscriptionAttributesInput._attributeValue
+_OBJC_IVAR_$_AWSSNSSetSubscriptionAttributesInput._subscriptionArn
+_OBJC_IVAR_$_AWSSNSSetTopicAttributesInput._attributeName
+_OBJC_IVAR_$_AWSSNSSetTopicAttributesInput._attributeValue
+_OBJC_IVAR_$_AWSSNSSetTopicAttributesInput._topicArn
+_OBJC_IVAR_$_AWSSNSSubscribeInput._attributes
+_OBJC_IVAR_$_AWSSNSSubscribeInput._endpoint
+_OBJC_IVAR_$_AWSSNSSubscribeInput._protocols
+_OBJC_IVAR_$_AWSSNSSubscribeInput._returnSubscriptionArn
+_OBJC_IVAR_$_AWSSNSSubscribeInput._topicArn
+_OBJC_IVAR_$_AWSSNSSubscribeResponse._subscriptionArn
+_OBJC_IVAR_$_AWSSNSSubscription._endpoint
+_OBJC_IVAR_$_AWSSNSSubscription._owner
+_OBJC_IVAR_$_AWSSNSSubscription._protocols
+_OBJC_IVAR_$_AWSSNSSubscription._subscriptionArn
+_OBJC_IVAR_$_AWSSNSSubscription._topicArn
+_OBJC_IVAR_$_AWSSNSTopic._topicArn
+_OBJC_IVAR_$_AWSSNSUnsubscribeInput._subscriptionArn
+/Users/distiller/project/AWSSNS/AWSSNSModel.m
+/Users/distiller/project/AWSSNS/AWSSNSModel.h
+__54+[AWSSNSPublishInput messageAttributesJSONTransformer]_block_invoke_2
+__54+[AWSSNSPublishInput messageAttributesJSONTransformer]_block_invoke
+/Users/distiller/Library/Developer/Xcode/DerivedData/AWSiOSSDKv2-bvcffhrgbfjnfybjecennhscmaho/Build/Intermediates.noindex/ArchiveIntermediates/AWSSNS/IntermediateBuildFilesPath/AWSiOSSDKv2.build/Release-iphoneos/AWSSNS.build/DerivedSources/AWSSNS_vers.c
+__ZL15__ARCLite__loadv
+__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__ZL23NSAutoreleasePool_class
+__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+l_OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -mlinker-version=409.12 -march=armv7a
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_objc_storeStrong
+__arclite_objc_release
+__arclite_objc_retain
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+__arclite_objc_retainBlock
+__arclite_object_copy
+fixupCopiedReferences
+_class_getInstanceStart
+alignedInstanceStart
+__arclite_class_usesAutomaticRetainRelease
+classOrSuperClassesUseARR
+__arclite_object_setIvar
+isScannedOffset
+_ivar_getClass
+__arclite_object_setInstanceVariable
+add_image_hook_ARC
+patch_t<void (id *, id)>
+patch_t<id (id)>
+patch_t<void (id)>
+patch_t<id (id, unsigned long)>
+patch_t<void (id, objc_ivar *, id)>
+patch_t<objc_ivar *(id, const char *, void *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+__arclite_NSArray_objectAtIndexedSubscript
+patch_lazy_pointers
+__arclite_objc_autoreleasePoolPop
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+patch_t<void (void *)>
+patch_t<void *()>
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_ARC
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
+install_subscripting
+addMethod
+indexedGetter
+install_autoreleasepool

@@ -7,7 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-[Full Changelog](https://github.com/facebook/facebook-objc-sdk/compare/v4.40.0...HEAD)
+[Full Changelog](https://github.com/facebook/facebook-objc-sdk/compare/v4.41.2...HEAD)
 
 ### Added
 
@@ -30,6 +30,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Collections/Dictionaries became non null when at all possible
 - Class creation methods become Swift inits
 
+### Deprecated
+
+- `FBSDKLoginBehaviorSystemAccount`
+- `FBSDKLoginBehaviorWeb`
+- `[FBSDKLoginManager renewSystemCredentials]`
+
 ### Removed
 
 - Deprecated methods
@@ -37,6 +43,35 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Deprecated properties
 - Made `init` and `new` unavailable where necessary
 - Used `NS_SWIFT_UNAVAILABLE` where necessary
+
+### Fixed
+
+- Various bug fixes
+
+## 4.41.2
+
+[2019-03-18](https://github.com/facebook/facebook-objc-sdk/releases/tag/v4.41.2) |
+[Full Changelog](https://github.com/facebook/facebook-objc-sdk/compare/v4.41.1...v4.41.2)
+
+### Fixed
+
+- Resolved issues with the release process
+- Various bug fixes
+
+## 4.41.1
+
+[2019-03-18](https://github.com/facebook/facebook-objc-sdk/releases/tag/v4.41.1) |
+[Full Changelog](https://github.com/facebook/facebook-objc-sdk/compare/v4.41.0...v4.41.1)
+
+### Fixed
+
+- Resolved build failures with Carthage and Cocoapods
+- Various bug fixes
+
+## 4.41.0
+
+[2019-03-13](https://github.com/facebook/facebook-objc-sdk/releases/tag/v4.41.0) |
+[Full Changelog](https://github.com/facebook/facebook-objc-sdk/compare/v4.40.0...v4.41.0)
 
 ### Fixed
 

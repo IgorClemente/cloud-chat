@@ -1,0 +1,835 @@
+BCSymbolMap Version: 2.0
++[FBSDKHashtag hashtagWithString:]
+-[FBSDKHashtag description]
+-[FBSDKHashtag isValid]
+-[FBSDKHashtag hash]
+-[FBSDKHashtag isEqual:]
+-[FBSDKHashtag isEqualToHashtag:]
++[FBSDKHashtag supportsSecureCoding]
+-[FBSDKHashtag initWithCoder:]
+-[FBSDKHashtag encodeWithCoder:]
+-[FBSDKHashtag copyWithZone:]
+-[FBSDKHashtag stringRepresentation]
+-[FBSDKHashtag setStringRepresentation:]
+-[FBSDKHashtag .cxx_destruct]
+___HashtagRegularExpression_block_invoke
+_OBJC_IVAR_$_FBSDKHashtag._stringRepresentation
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_FBSDKCopying
+l_OBJC_LABEL_PROTOCOL_$_FBSDKCopying
+l_OBJC_PROTOCOL_$_NSCoding
+l_OBJC_LABEL_PROTOCOL_$_NSCoding
+l_OBJC_PROTOCOL_$_NSSecureCoding
+l_OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+_HashtagRegularExpression.hashtagRegularExpression
+_HashtagRegularExpression.onceToken
+___block_descriptor_tmp
+___block_literal_global
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKHashtag.m
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit
+__HashtagRegularExpression_block_invoke
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKHashtag.h
+HashtagRegularExpression
+/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.1.sdk/usr/include/dispatch/once.h
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[FBSDKShareLinkContent init]
+-[FBSDKShareLinkContent setPeopleIDs:]
+-[FBSDKShareLinkContent addParameters:bridgeOptions:]
+-[FBSDKShareLinkContent validateWithOptions:error:]
+-[FBSDKShareLinkContent hash]
+-[FBSDKShareLinkContent isEqual:]
+-[FBSDKShareLinkContent isEqualToShareLinkContent:]
++[FBSDKShareLinkContent supportsSecureCoding]
+-[FBSDKShareLinkContent initWithCoder:]
+-[FBSDKShareLinkContent encodeWithCoder:]
+-[FBSDKShareLinkContent copyWithZone:]
+-[FBSDKShareLinkContent contentURL]
+-[FBSDKShareLinkContent setContentURL:]
+-[FBSDKShareLinkContent hashtag]
+-[FBSDKShareLinkContent setHashtag:]
+-[FBSDKShareLinkContent peopleIDs]
+-[FBSDKShareLinkContent placeID]
+-[FBSDKShareLinkContent setPlaceID:]
+-[FBSDKShareLinkContent ref]
+-[FBSDKShareLinkContent setRef:]
+-[FBSDKShareLinkContent pageID]
+-[FBSDKShareLinkContent setPageID:]
+-[FBSDKShareLinkContent quote]
+-[FBSDKShareLinkContent setQuote:]
+-[FBSDKShareLinkContent shareUUID]
+-[FBSDKShareLinkContent .cxx_destruct]
+_OBJC_IVAR_$_FBSDKShareLinkContent._shareUUID
+_OBJC_IVAR_$_FBSDKShareLinkContent._peopleIDs
+_OBJC_IVAR_$_FBSDKShareLinkContent._contentURL
+_OBJC_IVAR_$_FBSDKShareLinkContent._quote
+_OBJC_IVAR_$_FBSDKShareLinkContent._hashtag
+_OBJC_IVAR_$_FBSDKShareLinkContent._placeID
+_OBJC_IVAR_$_FBSDKShareLinkContent._ref
+_OBJC_IVAR_$_FBSDKShareLinkContent._pageID
+l_OBJC_PROTOCOL_$_FBSDKSharingValidation
+l_OBJC_LABEL_PROTOCOL_$_FBSDKSharingValidation
+l_OBJC_PROTOCOL_$_FBSDKSharingContent
+l_OBJC_LABEL_PROTOCOL_$_FBSDKSharingContent
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareLinkContent.m
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKSharingContent.h
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareLinkContent.h
+-[FBSDKDeviceShareViewController initWithShareContent:]
+-[FBSDKDeviceShareViewController loadView]
+-[FBSDKDeviceShareViewController viewDidDisappear:]
+-[FBSDKDeviceShareViewController viewDidLoad]
+-[FBSDKDeviceShareViewController viewDidAppear:]
+___48-[FBSDKDeviceShareViewController viewDidAppear:]_block_invoke
+___48-[FBSDKDeviceShareViewController viewDidAppear:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_.65
+___destroy_helper_block_.66
+-[FBSDKDeviceShareViewController _dismissWithError:]
+___52-[FBSDKDeviceShareViewController _dismissWithError:]_block_invoke
+___copy_helper_block_.71
+___destroy_helper_block_.72
+-[FBSDKDeviceShareViewController _graphRequestParametersForContent:error:]
+-[FBSDKDeviceShareViewController delegate]
+-[FBSDKDeviceShareViewController setDelegate:]
+-[FBSDKDeviceShareViewController shareContent]
+-[FBSDKDeviceShareViewController .cxx_destruct]
+_OBJC_IVAR_$_FBSDKDeviceShareViewController._shareContent
+___block_descriptor_tmp.68
+___block_descriptor_tmp.73
+_OBJC_IVAR_$_FBSDKDeviceShareViewController._delegate
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKDeviceShareViewController.m
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKDeviceShareViewController.h
+__destroy_helper_block_
+__copy_helper_block_
+__52-[FBSDKDeviceShareViewController _dismissWithError:]_block_invoke
+__48-[FBSDKDeviceShareViewController viewDidAppear:]_block_invoke_2
+__48-[FBSDKDeviceShareViewController viewDidAppear:]_block_invoke
++[FBSDKShareMessengerURLActionButton supportsSecureCoding]
+-[FBSDKShareMessengerURLActionButton initWithCoder:]
+-[FBSDKShareMessengerURLActionButton encodeWithCoder:]
+-[FBSDKShareMessengerURLActionButton copyWithZone:]
+-[FBSDKShareMessengerURLActionButton title]
+-[FBSDKShareMessengerURLActionButton setTitle:]
+-[FBSDKShareMessengerURLActionButton url]
+-[FBSDKShareMessengerURLActionButton setUrl:]
+-[FBSDKShareMessengerURLActionButton webviewHeightRatio]
+-[FBSDKShareMessengerURLActionButton setWebviewHeightRatio:]
+-[FBSDKShareMessengerURLActionButton isMessengerExtensionURL]
+-[FBSDKShareMessengerURLActionButton setIsMessengerExtensionURL:]
+-[FBSDKShareMessengerURLActionButton fallbackURL]
+-[FBSDKShareMessengerURLActionButton setFallbackURL:]
+-[FBSDKShareMessengerURLActionButton shouldHideWebviewShareButton]
+-[FBSDKShareMessengerURLActionButton setShouldHideWebviewShareButton:]
+-[FBSDKShareMessengerURLActionButton .cxx_destruct]
+_OBJC_IVAR_$_FBSDKShareMessengerURLActionButton._title
+_OBJC_IVAR_$_FBSDKShareMessengerURLActionButton._url
+_OBJC_IVAR_$_FBSDKShareMessengerURLActionButton._webviewHeightRatio
+_OBJC_IVAR_$_FBSDKShareMessengerURLActionButton._isMessengerExtensionURL
+_OBJC_IVAR_$_FBSDKShareMessengerURLActionButton._fallbackURL
+_OBJC_IVAR_$_FBSDKShareMessengerURLActionButton._shouldHideWebviewShareButton
+l_OBJC_PROTOCOL_$_FBSDKShareMessengerActionButton
+l_OBJC_LABEL_PROTOCOL_$_FBSDKShareMessengerActionButton
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerURLActionButton.m
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerURLActionButton.h
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerActionButton.h
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareConstants.m
+-[FBSDKSharePhotoContent init]
+-[FBSDKSharePhotoContent setPeopleIDs:]
+-[FBSDKSharePhotoContent setPhotos:]
+-[FBSDKSharePhotoContent addParameters:bridgeOptions:]
+___54-[FBSDKSharePhotoContent addParameters:bridgeOptions:]_block_invoke
+-[FBSDKSharePhotoContent validateWithOptions:error:]
+-[FBSDKSharePhotoContent hash]
+-[FBSDKSharePhotoContent isEqual:]
+-[FBSDKSharePhotoContent isEqualToSharePhotoContent:]
++[FBSDKSharePhotoContent supportsSecureCoding]
+-[FBSDKSharePhotoContent initWithCoder:]
+-[FBSDKSharePhotoContent encodeWithCoder:]
+-[FBSDKSharePhotoContent copyWithZone:]
+-[FBSDKSharePhotoContent contentURL]
+-[FBSDKSharePhotoContent setContentURL:]
+-[FBSDKSharePhotoContent hashtag]
+-[FBSDKSharePhotoContent setHashtag:]
+-[FBSDKSharePhotoContent peopleIDs]
+-[FBSDKSharePhotoContent placeID]
+-[FBSDKSharePhotoContent setPlaceID:]
+-[FBSDKSharePhotoContent ref]
+-[FBSDKSharePhotoContent setRef:]
+-[FBSDKSharePhotoContent pageID]
+-[FBSDKSharePhotoContent setPageID:]
+-[FBSDKSharePhotoContent shareUUID]
+-[FBSDKSharePhotoContent photos]
+-[FBSDKSharePhotoContent .cxx_destruct]
+_OBJC_IVAR_$_FBSDKSharePhotoContent._shareUUID
+_OBJC_IVAR_$_FBSDKSharePhotoContent._peopleIDs
+_OBJC_IVAR_$_FBSDKSharePhotoContent._photos
+_OBJC_IVAR_$_FBSDKSharePhotoContent._contentURL
+_OBJC_IVAR_$_FBSDKSharePhotoContent._hashtag
+_OBJC_IVAR_$_FBSDKSharePhotoContent._placeID
+_OBJC_IVAR_$_FBSDKSharePhotoContent._ref
+_OBJC_IVAR_$_FBSDKSharePhotoContent._pageID
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhotoContent.m
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhotoContent.h
+__54-[FBSDKSharePhotoContent addParameters:bridgeOptions:]_block_invoke
+-[FBSDKVideoUploader initWithVideoName:videoSize:parameters:delegate:]
+-[FBSDKVideoUploader start]
+-[FBSDKVideoUploader _postStartRequest]
+___39-[FBSDKVideoUploader _postStartRequest]_block_invoke
+-[FBSDKVideoUploader _startTransferRequestWithOffsetDictionary:]
+___64-[FBSDKVideoUploader _startTransferRequestWithOffsetDictionary:]_block_invoke
+___64-[FBSDKVideoUploader _startTransferRequestWithOffsetDictionary:]_block_invoke_2
+___64-[FBSDKVideoUploader _startTransferRequestWithOffsetDictionary:]_block_invoke_3
+___copy_helper_block_.86
+___destroy_helper_block_.87
+___copy_helper_block_.89
+___destroy_helper_block_.90
+___copy_helper_block_.93
+___destroy_helper_block_.94
+-[FBSDKVideoUploader _postFinishRequest]
+___40-[FBSDKVideoUploader _postFinishRequest]_block_invoke
+___copy_helper_block_.115
+___destroy_helper_block_.116
+-[FBSDKVideoUploader _extractOffsetsFromResultDictionary:]
+-[FBSDKVideoUploader numberFormatter]
+-[FBSDKVideoUploader _graphPathWithSuffix:]
+-[FBSDKVideoUploader video]
+-[FBSDKVideoUploader parameters]
+-[FBSDKVideoUploader setParameters:]
+-[FBSDKVideoUploader graphNode]
+-[FBSDKVideoUploader setGraphNode:]
+-[FBSDKVideoUploader delegate]
+-[FBSDKVideoUploader setDelegate:]
+-[FBSDKVideoUploader .cxx_destruct]
+_OBJC_IVAR_$_FBSDKVideoUploader._parameters
+_OBJC_IVAR_$_FBSDKVideoUploader._delegate
+_OBJC_IVAR_$_FBSDKVideoUploader._graphNode
+_OBJC_IVAR_$_FBSDKVideoUploader._videoName
+_OBJC_IVAR_$_FBSDKVideoUploader._videoSize
+_OBJC_IVAR_$_FBSDKVideoUploader._graphPath
+_OBJC_IVAR_$_FBSDKVideoUploader._uploadSessionID
+_OBJC_IVAR_$_FBSDKVideoUploader._videoID
+___block_descriptor_tmp.88
+___block_descriptor_tmp.92
+___block_descriptor_tmp.95
+___block_descriptor_tmp.117
+_OBJC_IVAR_$_FBSDKVideoUploader._numberFormatter
+_OBJC_IVAR_$_FBSDKVideoUploader._video
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/Internal/FBSDKVideoUploader.m
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/Internal/FBSDKVideoUploader.h
+__40-[FBSDKVideoUploader _postFinishRequest]_block_invoke
+__64-[FBSDKVideoUploader _startTransferRequestWithOffsetDictionary:]_block_invoke_3
+__64-[FBSDKVideoUploader _startTransferRequestWithOffsetDictionary:]_block_invoke_2
+__64-[FBSDKVideoUploader _startTransferRequestWithOffsetDictionary:]_block_invoke
+__39-[FBSDKVideoUploader _postStartRequest]_block_invoke
++[FBSDKShareVideo videoWithData:]
++[FBSDKShareVideo videoWithData:previewPhoto:]
++[FBSDKShareVideo videoWithVideoAsset:]
++[FBSDKShareVideo videoWithVideoAsset:previewPhoto:]
++[FBSDKShareVideo videoWithVideoURL:]
++[FBSDKShareVideo videoWithVideoURL:previewPhoto:]
+-[FBSDKShareVideo setData:]
+-[FBSDKShareVideo setVideoAsset:]
+-[FBSDKShareVideo setVideoURL:]
+-[FBSDKShareVideo hash]
+-[FBSDKShareVideo isEqual:]
+-[FBSDKShareVideo isEqualToShareVideo:]
+-[FBSDKShareVideo _validateData:withOptions:error:]
+-[FBSDKShareVideo _validateVideoAsset:withOptions:error:]
+-[FBSDKShareVideo _validateVideoURL:withOptions:error:]
+-[FBSDKShareVideo validateWithOptions:error:]
++[FBSDKShareVideo supportsSecureCoding]
+-[FBSDKShareVideo initWithCoder:]
+-[FBSDKShareVideo encodeWithCoder:]
+-[FBSDKShareVideo copyWithZone:]
+-[FBSDKShareVideo data]
+-[FBSDKShareVideo videoAsset]
+-[FBSDKShareVideo videoURL]
+-[FBSDKShareVideo previewPhoto]
+-[FBSDKShareVideo setPreviewPhoto:]
+-[FBSDKShareVideo .cxx_destruct]
+-[PHAsset(FBSDKShareVideo) videoURL]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___36-[PHAsset(FBSDKShareVideo) videoURL]_block_invoke
+_OBJC_IVAR_$_FBSDKShareVideo._data
+_OBJC_IVAR_$_FBSDKShareVideo._videoAsset
+_OBJC_IVAR_$_FBSDKShareVideo._videoURL
+_OBJC_IVAR_$_FBSDKShareVideo._previewPhoto
+l_OBJC_PROTOCOL_$_FBSDKShareMedia
+l_OBJC_LABEL_PROTOCOL_$_FBSDKShareMedia
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideo.m
+__36-[PHAsset(FBSDKShareVideo) videoURL]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideo.h
+-[FBSDKShareMessengerMediaTemplateContent initWithAttachmentID:]
+-[FBSDKShareMessengerMediaTemplateContent initWithMediaURL:]
+-[FBSDKShareMessengerMediaTemplateContent addParameters:bridgeOptions:]
+__MediaTypeString
+-[FBSDKShareMessengerMediaTemplateContent validateWithOptions:error:]
++[FBSDKShareMessengerMediaTemplateContent supportsSecureCoding]
+-[FBSDKShareMessengerMediaTemplateContent initWithCoder:]
+-[FBSDKShareMessengerMediaTemplateContent encodeWithCoder:]
+-[FBSDKShareMessengerMediaTemplateContent copyWithZone:]
+-[FBSDKShareMessengerMediaTemplateContent contentURL]
+-[FBSDKShareMessengerMediaTemplateContent setContentURL:]
+-[FBSDKShareMessengerMediaTemplateContent hashtag]
+-[FBSDKShareMessengerMediaTemplateContent setHashtag:]
+-[FBSDKShareMessengerMediaTemplateContent peopleIDs]
+-[FBSDKShareMessengerMediaTemplateContent setPeopleIDs:]
+-[FBSDKShareMessengerMediaTemplateContent placeID]
+-[FBSDKShareMessengerMediaTemplateContent setPlaceID:]
+-[FBSDKShareMessengerMediaTemplateContent ref]
+-[FBSDKShareMessengerMediaTemplateContent setRef:]
+-[FBSDKShareMessengerMediaTemplateContent pageID]
+-[FBSDKShareMessengerMediaTemplateContent setPageID:]
+-[FBSDKShareMessengerMediaTemplateContent shareUUID]
+-[FBSDKShareMessengerMediaTemplateContent mediaType]
+-[FBSDKShareMessengerMediaTemplateContent setMediaType:]
+-[FBSDKShareMessengerMediaTemplateContent attachmentID]
+-[FBSDKShareMessengerMediaTemplateContent mediaURL]
+-[FBSDKShareMessengerMediaTemplateContent button]
+-[FBSDKShareMessengerMediaTemplateContent setButton:]
+-[FBSDKShareMessengerMediaTemplateContent .cxx_destruct]
+_OBJC_IVAR_$_FBSDKShareMessengerMediaTemplateContent._attachmentID
+_OBJC_IVAR_$_FBSDKShareMessengerMediaTemplateContent._shareUUID
+_OBJC_IVAR_$_FBSDKShareMessengerMediaTemplateContent._mediaURL
+_OBJC_IVAR_$_FBSDKShareMessengerMediaTemplateContent._mediaType
+_OBJC_IVAR_$_FBSDKShareMessengerMediaTemplateContent._button
+_OBJC_IVAR_$_FBSDKShareMessengerMediaTemplateContent._pageID
+_OBJC_IVAR_$_FBSDKShareMessengerMediaTemplateContent._contentURL
+_OBJC_IVAR_$_FBSDKShareMessengerMediaTemplateContent._hashtag
+_OBJC_IVAR_$_FBSDKShareMessengerMediaTemplateContent._peopleIDs
+_OBJC_IVAR_$_FBSDKShareMessengerMediaTemplateContent._placeID
+_OBJC_IVAR_$_FBSDKShareMessengerMediaTemplateContent._ref
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerMediaTemplateContent.m
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerMediaTemplateContent.h
+_MediaTypeString
+_MediaTemplateURLSerializationKey
+_URLHasFacebookDomain
+_SerializableMediaTemplateContentFromContent
+-[FBSDKDeviceShareButton configureButton]
+-[FBSDKDeviceShareButton setShareContent:]
+-[FBSDKDeviceShareButton _buttonPressed:]
+-[FBSDKDeviceShareButton shareContent]
+-[FBSDKDeviceShareButton .cxx_destruct]
+_OBJC_IVAR_$_FBSDKDeviceShareButton._shareContent
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKDeviceShareButton.m
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKDeviceShareButton.h
+-[FBSDKShareMessengerGenericTemplateContent init]
+-[FBSDKShareMessengerGenericTemplateContent addParameters:bridgeOptions:]
+-[FBSDKShareMessengerGenericTemplateContent validateWithOptions:error:]
++[FBSDKShareMessengerGenericTemplateContent supportsSecureCoding]
+-[FBSDKShareMessengerGenericTemplateContent initWithCoder:]
+-[FBSDKShareMessengerGenericTemplateContent encodeWithCoder:]
+-[FBSDKShareMessengerGenericTemplateContent copyWithZone:]
+-[FBSDKShareMessengerGenericTemplateContent contentURL]
+-[FBSDKShareMessengerGenericTemplateContent setContentURL:]
+-[FBSDKShareMessengerGenericTemplateContent hashtag]
+-[FBSDKShareMessengerGenericTemplateContent setHashtag:]
+-[FBSDKShareMessengerGenericTemplateContent peopleIDs]
+-[FBSDKShareMessengerGenericTemplateContent setPeopleIDs:]
+-[FBSDKShareMessengerGenericTemplateContent placeID]
+-[FBSDKShareMessengerGenericTemplateContent setPlaceID:]
+-[FBSDKShareMessengerGenericTemplateContent ref]
+-[FBSDKShareMessengerGenericTemplateContent setRef:]
+-[FBSDKShareMessengerGenericTemplateContent pageID]
+-[FBSDKShareMessengerGenericTemplateContent setPageID:]
+-[FBSDKShareMessengerGenericTemplateContent shareUUID]
+-[FBSDKShareMessengerGenericTemplateContent isSharable]
+-[FBSDKShareMessengerGenericTemplateContent setIsSharable:]
+-[FBSDKShareMessengerGenericTemplateContent imageAspectRatio]
+-[FBSDKShareMessengerGenericTemplateContent setImageAspectRatio:]
+-[FBSDKShareMessengerGenericTemplateContent element]
+-[FBSDKShareMessengerGenericTemplateContent setElement:]
+-[FBSDKShareMessengerGenericTemplateContent .cxx_destruct]
+_OBJC_IVAR_$_FBSDKShareMessengerGenericTemplateContent._shareUUID
+_OBJC_IVAR_$_FBSDKShareMessengerGenericTemplateContent._isSharable
+_OBJC_IVAR_$_FBSDKShareMessengerGenericTemplateContent._imageAspectRatio
+_OBJC_IVAR_$_FBSDKShareMessengerGenericTemplateContent._element
+_OBJC_IVAR_$_FBSDKShareMessengerGenericTemplateContent._pageID
+_OBJC_IVAR_$_FBSDKShareMessengerGenericTemplateContent._contentURL
+_OBJC_IVAR_$_FBSDKShareMessengerGenericTemplateContent._hashtag
+_OBJC_IVAR_$_FBSDKShareMessengerGenericTemplateContent._peopleIDs
+_OBJC_IVAR_$_FBSDKShareMessengerGenericTemplateContent._placeID
+_OBJC_IVAR_$_FBSDKShareMessengerGenericTemplateContent._ref
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerGenericTemplateContent.m
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerGenericTemplateContent.h
+_SerializableGenericTemplateElementsFromElements
+_ImageAspectRatioString
+-[FBSDKShareOpenGraphValueContainer init]
+-[FBSDKShareOpenGraphValueContainer allData]
+-[FBSDKShareOpenGraphValueContainer arrayForKey:]
+-[FBSDKShareOpenGraphValueContainer enumerateKeysAndObjectsUsingBlock:]
+-[FBSDKShareOpenGraphValueContainer keyEnumerator]
+-[FBSDKShareOpenGraphValueContainer numberForKey:]
+-[FBSDKShareOpenGraphValueContainer objectEnumerator]
+-[FBSDKShareOpenGraphValueContainer objectForKey:]
+-[FBSDKShareOpenGraphValueContainer objectForKeyedSubscript:]
+-[FBSDKShareOpenGraphValueContainer parseProperties:]
+-[FBSDKShareOpenGraphValueContainer photoForKey:]
+-[FBSDKShareOpenGraphValueContainer removeObjectForKey:]
+-[FBSDKShareOpenGraphValueContainer setArray:forKey:]
+-[FBSDKShareOpenGraphValueContainer setNumber:forKey:]
+-[FBSDKShareOpenGraphValueContainer setObject:forKey:]
+-[FBSDKShareOpenGraphValueContainer setPhoto:forKey:]
+-[FBSDKShareOpenGraphValueContainer setString:forKey:]
+-[FBSDKShareOpenGraphValueContainer setURL:forKey:]
+-[FBSDKShareOpenGraphValueContainer stringForKey:]
+-[FBSDKShareOpenGraphValueContainer URLForKey:]
+-[FBSDKShareOpenGraphValueContainer valueForKey:]
+-[FBSDKShareOpenGraphValueContainer allProperties]
+-[FBSDKShareOpenGraphValueContainer requireKeyNamespace]
+-[FBSDKShareOpenGraphValueContainer hash]
+-[FBSDKShareOpenGraphValueContainer isEqual:]
+-[FBSDKShareOpenGraphValueContainer isEqualToShareOpenGraphValueContainer:]
++[FBSDKShareOpenGraphValueContainer supportsSecureCoding]
+-[FBSDKShareOpenGraphValueContainer initWithCoder:]
+-[FBSDKShareOpenGraphValueContainer encodeWithCoder:]
+-[FBSDKShareOpenGraphValueContainer _setValue:forKey:]
+-[FBSDKShareOpenGraphValueContainer _valueForKey:]
+-[FBSDKShareOpenGraphValueContainer _valueOfClass:forKey:]
+-[FBSDKShareOpenGraphValueContainer .cxx_destruct]
+_OBJC_IVAR_$_FBSDKShareOpenGraphValueContainer._properties
+l_OBJC_PROTOCOL_$_FBSDKShareOpenGraphValueContaining
+l_OBJC_LABEL_PROTOCOL_$_FBSDKShareOpenGraphValueContaining
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphValueContainer.m
+-[FBSDKShareVideoContent init]
+-[FBSDKShareVideoContent setPeopleIDs:]
+-[FBSDKShareVideoContent addParameters:bridgeOptions:]
+-[FBSDKShareVideoContent validateWithOptions:error:]
+-[FBSDKShareVideoContent hash]
+-[FBSDKShareVideoContent isEqual:]
+-[FBSDKShareVideoContent isEqualToShareVideoContent:]
++[FBSDKShareVideoContent supportsSecureCoding]
+-[FBSDKShareVideoContent initWithCoder:]
+-[FBSDKShareVideoContent encodeWithCoder:]
+-[FBSDKShareVideoContent copyWithZone:]
+-[FBSDKShareVideoContent contentURL]
+-[FBSDKShareVideoContent setContentURL:]
+-[FBSDKShareVideoContent hashtag]
+-[FBSDKShareVideoContent setHashtag:]
+-[FBSDKShareVideoContent peopleIDs]
+-[FBSDKShareVideoContent placeID]
+-[FBSDKShareVideoContent setPlaceID:]
+-[FBSDKShareVideoContent ref]
+-[FBSDKShareVideoContent setRef:]
+-[FBSDKShareVideoContent pageID]
+-[FBSDKShareVideoContent setPageID:]
+-[FBSDKShareVideoContent shareUUID]
+-[FBSDKShareVideoContent video]
+-[FBSDKShareVideoContent setVideo:]
+-[FBSDKShareVideoContent .cxx_destruct]
+_OBJC_IVAR_$_FBSDKShareVideoContent._shareUUID
+_OBJC_IVAR_$_FBSDKShareVideoContent._peopleIDs
+_OBJC_IVAR_$_FBSDKShareVideoContent._video
+_OBJC_IVAR_$_FBSDKShareVideoContent._contentURL
+_OBJC_IVAR_$_FBSDKShareVideoContent._hashtag
+_OBJC_IVAR_$_FBSDKShareVideoContent._placeID
+_OBJC_IVAR_$_FBSDKShareVideoContent._ref
+_OBJC_IVAR_$_FBSDKShareVideoContent._pageID
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideoContent.m
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideoContent.h
++[FBSDKShareOpenGraphObject objectWithProperties:]
+-[FBSDKShareOpenGraphObject isEqual:]
+-[FBSDKShareOpenGraphObject isEqualToShareOpenGraphObject:]
+-[FBSDKShareOpenGraphObject copyWithZone:]
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphObject.m
+-[FBSDKShareOpenGraphContent init]
+-[FBSDKShareOpenGraphContent setPeopleIDs:]
+-[FBSDKShareOpenGraphContent addParameters:bridgeOptions:]
+-[FBSDKShareOpenGraphContent validateWithOptions:error:]
+-[FBSDKShareOpenGraphContent hash]
+-[FBSDKShareOpenGraphContent isEqual:]
+-[FBSDKShareOpenGraphContent isEqualToShareOpenGraphContent:]
++[FBSDKShareOpenGraphContent supportsSecureCoding]
+-[FBSDKShareOpenGraphContent initWithCoder:]
+-[FBSDKShareOpenGraphContent encodeWithCoder:]
+-[FBSDKShareOpenGraphContent copyWithZone:]
+-[FBSDKShareOpenGraphContent contentURL]
+-[FBSDKShareOpenGraphContent setContentURL:]
+-[FBSDKShareOpenGraphContent hashtag]
+-[FBSDKShareOpenGraphContent setHashtag:]
+-[FBSDKShareOpenGraphContent peopleIDs]
+-[FBSDKShareOpenGraphContent placeID]
+-[FBSDKShareOpenGraphContent setPlaceID:]
+-[FBSDKShareOpenGraphContent ref]
+-[FBSDKShareOpenGraphContent setRef:]
+-[FBSDKShareOpenGraphContent pageID]
+-[FBSDKShareOpenGraphContent setPageID:]
+-[FBSDKShareOpenGraphContent shareUUID]
+-[FBSDKShareOpenGraphContent action]
+-[FBSDKShareOpenGraphContent setAction:]
+-[FBSDKShareOpenGraphContent previewPropertyName]
+-[FBSDKShareOpenGraphContent setPreviewPropertyName:]
+-[FBSDKShareOpenGraphContent .cxx_destruct]
+_OBJC_IVAR_$_FBSDKShareOpenGraphContent._shareUUID
+_OBJC_IVAR_$_FBSDKShareOpenGraphContent._peopleIDs
+_OBJC_IVAR_$_FBSDKShareOpenGraphContent._previewPropertyName
+_OBJC_IVAR_$_FBSDKShareOpenGraphContent._action
+_OBJC_IVAR_$_FBSDKShareOpenGraphContent._contentURL
+_OBJC_IVAR_$_FBSDKShareOpenGraphContent._hashtag
+_OBJC_IVAR_$_FBSDKShareOpenGraphContent._placeID
+_OBJC_IVAR_$_FBSDKShareOpenGraphContent._ref
+_OBJC_IVAR_$_FBSDKShareOpenGraphContent._pageID
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphContent.m
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphContent.h
+-[FBSDKShareMediaContent init]
+-[FBSDKShareMediaContent setPeopleIDs:]
+-[FBSDKShareMediaContent setMedia:]
+-[FBSDKShareMediaContent addParameters:bridgeOptions:]
+-[FBSDKShareMediaContent validateWithOptions:error:]
+-[FBSDKShareMediaContent hash]
+-[FBSDKShareMediaContent isEqual:]
+-[FBSDKShareMediaContent isEqualToShareMediaContent:]
++[FBSDKShareMediaContent supportsSecureCoding]
+-[FBSDKShareMediaContent initWithCoder:]
+-[FBSDKShareMediaContent encodeWithCoder:]
+-[FBSDKShareMediaContent copyWithZone:]
+-[FBSDKShareMediaContent contentURL]
+-[FBSDKShareMediaContent setContentURL:]
+-[FBSDKShareMediaContent hashtag]
+-[FBSDKShareMediaContent setHashtag:]
+-[FBSDKShareMediaContent peopleIDs]
+-[FBSDKShareMediaContent placeID]
+-[FBSDKShareMediaContent setPlaceID:]
+-[FBSDKShareMediaContent ref]
+-[FBSDKShareMediaContent setRef:]
+-[FBSDKShareMediaContent pageID]
+-[FBSDKShareMediaContent setPageID:]
+-[FBSDKShareMediaContent shareUUID]
+-[FBSDKShareMediaContent media]
+-[FBSDKShareMediaContent .cxx_destruct]
+_OBJC_IVAR_$_FBSDKShareMediaContent._shareUUID
+_OBJC_IVAR_$_FBSDKShareMediaContent._peopleIDs
+_OBJC_IVAR_$_FBSDKShareMediaContent._media
+_OBJC_IVAR_$_FBSDKShareMediaContent._contentURL
+_OBJC_IVAR_$_FBSDKShareMediaContent._hashtag
+_OBJC_IVAR_$_FBSDKShareMediaContent._placeID
+_OBJC_IVAR_$_FBSDKShareMediaContent._ref
+_OBJC_IVAR_$_FBSDKShareMediaContent._pageID
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareMediaContent.m
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareMediaContent.h
++[FBSDKShareOpenGraphAction actionWithType:object:key:]
++[FBSDKShareOpenGraphAction actionWithType:objectID:key:]
++[FBSDKShareOpenGraphAction actionWithType:objectURL:key:]
+-[FBSDKShareOpenGraphAction hash]
+-[FBSDKShareOpenGraphAction isEqual:]
+-[FBSDKShareOpenGraphAction isEqualToShareOpenGraphAction:]
++[FBSDKShareOpenGraphAction supportsSecureCoding]
+-[FBSDKShareOpenGraphAction initWithActionType:]
+-[FBSDKShareOpenGraphAction initWithCoder:]
+-[FBSDKShareOpenGraphAction encodeWithCoder:]
+-[FBSDKShareOpenGraphAction copyWithZone:]
+-[FBSDKShareOpenGraphAction requireKeyNamespace]
+-[FBSDKShareOpenGraphAction actionType]
+-[FBSDKShareOpenGraphAction setActionType:]
+-[FBSDKShareOpenGraphAction .cxx_destruct]
+_OBJC_IVAR_$_FBSDKShareOpenGraphAction._actionType
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphAction.m
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphAction.h
++[FBSDKShareAPI apiWithContent:delegate:]
++[FBSDKShareAPI shareWithContent:delegate:]
++[FBSDKShareAPI initialize]
+-[FBSDKShareAPI init]
+-[FBSDKShareAPI canShare]
+-[FBSDKShareAPI createOpenGraphObject:]
+___39-[FBSDKShareAPI createOpenGraphObject:]_block_invoke
+-[FBSDKShareAPI share]
+-[FBSDKShareAPI validateWithError:]
+-[FBSDKShareAPI accessToken]
+-[FBSDKShareAPI _graphPathWithSuffix:]
+-[FBSDKShareAPI _addCommonParameters:content:]
+-[FBSDKShareAPI _hasPublishActions]
+-[FBSDKShareAPI _shareLinkContent:]
+___35-[FBSDKShareAPI _shareLinkContent:]_block_invoke
+___copy_helper_block_.153
+___destroy_helper_block_.154
+-[FBSDKShareAPI _shareOpenGraphContent:]
+___40-[FBSDKShareAPI _shareOpenGraphContent:]_block_invoke
+___40-[FBSDKShareAPI _shareOpenGraphContent:]_block_invoke_2
+___copy_helper_block_.188
+___destroy_helper_block_.189
+___copy_helper_block_.198
+___destroy_helper_block_.199
+-[FBSDKShareAPI _sharePhotoContent:]
+___36-[FBSDKShareAPI _sharePhotoContent:]_block_invoke
+___copy_helper_block_.234
+___destroy_helper_block_.235
+-[FBSDKShareAPI _shareVideoContent:]
+-[FBSDKShareAPI _addEncodedParametersToDictionary:key:value:error:]
+___67-[FBSDKShareAPI _addEncodedParametersToDictionary:key:value:error:]_block_invoke
+___copy_helper_block_.272
+___destroy_helper_block_.273
+___67-[FBSDKShareAPI _addEncodedParametersToDictionary:key:value:error:]_block_invoke.278
+___copy_helper_block_.281
+___destroy_helper_block_.282
+-[FBSDKShareAPI _stageArray:connection:stagingHandler:]
+___55-[FBSDKShareAPI _stageArray:connection:stagingHandler:]_block_invoke
+___copy_helper_block_.289
+___destroy_helper_block_.290
+___55-[FBSDKShareAPI _stageArray:connection:stagingHandler:]_block_invoke.293
+___copy_helper_block_.294
+___destroy_helper_block_.295
+___55-[FBSDKShareAPI _stageArray:connection:stagingHandler:]_block_invoke.297
+___55-[FBSDKShareAPI _stageArray:connection:stagingHandler:]_block_invoke_2
+___copy_helper_block_.304
+___destroy_helper_block_.305
+___copy_helper_block_.310
+___destroy_helper_block_.311
+-[FBSDKShareAPI _stageOpenGraphObject:connection:stagingHandler:completionHandler:]
+___83-[FBSDKShareAPI _stageOpenGraphObject:connection:stagingHandler:completionHandler:]_block_invoke
+___83-[FBSDKShareAPI _stageOpenGraphObject:connection:stagingHandler:completionHandler:]_block_invoke_2
+___copy_helper_block_.327
+___destroy_helper_block_.328
+___copy_helper_block_.332
+___destroy_helper_block_.333
+-[FBSDKShareAPI _stageOpenGraphValueContainer:connection:stagingHandler:]
+___73-[FBSDKShareAPI _stageOpenGraphValueContainer:connection:stagingHandler:]_block_invoke
+___copy_helper_block_.335
+___destroy_helper_block_.336
+___73-[FBSDKShareAPI _stageOpenGraphValueContainer:connection:stagingHandler:]_block_invoke.338
+___copy_helper_block_.339
+___destroy_helper_block_.340
+___73-[FBSDKShareAPI _stageOpenGraphValueContainer:connection:stagingHandler:]_block_invoke.343
+___73-[FBSDKShareAPI _stageOpenGraphValueContainer:connection:stagingHandler:]_block_invoke_2
+___copy_helper_block_.346
+___destroy_helper_block_.347
+___copy_helper_block_.349
+___destroy_helper_block_.350
+-[FBSDKShareAPI _stagePhoto:connection:stagingHandler:]
+___55-[FBSDKShareAPI _stagePhoto:connection:stagingHandler:]_block_invoke
+___copy_helper_block_.373
+___destroy_helper_block_.374
+-[FBSDKShareAPI _stageValue:connection:stagingHandler:]
+-[FBSDKShareAPI _connection:addRequest:completionHandler:]
+-[FBSDKShareAPI _addToPendingShareAPI]
+-[FBSDKShareAPI _removeFromPendingShareAPI]
+-[FBSDKShareAPI videoChunkDataForVideoUploader:startOffset:endOffset:]
+-[FBSDKShareAPI videoUploader:didCompleteWithResults:]
+-[FBSDKShareAPI videoUploader:didFailWithError:]
+-[FBSDKShareAPI delegate]
+-[FBSDKShareAPI setDelegate:]
+-[FBSDKShareAPI shareContent]
+-[FBSDKShareAPI setShareContent:]
+-[FBSDKShareAPI shouldFailOnDataError]
+-[FBSDKShareAPI setShouldFailOnDataError:]
+-[FBSDKShareAPI setAccessToken:]
+-[FBSDKShareAPI message]
+-[FBSDKShareAPI setMessage:]
+-[FBSDKShareAPI graphNode]
+-[FBSDKShareAPI setGraphNode:]
+-[FBSDKShareAPI .cxx_destruct]
+_g_pendingFBSDKShareAPI
+_OBJC_IVAR_$_FBSDKShareAPI._graphNode
+_OBJC_IVAR_$_FBSDKShareAPI._delegate
+_OBJC_IVAR_$_FBSDKShareAPI._accessToken
+___block_descriptor_tmp.156
+___block_descriptor_tmp.190
+___block_descriptor_tmp.200
+___block_descriptor_tmp.236
+_OBJC_IVAR_$_FBSDKShareAPI._fileHandle
+___block_descriptor_tmp.275
+___block_descriptor_tmp.284
+___block_descriptor_tmp.292
+___block_descriptor_tmp.296
+___block_descriptor_tmp.307
+___block_descriptor_tmp.312
+___block_descriptor_tmp.329
+___block_descriptor_tmp.334
+___block_descriptor_tmp.337
+___block_descriptor_tmp.341
+___block_descriptor_tmp.348
+___block_descriptor_tmp.352
+___block_descriptor_tmp.375
+_OBJC_IVAR_$_FBSDKShareAPI._shareContent
+_OBJC_IVAR_$_FBSDKShareAPI._shouldFailOnDataError
+_OBJC_IVAR_$_FBSDKShareAPI._message
+l_OBJC_PROTOCOL_$_FBSDKVideoUploaderDelegate
+l_OBJC_LABEL_PROTOCOL_$_FBSDKVideoUploaderDelegate
+l_OBJC_PROTOCOL_$_FBSDKSharing
+l_OBJC_LABEL_PROTOCOL_$_FBSDKSharing
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareAPI.m
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareAPI.h
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKSharing.h
+__55-[FBSDKShareAPI _stagePhoto:connection:stagingHandler:]_block_invoke
+__73-[FBSDKShareAPI _stageOpenGraphValueContainer:connection:stagingHandler:]_block_invoke_2
+__73-[FBSDKShareAPI _stageOpenGraphValueContainer:connection:stagingHandler:]_block_invoke.343
+__73-[FBSDKShareAPI _stageOpenGraphValueContainer:connection:stagingHandler:]_block_invoke.338
+__73-[FBSDKShareAPI _stageOpenGraphValueContainer:connection:stagingHandler:]_block_invoke
+__83-[FBSDKShareAPI _stageOpenGraphObject:connection:stagingHandler:completionHandler:]_block_invoke_2
+__83-[FBSDKShareAPI _stageOpenGraphObject:connection:stagingHandler:completionHandler:]_block_invoke
+__55-[FBSDKShareAPI _stageArray:connection:stagingHandler:]_block_invoke_2
+__55-[FBSDKShareAPI _stageArray:connection:stagingHandler:]_block_invoke.297
+__55-[FBSDKShareAPI _stageArray:connection:stagingHandler:]_block_invoke.293
+__55-[FBSDKShareAPI _stageArray:connection:stagingHandler:]_block_invoke
+__67-[FBSDKShareAPI _addEncodedParametersToDictionary:key:value:error:]_block_invoke.278
+__67-[FBSDKShareAPI _addEncodedParametersToDictionary:key:value:error:]_block_invoke
+__36-[FBSDKShareAPI _sharePhotoContent:]_block_invoke
+__40-[FBSDKShareAPI _shareOpenGraphContent:]_block_invoke_2
+__40-[FBSDKShareAPI _shareOpenGraphContent:]_block_invoke
+__35-[FBSDKShareAPI _shareLinkContent:]_block_invoke
+__39-[FBSDKShareAPI createOpenGraphObject:]_block_invoke
++[FBSDKShareMessengerContentUtility addToParameters:contentForShare:contentForPreview:]
++[FBSDKShareMessengerContentUtility validateMessengerActionButton:isDefaultActionButton:pageID:error:]
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/Internal/FBSDKShareMessengerContentUtility.m
+SerializableButtonsFromButton
+SerializableButtonFromURLButton
+_WebviewShareButtonString
+_WebviewHeightRatioString
+AddToContentPreviewDictionaryForButton
+_AddToContentPreviewDictionaryForURLButton
++[FBSDKShareMessengerGenericTemplateElement supportsSecureCoding]
+-[FBSDKShareMessengerGenericTemplateElement initWithCoder:]
+-[FBSDKShareMessengerGenericTemplateElement encodeWithCoder:]
+-[FBSDKShareMessengerGenericTemplateElement copyWithZone:]
+-[FBSDKShareMessengerGenericTemplateElement title]
+-[FBSDKShareMessengerGenericTemplateElement setTitle:]
+-[FBSDKShareMessengerGenericTemplateElement subtitle]
+-[FBSDKShareMessengerGenericTemplateElement setSubtitle:]
+-[FBSDKShareMessengerGenericTemplateElement imageURL]
+-[FBSDKShareMessengerGenericTemplateElement setImageURL:]
+-[FBSDKShareMessengerGenericTemplateElement defaultAction]
+-[FBSDKShareMessengerGenericTemplateElement setDefaultAction:]
+-[FBSDKShareMessengerGenericTemplateElement button]
+-[FBSDKShareMessengerGenericTemplateElement setButton:]
+-[FBSDKShareMessengerGenericTemplateElement .cxx_destruct]
+_OBJC_IVAR_$_FBSDKShareMessengerGenericTemplateElement._title
+_OBJC_IVAR_$_FBSDKShareMessengerGenericTemplateElement._subtitle
+_OBJC_IVAR_$_FBSDKShareMessengerGenericTemplateElement._imageURL
+_OBJC_IVAR_$_FBSDKShareMessengerGenericTemplateElement._defaultAction
+_OBJC_IVAR_$_FBSDKShareMessengerGenericTemplateElement._button
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerGenericTemplateElement.m
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerGenericTemplateElement.h
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent init]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent addParameters:bridgeOptions:]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent validateWithOptions:error:]
++[FBSDKShareMessengerOpenGraphMusicTemplateContent supportsSecureCoding]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent initWithCoder:]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent encodeWithCoder:]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent copyWithZone:]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent contentURL]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent setContentURL:]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent hashtag]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent setHashtag:]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent peopleIDs]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent setPeopleIDs:]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent placeID]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent setPlaceID:]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent ref]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent setRef:]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent pageID]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent setPageID:]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent shareUUID]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent url]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent setUrl:]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent button]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent setButton:]
+-[FBSDKShareMessengerOpenGraphMusicTemplateContent .cxx_destruct]
+_OBJC_IVAR_$_FBSDKShareMessengerOpenGraphMusicTemplateContent._shareUUID
+_OBJC_IVAR_$_FBSDKShareMessengerOpenGraphMusicTemplateContent._url
+_OBJC_IVAR_$_FBSDKShareMessengerOpenGraphMusicTemplateContent._button
+_OBJC_IVAR_$_FBSDKShareMessengerOpenGraphMusicTemplateContent._pageID
+_OBJC_IVAR_$_FBSDKShareMessengerOpenGraphMusicTemplateContent._contentURL
+_OBJC_IVAR_$_FBSDKShareMessengerOpenGraphMusicTemplateContent._hashtag
+_OBJC_IVAR_$_FBSDKShareMessengerOpenGraphMusicTemplateContent._peopleIDs
+_OBJC_IVAR_$_FBSDKShareMessengerOpenGraphMusicTemplateContent._placeID
+_OBJC_IVAR_$_FBSDKShareMessengerOpenGraphMusicTemplateContent._ref
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerOpenGraphMusicTemplateContent.m
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerOpenGraphMusicTemplateContent.h
+_SerializableOpenGraphMusicTemplateContentFromContent
++[FBSDKSharePhoto photoWithImage:userGenerated:]
++[FBSDKSharePhoto photoWithImageURL:userGenerated:]
++[FBSDKSharePhoto photoWithPhotoAsset:userGenerated:]
+-[FBSDKSharePhoto setImage:]
+-[FBSDKSharePhoto setImageURL:]
+-[FBSDKSharePhoto setPhotoAsset:]
+-[FBSDKSharePhoto hash]
+-[FBSDKSharePhoto isEqual:]
+-[FBSDKSharePhoto isEqualToSharePhoto:]
+-[FBSDKSharePhoto validateWithOptions:error:]
++[FBSDKSharePhoto supportsSecureCoding]
+-[FBSDKSharePhoto initWithCoder:]
+-[FBSDKSharePhoto encodeWithCoder:]
+-[FBSDKSharePhoto copyWithZone:]
+-[FBSDKSharePhoto image]
+-[FBSDKSharePhoto imageURL]
+-[FBSDKSharePhoto photoAsset]
+-[FBSDKSharePhoto isUserGenerated]
+-[FBSDKSharePhoto setUserGenerated:]
+-[FBSDKSharePhoto caption]
+-[FBSDKSharePhoto setCaption:]
+-[FBSDKSharePhoto .cxx_destruct]
+_OBJC_IVAR_$_FBSDKSharePhoto._image
+_OBJC_IVAR_$_FBSDKSharePhoto._imageURL
+_OBJC_IVAR_$_FBSDKSharePhoto._photoAsset
+_OBJC_IVAR_$_FBSDKSharePhoto._caption
+_OBJC_IVAR_$_FBSDKSharePhoto._userGenerated
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhoto.m
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhoto.h
++[FBSDKShareUtility assertCollection:ofClassStrings:name:]
++[FBSDKShareUtility assertCollection:ofClass:name:]
++[FBSDKShareUtility assertOpenGraphKey:requireNamespace:]
++[FBSDKShareUtility assertOpenGraphValue:]
++[FBSDKShareUtility assertOpenGraphValues:requireKeyNamespace:]
+___63+[FBSDKShareUtility assertOpenGraphValues:requireKeyNamespace:]_block_invoke
++[FBSDKShareUtility buildWebShareContent:methodName:parameters:error:]
++[FBSDKShareUtility buildWebShareTags:]
++[FBSDKShareUtility buildAsyncWebPhotoContent:completionHandler:]
+___65+[FBSDKShareUtility buildAsyncWebPhotoContent:completionHandler:]_block_invoke
+___copy_helper_block_.111
+___destroy_helper_block_.112
++[FBSDKShareUtility convertOpenGraphValue:]
++[FBSDKShareUtility convertOpenGraphValues:]
+___44+[FBSDKShareUtility convertOpenGraphValues:]_block_invoke
+___copy_helper_block_.149
+___destroy_helper_block_.150
++[FBSDKShareUtility feedShareDictionaryForContent:]
++[FBSDKShareUtility hashtagStringFromHashtag:]
++[FBSDKShareUtility imageWithCircleColor:canvasSize:circleSize:]
++[FBSDKShareUtility parametersForShareContent:bridgeOptions:shouldFailOnDataError:]
++[FBSDKShareUtility testShareContent:containsMedia:containsPhotos:containsVideos:]
++[FBSDKShareUtility validateAssetLibraryURLsWithShareMediaContent:name:error:]
++[FBSDKShareUtility validateShareContent:bridgeOptions:error:]
++[FBSDKShareUtility shareMediaContentContainsPhotosAndVideos:]
++[FBSDKShareUtility _convertObject:]
++[FBSDKShareUtility convertOpenGraphValueContainer:requireNamespace:]
+___69+[FBSDKShareUtility convertOpenGraphValueContainer:requireNamespace:]_block_invoke
+___copy_helper_block_.240
+___destroy_helper_block_.241
++[FBSDKShareUtility getOpenGraphNameAndNamespaceFromFullName:namespace:]
++[FBSDKShareUtility convertPhoto:]
++[FBSDKShareUtility _isOpenGraphValue:]
++[FBSDKShareUtility _stageImagesForPhotoContent:withCompletionHandler:]
+___71+[FBSDKShareUtility _stageImagesForPhotoContent:withCompletionHandler:]_block_invoke
+___copy_helper_block_.282
+___destroy_helper_block_.283
+___71+[FBSDKShareUtility _stageImagesForPhotoContent:withCompletionHandler:]_block_invoke.288
++[FBSDKShareUtility _testObject:containsMedia:containsPhotos:containsVideos:]
++[FBSDKShareUtility _testOpenGraphValueContainer:containsMedia:containsPhotos:containsVideos:]
+___94+[FBSDKShareUtility _testOpenGraphValueContainer:containsMedia:containsPhotos:containsVideos:]_block_invoke
+___copy_helper_block_.293
+___destroy_helper_block_.294
++[FBSDKShareUtility validateArray:minCount:maxCount:name:error:]
++[FBSDKShareUtility _validateFileURL:name:error:]
++[FBSDKShareUtility validateNetworkURL:name:error:]
++[FBSDKShareUtility validateRequiredValue:name:error:]
++[FBSDKShareUtility validateArgumentWithName:value:isIn:error:]
++[FBSDKShareUtility _validateAssetLibraryVideoURL:name:error:]
+___block_descriptor_tmp.114
+___block_descriptor_tmp.151
+___block_descriptor_tmp.244
+___block_descriptor_tmp.285
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKShareKit/FBSDKShareKit/Internal/FBSDKShareUtility.m
+__94+[FBSDKShareUtility _testOpenGraphValueContainer:containsMedia:containsPhotos:containsVideos:]_block_invoke
+__71+[FBSDKShareUtility _stageImagesForPhotoContent:withCompletionHandler:]_block_invoke.288
+__71+[FBSDKShareUtility _stageImagesForPhotoContent:withCompletionHandler:]_block_invoke
+__69+[FBSDKShareUtility convertOpenGraphValueContainer:requireNamespace:]_block_invoke
+__44+[FBSDKShareUtility convertOpenGraphValues:]_block_invoke
+__65+[FBSDKShareUtility buildAsyncWebPhotoContent:completionHandler:]_block_invoke
+__63+[FBSDKShareUtility assertOpenGraphValues:requireKeyNamespace:]_block_invoke

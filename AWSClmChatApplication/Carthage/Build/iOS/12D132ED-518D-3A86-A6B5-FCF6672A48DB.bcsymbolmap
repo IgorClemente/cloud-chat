@@ -1,0 +1,2081 @@
+BCSymbolMap Version: 2.0
++[AWSRekognitionResponseSerializer initialize]
+-[AWSRekognitionResponseSerializer responseObjectForResponse:originalRequest:currentRequest:data:error:]
++[AWSRekognition initialize]
++[AWSRekognition defaultRekognition]
+___36+[AWSRekognition defaultRekognition]_block_invoke
++[AWSRekognition registerRekognitionWithConfiguration:forKey:]
+___62+[AWSRekognition registerRekognitionWithConfiguration:forKey:]_block_invoke
++[AWSRekognition RekognitionForKey:]
++[AWSRekognition removeRekognitionForKey:]
+-[AWSRekognition init]
+-[AWSRekognition initWithConfiguration:]
+-[AWSRekognition invokeRequest:HTTPMethod:URLString:targetPrefix:operationName:outputClass:]
+-[AWSRekognition compareFaces:]
+-[AWSRekognition compareFaces:completionHandler:]
+___49-[AWSRekognition compareFaces:completionHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[AWSRekognition createCollection:]
+-[AWSRekognition createCollection:completionHandler:]
+___53-[AWSRekognition createCollection:completionHandler:]_block_invoke
+___copy_helper_block_.229
+___destroy_helper_block_.230
+-[AWSRekognition createStreamProcessor:]
+-[AWSRekognition createStreamProcessor:completionHandler:]
+___58-[AWSRekognition createStreamProcessor:completionHandler:]_block_invoke
+___copy_helper_block_.237
+___destroy_helper_block_.238
+-[AWSRekognition deleteCollection:]
+-[AWSRekognition deleteCollection:completionHandler:]
+___53-[AWSRekognition deleteCollection:completionHandler:]_block_invoke
+___copy_helper_block_.245
+___destroy_helper_block_.246
+-[AWSRekognition deleteFaces:]
+-[AWSRekognition deleteFaces:completionHandler:]
+___48-[AWSRekognition deleteFaces:completionHandler:]_block_invoke
+___copy_helper_block_.253
+___destroy_helper_block_.254
+-[AWSRekognition deleteStreamProcessor:]
+-[AWSRekognition deleteStreamProcessor:completionHandler:]
+___58-[AWSRekognition deleteStreamProcessor:completionHandler:]_block_invoke
+___copy_helper_block_.261
+___destroy_helper_block_.262
+-[AWSRekognition describeCollection:]
+-[AWSRekognition describeCollection:completionHandler:]
+___55-[AWSRekognition describeCollection:completionHandler:]_block_invoke
+___copy_helper_block_.269
+___destroy_helper_block_.270
+-[AWSRekognition describeStreamProcessor:]
+-[AWSRekognition describeStreamProcessor:completionHandler:]
+___60-[AWSRekognition describeStreamProcessor:completionHandler:]_block_invoke
+___copy_helper_block_.277
+___destroy_helper_block_.278
+-[AWSRekognition detectFaces:]
+-[AWSRekognition detectFaces:completionHandler:]
+___48-[AWSRekognition detectFaces:completionHandler:]_block_invoke
+___copy_helper_block_.285
+___destroy_helper_block_.286
+-[AWSRekognition detectLabels:]
+-[AWSRekognition detectLabels:completionHandler:]
+___49-[AWSRekognition detectLabels:completionHandler:]_block_invoke
+___copy_helper_block_.293
+___destroy_helper_block_.294
+-[AWSRekognition detectModerationLabels:]
+-[AWSRekognition detectModerationLabels:completionHandler:]
+___59-[AWSRekognition detectModerationLabels:completionHandler:]_block_invoke
+___copy_helper_block_.301
+___destroy_helper_block_.302
+-[AWSRekognition detectText:]
+-[AWSRekognition detectText:completionHandler:]
+___47-[AWSRekognition detectText:completionHandler:]_block_invoke
+___copy_helper_block_.309
+___destroy_helper_block_.310
+-[AWSRekognition getCelebrityInfo:]
+-[AWSRekognition getCelebrityInfo:completionHandler:]
+___53-[AWSRekognition getCelebrityInfo:completionHandler:]_block_invoke
+___copy_helper_block_.317
+___destroy_helper_block_.318
+-[AWSRekognition getCelebrityRecognition:]
+-[AWSRekognition getCelebrityRecognition:completionHandler:]
+___60-[AWSRekognition getCelebrityRecognition:completionHandler:]_block_invoke
+___copy_helper_block_.325
+___destroy_helper_block_.326
+-[AWSRekognition getContentModeration:]
+-[AWSRekognition getContentModeration:completionHandler:]
+___57-[AWSRekognition getContentModeration:completionHandler:]_block_invoke
+___copy_helper_block_.333
+___destroy_helper_block_.334
+-[AWSRekognition getFaceDetection:]
+-[AWSRekognition getFaceDetection:completionHandler:]
+___53-[AWSRekognition getFaceDetection:completionHandler:]_block_invoke
+___copy_helper_block_.341
+___destroy_helper_block_.342
+-[AWSRekognition getFaceSearch:]
+-[AWSRekognition getFaceSearch:completionHandler:]
+___50-[AWSRekognition getFaceSearch:completionHandler:]_block_invoke
+___copy_helper_block_.349
+___destroy_helper_block_.350
+-[AWSRekognition getLabelDetection:]
+-[AWSRekognition getLabelDetection:completionHandler:]
+___54-[AWSRekognition getLabelDetection:completionHandler:]_block_invoke
+___copy_helper_block_.357
+___destroy_helper_block_.358
+-[AWSRekognition getPersonTracking:]
+-[AWSRekognition getPersonTracking:completionHandler:]
+___54-[AWSRekognition getPersonTracking:completionHandler:]_block_invoke
+___copy_helper_block_.365
+___destroy_helper_block_.366
+-[AWSRekognition indexFaces:]
+-[AWSRekognition indexFaces:completionHandler:]
+___47-[AWSRekognition indexFaces:completionHandler:]_block_invoke
+___copy_helper_block_.373
+___destroy_helper_block_.374
+-[AWSRekognition listCollections:]
+-[AWSRekognition listCollections:completionHandler:]
+___52-[AWSRekognition listCollections:completionHandler:]_block_invoke
+___copy_helper_block_.381
+___destroy_helper_block_.382
+-[AWSRekognition listFaces:]
+-[AWSRekognition listFaces:completionHandler:]
+___46-[AWSRekognition listFaces:completionHandler:]_block_invoke
+___copy_helper_block_.389
+___destroy_helper_block_.390
+-[AWSRekognition listStreamProcessors:]
+-[AWSRekognition listStreamProcessors:completionHandler:]
+___57-[AWSRekognition listStreamProcessors:completionHandler:]_block_invoke
+___copy_helper_block_.397
+___destroy_helper_block_.398
+-[AWSRekognition recognizeCelebrities:]
+-[AWSRekognition recognizeCelebrities:completionHandler:]
+___57-[AWSRekognition recognizeCelebrities:completionHandler:]_block_invoke
+___copy_helper_block_.405
+___destroy_helper_block_.406
+-[AWSRekognition searchFaces:]
+-[AWSRekognition searchFaces:completionHandler:]
+___48-[AWSRekognition searchFaces:completionHandler:]_block_invoke
+___copy_helper_block_.413
+___destroy_helper_block_.414
+-[AWSRekognition searchFacesByImage:]
+-[AWSRekognition searchFacesByImage:completionHandler:]
+___55-[AWSRekognition searchFacesByImage:completionHandler:]_block_invoke
+___copy_helper_block_.421
+___destroy_helper_block_.422
+-[AWSRekognition startCelebrityRecognition:]
+-[AWSRekognition startCelebrityRecognition:completionHandler:]
+___62-[AWSRekognition startCelebrityRecognition:completionHandler:]_block_invoke
+___copy_helper_block_.429
+___destroy_helper_block_.430
+-[AWSRekognition startContentModeration:]
+-[AWSRekognition startContentModeration:completionHandler:]
+___59-[AWSRekognition startContentModeration:completionHandler:]_block_invoke
+___copy_helper_block_.437
+___destroy_helper_block_.438
+-[AWSRekognition startFaceDetection:]
+-[AWSRekognition startFaceDetection:completionHandler:]
+___55-[AWSRekognition startFaceDetection:completionHandler:]_block_invoke
+___copy_helper_block_.445
+___destroy_helper_block_.446
+-[AWSRekognition startFaceSearch:]
+-[AWSRekognition startFaceSearch:completionHandler:]
+___52-[AWSRekognition startFaceSearch:completionHandler:]_block_invoke
+___copy_helper_block_.453
+___destroy_helper_block_.454
+-[AWSRekognition startLabelDetection:]
+-[AWSRekognition startLabelDetection:completionHandler:]
+___56-[AWSRekognition startLabelDetection:completionHandler:]_block_invoke
+___copy_helper_block_.461
+___destroy_helper_block_.462
+-[AWSRekognition startPersonTracking:]
+-[AWSRekognition startPersonTracking:completionHandler:]
+___56-[AWSRekognition startPersonTracking:completionHandler:]_block_invoke
+___copy_helper_block_.469
+___destroy_helper_block_.470
+-[AWSRekognition startStreamProcessor:]
+-[AWSRekognition startStreamProcessor:completionHandler:]
+___57-[AWSRekognition startStreamProcessor:completionHandler:]_block_invoke
+___copy_helper_block_.477
+___destroy_helper_block_.478
+-[AWSRekognition stopStreamProcessor:]
+-[AWSRekognition stopStreamProcessor:completionHandler:]
+___56-[AWSRekognition stopStreamProcessor:completionHandler:]_block_invoke
+___copy_helper_block_.485
+___destroy_helper_block_.486
+-[AWSRekognition configuration]
+-[AWSRekognition setConfiguration:]
+-[AWSRekognition networking]
+-[AWSRekognition setNetworking:]
+-[AWSRekognition .cxx_destruct]
+_errorCodeDictionary
+__serviceClients
+_defaultRekognition._defaultRekognition
+_defaultRekognition.onceToken
+___block_descriptor_tmp
+___block_literal_global
+_registerRekognitionWithConfiguration:forKey:.onceToken
+___block_descriptor_tmp.104
+___block_literal_global.105
+_OBJC_IVAR_$_AWSRekognition._configuration
+_OBJC_IVAR_$_AWSRekognition._networking
+___block_descriptor_tmp.221
+___block_descriptor_tmp.231
+___block_descriptor_tmp.239
+___block_descriptor_tmp.247
+___block_descriptor_tmp.255
+___block_descriptor_tmp.263
+___block_descriptor_tmp.271
+___block_descriptor_tmp.279
+___block_descriptor_tmp.287
+___block_descriptor_tmp.295
+___block_descriptor_tmp.303
+___block_descriptor_tmp.311
+___block_descriptor_tmp.319
+___block_descriptor_tmp.327
+___block_descriptor_tmp.335
+___block_descriptor_tmp.343
+___block_descriptor_tmp.351
+___block_descriptor_tmp.359
+___block_descriptor_tmp.367
+___block_descriptor_tmp.375
+___block_descriptor_tmp.383
+___block_descriptor_tmp.391
+___block_descriptor_tmp.399
+___block_descriptor_tmp.407
+___block_descriptor_tmp.415
+___block_descriptor_tmp.423
+___block_descriptor_tmp.431
+___block_descriptor_tmp.439
+___block_descriptor_tmp.447
+___block_descriptor_tmp.455
+___block_descriptor_tmp.463
+___block_descriptor_tmp.471
+___block_descriptor_tmp.479
+___block_descriptor_tmp.487
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/distiller/project/AWSRekognition/AWSRekognitionService.m
+/Users/distiller/project
+/Users/distiller/project/AWSRekognition/AWSRekognitionService.h
+__destroy_helper_block_
+__copy_helper_block_
+__56-[AWSRekognition stopStreamProcessor:completionHandler:]_block_invoke
+__57-[AWSRekognition startStreamProcessor:completionHandler:]_block_invoke
+__56-[AWSRekognition startPersonTracking:completionHandler:]_block_invoke
+__56-[AWSRekognition startLabelDetection:completionHandler:]_block_invoke
+__52-[AWSRekognition startFaceSearch:completionHandler:]_block_invoke
+__55-[AWSRekognition startFaceDetection:completionHandler:]_block_invoke
+__59-[AWSRekognition startContentModeration:completionHandler:]_block_invoke
+__62-[AWSRekognition startCelebrityRecognition:completionHandler:]_block_invoke
+__55-[AWSRekognition searchFacesByImage:completionHandler:]_block_invoke
+__48-[AWSRekognition searchFaces:completionHandler:]_block_invoke
+__57-[AWSRekognition recognizeCelebrities:completionHandler:]_block_invoke
+__57-[AWSRekognition listStreamProcessors:completionHandler:]_block_invoke
+__46-[AWSRekognition listFaces:completionHandler:]_block_invoke
+__52-[AWSRekognition listCollections:completionHandler:]_block_invoke
+__47-[AWSRekognition indexFaces:completionHandler:]_block_invoke
+__54-[AWSRekognition getPersonTracking:completionHandler:]_block_invoke
+__54-[AWSRekognition getLabelDetection:completionHandler:]_block_invoke
+__50-[AWSRekognition getFaceSearch:completionHandler:]_block_invoke
+__53-[AWSRekognition getFaceDetection:completionHandler:]_block_invoke
+__57-[AWSRekognition getContentModeration:completionHandler:]_block_invoke
+__60-[AWSRekognition getCelebrityRecognition:completionHandler:]_block_invoke
+__53-[AWSRekognition getCelebrityInfo:completionHandler:]_block_invoke
+__47-[AWSRekognition detectText:completionHandler:]_block_invoke
+__59-[AWSRekognition detectModerationLabels:completionHandler:]_block_invoke
+__49-[AWSRekognition detectLabels:completionHandler:]_block_invoke
+__48-[AWSRekognition detectFaces:completionHandler:]_block_invoke
+__60-[AWSRekognition describeStreamProcessor:completionHandler:]_block_invoke
+__55-[AWSRekognition describeCollection:completionHandler:]_block_invoke
+__58-[AWSRekognition deleteStreamProcessor:completionHandler:]_block_invoke
+__48-[AWSRekognition deleteFaces:completionHandler:]_block_invoke
+__53-[AWSRekognition deleteCollection:completionHandler:]_block_invoke
+__58-[AWSRekognition createStreamProcessor:completionHandler:]_block_invoke
+__53-[AWSRekognition createCollection:completionHandler:]_block_invoke
+__49-[AWSRekognition compareFaces:completionHandler:]_block_invoke
+__62+[AWSRekognition registerRekognitionWithConfiguration:forKey:]_block_invoke
+/Applications/Xcode-10.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/once.h
+__36+[AWSRekognition defaultRekognition]_block_invoke
++[AWSRekognitionAgeRange JSONKeyPathsByPropertyKey]
+-[AWSRekognitionAgeRange high]
+-[AWSRekognitionAgeRange setHigh:]
+-[AWSRekognitionAgeRange low]
+-[AWSRekognitionAgeRange setLow:]
+-[AWSRekognitionAgeRange .cxx_destruct]
++[AWSRekognitionBeard JSONKeyPathsByPropertyKey]
+-[AWSRekognitionBeard confidence]
+-[AWSRekognitionBeard setConfidence:]
+-[AWSRekognitionBeard value]
+-[AWSRekognitionBeard setValue:]
+-[AWSRekognitionBeard .cxx_destruct]
++[AWSRekognitionBoundingBox JSONKeyPathsByPropertyKey]
+-[AWSRekognitionBoundingBox height]
+-[AWSRekognitionBoundingBox setHeight:]
+-[AWSRekognitionBoundingBox left]
+-[AWSRekognitionBoundingBox setLeft:]
+-[AWSRekognitionBoundingBox top]
+-[AWSRekognitionBoundingBox setTop:]
+-[AWSRekognitionBoundingBox width]
+-[AWSRekognitionBoundingBox setWidth:]
+-[AWSRekognitionBoundingBox .cxx_destruct]
++[AWSRekognitionCelebrity JSONKeyPathsByPropertyKey]
++[AWSRekognitionCelebrity faceJSONTransformer]
+-[AWSRekognitionCelebrity face]
+-[AWSRekognitionCelebrity setFace:]
+-[AWSRekognitionCelebrity identifier]
+-[AWSRekognitionCelebrity setIdentifier:]
+-[AWSRekognitionCelebrity matchConfidence]
+-[AWSRekognitionCelebrity setMatchConfidence:]
+-[AWSRekognitionCelebrity name]
+-[AWSRekognitionCelebrity setName:]
+-[AWSRekognitionCelebrity urls]
+-[AWSRekognitionCelebrity setUrls:]
+-[AWSRekognitionCelebrity .cxx_destruct]
++[AWSRekognitionCelebrityDetail JSONKeyPathsByPropertyKey]
++[AWSRekognitionCelebrityDetail boundingBoxJSONTransformer]
++[AWSRekognitionCelebrityDetail faceJSONTransformer]
+-[AWSRekognitionCelebrityDetail boundingBox]
+-[AWSRekognitionCelebrityDetail setBoundingBox:]
+-[AWSRekognitionCelebrityDetail confidence]
+-[AWSRekognitionCelebrityDetail setConfidence:]
+-[AWSRekognitionCelebrityDetail face]
+-[AWSRekognitionCelebrityDetail setFace:]
+-[AWSRekognitionCelebrityDetail identifier]
+-[AWSRekognitionCelebrityDetail setIdentifier:]
+-[AWSRekognitionCelebrityDetail name]
+-[AWSRekognitionCelebrityDetail setName:]
+-[AWSRekognitionCelebrityDetail urls]
+-[AWSRekognitionCelebrityDetail setUrls:]
+-[AWSRekognitionCelebrityDetail .cxx_destruct]
++[AWSRekognitionCelebrityRecognition JSONKeyPathsByPropertyKey]
++[AWSRekognitionCelebrityRecognition celebrityJSONTransformer]
+-[AWSRekognitionCelebrityRecognition celebrity]
+-[AWSRekognitionCelebrityRecognition setCelebrity:]
+-[AWSRekognitionCelebrityRecognition timestamp]
+-[AWSRekognitionCelebrityRecognition setTimestamp:]
+-[AWSRekognitionCelebrityRecognition .cxx_destruct]
++[AWSRekognitionCompareFacesMatch JSONKeyPathsByPropertyKey]
++[AWSRekognitionCompareFacesMatch faceJSONTransformer]
+-[AWSRekognitionCompareFacesMatch face]
+-[AWSRekognitionCompareFacesMatch setFace:]
+-[AWSRekognitionCompareFacesMatch similarity]
+-[AWSRekognitionCompareFacesMatch setSimilarity:]
+-[AWSRekognitionCompareFacesMatch .cxx_destruct]
++[AWSRekognitionCompareFacesRequest JSONKeyPathsByPropertyKey]
++[AWSRekognitionCompareFacesRequest sourceImageJSONTransformer]
++[AWSRekognitionCompareFacesRequest targetImageJSONTransformer]
+-[AWSRekognitionCompareFacesRequest similarityThreshold]
+-[AWSRekognitionCompareFacesRequest setSimilarityThreshold:]
+-[AWSRekognitionCompareFacesRequest sourceImage]
+-[AWSRekognitionCompareFacesRequest setSourceImage:]
+-[AWSRekognitionCompareFacesRequest targetImage]
+-[AWSRekognitionCompareFacesRequest setTargetImage:]
+-[AWSRekognitionCompareFacesRequest .cxx_destruct]
++[AWSRekognitionCompareFacesResponse JSONKeyPathsByPropertyKey]
++[AWSRekognitionCompareFacesResponse faceMatchesJSONTransformer]
++[AWSRekognitionCompareFacesResponse sourceImageFaceJSONTransformer]
++[AWSRekognitionCompareFacesResponse sourceImageOrientationCorrectionJSONTransformer]
+___85+[AWSRekognitionCompareFacesResponse sourceImageOrientationCorrectionJSONTransformer]_block_invoke
+___85+[AWSRekognitionCompareFacesResponse sourceImageOrientationCorrectionJSONTransformer]_block_invoke_2
++[AWSRekognitionCompareFacesResponse targetImageOrientationCorrectionJSONTransformer]
+___85+[AWSRekognitionCompareFacesResponse targetImageOrientationCorrectionJSONTransformer]_block_invoke
+___85+[AWSRekognitionCompareFacesResponse targetImageOrientationCorrectionJSONTransformer]_block_invoke_2
++[AWSRekognitionCompareFacesResponse unmatchedFacesJSONTransformer]
+-[AWSRekognitionCompareFacesResponse faceMatches]
+-[AWSRekognitionCompareFacesResponse setFaceMatches:]
+-[AWSRekognitionCompareFacesResponse sourceImageFace]
+-[AWSRekognitionCompareFacesResponse setSourceImageFace:]
+-[AWSRekognitionCompareFacesResponse sourceImageOrientationCorrection]
+-[AWSRekognitionCompareFacesResponse setSourceImageOrientationCorrection:]
+-[AWSRekognitionCompareFacesResponse targetImageOrientationCorrection]
+-[AWSRekognitionCompareFacesResponse setTargetImageOrientationCorrection:]
+-[AWSRekognitionCompareFacesResponse unmatchedFaces]
+-[AWSRekognitionCompareFacesResponse setUnmatchedFaces:]
+-[AWSRekognitionCompareFacesResponse .cxx_destruct]
++[AWSRekognitionComparedFace JSONKeyPathsByPropertyKey]
++[AWSRekognitionComparedFace boundingBoxJSONTransformer]
++[AWSRekognitionComparedFace landmarksJSONTransformer]
++[AWSRekognitionComparedFace poseJSONTransformer]
++[AWSRekognitionComparedFace qualityJSONTransformer]
+-[AWSRekognitionComparedFace boundingBox]
+-[AWSRekognitionComparedFace setBoundingBox:]
+-[AWSRekognitionComparedFace confidence]
+-[AWSRekognitionComparedFace setConfidence:]
+-[AWSRekognitionComparedFace landmarks]
+-[AWSRekognitionComparedFace setLandmarks:]
+-[AWSRekognitionComparedFace pose]
+-[AWSRekognitionComparedFace setPose:]
+-[AWSRekognitionComparedFace quality]
+-[AWSRekognitionComparedFace setQuality:]
+-[AWSRekognitionComparedFace .cxx_destruct]
++[AWSRekognitionComparedSourceImageFace JSONKeyPathsByPropertyKey]
++[AWSRekognitionComparedSourceImageFace boundingBoxJSONTransformer]
+-[AWSRekognitionComparedSourceImageFace boundingBox]
+-[AWSRekognitionComparedSourceImageFace setBoundingBox:]
+-[AWSRekognitionComparedSourceImageFace confidence]
+-[AWSRekognitionComparedSourceImageFace setConfidence:]
+-[AWSRekognitionComparedSourceImageFace .cxx_destruct]
++[AWSRekognitionContentModerationDetection JSONKeyPathsByPropertyKey]
++[AWSRekognitionContentModerationDetection moderationLabelJSONTransformer]
+-[AWSRekognitionContentModerationDetection moderationLabel]
+-[AWSRekognitionContentModerationDetection setModerationLabel:]
+-[AWSRekognitionContentModerationDetection timestamp]
+-[AWSRekognitionContentModerationDetection setTimestamp:]
+-[AWSRekognitionContentModerationDetection .cxx_destruct]
++[AWSRekognitionCreateCollectionRequest JSONKeyPathsByPropertyKey]
+-[AWSRekognitionCreateCollectionRequest collectionId]
+-[AWSRekognitionCreateCollectionRequest setCollectionId:]
+-[AWSRekognitionCreateCollectionRequest .cxx_destruct]
++[AWSRekognitionCreateCollectionResponse JSONKeyPathsByPropertyKey]
+-[AWSRekognitionCreateCollectionResponse collectionArn]
+-[AWSRekognitionCreateCollectionResponse setCollectionArn:]
+-[AWSRekognitionCreateCollectionResponse faceModelVersion]
+-[AWSRekognitionCreateCollectionResponse setFaceModelVersion:]
+-[AWSRekognitionCreateCollectionResponse statusCode]
+-[AWSRekognitionCreateCollectionResponse setStatusCode:]
+-[AWSRekognitionCreateCollectionResponse .cxx_destruct]
++[AWSRekognitionCreateStreamProcessorRequest JSONKeyPathsByPropertyKey]
++[AWSRekognitionCreateStreamProcessorRequest inputJSONTransformer]
++[AWSRekognitionCreateStreamProcessorRequest outputJSONTransformer]
++[AWSRekognitionCreateStreamProcessorRequest settingsJSONTransformer]
+-[AWSRekognitionCreateStreamProcessorRequest input]
+-[AWSRekognitionCreateStreamProcessorRequest setInput:]
+-[AWSRekognitionCreateStreamProcessorRequest name]
+-[AWSRekognitionCreateStreamProcessorRequest setName:]
+-[AWSRekognitionCreateStreamProcessorRequest output]
+-[AWSRekognitionCreateStreamProcessorRequest setOutput:]
+-[AWSRekognitionCreateStreamProcessorRequest roleArn]
+-[AWSRekognitionCreateStreamProcessorRequest setRoleArn:]
+-[AWSRekognitionCreateStreamProcessorRequest settings]
+-[AWSRekognitionCreateStreamProcessorRequest setSettings:]
+-[AWSRekognitionCreateStreamProcessorRequest .cxx_destruct]
++[AWSRekognitionCreateStreamProcessorResponse JSONKeyPathsByPropertyKey]
+-[AWSRekognitionCreateStreamProcessorResponse streamProcessorArn]
+-[AWSRekognitionCreateStreamProcessorResponse setStreamProcessorArn:]
+-[AWSRekognitionCreateStreamProcessorResponse .cxx_destruct]
++[AWSRekognitionDeleteCollectionRequest JSONKeyPathsByPropertyKey]
+-[AWSRekognitionDeleteCollectionRequest collectionId]
+-[AWSRekognitionDeleteCollectionRequest setCollectionId:]
+-[AWSRekognitionDeleteCollectionRequest .cxx_destruct]
++[AWSRekognitionDeleteCollectionResponse JSONKeyPathsByPropertyKey]
+-[AWSRekognitionDeleteCollectionResponse statusCode]
+-[AWSRekognitionDeleteCollectionResponse setStatusCode:]
+-[AWSRekognitionDeleteCollectionResponse .cxx_destruct]
++[AWSRekognitionDeleteFacesRequest JSONKeyPathsByPropertyKey]
+-[AWSRekognitionDeleteFacesRequest collectionId]
+-[AWSRekognitionDeleteFacesRequest setCollectionId:]
+-[AWSRekognitionDeleteFacesRequest faceIds]
+-[AWSRekognitionDeleteFacesRequest setFaceIds:]
+-[AWSRekognitionDeleteFacesRequest .cxx_destruct]
++[AWSRekognitionDeleteFacesResponse JSONKeyPathsByPropertyKey]
+-[AWSRekognitionDeleteFacesResponse deletedFaces]
+-[AWSRekognitionDeleteFacesResponse setDeletedFaces:]
+-[AWSRekognitionDeleteFacesResponse .cxx_destruct]
++[AWSRekognitionDeleteStreamProcessorRequest JSONKeyPathsByPropertyKey]
+-[AWSRekognitionDeleteStreamProcessorRequest name]
+-[AWSRekognitionDeleteStreamProcessorRequest setName:]
+-[AWSRekognitionDeleteStreamProcessorRequest .cxx_destruct]
++[AWSRekognitionDescribeCollectionRequest JSONKeyPathsByPropertyKey]
+-[AWSRekognitionDescribeCollectionRequest collectionId]
+-[AWSRekognitionDescribeCollectionRequest setCollectionId:]
+-[AWSRekognitionDescribeCollectionRequest .cxx_destruct]
++[AWSRekognitionDescribeCollectionResponse JSONKeyPathsByPropertyKey]
++[AWSRekognitionDescribeCollectionResponse creationTimestampJSONTransformer]
+___76+[AWSRekognitionDescribeCollectionResponse creationTimestampJSONTransformer]_block_invoke
+___76+[AWSRekognitionDescribeCollectionResponse creationTimestampJSONTransformer]_block_invoke_2
+-[AWSRekognitionDescribeCollectionResponse collectionARN]
+-[AWSRekognitionDescribeCollectionResponse setCollectionARN:]
+-[AWSRekognitionDescribeCollectionResponse creationTimestamp]
+-[AWSRekognitionDescribeCollectionResponse setCreationTimestamp:]
+-[AWSRekognitionDescribeCollectionResponse faceCount]
+-[AWSRekognitionDescribeCollectionResponse setFaceCount:]
+-[AWSRekognitionDescribeCollectionResponse faceModelVersion]
+-[AWSRekognitionDescribeCollectionResponse setFaceModelVersion:]
+-[AWSRekognitionDescribeCollectionResponse .cxx_destruct]
++[AWSRekognitionDescribeStreamProcessorRequest JSONKeyPathsByPropertyKey]
+-[AWSRekognitionDescribeStreamProcessorRequest name]
+-[AWSRekognitionDescribeStreamProcessorRequest setName:]
+-[AWSRekognitionDescribeStreamProcessorRequest .cxx_destruct]
++[AWSRekognitionDescribeStreamProcessorResponse JSONKeyPathsByPropertyKey]
++[AWSRekognitionDescribeStreamProcessorResponse creationTimestampJSONTransformer]
+___81+[AWSRekognitionDescribeStreamProcessorResponse creationTimestampJSONTransformer]_block_invoke
+___81+[AWSRekognitionDescribeStreamProcessorResponse creationTimestampJSONTransformer]_block_invoke_2
++[AWSRekognitionDescribeStreamProcessorResponse inputJSONTransformer]
++[AWSRekognitionDescribeStreamProcessorResponse lastUpdateTimestampJSONTransformer]
+___83+[AWSRekognitionDescribeStreamProcessorResponse lastUpdateTimestampJSONTransformer]_block_invoke
+___83+[AWSRekognitionDescribeStreamProcessorResponse lastUpdateTimestampJSONTransformer]_block_invoke_2
++[AWSRekognitionDescribeStreamProcessorResponse outputJSONTransformer]
++[AWSRekognitionDescribeStreamProcessorResponse settingsJSONTransformer]
++[AWSRekognitionDescribeStreamProcessorResponse statusJSONTransformer]
+___70+[AWSRekognitionDescribeStreamProcessorResponse statusJSONTransformer]_block_invoke
+___70+[AWSRekognitionDescribeStreamProcessorResponse statusJSONTransformer]_block_invoke_2
+-[AWSRekognitionDescribeStreamProcessorResponse creationTimestamp]
+-[AWSRekognitionDescribeStreamProcessorResponse setCreationTimestamp:]
+-[AWSRekognitionDescribeStreamProcessorResponse input]
+-[AWSRekognitionDescribeStreamProcessorResponse setInput:]
+-[AWSRekognitionDescribeStreamProcessorResponse lastUpdateTimestamp]
+-[AWSRekognitionDescribeStreamProcessorResponse setLastUpdateTimestamp:]
+-[AWSRekognitionDescribeStreamProcessorResponse name]
+-[AWSRekognitionDescribeStreamProcessorResponse setName:]
+-[AWSRekognitionDescribeStreamProcessorResponse output]
+-[AWSRekognitionDescribeStreamProcessorResponse setOutput:]
+-[AWSRekognitionDescribeStreamProcessorResponse roleArn]
+-[AWSRekognitionDescribeStreamProcessorResponse setRoleArn:]
+-[AWSRekognitionDescribeStreamProcessorResponse settings]
+-[AWSRekognitionDescribeStreamProcessorResponse setSettings:]
+-[AWSRekognitionDescribeStreamProcessorResponse status]
+-[AWSRekognitionDescribeStreamProcessorResponse setStatus:]
+-[AWSRekognitionDescribeStreamProcessorResponse statusMessage]
+-[AWSRekognitionDescribeStreamProcessorResponse setStatusMessage:]
+-[AWSRekognitionDescribeStreamProcessorResponse streamProcessorArn]
+-[AWSRekognitionDescribeStreamProcessorResponse setStreamProcessorArn:]
+-[AWSRekognitionDescribeStreamProcessorResponse .cxx_destruct]
++[AWSRekognitionDetectFacesRequest JSONKeyPathsByPropertyKey]
++[AWSRekognitionDetectFacesRequest imageJSONTransformer]
+-[AWSRekognitionDetectFacesRequest attributes]
+-[AWSRekognitionDetectFacesRequest setAttributes:]
+-[AWSRekognitionDetectFacesRequest image]
+-[AWSRekognitionDetectFacesRequest setImage:]
+-[AWSRekognitionDetectFacesRequest .cxx_destruct]
++[AWSRekognitionDetectFacesResponse JSONKeyPathsByPropertyKey]
++[AWSRekognitionDetectFacesResponse faceDetailsJSONTransformer]
++[AWSRekognitionDetectFacesResponse orientationCorrectionJSONTransformer]
+___73+[AWSRekognitionDetectFacesResponse orientationCorrectionJSONTransformer]_block_invoke
+___73+[AWSRekognitionDetectFacesResponse orientationCorrectionJSONTransformer]_block_invoke_2
+-[AWSRekognitionDetectFacesResponse faceDetails]
+-[AWSRekognitionDetectFacesResponse setFaceDetails:]
+-[AWSRekognitionDetectFacesResponse orientationCorrection]
+-[AWSRekognitionDetectFacesResponse setOrientationCorrection:]
+-[AWSRekognitionDetectFacesResponse .cxx_destruct]
++[AWSRekognitionDetectLabelsRequest JSONKeyPathsByPropertyKey]
++[AWSRekognitionDetectLabelsRequest imageJSONTransformer]
+-[AWSRekognitionDetectLabelsRequest image]
+-[AWSRekognitionDetectLabelsRequest setImage:]
+-[AWSRekognitionDetectLabelsRequest maxLabels]
+-[AWSRekognitionDetectLabelsRequest setMaxLabels:]
+-[AWSRekognitionDetectLabelsRequest minConfidence]
+-[AWSRekognitionDetectLabelsRequest setMinConfidence:]
+-[AWSRekognitionDetectLabelsRequest .cxx_destruct]
++[AWSRekognitionDetectLabelsResponse JSONKeyPathsByPropertyKey]
++[AWSRekognitionDetectLabelsResponse labelsJSONTransformer]
++[AWSRekognitionDetectLabelsResponse orientationCorrectionJSONTransformer]
+___74+[AWSRekognitionDetectLabelsResponse orientationCorrectionJSONTransformer]_block_invoke
+___74+[AWSRekognitionDetectLabelsResponse orientationCorrectionJSONTransformer]_block_invoke_2
+-[AWSRekognitionDetectLabelsResponse labelModelVersion]
+-[AWSRekognitionDetectLabelsResponse setLabelModelVersion:]
+-[AWSRekognitionDetectLabelsResponse labels]
+-[AWSRekognitionDetectLabelsResponse setLabels:]
+-[AWSRekognitionDetectLabelsResponse orientationCorrection]
+-[AWSRekognitionDetectLabelsResponse setOrientationCorrection:]
+-[AWSRekognitionDetectLabelsResponse .cxx_destruct]
++[AWSRekognitionDetectModerationLabelsRequest JSONKeyPathsByPropertyKey]
++[AWSRekognitionDetectModerationLabelsRequest imageJSONTransformer]
+-[AWSRekognitionDetectModerationLabelsRequest image]
+-[AWSRekognitionDetectModerationLabelsRequest setImage:]
+-[AWSRekognitionDetectModerationLabelsRequest minConfidence]
+-[AWSRekognitionDetectModerationLabelsRequest setMinConfidence:]
+-[AWSRekognitionDetectModerationLabelsRequest .cxx_destruct]
++[AWSRekognitionDetectModerationLabelsResponse JSONKeyPathsByPropertyKey]
++[AWSRekognitionDetectModerationLabelsResponse moderationLabelsJSONTransformer]
+-[AWSRekognitionDetectModerationLabelsResponse moderationLabels]
+-[AWSRekognitionDetectModerationLabelsResponse setModerationLabels:]
+-[AWSRekognitionDetectModerationLabelsResponse moderationModelVersion]
+-[AWSRekognitionDetectModerationLabelsResponse setModerationModelVersion:]
+-[AWSRekognitionDetectModerationLabelsResponse .cxx_destruct]
++[AWSRekognitionDetectTextRequest JSONKeyPathsByPropertyKey]
++[AWSRekognitionDetectTextRequest imageJSONTransformer]
+-[AWSRekognitionDetectTextRequest image]
+-[AWSRekognitionDetectTextRequest setImage:]
+-[AWSRekognitionDetectTextRequest .cxx_destruct]
++[AWSRekognitionDetectTextResponse JSONKeyPathsByPropertyKey]
++[AWSRekognitionDetectTextResponse textDetectionsJSONTransformer]
+-[AWSRekognitionDetectTextResponse textDetections]
+-[AWSRekognitionDetectTextResponse setTextDetections:]
+-[AWSRekognitionDetectTextResponse .cxx_destruct]
++[AWSRekognitionEmotion JSONKeyPathsByPropertyKey]
++[AWSRekognitionEmotion typesJSONTransformer]
+___45+[AWSRekognitionEmotion typesJSONTransformer]_block_invoke
+___45+[AWSRekognitionEmotion typesJSONTransformer]_block_invoke_2
+-[AWSRekognitionEmotion confidence]
+-[AWSRekognitionEmotion setConfidence:]
+-[AWSRekognitionEmotion types]
+-[AWSRekognitionEmotion setTypes:]
+-[AWSRekognitionEmotion .cxx_destruct]
++[AWSRekognitionEyeOpen JSONKeyPathsByPropertyKey]
+-[AWSRekognitionEyeOpen confidence]
+-[AWSRekognitionEyeOpen setConfidence:]
+-[AWSRekognitionEyeOpen value]
+-[AWSRekognitionEyeOpen setValue:]
+-[AWSRekognitionEyeOpen .cxx_destruct]
++[AWSRekognitionEyeglasses JSONKeyPathsByPropertyKey]
+-[AWSRekognitionEyeglasses confidence]
+-[AWSRekognitionEyeglasses setConfidence:]
+-[AWSRekognitionEyeglasses value]
+-[AWSRekognitionEyeglasses setValue:]
+-[AWSRekognitionEyeglasses .cxx_destruct]
++[AWSRekognitionFace JSONKeyPathsByPropertyKey]
++[AWSRekognitionFace boundingBoxJSONTransformer]
+-[AWSRekognitionFace boundingBox]
+-[AWSRekognitionFace setBoundingBox:]
+-[AWSRekognitionFace confidence]
+-[AWSRekognitionFace setConfidence:]
+-[AWSRekognitionFace externalImageId]
+-[AWSRekognitionFace setExternalImageId:]
+-[AWSRekognitionFace faceId]
+-[AWSRekognitionFace setFaceId:]
+-[AWSRekognitionFace imageId]
+-[AWSRekognitionFace setImageId:]
+-[AWSRekognitionFace .cxx_destruct]
++[AWSRekognitionFaceDetail JSONKeyPathsByPropertyKey]
++[AWSRekognitionFaceDetail ageRangeJSONTransformer]
++[AWSRekognitionFaceDetail beardJSONTransformer]
++[AWSRekognitionFaceDetail boundingBoxJSONTransformer]
++[AWSRekognitionFaceDetail emotionsJSONTransformer]
++[AWSRekognitionFaceDetail eyeglassesJSONTransformer]
++[AWSRekognitionFaceDetail eyesOpenJSONTransformer]
++[AWSRekognitionFaceDetail genderJSONTransformer]
++[AWSRekognitionFaceDetail landmarksJSONTransformer]
++[AWSRekognitionFaceDetail mouthOpenJSONTransformer]
++[AWSRekognitionFaceDetail mustacheJSONTransformer]
++[AWSRekognitionFaceDetail poseJSONTransformer]
++[AWSRekognitionFaceDetail qualityJSONTransformer]
++[AWSRekognitionFaceDetail smileJSONTransformer]
++[AWSRekognitionFaceDetail sunglassesJSONTransformer]
+-[AWSRekognitionFaceDetail ageRange]
+-[AWSRekognitionFaceDetail setAgeRange:]
+-[AWSRekognitionFaceDetail beard]
+-[AWSRekognitionFaceDetail setBeard:]
+-[AWSRekognitionFaceDetail boundingBox]
+-[AWSRekognitionFaceDetail setBoundingBox:]
+-[AWSRekognitionFaceDetail confidence]
+-[AWSRekognitionFaceDetail setConfidence:]
+-[AWSRekognitionFaceDetail emotions]
+-[AWSRekognitionFaceDetail setEmotions:]
+-[AWSRekognitionFaceDetail eyeglasses]
+-[AWSRekognitionFaceDetail setEyeglasses:]
+-[AWSRekognitionFaceDetail eyesOpen]
+-[AWSRekognitionFaceDetail setEyesOpen:]
+-[AWSRekognitionFaceDetail gender]
+-[AWSRekognitionFaceDetail setGender:]
+-[AWSRekognitionFaceDetail landmarks]
+-[AWSRekognitionFaceDetail setLandmarks:]
+-[AWSRekognitionFaceDetail mouthOpen]
+-[AWSRekognitionFaceDetail setMouthOpen:]
+-[AWSRekognitionFaceDetail mustache]
+-[AWSRekognitionFaceDetail setMustache:]
+-[AWSRekognitionFaceDetail pose]
+-[AWSRekognitionFaceDetail setPose:]
+-[AWSRekognitionFaceDetail quality]
+-[AWSRekognitionFaceDetail setQuality:]
+-[AWSRekognitionFaceDetail smile]
+-[AWSRekognitionFaceDetail setSmile:]
+-[AWSRekognitionFaceDetail sunglasses]
+-[AWSRekognitionFaceDetail setSunglasses:]
+-[AWSRekognitionFaceDetail .cxx_destruct]
++[AWSRekognitionFaceDetection JSONKeyPathsByPropertyKey]
++[AWSRekognitionFaceDetection faceJSONTransformer]
+-[AWSRekognitionFaceDetection face]
+-[AWSRekognitionFaceDetection setFace:]
+-[AWSRekognitionFaceDetection timestamp]
+-[AWSRekognitionFaceDetection setTimestamp:]
+-[AWSRekognitionFaceDetection .cxx_destruct]
++[AWSRekognitionFaceMatch JSONKeyPathsByPropertyKey]
++[AWSRekognitionFaceMatch faceJSONTransformer]
+-[AWSRekognitionFaceMatch face]
+-[AWSRekognitionFaceMatch setFace:]
+-[AWSRekognitionFaceMatch similarity]
+-[AWSRekognitionFaceMatch setSimilarity:]
+-[AWSRekognitionFaceMatch .cxx_destruct]
++[AWSRekognitionFaceRecord JSONKeyPathsByPropertyKey]
++[AWSRekognitionFaceRecord faceJSONTransformer]
++[AWSRekognitionFaceRecord faceDetailJSONTransformer]
+-[AWSRekognitionFaceRecord face]
+-[AWSRekognitionFaceRecord setFace:]
+-[AWSRekognitionFaceRecord faceDetail]
+-[AWSRekognitionFaceRecord setFaceDetail:]
+-[AWSRekognitionFaceRecord .cxx_destruct]
++[AWSRekognitionFaceSearchSettings JSONKeyPathsByPropertyKey]
+-[AWSRekognitionFaceSearchSettings collectionId]
+-[AWSRekognitionFaceSearchSettings setCollectionId:]
+-[AWSRekognitionFaceSearchSettings faceMatchThreshold]
+-[AWSRekognitionFaceSearchSettings setFaceMatchThreshold:]
+-[AWSRekognitionFaceSearchSettings .cxx_destruct]
++[AWSRekognitionGender JSONKeyPathsByPropertyKey]
++[AWSRekognitionGender valueJSONTransformer]
+___44+[AWSRekognitionGender valueJSONTransformer]_block_invoke
+___44+[AWSRekognitionGender valueJSONTransformer]_block_invoke_2
+-[AWSRekognitionGender confidence]
+-[AWSRekognitionGender setConfidence:]
+-[AWSRekognitionGender value]
+-[AWSRekognitionGender setValue:]
+-[AWSRekognitionGender .cxx_destruct]
++[AWSRekognitionGeometry JSONKeyPathsByPropertyKey]
++[AWSRekognitionGeometry boundingBoxJSONTransformer]
++[AWSRekognitionGeometry polygonJSONTransformer]
+-[AWSRekognitionGeometry boundingBox]
+-[AWSRekognitionGeometry setBoundingBox:]
+-[AWSRekognitionGeometry polygon]
+-[AWSRekognitionGeometry setPolygon:]
+-[AWSRekognitionGeometry .cxx_destruct]
++[AWSRekognitionGetCelebrityInfoRequest JSONKeyPathsByPropertyKey]
+-[AWSRekognitionGetCelebrityInfoRequest identifier]
+-[AWSRekognitionGetCelebrityInfoRequest setIdentifier:]
+-[AWSRekognitionGetCelebrityInfoRequest .cxx_destruct]
++[AWSRekognitionGetCelebrityInfoResponse JSONKeyPathsByPropertyKey]
+-[AWSRekognitionGetCelebrityInfoResponse name]
+-[AWSRekognitionGetCelebrityInfoResponse setName:]
+-[AWSRekognitionGetCelebrityInfoResponse urls]
+-[AWSRekognitionGetCelebrityInfoResponse setUrls:]
+-[AWSRekognitionGetCelebrityInfoResponse .cxx_destruct]
++[AWSRekognitionGetCelebrityRecognitionRequest JSONKeyPathsByPropertyKey]
++[AWSRekognitionGetCelebrityRecognitionRequest sortByJSONTransformer]
+___69+[AWSRekognitionGetCelebrityRecognitionRequest sortByJSONTransformer]_block_invoke
+___69+[AWSRekognitionGetCelebrityRecognitionRequest sortByJSONTransformer]_block_invoke_2
+-[AWSRekognitionGetCelebrityRecognitionRequest jobId]
+-[AWSRekognitionGetCelebrityRecognitionRequest setJobId:]
+-[AWSRekognitionGetCelebrityRecognitionRequest maxResults]
+-[AWSRekognitionGetCelebrityRecognitionRequest setMaxResults:]
+-[AWSRekognitionGetCelebrityRecognitionRequest nextToken]
+-[AWSRekognitionGetCelebrityRecognitionRequest setNextToken:]
+-[AWSRekognitionGetCelebrityRecognitionRequest sortBy]
+-[AWSRekognitionGetCelebrityRecognitionRequest setSortBy:]
+-[AWSRekognitionGetCelebrityRecognitionRequest .cxx_destruct]
++[AWSRekognitionGetCelebrityRecognitionResponse JSONKeyPathsByPropertyKey]
++[AWSRekognitionGetCelebrityRecognitionResponse celebritiesJSONTransformer]
++[AWSRekognitionGetCelebrityRecognitionResponse jobStatusJSONTransformer]
+___73+[AWSRekognitionGetCelebrityRecognitionResponse jobStatusJSONTransformer]_block_invoke
+___73+[AWSRekognitionGetCelebrityRecognitionResponse jobStatusJSONTransformer]_block_invoke_2
++[AWSRekognitionGetCelebrityRecognitionResponse videoMetadataJSONTransformer]
+-[AWSRekognitionGetCelebrityRecognitionResponse celebrities]
+-[AWSRekognitionGetCelebrityRecognitionResponse setCelebrities:]
+-[AWSRekognitionGetCelebrityRecognitionResponse jobStatus]
+-[AWSRekognitionGetCelebrityRecognitionResponse setJobStatus:]
+-[AWSRekognitionGetCelebrityRecognitionResponse nextToken]
+-[AWSRekognitionGetCelebrityRecognitionResponse setNextToken:]
+-[AWSRekognitionGetCelebrityRecognitionResponse statusMessage]
+-[AWSRekognitionGetCelebrityRecognitionResponse setStatusMessage:]
+-[AWSRekognitionGetCelebrityRecognitionResponse videoMetadata]
+-[AWSRekognitionGetCelebrityRecognitionResponse setVideoMetadata:]
+-[AWSRekognitionGetCelebrityRecognitionResponse .cxx_destruct]
++[AWSRekognitionGetContentModerationRequest JSONKeyPathsByPropertyKey]
++[AWSRekognitionGetContentModerationRequest sortByJSONTransformer]
+___66+[AWSRekognitionGetContentModerationRequest sortByJSONTransformer]_block_invoke
+___66+[AWSRekognitionGetContentModerationRequest sortByJSONTransformer]_block_invoke_2
+-[AWSRekognitionGetContentModerationRequest jobId]
+-[AWSRekognitionGetContentModerationRequest setJobId:]
+-[AWSRekognitionGetContentModerationRequest maxResults]
+-[AWSRekognitionGetContentModerationRequest setMaxResults:]
+-[AWSRekognitionGetContentModerationRequest nextToken]
+-[AWSRekognitionGetContentModerationRequest setNextToken:]
+-[AWSRekognitionGetContentModerationRequest sortBy]
+-[AWSRekognitionGetContentModerationRequest setSortBy:]
+-[AWSRekognitionGetContentModerationRequest .cxx_destruct]
++[AWSRekognitionGetContentModerationResponse JSONKeyPathsByPropertyKey]
++[AWSRekognitionGetContentModerationResponse jobStatusJSONTransformer]
+___70+[AWSRekognitionGetContentModerationResponse jobStatusJSONTransformer]_block_invoke
+___70+[AWSRekognitionGetContentModerationResponse jobStatusJSONTransformer]_block_invoke_2
++[AWSRekognitionGetContentModerationResponse moderationLabelsJSONTransformer]
++[AWSRekognitionGetContentModerationResponse videoMetadataJSONTransformer]
+-[AWSRekognitionGetContentModerationResponse jobStatus]
+-[AWSRekognitionGetContentModerationResponse setJobStatus:]
+-[AWSRekognitionGetContentModerationResponse moderationLabels]
+-[AWSRekognitionGetContentModerationResponse setModerationLabels:]
+-[AWSRekognitionGetContentModerationResponse moderationModelVersion]
+-[AWSRekognitionGetContentModerationResponse setModerationModelVersion:]
+-[AWSRekognitionGetContentModerationResponse nextToken]
+-[AWSRekognitionGetContentModerationResponse setNextToken:]
+-[AWSRekognitionGetContentModerationResponse statusMessage]
+-[AWSRekognitionGetContentModerationResponse setStatusMessage:]
+-[AWSRekognitionGetContentModerationResponse videoMetadata]
+-[AWSRekognitionGetContentModerationResponse setVideoMetadata:]
+-[AWSRekognitionGetContentModerationResponse .cxx_destruct]
++[AWSRekognitionGetFaceDetectionRequest JSONKeyPathsByPropertyKey]
+-[AWSRekognitionGetFaceDetectionRequest jobId]
+-[AWSRekognitionGetFaceDetectionRequest setJobId:]
+-[AWSRekognitionGetFaceDetectionRequest maxResults]
+-[AWSRekognitionGetFaceDetectionRequest setMaxResults:]
+-[AWSRekognitionGetFaceDetectionRequest nextToken]
+-[AWSRekognitionGetFaceDetectionRequest setNextToken:]
+-[AWSRekognitionGetFaceDetectionRequest .cxx_destruct]
++[AWSRekognitionGetFaceDetectionResponse JSONKeyPathsByPropertyKey]
++[AWSRekognitionGetFaceDetectionResponse facesJSONTransformer]
++[AWSRekognitionGetFaceDetectionResponse jobStatusJSONTransformer]
+___66+[AWSRekognitionGetFaceDetectionResponse jobStatusJSONTransformer]_block_invoke
+___66+[AWSRekognitionGetFaceDetectionResponse jobStatusJSONTransformer]_block_invoke_2
++[AWSRekognitionGetFaceDetectionResponse videoMetadataJSONTransformer]
+-[AWSRekognitionGetFaceDetectionResponse faces]
+-[AWSRekognitionGetFaceDetectionResponse setFaces:]
+-[AWSRekognitionGetFaceDetectionResponse jobStatus]
+-[AWSRekognitionGetFaceDetectionResponse setJobStatus:]
+-[AWSRekognitionGetFaceDetectionResponse nextToken]
+-[AWSRekognitionGetFaceDetectionResponse setNextToken:]
+-[AWSRekognitionGetFaceDetectionResponse statusMessage]
+-[AWSRekognitionGetFaceDetectionResponse setStatusMessage:]
+-[AWSRekognitionGetFaceDetectionResponse videoMetadata]
+-[AWSRekognitionGetFaceDetectionResponse setVideoMetadata:]
+-[AWSRekognitionGetFaceDetectionResponse .cxx_destruct]
++[AWSRekognitionGetFaceSearchRequest JSONKeyPathsByPropertyKey]
++[AWSRekognitionGetFaceSearchRequest sortByJSONTransformer]
+___59+[AWSRekognitionGetFaceSearchRequest sortByJSONTransformer]_block_invoke
+___59+[AWSRekognitionGetFaceSearchRequest sortByJSONTransformer]_block_invoke_2
+-[AWSRekognitionGetFaceSearchRequest jobId]
+-[AWSRekognitionGetFaceSearchRequest setJobId:]
+-[AWSRekognitionGetFaceSearchRequest maxResults]
+-[AWSRekognitionGetFaceSearchRequest setMaxResults:]
+-[AWSRekognitionGetFaceSearchRequest nextToken]
+-[AWSRekognitionGetFaceSearchRequest setNextToken:]
+-[AWSRekognitionGetFaceSearchRequest sortBy]
+-[AWSRekognitionGetFaceSearchRequest setSortBy:]
+-[AWSRekognitionGetFaceSearchRequest .cxx_destruct]
++[AWSRekognitionGetFaceSearchResponse JSONKeyPathsByPropertyKey]
++[AWSRekognitionGetFaceSearchResponse jobStatusJSONTransformer]
+___63+[AWSRekognitionGetFaceSearchResponse jobStatusJSONTransformer]_block_invoke
+___63+[AWSRekognitionGetFaceSearchResponse jobStatusJSONTransformer]_block_invoke_2
++[AWSRekognitionGetFaceSearchResponse personsJSONTransformer]
++[AWSRekognitionGetFaceSearchResponse videoMetadataJSONTransformer]
+-[AWSRekognitionGetFaceSearchResponse jobStatus]
+-[AWSRekognitionGetFaceSearchResponse setJobStatus:]
+-[AWSRekognitionGetFaceSearchResponse nextToken]
+-[AWSRekognitionGetFaceSearchResponse setNextToken:]
+-[AWSRekognitionGetFaceSearchResponse persons]
+-[AWSRekognitionGetFaceSearchResponse setPersons:]
+-[AWSRekognitionGetFaceSearchResponse statusMessage]
+-[AWSRekognitionGetFaceSearchResponse setStatusMessage:]
+-[AWSRekognitionGetFaceSearchResponse videoMetadata]
+-[AWSRekognitionGetFaceSearchResponse setVideoMetadata:]
+-[AWSRekognitionGetFaceSearchResponse .cxx_destruct]
++[AWSRekognitionGetLabelDetectionRequest JSONKeyPathsByPropertyKey]
++[AWSRekognitionGetLabelDetectionRequest sortByJSONTransformer]
+___63+[AWSRekognitionGetLabelDetectionRequest sortByJSONTransformer]_block_invoke
+___63+[AWSRekognitionGetLabelDetectionRequest sortByJSONTransformer]_block_invoke_2
+-[AWSRekognitionGetLabelDetectionRequest jobId]
+-[AWSRekognitionGetLabelDetectionRequest setJobId:]
+-[AWSRekognitionGetLabelDetectionRequest maxResults]
+-[AWSRekognitionGetLabelDetectionRequest setMaxResults:]
+-[AWSRekognitionGetLabelDetectionRequest nextToken]
+-[AWSRekognitionGetLabelDetectionRequest setNextToken:]
+-[AWSRekognitionGetLabelDetectionRequest sortBy]
+-[AWSRekognitionGetLabelDetectionRequest setSortBy:]
+-[AWSRekognitionGetLabelDetectionRequest .cxx_destruct]
++[AWSRekognitionGetLabelDetectionResponse JSONKeyPathsByPropertyKey]
++[AWSRekognitionGetLabelDetectionResponse jobStatusJSONTransformer]
+___67+[AWSRekognitionGetLabelDetectionResponse jobStatusJSONTransformer]_block_invoke
+___67+[AWSRekognitionGetLabelDetectionResponse jobStatusJSONTransformer]_block_invoke_2
++[AWSRekognitionGetLabelDetectionResponse labelsJSONTransformer]
++[AWSRekognitionGetLabelDetectionResponse videoMetadataJSONTransformer]
+-[AWSRekognitionGetLabelDetectionResponse jobStatus]
+-[AWSRekognitionGetLabelDetectionResponse setJobStatus:]
+-[AWSRekognitionGetLabelDetectionResponse labelModelVersion]
+-[AWSRekognitionGetLabelDetectionResponse setLabelModelVersion:]
+-[AWSRekognitionGetLabelDetectionResponse labels]
+-[AWSRekognitionGetLabelDetectionResponse setLabels:]
+-[AWSRekognitionGetLabelDetectionResponse nextToken]
+-[AWSRekognitionGetLabelDetectionResponse setNextToken:]
+-[AWSRekognitionGetLabelDetectionResponse statusMessage]
+-[AWSRekognitionGetLabelDetectionResponse setStatusMessage:]
+-[AWSRekognitionGetLabelDetectionResponse videoMetadata]
+-[AWSRekognitionGetLabelDetectionResponse setVideoMetadata:]
+-[AWSRekognitionGetLabelDetectionResponse .cxx_destruct]
++[AWSRekognitionGetPersonTrackingRequest JSONKeyPathsByPropertyKey]
++[AWSRekognitionGetPersonTrackingRequest sortByJSONTransformer]
+___63+[AWSRekognitionGetPersonTrackingRequest sortByJSONTransformer]_block_invoke
+___63+[AWSRekognitionGetPersonTrackingRequest sortByJSONTransformer]_block_invoke_2
+-[AWSRekognitionGetPersonTrackingRequest jobId]
+-[AWSRekognitionGetPersonTrackingRequest setJobId:]
+-[AWSRekognitionGetPersonTrackingRequest maxResults]
+-[AWSRekognitionGetPersonTrackingRequest setMaxResults:]
+-[AWSRekognitionGetPersonTrackingRequest nextToken]
+-[AWSRekognitionGetPersonTrackingRequest setNextToken:]
+-[AWSRekognitionGetPersonTrackingRequest sortBy]
+-[AWSRekognitionGetPersonTrackingRequest setSortBy:]
+-[AWSRekognitionGetPersonTrackingRequest .cxx_destruct]
++[AWSRekognitionGetPersonTrackingResponse JSONKeyPathsByPropertyKey]
++[AWSRekognitionGetPersonTrackingResponse jobStatusJSONTransformer]
+___67+[AWSRekognitionGetPersonTrackingResponse jobStatusJSONTransformer]_block_invoke
+___67+[AWSRekognitionGetPersonTrackingResponse jobStatusJSONTransformer]_block_invoke_2
++[AWSRekognitionGetPersonTrackingResponse personsJSONTransformer]
++[AWSRekognitionGetPersonTrackingResponse videoMetadataJSONTransformer]
+-[AWSRekognitionGetPersonTrackingResponse jobStatus]
+-[AWSRekognitionGetPersonTrackingResponse setJobStatus:]
+-[AWSRekognitionGetPersonTrackingResponse nextToken]
+-[AWSRekognitionGetPersonTrackingResponse setNextToken:]
+-[AWSRekognitionGetPersonTrackingResponse persons]
+-[AWSRekognitionGetPersonTrackingResponse setPersons:]
+-[AWSRekognitionGetPersonTrackingResponse statusMessage]
+-[AWSRekognitionGetPersonTrackingResponse setStatusMessage:]
+-[AWSRekognitionGetPersonTrackingResponse videoMetadata]
+-[AWSRekognitionGetPersonTrackingResponse setVideoMetadata:]
+-[AWSRekognitionGetPersonTrackingResponse .cxx_destruct]
++[AWSRekognitionImage JSONKeyPathsByPropertyKey]
++[AWSRekognitionImage s3ObjectJSONTransformer]
+-[AWSRekognitionImage bytes]
+-[AWSRekognitionImage setBytes:]
+-[AWSRekognitionImage s3Object]
+-[AWSRekognitionImage setS3Object:]
+-[AWSRekognitionImage .cxx_destruct]
++[AWSRekognitionImageQuality JSONKeyPathsByPropertyKey]
+-[AWSRekognitionImageQuality brightness]
+-[AWSRekognitionImageQuality setBrightness:]
+-[AWSRekognitionImageQuality sharpness]
+-[AWSRekognitionImageQuality setSharpness:]
+-[AWSRekognitionImageQuality .cxx_destruct]
++[AWSRekognitionIndexFacesRequest JSONKeyPathsByPropertyKey]
++[AWSRekognitionIndexFacesRequest imageJSONTransformer]
++[AWSRekognitionIndexFacesRequest qualityFilterJSONTransformer]
+___63+[AWSRekognitionIndexFacesRequest qualityFilterJSONTransformer]_block_invoke
+___63+[AWSRekognitionIndexFacesRequest qualityFilterJSONTransformer]_block_invoke_2
+-[AWSRekognitionIndexFacesRequest collectionId]
+-[AWSRekognitionIndexFacesRequest setCollectionId:]
+-[AWSRekognitionIndexFacesRequest detectionAttributes]
+-[AWSRekognitionIndexFacesRequest setDetectionAttributes:]
+-[AWSRekognitionIndexFacesRequest externalImageId]
+-[AWSRekognitionIndexFacesRequest setExternalImageId:]
+-[AWSRekognitionIndexFacesRequest image]
+-[AWSRekognitionIndexFacesRequest setImage:]
+-[AWSRekognitionIndexFacesRequest maxFaces]
+-[AWSRekognitionIndexFacesRequest setMaxFaces:]
+-[AWSRekognitionIndexFacesRequest qualityFilter]
+-[AWSRekognitionIndexFacesRequest setQualityFilter:]
+-[AWSRekognitionIndexFacesRequest .cxx_destruct]
++[AWSRekognitionIndexFacesResponse JSONKeyPathsByPropertyKey]
++[AWSRekognitionIndexFacesResponse faceRecordsJSONTransformer]
++[AWSRekognitionIndexFacesResponse orientationCorrectionJSONTransformer]
+___72+[AWSRekognitionIndexFacesResponse orientationCorrectionJSONTransformer]_block_invoke
+___72+[AWSRekognitionIndexFacesResponse orientationCorrectionJSONTransformer]_block_invoke_2
++[AWSRekognitionIndexFacesResponse unindexedFacesJSONTransformer]
+-[AWSRekognitionIndexFacesResponse faceModelVersion]
+-[AWSRekognitionIndexFacesResponse setFaceModelVersion:]
+-[AWSRekognitionIndexFacesResponse faceRecords]
+-[AWSRekognitionIndexFacesResponse setFaceRecords:]
+-[AWSRekognitionIndexFacesResponse orientationCorrection]
+-[AWSRekognitionIndexFacesResponse setOrientationCorrection:]
+-[AWSRekognitionIndexFacesResponse unindexedFaces]
+-[AWSRekognitionIndexFacesResponse setUnindexedFaces:]
+-[AWSRekognitionIndexFacesResponse .cxx_destruct]
++[AWSRekognitionInstance JSONKeyPathsByPropertyKey]
++[AWSRekognitionInstance boundingBoxJSONTransformer]
+-[AWSRekognitionInstance boundingBox]
+-[AWSRekognitionInstance setBoundingBox:]
+-[AWSRekognitionInstance confidence]
+-[AWSRekognitionInstance setConfidence:]
+-[AWSRekognitionInstance .cxx_destruct]
++[AWSRekognitionKinesisDataStream JSONKeyPathsByPropertyKey]
+-[AWSRekognitionKinesisDataStream arn]
+-[AWSRekognitionKinesisDataStream setArn:]
+-[AWSRekognitionKinesisDataStream .cxx_destruct]
++[AWSRekognitionKinesisVideoStream JSONKeyPathsByPropertyKey]
+-[AWSRekognitionKinesisVideoStream arn]
+-[AWSRekognitionKinesisVideoStream setArn:]
+-[AWSRekognitionKinesisVideoStream .cxx_destruct]
++[AWSRekognitionLabel JSONKeyPathsByPropertyKey]
++[AWSRekognitionLabel instancesJSONTransformer]
++[AWSRekognitionLabel parentsJSONTransformer]
+-[AWSRekognitionLabel confidence]
+-[AWSRekognitionLabel setConfidence:]
+-[AWSRekognitionLabel instances]
+-[AWSRekognitionLabel setInstances:]
+-[AWSRekognitionLabel name]
+-[AWSRekognitionLabel setName:]
+-[AWSRekognitionLabel parents]
+-[AWSRekognitionLabel setParents:]
+-[AWSRekognitionLabel .cxx_destruct]
++[AWSRekognitionLabelDetection JSONKeyPathsByPropertyKey]
++[AWSRekognitionLabelDetection labelJSONTransformer]
+-[AWSRekognitionLabelDetection label]
+-[AWSRekognitionLabelDetection setLabel:]
+-[AWSRekognitionLabelDetection timestamp]
+-[AWSRekognitionLabelDetection setTimestamp:]
+-[AWSRekognitionLabelDetection .cxx_destruct]
++[AWSRekognitionLandmark JSONKeyPathsByPropertyKey]
++[AWSRekognitionLandmark typesJSONTransformer]
+___46+[AWSRekognitionLandmark typesJSONTransformer]_block_invoke
+___46+[AWSRekognitionLandmark typesJSONTransformer]_block_invoke_2
+-[AWSRekognitionLandmark types]
+-[AWSRekognitionLandmark setTypes:]
+-[AWSRekognitionLandmark X]
+-[AWSRekognitionLandmark setX:]
+-[AWSRekognitionLandmark Y]
+-[AWSRekognitionLandmark setY:]
+-[AWSRekognitionLandmark .cxx_destruct]
++[AWSRekognitionListCollectionsRequest JSONKeyPathsByPropertyKey]
+-[AWSRekognitionListCollectionsRequest maxResults]
+-[AWSRekognitionListCollectionsRequest setMaxResults:]
+-[AWSRekognitionListCollectionsRequest nextToken]
+-[AWSRekognitionListCollectionsRequest setNextToken:]
+-[AWSRekognitionListCollectionsRequest .cxx_destruct]
++[AWSRekognitionListCollectionsResponse JSONKeyPathsByPropertyKey]
+-[AWSRekognitionListCollectionsResponse collectionIds]
+-[AWSRekognitionListCollectionsResponse setCollectionIds:]
+-[AWSRekognitionListCollectionsResponse faceModelVersions]
+-[AWSRekognitionListCollectionsResponse setFaceModelVersions:]
+-[AWSRekognitionListCollectionsResponse nextToken]
+-[AWSRekognitionListCollectionsResponse setNextToken:]
+-[AWSRekognitionListCollectionsResponse .cxx_destruct]
++[AWSRekognitionListFacesRequest JSONKeyPathsByPropertyKey]
+-[AWSRekognitionListFacesRequest collectionId]
+-[AWSRekognitionListFacesRequest setCollectionId:]
+-[AWSRekognitionListFacesRequest maxResults]
+-[AWSRekognitionListFacesRequest setMaxResults:]
+-[AWSRekognitionListFacesRequest nextToken]
+-[AWSRekognitionListFacesRequest setNextToken:]
+-[AWSRekognitionListFacesRequest .cxx_destruct]
++[AWSRekognitionListFacesResponse JSONKeyPathsByPropertyKey]
++[AWSRekognitionListFacesResponse facesJSONTransformer]
+-[AWSRekognitionListFacesResponse faceModelVersion]
+-[AWSRekognitionListFacesResponse setFaceModelVersion:]
+-[AWSRekognitionListFacesResponse faces]
+-[AWSRekognitionListFacesResponse setFaces:]
+-[AWSRekognitionListFacesResponse nextToken]
+-[AWSRekognitionListFacesResponse setNextToken:]
+-[AWSRekognitionListFacesResponse .cxx_destruct]
++[AWSRekognitionListStreamProcessorsRequest JSONKeyPathsByPropertyKey]
+-[AWSRekognitionListStreamProcessorsRequest maxResults]
+-[AWSRekognitionListStreamProcessorsRequest setMaxResults:]
+-[AWSRekognitionListStreamProcessorsRequest nextToken]
+-[AWSRekognitionListStreamProcessorsRequest setNextToken:]
+-[AWSRekognitionListStreamProcessorsRequest .cxx_destruct]
++[AWSRekognitionListStreamProcessorsResponse JSONKeyPathsByPropertyKey]
++[AWSRekognitionListStreamProcessorsResponse streamProcessorsJSONTransformer]
+-[AWSRekognitionListStreamProcessorsResponse nextToken]
+-[AWSRekognitionListStreamProcessorsResponse setNextToken:]
+-[AWSRekognitionListStreamProcessorsResponse streamProcessors]
+-[AWSRekognitionListStreamProcessorsResponse setStreamProcessors:]
+-[AWSRekognitionListStreamProcessorsResponse .cxx_destruct]
++[AWSRekognitionModerationLabel JSONKeyPathsByPropertyKey]
+-[AWSRekognitionModerationLabel confidence]
+-[AWSRekognitionModerationLabel setConfidence:]
+-[AWSRekognitionModerationLabel name]
+-[AWSRekognitionModerationLabel setName:]
+-[AWSRekognitionModerationLabel parentName]
+-[AWSRekognitionModerationLabel setParentName:]
+-[AWSRekognitionModerationLabel .cxx_destruct]
++[AWSRekognitionMouthOpen JSONKeyPathsByPropertyKey]
+-[AWSRekognitionMouthOpen confidence]
+-[AWSRekognitionMouthOpen setConfidence:]
+-[AWSRekognitionMouthOpen value]
+-[AWSRekognitionMouthOpen setValue:]
+-[AWSRekognitionMouthOpen .cxx_destruct]
++[AWSRekognitionMustache JSONKeyPathsByPropertyKey]
+-[AWSRekognitionMustache confidence]
+-[AWSRekognitionMustache setConfidence:]
+-[AWSRekognitionMustache value]
+-[AWSRekognitionMustache setValue:]
+-[AWSRekognitionMustache .cxx_destruct]
++[AWSRekognitionNotificationChannel JSONKeyPathsByPropertyKey]
+-[AWSRekognitionNotificationChannel roleArn]
+-[AWSRekognitionNotificationChannel setRoleArn:]
+-[AWSRekognitionNotificationChannel SNSTopicArn]
+-[AWSRekognitionNotificationChannel setSNSTopicArn:]
+-[AWSRekognitionNotificationChannel .cxx_destruct]
++[AWSRekognitionParent JSONKeyPathsByPropertyKey]
+-[AWSRekognitionParent name]
+-[AWSRekognitionParent setName:]
+-[AWSRekognitionParent .cxx_destruct]
++[AWSRekognitionPersonDetail JSONKeyPathsByPropertyKey]
++[AWSRekognitionPersonDetail boundingBoxJSONTransformer]
++[AWSRekognitionPersonDetail faceJSONTransformer]
+-[AWSRekognitionPersonDetail boundingBox]
+-[AWSRekognitionPersonDetail setBoundingBox:]
+-[AWSRekognitionPersonDetail face]
+-[AWSRekognitionPersonDetail setFace:]
+-[AWSRekognitionPersonDetail index]
+-[AWSRekognitionPersonDetail setIndex:]
+-[AWSRekognitionPersonDetail .cxx_destruct]
++[AWSRekognitionPersonDetection JSONKeyPathsByPropertyKey]
++[AWSRekognitionPersonDetection personJSONTransformer]
+-[AWSRekognitionPersonDetection person]
+-[AWSRekognitionPersonDetection setPerson:]
+-[AWSRekognitionPersonDetection timestamp]
+-[AWSRekognitionPersonDetection setTimestamp:]
+-[AWSRekognitionPersonDetection .cxx_destruct]
++[AWSRekognitionPersonMatch JSONKeyPathsByPropertyKey]
++[AWSRekognitionPersonMatch faceMatchesJSONTransformer]
++[AWSRekognitionPersonMatch personJSONTransformer]
+-[AWSRekognitionPersonMatch faceMatches]
+-[AWSRekognitionPersonMatch setFaceMatches:]
+-[AWSRekognitionPersonMatch person]
+-[AWSRekognitionPersonMatch setPerson:]
+-[AWSRekognitionPersonMatch timestamp]
+-[AWSRekognitionPersonMatch setTimestamp:]
+-[AWSRekognitionPersonMatch .cxx_destruct]
++[AWSRekognitionPoint JSONKeyPathsByPropertyKey]
+-[AWSRekognitionPoint X]
+-[AWSRekognitionPoint setX:]
+-[AWSRekognitionPoint Y]
+-[AWSRekognitionPoint setY:]
+-[AWSRekognitionPoint .cxx_destruct]
++[AWSRekognitionPose JSONKeyPathsByPropertyKey]
+-[AWSRekognitionPose pitch]
+-[AWSRekognitionPose setPitch:]
+-[AWSRekognitionPose roll]
+-[AWSRekognitionPose setRoll:]
+-[AWSRekognitionPose yaw]
+-[AWSRekognitionPose setYaw:]
+-[AWSRekognitionPose .cxx_destruct]
++[AWSRekognitionRecognizeCelebritiesRequest JSONKeyPathsByPropertyKey]
++[AWSRekognitionRecognizeCelebritiesRequest imageJSONTransformer]
+-[AWSRekognitionRecognizeCelebritiesRequest image]
+-[AWSRekognitionRecognizeCelebritiesRequest setImage:]
+-[AWSRekognitionRecognizeCelebritiesRequest .cxx_destruct]
++[AWSRekognitionRecognizeCelebritiesResponse JSONKeyPathsByPropertyKey]
++[AWSRekognitionRecognizeCelebritiesResponse celebrityFacesJSONTransformer]
++[AWSRekognitionRecognizeCelebritiesResponse orientationCorrectionJSONTransformer]
+___82+[AWSRekognitionRecognizeCelebritiesResponse orientationCorrectionJSONTransformer]_block_invoke
+___82+[AWSRekognitionRecognizeCelebritiesResponse orientationCorrectionJSONTransformer]_block_invoke_2
++[AWSRekognitionRecognizeCelebritiesResponse unrecognizedFacesJSONTransformer]
+-[AWSRekognitionRecognizeCelebritiesResponse celebrityFaces]
+-[AWSRekognitionRecognizeCelebritiesResponse setCelebrityFaces:]
+-[AWSRekognitionRecognizeCelebritiesResponse orientationCorrection]
+-[AWSRekognitionRecognizeCelebritiesResponse setOrientationCorrection:]
+-[AWSRekognitionRecognizeCelebritiesResponse unrecognizedFaces]
+-[AWSRekognitionRecognizeCelebritiesResponse setUnrecognizedFaces:]
+-[AWSRekognitionRecognizeCelebritiesResponse .cxx_destruct]
++[AWSRekognitionS3Object JSONKeyPathsByPropertyKey]
+-[AWSRekognitionS3Object bucket]
+-[AWSRekognitionS3Object setBucket:]
+-[AWSRekognitionS3Object name]
+-[AWSRekognitionS3Object setName:]
+-[AWSRekognitionS3Object version]
+-[AWSRekognitionS3Object setVersion:]
+-[AWSRekognitionS3Object .cxx_destruct]
++[AWSRekognitionSearchFacesByImageRequest JSONKeyPathsByPropertyKey]
++[AWSRekognitionSearchFacesByImageRequest imageJSONTransformer]
+-[AWSRekognitionSearchFacesByImageRequest collectionId]
+-[AWSRekognitionSearchFacesByImageRequest setCollectionId:]
+-[AWSRekognitionSearchFacesByImageRequest faceMatchThreshold]
+-[AWSRekognitionSearchFacesByImageRequest setFaceMatchThreshold:]
+-[AWSRekognitionSearchFacesByImageRequest image]
+-[AWSRekognitionSearchFacesByImageRequest setImage:]
+-[AWSRekognitionSearchFacesByImageRequest maxFaces]
+-[AWSRekognitionSearchFacesByImageRequest setMaxFaces:]
+-[AWSRekognitionSearchFacesByImageRequest .cxx_destruct]
++[AWSRekognitionSearchFacesByImageResponse JSONKeyPathsByPropertyKey]
++[AWSRekognitionSearchFacesByImageResponse faceMatchesJSONTransformer]
++[AWSRekognitionSearchFacesByImageResponse searchedFaceBoundingBoxJSONTransformer]
+-[AWSRekognitionSearchFacesByImageResponse faceMatches]
+-[AWSRekognitionSearchFacesByImageResponse setFaceMatches:]
+-[AWSRekognitionSearchFacesByImageResponse faceModelVersion]
+-[AWSRekognitionSearchFacesByImageResponse setFaceModelVersion:]
+-[AWSRekognitionSearchFacesByImageResponse searchedFaceBoundingBox]
+-[AWSRekognitionSearchFacesByImageResponse setSearchedFaceBoundingBox:]
+-[AWSRekognitionSearchFacesByImageResponse searchedFaceConfidence]
+-[AWSRekognitionSearchFacesByImageResponse setSearchedFaceConfidence:]
+-[AWSRekognitionSearchFacesByImageResponse .cxx_destruct]
++[AWSRekognitionSearchFacesRequest JSONKeyPathsByPropertyKey]
+-[AWSRekognitionSearchFacesRequest collectionId]
+-[AWSRekognitionSearchFacesRequest setCollectionId:]
+-[AWSRekognitionSearchFacesRequest faceId]
+-[AWSRekognitionSearchFacesRequest setFaceId:]
+-[AWSRekognitionSearchFacesRequest faceMatchThreshold]
+-[AWSRekognitionSearchFacesRequest setFaceMatchThreshold:]
+-[AWSRekognitionSearchFacesRequest maxFaces]
+-[AWSRekognitionSearchFacesRequest setMaxFaces:]
+-[AWSRekognitionSearchFacesRequest .cxx_destruct]
++[AWSRekognitionSearchFacesResponse JSONKeyPathsByPropertyKey]
++[AWSRekognitionSearchFacesResponse faceMatchesJSONTransformer]
+-[AWSRekognitionSearchFacesResponse faceMatches]
+-[AWSRekognitionSearchFacesResponse setFaceMatches:]
+-[AWSRekognitionSearchFacesResponse faceModelVersion]
+-[AWSRekognitionSearchFacesResponse setFaceModelVersion:]
+-[AWSRekognitionSearchFacesResponse searchedFaceId]
+-[AWSRekognitionSearchFacesResponse setSearchedFaceId:]
+-[AWSRekognitionSearchFacesResponse .cxx_destruct]
++[AWSRekognitionSmile JSONKeyPathsByPropertyKey]
+-[AWSRekognitionSmile confidence]
+-[AWSRekognitionSmile setConfidence:]
+-[AWSRekognitionSmile value]
+-[AWSRekognitionSmile setValue:]
+-[AWSRekognitionSmile .cxx_destruct]
++[AWSRekognitionStartCelebrityRecognitionRequest JSONKeyPathsByPropertyKey]
++[AWSRekognitionStartCelebrityRecognitionRequest notificationChannelJSONTransformer]
++[AWSRekognitionStartCelebrityRecognitionRequest videoJSONTransformer]
+-[AWSRekognitionStartCelebrityRecognitionRequest clientRequestToken]
+-[AWSRekognitionStartCelebrityRecognitionRequest setClientRequestToken:]
+-[AWSRekognitionStartCelebrityRecognitionRequest jobTag]
+-[AWSRekognitionStartCelebrityRecognitionRequest setJobTag:]
+-[AWSRekognitionStartCelebrityRecognitionRequest notificationChannel]
+-[AWSRekognitionStartCelebrityRecognitionRequest setNotificationChannel:]
+-[AWSRekognitionStartCelebrityRecognitionRequest video]
+-[AWSRekognitionStartCelebrityRecognitionRequest setVideo:]
+-[AWSRekognitionStartCelebrityRecognitionRequest .cxx_destruct]
++[AWSRekognitionStartCelebrityRecognitionResponse JSONKeyPathsByPropertyKey]
+-[AWSRekognitionStartCelebrityRecognitionResponse jobId]
+-[AWSRekognitionStartCelebrityRecognitionResponse setJobId:]
+-[AWSRekognitionStartCelebrityRecognitionResponse .cxx_destruct]
++[AWSRekognitionStartContentModerationRequest JSONKeyPathsByPropertyKey]
++[AWSRekognitionStartContentModerationRequest notificationChannelJSONTransformer]
++[AWSRekognitionStartContentModerationRequest videoJSONTransformer]
+-[AWSRekognitionStartContentModerationRequest clientRequestToken]
+-[AWSRekognitionStartContentModerationRequest setClientRequestToken:]
+-[AWSRekognitionStartContentModerationRequest jobTag]
+-[AWSRekognitionStartContentModerationRequest setJobTag:]
+-[AWSRekognitionStartContentModerationRequest minConfidence]
+-[AWSRekognitionStartContentModerationRequest setMinConfidence:]
+-[AWSRekognitionStartContentModerationRequest notificationChannel]
+-[AWSRekognitionStartContentModerationRequest setNotificationChannel:]
+-[AWSRekognitionStartContentModerationRequest video]
+-[AWSRekognitionStartContentModerationRequest setVideo:]
+-[AWSRekognitionStartContentModerationRequest .cxx_destruct]
++[AWSRekognitionStartContentModerationResponse JSONKeyPathsByPropertyKey]
+-[AWSRekognitionStartContentModerationResponse jobId]
+-[AWSRekognitionStartContentModerationResponse setJobId:]
+-[AWSRekognitionStartContentModerationResponse .cxx_destruct]
++[AWSRekognitionStartFaceDetectionRequest JSONKeyPathsByPropertyKey]
++[AWSRekognitionStartFaceDetectionRequest faceAttributesJSONTransformer]
+___72+[AWSRekognitionStartFaceDetectionRequest faceAttributesJSONTransformer]_block_invoke
+___72+[AWSRekognitionStartFaceDetectionRequest faceAttributesJSONTransformer]_block_invoke_2
++[AWSRekognitionStartFaceDetectionRequest notificationChannelJSONTransformer]
++[AWSRekognitionStartFaceDetectionRequest videoJSONTransformer]
+-[AWSRekognitionStartFaceDetectionRequest clientRequestToken]
+-[AWSRekognitionStartFaceDetectionRequest setClientRequestToken:]
+-[AWSRekognitionStartFaceDetectionRequest faceAttributes]
+-[AWSRekognitionStartFaceDetectionRequest setFaceAttributes:]
+-[AWSRekognitionStartFaceDetectionRequest jobTag]
+-[AWSRekognitionStartFaceDetectionRequest setJobTag:]
+-[AWSRekognitionStartFaceDetectionRequest notificationChannel]
+-[AWSRekognitionStartFaceDetectionRequest setNotificationChannel:]
+-[AWSRekognitionStartFaceDetectionRequest video]
+-[AWSRekognitionStartFaceDetectionRequest setVideo:]
+-[AWSRekognitionStartFaceDetectionRequest .cxx_destruct]
++[AWSRekognitionStartFaceDetectionResponse JSONKeyPathsByPropertyKey]
+-[AWSRekognitionStartFaceDetectionResponse jobId]
+-[AWSRekognitionStartFaceDetectionResponse setJobId:]
+-[AWSRekognitionStartFaceDetectionResponse .cxx_destruct]
++[AWSRekognitionStartFaceSearchRequest JSONKeyPathsByPropertyKey]
++[AWSRekognitionStartFaceSearchRequest notificationChannelJSONTransformer]
++[AWSRekognitionStartFaceSearchRequest videoJSONTransformer]
+-[AWSRekognitionStartFaceSearchRequest clientRequestToken]
+-[AWSRekognitionStartFaceSearchRequest setClientRequestToken:]
+-[AWSRekognitionStartFaceSearchRequest collectionId]
+-[AWSRekognitionStartFaceSearchRequest setCollectionId:]
+-[AWSRekognitionStartFaceSearchRequest faceMatchThreshold]
+-[AWSRekognitionStartFaceSearchRequest setFaceMatchThreshold:]
+-[AWSRekognitionStartFaceSearchRequest jobTag]
+-[AWSRekognitionStartFaceSearchRequest setJobTag:]
+-[AWSRekognitionStartFaceSearchRequest notificationChannel]
+-[AWSRekognitionStartFaceSearchRequest setNotificationChannel:]
+-[AWSRekognitionStartFaceSearchRequest video]
+-[AWSRekognitionStartFaceSearchRequest setVideo:]
+-[AWSRekognitionStartFaceSearchRequest .cxx_destruct]
++[AWSRekognitionStartFaceSearchResponse JSONKeyPathsByPropertyKey]
+-[AWSRekognitionStartFaceSearchResponse jobId]
+-[AWSRekognitionStartFaceSearchResponse setJobId:]
+-[AWSRekognitionStartFaceSearchResponse .cxx_destruct]
++[AWSRekognitionStartLabelDetectionRequest JSONKeyPathsByPropertyKey]
++[AWSRekognitionStartLabelDetectionRequest notificationChannelJSONTransformer]
++[AWSRekognitionStartLabelDetectionRequest videoJSONTransformer]
+-[AWSRekognitionStartLabelDetectionRequest clientRequestToken]
+-[AWSRekognitionStartLabelDetectionRequest setClientRequestToken:]
+-[AWSRekognitionStartLabelDetectionRequest jobTag]
+-[AWSRekognitionStartLabelDetectionRequest setJobTag:]
+-[AWSRekognitionStartLabelDetectionRequest minConfidence]
+-[AWSRekognitionStartLabelDetectionRequest setMinConfidence:]
+-[AWSRekognitionStartLabelDetectionRequest notificationChannel]
+-[AWSRekognitionStartLabelDetectionRequest setNotificationChannel:]
+-[AWSRekognitionStartLabelDetectionRequest video]
+-[AWSRekognitionStartLabelDetectionRequest setVideo:]
+-[AWSRekognitionStartLabelDetectionRequest .cxx_destruct]
++[AWSRekognitionStartLabelDetectionResponse JSONKeyPathsByPropertyKey]
+-[AWSRekognitionStartLabelDetectionResponse jobId]
+-[AWSRekognitionStartLabelDetectionResponse setJobId:]
+-[AWSRekognitionStartLabelDetectionResponse .cxx_destruct]
++[AWSRekognitionStartPersonTrackingRequest JSONKeyPathsByPropertyKey]
++[AWSRekognitionStartPersonTrackingRequest notificationChannelJSONTransformer]
++[AWSRekognitionStartPersonTrackingRequest videoJSONTransformer]
+-[AWSRekognitionStartPersonTrackingRequest clientRequestToken]
+-[AWSRekognitionStartPersonTrackingRequest setClientRequestToken:]
+-[AWSRekognitionStartPersonTrackingRequest jobTag]
+-[AWSRekognitionStartPersonTrackingRequest setJobTag:]
+-[AWSRekognitionStartPersonTrackingRequest notificationChannel]
+-[AWSRekognitionStartPersonTrackingRequest setNotificationChannel:]
+-[AWSRekognitionStartPersonTrackingRequest video]
+-[AWSRekognitionStartPersonTrackingRequest setVideo:]
+-[AWSRekognitionStartPersonTrackingRequest .cxx_destruct]
++[AWSRekognitionStartPersonTrackingResponse JSONKeyPathsByPropertyKey]
+-[AWSRekognitionStartPersonTrackingResponse jobId]
+-[AWSRekognitionStartPersonTrackingResponse setJobId:]
+-[AWSRekognitionStartPersonTrackingResponse .cxx_destruct]
++[AWSRekognitionStartStreamProcessorRequest JSONKeyPathsByPropertyKey]
+-[AWSRekognitionStartStreamProcessorRequest name]
+-[AWSRekognitionStartStreamProcessorRequest setName:]
+-[AWSRekognitionStartStreamProcessorRequest .cxx_destruct]
++[AWSRekognitionStopStreamProcessorRequest JSONKeyPathsByPropertyKey]
+-[AWSRekognitionStopStreamProcessorRequest name]
+-[AWSRekognitionStopStreamProcessorRequest setName:]
+-[AWSRekognitionStopStreamProcessorRequest .cxx_destruct]
++[AWSRekognitionStreamProcessor JSONKeyPathsByPropertyKey]
++[AWSRekognitionStreamProcessor statusJSONTransformer]
+___54+[AWSRekognitionStreamProcessor statusJSONTransformer]_block_invoke
+___54+[AWSRekognitionStreamProcessor statusJSONTransformer]_block_invoke_2
+-[AWSRekognitionStreamProcessor name]
+-[AWSRekognitionStreamProcessor setName:]
+-[AWSRekognitionStreamProcessor status]
+-[AWSRekognitionStreamProcessor setStatus:]
+-[AWSRekognitionStreamProcessor .cxx_destruct]
++[AWSRekognitionStreamProcessorInput JSONKeyPathsByPropertyKey]
++[AWSRekognitionStreamProcessorInput kinesisVideoStreamJSONTransformer]
+-[AWSRekognitionStreamProcessorInput kinesisVideoStream]
+-[AWSRekognitionStreamProcessorInput setKinesisVideoStream:]
+-[AWSRekognitionStreamProcessorInput .cxx_destruct]
++[AWSRekognitionStreamProcessorOutput JSONKeyPathsByPropertyKey]
++[AWSRekognitionStreamProcessorOutput kinesisDataStreamJSONTransformer]
+-[AWSRekognitionStreamProcessorOutput kinesisDataStream]
+-[AWSRekognitionStreamProcessorOutput setKinesisDataStream:]
+-[AWSRekognitionStreamProcessorOutput .cxx_destruct]
++[AWSRekognitionStreamProcessorSettings JSONKeyPathsByPropertyKey]
++[AWSRekognitionStreamProcessorSettings faceSearchJSONTransformer]
+-[AWSRekognitionStreamProcessorSettings faceSearch]
+-[AWSRekognitionStreamProcessorSettings setFaceSearch:]
+-[AWSRekognitionStreamProcessorSettings .cxx_destruct]
++[AWSRekognitionSunglasses JSONKeyPathsByPropertyKey]
+-[AWSRekognitionSunglasses confidence]
+-[AWSRekognitionSunglasses setConfidence:]
+-[AWSRekognitionSunglasses value]
+-[AWSRekognitionSunglasses setValue:]
+-[AWSRekognitionSunglasses .cxx_destruct]
++[AWSRekognitionTextDetection JSONKeyPathsByPropertyKey]
++[AWSRekognitionTextDetection geometryJSONTransformer]
++[AWSRekognitionTextDetection typesJSONTransformer]
+___51+[AWSRekognitionTextDetection typesJSONTransformer]_block_invoke
+___51+[AWSRekognitionTextDetection typesJSONTransformer]_block_invoke_2
+-[AWSRekognitionTextDetection confidence]
+-[AWSRekognitionTextDetection setConfidence:]
+-[AWSRekognitionTextDetection detectedText]
+-[AWSRekognitionTextDetection setDetectedText:]
+-[AWSRekognitionTextDetection geometry]
+-[AWSRekognitionTextDetection setGeometry:]
+-[AWSRekognitionTextDetection identifier]
+-[AWSRekognitionTextDetection setIdentifier:]
+-[AWSRekognitionTextDetection parentId]
+-[AWSRekognitionTextDetection setParentId:]
+-[AWSRekognitionTextDetection types]
+-[AWSRekognitionTextDetection setTypes:]
+-[AWSRekognitionTextDetection .cxx_destruct]
++[AWSRekognitionUnindexedFace JSONKeyPathsByPropertyKey]
++[AWSRekognitionUnindexedFace faceDetailJSONTransformer]
+-[AWSRekognitionUnindexedFace faceDetail]
+-[AWSRekognitionUnindexedFace setFaceDetail:]
+-[AWSRekognitionUnindexedFace reasons]
+-[AWSRekognitionUnindexedFace setReasons:]
+-[AWSRekognitionUnindexedFace .cxx_destruct]
++[AWSRekognitionVideo JSONKeyPathsByPropertyKey]
++[AWSRekognitionVideo s3ObjectJSONTransformer]
+-[AWSRekognitionVideo s3Object]
+-[AWSRekognitionVideo setS3Object:]
+-[AWSRekognitionVideo .cxx_destruct]
++[AWSRekognitionVideoMetadata JSONKeyPathsByPropertyKey]
+-[AWSRekognitionVideoMetadata codec]
+-[AWSRekognitionVideoMetadata setCodec:]
+-[AWSRekognitionVideoMetadata durationMillis]
+-[AWSRekognitionVideoMetadata setDurationMillis:]
+-[AWSRekognitionVideoMetadata format]
+-[AWSRekognitionVideoMetadata setFormat:]
+-[AWSRekognitionVideoMetadata frameHeight]
+-[AWSRekognitionVideoMetadata setFrameHeight:]
+-[AWSRekognitionVideoMetadata frameRate]
+-[AWSRekognitionVideoMetadata setFrameRate:]
+-[AWSRekognitionVideoMetadata frameWidth]
+-[AWSRekognitionVideoMetadata setFrameWidth:]
+-[AWSRekognitionVideoMetadata .cxx_destruct]
+_OBJC_IVAR_$_AWSRekognitionAgeRange._high
+_OBJC_IVAR_$_AWSRekognitionAgeRange._low
+_OBJC_IVAR_$_AWSRekognitionBeard._confidence
+_OBJC_IVAR_$_AWSRekognitionBeard._value
+_OBJC_IVAR_$_AWSRekognitionBoundingBox._height
+_OBJC_IVAR_$_AWSRekognitionBoundingBox._left
+_OBJC_IVAR_$_AWSRekognitionBoundingBox._top
+_OBJC_IVAR_$_AWSRekognitionBoundingBox._width
+_OBJC_IVAR_$_AWSRekognitionCelebrity._face
+_OBJC_IVAR_$_AWSRekognitionCelebrity._identifier
+_OBJC_IVAR_$_AWSRekognitionCelebrity._matchConfidence
+_OBJC_IVAR_$_AWSRekognitionCelebrity._name
+_OBJC_IVAR_$_AWSRekognitionCelebrity._urls
+_OBJC_IVAR_$_AWSRekognitionCelebrityDetail._boundingBox
+_OBJC_IVAR_$_AWSRekognitionCelebrityDetail._confidence
+_OBJC_IVAR_$_AWSRekognitionCelebrityDetail._face
+_OBJC_IVAR_$_AWSRekognitionCelebrityDetail._identifier
+_OBJC_IVAR_$_AWSRekognitionCelebrityDetail._name
+_OBJC_IVAR_$_AWSRekognitionCelebrityDetail._urls
+_OBJC_IVAR_$_AWSRekognitionCelebrityRecognition._celebrity
+_OBJC_IVAR_$_AWSRekognitionCelebrityRecognition._timestamp
+_OBJC_IVAR_$_AWSRekognitionCompareFacesMatch._face
+_OBJC_IVAR_$_AWSRekognitionCompareFacesMatch._similarity
+_OBJC_IVAR_$_AWSRekognitionCompareFacesRequest._similarityThreshold
+_OBJC_IVAR_$_AWSRekognitionCompareFacesRequest._sourceImage
+_OBJC_IVAR_$_AWSRekognitionCompareFacesRequest._targetImage
+___block_literal_global.264
+___block_descriptor_tmp.269
+___block_literal_global.270
+___block_literal_global.272
+_OBJC_IVAR_$_AWSRekognitionCompareFacesResponse._faceMatches
+_OBJC_IVAR_$_AWSRekognitionCompareFacesResponse._sourceImageFace
+_OBJC_IVAR_$_AWSRekognitionCompareFacesResponse._sourceImageOrientationCorrection
+_OBJC_IVAR_$_AWSRekognitionCompareFacesResponse._targetImageOrientationCorrection
+_OBJC_IVAR_$_AWSRekognitionCompareFacesResponse._unmatchedFaces
+_OBJC_IVAR_$_AWSRekognitionComparedFace._boundingBox
+_OBJC_IVAR_$_AWSRekognitionComparedFace._confidence
+_OBJC_IVAR_$_AWSRekognitionComparedFace._landmarks
+_OBJC_IVAR_$_AWSRekognitionComparedFace._pose
+_OBJC_IVAR_$_AWSRekognitionComparedFace._quality
+_OBJC_IVAR_$_AWSRekognitionComparedSourceImageFace._boundingBox
+_OBJC_IVAR_$_AWSRekognitionComparedSourceImageFace._confidence
+_OBJC_IVAR_$_AWSRekognitionContentModerationDetection._moderationLabel
+_OBJC_IVAR_$_AWSRekognitionContentModerationDetection._timestamp
+_OBJC_IVAR_$_AWSRekognitionCreateCollectionRequest._collectionId
+_OBJC_IVAR_$_AWSRekognitionCreateCollectionResponse._collectionArn
+_OBJC_IVAR_$_AWSRekognitionCreateCollectionResponse._faceModelVersion
+_OBJC_IVAR_$_AWSRekognitionCreateCollectionResponse._statusCode
+_OBJC_IVAR_$_AWSRekognitionCreateStreamProcessorRequest._input
+_OBJC_IVAR_$_AWSRekognitionCreateStreamProcessorRequest._name
+_OBJC_IVAR_$_AWSRekognitionCreateStreamProcessorRequest._output
+_OBJC_IVAR_$_AWSRekognitionCreateStreamProcessorRequest._roleArn
+_OBJC_IVAR_$_AWSRekognitionCreateStreamProcessorRequest._settings
+_OBJC_IVAR_$_AWSRekognitionCreateStreamProcessorResponse._streamProcessorArn
+_OBJC_IVAR_$_AWSRekognitionDeleteCollectionRequest._collectionId
+_OBJC_IVAR_$_AWSRekognitionDeleteCollectionResponse._statusCode
+_OBJC_IVAR_$_AWSRekognitionDeleteFacesRequest._collectionId
+_OBJC_IVAR_$_AWSRekognitionDeleteFacesRequest._faceIds
+_OBJC_IVAR_$_AWSRekognitionDeleteFacesResponse._deletedFaces
+_OBJC_IVAR_$_AWSRekognitionDeleteStreamProcessorRequest._name
+_OBJC_IVAR_$_AWSRekognitionDescribeCollectionRequest._collectionId
+___block_descriptor_tmp.504
+___block_literal_global.505
+___block_descriptor_tmp.512
+___block_literal_global.513
+_OBJC_IVAR_$_AWSRekognitionDescribeCollectionResponse._collectionARN
+_OBJC_IVAR_$_AWSRekognitionDescribeCollectionResponse._creationTimestamp
+_OBJC_IVAR_$_AWSRekognitionDescribeCollectionResponse._faceCount
+_OBJC_IVAR_$_AWSRekognitionDescribeCollectionResponse._faceModelVersion
+_OBJC_IVAR_$_AWSRekognitionDescribeStreamProcessorRequest._name
+___block_descriptor_tmp.554
+___block_literal_global.555
+___block_descriptor_tmp.556
+___block_literal_global.557
+___block_descriptor_tmp.558
+___block_literal_global.559
+___block_descriptor_tmp.560
+___block_literal_global.561
+___block_descriptor_tmp.562
+___block_literal_global.563
+___block_descriptor_tmp.574
+___block_literal_global.575
+_OBJC_IVAR_$_AWSRekognitionDescribeStreamProcessorResponse._creationTimestamp
+_OBJC_IVAR_$_AWSRekognitionDescribeStreamProcessorResponse._input
+_OBJC_IVAR_$_AWSRekognitionDescribeStreamProcessorResponse._lastUpdateTimestamp
+_OBJC_IVAR_$_AWSRekognitionDescribeStreamProcessorResponse._name
+_OBJC_IVAR_$_AWSRekognitionDescribeStreamProcessorResponse._output
+_OBJC_IVAR_$_AWSRekognitionDescribeStreamProcessorResponse._roleArn
+_OBJC_IVAR_$_AWSRekognitionDescribeStreamProcessorResponse._settings
+_OBJC_IVAR_$_AWSRekognitionDescribeStreamProcessorResponse._status
+_OBJC_IVAR_$_AWSRekognitionDescribeStreamProcessorResponse._statusMessage
+_OBJC_IVAR_$_AWSRekognitionDescribeStreamProcessorResponse._streamProcessorArn
+_OBJC_IVAR_$_AWSRekognitionDetectFacesRequest._attributes
+_OBJC_IVAR_$_AWSRekognitionDetectFacesRequest._image
+___block_descriptor_tmp.624
+___block_literal_global.625
+___block_descriptor_tmp.626
+___block_literal_global.627
+_OBJC_IVAR_$_AWSRekognitionDetectFacesResponse._faceDetails
+_OBJC_IVAR_$_AWSRekognitionDetectFacesResponse._orientationCorrection
+_OBJC_IVAR_$_AWSRekognitionDetectLabelsRequest._image
+_OBJC_IVAR_$_AWSRekognitionDetectLabelsRequest._maxLabels
+_OBJC_IVAR_$_AWSRekognitionDetectLabelsRequest._minConfidence
+___block_descriptor_tmp.671
+___block_literal_global.672
+___block_descriptor_tmp.673
+___block_literal_global.674
+_OBJC_IVAR_$_AWSRekognitionDetectLabelsResponse._labelModelVersion
+_OBJC_IVAR_$_AWSRekognitionDetectLabelsResponse._labels
+_OBJC_IVAR_$_AWSRekognitionDetectLabelsResponse._orientationCorrection
+_OBJC_IVAR_$_AWSRekognitionDetectModerationLabelsRequest._image
+_OBJC_IVAR_$_AWSRekognitionDetectModerationLabelsRequest._minConfidence
+_OBJC_IVAR_$_AWSRekognitionDetectModerationLabelsResponse._moderationLabels
+_OBJC_IVAR_$_AWSRekognitionDetectModerationLabelsResponse._moderationModelVersion
+_OBJC_IVAR_$_AWSRekognitionDetectTextRequest._image
+_OBJC_IVAR_$_AWSRekognitionDetectTextResponse._textDetections
+___block_descriptor_tmp.730
+___block_literal_global.731
+___block_descriptor_tmp.748
+___block_literal_global.749
+_OBJC_IVAR_$_AWSRekognitionEmotion._confidence
+_OBJC_IVAR_$_AWSRekognitionEmotion._types
+_OBJC_IVAR_$_AWSRekognitionEyeOpen._confidence
+_OBJC_IVAR_$_AWSRekognitionEyeOpen._value
+_OBJC_IVAR_$_AWSRekognitionEyeglasses._confidence
+_OBJC_IVAR_$_AWSRekognitionEyeglasses._value
+_OBJC_IVAR_$_AWSRekognitionFace._boundingBox
+_OBJC_IVAR_$_AWSRekognitionFace._confidence
+_OBJC_IVAR_$_AWSRekognitionFace._externalImageId
+_OBJC_IVAR_$_AWSRekognitionFace._faceId
+_OBJC_IVAR_$_AWSRekognitionFace._imageId
+_OBJC_IVAR_$_AWSRekognitionFaceDetail._ageRange
+_OBJC_IVAR_$_AWSRekognitionFaceDetail._beard
+_OBJC_IVAR_$_AWSRekognitionFaceDetail._boundingBox
+_OBJC_IVAR_$_AWSRekognitionFaceDetail._confidence
+_OBJC_IVAR_$_AWSRekognitionFaceDetail._emotions
+_OBJC_IVAR_$_AWSRekognitionFaceDetail._eyeglasses
+_OBJC_IVAR_$_AWSRekognitionFaceDetail._eyesOpen
+_OBJC_IVAR_$_AWSRekognitionFaceDetail._gender
+_OBJC_IVAR_$_AWSRekognitionFaceDetail._landmarks
+_OBJC_IVAR_$_AWSRekognitionFaceDetail._mouthOpen
+_OBJC_IVAR_$_AWSRekognitionFaceDetail._mustache
+_OBJC_IVAR_$_AWSRekognitionFaceDetail._pose
+_OBJC_IVAR_$_AWSRekognitionFaceDetail._quality
+_OBJC_IVAR_$_AWSRekognitionFaceDetail._smile
+_OBJC_IVAR_$_AWSRekognitionFaceDetail._sunglasses
+_OBJC_IVAR_$_AWSRekognitionFaceDetection._face
+_OBJC_IVAR_$_AWSRekognitionFaceDetection._timestamp
+_OBJC_IVAR_$_AWSRekognitionFaceMatch._face
+_OBJC_IVAR_$_AWSRekognitionFaceMatch._similarity
+_OBJC_IVAR_$_AWSRekognitionFaceRecord._face
+_OBJC_IVAR_$_AWSRekognitionFaceRecord._faceDetail
+_OBJC_IVAR_$_AWSRekognitionFaceSearchSettings._collectionId
+_OBJC_IVAR_$_AWSRekognitionFaceSearchSettings._faceMatchThreshold
+___block_descriptor_tmp.942
+___block_literal_global.943
+___block_descriptor_tmp.948
+___block_literal_global.949
+_OBJC_IVAR_$_AWSRekognitionGender._confidence
+_OBJC_IVAR_$_AWSRekognitionGender._value
+_OBJC_IVAR_$_AWSRekognitionGeometry._boundingBox
+_OBJC_IVAR_$_AWSRekognitionGeometry._polygon
+_OBJC_IVAR_$_AWSRekognitionGetCelebrityInfoRequest._identifier
+_OBJC_IVAR_$_AWSRekognitionGetCelebrityInfoResponse._name
+_OBJC_IVAR_$_AWSRekognitionGetCelebrityInfoResponse._urls
+___block_descriptor_tmp.987
+___block_literal_global.988
+___block_descriptor_tmp.993
+___block_literal_global.994
+_OBJC_IVAR_$_AWSRekognitionGetCelebrityRecognitionRequest._jobId
+_OBJC_IVAR_$_AWSRekognitionGetCelebrityRecognitionRequest._maxResults
+_OBJC_IVAR_$_AWSRekognitionGetCelebrityRecognitionRequest._nextToken
+_OBJC_IVAR_$_AWSRekognitionGetCelebrityRecognitionRequest._sortBy
+___block_descriptor_tmp.1031
+___block_literal_global.1032
+___block_descriptor_tmp.1037
+___block_literal_global.1038
+_OBJC_IVAR_$_AWSRekognitionGetCelebrityRecognitionResponse._celebrities
+_OBJC_IVAR_$_AWSRekognitionGetCelebrityRecognitionResponse._jobStatus
+_OBJC_IVAR_$_AWSRekognitionGetCelebrityRecognitionResponse._nextToken
+_OBJC_IVAR_$_AWSRekognitionGetCelebrityRecognitionResponse._statusMessage
+_OBJC_IVAR_$_AWSRekognitionGetCelebrityRecognitionResponse._videoMetadata
+___block_descriptor_tmp.1061
+___block_literal_global.1062
+___block_descriptor_tmp.1065
+___block_literal_global.1066
+_OBJC_IVAR_$_AWSRekognitionGetContentModerationRequest._jobId
+_OBJC_IVAR_$_AWSRekognitionGetContentModerationRequest._maxResults
+_OBJC_IVAR_$_AWSRekognitionGetContentModerationRequest._nextToken
+_OBJC_IVAR_$_AWSRekognitionGetContentModerationRequest._sortBy
+___block_descriptor_tmp.1069
+___block_literal_global.1070
+___block_descriptor_tmp.1071
+___block_literal_global.1072
+_OBJC_IVAR_$_AWSRekognitionGetContentModerationResponse._jobStatus
+_OBJC_IVAR_$_AWSRekognitionGetContentModerationResponse._moderationLabels
+_OBJC_IVAR_$_AWSRekognitionGetContentModerationResponse._moderationModelVersion
+_OBJC_IVAR_$_AWSRekognitionGetContentModerationResponse._nextToken
+_OBJC_IVAR_$_AWSRekognitionGetContentModerationResponse._statusMessage
+_OBJC_IVAR_$_AWSRekognitionGetContentModerationResponse._videoMetadata
+_OBJC_IVAR_$_AWSRekognitionGetFaceDetectionRequest._jobId
+_OBJC_IVAR_$_AWSRekognitionGetFaceDetectionRequest._maxResults
+_OBJC_IVAR_$_AWSRekognitionGetFaceDetectionRequest._nextToken
+___block_descriptor_tmp.1083
+___block_literal_global.1084
+___block_descriptor_tmp.1085
+___block_literal_global.1086
+_OBJC_IVAR_$_AWSRekognitionGetFaceDetectionResponse._faces
+_OBJC_IVAR_$_AWSRekognitionGetFaceDetectionResponse._jobStatus
+_OBJC_IVAR_$_AWSRekognitionGetFaceDetectionResponse._nextToken
+_OBJC_IVAR_$_AWSRekognitionGetFaceDetectionResponse._statusMessage
+_OBJC_IVAR_$_AWSRekognitionGetFaceDetectionResponse._videoMetadata
+___block_descriptor_tmp.1095
+___block_literal_global.1096
+___block_descriptor_tmp.1099
+___block_literal_global.1100
+_OBJC_IVAR_$_AWSRekognitionGetFaceSearchRequest._jobId
+_OBJC_IVAR_$_AWSRekognitionGetFaceSearchRequest._maxResults
+_OBJC_IVAR_$_AWSRekognitionGetFaceSearchRequest._nextToken
+_OBJC_IVAR_$_AWSRekognitionGetFaceSearchRequest._sortBy
+___block_descriptor_tmp.1107
+___block_literal_global.1108
+___block_descriptor_tmp.1109
+___block_literal_global.1110
+_OBJC_IVAR_$_AWSRekognitionGetFaceSearchResponse._jobStatus
+_OBJC_IVAR_$_AWSRekognitionGetFaceSearchResponse._nextToken
+_OBJC_IVAR_$_AWSRekognitionGetFaceSearchResponse._persons
+_OBJC_IVAR_$_AWSRekognitionGetFaceSearchResponse._statusMessage
+_OBJC_IVAR_$_AWSRekognitionGetFaceSearchResponse._videoMetadata
+___block_descriptor_tmp.1120
+___block_literal_global.1121
+___block_descriptor_tmp.1122
+___block_literal_global.1123
+_OBJC_IVAR_$_AWSRekognitionGetLabelDetectionRequest._jobId
+_OBJC_IVAR_$_AWSRekognitionGetLabelDetectionRequest._maxResults
+_OBJC_IVAR_$_AWSRekognitionGetLabelDetectionRequest._nextToken
+_OBJC_IVAR_$_AWSRekognitionGetLabelDetectionRequest._sortBy
+___block_descriptor_tmp.1126
+___block_literal_global.1127
+___block_descriptor_tmp.1128
+___block_literal_global.1129
+_OBJC_IVAR_$_AWSRekognitionGetLabelDetectionResponse._jobStatus
+_OBJC_IVAR_$_AWSRekognitionGetLabelDetectionResponse._labelModelVersion
+_OBJC_IVAR_$_AWSRekognitionGetLabelDetectionResponse._labels
+_OBJC_IVAR_$_AWSRekognitionGetLabelDetectionResponse._nextToken
+_OBJC_IVAR_$_AWSRekognitionGetLabelDetectionResponse._statusMessage
+_OBJC_IVAR_$_AWSRekognitionGetLabelDetectionResponse._videoMetadata
+___block_descriptor_tmp.1133
+___block_literal_global.1134
+___block_descriptor_tmp.1135
+___block_literal_global.1136
+_OBJC_IVAR_$_AWSRekognitionGetPersonTrackingRequest._jobId
+_OBJC_IVAR_$_AWSRekognitionGetPersonTrackingRequest._maxResults
+_OBJC_IVAR_$_AWSRekognitionGetPersonTrackingRequest._nextToken
+_OBJC_IVAR_$_AWSRekognitionGetPersonTrackingRequest._sortBy
+___block_descriptor_tmp.1139
+___block_literal_global.1140
+___block_descriptor_tmp.1141
+___block_literal_global.1142
+_OBJC_IVAR_$_AWSRekognitionGetPersonTrackingResponse._jobStatus
+_OBJC_IVAR_$_AWSRekognitionGetPersonTrackingResponse._nextToken
+_OBJC_IVAR_$_AWSRekognitionGetPersonTrackingResponse._persons
+_OBJC_IVAR_$_AWSRekognitionGetPersonTrackingResponse._statusMessage
+_OBJC_IVAR_$_AWSRekognitionGetPersonTrackingResponse._videoMetadata
+_OBJC_IVAR_$_AWSRekognitionImage._bytes
+_OBJC_IVAR_$_AWSRekognitionImage._s3Object
+_OBJC_IVAR_$_AWSRekognitionImageQuality._brightness
+_OBJC_IVAR_$_AWSRekognitionImageQuality._sharpness
+___block_descriptor_tmp.1202
+___block_literal_global.1203
+___block_descriptor_tmp.1208
+___block_literal_global.1209
+_OBJC_IVAR_$_AWSRekognitionIndexFacesRequest._collectionId
+_OBJC_IVAR_$_AWSRekognitionIndexFacesRequest._detectionAttributes
+_OBJC_IVAR_$_AWSRekognitionIndexFacesRequest._externalImageId
+_OBJC_IVAR_$_AWSRekognitionIndexFacesRequest._image
+_OBJC_IVAR_$_AWSRekognitionIndexFacesRequest._maxFaces
+_OBJC_IVAR_$_AWSRekognitionIndexFacesRequest._qualityFilter
+___block_descriptor_tmp.1237
+___block_literal_global.1238
+___block_descriptor_tmp.1239
+___block_literal_global.1240
+_OBJC_IVAR_$_AWSRekognitionIndexFacesResponse._faceModelVersion
+_OBJC_IVAR_$_AWSRekognitionIndexFacesResponse._faceRecords
+_OBJC_IVAR_$_AWSRekognitionIndexFacesResponse._orientationCorrection
+_OBJC_IVAR_$_AWSRekognitionIndexFacesResponse._unindexedFaces
+_OBJC_IVAR_$_AWSRekognitionInstance._boundingBox
+_OBJC_IVAR_$_AWSRekognitionInstance._confidence
+_OBJC_IVAR_$_AWSRekognitionKinesisDataStream._arn
+_OBJC_IVAR_$_AWSRekognitionKinesisVideoStream._arn
+_OBJC_IVAR_$_AWSRekognitionLabel._confidence
+_OBJC_IVAR_$_AWSRekognitionLabel._instances
+_OBJC_IVAR_$_AWSRekognitionLabel._name
+_OBJC_IVAR_$_AWSRekognitionLabel._parents
+_OBJC_IVAR_$_AWSRekognitionLabelDetection._label
+_OBJC_IVAR_$_AWSRekognitionLabelDetection._timestamp
+___block_descriptor_tmp.1312
+___block_literal_global.1313
+___block_descriptor_tmp.1374
+___block_literal_global.1375
+_OBJC_IVAR_$_AWSRekognitionLandmark._types
+_OBJC_IVAR_$_AWSRekognitionLandmark._X
+_OBJC_IVAR_$_AWSRekognitionLandmark._Y
+_OBJC_IVAR_$_AWSRekognitionListCollectionsRequest._maxResults
+_OBJC_IVAR_$_AWSRekognitionListCollectionsRequest._nextToken
+_OBJC_IVAR_$_AWSRekognitionListCollectionsResponse._collectionIds
+_OBJC_IVAR_$_AWSRekognitionListCollectionsResponse._faceModelVersions
+_OBJC_IVAR_$_AWSRekognitionListCollectionsResponse._nextToken
+_OBJC_IVAR_$_AWSRekognitionListFacesRequest._collectionId
+_OBJC_IVAR_$_AWSRekognitionListFacesRequest._maxResults
+_OBJC_IVAR_$_AWSRekognitionListFacesRequest._nextToken
+_OBJC_IVAR_$_AWSRekognitionListFacesResponse._faceModelVersion
+_OBJC_IVAR_$_AWSRekognitionListFacesResponse._faces
+_OBJC_IVAR_$_AWSRekognitionListFacesResponse._nextToken
+_OBJC_IVAR_$_AWSRekognitionListStreamProcessorsRequest._maxResults
+_OBJC_IVAR_$_AWSRekognitionListStreamProcessorsRequest._nextToken
+_OBJC_IVAR_$_AWSRekognitionListStreamProcessorsResponse._nextToken
+_OBJC_IVAR_$_AWSRekognitionListStreamProcessorsResponse._streamProcessors
+_OBJC_IVAR_$_AWSRekognitionModerationLabel._confidence
+_OBJC_IVAR_$_AWSRekognitionModerationLabel._name
+_OBJC_IVAR_$_AWSRekognitionModerationLabel._parentName
+_OBJC_IVAR_$_AWSRekognitionMouthOpen._confidence
+_OBJC_IVAR_$_AWSRekognitionMouthOpen._value
+_OBJC_IVAR_$_AWSRekognitionMustache._confidence
+_OBJC_IVAR_$_AWSRekognitionMustache._value
+_OBJC_IVAR_$_AWSRekognitionNotificationChannel._roleArn
+_OBJC_IVAR_$_AWSRekognitionNotificationChannel._SNSTopicArn
+_OBJC_IVAR_$_AWSRekognitionParent._name
+_OBJC_IVAR_$_AWSRekognitionPersonDetail._boundingBox
+_OBJC_IVAR_$_AWSRekognitionPersonDetail._face
+_OBJC_IVAR_$_AWSRekognitionPersonDetail._index
+_OBJC_IVAR_$_AWSRekognitionPersonDetection._person
+_OBJC_IVAR_$_AWSRekognitionPersonDetection._timestamp
+_OBJC_IVAR_$_AWSRekognitionPersonMatch._faceMatches
+_OBJC_IVAR_$_AWSRekognitionPersonMatch._person
+_OBJC_IVAR_$_AWSRekognitionPersonMatch._timestamp
+_OBJC_IVAR_$_AWSRekognitionPoint._X
+_OBJC_IVAR_$_AWSRekognitionPoint._Y
+_OBJC_IVAR_$_AWSRekognitionPose._pitch
+_OBJC_IVAR_$_AWSRekognitionPose._roll
+_OBJC_IVAR_$_AWSRekognitionPose._yaw
+_OBJC_IVAR_$_AWSRekognitionRecognizeCelebritiesRequest._image
+___block_descriptor_tmp.1525
+___block_literal_global.1526
+___block_descriptor_tmp.1527
+___block_literal_global.1528
+_OBJC_IVAR_$_AWSRekognitionRecognizeCelebritiesResponse._celebrityFaces
+_OBJC_IVAR_$_AWSRekognitionRecognizeCelebritiesResponse._orientationCorrection
+_OBJC_IVAR_$_AWSRekognitionRecognizeCelebritiesResponse._unrecognizedFaces
+_OBJC_IVAR_$_AWSRekognitionS3Object._bucket
+_OBJC_IVAR_$_AWSRekognitionS3Object._name
+_OBJC_IVAR_$_AWSRekognitionS3Object._version
+_OBJC_IVAR_$_AWSRekognitionSearchFacesByImageRequest._collectionId
+_OBJC_IVAR_$_AWSRekognitionSearchFacesByImageRequest._faceMatchThreshold
+_OBJC_IVAR_$_AWSRekognitionSearchFacesByImageRequest._image
+_OBJC_IVAR_$_AWSRekognitionSearchFacesByImageRequest._maxFaces
+_OBJC_IVAR_$_AWSRekognitionSearchFacesByImageResponse._faceMatches
+_OBJC_IVAR_$_AWSRekognitionSearchFacesByImageResponse._faceModelVersion
+_OBJC_IVAR_$_AWSRekognitionSearchFacesByImageResponse._searchedFaceBoundingBox
+_OBJC_IVAR_$_AWSRekognitionSearchFacesByImageResponse._searchedFaceConfidence
+_OBJC_IVAR_$_AWSRekognitionSearchFacesRequest._collectionId
+_OBJC_IVAR_$_AWSRekognitionSearchFacesRequest._faceId
+_OBJC_IVAR_$_AWSRekognitionSearchFacesRequest._faceMatchThreshold
+_OBJC_IVAR_$_AWSRekognitionSearchFacesRequest._maxFaces
+_OBJC_IVAR_$_AWSRekognitionSearchFacesResponse._faceMatches
+_OBJC_IVAR_$_AWSRekognitionSearchFacesResponse._faceModelVersion
+_OBJC_IVAR_$_AWSRekognitionSearchFacesResponse._searchedFaceId
+_OBJC_IVAR_$_AWSRekognitionSmile._confidence
+_OBJC_IVAR_$_AWSRekognitionSmile._value
+_OBJC_IVAR_$_AWSRekognitionStartCelebrityRecognitionRequest._clientRequestToken
+_OBJC_IVAR_$_AWSRekognitionStartCelebrityRecognitionRequest._jobTag
+_OBJC_IVAR_$_AWSRekognitionStartCelebrityRecognitionRequest._notificationChannel
+_OBJC_IVAR_$_AWSRekognitionStartCelebrityRecognitionRequest._video
+_OBJC_IVAR_$_AWSRekognitionStartCelebrityRecognitionResponse._jobId
+_OBJC_IVAR_$_AWSRekognitionStartContentModerationRequest._clientRequestToken
+_OBJC_IVAR_$_AWSRekognitionStartContentModerationRequest._jobTag
+_OBJC_IVAR_$_AWSRekognitionStartContentModerationRequest._minConfidence
+_OBJC_IVAR_$_AWSRekognitionStartContentModerationRequest._notificationChannel
+_OBJC_IVAR_$_AWSRekognitionStartContentModerationRequest._video
+_OBJC_IVAR_$_AWSRekognitionStartContentModerationResponse._jobId
+___block_descriptor_tmp.1655
+___block_literal_global.1656
+___block_descriptor_tmp.1661
+___block_literal_global.1662
+_OBJC_IVAR_$_AWSRekognitionStartFaceDetectionRequest._clientRequestToken
+_OBJC_IVAR_$_AWSRekognitionStartFaceDetectionRequest._faceAttributes
+_OBJC_IVAR_$_AWSRekognitionStartFaceDetectionRequest._jobTag
+_OBJC_IVAR_$_AWSRekognitionStartFaceDetectionRequest._notificationChannel
+_OBJC_IVAR_$_AWSRekognitionStartFaceDetectionRequest._video
+_OBJC_IVAR_$_AWSRekognitionStartFaceDetectionResponse._jobId
+_OBJC_IVAR_$_AWSRekognitionStartFaceSearchRequest._clientRequestToken
+_OBJC_IVAR_$_AWSRekognitionStartFaceSearchRequest._collectionId
+_OBJC_IVAR_$_AWSRekognitionStartFaceSearchRequest._faceMatchThreshold
+_OBJC_IVAR_$_AWSRekognitionStartFaceSearchRequest._jobTag
+_OBJC_IVAR_$_AWSRekognitionStartFaceSearchRequest._notificationChannel
+_OBJC_IVAR_$_AWSRekognitionStartFaceSearchRequest._video
+_OBJC_IVAR_$_AWSRekognitionStartFaceSearchResponse._jobId
+_OBJC_IVAR_$_AWSRekognitionStartLabelDetectionRequest._clientRequestToken
+_OBJC_IVAR_$_AWSRekognitionStartLabelDetectionRequest._jobTag
+_OBJC_IVAR_$_AWSRekognitionStartLabelDetectionRequest._minConfidence
+_OBJC_IVAR_$_AWSRekognitionStartLabelDetectionRequest._notificationChannel
+_OBJC_IVAR_$_AWSRekognitionStartLabelDetectionRequest._video
+_OBJC_IVAR_$_AWSRekognitionStartLabelDetectionResponse._jobId
+_OBJC_IVAR_$_AWSRekognitionStartPersonTrackingRequest._clientRequestToken
+_OBJC_IVAR_$_AWSRekognitionStartPersonTrackingRequest._jobTag
+_OBJC_IVAR_$_AWSRekognitionStartPersonTrackingRequest._notificationChannel
+_OBJC_IVAR_$_AWSRekognitionStartPersonTrackingRequest._video
+_OBJC_IVAR_$_AWSRekognitionStartPersonTrackingResponse._jobId
+_OBJC_IVAR_$_AWSRekognitionStartStreamProcessorRequest._name
+_OBJC_IVAR_$_AWSRekognitionStopStreamProcessorRequest._name
+___block_descriptor_tmp.1691
+___block_literal_global.1692
+___block_descriptor_tmp.1693
+___block_literal_global.1694
+_OBJC_IVAR_$_AWSRekognitionStreamProcessor._name
+_OBJC_IVAR_$_AWSRekognitionStreamProcessor._status
+_OBJC_IVAR_$_AWSRekognitionStreamProcessorInput._kinesisVideoStream
+_OBJC_IVAR_$_AWSRekognitionStreamProcessorOutput._kinesisDataStream
+_OBJC_IVAR_$_AWSRekognitionStreamProcessorSettings._faceSearch
+_OBJC_IVAR_$_AWSRekognitionSunglasses._confidence
+_OBJC_IVAR_$_AWSRekognitionSunglasses._value
+___block_descriptor_tmp.1754
+___block_literal_global.1755
+___block_descriptor_tmp.1760
+___block_literal_global.1761
+_OBJC_IVAR_$_AWSRekognitionTextDetection._confidence
+_OBJC_IVAR_$_AWSRekognitionTextDetection._detectedText
+_OBJC_IVAR_$_AWSRekognitionTextDetection._geometry
+_OBJC_IVAR_$_AWSRekognitionTextDetection._identifier
+_OBJC_IVAR_$_AWSRekognitionTextDetection._parentId
+_OBJC_IVAR_$_AWSRekognitionTextDetection._types
+_OBJC_IVAR_$_AWSRekognitionUnindexedFace._faceDetail
+_OBJC_IVAR_$_AWSRekognitionUnindexedFace._reasons
+_OBJC_IVAR_$_AWSRekognitionVideo._s3Object
+_OBJC_IVAR_$_AWSRekognitionVideoMetadata._codec
+_OBJC_IVAR_$_AWSRekognitionVideoMetadata._durationMillis
+_OBJC_IVAR_$_AWSRekognitionVideoMetadata._format
+_OBJC_IVAR_$_AWSRekognitionVideoMetadata._frameHeight
+_OBJC_IVAR_$_AWSRekognitionVideoMetadata._frameRate
+_OBJC_IVAR_$_AWSRekognitionVideoMetadata._frameWidth
+/Users/distiller/project/AWSRekognition/AWSRekognitionModel.m
+/Users/distiller/project/AWSRekognition/AWSRekognitionModel.h
+__51+[AWSRekognitionTextDetection typesJSONTransformer]_block_invoke_2
+__51+[AWSRekognitionTextDetection typesJSONTransformer]_block_invoke
+__54+[AWSRekognitionStreamProcessor statusJSONTransformer]_block_invoke_2
+__54+[AWSRekognitionStreamProcessor statusJSONTransformer]_block_invoke
+__72+[AWSRekognitionStartFaceDetectionRequest faceAttributesJSONTransformer]_block_invoke_2
+__72+[AWSRekognitionStartFaceDetectionRequest faceAttributesJSONTransformer]_block_invoke
+__82+[AWSRekognitionRecognizeCelebritiesResponse orientationCorrectionJSONTransformer]_block_invoke_2
+__82+[AWSRekognitionRecognizeCelebritiesResponse orientationCorrectionJSONTransformer]_block_invoke
+__46+[AWSRekognitionLandmark typesJSONTransformer]_block_invoke_2
+__46+[AWSRekognitionLandmark typesJSONTransformer]_block_invoke
+__72+[AWSRekognitionIndexFacesResponse orientationCorrectionJSONTransformer]_block_invoke_2
+__72+[AWSRekognitionIndexFacesResponse orientationCorrectionJSONTransformer]_block_invoke
+__63+[AWSRekognitionIndexFacesRequest qualityFilterJSONTransformer]_block_invoke_2
+__63+[AWSRekognitionIndexFacesRequest qualityFilterJSONTransformer]_block_invoke
+__67+[AWSRekognitionGetPersonTrackingResponse jobStatusJSONTransformer]_block_invoke_2
+__67+[AWSRekognitionGetPersonTrackingResponse jobStatusJSONTransformer]_block_invoke
+__63+[AWSRekognitionGetPersonTrackingRequest sortByJSONTransformer]_block_invoke_2
+__63+[AWSRekognitionGetPersonTrackingRequest sortByJSONTransformer]_block_invoke
+__67+[AWSRekognitionGetLabelDetectionResponse jobStatusJSONTransformer]_block_invoke_2
+__67+[AWSRekognitionGetLabelDetectionResponse jobStatusJSONTransformer]_block_invoke
+__63+[AWSRekognitionGetLabelDetectionRequest sortByJSONTransformer]_block_invoke_2
+__63+[AWSRekognitionGetLabelDetectionRequest sortByJSONTransformer]_block_invoke
+__63+[AWSRekognitionGetFaceSearchResponse jobStatusJSONTransformer]_block_invoke_2
+__63+[AWSRekognitionGetFaceSearchResponse jobStatusJSONTransformer]_block_invoke
+__59+[AWSRekognitionGetFaceSearchRequest sortByJSONTransformer]_block_invoke_2
+__59+[AWSRekognitionGetFaceSearchRequest sortByJSONTransformer]_block_invoke
+__66+[AWSRekognitionGetFaceDetectionResponse jobStatusJSONTransformer]_block_invoke_2
+__66+[AWSRekognitionGetFaceDetectionResponse jobStatusJSONTransformer]_block_invoke
+__70+[AWSRekognitionGetContentModerationResponse jobStatusJSONTransformer]_block_invoke_2
+__70+[AWSRekognitionGetContentModerationResponse jobStatusJSONTransformer]_block_invoke
+__66+[AWSRekognitionGetContentModerationRequest sortByJSONTransformer]_block_invoke_2
+__66+[AWSRekognitionGetContentModerationRequest sortByJSONTransformer]_block_invoke
+__73+[AWSRekognitionGetCelebrityRecognitionResponse jobStatusJSONTransformer]_block_invoke_2
+__73+[AWSRekognitionGetCelebrityRecognitionResponse jobStatusJSONTransformer]_block_invoke
+__69+[AWSRekognitionGetCelebrityRecognitionRequest sortByJSONTransformer]_block_invoke_2
+__69+[AWSRekognitionGetCelebrityRecognitionRequest sortByJSONTransformer]_block_invoke
+__44+[AWSRekognitionGender valueJSONTransformer]_block_invoke_2
+__44+[AWSRekognitionGender valueJSONTransformer]_block_invoke
+__45+[AWSRekognitionEmotion typesJSONTransformer]_block_invoke_2
+__45+[AWSRekognitionEmotion typesJSONTransformer]_block_invoke
+__74+[AWSRekognitionDetectLabelsResponse orientationCorrectionJSONTransformer]_block_invoke_2
+__74+[AWSRekognitionDetectLabelsResponse orientationCorrectionJSONTransformer]_block_invoke
+__73+[AWSRekognitionDetectFacesResponse orientationCorrectionJSONTransformer]_block_invoke_2
+__73+[AWSRekognitionDetectFacesResponse orientationCorrectionJSONTransformer]_block_invoke
+__70+[AWSRekognitionDescribeStreamProcessorResponse statusJSONTransformer]_block_invoke_2
+__70+[AWSRekognitionDescribeStreamProcessorResponse statusJSONTransformer]_block_invoke
+__83+[AWSRekognitionDescribeStreamProcessorResponse lastUpdateTimestampJSONTransformer]_block_invoke_2
+__83+[AWSRekognitionDescribeStreamProcessorResponse lastUpdateTimestampJSONTransformer]_block_invoke
+__81+[AWSRekognitionDescribeStreamProcessorResponse creationTimestampJSONTransformer]_block_invoke_2
+__81+[AWSRekognitionDescribeStreamProcessorResponse creationTimestampJSONTransformer]_block_invoke
+__76+[AWSRekognitionDescribeCollectionResponse creationTimestampJSONTransformer]_block_invoke_2
+__76+[AWSRekognitionDescribeCollectionResponse creationTimestampJSONTransformer]_block_invoke
+__85+[AWSRekognitionCompareFacesResponse targetImageOrientationCorrectionJSONTransformer]_block_invoke_2
+__85+[AWSRekognitionCompareFacesResponse targetImageOrientationCorrectionJSONTransformer]_block_invoke
+__85+[AWSRekognitionCompareFacesResponse sourceImageOrientationCorrectionJSONTransformer]_block_invoke_2
+__85+[AWSRekognitionCompareFacesResponse sourceImageOrientationCorrectionJSONTransformer]_block_invoke
++[AWSRekognitionResources sharedInstance]
+___41+[AWSRekognitionResources sharedInstance]_block_invoke
+-[AWSRekognitionResources JSONObject]
+-[AWSRekognitionResources init]
+-[AWSRekognitionResources definitionString]
+-[AWSRekognitionResources definitionDictionary]
+-[AWSRekognitionResources setDefinitionDictionary:]
+-[AWSRekognitionResources .cxx_destruct]
+_sharedInstance._sharedResources
+_sharedInstance.once_token
+_OBJC_IVAR_$_AWSRekognitionResources._definitionDictionary
+/Users/distiller/project/AWSRekognition/AWSRekognitionResources.m
+__41+[AWSRekognitionResources sharedInstance]_block_invoke
+/Users/distiller/Library/Developer/Xcode/DerivedData/AWSiOSSDKv2-bvcffhrgbfjnfybjecennhscmaho/Build/Intermediates.noindex/ArchiveIntermediates/AWSRekognition/IntermediateBuildFilesPath/AWSiOSSDKv2.build/Release-iphoneos/AWSRekognition.build/DerivedSources/AWSRekognition_vers.c
+__ZL15__ARCLite__loadv
+__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__ZL23NSAutoreleasePool_class
+__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+l_OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -mlinker-version=409.12 -march=armv7a
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_objc_storeStrong
+__arclite_objc_release
+__arclite_objc_retain
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+__arclite_objc_retainBlock
+__arclite_object_copy
+fixupCopiedReferences
+_class_getInstanceStart
+alignedInstanceStart
+__arclite_class_usesAutomaticRetainRelease
+classOrSuperClassesUseARR
+__arclite_object_setIvar
+isScannedOffset
+_ivar_getClass
+__arclite_object_setInstanceVariable
+add_image_hook_ARC
+patch_t<void (id *, id)>
+patch_t<id (id)>
+patch_t<void (id)>
+patch_t<id (id, unsigned long)>
+patch_t<void (id, objc_ivar *, id)>
+patch_t<objc_ivar *(id, const char *, void *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+__arclite_NSArray_objectAtIndexedSubscript
+patch_lazy_pointers
+__arclite_objc_autoreleasePoolPop
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+patch_t<void (void *)>
+patch_t<void *()>
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_ARC
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
+install_subscripting
+addMethod
+indexedGetter
+install_autoreleasepool

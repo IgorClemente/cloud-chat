@@ -212,11 +212,11 @@ SWIFT_CLASS("_TtC15AWSMobileClient15AWSMobileClient")
 
 
 
-@class NSDictionary;
+@class UIViewController;
 
-@interface AWSMobileClient (SWIFT_EXTENSION(AWSMobileClient)) <AWSIdentityProviderManager>
-/// Each entry in logins represents a single login with an identity provider. The key is the domain of the login provider (e.g. ‘graph.facebook.com’) and the value is the OAuth/OpenId Connect token that results from an authentication with that login provider.
-- (AWSTask<NSDictionary *> * _Nonnull)logins SWIFT_WARN_UNUSED_RESULT;
+@interface AWSMobileClient (SWIFT_EXTENSION(AWSMobileClient)) <AWSCognitoAuthDelegate>
+- (UIViewController * _Nonnull)getViewController SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)shouldLaunchSignInVCIfRefreshTokenIsExpired SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class AWSSignInProviderConfig;
@@ -256,6 +256,13 @@ SWIFT_CLASS("_TtC15AWSMobileClient15AWSMobileClient")
 @end
 
 
+
+@class NSDictionary;
+
+@interface AWSMobileClient (SWIFT_EXTENSION(AWSMobileClient)) <AWSIdentityProviderManager>
+/// Each entry in logins represents a single login with an identity provider. The key is the domain of the login provider (e.g. ‘graph.facebook.com’) and the value is the OAuth/OpenId Connect token that results from an authentication with that login provider.
+- (AWSTask<NSDictionary *> * _Nonnull)logins SWIFT_WARN_UNUSED_RESULT;
+@end
 
 
 

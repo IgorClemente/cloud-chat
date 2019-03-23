@@ -90,12 +90,6 @@
 
 @implementation AWSIoTMQTTClient
 
-/*
-This version is for metrics collection for AWS IoT purpose only. It may be different
- than the version of AWS SDK for iOS. Update this version when there's a change in AWSIoT.
- */
-static const NSString *SDK_VERSION = @"2.6.19";
-
 
 #pragma mark Intialitalizers
 - (instancetype)init {
@@ -283,17 +277,16 @@ static const NSString *SDK_VERSION = @"2.6.19";
         [self.topicListeners removeAllObjects];
     }
     
-    NSString *username;
+    //Setup userName if metrics are enabled. We use the connection username as metadata for metrics calculation.
     if (self.isMetricsEnabled) {
-        username = [NSString stringWithFormat:@"%@%@", @"?SDK=iOS&Version=", SDK_VERSION];
-        AWSDDLogInfo(@"username is : %@", username);
+        AWSDDLogInfo(@"user metadata is : %@", self.userMetaData);
     }
     AWSDDLogInfo(@"Metrics collection is: %@", self.isMetricsEnabled ? @"Enabled" : @"Disabled");
     
     //Create Session
     if (self.session == nil ) {
         self.session= [[AWSMQTTSession alloc] initWithClientId:self.clientId
-                                               userName:username
+                                               userName:self.userMetaData
                                                password:@""
                                               keepAlive:self.keepAliveInterval
                                            cleanSession:self.cleanSession
@@ -315,6 +308,7 @@ static const NSString *SDK_VERSION = @"2.6.19";
     //Creates readable and writable streams connected to ip and port. The socket will not be created or a
     //connection established with the server until one of the streams is opened.
     CFStreamCreatePairWithSocketToHost(NULL, (__bridge CFStringRef)_host, _port, &readStream, &writeStream);
+
     self.decoderStream = (__bridge_transfer NSInputStream *) readStream;
     self.encoderStream = (__bridge_transfer NSOutputStream *) writeStream;
     
@@ -345,6 +339,23 @@ static const NSString *SDK_VERSION = @"2.6.19";
     CFWriteStreamSetProperty(writeStream, kCFStreamPropertySSLSettings, sslSettings);
     CFRelease(sslSettings);
     
+    //The "x-amzn-mqtt-ca" protocol is only supported on port 443.
+    if (self.port == 443) {
+        //SSLSetALPNProtocols is only available from iOS 11 onwards.
+        if (@available(iOS 11.0, *)) {
+            //Get the SSL Context
+            SSLContextRef context = (__bridge SSLContextRef) [_decoderStream propertyForKey: (__bridge NSString *) kCFStreamPropertySSLContext ];
+
+            //Set ALPN protocol list
+            CFStringRef strs[1];
+            strs[0] = CFSTR("x-amzn-mqtt-ca");
+            CFArrayRef protocols = CFArrayCreate(NULL, (void *)strs, 1, &kCFTypeArrayCallBacks);
+
+            SSLSetALPNProtocols(context, protocols);
+            CFRelease(protocols);
+        }
+    }
+
     //Create Thread and start with "openStreams" being the entry point.
     if (self.streamsThread) {
         AWSDDLogVerbose(@"Issued Cancel on thread [%@]", self.streamsThread);
@@ -523,18 +534,16 @@ static const NSString *SDK_VERSION = @"2.6.19";
         [self.topicListeners removeAllObjects];
     }
     
-    //Setup userName if metrics are enabled
-    NSString *username;
+    //Setup userName if metrics are enabled. We use the connection username as metadata for metrics calculation.
     if (self.isMetricsEnabled) {
-        username = [NSString stringWithFormat:@"%@%@", @"?SDK=iOS&Version=", SDK_VERSION];
-        AWSDDLogInfo(@"username is : %@", username);
+        AWSDDLogInfo(@"user metadata is : %@", self.userMetaData);
     }
     AWSDDLogInfo(@"Metrics collection is: %@", self.isMetricsEnabled ? @"Enabled" : @"Disabled");
     
     //create Session if one doesn't already exist
     if (self.session == nil ) {
         self.session = [[AWSMQTTSession alloc] initWithClientId:self.clientId
-                                                       userName:username
+                                                       userName:self.userMetaData
                                                        password:@""
                                                       keepAlive:self.keepAliveInterval
                                                    cleanSession:self.cleanSession

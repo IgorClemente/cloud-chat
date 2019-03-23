@@ -220,6 +220,42 @@ class DynamoDBController {
         }
     }
     
+    func retrieveAllMessages(chatID: String, fromDate: Date, completion: @escaping (Error?)->Void) {
+        let fromDateAsNumber = fromDate.timeIntervalSince1970
+        
+        let queryExpression = AWSDynamoDBQueryExpression()
+        queryExpression.keyConditionExpression = "chatId = :chatIdentifier AND data_sent > :earliestDate"
+        queryExpression.expressionAttributeValues = [":chatIdentifier" : chatID, ":earliestDate" : fromDateAsNumber]
+        
+        let dynamoDBObjectMapper = AWSDynamoDBObjectMapper.default()
+        let task = dynamoDBObjectMapper.query(Message.self, expression: queryExpression)
+        task.continueWith { (task) -> Any? in
+            if let error = task.error {
+                completion(error)
+                return nil
+            }
+            
+            guard let paginatedOutput = task.result else {
+                completion(nil)
+                return nil
+            }
+            
+            if paginatedOutput.items.isEmpty {
+                completion(nil)
+                return nil
+            }
+            
+            for index in 0...(paginatedOutput.items.count - 1) {
+                if let message = paginatedOutput.items[index] as? Message {
+                    let chatManager = ChatManager.sharedInstance
+                    chatManager.addMessage(chatID: chatID, message: message)
+                }
+            }
+            completion(nil)
+            return nil
+        }
+    }
+    
     func sendMessageText(fromUserID: String, chatID: String, messageText: String, completion: @escaping (Error?)->Void) {
         let message = Message()
         message.chat_id = chatID
@@ -239,7 +275,7 @@ class DynamoDBController {
             }
             
             let chatManager = ChatManager.sharedInstance
-            chatManager.addMessage(message: message)
+            chatManager.addMessage(chatID: chatID, message: message)
             
             completion(nil)
             return nil
@@ -265,7 +301,7 @@ class DynamoDBController {
             }
             
             let chatManager = ChatManager.sharedInstance
-            chatManager.addMessage(message: message)
+            chatManager.addMessage(chatID: chatID, message: message)
             
             completion(nil)
             return nil

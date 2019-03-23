@@ -17,13 +17,13 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var signupButton: UIButton!
     
-    @IBOutlet weak var facebookButton: FBSDKLoginButton!
+    @IBOutlet weak var facebookButton: FBLoginButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.loginButton.isEnabled = false
         
-        let facebookLoginManager = FBSDKLoginManager()
+        let facebookLoginManager = LoginManager()
         facebookLoginManager.logOut()
         
         facebookButton.readPermissions = ["public_profile","email"]
@@ -130,13 +130,13 @@ extension LoginViewController {
     }
 }
 
-extension LoginViewController: FBSDKLoginButtonDelegate {
+extension LoginViewController: LoginButtonDelegate {
     
-    func loginButtonDidLogOut(_ loginButton: FBSDKLoginButton!) {
+    func loginButtonDidLogOut(_ loginButton: FBLoginButton!) {
         print("Facebook Signout.")
     }
     
-    func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
+    func loginButton(_ loginButton: FBLoginButton!, didCompleteWith result: LoginManagerLoginResult!, error: Error!) {
         if error != nil {
             self.displayLoginError(error: error as NSError)
             return
@@ -146,14 +146,14 @@ extension LoginViewController: FBSDKLoginButtonDelegate {
             return
         }
         
-        guard let idToken = FBSDKAccessToken.current() else {
+        guard let idToken = AccessToken.current else {
             let error: NSError = NSError(domain: "com.clemente.AWSClmChatApplication", code: 100, userInfo: ["__type":"Unknown Error","message":"Facebook JWT token error."])
             self.displayLoginError(error: error)
             return
         }
         
-        let graphRequest = FBSDKGraphRequest(graphPath: "me", parameters: ["fields":"email,name"])
-        graphRequest?.start { (connection, result, error) in
+        let graphRequest = GraphRequest(graphPath: "me", parameters: ["fields":"email,name"])
+        graphRequest.start { (connection, result, error) in
             if let error = error {
                 self.displayLoginError(error: error as NSError)
                 return

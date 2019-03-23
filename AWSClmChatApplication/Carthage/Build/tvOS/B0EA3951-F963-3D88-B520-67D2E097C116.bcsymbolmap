@@ -1,0 +1,82 @@
+BCSymbolMap Version: 2.0
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginConstants.m
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKLoginKit
+-[FBSDKDeviceLoginCodeInfo initWithIdentifier:loginCode:verificationURL:expirationDate:pollingInterval:]
+-[FBSDKDeviceLoginCodeInfo identifier]
+-[FBSDKDeviceLoginCodeInfo loginCode]
+-[FBSDKDeviceLoginCodeInfo verificationURL]
+-[FBSDKDeviceLoginCodeInfo expirationDate]
+-[FBSDKDeviceLoginCodeInfo pollingInterval]
+-[FBSDKDeviceLoginCodeInfo .cxx_destruct]
+_OBJC_IVAR_$_FBSDKDeviceLoginCodeInfo._identifier
+_OBJC_IVAR_$_FBSDKDeviceLoginCodeInfo._loginCode
+_OBJC_IVAR_$_FBSDKDeviceLoginCodeInfo._verificationURL
+_OBJC_IVAR_$_FBSDKDeviceLoginCodeInfo._expirationDate
+_OBJC_IVAR_$_FBSDKDeviceLoginCodeInfo._pollingInterval
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKLoginKit/FBSDKLoginKit/FBSDKDeviceLoginCodeInfo.m
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKLoginKit/FBSDKLoginKit/FBSDKDeviceLoginCodeInfo.h
++[FBSDKDeviceLoginManager initialize]
+-[FBSDKDeviceLoginManager initWithPermissions:enableSmartLogin:]
+-[FBSDKDeviceLoginManager start]
+___32-[FBSDKDeviceLoginManager start]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[FBSDKDeviceLoginManager cancel]
+-[FBSDKDeviceLoginManager _notifyError:]
+-[FBSDKDeviceLoginManager _notifyToken:]
+___40-[FBSDKDeviceLoginManager _notifyToken:]_block_invoke
+___copy_helper_block_.98
+___destroy_helper_block_.99
+___40-[FBSDKDeviceLoginManager _notifyToken:]_block_invoke.110
+___copy_helper_block_.138
+___destroy_helper_block_.139
+-[FBSDKDeviceLoginManager _processError:]
+-[FBSDKDeviceLoginManager _schedulePoll:]
+___41-[FBSDKDeviceLoginManager _schedulePoll:]_block_invoke
+___41-[FBSDKDeviceLoginManager _schedulePoll:]_block_invoke_2
+___copy_helper_block_.157
+___destroy_helper_block_.158
+___copy_helper_block_.160
+___destroy_helper_block_.161
+-[FBSDKDeviceLoginManager netService:didNotPublish:]
+-[FBSDKDeviceLoginManager delegate]
+-[FBSDKDeviceLoginManager setDelegate:]
+-[FBSDKDeviceLoginManager permissions]
+-[FBSDKDeviceLoginManager redirectURL]
+-[FBSDKDeviceLoginManager setRedirectURL:]
+-[FBSDKDeviceLoginManager .cxx_destruct]
+_g_loginManagerInstances
+_OBJC_IVAR_$_FBSDKDeviceLoginManager._permissions
+_OBJC_IVAR_$_FBSDKDeviceLoginManager._isSmartLoginEnabled
+_OBJC_IVAR_$_FBSDKDeviceLoginManager._codeInfo
+___block_descriptor_tmp
+_OBJC_IVAR_$_FBSDKDeviceLoginManager._isCancelled
+___block_descriptor_tmp.101
+___block_descriptor_tmp.140
+___block_descriptor_tmp.159
+___block_descriptor_tmp.163
+_OBJC_IVAR_$_FBSDKDeviceLoginManager._delegate
+_OBJC_IVAR_$_FBSDKDeviceLoginManager._redirectURL
+_OBJC_IVAR_$_FBSDKDeviceLoginManager._loginAdvertisementService
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_NSNetServiceDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSNetServiceDelegate
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKLoginKit/FBSDKLoginKit/FBSDKDeviceLoginManager.m
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKLoginKit/FBSDKLoginKit/FBSDKDeviceLoginManager.h
+__destroy_helper_block_
+__copy_helper_block_
+__41-[FBSDKDeviceLoginManager _schedulePoll:]_block_invoke_2
+__41-[FBSDKDeviceLoginManager _schedulePoll:]_block_invoke
+__40-[FBSDKDeviceLoginManager _notifyToken:]_block_invoke.110
+__40-[FBSDKDeviceLoginManager _notifyToken:]_block_invoke
+__32-[FBSDKDeviceLoginManager start]_block_invoke
+-[FBSDKDeviceLoginManagerResult initWithToken:isCancelled:]
+-[FBSDKDeviceLoginManagerResult accessToken]
+-[FBSDKDeviceLoginManagerResult isCancelled]
+-[FBSDKDeviceLoginManagerResult .cxx_destruct]
+_OBJC_IVAR_$_FBSDKDeviceLoginManagerResult._accessToken
+_OBJC_IVAR_$_FBSDKDeviceLoginManagerResult._cancelled
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKLoginKit/FBSDKLoginKit/FBSDKDeviceLoginManagerResult.m
+/Users/macbookair/AWSStudingPlan/AWSClmChatApplication/Carthage/Checkouts/facebook-objc-sdk/FBSDKLoginKit/FBSDKLoginKit/FBSDKDeviceLoginManagerResult.h

@@ -1,0 +1,472 @@
+BCSymbolMap Version: 2.0
++[AWSCognitoAuthUICKeyChainStore defaultService]
++[AWSCognitoAuthUICKeyChainStore setDefaultService:]
++[AWSCognitoAuthUICKeyChainStore keyChainStore]
++[AWSCognitoAuthUICKeyChainStore keyChainStoreWithService:]
++[AWSCognitoAuthUICKeyChainStore keyChainStoreWithService:accessGroup:]
++[AWSCognitoAuthUICKeyChainStore keyChainStoreWithServer:protocolType:]
++[AWSCognitoAuthUICKeyChainStore keyChainStoreWithServer:protocolType:authenticationType:]
+-[AWSCognitoAuthUICKeyChainStore init]
+-[AWSCognitoAuthUICKeyChainStore initWithService:]
+-[AWSCognitoAuthUICKeyChainStore initWithService:accessGroup:]
+-[AWSCognitoAuthUICKeyChainStore initWithServer:protocolType:]
+-[AWSCognitoAuthUICKeyChainStore initWithServer:protocolType:authenticationType:]
+-[AWSCognitoAuthUICKeyChainStore commonInit]
++[AWSCognitoAuthUICKeyChainStore stringForKey:]
++[AWSCognitoAuthUICKeyChainStore stringForKey:error:]
++[AWSCognitoAuthUICKeyChainStore stringForKey:service:]
++[AWSCognitoAuthUICKeyChainStore stringForKey:service:error:]
++[AWSCognitoAuthUICKeyChainStore stringForKey:service:accessGroup:]
++[AWSCognitoAuthUICKeyChainStore stringForKey:service:accessGroup:error:]
++[AWSCognitoAuthUICKeyChainStore setString:forKey:]
++[AWSCognitoAuthUICKeyChainStore setString:forKey:error:]
++[AWSCognitoAuthUICKeyChainStore setString:forKey:genericAttribute:]
++[AWSCognitoAuthUICKeyChainStore setString:forKey:genericAttribute:error:]
++[AWSCognitoAuthUICKeyChainStore setString:forKey:service:]
++[AWSCognitoAuthUICKeyChainStore setString:forKey:service:error:]
++[AWSCognitoAuthUICKeyChainStore setString:forKey:service:genericAttribute:]
++[AWSCognitoAuthUICKeyChainStore setString:forKey:service:genericAttribute:error:]
++[AWSCognitoAuthUICKeyChainStore setString:forKey:service:accessGroup:]
++[AWSCognitoAuthUICKeyChainStore setString:forKey:service:accessGroup:error:]
++[AWSCognitoAuthUICKeyChainStore setString:forKey:service:accessGroup:genericAttribute:]
++[AWSCognitoAuthUICKeyChainStore setString:forKey:service:accessGroup:genericAttribute:error:]
++[AWSCognitoAuthUICKeyChainStore dataForKey:]
++[AWSCognitoAuthUICKeyChainStore dataForKey:error:]
++[AWSCognitoAuthUICKeyChainStore dataForKey:service:]
++[AWSCognitoAuthUICKeyChainStore dataForKey:service:error:]
++[AWSCognitoAuthUICKeyChainStore dataForKey:service:accessGroup:]
++[AWSCognitoAuthUICKeyChainStore dataForKey:service:accessGroup:error:]
++[AWSCognitoAuthUICKeyChainStore setData:forKey:]
++[AWSCognitoAuthUICKeyChainStore setData:forKey:error:]
++[AWSCognitoAuthUICKeyChainStore setData:forKey:genericAttribute:]
++[AWSCognitoAuthUICKeyChainStore setData:forKey:genericAttribute:error:]
++[AWSCognitoAuthUICKeyChainStore setData:forKey:service:]
++[AWSCognitoAuthUICKeyChainStore setData:forKey:service:error:]
++[AWSCognitoAuthUICKeyChainStore setData:forKey:service:genericAttribute:]
++[AWSCognitoAuthUICKeyChainStore setData:forKey:service:genericAttribute:error:]
++[AWSCognitoAuthUICKeyChainStore setData:forKey:service:accessGroup:]
++[AWSCognitoAuthUICKeyChainStore setData:forKey:service:accessGroup:error:]
++[AWSCognitoAuthUICKeyChainStore setData:forKey:service:accessGroup:genericAttribute:]
++[AWSCognitoAuthUICKeyChainStore setData:forKey:service:accessGroup:genericAttribute:error:]
+-[AWSCognitoAuthUICKeyChainStore contains:]
+-[AWSCognitoAuthUICKeyChainStore stringForKey:]
+-[AWSCognitoAuthUICKeyChainStore stringForKey:error:]
+-[AWSCognitoAuthUICKeyChainStore setString:forKey:]
+-[AWSCognitoAuthUICKeyChainStore setString:forKey:error:]
+-[AWSCognitoAuthUICKeyChainStore setString:forKey:genericAttribute:]
+-[AWSCognitoAuthUICKeyChainStore setString:forKey:genericAttribute:error:]
+-[AWSCognitoAuthUICKeyChainStore setString:forKey:label:comment:]
+-[AWSCognitoAuthUICKeyChainStore setString:forKey:label:comment:error:]
+-[AWSCognitoAuthUICKeyChainStore setString:forKey:genericAttribute:label:comment:error:]
+-[AWSCognitoAuthUICKeyChainStore dataForKey:]
+-[AWSCognitoAuthUICKeyChainStore dataForKey:error:]
+-[AWSCognitoAuthUICKeyChainStore setData:forKey:]
+-[AWSCognitoAuthUICKeyChainStore setData:forKey:error:]
+-[AWSCognitoAuthUICKeyChainStore setData:forKey:genericAttribute:]
+-[AWSCognitoAuthUICKeyChainStore setData:forKey:genericAttribute:error:]
+-[AWSCognitoAuthUICKeyChainStore setData:forKey:label:comment:]
+-[AWSCognitoAuthUICKeyChainStore setData:forKey:label:comment:error:]
+-[AWSCognitoAuthUICKeyChainStore setData:forKey:genericAttribute:label:comment:error:]
++[AWSCognitoAuthUICKeyChainStore removeItemForKey:]
++[AWSCognitoAuthUICKeyChainStore removeItemForKey:error:]
++[AWSCognitoAuthUICKeyChainStore removeItemForKey:service:]
++[AWSCognitoAuthUICKeyChainStore removeItemForKey:service:error:]
++[AWSCognitoAuthUICKeyChainStore removeItemForKey:service:accessGroup:]
++[AWSCognitoAuthUICKeyChainStore removeItemForKey:service:accessGroup:error:]
++[AWSCognitoAuthUICKeyChainStore removeAllItems]
++[AWSCognitoAuthUICKeyChainStore removeAllItemsWithError:]
++[AWSCognitoAuthUICKeyChainStore removeAllItemsForService:]
++[AWSCognitoAuthUICKeyChainStore removeAllItemsForService:error:]
++[AWSCognitoAuthUICKeyChainStore removeAllItemsForService:accessGroup:]
++[AWSCognitoAuthUICKeyChainStore removeAllItemsForService:accessGroup:error:]
+-[AWSCognitoAuthUICKeyChainStore removeItemForKey:]
+-[AWSCognitoAuthUICKeyChainStore removeItemForKey:error:]
+-[AWSCognitoAuthUICKeyChainStore removeAllItems]
+-[AWSCognitoAuthUICKeyChainStore removeAllItemsWithError:]
+-[AWSCognitoAuthUICKeyChainStore objectForKeyedSubscript:]
+-[AWSCognitoAuthUICKeyChainStore setObject:forKeyedSubscript:]
+-[AWSCognitoAuthUICKeyChainStore allKeys]
++[AWSCognitoAuthUICKeyChainStore allKeysWithItemClass:]
++[AWSCognitoAuthUICKeyChainStore allItemsWithItemClass:]
+-[AWSCognitoAuthUICKeyChainStore allItems]
+-[AWSCognitoAuthUICKeyChainStore items]
++[AWSCognitoAuthUICKeyChainStore prettify:items:]
+-[AWSCognitoAuthUICKeyChainStore setSynchronizable:]
+-[AWSCognitoAuthUICKeyChainStore setAccessibility:authenticationPolicy:]
+-[AWSCognitoAuthUICKeyChainStore sharedPasswordWithCompletion:]
+___63-[AWSCognitoAuthUICKeyChainStore sharedPasswordWithCompletion:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[AWSCognitoAuthUICKeyChainStore sharedPasswordForAccount:completion:]
+___70-[AWSCognitoAuthUICKeyChainStore sharedPasswordForAccount:completion:]_block_invoke
+___copy_helper_block_.159
+___destroy_helper_block_.160
+-[AWSCognitoAuthUICKeyChainStore setSharedPassword:forAccount:completion:]
+___74-[AWSCognitoAuthUICKeyChainStore setSharedPassword:forAccount:completion:]_block_invoke
+___copy_helper_block_.162
+___destroy_helper_block_.163
+-[AWSCognitoAuthUICKeyChainStore removeSharedPasswordForAccount:completion:]
++[AWSCognitoAuthUICKeyChainStore requestSharedWebCredentialWithCompletion:]
++[AWSCognitoAuthUICKeyChainStore requestSharedWebCredentialForDomain:account:completion:]
+___89+[AWSCognitoAuthUICKeyChainStore requestSharedWebCredentialForDomain:account:completion:]_block_invoke
+___copy_helper_block_.170
+___destroy_helper_block_.171
++[AWSCognitoAuthUICKeyChainStore generatePassword]
+-[AWSCognitoAuthUICKeyChainStore synchronize]
+-[AWSCognitoAuthUICKeyChainStore synchronizeWithError:]
+-[AWSCognitoAuthUICKeyChainStore description]
+-[AWSCognitoAuthUICKeyChainStore debugDescription]
+-[AWSCognitoAuthUICKeyChainStore query]
+-[AWSCognitoAuthUICKeyChainStore attributesWithKey:value:error:]
+-[AWSCognitoAuthUICKeyChainStore itemClassObject]
+-[AWSCognitoAuthUICKeyChainStore protocolTypeObject]
+-[AWSCognitoAuthUICKeyChainStore authenticationTypeObject]
+-[AWSCognitoAuthUICKeyChainStore accessibilityObject]
++[AWSCognitoAuthUICKeyChainStore argumentError:]
++[AWSCognitoAuthUICKeyChainStore conversionError:]
++[AWSCognitoAuthUICKeyChainStore securityError:]
++[AWSCognitoAuthUICKeyChainStore unexpectedError:]
+-[AWSCognitoAuthUICKeyChainStore itemClass]
+-[AWSCognitoAuthUICKeyChainStore service]
+-[AWSCognitoAuthUICKeyChainStore accessGroup]
+-[AWSCognitoAuthUICKeyChainStore server]
+-[AWSCognitoAuthUICKeyChainStore protocolType]
+-[AWSCognitoAuthUICKeyChainStore authenticationType]
+-[AWSCognitoAuthUICKeyChainStore accessibility]
+-[AWSCognitoAuthUICKeyChainStore setAccessibility:]
+-[AWSCognitoAuthUICKeyChainStore authenticationPolicy]
+-[AWSCognitoAuthUICKeyChainStore synchronizable]
+-[AWSCognitoAuthUICKeyChainStore authenticationPrompt]
+-[AWSCognitoAuthUICKeyChainStore setAuthenticationPrompt:]
+-[AWSCognitoAuthUICKeyChainStore .cxx_destruct]
+__defaultService
+_OBJC_IVAR_$_AWSCognitoAuthUICKeyChainStore._itemClass
+_OBJC_IVAR_$_AWSCognitoAuthUICKeyChainStore._service
+_OBJC_IVAR_$_AWSCognitoAuthUICKeyChainStore._accessGroup
+_OBJC_IVAR_$_AWSCognitoAuthUICKeyChainStore._server
+_OBJC_IVAR_$_AWSCognitoAuthUICKeyChainStore._protocolType
+_OBJC_IVAR_$_AWSCognitoAuthUICKeyChainStore._authenticationType
+_OBJC_IVAR_$_AWSCognitoAuthUICKeyChainStore._accessibility
+_OBJC_IVAR_$_AWSCognitoAuthUICKeyChainStore._synchronizable
+_OBJC_IVAR_$_AWSCognitoAuthUICKeyChainStore._authenticationPolicy
+___block_descriptor_tmp
+___block_descriptor_tmp.161
+___block_descriptor_tmp.165
+___block_descriptor_tmp.173
+_OBJC_IVAR_$_AWSCognitoAuthUICKeyChainStore._authenticationPrompt
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/distiller/project/AWSCognitoAuth/Internal/UICKeyChainStore/AWSCognitoAuthUICKeyChainStore.m
+/Users/distiller/project
+/Users/distiller/project/AWSCognitoAuth/Internal/UICKeyChainStore/AWSCognitoAuthUICKeyChainStore.h
+__destroy_helper_block_
+__copy_helper_block_
+__89+[AWSCognitoAuthUICKeyChainStore requestSharedWebCredentialForDomain:account:completion:]_block_invoke
+__74-[AWSCognitoAuthUICKeyChainStore setSharedPassword:forAccount:completion:]_block_invoke
+__70-[AWSCognitoAuthUICKeyChainStore sharedPasswordForAccount:completion:]_block_invoke
+__63-[AWSCognitoAuthUICKeyChainStore sharedPasswordWithCompletion:]_block_invoke
++[AWSCognitoAuth defaultCognitoAuth]
+___36+[AWSCognitoAuth defaultCognitoAuth]_block_invoke
++[AWSCognitoAuth registerCognitoAuthWithAuthConfiguration:forKey:]
+___66+[AWSCognitoAuth registerCognitoAuthWithAuthConfiguration:forKey:]_block_invoke
++[AWSCognitoAuth CognitoAuthForKey:]
++[AWSCognitoAuth removeCognitoAuthForKey:]
+-[AWSCognitoAuth init]
+-[AWSCognitoAuth initWithConfiguration:]
+-[AWSCognitoAuth refreshTokenFromKeyChain:]
+-[AWSCognitoAuth isSignedIn]
+-[AWSCognitoAuth getSession:]
+-[AWSCognitoAuth getSession:completion:]
+-[AWSCognitoAuth enqueueGetSession:completion:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___47-[AWSCognitoAuth enqueueGetSession:completion:]_block_invoke
+-[AWSCognitoAuth cleanupSignIn]
+-[AWSCognitoAuth launchSignInVC:]
+___33-[AWSCognitoAuth launchSignInVC:]_block_invoke
+___copy_helper_block_.210
+___destroy_helper_block_.211
+-[AWSCognitoAuth showSFSafariViewControllerForURL:withPresentingViewController:]
+___80-[AWSCognitoAuth showSFSafariViewControllerForURL:withPresentingViewController:]_block_invoke
+___Block_byref_object_copy_.237
+___Block_byref_object_dispose_.238
+___copy_helper_block_.251
+___destroy_helper_block_.252
+-[AWSCognitoAuth setPopoverSource:source:]
+-[AWSCognitoAuth getSessionInternal:completion:]
+-[AWSCognitoAuth dismissSafariViewControllerAndCompleteGetSession:error:]
+___73-[AWSCognitoAuth dismissSafariViewControllerAndCompleteGetSession:error:]_block_invoke
+___copy_helper_block_.332
+___destroy_helper_block_.333
+-[AWSCognitoAuth cleanUpAndCallGetSessionBlock:error:]
+-[AWSCognitoAuth dismissSafariViewControllerAndCompleteSignOut:]
+___64-[AWSCognitoAuth dismissSafariViewControllerAndCompleteSignOut:]_block_invoke
+___copy_helper_block_.347
+___destroy_helper_block_.348
+-[AWSCognitoAuth cleanUpAndCallSignOutBlock:]
+-[AWSCognitoAuth signOut:]
+-[AWSCognitoAuth signOut:completion:]
+___37-[AWSCognitoAuth signOut:completion:]_block_invoke
+___copy_helper_block_.360
+___destroy_helper_block_.361
+-[AWSCognitoAuth getQueryStringSuffixForParameters:]
+-[AWSCognitoAuth signOutInternal:completion:]
+___45-[AWSCognitoAuth signOutInternal:completion:]_block_invoke
+___copy_helper_block_.389
+___destroy_helper_block_.390
+-[AWSCognitoAuth signOutSFSafariVC:url:]
+___40-[AWSCognitoAuth signOutSFSafariVC:url:]_block_invoke
+___copy_helper_block_.394
+___destroy_helper_block_.395
+-[AWSCognitoAuth signOutLocally]
+-[AWSCognitoAuth signOutLocallyAndClearLastKnownUser]
+-[AWSCognitoAuth getDateFormatter]
+___34-[AWSCognitoAuth getDateFormatter]_block_invoke
+-[AWSCognitoAuth dateFromString:]
+-[AWSCognitoAuth stringValue:]
+-[AWSCognitoAuth safariViewControllerDidFinish:]
+-[AWSCognitoAuth setInternalSignOutErrorAndCancelSignOutOperations:]
+-[AWSCognitoAuth setInternalGetSessionErrorAndCancelSignInOperations:]
+-[AWSCognitoAuth safariViewController:didCompleteInitialLoad:]
+-[AWSCognitoAuth generateRandom:]
+-[AWSCognitoAuth calculateSHA256Hash:]
+-[AWSCognitoAuth urlSafeBase64:]
+-[AWSCognitoAuth urlEncode:]
+-[AWSCognitoAuth application:openURL:options:]
+-[AWSCognitoAuth processURL:forRedirection:]
+-[AWSCognitoAuth addHeaders:]
+-[AWSCognitoAuth dismissSafariVC:]
+___34-[AWSCognitoAuth dismissSafariVC:]_block_invoke
+___34-[AWSCognitoAuth dismissSafariVC:]_block_invoke_2
+___copy_helper_block_.523
+___destroy_helper_block_.524
+___copy_helper_block_.528
+___destroy_helper_block_.529
+-[AWSCognitoAuth connection:didReceiveResponse:]
+-[AWSCognitoAuth connection:didReceiveData:]
+-[AWSCognitoAuth connectionDidFinishLoading:]
+-[AWSCognitoAuth connection:didFailWithError:]
+-[AWSCognitoAuth currentUsername]
+-[AWSCognitoAuth currentUserKey]
+-[AWSCognitoAuth setCurrentUser:]
+-[AWSCognitoAuth clearLastKnownUser]
+-[AWSCognitoAuth clearAll]
+-[AWSCognitoAuth keyChainNamespaceClientId:]
+-[AWSCognitoAuth keyChainKey:key:]
+-[AWSCognitoAuth updateUsernameAndPersistTokens:]
+-[AWSCognitoAuth asfDeviceId]
+-[AWSCognitoAuth getError:code:]
+-[AWSCognitoAuth normalizeScopes]
+___33-[AWSCognitoAuth normalizeScopes]_block_invoke
++[AWSCognitoAuth objectForKey:]
+___31+[AWSCognitoAuth objectForKey:]_block_invoke
+___copy_helper_block_.600
+___destroy_helper_block_.601
++[AWSCognitoAuth removeObjectForKey:]
+___37+[AWSCognitoAuth removeObjectForKey:]_block_invoke
+___copy_helper_block_.603
+___destroy_helper_block_.604
++[AWSCognitoAuth setObject:forKey:]
+___35+[AWSCognitoAuth setObject:forKey:]_block_invoke
+___copy_helper_block_.606
+___destroy_helper_block_.607
++[AWSCognitoAuth userAgent]
+___27+[AWSCognitoAuth userAgent]_block_invoke
+-[AWSCognitoAuth delegate]
+-[AWSCognitoAuth setDelegate:]
+-[AWSCognitoAuth authConfiguration]
+-[AWSCognitoAuth sfAuthSession]
+-[AWSCognitoAuth setSfAuthSession:]
+-[AWSCognitoAuth getSessionBlock]
+-[AWSCognitoAuth setGetSessionBlock:]
+-[AWSCognitoAuth signOutBlock]
+-[AWSCognitoAuth setSignOutBlock:]
+-[AWSCognitoAuth getSessionError]
+-[AWSCognitoAuth setGetSessionError:]
+-[AWSCognitoAuth signOutError]
+-[AWSCognitoAuth setSignOutError:]
+-[AWSCognitoAuth svc]
+-[AWSCognitoAuth setSvc:]
+-[AWSCognitoAuth pvc]
+-[AWSCognitoAuth setPvc:]
+-[AWSCognitoAuth state]
+-[AWSCognitoAuth setState:]
+-[AWSCognitoAuth proofKey]
+-[AWSCognitoAuth setProofKey:]
+-[AWSCognitoAuth proofKeyHash]
+-[AWSCognitoAuth setProofKeyHash:]
+-[AWSCognitoAuth responseData]
+-[AWSCognitoAuth setResponseData:]
+-[AWSCognitoAuth getSessionQueue]
+-[AWSCognitoAuth setGetSessionQueue:]
+-[AWSCognitoAuth signOutQueue]
+-[AWSCognitoAuth setSignOutQueue:]
+-[AWSCognitoAuth useSFAuthenticationSession]
+-[AWSCognitoAuth setUseSFAuthenticationSession:]
+-[AWSCognitoAuth sfAuthenticationSessionAvailable]
+-[AWSCognitoAuth setSfAuthenticationSessionAvailable:]
+-[AWSCognitoAuth isHandlingRedirection]
+-[AWSCognitoAuth setIsHandlingRedirection:]
+-[AWSCognitoAuth isAuthProviderExternal]
+-[AWSCognitoAuth setIsAuthProviderExternal:]
+-[AWSCognitoAuth isProcessingSignOut]
+-[AWSCognitoAuth setIsProcessingSignOut:]
+-[AWSCognitoAuth isProcessingSignIn]
+-[AWSCognitoAuth setIsProcessingSignIn:]
+-[AWSCognitoAuth keychain]
+-[AWSCognitoAuth setKeychain:]
+-[AWSCognitoAuth .cxx_destruct]
+-[AWSCognitoAuthUserSession initWithIdToken:accessToken:refreshToken:expiresIn:]
+-[AWSCognitoAuthUserSession initWithIdToken:accessToken:refreshToken:expirationTime:]
+-[AWSCognitoAuthUserSession username]
+-[AWSCognitoAuthUserSession idToken]
+-[AWSCognitoAuthUserSession setIdToken:]
+-[AWSCognitoAuthUserSession accessToken]
+-[AWSCognitoAuthUserSession setAccessToken:]
+-[AWSCognitoAuthUserSession refreshToken]
+-[AWSCognitoAuthUserSession setRefreshToken:]
+-[AWSCognitoAuthUserSession expirationTime]
+-[AWSCognitoAuthUserSession setExpirationTime:]
+-[AWSCognitoAuthUserSession .cxx_destruct]
+-[AWSCognitoAuthUserSessionToken initWithToken:]
+-[AWSCognitoAuthUserSessionToken claims]
+-[AWSCognitoAuthUserSessionToken tokenString]
+-[AWSCognitoAuthUserSessionToken setTokenString:]
+-[AWSCognitoAuthUserSessionToken .cxx_destruct]
+-[AWSCognitoAuthConfiguration initWithAppClientId:appClientSecret:scopes:signInRedirectUri:signOutRedirectUri:webDomain:]
+-[AWSCognitoAuthConfiguration initWithAppClientId:appClientSecret:scopes:signInRedirectUri:signOutRedirectUri:webDomain:identityProvider:idpIdentifier:userPoolIdForEnablingASF:]
+-[AWSCognitoAuthConfiguration initWithAppClientId:appClientSecret:scopes:signInRedirectUri:signOutRedirectUri:webDomain:identityProvider:idpIdentifier:userPoolIdForEnablingASF:enableSFAuthSessionIfAvailable:]
+-[AWSCognitoAuthConfiguration initWithAppClientIdInternal:appClientSecret:scopes:signInRedirectUri:signOutRedirectUri:webDomain:identityProvider:idpIdentifier:userPoolIdForEnablingASF:enableSFAuthSessionIfAvailable:signInUri:signOutUri:tokensUri:signInUriQueryParameters:signOutUriQueryParameters:tokenUriQueryParameters:isProviderExternal:]
+-[AWSCognitoAuthConfiguration copyWithZone:]
+-[AWSCognitoAuthConfiguration isASFEnabled]
+-[AWSCognitoAuthConfiguration appClientId]
+-[AWSCognitoAuthConfiguration appClientSecret]
+-[AWSCognitoAuthConfiguration scopes]
+-[AWSCognitoAuthConfiguration signInRedirectUri]
+-[AWSCognitoAuthConfiguration signOutRedirectUri]
+-[AWSCognitoAuthConfiguration webDomain]
+-[AWSCognitoAuthConfiguration identityProvider]
+-[AWSCognitoAuthConfiguration idpIdentifier]
+-[AWSCognitoAuthConfiguration userPoolId]
+-[AWSCognitoAuthConfiguration isSFAuthenticationSessionEnabled]
+-[AWSCognitoAuthConfiguration signInUri]
+-[AWSCognitoAuthConfiguration setSignInUri:]
+-[AWSCognitoAuthConfiguration tokensUri]
+-[AWSCognitoAuthConfiguration setTokensUri:]
+-[AWSCognitoAuthConfiguration signOutUri]
+-[AWSCognitoAuthConfiguration setSignOutUri:]
+-[AWSCognitoAuthConfiguration signInUriQueryParameters]
+-[AWSCognitoAuthConfiguration setSignInUriQueryParameters:]
+-[AWSCognitoAuthConfiguration tokensUriQueryParameters]
+-[AWSCognitoAuthConfiguration setTokensUriQueryParameters:]
+-[AWSCognitoAuthConfiguration signOutUriQueryParameters]
+-[AWSCognitoAuthConfiguration setSignOutUriQueryParameters:]
+-[AWSCognitoAuthConfiguration isAuthProviderExternal]
+-[AWSCognitoAuthConfiguration setIsAuthProviderExternal:]
+-[AWSCognitoAuthConfiguration .cxx_destruct]
+___clang_at_available_requires_core_foundation_framework
+__instanceDictionary
+__dispatchQueue
+_defaultCognitoAuth._defaultAuth
+_defaultCognitoAuth.onceToken
+___block_literal_global
+_registerCognitoAuthWithAuthConfiguration:forKey:.onceToken
+___block_descriptor_tmp.78
+___block_literal_global.79
+_OBJC_IVAR_$_AWSCognitoAuth._signOutQueue
+_OBJC_IVAR_$_AWSCognitoAuth._getSessionQueue
+_OBJC_IVAR_$_AWSCognitoAuth._authConfiguration
+_OBJC_IVAR_$_AWSCognitoAuth._useSFAuthenticationSession
+_OBJC_IVAR_$_AWSCognitoAuth._sfAuthenticationSessionAvailable
+_OBJC_IVAR_$_AWSCognitoAuth._keychain
+___block_descriptor_tmp.134
+___block_descriptor_tmp.213
+___block_descriptor_tmp.253
+___block_descriptor_tmp.334
+___block_descriptor_tmp.349
+___block_descriptor_tmp.362
+___block_descriptor_tmp.391
+___block_descriptor_tmp.396
+_getDateFormatter._dateFormatter
+_getDateFormatter.onceToken
+___block_descriptor_tmp.409
+___block_literal_global.410
+___block_descriptor_tmp.525
+___block_descriptor_tmp.530
+___block_descriptor_tmp.594
+___block_literal_global.595
+___block_descriptor_tmp.602
+___block_descriptor_tmp.605
+___block_descriptor_tmp.608
+_userAgent._userAgent
+_userAgent.onceToken
+___block_descriptor_tmp.609
+___block_literal_global.610
+_OBJC_IVAR_$_AWSCognitoAuth._delegate
+_OBJC_IVAR_$_AWSCognitoAuth._sfAuthSession
+_OBJC_IVAR_$_AWSCognitoAuth._getSessionBlock
+_OBJC_IVAR_$_AWSCognitoAuth._signOutBlock
+_OBJC_IVAR_$_AWSCognitoAuth._getSessionError
+_OBJC_IVAR_$_AWSCognitoAuth._signOutError
+_OBJC_IVAR_$_AWSCognitoAuth._svc
+_OBJC_IVAR_$_AWSCognitoAuth._pvc
+_OBJC_IVAR_$_AWSCognitoAuth._state
+_OBJC_IVAR_$_AWSCognitoAuth._proofKey
+_OBJC_IVAR_$_AWSCognitoAuth._proofKeyHash
+_OBJC_IVAR_$_AWSCognitoAuth._responseData
+_OBJC_IVAR_$_AWSCognitoAuth._isHandlingRedirection
+_OBJC_IVAR_$_AWSCognitoAuth._isAuthProviderExternal
+_OBJC_IVAR_$_AWSCognitoAuth._isProcessingSignOut
+_OBJC_IVAR_$_AWSCognitoAuth._isProcessingSignIn
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_SFSafariViewControllerDelegate
+l_OBJC_LABEL_PROTOCOL_$_SFSafariViewControllerDelegate
+l_OBJC_PROTOCOL_$_NSURLConnectionDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLConnectionDelegate
+_OBJC_IVAR_$_AWSCognitoAuthUserSession._idToken
+_OBJC_IVAR_$_AWSCognitoAuthUserSession._accessToken
+_OBJC_IVAR_$_AWSCognitoAuthUserSession._refreshToken
+_OBJC_IVAR_$_AWSCognitoAuthUserSession._expirationTime
+_OBJC_IVAR_$_AWSCognitoAuthUserSessionToken._tokenString
+_OBJC_IVAR_$_AWSCognitoAuthConfiguration._signInUri
+_OBJC_IVAR_$_AWSCognitoAuthConfiguration._signOutUri
+_OBJC_IVAR_$_AWSCognitoAuthConfiguration._tokensUri
+_OBJC_IVAR_$_AWSCognitoAuthConfiguration._signOutUriQueryParameters
+_OBJC_IVAR_$_AWSCognitoAuthConfiguration._appClientId
+_OBJC_IVAR_$_AWSCognitoAuthConfiguration._appClientSecret
+_OBJC_IVAR_$_AWSCognitoAuthConfiguration._scopes
+_OBJC_IVAR_$_AWSCognitoAuthConfiguration._signInRedirectUri
+_OBJC_IVAR_$_AWSCognitoAuthConfiguration._signOutRedirectUri
+_OBJC_IVAR_$_AWSCognitoAuthConfiguration._webDomain
+_OBJC_IVAR_$_AWSCognitoAuthConfiguration._identityProvider
+_OBJC_IVAR_$_AWSCognitoAuthConfiguration._idpIdentifier
+_OBJC_IVAR_$_AWSCognitoAuthConfiguration._userPoolId
+_OBJC_IVAR_$_AWSCognitoAuthConfiguration._isSFAuthenticationSessionEnabled
+_OBJC_IVAR_$_AWSCognitoAuthConfiguration._signInUriQueryParameters
+_OBJC_IVAR_$_AWSCognitoAuthConfiguration._tokensUriQueryParameters
+_OBJC_IVAR_$_AWSCognitoAuthConfiguration._isAuthProviderExternal
+/Users/distiller/project/AWSCognitoAuth/AWSCognitoAuth.m
+/Users/distiller/project/AWSCognitoAuth/AWSCognitoAuth.h
+/Users/distiller/project/AWSCognitoAuth/Internal/AWSCognitoAuth_Internal.h
+__27+[AWSCognitoAuth userAgent]_block_invoke
+/Applications/Xcode-10.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/once.h
+__35+[AWSCognitoAuth setObject:forKey:]_block_invoke
+__37+[AWSCognitoAuth removeObjectForKey:]_block_invoke
+__31+[AWSCognitoAuth objectForKey:]_block_invoke
+__33-[AWSCognitoAuth normalizeScopes]_block_invoke
+__34-[AWSCognitoAuth dismissSafariVC:]_block_invoke_2
+__34-[AWSCognitoAuth dismissSafariVC:]_block_invoke
+__34-[AWSCognitoAuth getDateFormatter]_block_invoke
+__40-[AWSCognitoAuth signOutSFSafariVC:url:]_block_invoke
+__45-[AWSCognitoAuth signOutInternal:completion:]_block_invoke
+__37-[AWSCognitoAuth signOut:completion:]_block_invoke
+__64-[AWSCognitoAuth dismissSafariViewControllerAndCompleteSignOut:]_block_invoke
+__73-[AWSCognitoAuth dismissSafariViewControllerAndCompleteGetSession:error:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__80-[AWSCognitoAuth showSFSafariViewControllerForURL:withPresentingViewController:]_block_invoke
+__33-[AWSCognitoAuth launchSignInVC:]_block_invoke
+__47-[AWSCognitoAuth enqueueGetSession:completion:]_block_invoke
+__66+[AWSCognitoAuth registerCognitoAuthWithAuthConfiguration:forKey:]_block_invoke
+__36+[AWSCognitoAuth defaultCognitoAuth]_block_invoke
+/Users/distiller/Library/Developer/Xcode/DerivedData/AWSiOSSDKv2-bvcffhrgbfjnfybjecennhscmaho/Build/Intermediates.noindex/ArchiveIntermediates/AWSCognitoAuth/IntermediateBuildFilesPath/AWSiOSSDKv2.build/Release-iphoneos/AWSCognitoAuth.build/DerivedSources/AWSCognitoAuth_vers.c

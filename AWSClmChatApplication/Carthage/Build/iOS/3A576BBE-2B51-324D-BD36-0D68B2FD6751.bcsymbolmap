@@ -1,0 +1,2267 @@
+BCSymbolMap Version: 2.0
++[AWSAutoScalingResponseSerializer initialize]
+-[AWSAutoScalingResponseSerializer responseObjectForResponse:originalRequest:currentRequest:data:error:]
++[AWSAutoScaling initialize]
++[AWSAutoScaling defaultAutoScaling]
+___36+[AWSAutoScaling defaultAutoScaling]_block_invoke
++[AWSAutoScaling registerAutoScalingWithConfiguration:forKey:]
+___62+[AWSAutoScaling registerAutoScalingWithConfiguration:forKey:]_block_invoke
++[AWSAutoScaling AutoScalingForKey:]
++[AWSAutoScaling removeAutoScalingForKey:]
+-[AWSAutoScaling init]
+-[AWSAutoScaling initWithConfiguration:]
+-[AWSAutoScaling invokeRequest:HTTPMethod:URLString:targetPrefix:operationName:outputClass:]
+-[AWSAutoScaling attachInstances:]
+-[AWSAutoScaling attachInstances:completionHandler:]
+___52-[AWSAutoScaling attachInstances:completionHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[AWSAutoScaling attachLoadBalancerTargetGroups:]
+-[AWSAutoScaling attachLoadBalancerTargetGroups:completionHandler:]
+___67-[AWSAutoScaling attachLoadBalancerTargetGroups:completionHandler:]_block_invoke
+___copy_helper_block_.195
+___destroy_helper_block_.196
+-[AWSAutoScaling attachLoadBalancers:]
+-[AWSAutoScaling attachLoadBalancers:completionHandler:]
+___56-[AWSAutoScaling attachLoadBalancers:completionHandler:]_block_invoke
+___copy_helper_block_.203
+___destroy_helper_block_.204
+-[AWSAutoScaling batchDeleteScheduledAction:]
+-[AWSAutoScaling batchDeleteScheduledAction:completionHandler:]
+___63-[AWSAutoScaling batchDeleteScheduledAction:completionHandler:]_block_invoke
+___copy_helper_block_.211
+___destroy_helper_block_.212
+-[AWSAutoScaling batchPutScheduledUpdateGroupAction:]
+-[AWSAutoScaling batchPutScheduledUpdateGroupAction:completionHandler:]
+___71-[AWSAutoScaling batchPutScheduledUpdateGroupAction:completionHandler:]_block_invoke
+___copy_helper_block_.219
+___destroy_helper_block_.220
+-[AWSAutoScaling completeLifecycleAction:]
+-[AWSAutoScaling completeLifecycleAction:completionHandler:]
+___60-[AWSAutoScaling completeLifecycleAction:completionHandler:]_block_invoke
+___copy_helper_block_.227
+___destroy_helper_block_.228
+-[AWSAutoScaling createAutoScalingGroup:]
+-[AWSAutoScaling createAutoScalingGroup:completionHandler:]
+___59-[AWSAutoScaling createAutoScalingGroup:completionHandler:]_block_invoke
+___copy_helper_block_.234
+___destroy_helper_block_.235
+-[AWSAutoScaling createLaunchConfiguration:]
+-[AWSAutoScaling createLaunchConfiguration:completionHandler:]
+___62-[AWSAutoScaling createLaunchConfiguration:completionHandler:]_block_invoke
+___copy_helper_block_.241
+___destroy_helper_block_.242
+-[AWSAutoScaling createOrUpdateTags:]
+-[AWSAutoScaling createOrUpdateTags:completionHandler:]
+___55-[AWSAutoScaling createOrUpdateTags:completionHandler:]_block_invoke
+___copy_helper_block_.248
+___destroy_helper_block_.249
+-[AWSAutoScaling deleteAutoScalingGroup:]
+-[AWSAutoScaling deleteAutoScalingGroup:completionHandler:]
+___59-[AWSAutoScaling deleteAutoScalingGroup:completionHandler:]_block_invoke
+___copy_helper_block_.255
+___destroy_helper_block_.256
+-[AWSAutoScaling deleteLaunchConfiguration:]
+-[AWSAutoScaling deleteLaunchConfiguration:completionHandler:]
+___62-[AWSAutoScaling deleteLaunchConfiguration:completionHandler:]_block_invoke
+___copy_helper_block_.262
+___destroy_helper_block_.263
+-[AWSAutoScaling deleteLifecycleHook:]
+-[AWSAutoScaling deleteLifecycleHook:completionHandler:]
+___56-[AWSAutoScaling deleteLifecycleHook:completionHandler:]_block_invoke
+___copy_helper_block_.270
+___destroy_helper_block_.271
+-[AWSAutoScaling deleteNotificationConfiguration:]
+-[AWSAutoScaling deleteNotificationConfiguration:completionHandler:]
+___68-[AWSAutoScaling deleteNotificationConfiguration:completionHandler:]_block_invoke
+___copy_helper_block_.277
+___destroy_helper_block_.278
+-[AWSAutoScaling deletePolicy:]
+-[AWSAutoScaling deletePolicy:completionHandler:]
+___49-[AWSAutoScaling deletePolicy:completionHandler:]_block_invoke
+___copy_helper_block_.284
+___destroy_helper_block_.285
+-[AWSAutoScaling deleteScheduledAction:]
+-[AWSAutoScaling deleteScheduledAction:completionHandler:]
+___58-[AWSAutoScaling deleteScheduledAction:completionHandler:]_block_invoke
+___copy_helper_block_.291
+___destroy_helper_block_.292
+-[AWSAutoScaling deleteTags:]
+-[AWSAutoScaling deleteTags:completionHandler:]
+___47-[AWSAutoScaling deleteTags:completionHandler:]_block_invoke
+___copy_helper_block_.298
+___destroy_helper_block_.299
+-[AWSAutoScaling describeAccountLimits:]
+-[AWSAutoScaling describeAccountLimits:completionHandler:]
+___58-[AWSAutoScaling describeAccountLimits:completionHandler:]_block_invoke
+___copy_helper_block_.306
+___destroy_helper_block_.307
+-[AWSAutoScaling describeAdjustmentTypes:]
+-[AWSAutoScaling describeAdjustmentTypes:completionHandler:]
+___60-[AWSAutoScaling describeAdjustmentTypes:completionHandler:]_block_invoke
+___copy_helper_block_.314
+___destroy_helper_block_.315
+-[AWSAutoScaling describeAutoScalingGroups:]
+-[AWSAutoScaling describeAutoScalingGroups:completionHandler:]
+___62-[AWSAutoScaling describeAutoScalingGroups:completionHandler:]_block_invoke
+___copy_helper_block_.322
+___destroy_helper_block_.323
+-[AWSAutoScaling describeAutoScalingInstances:]
+-[AWSAutoScaling describeAutoScalingInstances:completionHandler:]
+___65-[AWSAutoScaling describeAutoScalingInstances:completionHandler:]_block_invoke
+___copy_helper_block_.330
+___destroy_helper_block_.331
+-[AWSAutoScaling describeAutoScalingNotificationTypes:]
+-[AWSAutoScaling describeAutoScalingNotificationTypes:completionHandler:]
+___73-[AWSAutoScaling describeAutoScalingNotificationTypes:completionHandler:]_block_invoke
+___copy_helper_block_.338
+___destroy_helper_block_.339
+-[AWSAutoScaling describeLaunchConfigurations:]
+-[AWSAutoScaling describeLaunchConfigurations:completionHandler:]
+___65-[AWSAutoScaling describeLaunchConfigurations:completionHandler:]_block_invoke
+___copy_helper_block_.346
+___destroy_helper_block_.347
+-[AWSAutoScaling describeLifecycleHookTypes:]
+-[AWSAutoScaling describeLifecycleHookTypes:completionHandler:]
+___63-[AWSAutoScaling describeLifecycleHookTypes:completionHandler:]_block_invoke
+___copy_helper_block_.354
+___destroy_helper_block_.355
+-[AWSAutoScaling describeLifecycleHooks:]
+-[AWSAutoScaling describeLifecycleHooks:completionHandler:]
+___59-[AWSAutoScaling describeLifecycleHooks:completionHandler:]_block_invoke
+___copy_helper_block_.362
+___destroy_helper_block_.363
+-[AWSAutoScaling describeLoadBalancerTargetGroups:]
+-[AWSAutoScaling describeLoadBalancerTargetGroups:completionHandler:]
+___69-[AWSAutoScaling describeLoadBalancerTargetGroups:completionHandler:]_block_invoke
+___copy_helper_block_.370
+___destroy_helper_block_.371
+-[AWSAutoScaling describeLoadBalancers:]
+-[AWSAutoScaling describeLoadBalancers:completionHandler:]
+___58-[AWSAutoScaling describeLoadBalancers:completionHandler:]_block_invoke
+___copy_helper_block_.378
+___destroy_helper_block_.379
+-[AWSAutoScaling describeMetricCollectionTypes:]
+-[AWSAutoScaling describeMetricCollectionTypes:completionHandler:]
+___66-[AWSAutoScaling describeMetricCollectionTypes:completionHandler:]_block_invoke
+___copy_helper_block_.386
+___destroy_helper_block_.387
+-[AWSAutoScaling describeNotificationConfigurations:]
+-[AWSAutoScaling describeNotificationConfigurations:completionHandler:]
+___71-[AWSAutoScaling describeNotificationConfigurations:completionHandler:]_block_invoke
+___copy_helper_block_.394
+___destroy_helper_block_.395
+-[AWSAutoScaling describePolicies:]
+-[AWSAutoScaling describePolicies:completionHandler:]
+___53-[AWSAutoScaling describePolicies:completionHandler:]_block_invoke
+___copy_helper_block_.402
+___destroy_helper_block_.403
+-[AWSAutoScaling describeScalingActivities:]
+-[AWSAutoScaling describeScalingActivities:completionHandler:]
+___62-[AWSAutoScaling describeScalingActivities:completionHandler:]_block_invoke
+___copy_helper_block_.410
+___destroy_helper_block_.411
+-[AWSAutoScaling describeScalingProcessTypes:]
+-[AWSAutoScaling describeScalingProcessTypes:completionHandler:]
+___64-[AWSAutoScaling describeScalingProcessTypes:completionHandler:]_block_invoke
+___copy_helper_block_.418
+___destroy_helper_block_.419
+-[AWSAutoScaling describeScheduledActions:]
+-[AWSAutoScaling describeScheduledActions:completionHandler:]
+___61-[AWSAutoScaling describeScheduledActions:completionHandler:]_block_invoke
+___copy_helper_block_.426
+___destroy_helper_block_.427
+-[AWSAutoScaling describeTags:]
+-[AWSAutoScaling describeTags:completionHandler:]
+___49-[AWSAutoScaling describeTags:completionHandler:]_block_invoke
+___copy_helper_block_.434
+___destroy_helper_block_.435
+-[AWSAutoScaling describeTerminationPolicyTypes:]
+-[AWSAutoScaling describeTerminationPolicyTypes:completionHandler:]
+___67-[AWSAutoScaling describeTerminationPolicyTypes:completionHandler:]_block_invoke
+___copy_helper_block_.442
+___destroy_helper_block_.443
+-[AWSAutoScaling detachInstances:]
+-[AWSAutoScaling detachInstances:completionHandler:]
+___52-[AWSAutoScaling detachInstances:completionHandler:]_block_invoke
+___copy_helper_block_.450
+___destroy_helper_block_.451
+-[AWSAutoScaling detachLoadBalancerTargetGroups:]
+-[AWSAutoScaling detachLoadBalancerTargetGroups:completionHandler:]
+___67-[AWSAutoScaling detachLoadBalancerTargetGroups:completionHandler:]_block_invoke
+___copy_helper_block_.458
+___destroy_helper_block_.459
+-[AWSAutoScaling detachLoadBalancers:]
+-[AWSAutoScaling detachLoadBalancers:completionHandler:]
+___56-[AWSAutoScaling detachLoadBalancers:completionHandler:]_block_invoke
+___copy_helper_block_.466
+___destroy_helper_block_.467
+-[AWSAutoScaling disableMetricsCollection:]
+-[AWSAutoScaling disableMetricsCollection:completionHandler:]
+___61-[AWSAutoScaling disableMetricsCollection:completionHandler:]_block_invoke
+___copy_helper_block_.473
+___destroy_helper_block_.474
+-[AWSAutoScaling enableMetricsCollection:]
+-[AWSAutoScaling enableMetricsCollection:completionHandler:]
+___60-[AWSAutoScaling enableMetricsCollection:completionHandler:]_block_invoke
+___copy_helper_block_.480
+___destroy_helper_block_.481
+-[AWSAutoScaling enterStandby:]
+-[AWSAutoScaling enterStandby:completionHandler:]
+___49-[AWSAutoScaling enterStandby:completionHandler:]_block_invoke
+___copy_helper_block_.488
+___destroy_helper_block_.489
+-[AWSAutoScaling executePolicy:]
+-[AWSAutoScaling executePolicy:completionHandler:]
+___50-[AWSAutoScaling executePolicy:completionHandler:]_block_invoke
+___copy_helper_block_.495
+___destroy_helper_block_.496
+-[AWSAutoScaling exitStandby:]
+-[AWSAutoScaling exitStandby:completionHandler:]
+___48-[AWSAutoScaling exitStandby:completionHandler:]_block_invoke
+___copy_helper_block_.503
+___destroy_helper_block_.504
+-[AWSAutoScaling putLifecycleHook:]
+-[AWSAutoScaling putLifecycleHook:completionHandler:]
+___53-[AWSAutoScaling putLifecycleHook:completionHandler:]_block_invoke
+___copy_helper_block_.511
+___destroy_helper_block_.512
+-[AWSAutoScaling putNotificationConfiguration:]
+-[AWSAutoScaling putNotificationConfiguration:completionHandler:]
+___65-[AWSAutoScaling putNotificationConfiguration:completionHandler:]_block_invoke
+___copy_helper_block_.518
+___destroy_helper_block_.519
+-[AWSAutoScaling putScalingPolicy:]
+-[AWSAutoScaling putScalingPolicy:completionHandler:]
+___53-[AWSAutoScaling putScalingPolicy:completionHandler:]_block_invoke
+___copy_helper_block_.526
+___destroy_helper_block_.527
+-[AWSAutoScaling putScheduledUpdateGroupAction:]
+-[AWSAutoScaling putScheduledUpdateGroupAction:completionHandler:]
+___66-[AWSAutoScaling putScheduledUpdateGroupAction:completionHandler:]_block_invoke
+___copy_helper_block_.533
+___destroy_helper_block_.534
+-[AWSAutoScaling recordLifecycleActionHeartbeat:]
+-[AWSAutoScaling recordLifecycleActionHeartbeat:completionHandler:]
+___67-[AWSAutoScaling recordLifecycleActionHeartbeat:completionHandler:]_block_invoke
+___copy_helper_block_.541
+___destroy_helper_block_.542
+-[AWSAutoScaling resumeProcesses:]
+-[AWSAutoScaling resumeProcesses:completionHandler:]
+___52-[AWSAutoScaling resumeProcesses:completionHandler:]_block_invoke
+___copy_helper_block_.548
+___destroy_helper_block_.549
+-[AWSAutoScaling setDesiredCapacity:]
+-[AWSAutoScaling setDesiredCapacity:completionHandler:]
+___55-[AWSAutoScaling setDesiredCapacity:completionHandler:]_block_invoke
+___copy_helper_block_.555
+___destroy_helper_block_.556
+-[AWSAutoScaling setInstanceHealth:]
+-[AWSAutoScaling setInstanceHealth:completionHandler:]
+___54-[AWSAutoScaling setInstanceHealth:completionHandler:]_block_invoke
+___copy_helper_block_.562
+___destroy_helper_block_.563
+-[AWSAutoScaling setInstanceProtection:]
+-[AWSAutoScaling setInstanceProtection:completionHandler:]
+___58-[AWSAutoScaling setInstanceProtection:completionHandler:]_block_invoke
+___copy_helper_block_.570
+___destroy_helper_block_.571
+-[AWSAutoScaling suspendProcesses:]
+-[AWSAutoScaling suspendProcesses:completionHandler:]
+___53-[AWSAutoScaling suspendProcesses:completionHandler:]_block_invoke
+___copy_helper_block_.577
+___destroy_helper_block_.578
+-[AWSAutoScaling terminateInstanceInAutoScalingGroup:]
+-[AWSAutoScaling terminateInstanceInAutoScalingGroup:completionHandler:]
+___72-[AWSAutoScaling terminateInstanceInAutoScalingGroup:completionHandler:]_block_invoke
+___copy_helper_block_.585
+___destroy_helper_block_.586
+-[AWSAutoScaling updateAutoScalingGroup:]
+-[AWSAutoScaling updateAutoScalingGroup:completionHandler:]
+___59-[AWSAutoScaling updateAutoScalingGroup:completionHandler:]_block_invoke
+___copy_helper_block_.592
+___destroy_helper_block_.593
+-[AWSAutoScaling configuration]
+-[AWSAutoScaling setConfiguration:]
+-[AWSAutoScaling networking]
+-[AWSAutoScaling setNetworking:]
+-[AWSAutoScaling .cxx_destruct]
+_errorCodeDictionary
+__serviceClients
+_defaultAutoScaling._defaultAutoScaling
+_defaultAutoScaling.onceToken
+___block_descriptor_tmp
+___block_literal_global
+_registerAutoScalingWithConfiguration:forKey:.onceToken
+___block_descriptor_tmp.84
+___block_literal_global.85
+_OBJC_IVAR_$_AWSAutoScaling._configuration
+_OBJC_IVAR_$_AWSAutoScaling._networking
+___block_descriptor_tmp.185
+___block_descriptor_tmp.197
+___block_descriptor_tmp.205
+___block_descriptor_tmp.213
+___block_descriptor_tmp.221
+___block_descriptor_tmp.229
+___block_descriptor_tmp.236
+___block_descriptor_tmp.243
+___block_descriptor_tmp.250
+___block_descriptor_tmp.257
+___block_descriptor_tmp.264
+___block_descriptor_tmp.272
+___block_descriptor_tmp.279
+___block_descriptor_tmp.286
+___block_descriptor_tmp.293
+___block_descriptor_tmp.300
+___block_descriptor_tmp.308
+___block_descriptor_tmp.316
+___block_descriptor_tmp.324
+___block_descriptor_tmp.332
+___block_descriptor_tmp.340
+___block_descriptor_tmp.348
+___block_descriptor_tmp.356
+___block_descriptor_tmp.364
+___block_descriptor_tmp.372
+___block_descriptor_tmp.380
+___block_descriptor_tmp.388
+___block_descriptor_tmp.396
+___block_descriptor_tmp.404
+___block_descriptor_tmp.412
+___block_descriptor_tmp.420
+___block_descriptor_tmp.428
+___block_descriptor_tmp.436
+___block_descriptor_tmp.444
+___block_descriptor_tmp.452
+___block_descriptor_tmp.460
+___block_descriptor_tmp.468
+___block_descriptor_tmp.475
+___block_descriptor_tmp.482
+___block_descriptor_tmp.490
+___block_descriptor_tmp.497
+___block_descriptor_tmp.505
+___block_descriptor_tmp.513
+___block_descriptor_tmp.520
+___block_descriptor_tmp.528
+___block_descriptor_tmp.535
+___block_descriptor_tmp.543
+___block_descriptor_tmp.550
+___block_descriptor_tmp.557
+___block_descriptor_tmp.564
+___block_descriptor_tmp.572
+___block_descriptor_tmp.579
+___block_descriptor_tmp.587
+___block_descriptor_tmp.594
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/distiller/project/AWSAutoScaling/AWSAutoScalingService.m
+/Users/distiller/project
+/Users/distiller/project/AWSAutoScaling/AWSAutoScalingService.h
+__destroy_helper_block_
+__copy_helper_block_
+__59-[AWSAutoScaling updateAutoScalingGroup:completionHandler:]_block_invoke
+__72-[AWSAutoScaling terminateInstanceInAutoScalingGroup:completionHandler:]_block_invoke
+__53-[AWSAutoScaling suspendProcesses:completionHandler:]_block_invoke
+__58-[AWSAutoScaling setInstanceProtection:completionHandler:]_block_invoke
+__54-[AWSAutoScaling setInstanceHealth:completionHandler:]_block_invoke
+__55-[AWSAutoScaling setDesiredCapacity:completionHandler:]_block_invoke
+__52-[AWSAutoScaling resumeProcesses:completionHandler:]_block_invoke
+__67-[AWSAutoScaling recordLifecycleActionHeartbeat:completionHandler:]_block_invoke
+__66-[AWSAutoScaling putScheduledUpdateGroupAction:completionHandler:]_block_invoke
+__53-[AWSAutoScaling putScalingPolicy:completionHandler:]_block_invoke
+__65-[AWSAutoScaling putNotificationConfiguration:completionHandler:]_block_invoke
+__53-[AWSAutoScaling putLifecycleHook:completionHandler:]_block_invoke
+__48-[AWSAutoScaling exitStandby:completionHandler:]_block_invoke
+__50-[AWSAutoScaling executePolicy:completionHandler:]_block_invoke
+__49-[AWSAutoScaling enterStandby:completionHandler:]_block_invoke
+__60-[AWSAutoScaling enableMetricsCollection:completionHandler:]_block_invoke
+__61-[AWSAutoScaling disableMetricsCollection:completionHandler:]_block_invoke
+__56-[AWSAutoScaling detachLoadBalancers:completionHandler:]_block_invoke
+__67-[AWSAutoScaling detachLoadBalancerTargetGroups:completionHandler:]_block_invoke
+__52-[AWSAutoScaling detachInstances:completionHandler:]_block_invoke
+__67-[AWSAutoScaling describeTerminationPolicyTypes:completionHandler:]_block_invoke
+__49-[AWSAutoScaling describeTags:completionHandler:]_block_invoke
+__61-[AWSAutoScaling describeScheduledActions:completionHandler:]_block_invoke
+__64-[AWSAutoScaling describeScalingProcessTypes:completionHandler:]_block_invoke
+__62-[AWSAutoScaling describeScalingActivities:completionHandler:]_block_invoke
+__53-[AWSAutoScaling describePolicies:completionHandler:]_block_invoke
+__71-[AWSAutoScaling describeNotificationConfigurations:completionHandler:]_block_invoke
+__66-[AWSAutoScaling describeMetricCollectionTypes:completionHandler:]_block_invoke
+__58-[AWSAutoScaling describeLoadBalancers:completionHandler:]_block_invoke
+__69-[AWSAutoScaling describeLoadBalancerTargetGroups:completionHandler:]_block_invoke
+__59-[AWSAutoScaling describeLifecycleHooks:completionHandler:]_block_invoke
+__63-[AWSAutoScaling describeLifecycleHookTypes:completionHandler:]_block_invoke
+__65-[AWSAutoScaling describeLaunchConfigurations:completionHandler:]_block_invoke
+__73-[AWSAutoScaling describeAutoScalingNotificationTypes:completionHandler:]_block_invoke
+__65-[AWSAutoScaling describeAutoScalingInstances:completionHandler:]_block_invoke
+__62-[AWSAutoScaling describeAutoScalingGroups:completionHandler:]_block_invoke
+__60-[AWSAutoScaling describeAdjustmentTypes:completionHandler:]_block_invoke
+__58-[AWSAutoScaling describeAccountLimits:completionHandler:]_block_invoke
+__47-[AWSAutoScaling deleteTags:completionHandler:]_block_invoke
+__58-[AWSAutoScaling deleteScheduledAction:completionHandler:]_block_invoke
+__49-[AWSAutoScaling deletePolicy:completionHandler:]_block_invoke
+__68-[AWSAutoScaling deleteNotificationConfiguration:completionHandler:]_block_invoke
+__56-[AWSAutoScaling deleteLifecycleHook:completionHandler:]_block_invoke
+__62-[AWSAutoScaling deleteLaunchConfiguration:completionHandler:]_block_invoke
+__59-[AWSAutoScaling deleteAutoScalingGroup:completionHandler:]_block_invoke
+__55-[AWSAutoScaling createOrUpdateTags:completionHandler:]_block_invoke
+__62-[AWSAutoScaling createLaunchConfiguration:completionHandler:]_block_invoke
+__59-[AWSAutoScaling createAutoScalingGroup:completionHandler:]_block_invoke
+__60-[AWSAutoScaling completeLifecycleAction:completionHandler:]_block_invoke
+__71-[AWSAutoScaling batchPutScheduledUpdateGroupAction:completionHandler:]_block_invoke
+__63-[AWSAutoScaling batchDeleteScheduledAction:completionHandler:]_block_invoke
+__56-[AWSAutoScaling attachLoadBalancers:completionHandler:]_block_invoke
+__67-[AWSAutoScaling attachLoadBalancerTargetGroups:completionHandler:]_block_invoke
+__52-[AWSAutoScaling attachInstances:completionHandler:]_block_invoke
+__62+[AWSAutoScaling registerAutoScalingWithConfiguration:forKey:]_block_invoke
+/Applications/Xcode-10.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/once.h
+__36+[AWSAutoScaling defaultAutoScaling]_block_invoke
++[AWSAutoScalingResources sharedInstance]
+___41+[AWSAutoScalingResources sharedInstance]_block_invoke
+-[AWSAutoScalingResources JSONObject]
+-[AWSAutoScalingResources init]
+-[AWSAutoScalingResources definitionString]
+-[AWSAutoScalingResources definitionDictionary]
+-[AWSAutoScalingResources setDefinitionDictionary:]
+-[AWSAutoScalingResources .cxx_destruct]
+_sharedInstance._sharedResources
+_sharedInstance.once_token
+_OBJC_IVAR_$_AWSAutoScalingResources._definitionDictionary
+/Users/distiller/project/AWSAutoScaling/AWSAutoScalingResources.m
+__41+[AWSAutoScalingResources sharedInstance]_block_invoke
++[AWSAutoScalingActivitiesType JSONKeyPathsByPropertyKey]
++[AWSAutoScalingActivitiesType activitiesJSONTransformer]
+-[AWSAutoScalingActivitiesType activities]
+-[AWSAutoScalingActivitiesType setActivities:]
+-[AWSAutoScalingActivitiesType nextToken]
+-[AWSAutoScalingActivitiesType setNextToken:]
+-[AWSAutoScalingActivitiesType .cxx_destruct]
++[AWSAutoScalingActivity JSONKeyPathsByPropertyKey]
++[AWSAutoScalingActivity endTimeJSONTransformer]
+___48+[AWSAutoScalingActivity endTimeJSONTransformer]_block_invoke
+___48+[AWSAutoScalingActivity endTimeJSONTransformer]_block_invoke_2
++[AWSAutoScalingActivity startTimeJSONTransformer]
+___50+[AWSAutoScalingActivity startTimeJSONTransformer]_block_invoke
+___50+[AWSAutoScalingActivity startTimeJSONTransformer]_block_invoke_2
++[AWSAutoScalingActivity statusCodeJSONTransformer]
+___51+[AWSAutoScalingActivity statusCodeJSONTransformer]_block_invoke
+___51+[AWSAutoScalingActivity statusCodeJSONTransformer]_block_invoke_2
+-[AWSAutoScalingActivity activityId]
+-[AWSAutoScalingActivity setActivityId:]
+-[AWSAutoScalingActivity autoScalingGroupName]
+-[AWSAutoScalingActivity setAutoScalingGroupName:]
+-[AWSAutoScalingActivity cause]
+-[AWSAutoScalingActivity setCause:]
+-[AWSAutoScalingActivity detail]
+-[AWSAutoScalingActivity setDetail:]
+-[AWSAutoScalingActivity details]
+-[AWSAutoScalingActivity setDetails:]
+-[AWSAutoScalingActivity endTime]
+-[AWSAutoScalingActivity setEndTime:]
+-[AWSAutoScalingActivity progress]
+-[AWSAutoScalingActivity setProgress:]
+-[AWSAutoScalingActivity startTime]
+-[AWSAutoScalingActivity setStartTime:]
+-[AWSAutoScalingActivity statusCode]
+-[AWSAutoScalingActivity setStatusCode:]
+-[AWSAutoScalingActivity statusMessage]
+-[AWSAutoScalingActivity setStatusMessage:]
+-[AWSAutoScalingActivity .cxx_destruct]
++[AWSAutoScalingActivityType JSONKeyPathsByPropertyKey]
++[AWSAutoScalingActivityType activityJSONTransformer]
+-[AWSAutoScalingActivityType activity]
+-[AWSAutoScalingActivityType setActivity:]
+-[AWSAutoScalingActivityType .cxx_destruct]
++[AWSAutoScalingAdjustmentType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingAdjustmentType adjustmentType]
+-[AWSAutoScalingAdjustmentType setAdjustmentType:]
+-[AWSAutoScalingAdjustmentType .cxx_destruct]
++[AWSAutoScalingAlarm JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingAlarm alarmARN]
+-[AWSAutoScalingAlarm setAlarmARN:]
+-[AWSAutoScalingAlarm alarmName]
+-[AWSAutoScalingAlarm setAlarmName:]
+-[AWSAutoScalingAlarm .cxx_destruct]
++[AWSAutoScalingAttachInstancesQuery JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingAttachInstancesQuery autoScalingGroupName]
+-[AWSAutoScalingAttachInstancesQuery setAutoScalingGroupName:]
+-[AWSAutoScalingAttachInstancesQuery instanceIds]
+-[AWSAutoScalingAttachInstancesQuery setInstanceIds:]
+-[AWSAutoScalingAttachInstancesQuery .cxx_destruct]
++[AWSAutoScalingAttachLoadBalancerTargetGroupsType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingAttachLoadBalancerTargetGroupsType autoScalingGroupName]
+-[AWSAutoScalingAttachLoadBalancerTargetGroupsType setAutoScalingGroupName:]
+-[AWSAutoScalingAttachLoadBalancerTargetGroupsType targetGroupARNs]
+-[AWSAutoScalingAttachLoadBalancerTargetGroupsType setTargetGroupARNs:]
+-[AWSAutoScalingAttachLoadBalancerTargetGroupsType .cxx_destruct]
++[AWSAutoScalingAttachLoadBalancersType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingAttachLoadBalancersType autoScalingGroupName]
+-[AWSAutoScalingAttachLoadBalancersType setAutoScalingGroupName:]
+-[AWSAutoScalingAttachLoadBalancersType loadBalancerNames]
+-[AWSAutoScalingAttachLoadBalancersType setLoadBalancerNames:]
+-[AWSAutoScalingAttachLoadBalancersType .cxx_destruct]
++[AWSAutoScalingAutoScalingGroup JSONKeyPathsByPropertyKey]
++[AWSAutoScalingAutoScalingGroup createdTimeJSONTransformer]
+___60+[AWSAutoScalingAutoScalingGroup createdTimeJSONTransformer]_block_invoke
+___60+[AWSAutoScalingAutoScalingGroup createdTimeJSONTransformer]_block_invoke_2
++[AWSAutoScalingAutoScalingGroup enabledMetricsJSONTransformer]
++[AWSAutoScalingAutoScalingGroup instancesJSONTransformer]
++[AWSAutoScalingAutoScalingGroup launchTemplateJSONTransformer]
++[AWSAutoScalingAutoScalingGroup mixedInstancesPolicyJSONTransformer]
++[AWSAutoScalingAutoScalingGroup suspendedProcessesJSONTransformer]
++[AWSAutoScalingAutoScalingGroup tagsJSONTransformer]
+-[AWSAutoScalingAutoScalingGroup autoScalingGroupARN]
+-[AWSAutoScalingAutoScalingGroup setAutoScalingGroupARN:]
+-[AWSAutoScalingAutoScalingGroup autoScalingGroupName]
+-[AWSAutoScalingAutoScalingGroup setAutoScalingGroupName:]
+-[AWSAutoScalingAutoScalingGroup availabilityZones]
+-[AWSAutoScalingAutoScalingGroup setAvailabilityZones:]
+-[AWSAutoScalingAutoScalingGroup createdTime]
+-[AWSAutoScalingAutoScalingGroup setCreatedTime:]
+-[AWSAutoScalingAutoScalingGroup defaultCooldown]
+-[AWSAutoScalingAutoScalingGroup setDefaultCooldown:]
+-[AWSAutoScalingAutoScalingGroup desiredCapacity]
+-[AWSAutoScalingAutoScalingGroup setDesiredCapacity:]
+-[AWSAutoScalingAutoScalingGroup enabledMetrics]
+-[AWSAutoScalingAutoScalingGroup setEnabledMetrics:]
+-[AWSAutoScalingAutoScalingGroup healthCheckGracePeriod]
+-[AWSAutoScalingAutoScalingGroup setHealthCheckGracePeriod:]
+-[AWSAutoScalingAutoScalingGroup healthCheckType]
+-[AWSAutoScalingAutoScalingGroup setHealthCheckType:]
+-[AWSAutoScalingAutoScalingGroup instances]
+-[AWSAutoScalingAutoScalingGroup setInstances:]
+-[AWSAutoScalingAutoScalingGroup launchConfigurationName]
+-[AWSAutoScalingAutoScalingGroup setLaunchConfigurationName:]
+-[AWSAutoScalingAutoScalingGroup launchTemplate]
+-[AWSAutoScalingAutoScalingGroup setLaunchTemplate:]
+-[AWSAutoScalingAutoScalingGroup loadBalancerNames]
+-[AWSAutoScalingAutoScalingGroup setLoadBalancerNames:]
+-[AWSAutoScalingAutoScalingGroup maxSize]
+-[AWSAutoScalingAutoScalingGroup setMaxSize:]
+-[AWSAutoScalingAutoScalingGroup minSize]
+-[AWSAutoScalingAutoScalingGroup setMinSize:]
+-[AWSAutoScalingAutoScalingGroup mixedInstancesPolicy]
+-[AWSAutoScalingAutoScalingGroup setMixedInstancesPolicy:]
+-[AWSAutoScalingAutoScalingGroup latestInstancesProtectedFromScaleIn]
+-[AWSAutoScalingAutoScalingGroup setLatestInstancesProtectedFromScaleIn:]
+-[AWSAutoScalingAutoScalingGroup placementGroup]
+-[AWSAutoScalingAutoScalingGroup setPlacementGroup:]
+-[AWSAutoScalingAutoScalingGroup serviceLinkedRoleARN]
+-[AWSAutoScalingAutoScalingGroup setServiceLinkedRoleARN:]
+-[AWSAutoScalingAutoScalingGroup status]
+-[AWSAutoScalingAutoScalingGroup setStatus:]
+-[AWSAutoScalingAutoScalingGroup suspendedProcesses]
+-[AWSAutoScalingAutoScalingGroup setSuspendedProcesses:]
+-[AWSAutoScalingAutoScalingGroup tags]
+-[AWSAutoScalingAutoScalingGroup setTags:]
+-[AWSAutoScalingAutoScalingGroup targetGroupARNs]
+-[AWSAutoScalingAutoScalingGroup setTargetGroupARNs:]
+-[AWSAutoScalingAutoScalingGroup terminationPolicies]
+-[AWSAutoScalingAutoScalingGroup setTerminationPolicies:]
+-[AWSAutoScalingAutoScalingGroup VPCZoneIdentifier]
+-[AWSAutoScalingAutoScalingGroup setVPCZoneIdentifier:]
+-[AWSAutoScalingAutoScalingGroup .cxx_destruct]
++[AWSAutoScalingAutoScalingGroupNamesType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingAutoScalingGroupNamesType autoScalingGroupNames]
+-[AWSAutoScalingAutoScalingGroupNamesType setAutoScalingGroupNames:]
+-[AWSAutoScalingAutoScalingGroupNamesType maxRecords]
+-[AWSAutoScalingAutoScalingGroupNamesType setMaxRecords:]
+-[AWSAutoScalingAutoScalingGroupNamesType nextToken]
+-[AWSAutoScalingAutoScalingGroupNamesType setNextToken:]
+-[AWSAutoScalingAutoScalingGroupNamesType .cxx_destruct]
++[AWSAutoScalingAutoScalingGroupsType JSONKeyPathsByPropertyKey]
++[AWSAutoScalingAutoScalingGroupsType autoScalingGroupsJSONTransformer]
+-[AWSAutoScalingAutoScalingGroupsType autoScalingGroups]
+-[AWSAutoScalingAutoScalingGroupsType setAutoScalingGroups:]
+-[AWSAutoScalingAutoScalingGroupsType nextToken]
+-[AWSAutoScalingAutoScalingGroupsType setNextToken:]
+-[AWSAutoScalingAutoScalingGroupsType .cxx_destruct]
++[AWSAutoScalingAutoScalingInstanceDetails JSONKeyPathsByPropertyKey]
++[AWSAutoScalingAutoScalingInstanceDetails launchTemplateJSONTransformer]
+-[AWSAutoScalingAutoScalingInstanceDetails autoScalingGroupName]
+-[AWSAutoScalingAutoScalingInstanceDetails setAutoScalingGroupName:]
+-[AWSAutoScalingAutoScalingInstanceDetails availabilityZone]
+-[AWSAutoScalingAutoScalingInstanceDetails setAvailabilityZone:]
+-[AWSAutoScalingAutoScalingInstanceDetails healthStatus]
+-[AWSAutoScalingAutoScalingInstanceDetails setHealthStatus:]
+-[AWSAutoScalingAutoScalingInstanceDetails instanceId]
+-[AWSAutoScalingAutoScalingInstanceDetails setInstanceId:]
+-[AWSAutoScalingAutoScalingInstanceDetails launchConfigurationName]
+-[AWSAutoScalingAutoScalingInstanceDetails setLaunchConfigurationName:]
+-[AWSAutoScalingAutoScalingInstanceDetails launchTemplate]
+-[AWSAutoScalingAutoScalingInstanceDetails setLaunchTemplate:]
+-[AWSAutoScalingAutoScalingInstanceDetails lifecycleState]
+-[AWSAutoScalingAutoScalingInstanceDetails setLifecycleState:]
+-[AWSAutoScalingAutoScalingInstanceDetails protectedFromScaleIn]
+-[AWSAutoScalingAutoScalingInstanceDetails setProtectedFromScaleIn:]
+-[AWSAutoScalingAutoScalingInstanceDetails .cxx_destruct]
++[AWSAutoScalingAutoScalingInstancesType JSONKeyPathsByPropertyKey]
++[AWSAutoScalingAutoScalingInstancesType autoScalingInstancesJSONTransformer]
+-[AWSAutoScalingAutoScalingInstancesType autoScalingInstances]
+-[AWSAutoScalingAutoScalingInstancesType setAutoScalingInstances:]
+-[AWSAutoScalingAutoScalingInstancesType nextToken]
+-[AWSAutoScalingAutoScalingInstancesType setNextToken:]
+-[AWSAutoScalingAutoScalingInstancesType .cxx_destruct]
++[AWSAutoScalingBatchDeleteScheduledActionAnswer JSONKeyPathsByPropertyKey]
++[AWSAutoScalingBatchDeleteScheduledActionAnswer failedScheduledActionsJSONTransformer]
+-[AWSAutoScalingBatchDeleteScheduledActionAnswer failedScheduledActions]
+-[AWSAutoScalingBatchDeleteScheduledActionAnswer setFailedScheduledActions:]
+-[AWSAutoScalingBatchDeleteScheduledActionAnswer .cxx_destruct]
++[AWSAutoScalingBatchDeleteScheduledActionType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingBatchDeleteScheduledActionType autoScalingGroupName]
+-[AWSAutoScalingBatchDeleteScheduledActionType setAutoScalingGroupName:]
+-[AWSAutoScalingBatchDeleteScheduledActionType scheduledActionNames]
+-[AWSAutoScalingBatchDeleteScheduledActionType setScheduledActionNames:]
+-[AWSAutoScalingBatchDeleteScheduledActionType .cxx_destruct]
++[AWSAutoScalingBatchPutScheduledUpdateGroupActionAnswer JSONKeyPathsByPropertyKey]
++[AWSAutoScalingBatchPutScheduledUpdateGroupActionAnswer failedScheduledUpdateGroupActionsJSONTransformer]
+-[AWSAutoScalingBatchPutScheduledUpdateGroupActionAnswer failedScheduledUpdateGroupActions]
+-[AWSAutoScalingBatchPutScheduledUpdateGroupActionAnswer setFailedScheduledUpdateGroupActions:]
+-[AWSAutoScalingBatchPutScheduledUpdateGroupActionAnswer .cxx_destruct]
++[AWSAutoScalingBatchPutScheduledUpdateGroupActionType JSONKeyPathsByPropertyKey]
++[AWSAutoScalingBatchPutScheduledUpdateGroupActionType scheduledUpdateGroupActionsJSONTransformer]
+-[AWSAutoScalingBatchPutScheduledUpdateGroupActionType autoScalingGroupName]
+-[AWSAutoScalingBatchPutScheduledUpdateGroupActionType setAutoScalingGroupName:]
+-[AWSAutoScalingBatchPutScheduledUpdateGroupActionType scheduledUpdateGroupActions]
+-[AWSAutoScalingBatchPutScheduledUpdateGroupActionType setScheduledUpdateGroupActions:]
+-[AWSAutoScalingBatchPutScheduledUpdateGroupActionType .cxx_destruct]
++[AWSAutoScalingBlockDeviceMapping JSONKeyPathsByPropertyKey]
++[AWSAutoScalingBlockDeviceMapping ebsJSONTransformer]
+-[AWSAutoScalingBlockDeviceMapping deviceName]
+-[AWSAutoScalingBlockDeviceMapping setDeviceName:]
+-[AWSAutoScalingBlockDeviceMapping ebs]
+-[AWSAutoScalingBlockDeviceMapping setEbs:]
+-[AWSAutoScalingBlockDeviceMapping noDevice]
+-[AWSAutoScalingBlockDeviceMapping setNoDevice:]
+-[AWSAutoScalingBlockDeviceMapping virtualName]
+-[AWSAutoScalingBlockDeviceMapping setVirtualName:]
+-[AWSAutoScalingBlockDeviceMapping .cxx_destruct]
++[AWSAutoScalingCompleteLifecycleActionType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingCompleteLifecycleActionType autoScalingGroupName]
+-[AWSAutoScalingCompleteLifecycleActionType setAutoScalingGroupName:]
+-[AWSAutoScalingCompleteLifecycleActionType instanceId]
+-[AWSAutoScalingCompleteLifecycleActionType setInstanceId:]
+-[AWSAutoScalingCompleteLifecycleActionType lifecycleActionResult]
+-[AWSAutoScalingCompleteLifecycleActionType setLifecycleActionResult:]
+-[AWSAutoScalingCompleteLifecycleActionType lifecycleActionToken]
+-[AWSAutoScalingCompleteLifecycleActionType setLifecycleActionToken:]
+-[AWSAutoScalingCompleteLifecycleActionType lifecycleHookName]
+-[AWSAutoScalingCompleteLifecycleActionType setLifecycleHookName:]
+-[AWSAutoScalingCompleteLifecycleActionType .cxx_destruct]
++[AWSAutoScalingCreateAutoScalingGroupType JSONKeyPathsByPropertyKey]
++[AWSAutoScalingCreateAutoScalingGroupType launchTemplateJSONTransformer]
++[AWSAutoScalingCreateAutoScalingGroupType lifecycleHookSpecificationListJSONTransformer]
++[AWSAutoScalingCreateAutoScalingGroupType mixedInstancesPolicyJSONTransformer]
++[AWSAutoScalingCreateAutoScalingGroupType tagsJSONTransformer]
+-[AWSAutoScalingCreateAutoScalingGroupType autoScalingGroupName]
+-[AWSAutoScalingCreateAutoScalingGroupType setAutoScalingGroupName:]
+-[AWSAutoScalingCreateAutoScalingGroupType availabilityZones]
+-[AWSAutoScalingCreateAutoScalingGroupType setAvailabilityZones:]
+-[AWSAutoScalingCreateAutoScalingGroupType defaultCooldown]
+-[AWSAutoScalingCreateAutoScalingGroupType setDefaultCooldown:]
+-[AWSAutoScalingCreateAutoScalingGroupType desiredCapacity]
+-[AWSAutoScalingCreateAutoScalingGroupType setDesiredCapacity:]
+-[AWSAutoScalingCreateAutoScalingGroupType healthCheckGracePeriod]
+-[AWSAutoScalingCreateAutoScalingGroupType setHealthCheckGracePeriod:]
+-[AWSAutoScalingCreateAutoScalingGroupType healthCheckType]
+-[AWSAutoScalingCreateAutoScalingGroupType setHealthCheckType:]
+-[AWSAutoScalingCreateAutoScalingGroupType instanceId]
+-[AWSAutoScalingCreateAutoScalingGroupType setInstanceId:]
+-[AWSAutoScalingCreateAutoScalingGroupType launchConfigurationName]
+-[AWSAutoScalingCreateAutoScalingGroupType setLaunchConfigurationName:]
+-[AWSAutoScalingCreateAutoScalingGroupType launchTemplate]
+-[AWSAutoScalingCreateAutoScalingGroupType setLaunchTemplate:]
+-[AWSAutoScalingCreateAutoScalingGroupType lifecycleHookSpecificationList]
+-[AWSAutoScalingCreateAutoScalingGroupType setLifecycleHookSpecificationList:]
+-[AWSAutoScalingCreateAutoScalingGroupType loadBalancerNames]
+-[AWSAutoScalingCreateAutoScalingGroupType setLoadBalancerNames:]
+-[AWSAutoScalingCreateAutoScalingGroupType maxSize]
+-[AWSAutoScalingCreateAutoScalingGroupType setMaxSize:]
+-[AWSAutoScalingCreateAutoScalingGroupType minSize]
+-[AWSAutoScalingCreateAutoScalingGroupType setMinSize:]
+-[AWSAutoScalingCreateAutoScalingGroupType mixedInstancesPolicy]
+-[AWSAutoScalingCreateAutoScalingGroupType setMixedInstancesPolicy:]
+-[AWSAutoScalingCreateAutoScalingGroupType latestInstancesProtectedFromScaleIn]
+-[AWSAutoScalingCreateAutoScalingGroupType setLatestInstancesProtectedFromScaleIn:]
+-[AWSAutoScalingCreateAutoScalingGroupType placementGroup]
+-[AWSAutoScalingCreateAutoScalingGroupType setPlacementGroup:]
+-[AWSAutoScalingCreateAutoScalingGroupType serviceLinkedRoleARN]
+-[AWSAutoScalingCreateAutoScalingGroupType setServiceLinkedRoleARN:]
+-[AWSAutoScalingCreateAutoScalingGroupType tags]
+-[AWSAutoScalingCreateAutoScalingGroupType setTags:]
+-[AWSAutoScalingCreateAutoScalingGroupType targetGroupARNs]
+-[AWSAutoScalingCreateAutoScalingGroupType setTargetGroupARNs:]
+-[AWSAutoScalingCreateAutoScalingGroupType terminationPolicies]
+-[AWSAutoScalingCreateAutoScalingGroupType setTerminationPolicies:]
+-[AWSAutoScalingCreateAutoScalingGroupType VPCZoneIdentifier]
+-[AWSAutoScalingCreateAutoScalingGroupType setVPCZoneIdentifier:]
+-[AWSAutoScalingCreateAutoScalingGroupType .cxx_destruct]
++[AWSAutoScalingCreateLaunchConfigurationType JSONKeyPathsByPropertyKey]
++[AWSAutoScalingCreateLaunchConfigurationType blockDeviceMappingsJSONTransformer]
++[AWSAutoScalingCreateLaunchConfigurationType instanceMonitoringJSONTransformer]
+-[AWSAutoScalingCreateLaunchConfigurationType associatePublicIpAddress]
+-[AWSAutoScalingCreateLaunchConfigurationType setAssociatePublicIpAddress:]
+-[AWSAutoScalingCreateLaunchConfigurationType blockDeviceMappings]
+-[AWSAutoScalingCreateLaunchConfigurationType setBlockDeviceMappings:]
+-[AWSAutoScalingCreateLaunchConfigurationType classicLinkVPCId]
+-[AWSAutoScalingCreateLaunchConfigurationType setClassicLinkVPCId:]
+-[AWSAutoScalingCreateLaunchConfigurationType classicLinkVPCSecurityGroups]
+-[AWSAutoScalingCreateLaunchConfigurationType setClassicLinkVPCSecurityGroups:]
+-[AWSAutoScalingCreateLaunchConfigurationType ebsOptimized]
+-[AWSAutoScalingCreateLaunchConfigurationType setEbsOptimized:]
+-[AWSAutoScalingCreateLaunchConfigurationType iamInstanceProfile]
+-[AWSAutoScalingCreateLaunchConfigurationType setIamInstanceProfile:]
+-[AWSAutoScalingCreateLaunchConfigurationType imageId]
+-[AWSAutoScalingCreateLaunchConfigurationType setImageId:]
+-[AWSAutoScalingCreateLaunchConfigurationType instanceId]
+-[AWSAutoScalingCreateLaunchConfigurationType setInstanceId:]
+-[AWSAutoScalingCreateLaunchConfigurationType instanceMonitoring]
+-[AWSAutoScalingCreateLaunchConfigurationType setInstanceMonitoring:]
+-[AWSAutoScalingCreateLaunchConfigurationType instanceType]
+-[AWSAutoScalingCreateLaunchConfigurationType setInstanceType:]
+-[AWSAutoScalingCreateLaunchConfigurationType kernelId]
+-[AWSAutoScalingCreateLaunchConfigurationType setKernelId:]
+-[AWSAutoScalingCreateLaunchConfigurationType keyName]
+-[AWSAutoScalingCreateLaunchConfigurationType setKeyName:]
+-[AWSAutoScalingCreateLaunchConfigurationType launchConfigurationName]
+-[AWSAutoScalingCreateLaunchConfigurationType setLaunchConfigurationName:]
+-[AWSAutoScalingCreateLaunchConfigurationType placementTenancy]
+-[AWSAutoScalingCreateLaunchConfigurationType setPlacementTenancy:]
+-[AWSAutoScalingCreateLaunchConfigurationType ramdiskId]
+-[AWSAutoScalingCreateLaunchConfigurationType setRamdiskId:]
+-[AWSAutoScalingCreateLaunchConfigurationType securityGroups]
+-[AWSAutoScalingCreateLaunchConfigurationType setSecurityGroups:]
+-[AWSAutoScalingCreateLaunchConfigurationType spotPrice]
+-[AWSAutoScalingCreateLaunchConfigurationType setSpotPrice:]
+-[AWSAutoScalingCreateLaunchConfigurationType userData]
+-[AWSAutoScalingCreateLaunchConfigurationType setUserData:]
+-[AWSAutoScalingCreateLaunchConfigurationType .cxx_destruct]
++[AWSAutoScalingCreateOrUpdateTagsType JSONKeyPathsByPropertyKey]
++[AWSAutoScalingCreateOrUpdateTagsType tagsJSONTransformer]
+-[AWSAutoScalingCreateOrUpdateTagsType tags]
+-[AWSAutoScalingCreateOrUpdateTagsType setTags:]
+-[AWSAutoScalingCreateOrUpdateTagsType .cxx_destruct]
++[AWSAutoScalingCustomizedMetricSpecification JSONKeyPathsByPropertyKey]
++[AWSAutoScalingCustomizedMetricSpecification dimensionsJSONTransformer]
++[AWSAutoScalingCustomizedMetricSpecification statisticJSONTransformer]
+___71+[AWSAutoScalingCustomizedMetricSpecification statisticJSONTransformer]_block_invoke
+___71+[AWSAutoScalingCustomizedMetricSpecification statisticJSONTransformer]_block_invoke_2
+-[AWSAutoScalingCustomizedMetricSpecification dimensions]
+-[AWSAutoScalingCustomizedMetricSpecification setDimensions:]
+-[AWSAutoScalingCustomizedMetricSpecification metricName]
+-[AWSAutoScalingCustomizedMetricSpecification setMetricName:]
+-[AWSAutoScalingCustomizedMetricSpecification namespace]
+-[AWSAutoScalingCustomizedMetricSpecification setNamespace:]
+-[AWSAutoScalingCustomizedMetricSpecification statistic]
+-[AWSAutoScalingCustomizedMetricSpecification setStatistic:]
+-[AWSAutoScalingCustomizedMetricSpecification unit]
+-[AWSAutoScalingCustomizedMetricSpecification setUnit:]
+-[AWSAutoScalingCustomizedMetricSpecification .cxx_destruct]
++[AWSAutoScalingDeleteAutoScalingGroupType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingDeleteAutoScalingGroupType autoScalingGroupName]
+-[AWSAutoScalingDeleteAutoScalingGroupType setAutoScalingGroupName:]
+-[AWSAutoScalingDeleteAutoScalingGroupType forceDelete]
+-[AWSAutoScalingDeleteAutoScalingGroupType setForceDelete:]
+-[AWSAutoScalingDeleteAutoScalingGroupType .cxx_destruct]
++[AWSAutoScalingDeleteLifecycleHookType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingDeleteLifecycleHookType autoScalingGroupName]
+-[AWSAutoScalingDeleteLifecycleHookType setAutoScalingGroupName:]
+-[AWSAutoScalingDeleteLifecycleHookType lifecycleHookName]
+-[AWSAutoScalingDeleteLifecycleHookType setLifecycleHookName:]
+-[AWSAutoScalingDeleteLifecycleHookType .cxx_destruct]
++[AWSAutoScalingDeleteNotificationConfigurationType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingDeleteNotificationConfigurationType autoScalingGroupName]
+-[AWSAutoScalingDeleteNotificationConfigurationType setAutoScalingGroupName:]
+-[AWSAutoScalingDeleteNotificationConfigurationType topicARN]
+-[AWSAutoScalingDeleteNotificationConfigurationType setTopicARN:]
+-[AWSAutoScalingDeleteNotificationConfigurationType .cxx_destruct]
++[AWSAutoScalingDeletePolicyType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingDeletePolicyType autoScalingGroupName]
+-[AWSAutoScalingDeletePolicyType setAutoScalingGroupName:]
+-[AWSAutoScalingDeletePolicyType policyName]
+-[AWSAutoScalingDeletePolicyType setPolicyName:]
+-[AWSAutoScalingDeletePolicyType .cxx_destruct]
++[AWSAutoScalingDeleteScheduledActionType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingDeleteScheduledActionType autoScalingGroupName]
+-[AWSAutoScalingDeleteScheduledActionType setAutoScalingGroupName:]
+-[AWSAutoScalingDeleteScheduledActionType scheduledActionName]
+-[AWSAutoScalingDeleteScheduledActionType setScheduledActionName:]
+-[AWSAutoScalingDeleteScheduledActionType .cxx_destruct]
++[AWSAutoScalingDeleteTagsType JSONKeyPathsByPropertyKey]
++[AWSAutoScalingDeleteTagsType tagsJSONTransformer]
+-[AWSAutoScalingDeleteTagsType tags]
+-[AWSAutoScalingDeleteTagsType setTags:]
+-[AWSAutoScalingDeleteTagsType .cxx_destruct]
++[AWSAutoScalingDescribeAccountLimitsAnswer JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingDescribeAccountLimitsAnswer maxNumberOfAutoScalingGroups]
+-[AWSAutoScalingDescribeAccountLimitsAnswer setMaxNumberOfAutoScalingGroups:]
+-[AWSAutoScalingDescribeAccountLimitsAnswer maxNumberOfLaunchConfigurations]
+-[AWSAutoScalingDescribeAccountLimitsAnswer setMaxNumberOfLaunchConfigurations:]
+-[AWSAutoScalingDescribeAccountLimitsAnswer numberOfAutoScalingGroups]
+-[AWSAutoScalingDescribeAccountLimitsAnswer setNumberOfAutoScalingGroups:]
+-[AWSAutoScalingDescribeAccountLimitsAnswer numberOfLaunchConfigurations]
+-[AWSAutoScalingDescribeAccountLimitsAnswer setNumberOfLaunchConfigurations:]
+-[AWSAutoScalingDescribeAccountLimitsAnswer .cxx_destruct]
++[AWSAutoScalingDescribeAdjustmentTypesAnswer JSONKeyPathsByPropertyKey]
++[AWSAutoScalingDescribeAdjustmentTypesAnswer adjustmentTypesJSONTransformer]
+-[AWSAutoScalingDescribeAdjustmentTypesAnswer adjustmentTypes]
+-[AWSAutoScalingDescribeAdjustmentTypesAnswer setAdjustmentTypes:]
+-[AWSAutoScalingDescribeAdjustmentTypesAnswer .cxx_destruct]
++[AWSAutoScalingDescribeAutoScalingInstancesType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingDescribeAutoScalingInstancesType instanceIds]
+-[AWSAutoScalingDescribeAutoScalingInstancesType setInstanceIds:]
+-[AWSAutoScalingDescribeAutoScalingInstancesType maxRecords]
+-[AWSAutoScalingDescribeAutoScalingInstancesType setMaxRecords:]
+-[AWSAutoScalingDescribeAutoScalingInstancesType nextToken]
+-[AWSAutoScalingDescribeAutoScalingInstancesType setNextToken:]
+-[AWSAutoScalingDescribeAutoScalingInstancesType .cxx_destruct]
++[AWSAutoScalingDescribeAutoScalingNotificationTypesAnswer JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingDescribeAutoScalingNotificationTypesAnswer autoScalingNotificationTypes]
+-[AWSAutoScalingDescribeAutoScalingNotificationTypesAnswer setAutoScalingNotificationTypes:]
+-[AWSAutoScalingDescribeAutoScalingNotificationTypesAnswer .cxx_destruct]
++[AWSAutoScalingDescribeLifecycleHookTypesAnswer JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingDescribeLifecycleHookTypesAnswer lifecycleHookTypes]
+-[AWSAutoScalingDescribeLifecycleHookTypesAnswer setLifecycleHookTypes:]
+-[AWSAutoScalingDescribeLifecycleHookTypesAnswer .cxx_destruct]
++[AWSAutoScalingDescribeLifecycleHooksAnswer JSONKeyPathsByPropertyKey]
++[AWSAutoScalingDescribeLifecycleHooksAnswer lifecycleHooksJSONTransformer]
+-[AWSAutoScalingDescribeLifecycleHooksAnswer lifecycleHooks]
+-[AWSAutoScalingDescribeLifecycleHooksAnswer setLifecycleHooks:]
+-[AWSAutoScalingDescribeLifecycleHooksAnswer .cxx_destruct]
++[AWSAutoScalingDescribeLifecycleHooksType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingDescribeLifecycleHooksType autoScalingGroupName]
+-[AWSAutoScalingDescribeLifecycleHooksType setAutoScalingGroupName:]
+-[AWSAutoScalingDescribeLifecycleHooksType lifecycleHookNames]
+-[AWSAutoScalingDescribeLifecycleHooksType setLifecycleHookNames:]
+-[AWSAutoScalingDescribeLifecycleHooksType .cxx_destruct]
++[AWSAutoScalingDescribeLoadBalancerTargetGroupsRequest JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingDescribeLoadBalancerTargetGroupsRequest autoScalingGroupName]
+-[AWSAutoScalingDescribeLoadBalancerTargetGroupsRequest setAutoScalingGroupName:]
+-[AWSAutoScalingDescribeLoadBalancerTargetGroupsRequest maxRecords]
+-[AWSAutoScalingDescribeLoadBalancerTargetGroupsRequest setMaxRecords:]
+-[AWSAutoScalingDescribeLoadBalancerTargetGroupsRequest nextToken]
+-[AWSAutoScalingDescribeLoadBalancerTargetGroupsRequest setNextToken:]
+-[AWSAutoScalingDescribeLoadBalancerTargetGroupsRequest .cxx_destruct]
++[AWSAutoScalingDescribeLoadBalancerTargetGroupsResponse JSONKeyPathsByPropertyKey]
++[AWSAutoScalingDescribeLoadBalancerTargetGroupsResponse loadBalancerTargetGroupsJSONTransformer]
+-[AWSAutoScalingDescribeLoadBalancerTargetGroupsResponse loadBalancerTargetGroups]
+-[AWSAutoScalingDescribeLoadBalancerTargetGroupsResponse setLoadBalancerTargetGroups:]
+-[AWSAutoScalingDescribeLoadBalancerTargetGroupsResponse nextToken]
+-[AWSAutoScalingDescribeLoadBalancerTargetGroupsResponse setNextToken:]
+-[AWSAutoScalingDescribeLoadBalancerTargetGroupsResponse .cxx_destruct]
++[AWSAutoScalingDescribeLoadBalancersRequest JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingDescribeLoadBalancersRequest autoScalingGroupName]
+-[AWSAutoScalingDescribeLoadBalancersRequest setAutoScalingGroupName:]
+-[AWSAutoScalingDescribeLoadBalancersRequest maxRecords]
+-[AWSAutoScalingDescribeLoadBalancersRequest setMaxRecords:]
+-[AWSAutoScalingDescribeLoadBalancersRequest nextToken]
+-[AWSAutoScalingDescribeLoadBalancersRequest setNextToken:]
+-[AWSAutoScalingDescribeLoadBalancersRequest .cxx_destruct]
++[AWSAutoScalingDescribeLoadBalancersResponse JSONKeyPathsByPropertyKey]
++[AWSAutoScalingDescribeLoadBalancersResponse loadBalancersJSONTransformer]
+-[AWSAutoScalingDescribeLoadBalancersResponse loadBalancers]
+-[AWSAutoScalingDescribeLoadBalancersResponse setLoadBalancers:]
+-[AWSAutoScalingDescribeLoadBalancersResponse nextToken]
+-[AWSAutoScalingDescribeLoadBalancersResponse setNextToken:]
+-[AWSAutoScalingDescribeLoadBalancersResponse .cxx_destruct]
++[AWSAutoScalingDescribeMetricCollectionTypesAnswer JSONKeyPathsByPropertyKey]
++[AWSAutoScalingDescribeMetricCollectionTypesAnswer granularitiesJSONTransformer]
++[AWSAutoScalingDescribeMetricCollectionTypesAnswer metricsJSONTransformer]
+-[AWSAutoScalingDescribeMetricCollectionTypesAnswer granularities]
+-[AWSAutoScalingDescribeMetricCollectionTypesAnswer setGranularities:]
+-[AWSAutoScalingDescribeMetricCollectionTypesAnswer metrics]
+-[AWSAutoScalingDescribeMetricCollectionTypesAnswer setMetrics:]
+-[AWSAutoScalingDescribeMetricCollectionTypesAnswer .cxx_destruct]
++[AWSAutoScalingDescribeNotificationConfigurationsAnswer JSONKeyPathsByPropertyKey]
++[AWSAutoScalingDescribeNotificationConfigurationsAnswer notificationConfigurationsJSONTransformer]
+-[AWSAutoScalingDescribeNotificationConfigurationsAnswer nextToken]
+-[AWSAutoScalingDescribeNotificationConfigurationsAnswer setNextToken:]
+-[AWSAutoScalingDescribeNotificationConfigurationsAnswer notificationConfigurations]
+-[AWSAutoScalingDescribeNotificationConfigurationsAnswer setNotificationConfigurations:]
+-[AWSAutoScalingDescribeNotificationConfigurationsAnswer .cxx_destruct]
++[AWSAutoScalingDescribeNotificationConfigurationsType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingDescribeNotificationConfigurationsType autoScalingGroupNames]
+-[AWSAutoScalingDescribeNotificationConfigurationsType setAutoScalingGroupNames:]
+-[AWSAutoScalingDescribeNotificationConfigurationsType maxRecords]
+-[AWSAutoScalingDescribeNotificationConfigurationsType setMaxRecords:]
+-[AWSAutoScalingDescribeNotificationConfigurationsType nextToken]
+-[AWSAutoScalingDescribeNotificationConfigurationsType setNextToken:]
+-[AWSAutoScalingDescribeNotificationConfigurationsType .cxx_destruct]
++[AWSAutoScalingDescribePoliciesType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingDescribePoliciesType autoScalingGroupName]
+-[AWSAutoScalingDescribePoliciesType setAutoScalingGroupName:]
+-[AWSAutoScalingDescribePoliciesType maxRecords]
+-[AWSAutoScalingDescribePoliciesType setMaxRecords:]
+-[AWSAutoScalingDescribePoliciesType nextToken]
+-[AWSAutoScalingDescribePoliciesType setNextToken:]
+-[AWSAutoScalingDescribePoliciesType policyNames]
+-[AWSAutoScalingDescribePoliciesType setPolicyNames:]
+-[AWSAutoScalingDescribePoliciesType policyTypes]
+-[AWSAutoScalingDescribePoliciesType setPolicyTypes:]
+-[AWSAutoScalingDescribePoliciesType .cxx_destruct]
++[AWSAutoScalingDescribeScalingActivitiesType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingDescribeScalingActivitiesType activityIds]
+-[AWSAutoScalingDescribeScalingActivitiesType setActivityIds:]
+-[AWSAutoScalingDescribeScalingActivitiesType autoScalingGroupName]
+-[AWSAutoScalingDescribeScalingActivitiesType setAutoScalingGroupName:]
+-[AWSAutoScalingDescribeScalingActivitiesType maxRecords]
+-[AWSAutoScalingDescribeScalingActivitiesType setMaxRecords:]
+-[AWSAutoScalingDescribeScalingActivitiesType nextToken]
+-[AWSAutoScalingDescribeScalingActivitiesType setNextToken:]
+-[AWSAutoScalingDescribeScalingActivitiesType .cxx_destruct]
++[AWSAutoScalingDescribeScheduledActionsType JSONKeyPathsByPropertyKey]
++[AWSAutoScalingDescribeScheduledActionsType endTimeJSONTransformer]
+___68+[AWSAutoScalingDescribeScheduledActionsType endTimeJSONTransformer]_block_invoke
+___68+[AWSAutoScalingDescribeScheduledActionsType endTimeJSONTransformer]_block_invoke_2
++[AWSAutoScalingDescribeScheduledActionsType startTimeJSONTransformer]
+___70+[AWSAutoScalingDescribeScheduledActionsType startTimeJSONTransformer]_block_invoke
+___70+[AWSAutoScalingDescribeScheduledActionsType startTimeJSONTransformer]_block_invoke_2
+-[AWSAutoScalingDescribeScheduledActionsType autoScalingGroupName]
+-[AWSAutoScalingDescribeScheduledActionsType setAutoScalingGroupName:]
+-[AWSAutoScalingDescribeScheduledActionsType endTime]
+-[AWSAutoScalingDescribeScheduledActionsType setEndTime:]
+-[AWSAutoScalingDescribeScheduledActionsType maxRecords]
+-[AWSAutoScalingDescribeScheduledActionsType setMaxRecords:]
+-[AWSAutoScalingDescribeScheduledActionsType nextToken]
+-[AWSAutoScalingDescribeScheduledActionsType setNextToken:]
+-[AWSAutoScalingDescribeScheduledActionsType scheduledActionNames]
+-[AWSAutoScalingDescribeScheduledActionsType setScheduledActionNames:]
+-[AWSAutoScalingDescribeScheduledActionsType startTime]
+-[AWSAutoScalingDescribeScheduledActionsType setStartTime:]
+-[AWSAutoScalingDescribeScheduledActionsType .cxx_destruct]
++[AWSAutoScalingDescribeTagsType JSONKeyPathsByPropertyKey]
++[AWSAutoScalingDescribeTagsType filtersJSONTransformer]
+-[AWSAutoScalingDescribeTagsType filters]
+-[AWSAutoScalingDescribeTagsType setFilters:]
+-[AWSAutoScalingDescribeTagsType maxRecords]
+-[AWSAutoScalingDescribeTagsType setMaxRecords:]
+-[AWSAutoScalingDescribeTagsType nextToken]
+-[AWSAutoScalingDescribeTagsType setNextToken:]
+-[AWSAutoScalingDescribeTagsType .cxx_destruct]
++[AWSAutoScalingDescribeTerminationPolicyTypesAnswer JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingDescribeTerminationPolicyTypesAnswer terminationPolicyTypes]
+-[AWSAutoScalingDescribeTerminationPolicyTypesAnswer setTerminationPolicyTypes:]
+-[AWSAutoScalingDescribeTerminationPolicyTypesAnswer .cxx_destruct]
++[AWSAutoScalingDetachInstancesAnswer JSONKeyPathsByPropertyKey]
++[AWSAutoScalingDetachInstancesAnswer activitiesJSONTransformer]
+-[AWSAutoScalingDetachInstancesAnswer activities]
+-[AWSAutoScalingDetachInstancesAnswer setActivities:]
+-[AWSAutoScalingDetachInstancesAnswer .cxx_destruct]
++[AWSAutoScalingDetachInstancesQuery JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingDetachInstancesQuery autoScalingGroupName]
+-[AWSAutoScalingDetachInstancesQuery setAutoScalingGroupName:]
+-[AWSAutoScalingDetachInstancesQuery instanceIds]
+-[AWSAutoScalingDetachInstancesQuery setInstanceIds:]
+-[AWSAutoScalingDetachInstancesQuery shouldDecrementDesiredCapacity]
+-[AWSAutoScalingDetachInstancesQuery setShouldDecrementDesiredCapacity:]
+-[AWSAutoScalingDetachInstancesQuery .cxx_destruct]
++[AWSAutoScalingDetachLoadBalancerTargetGroupsType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingDetachLoadBalancerTargetGroupsType autoScalingGroupName]
+-[AWSAutoScalingDetachLoadBalancerTargetGroupsType setAutoScalingGroupName:]
+-[AWSAutoScalingDetachLoadBalancerTargetGroupsType targetGroupARNs]
+-[AWSAutoScalingDetachLoadBalancerTargetGroupsType setTargetGroupARNs:]
+-[AWSAutoScalingDetachLoadBalancerTargetGroupsType .cxx_destruct]
++[AWSAutoScalingDetachLoadBalancersType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingDetachLoadBalancersType autoScalingGroupName]
+-[AWSAutoScalingDetachLoadBalancersType setAutoScalingGroupName:]
+-[AWSAutoScalingDetachLoadBalancersType loadBalancerNames]
+-[AWSAutoScalingDetachLoadBalancersType setLoadBalancerNames:]
+-[AWSAutoScalingDetachLoadBalancersType .cxx_destruct]
++[AWSAutoScalingDisableMetricsCollectionQuery JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingDisableMetricsCollectionQuery autoScalingGroupName]
+-[AWSAutoScalingDisableMetricsCollectionQuery setAutoScalingGroupName:]
+-[AWSAutoScalingDisableMetricsCollectionQuery metrics]
+-[AWSAutoScalingDisableMetricsCollectionQuery setMetrics:]
+-[AWSAutoScalingDisableMetricsCollectionQuery .cxx_destruct]
++[AWSAutoScalingEbs JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingEbs deleteOnTermination]
+-[AWSAutoScalingEbs setDeleteOnTermination:]
+-[AWSAutoScalingEbs encrypted]
+-[AWSAutoScalingEbs setEncrypted:]
+-[AWSAutoScalingEbs iops]
+-[AWSAutoScalingEbs setIops:]
+-[AWSAutoScalingEbs snapshotId]
+-[AWSAutoScalingEbs setSnapshotId:]
+-[AWSAutoScalingEbs volumeSize]
+-[AWSAutoScalingEbs setVolumeSize:]
+-[AWSAutoScalingEbs volumeType]
+-[AWSAutoScalingEbs setVolumeType:]
+-[AWSAutoScalingEbs .cxx_destruct]
++[AWSAutoScalingEnableMetricsCollectionQuery JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingEnableMetricsCollectionQuery autoScalingGroupName]
+-[AWSAutoScalingEnableMetricsCollectionQuery setAutoScalingGroupName:]
+-[AWSAutoScalingEnableMetricsCollectionQuery granularity]
+-[AWSAutoScalingEnableMetricsCollectionQuery setGranularity:]
+-[AWSAutoScalingEnableMetricsCollectionQuery metrics]
+-[AWSAutoScalingEnableMetricsCollectionQuery setMetrics:]
+-[AWSAutoScalingEnableMetricsCollectionQuery .cxx_destruct]
++[AWSAutoScalingEnabledMetric JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingEnabledMetric granularity]
+-[AWSAutoScalingEnabledMetric setGranularity:]
+-[AWSAutoScalingEnabledMetric metric]
+-[AWSAutoScalingEnabledMetric setMetric:]
+-[AWSAutoScalingEnabledMetric .cxx_destruct]
++[AWSAutoScalingEnterStandbyAnswer JSONKeyPathsByPropertyKey]
++[AWSAutoScalingEnterStandbyAnswer activitiesJSONTransformer]
+-[AWSAutoScalingEnterStandbyAnswer activities]
+-[AWSAutoScalingEnterStandbyAnswer setActivities:]
+-[AWSAutoScalingEnterStandbyAnswer .cxx_destruct]
++[AWSAutoScalingEnterStandbyQuery JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingEnterStandbyQuery autoScalingGroupName]
+-[AWSAutoScalingEnterStandbyQuery setAutoScalingGroupName:]
+-[AWSAutoScalingEnterStandbyQuery instanceIds]
+-[AWSAutoScalingEnterStandbyQuery setInstanceIds:]
+-[AWSAutoScalingEnterStandbyQuery shouldDecrementDesiredCapacity]
+-[AWSAutoScalingEnterStandbyQuery setShouldDecrementDesiredCapacity:]
+-[AWSAutoScalingEnterStandbyQuery .cxx_destruct]
++[AWSAutoScalingExecutePolicyType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingExecutePolicyType autoScalingGroupName]
+-[AWSAutoScalingExecutePolicyType setAutoScalingGroupName:]
+-[AWSAutoScalingExecutePolicyType breachThreshold]
+-[AWSAutoScalingExecutePolicyType setBreachThreshold:]
+-[AWSAutoScalingExecutePolicyType honorCooldown]
+-[AWSAutoScalingExecutePolicyType setHonorCooldown:]
+-[AWSAutoScalingExecutePolicyType metricValue]
+-[AWSAutoScalingExecutePolicyType setMetricValue:]
+-[AWSAutoScalingExecutePolicyType policyName]
+-[AWSAutoScalingExecutePolicyType setPolicyName:]
+-[AWSAutoScalingExecutePolicyType .cxx_destruct]
++[AWSAutoScalingExitStandbyAnswer JSONKeyPathsByPropertyKey]
++[AWSAutoScalingExitStandbyAnswer activitiesJSONTransformer]
+-[AWSAutoScalingExitStandbyAnswer activities]
+-[AWSAutoScalingExitStandbyAnswer setActivities:]
+-[AWSAutoScalingExitStandbyAnswer .cxx_destruct]
++[AWSAutoScalingExitStandbyQuery JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingExitStandbyQuery autoScalingGroupName]
+-[AWSAutoScalingExitStandbyQuery setAutoScalingGroupName:]
+-[AWSAutoScalingExitStandbyQuery instanceIds]
+-[AWSAutoScalingExitStandbyQuery setInstanceIds:]
+-[AWSAutoScalingExitStandbyQuery .cxx_destruct]
++[AWSAutoScalingFailedScheduledUpdateGroupActionRequest JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingFailedScheduledUpdateGroupActionRequest errorCode]
+-[AWSAutoScalingFailedScheduledUpdateGroupActionRequest setErrorCode:]
+-[AWSAutoScalingFailedScheduledUpdateGroupActionRequest errorMessage]
+-[AWSAutoScalingFailedScheduledUpdateGroupActionRequest setErrorMessage:]
+-[AWSAutoScalingFailedScheduledUpdateGroupActionRequest scheduledActionName]
+-[AWSAutoScalingFailedScheduledUpdateGroupActionRequest setScheduledActionName:]
+-[AWSAutoScalingFailedScheduledUpdateGroupActionRequest .cxx_destruct]
++[AWSAutoScalingFilter JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingFilter name]
+-[AWSAutoScalingFilter setName:]
+-[AWSAutoScalingFilter values]
+-[AWSAutoScalingFilter setValues:]
+-[AWSAutoScalingFilter .cxx_destruct]
++[AWSAutoScalingInstance JSONKeyPathsByPropertyKey]
++[AWSAutoScalingInstance launchTemplateJSONTransformer]
++[AWSAutoScalingInstance lifecycleStateJSONTransformer]
+___55+[AWSAutoScalingInstance lifecycleStateJSONTransformer]_block_invoke
+___55+[AWSAutoScalingInstance lifecycleStateJSONTransformer]_block_invoke_2
+-[AWSAutoScalingInstance availabilityZone]
+-[AWSAutoScalingInstance setAvailabilityZone:]
+-[AWSAutoScalingInstance healthStatus]
+-[AWSAutoScalingInstance setHealthStatus:]
+-[AWSAutoScalingInstance instanceId]
+-[AWSAutoScalingInstance setInstanceId:]
+-[AWSAutoScalingInstance launchConfigurationName]
+-[AWSAutoScalingInstance setLaunchConfigurationName:]
+-[AWSAutoScalingInstance launchTemplate]
+-[AWSAutoScalingInstance setLaunchTemplate:]
+-[AWSAutoScalingInstance lifecycleState]
+-[AWSAutoScalingInstance setLifecycleState:]
+-[AWSAutoScalingInstance protectedFromScaleIn]
+-[AWSAutoScalingInstance setProtectedFromScaleIn:]
+-[AWSAutoScalingInstance .cxx_destruct]
++[AWSAutoScalingInstanceMonitoring JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingInstanceMonitoring enabled]
+-[AWSAutoScalingInstanceMonitoring setEnabled:]
+-[AWSAutoScalingInstanceMonitoring .cxx_destruct]
++[AWSAutoScalingInstancesDistribution JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingInstancesDistribution onDemandAllocationStrategy]
+-[AWSAutoScalingInstancesDistribution setOnDemandAllocationStrategy:]
+-[AWSAutoScalingInstancesDistribution onDemandBaseCapacity]
+-[AWSAutoScalingInstancesDistribution setOnDemandBaseCapacity:]
+-[AWSAutoScalingInstancesDistribution onDemandPercentageAboveBaseCapacity]
+-[AWSAutoScalingInstancesDistribution setOnDemandPercentageAboveBaseCapacity:]
+-[AWSAutoScalingInstancesDistribution spotAllocationStrategy]
+-[AWSAutoScalingInstancesDistribution setSpotAllocationStrategy:]
+-[AWSAutoScalingInstancesDistribution spotInstancePools]
+-[AWSAutoScalingInstancesDistribution setSpotInstancePools:]
+-[AWSAutoScalingInstancesDistribution spotMaxPrice]
+-[AWSAutoScalingInstancesDistribution setSpotMaxPrice:]
+-[AWSAutoScalingInstancesDistribution .cxx_destruct]
++[AWSAutoScalingLaunchConfiguration JSONKeyPathsByPropertyKey]
++[AWSAutoScalingLaunchConfiguration blockDeviceMappingsJSONTransformer]
++[AWSAutoScalingLaunchConfiguration createdTimeJSONTransformer]
+___63+[AWSAutoScalingLaunchConfiguration createdTimeJSONTransformer]_block_invoke
+___63+[AWSAutoScalingLaunchConfiguration createdTimeJSONTransformer]_block_invoke_2
++[AWSAutoScalingLaunchConfiguration instanceMonitoringJSONTransformer]
+-[AWSAutoScalingLaunchConfiguration associatePublicIpAddress]
+-[AWSAutoScalingLaunchConfiguration setAssociatePublicIpAddress:]
+-[AWSAutoScalingLaunchConfiguration blockDeviceMappings]
+-[AWSAutoScalingLaunchConfiguration setBlockDeviceMappings:]
+-[AWSAutoScalingLaunchConfiguration classicLinkVPCId]
+-[AWSAutoScalingLaunchConfiguration setClassicLinkVPCId:]
+-[AWSAutoScalingLaunchConfiguration classicLinkVPCSecurityGroups]
+-[AWSAutoScalingLaunchConfiguration setClassicLinkVPCSecurityGroups:]
+-[AWSAutoScalingLaunchConfiguration createdTime]
+-[AWSAutoScalingLaunchConfiguration setCreatedTime:]
+-[AWSAutoScalingLaunchConfiguration ebsOptimized]
+-[AWSAutoScalingLaunchConfiguration setEbsOptimized:]
+-[AWSAutoScalingLaunchConfiguration iamInstanceProfile]
+-[AWSAutoScalingLaunchConfiguration setIamInstanceProfile:]
+-[AWSAutoScalingLaunchConfiguration imageId]
+-[AWSAutoScalingLaunchConfiguration setImageId:]
+-[AWSAutoScalingLaunchConfiguration instanceMonitoring]
+-[AWSAutoScalingLaunchConfiguration setInstanceMonitoring:]
+-[AWSAutoScalingLaunchConfiguration instanceType]
+-[AWSAutoScalingLaunchConfiguration setInstanceType:]
+-[AWSAutoScalingLaunchConfiguration kernelId]
+-[AWSAutoScalingLaunchConfiguration setKernelId:]
+-[AWSAutoScalingLaunchConfiguration keyName]
+-[AWSAutoScalingLaunchConfiguration setKeyName:]
+-[AWSAutoScalingLaunchConfiguration launchConfigurationARN]
+-[AWSAutoScalingLaunchConfiguration setLaunchConfigurationARN:]
+-[AWSAutoScalingLaunchConfiguration launchConfigurationName]
+-[AWSAutoScalingLaunchConfiguration setLaunchConfigurationName:]
+-[AWSAutoScalingLaunchConfiguration placementTenancy]
+-[AWSAutoScalingLaunchConfiguration setPlacementTenancy:]
+-[AWSAutoScalingLaunchConfiguration ramdiskId]
+-[AWSAutoScalingLaunchConfiguration setRamdiskId:]
+-[AWSAutoScalingLaunchConfiguration securityGroups]
+-[AWSAutoScalingLaunchConfiguration setSecurityGroups:]
+-[AWSAutoScalingLaunchConfiguration spotPrice]
+-[AWSAutoScalingLaunchConfiguration setSpotPrice:]
+-[AWSAutoScalingLaunchConfiguration userData]
+-[AWSAutoScalingLaunchConfiguration setUserData:]
+-[AWSAutoScalingLaunchConfiguration .cxx_destruct]
++[AWSAutoScalingLaunchConfigurationNameType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingLaunchConfigurationNameType launchConfigurationName]
+-[AWSAutoScalingLaunchConfigurationNameType setLaunchConfigurationName:]
+-[AWSAutoScalingLaunchConfigurationNameType .cxx_destruct]
++[AWSAutoScalingLaunchConfigurationNamesType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingLaunchConfigurationNamesType launchConfigurationNames]
+-[AWSAutoScalingLaunchConfigurationNamesType setLaunchConfigurationNames:]
+-[AWSAutoScalingLaunchConfigurationNamesType maxRecords]
+-[AWSAutoScalingLaunchConfigurationNamesType setMaxRecords:]
+-[AWSAutoScalingLaunchConfigurationNamesType nextToken]
+-[AWSAutoScalingLaunchConfigurationNamesType setNextToken:]
+-[AWSAutoScalingLaunchConfigurationNamesType .cxx_destruct]
++[AWSAutoScalingLaunchConfigurationsType JSONKeyPathsByPropertyKey]
++[AWSAutoScalingLaunchConfigurationsType launchConfigurationsJSONTransformer]
+-[AWSAutoScalingLaunchConfigurationsType launchConfigurations]
+-[AWSAutoScalingLaunchConfigurationsType setLaunchConfigurations:]
+-[AWSAutoScalingLaunchConfigurationsType nextToken]
+-[AWSAutoScalingLaunchConfigurationsType setNextToken:]
+-[AWSAutoScalingLaunchConfigurationsType .cxx_destruct]
++[AWSAutoScalingLaunchTemplate JSONKeyPathsByPropertyKey]
++[AWSAutoScalingLaunchTemplate launchTemplateSpecificationJSONTransformer]
++[AWSAutoScalingLaunchTemplate overridesJSONTransformer]
+-[AWSAutoScalingLaunchTemplate launchTemplateSpecification]
+-[AWSAutoScalingLaunchTemplate setLaunchTemplateSpecification:]
+-[AWSAutoScalingLaunchTemplate overrides]
+-[AWSAutoScalingLaunchTemplate setOverrides:]
+-[AWSAutoScalingLaunchTemplate .cxx_destruct]
++[AWSAutoScalingLaunchTemplateOverrides JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingLaunchTemplateOverrides instanceType]
+-[AWSAutoScalingLaunchTemplateOverrides setInstanceType:]
+-[AWSAutoScalingLaunchTemplateOverrides .cxx_destruct]
++[AWSAutoScalingLaunchTemplateSpecification JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingLaunchTemplateSpecification launchTemplateId]
+-[AWSAutoScalingLaunchTemplateSpecification setLaunchTemplateId:]
+-[AWSAutoScalingLaunchTemplateSpecification launchTemplateName]
+-[AWSAutoScalingLaunchTemplateSpecification setLaunchTemplateName:]
+-[AWSAutoScalingLaunchTemplateSpecification version]
+-[AWSAutoScalingLaunchTemplateSpecification setVersion:]
+-[AWSAutoScalingLaunchTemplateSpecification .cxx_destruct]
++[AWSAutoScalingLifecycleHook JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingLifecycleHook autoScalingGroupName]
+-[AWSAutoScalingLifecycleHook setAutoScalingGroupName:]
+-[AWSAutoScalingLifecycleHook defaultResult]
+-[AWSAutoScalingLifecycleHook setDefaultResult:]
+-[AWSAutoScalingLifecycleHook globalTimeout]
+-[AWSAutoScalingLifecycleHook setGlobalTimeout:]
+-[AWSAutoScalingLifecycleHook heartbeatTimeout]
+-[AWSAutoScalingLifecycleHook setHeartbeatTimeout:]
+-[AWSAutoScalingLifecycleHook lifecycleHookName]
+-[AWSAutoScalingLifecycleHook setLifecycleHookName:]
+-[AWSAutoScalingLifecycleHook lifecycleTransition]
+-[AWSAutoScalingLifecycleHook setLifecycleTransition:]
+-[AWSAutoScalingLifecycleHook notificationMetadata]
+-[AWSAutoScalingLifecycleHook setNotificationMetadata:]
+-[AWSAutoScalingLifecycleHook notificationTargetARN]
+-[AWSAutoScalingLifecycleHook setNotificationTargetARN:]
+-[AWSAutoScalingLifecycleHook roleARN]
+-[AWSAutoScalingLifecycleHook setRoleARN:]
+-[AWSAutoScalingLifecycleHook .cxx_destruct]
++[AWSAutoScalingLifecycleHookSpecification JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingLifecycleHookSpecification defaultResult]
+-[AWSAutoScalingLifecycleHookSpecification setDefaultResult:]
+-[AWSAutoScalingLifecycleHookSpecification heartbeatTimeout]
+-[AWSAutoScalingLifecycleHookSpecification setHeartbeatTimeout:]
+-[AWSAutoScalingLifecycleHookSpecification lifecycleHookName]
+-[AWSAutoScalingLifecycleHookSpecification setLifecycleHookName:]
+-[AWSAutoScalingLifecycleHookSpecification lifecycleTransition]
+-[AWSAutoScalingLifecycleHookSpecification setLifecycleTransition:]
+-[AWSAutoScalingLifecycleHookSpecification notificationMetadata]
+-[AWSAutoScalingLifecycleHookSpecification setNotificationMetadata:]
+-[AWSAutoScalingLifecycleHookSpecification notificationTargetARN]
+-[AWSAutoScalingLifecycleHookSpecification setNotificationTargetARN:]
+-[AWSAutoScalingLifecycleHookSpecification roleARN]
+-[AWSAutoScalingLifecycleHookSpecification setRoleARN:]
+-[AWSAutoScalingLifecycleHookSpecification .cxx_destruct]
++[AWSAutoScalingLoadBalancerState JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingLoadBalancerState loadBalancerName]
+-[AWSAutoScalingLoadBalancerState setLoadBalancerName:]
+-[AWSAutoScalingLoadBalancerState state]
+-[AWSAutoScalingLoadBalancerState setState:]
+-[AWSAutoScalingLoadBalancerState .cxx_destruct]
++[AWSAutoScalingLoadBalancerTargetGroupState JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingLoadBalancerTargetGroupState loadBalancerTargetGroupARN]
+-[AWSAutoScalingLoadBalancerTargetGroupState setLoadBalancerTargetGroupARN:]
+-[AWSAutoScalingLoadBalancerTargetGroupState state]
+-[AWSAutoScalingLoadBalancerTargetGroupState setState:]
+-[AWSAutoScalingLoadBalancerTargetGroupState .cxx_destruct]
++[AWSAutoScalingMetricCollectionType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingMetricCollectionType metric]
+-[AWSAutoScalingMetricCollectionType setMetric:]
+-[AWSAutoScalingMetricCollectionType .cxx_destruct]
++[AWSAutoScalingMetricDimension JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingMetricDimension name]
+-[AWSAutoScalingMetricDimension setName:]
+-[AWSAutoScalingMetricDimension value]
+-[AWSAutoScalingMetricDimension setValue:]
+-[AWSAutoScalingMetricDimension .cxx_destruct]
++[AWSAutoScalingMetricGranularityType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingMetricGranularityType granularity]
+-[AWSAutoScalingMetricGranularityType setGranularity:]
+-[AWSAutoScalingMetricGranularityType .cxx_destruct]
++[AWSAutoScalingMixedInstancesPolicy JSONKeyPathsByPropertyKey]
++[AWSAutoScalingMixedInstancesPolicy instancesDistributionJSONTransformer]
++[AWSAutoScalingMixedInstancesPolicy launchTemplateJSONTransformer]
+-[AWSAutoScalingMixedInstancesPolicy instancesDistribution]
+-[AWSAutoScalingMixedInstancesPolicy setInstancesDistribution:]
+-[AWSAutoScalingMixedInstancesPolicy launchTemplate]
+-[AWSAutoScalingMixedInstancesPolicy setLaunchTemplate:]
+-[AWSAutoScalingMixedInstancesPolicy .cxx_destruct]
++[AWSAutoScalingNotificationConfiguration JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingNotificationConfiguration autoScalingGroupName]
+-[AWSAutoScalingNotificationConfiguration setAutoScalingGroupName:]
+-[AWSAutoScalingNotificationConfiguration notificationType]
+-[AWSAutoScalingNotificationConfiguration setNotificationType:]
+-[AWSAutoScalingNotificationConfiguration topicARN]
+-[AWSAutoScalingNotificationConfiguration setTopicARN:]
+-[AWSAutoScalingNotificationConfiguration .cxx_destruct]
++[AWSAutoScalingPoliciesType JSONKeyPathsByPropertyKey]
++[AWSAutoScalingPoliciesType scalingPoliciesJSONTransformer]
+-[AWSAutoScalingPoliciesType nextToken]
+-[AWSAutoScalingPoliciesType setNextToken:]
+-[AWSAutoScalingPoliciesType scalingPolicies]
+-[AWSAutoScalingPoliciesType setScalingPolicies:]
+-[AWSAutoScalingPoliciesType .cxx_destruct]
++[AWSAutoScalingPolicyARNType JSONKeyPathsByPropertyKey]
++[AWSAutoScalingPolicyARNType alarmsJSONTransformer]
+-[AWSAutoScalingPolicyARNType alarms]
+-[AWSAutoScalingPolicyARNType setAlarms:]
+-[AWSAutoScalingPolicyARNType policyARN]
+-[AWSAutoScalingPolicyARNType setPolicyARN:]
+-[AWSAutoScalingPolicyARNType .cxx_destruct]
++[AWSAutoScalingPredefinedMetricSpecification JSONKeyPathsByPropertyKey]
++[AWSAutoScalingPredefinedMetricSpecification predefinedMetricTypeJSONTransformer]
+___82+[AWSAutoScalingPredefinedMetricSpecification predefinedMetricTypeJSONTransformer]_block_invoke
+___82+[AWSAutoScalingPredefinedMetricSpecification predefinedMetricTypeJSONTransformer]_block_invoke_2
+-[AWSAutoScalingPredefinedMetricSpecification predefinedMetricType]
+-[AWSAutoScalingPredefinedMetricSpecification setPredefinedMetricType:]
+-[AWSAutoScalingPredefinedMetricSpecification resourceLabel]
+-[AWSAutoScalingPredefinedMetricSpecification setResourceLabel:]
+-[AWSAutoScalingPredefinedMetricSpecification .cxx_destruct]
++[AWSAutoScalingProcessType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingProcessType processName]
+-[AWSAutoScalingProcessType setProcessName:]
+-[AWSAutoScalingProcessType .cxx_destruct]
++[AWSAutoScalingProcessesType JSONKeyPathsByPropertyKey]
++[AWSAutoScalingProcessesType processesJSONTransformer]
+-[AWSAutoScalingProcessesType processes]
+-[AWSAutoScalingProcessesType setProcesses:]
+-[AWSAutoScalingProcessesType .cxx_destruct]
++[AWSAutoScalingPutLifecycleHookType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingPutLifecycleHookType autoScalingGroupName]
+-[AWSAutoScalingPutLifecycleHookType setAutoScalingGroupName:]
+-[AWSAutoScalingPutLifecycleHookType defaultResult]
+-[AWSAutoScalingPutLifecycleHookType setDefaultResult:]
+-[AWSAutoScalingPutLifecycleHookType heartbeatTimeout]
+-[AWSAutoScalingPutLifecycleHookType setHeartbeatTimeout:]
+-[AWSAutoScalingPutLifecycleHookType lifecycleHookName]
+-[AWSAutoScalingPutLifecycleHookType setLifecycleHookName:]
+-[AWSAutoScalingPutLifecycleHookType lifecycleTransition]
+-[AWSAutoScalingPutLifecycleHookType setLifecycleTransition:]
+-[AWSAutoScalingPutLifecycleHookType notificationMetadata]
+-[AWSAutoScalingPutLifecycleHookType setNotificationMetadata:]
+-[AWSAutoScalingPutLifecycleHookType notificationTargetARN]
+-[AWSAutoScalingPutLifecycleHookType setNotificationTargetARN:]
+-[AWSAutoScalingPutLifecycleHookType roleARN]
+-[AWSAutoScalingPutLifecycleHookType setRoleARN:]
+-[AWSAutoScalingPutLifecycleHookType .cxx_destruct]
++[AWSAutoScalingPutNotificationConfigurationType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingPutNotificationConfigurationType autoScalingGroupName]
+-[AWSAutoScalingPutNotificationConfigurationType setAutoScalingGroupName:]
+-[AWSAutoScalingPutNotificationConfigurationType notificationTypes]
+-[AWSAutoScalingPutNotificationConfigurationType setNotificationTypes:]
+-[AWSAutoScalingPutNotificationConfigurationType topicARN]
+-[AWSAutoScalingPutNotificationConfigurationType setTopicARN:]
+-[AWSAutoScalingPutNotificationConfigurationType .cxx_destruct]
++[AWSAutoScalingPutScalingPolicyType JSONKeyPathsByPropertyKey]
++[AWSAutoScalingPutScalingPolicyType stepAdjustmentsJSONTransformer]
++[AWSAutoScalingPutScalingPolicyType targetTrackingConfigurationJSONTransformer]
+-[AWSAutoScalingPutScalingPolicyType adjustmentType]
+-[AWSAutoScalingPutScalingPolicyType setAdjustmentType:]
+-[AWSAutoScalingPutScalingPolicyType autoScalingGroupName]
+-[AWSAutoScalingPutScalingPolicyType setAutoScalingGroupName:]
+-[AWSAutoScalingPutScalingPolicyType cooldown]
+-[AWSAutoScalingPutScalingPolicyType setCooldown:]
+-[AWSAutoScalingPutScalingPolicyType estimatedInstanceWarmup]
+-[AWSAutoScalingPutScalingPolicyType setEstimatedInstanceWarmup:]
+-[AWSAutoScalingPutScalingPolicyType metricAggregationType]
+-[AWSAutoScalingPutScalingPolicyType setMetricAggregationType:]
+-[AWSAutoScalingPutScalingPolicyType minAdjustmentMagnitude]
+-[AWSAutoScalingPutScalingPolicyType setMinAdjustmentMagnitude:]
+-[AWSAutoScalingPutScalingPolicyType minAdjustmentStep]
+-[AWSAutoScalingPutScalingPolicyType setMinAdjustmentStep:]
+-[AWSAutoScalingPutScalingPolicyType policyName]
+-[AWSAutoScalingPutScalingPolicyType setPolicyName:]
+-[AWSAutoScalingPutScalingPolicyType policyType]
+-[AWSAutoScalingPutScalingPolicyType setPolicyType:]
+-[AWSAutoScalingPutScalingPolicyType scalingAdjustment]
+-[AWSAutoScalingPutScalingPolicyType setScalingAdjustment:]
+-[AWSAutoScalingPutScalingPolicyType stepAdjustments]
+-[AWSAutoScalingPutScalingPolicyType setStepAdjustments:]
+-[AWSAutoScalingPutScalingPolicyType targetTrackingConfiguration]
+-[AWSAutoScalingPutScalingPolicyType setTargetTrackingConfiguration:]
+-[AWSAutoScalingPutScalingPolicyType .cxx_destruct]
++[AWSAutoScalingPutScheduledUpdateGroupActionType JSONKeyPathsByPropertyKey]
++[AWSAutoScalingPutScheduledUpdateGroupActionType endTimeJSONTransformer]
+___73+[AWSAutoScalingPutScheduledUpdateGroupActionType endTimeJSONTransformer]_block_invoke
+___73+[AWSAutoScalingPutScheduledUpdateGroupActionType endTimeJSONTransformer]_block_invoke_2
++[AWSAutoScalingPutScheduledUpdateGroupActionType startTimeJSONTransformer]
+___75+[AWSAutoScalingPutScheduledUpdateGroupActionType startTimeJSONTransformer]_block_invoke
+___75+[AWSAutoScalingPutScheduledUpdateGroupActionType startTimeJSONTransformer]_block_invoke_2
++[AWSAutoScalingPutScheduledUpdateGroupActionType timeJSONTransformer]
+___70+[AWSAutoScalingPutScheduledUpdateGroupActionType timeJSONTransformer]_block_invoke
+___70+[AWSAutoScalingPutScheduledUpdateGroupActionType timeJSONTransformer]_block_invoke_2
+-[AWSAutoScalingPutScheduledUpdateGroupActionType autoScalingGroupName]
+-[AWSAutoScalingPutScheduledUpdateGroupActionType setAutoScalingGroupName:]
+-[AWSAutoScalingPutScheduledUpdateGroupActionType desiredCapacity]
+-[AWSAutoScalingPutScheduledUpdateGroupActionType setDesiredCapacity:]
+-[AWSAutoScalingPutScheduledUpdateGroupActionType endTime]
+-[AWSAutoScalingPutScheduledUpdateGroupActionType setEndTime:]
+-[AWSAutoScalingPutScheduledUpdateGroupActionType maxSize]
+-[AWSAutoScalingPutScheduledUpdateGroupActionType setMaxSize:]
+-[AWSAutoScalingPutScheduledUpdateGroupActionType minSize]
+-[AWSAutoScalingPutScheduledUpdateGroupActionType setMinSize:]
+-[AWSAutoScalingPutScheduledUpdateGroupActionType recurrence]
+-[AWSAutoScalingPutScheduledUpdateGroupActionType setRecurrence:]
+-[AWSAutoScalingPutScheduledUpdateGroupActionType scheduledActionName]
+-[AWSAutoScalingPutScheduledUpdateGroupActionType setScheduledActionName:]
+-[AWSAutoScalingPutScheduledUpdateGroupActionType startTime]
+-[AWSAutoScalingPutScheduledUpdateGroupActionType setStartTime:]
+-[AWSAutoScalingPutScheduledUpdateGroupActionType time]
+-[AWSAutoScalingPutScheduledUpdateGroupActionType setTime:]
+-[AWSAutoScalingPutScheduledUpdateGroupActionType .cxx_destruct]
++[AWSAutoScalingRecordLifecycleActionHeartbeatType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingRecordLifecycleActionHeartbeatType autoScalingGroupName]
+-[AWSAutoScalingRecordLifecycleActionHeartbeatType setAutoScalingGroupName:]
+-[AWSAutoScalingRecordLifecycleActionHeartbeatType instanceId]
+-[AWSAutoScalingRecordLifecycleActionHeartbeatType setInstanceId:]
+-[AWSAutoScalingRecordLifecycleActionHeartbeatType lifecycleActionToken]
+-[AWSAutoScalingRecordLifecycleActionHeartbeatType setLifecycleActionToken:]
+-[AWSAutoScalingRecordLifecycleActionHeartbeatType lifecycleHookName]
+-[AWSAutoScalingRecordLifecycleActionHeartbeatType setLifecycleHookName:]
+-[AWSAutoScalingRecordLifecycleActionHeartbeatType .cxx_destruct]
++[AWSAutoScalingScalingPolicy JSONKeyPathsByPropertyKey]
++[AWSAutoScalingScalingPolicy alarmsJSONTransformer]
++[AWSAutoScalingScalingPolicy stepAdjustmentsJSONTransformer]
++[AWSAutoScalingScalingPolicy targetTrackingConfigurationJSONTransformer]
+-[AWSAutoScalingScalingPolicy adjustmentType]
+-[AWSAutoScalingScalingPolicy setAdjustmentType:]
+-[AWSAutoScalingScalingPolicy alarms]
+-[AWSAutoScalingScalingPolicy setAlarms:]
+-[AWSAutoScalingScalingPolicy autoScalingGroupName]
+-[AWSAutoScalingScalingPolicy setAutoScalingGroupName:]
+-[AWSAutoScalingScalingPolicy cooldown]
+-[AWSAutoScalingScalingPolicy setCooldown:]
+-[AWSAutoScalingScalingPolicy estimatedInstanceWarmup]
+-[AWSAutoScalingScalingPolicy setEstimatedInstanceWarmup:]
+-[AWSAutoScalingScalingPolicy metricAggregationType]
+-[AWSAutoScalingScalingPolicy setMetricAggregationType:]
+-[AWSAutoScalingScalingPolicy minAdjustmentMagnitude]
+-[AWSAutoScalingScalingPolicy setMinAdjustmentMagnitude:]
+-[AWSAutoScalingScalingPolicy minAdjustmentStep]
+-[AWSAutoScalingScalingPolicy setMinAdjustmentStep:]
+-[AWSAutoScalingScalingPolicy policyARN]
+-[AWSAutoScalingScalingPolicy setPolicyARN:]
+-[AWSAutoScalingScalingPolicy policyName]
+-[AWSAutoScalingScalingPolicy setPolicyName:]
+-[AWSAutoScalingScalingPolicy policyType]
+-[AWSAutoScalingScalingPolicy setPolicyType:]
+-[AWSAutoScalingScalingPolicy scalingAdjustment]
+-[AWSAutoScalingScalingPolicy setScalingAdjustment:]
+-[AWSAutoScalingScalingPolicy stepAdjustments]
+-[AWSAutoScalingScalingPolicy setStepAdjustments:]
+-[AWSAutoScalingScalingPolicy targetTrackingConfiguration]
+-[AWSAutoScalingScalingPolicy setTargetTrackingConfiguration:]
+-[AWSAutoScalingScalingPolicy .cxx_destruct]
++[AWSAutoScalingScalingProcessQuery JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingScalingProcessQuery autoScalingGroupName]
+-[AWSAutoScalingScalingProcessQuery setAutoScalingGroupName:]
+-[AWSAutoScalingScalingProcessQuery scalingProcesses]
+-[AWSAutoScalingScalingProcessQuery setScalingProcesses:]
+-[AWSAutoScalingScalingProcessQuery .cxx_destruct]
++[AWSAutoScalingScheduledActionsType JSONKeyPathsByPropertyKey]
++[AWSAutoScalingScheduledActionsType scheduledUpdateGroupActionsJSONTransformer]
+-[AWSAutoScalingScheduledActionsType nextToken]
+-[AWSAutoScalingScheduledActionsType setNextToken:]
+-[AWSAutoScalingScheduledActionsType scheduledUpdateGroupActions]
+-[AWSAutoScalingScheduledActionsType setScheduledUpdateGroupActions:]
+-[AWSAutoScalingScheduledActionsType .cxx_destruct]
++[AWSAutoScalingScheduledUpdateGroupAction JSONKeyPathsByPropertyKey]
++[AWSAutoScalingScheduledUpdateGroupAction endTimeJSONTransformer]
+___66+[AWSAutoScalingScheduledUpdateGroupAction endTimeJSONTransformer]_block_invoke
+___66+[AWSAutoScalingScheduledUpdateGroupAction endTimeJSONTransformer]_block_invoke_2
++[AWSAutoScalingScheduledUpdateGroupAction startTimeJSONTransformer]
+___68+[AWSAutoScalingScheduledUpdateGroupAction startTimeJSONTransformer]_block_invoke
+___68+[AWSAutoScalingScheduledUpdateGroupAction startTimeJSONTransformer]_block_invoke_2
++[AWSAutoScalingScheduledUpdateGroupAction timeJSONTransformer]
+___63+[AWSAutoScalingScheduledUpdateGroupAction timeJSONTransformer]_block_invoke
+___63+[AWSAutoScalingScheduledUpdateGroupAction timeJSONTransformer]_block_invoke_2
+-[AWSAutoScalingScheduledUpdateGroupAction autoScalingGroupName]
+-[AWSAutoScalingScheduledUpdateGroupAction setAutoScalingGroupName:]
+-[AWSAutoScalingScheduledUpdateGroupAction desiredCapacity]
+-[AWSAutoScalingScheduledUpdateGroupAction setDesiredCapacity:]
+-[AWSAutoScalingScheduledUpdateGroupAction endTime]
+-[AWSAutoScalingScheduledUpdateGroupAction setEndTime:]
+-[AWSAutoScalingScheduledUpdateGroupAction maxSize]
+-[AWSAutoScalingScheduledUpdateGroupAction setMaxSize:]
+-[AWSAutoScalingScheduledUpdateGroupAction minSize]
+-[AWSAutoScalingScheduledUpdateGroupAction setMinSize:]
+-[AWSAutoScalingScheduledUpdateGroupAction recurrence]
+-[AWSAutoScalingScheduledUpdateGroupAction setRecurrence:]
+-[AWSAutoScalingScheduledUpdateGroupAction scheduledActionARN]
+-[AWSAutoScalingScheduledUpdateGroupAction setScheduledActionARN:]
+-[AWSAutoScalingScheduledUpdateGroupAction scheduledActionName]
+-[AWSAutoScalingScheduledUpdateGroupAction setScheduledActionName:]
+-[AWSAutoScalingScheduledUpdateGroupAction startTime]
+-[AWSAutoScalingScheduledUpdateGroupAction setStartTime:]
+-[AWSAutoScalingScheduledUpdateGroupAction time]
+-[AWSAutoScalingScheduledUpdateGroupAction setTime:]
+-[AWSAutoScalingScheduledUpdateGroupAction .cxx_destruct]
++[AWSAutoScalingScheduledUpdateGroupActionRequest JSONKeyPathsByPropertyKey]
++[AWSAutoScalingScheduledUpdateGroupActionRequest endTimeJSONTransformer]
+___73+[AWSAutoScalingScheduledUpdateGroupActionRequest endTimeJSONTransformer]_block_invoke
+___73+[AWSAutoScalingScheduledUpdateGroupActionRequest endTimeJSONTransformer]_block_invoke_2
++[AWSAutoScalingScheduledUpdateGroupActionRequest startTimeJSONTransformer]
+___75+[AWSAutoScalingScheduledUpdateGroupActionRequest startTimeJSONTransformer]_block_invoke
+___75+[AWSAutoScalingScheduledUpdateGroupActionRequest startTimeJSONTransformer]_block_invoke_2
+-[AWSAutoScalingScheduledUpdateGroupActionRequest desiredCapacity]
+-[AWSAutoScalingScheduledUpdateGroupActionRequest setDesiredCapacity:]
+-[AWSAutoScalingScheduledUpdateGroupActionRequest endTime]
+-[AWSAutoScalingScheduledUpdateGroupActionRequest setEndTime:]
+-[AWSAutoScalingScheduledUpdateGroupActionRequest maxSize]
+-[AWSAutoScalingScheduledUpdateGroupActionRequest setMaxSize:]
+-[AWSAutoScalingScheduledUpdateGroupActionRequest minSize]
+-[AWSAutoScalingScheduledUpdateGroupActionRequest setMinSize:]
+-[AWSAutoScalingScheduledUpdateGroupActionRequest recurrence]
+-[AWSAutoScalingScheduledUpdateGroupActionRequest setRecurrence:]
+-[AWSAutoScalingScheduledUpdateGroupActionRequest scheduledActionName]
+-[AWSAutoScalingScheduledUpdateGroupActionRequest setScheduledActionName:]
+-[AWSAutoScalingScheduledUpdateGroupActionRequest startTime]
+-[AWSAutoScalingScheduledUpdateGroupActionRequest setStartTime:]
+-[AWSAutoScalingScheduledUpdateGroupActionRequest .cxx_destruct]
++[AWSAutoScalingSetDesiredCapacityType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingSetDesiredCapacityType autoScalingGroupName]
+-[AWSAutoScalingSetDesiredCapacityType setAutoScalingGroupName:]
+-[AWSAutoScalingSetDesiredCapacityType desiredCapacity]
+-[AWSAutoScalingSetDesiredCapacityType setDesiredCapacity:]
+-[AWSAutoScalingSetDesiredCapacityType honorCooldown]
+-[AWSAutoScalingSetDesiredCapacityType setHonorCooldown:]
+-[AWSAutoScalingSetDesiredCapacityType .cxx_destruct]
++[AWSAutoScalingSetInstanceHealthQuery JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingSetInstanceHealthQuery healthStatus]
+-[AWSAutoScalingSetInstanceHealthQuery setHealthStatus:]
+-[AWSAutoScalingSetInstanceHealthQuery instanceId]
+-[AWSAutoScalingSetInstanceHealthQuery setInstanceId:]
+-[AWSAutoScalingSetInstanceHealthQuery shouldRespectGracePeriod]
+-[AWSAutoScalingSetInstanceHealthQuery setShouldRespectGracePeriod:]
+-[AWSAutoScalingSetInstanceHealthQuery .cxx_destruct]
++[AWSAutoScalingSetInstanceProtectionQuery JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingSetInstanceProtectionQuery autoScalingGroupName]
+-[AWSAutoScalingSetInstanceProtectionQuery setAutoScalingGroupName:]
+-[AWSAutoScalingSetInstanceProtectionQuery instanceIds]
+-[AWSAutoScalingSetInstanceProtectionQuery setInstanceIds:]
+-[AWSAutoScalingSetInstanceProtectionQuery protectedFromScaleIn]
+-[AWSAutoScalingSetInstanceProtectionQuery setProtectedFromScaleIn:]
+-[AWSAutoScalingSetInstanceProtectionQuery .cxx_destruct]
++[AWSAutoScalingStepAdjustment JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingStepAdjustment metricIntervalLowerBound]
+-[AWSAutoScalingStepAdjustment setMetricIntervalLowerBound:]
+-[AWSAutoScalingStepAdjustment metricIntervalUpperBound]
+-[AWSAutoScalingStepAdjustment setMetricIntervalUpperBound:]
+-[AWSAutoScalingStepAdjustment scalingAdjustment]
+-[AWSAutoScalingStepAdjustment setScalingAdjustment:]
+-[AWSAutoScalingStepAdjustment .cxx_destruct]
++[AWSAutoScalingSuspendedProcess JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingSuspendedProcess processName]
+-[AWSAutoScalingSuspendedProcess setProcessName:]
+-[AWSAutoScalingSuspendedProcess suspensionReason]
+-[AWSAutoScalingSuspendedProcess setSuspensionReason:]
+-[AWSAutoScalingSuspendedProcess .cxx_destruct]
++[AWSAutoScalingTag JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingTag key]
+-[AWSAutoScalingTag setKey:]
+-[AWSAutoScalingTag propagateAtLaunch]
+-[AWSAutoScalingTag setPropagateAtLaunch:]
+-[AWSAutoScalingTag resourceId]
+-[AWSAutoScalingTag setResourceId:]
+-[AWSAutoScalingTag resourceType]
+-[AWSAutoScalingTag setResourceType:]
+-[AWSAutoScalingTag value]
+-[AWSAutoScalingTag setValue:]
+-[AWSAutoScalingTag .cxx_destruct]
++[AWSAutoScalingTagDescription JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingTagDescription key]
+-[AWSAutoScalingTagDescription setKey:]
+-[AWSAutoScalingTagDescription propagateAtLaunch]
+-[AWSAutoScalingTagDescription setPropagateAtLaunch:]
+-[AWSAutoScalingTagDescription resourceId]
+-[AWSAutoScalingTagDescription setResourceId:]
+-[AWSAutoScalingTagDescription resourceType]
+-[AWSAutoScalingTagDescription setResourceType:]
+-[AWSAutoScalingTagDescription value]
+-[AWSAutoScalingTagDescription setValue:]
+-[AWSAutoScalingTagDescription .cxx_destruct]
++[AWSAutoScalingTagsType JSONKeyPathsByPropertyKey]
++[AWSAutoScalingTagsType tagsJSONTransformer]
+-[AWSAutoScalingTagsType nextToken]
+-[AWSAutoScalingTagsType setNextToken:]
+-[AWSAutoScalingTagsType tags]
+-[AWSAutoScalingTagsType setTags:]
+-[AWSAutoScalingTagsType .cxx_destruct]
++[AWSAutoScalingTargetTrackingConfiguration JSONKeyPathsByPropertyKey]
++[AWSAutoScalingTargetTrackingConfiguration customizedMetricSpecificationJSONTransformer]
++[AWSAutoScalingTargetTrackingConfiguration predefinedMetricSpecificationJSONTransformer]
+-[AWSAutoScalingTargetTrackingConfiguration customizedMetricSpecification]
+-[AWSAutoScalingTargetTrackingConfiguration setCustomizedMetricSpecification:]
+-[AWSAutoScalingTargetTrackingConfiguration disableScaleIn]
+-[AWSAutoScalingTargetTrackingConfiguration setDisableScaleIn:]
+-[AWSAutoScalingTargetTrackingConfiguration predefinedMetricSpecification]
+-[AWSAutoScalingTargetTrackingConfiguration setPredefinedMetricSpecification:]
+-[AWSAutoScalingTargetTrackingConfiguration targetValue]
+-[AWSAutoScalingTargetTrackingConfiguration setTargetValue:]
+-[AWSAutoScalingTargetTrackingConfiguration .cxx_destruct]
++[AWSAutoScalingTerminateInstanceInAutoScalingGroupType JSONKeyPathsByPropertyKey]
+-[AWSAutoScalingTerminateInstanceInAutoScalingGroupType instanceId]
+-[AWSAutoScalingTerminateInstanceInAutoScalingGroupType setInstanceId:]
+-[AWSAutoScalingTerminateInstanceInAutoScalingGroupType shouldDecrementDesiredCapacity]
+-[AWSAutoScalingTerminateInstanceInAutoScalingGroupType setShouldDecrementDesiredCapacity:]
+-[AWSAutoScalingTerminateInstanceInAutoScalingGroupType .cxx_destruct]
++[AWSAutoScalingUpdateAutoScalingGroupType JSONKeyPathsByPropertyKey]
++[AWSAutoScalingUpdateAutoScalingGroupType launchTemplateJSONTransformer]
++[AWSAutoScalingUpdateAutoScalingGroupType mixedInstancesPolicyJSONTransformer]
+-[AWSAutoScalingUpdateAutoScalingGroupType autoScalingGroupName]
+-[AWSAutoScalingUpdateAutoScalingGroupType setAutoScalingGroupName:]
+-[AWSAutoScalingUpdateAutoScalingGroupType availabilityZones]
+-[AWSAutoScalingUpdateAutoScalingGroupType setAvailabilityZones:]
+-[AWSAutoScalingUpdateAutoScalingGroupType defaultCooldown]
+-[AWSAutoScalingUpdateAutoScalingGroupType setDefaultCooldown:]
+-[AWSAutoScalingUpdateAutoScalingGroupType desiredCapacity]
+-[AWSAutoScalingUpdateAutoScalingGroupType setDesiredCapacity:]
+-[AWSAutoScalingUpdateAutoScalingGroupType healthCheckGracePeriod]
+-[AWSAutoScalingUpdateAutoScalingGroupType setHealthCheckGracePeriod:]
+-[AWSAutoScalingUpdateAutoScalingGroupType healthCheckType]
+-[AWSAutoScalingUpdateAutoScalingGroupType setHealthCheckType:]
+-[AWSAutoScalingUpdateAutoScalingGroupType launchConfigurationName]
+-[AWSAutoScalingUpdateAutoScalingGroupType setLaunchConfigurationName:]
+-[AWSAutoScalingUpdateAutoScalingGroupType launchTemplate]
+-[AWSAutoScalingUpdateAutoScalingGroupType setLaunchTemplate:]
+-[AWSAutoScalingUpdateAutoScalingGroupType maxSize]
+-[AWSAutoScalingUpdateAutoScalingGroupType setMaxSize:]
+-[AWSAutoScalingUpdateAutoScalingGroupType minSize]
+-[AWSAutoScalingUpdateAutoScalingGroupType setMinSize:]
+-[AWSAutoScalingUpdateAutoScalingGroupType mixedInstancesPolicy]
+-[AWSAutoScalingUpdateAutoScalingGroupType setMixedInstancesPolicy:]
+-[AWSAutoScalingUpdateAutoScalingGroupType latestInstancesProtectedFromScaleIn]
+-[AWSAutoScalingUpdateAutoScalingGroupType setLatestInstancesProtectedFromScaleIn:]
+-[AWSAutoScalingUpdateAutoScalingGroupType placementGroup]
+-[AWSAutoScalingUpdateAutoScalingGroupType setPlacementGroup:]
+-[AWSAutoScalingUpdateAutoScalingGroupType serviceLinkedRoleARN]
+-[AWSAutoScalingUpdateAutoScalingGroupType setServiceLinkedRoleARN:]
+-[AWSAutoScalingUpdateAutoScalingGroupType terminationPolicies]
+-[AWSAutoScalingUpdateAutoScalingGroupType setTerminationPolicies:]
+-[AWSAutoScalingUpdateAutoScalingGroupType VPCZoneIdentifier]
+-[AWSAutoScalingUpdateAutoScalingGroupType setVPCZoneIdentifier:]
+-[AWSAutoScalingUpdateAutoScalingGroupType .cxx_destruct]
+_OBJC_IVAR_$_AWSAutoScalingActivitiesType._activities
+_OBJC_IVAR_$_AWSAutoScalingActivitiesType._nextToken
+___block_descriptor_tmp.78
+___block_literal_global.79
+___block_descriptor_tmp.86
+___block_literal_global.87
+___block_descriptor_tmp.89
+___block_literal_global.90
+___block_descriptor_tmp.121
+___block_literal_global.122
+_OBJC_IVAR_$_AWSAutoScalingActivity._activityId
+_OBJC_IVAR_$_AWSAutoScalingActivity._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingActivity._cause
+_OBJC_IVAR_$_AWSAutoScalingActivity._detail
+_OBJC_IVAR_$_AWSAutoScalingActivity._details
+_OBJC_IVAR_$_AWSAutoScalingActivity._endTime
+_OBJC_IVAR_$_AWSAutoScalingActivity._progress
+_OBJC_IVAR_$_AWSAutoScalingActivity._startTime
+_OBJC_IVAR_$_AWSAutoScalingActivity._statusCode
+_OBJC_IVAR_$_AWSAutoScalingActivity._statusMessage
+_OBJC_IVAR_$_AWSAutoScalingActivityType._activity
+_OBJC_IVAR_$_AWSAutoScalingAdjustmentType._adjustmentType
+_OBJC_IVAR_$_AWSAutoScalingAlarm._alarmARN
+_OBJC_IVAR_$_AWSAutoScalingAlarm._alarmName
+_OBJC_IVAR_$_AWSAutoScalingAttachInstancesQuery._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingAttachInstancesQuery._instanceIds
+_OBJC_IVAR_$_AWSAutoScalingAttachLoadBalancerTargetGroupsType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingAttachLoadBalancerTargetGroupsType._targetGroupARNs
+_OBJC_IVAR_$_AWSAutoScalingAttachLoadBalancersType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingAttachLoadBalancersType._loadBalancerNames
+___block_descriptor_tmp.352
+___block_literal_global.353
+___block_descriptor_tmp.354
+___block_literal_global.355
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._autoScalingGroupARN
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._availabilityZones
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._createdTime
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._defaultCooldown
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._desiredCapacity
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._enabledMetrics
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._healthCheckGracePeriod
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._healthCheckType
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._instances
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._launchConfigurationName
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._launchTemplate
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._loadBalancerNames
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._maxSize
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._minSize
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._mixedInstancesPolicy
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._latestInstancesProtectedFromScaleIn
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._placementGroup
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._serviceLinkedRoleARN
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._status
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._suspendedProcesses
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._tags
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._targetGroupARNs
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._terminationPolicies
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroup._VPCZoneIdentifier
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroupNamesType._autoScalingGroupNames
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroupNamesType._maxRecords
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroupNamesType._nextToken
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroupsType._autoScalingGroups
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingGroupsType._nextToken
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingInstanceDetails._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingInstanceDetails._availabilityZone
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingInstanceDetails._healthStatus
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingInstanceDetails._instanceId
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingInstanceDetails._launchConfigurationName
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingInstanceDetails._launchTemplate
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingInstanceDetails._lifecycleState
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingInstanceDetails._protectedFromScaleIn
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingInstancesType._autoScalingInstances
+_OBJC_IVAR_$_AWSAutoScalingAutoScalingInstancesType._nextToken
+_OBJC_IVAR_$_AWSAutoScalingBatchDeleteScheduledActionAnswer._failedScheduledActions
+_OBJC_IVAR_$_AWSAutoScalingBatchDeleteScheduledActionType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingBatchDeleteScheduledActionType._scheduledActionNames
+_OBJC_IVAR_$_AWSAutoScalingBatchPutScheduledUpdateGroupActionAnswer._failedScheduledUpdateGroupActions
+_OBJC_IVAR_$_AWSAutoScalingBatchPutScheduledUpdateGroupActionType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingBatchPutScheduledUpdateGroupActionType._scheduledUpdateGroupActions
+_OBJC_IVAR_$_AWSAutoScalingBlockDeviceMapping._deviceName
+_OBJC_IVAR_$_AWSAutoScalingBlockDeviceMapping._ebs
+_OBJC_IVAR_$_AWSAutoScalingBlockDeviceMapping._noDevice
+_OBJC_IVAR_$_AWSAutoScalingBlockDeviceMapping._virtualName
+_OBJC_IVAR_$_AWSAutoScalingCompleteLifecycleActionType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingCompleteLifecycleActionType._instanceId
+_OBJC_IVAR_$_AWSAutoScalingCompleteLifecycleActionType._lifecycleActionResult
+_OBJC_IVAR_$_AWSAutoScalingCompleteLifecycleActionType._lifecycleActionToken
+_OBJC_IVAR_$_AWSAutoScalingCompleteLifecycleActionType._lifecycleHookName
+_OBJC_IVAR_$_AWSAutoScalingCreateAutoScalingGroupType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingCreateAutoScalingGroupType._availabilityZones
+_OBJC_IVAR_$_AWSAutoScalingCreateAutoScalingGroupType._defaultCooldown
+_OBJC_IVAR_$_AWSAutoScalingCreateAutoScalingGroupType._desiredCapacity
+_OBJC_IVAR_$_AWSAutoScalingCreateAutoScalingGroupType._healthCheckGracePeriod
+_OBJC_IVAR_$_AWSAutoScalingCreateAutoScalingGroupType._healthCheckType
+_OBJC_IVAR_$_AWSAutoScalingCreateAutoScalingGroupType._instanceId
+_OBJC_IVAR_$_AWSAutoScalingCreateAutoScalingGroupType._launchConfigurationName
+_OBJC_IVAR_$_AWSAutoScalingCreateAutoScalingGroupType._launchTemplate
+_OBJC_IVAR_$_AWSAutoScalingCreateAutoScalingGroupType._lifecycleHookSpecificationList
+_OBJC_IVAR_$_AWSAutoScalingCreateAutoScalingGroupType._loadBalancerNames
+_OBJC_IVAR_$_AWSAutoScalingCreateAutoScalingGroupType._maxSize
+_OBJC_IVAR_$_AWSAutoScalingCreateAutoScalingGroupType._minSize
+_OBJC_IVAR_$_AWSAutoScalingCreateAutoScalingGroupType._mixedInstancesPolicy
+_OBJC_IVAR_$_AWSAutoScalingCreateAutoScalingGroupType._latestInstancesProtectedFromScaleIn
+_OBJC_IVAR_$_AWSAutoScalingCreateAutoScalingGroupType._placementGroup
+_OBJC_IVAR_$_AWSAutoScalingCreateAutoScalingGroupType._serviceLinkedRoleARN
+_OBJC_IVAR_$_AWSAutoScalingCreateAutoScalingGroupType._tags
+_OBJC_IVAR_$_AWSAutoScalingCreateAutoScalingGroupType._targetGroupARNs
+_OBJC_IVAR_$_AWSAutoScalingCreateAutoScalingGroupType._terminationPolicies
+_OBJC_IVAR_$_AWSAutoScalingCreateAutoScalingGroupType._VPCZoneIdentifier
+_OBJC_IVAR_$_AWSAutoScalingCreateLaunchConfigurationType._associatePublicIpAddress
+_OBJC_IVAR_$_AWSAutoScalingCreateLaunchConfigurationType._blockDeviceMappings
+_OBJC_IVAR_$_AWSAutoScalingCreateLaunchConfigurationType._classicLinkVPCId
+_OBJC_IVAR_$_AWSAutoScalingCreateLaunchConfigurationType._classicLinkVPCSecurityGroups
+_OBJC_IVAR_$_AWSAutoScalingCreateLaunchConfigurationType._ebsOptimized
+_OBJC_IVAR_$_AWSAutoScalingCreateLaunchConfigurationType._iamInstanceProfile
+_OBJC_IVAR_$_AWSAutoScalingCreateLaunchConfigurationType._imageId
+_OBJC_IVAR_$_AWSAutoScalingCreateLaunchConfigurationType._instanceId
+_OBJC_IVAR_$_AWSAutoScalingCreateLaunchConfigurationType._instanceMonitoring
+_OBJC_IVAR_$_AWSAutoScalingCreateLaunchConfigurationType._instanceType
+_OBJC_IVAR_$_AWSAutoScalingCreateLaunchConfigurationType._kernelId
+_OBJC_IVAR_$_AWSAutoScalingCreateLaunchConfigurationType._keyName
+_OBJC_IVAR_$_AWSAutoScalingCreateLaunchConfigurationType._launchConfigurationName
+_OBJC_IVAR_$_AWSAutoScalingCreateLaunchConfigurationType._placementTenancy
+_OBJC_IVAR_$_AWSAutoScalingCreateLaunchConfigurationType._ramdiskId
+_OBJC_IVAR_$_AWSAutoScalingCreateLaunchConfigurationType._securityGroups
+_OBJC_IVAR_$_AWSAutoScalingCreateLaunchConfigurationType._spotPrice
+_OBJC_IVAR_$_AWSAutoScalingCreateLaunchConfigurationType._userData
+_OBJC_IVAR_$_AWSAutoScalingCreateOrUpdateTagsType._tags
+___block_descriptor_tmp.884
+___block_literal_global.885
+___block_descriptor_tmp.896
+___block_literal_global.897
+_OBJC_IVAR_$_AWSAutoScalingCustomizedMetricSpecification._dimensions
+_OBJC_IVAR_$_AWSAutoScalingCustomizedMetricSpecification._metricName
+_OBJC_IVAR_$_AWSAutoScalingCustomizedMetricSpecification._namespace
+_OBJC_IVAR_$_AWSAutoScalingCustomizedMetricSpecification._statistic
+_OBJC_IVAR_$_AWSAutoScalingCustomizedMetricSpecification._unit
+_OBJC_IVAR_$_AWSAutoScalingDeleteAutoScalingGroupType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingDeleteAutoScalingGroupType._forceDelete
+_OBJC_IVAR_$_AWSAutoScalingDeleteLifecycleHookType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingDeleteLifecycleHookType._lifecycleHookName
+_OBJC_IVAR_$_AWSAutoScalingDeleteNotificationConfigurationType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingDeleteNotificationConfigurationType._topicARN
+_OBJC_IVAR_$_AWSAutoScalingDeletePolicyType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingDeletePolicyType._policyName
+_OBJC_IVAR_$_AWSAutoScalingDeleteScheduledActionType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingDeleteScheduledActionType._scheduledActionName
+_OBJC_IVAR_$_AWSAutoScalingDeleteTagsType._tags
+_OBJC_IVAR_$_AWSAutoScalingDescribeAccountLimitsAnswer._maxNumberOfAutoScalingGroups
+_OBJC_IVAR_$_AWSAutoScalingDescribeAccountLimitsAnswer._maxNumberOfLaunchConfigurations
+_OBJC_IVAR_$_AWSAutoScalingDescribeAccountLimitsAnswer._numberOfAutoScalingGroups
+_OBJC_IVAR_$_AWSAutoScalingDescribeAccountLimitsAnswer._numberOfLaunchConfigurations
+_OBJC_IVAR_$_AWSAutoScalingDescribeAdjustmentTypesAnswer._adjustmentTypes
+_OBJC_IVAR_$_AWSAutoScalingDescribeAutoScalingInstancesType._instanceIds
+_OBJC_IVAR_$_AWSAutoScalingDescribeAutoScalingInstancesType._maxRecords
+_OBJC_IVAR_$_AWSAutoScalingDescribeAutoScalingInstancesType._nextToken
+_OBJC_IVAR_$_AWSAutoScalingDescribeAutoScalingNotificationTypesAnswer._autoScalingNotificationTypes
+_OBJC_IVAR_$_AWSAutoScalingDescribeLifecycleHookTypesAnswer._lifecycleHookTypes
+_OBJC_IVAR_$_AWSAutoScalingDescribeLifecycleHooksAnswer._lifecycleHooks
+_OBJC_IVAR_$_AWSAutoScalingDescribeLifecycleHooksType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingDescribeLifecycleHooksType._lifecycleHookNames
+_OBJC_IVAR_$_AWSAutoScalingDescribeLoadBalancerTargetGroupsRequest._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingDescribeLoadBalancerTargetGroupsRequest._maxRecords
+_OBJC_IVAR_$_AWSAutoScalingDescribeLoadBalancerTargetGroupsRequest._nextToken
+_OBJC_IVAR_$_AWSAutoScalingDescribeLoadBalancerTargetGroupsResponse._loadBalancerTargetGroups
+_OBJC_IVAR_$_AWSAutoScalingDescribeLoadBalancerTargetGroupsResponse._nextToken
+_OBJC_IVAR_$_AWSAutoScalingDescribeLoadBalancersRequest._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingDescribeLoadBalancersRequest._maxRecords
+_OBJC_IVAR_$_AWSAutoScalingDescribeLoadBalancersRequest._nextToken
+_OBJC_IVAR_$_AWSAutoScalingDescribeLoadBalancersResponse._loadBalancers
+_OBJC_IVAR_$_AWSAutoScalingDescribeLoadBalancersResponse._nextToken
+_OBJC_IVAR_$_AWSAutoScalingDescribeMetricCollectionTypesAnswer._granularities
+_OBJC_IVAR_$_AWSAutoScalingDescribeMetricCollectionTypesAnswer._metrics
+_OBJC_IVAR_$_AWSAutoScalingDescribeNotificationConfigurationsAnswer._nextToken
+_OBJC_IVAR_$_AWSAutoScalingDescribeNotificationConfigurationsAnswer._notificationConfigurations
+_OBJC_IVAR_$_AWSAutoScalingDescribeNotificationConfigurationsType._autoScalingGroupNames
+_OBJC_IVAR_$_AWSAutoScalingDescribeNotificationConfigurationsType._maxRecords
+_OBJC_IVAR_$_AWSAutoScalingDescribeNotificationConfigurationsType._nextToken
+_OBJC_IVAR_$_AWSAutoScalingDescribePoliciesType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingDescribePoliciesType._maxRecords
+_OBJC_IVAR_$_AWSAutoScalingDescribePoliciesType._nextToken
+_OBJC_IVAR_$_AWSAutoScalingDescribePoliciesType._policyNames
+_OBJC_IVAR_$_AWSAutoScalingDescribePoliciesType._policyTypes
+_OBJC_IVAR_$_AWSAutoScalingDescribeScalingActivitiesType._activityIds
+_OBJC_IVAR_$_AWSAutoScalingDescribeScalingActivitiesType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingDescribeScalingActivitiesType._maxRecords
+_OBJC_IVAR_$_AWSAutoScalingDescribeScalingActivitiesType._nextToken
+___block_descriptor_tmp.1175
+___block_literal_global.1176
+___block_descriptor_tmp.1177
+___block_literal_global.1178
+___block_descriptor_tmp.1179
+___block_literal_global.1180
+___block_descriptor_tmp.1181
+___block_literal_global.1182
+_OBJC_IVAR_$_AWSAutoScalingDescribeScheduledActionsType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingDescribeScheduledActionsType._endTime
+_OBJC_IVAR_$_AWSAutoScalingDescribeScheduledActionsType._maxRecords
+_OBJC_IVAR_$_AWSAutoScalingDescribeScheduledActionsType._nextToken
+_OBJC_IVAR_$_AWSAutoScalingDescribeScheduledActionsType._scheduledActionNames
+_OBJC_IVAR_$_AWSAutoScalingDescribeScheduledActionsType._startTime
+_OBJC_IVAR_$_AWSAutoScalingDescribeTagsType._filters
+_OBJC_IVAR_$_AWSAutoScalingDescribeTagsType._maxRecords
+_OBJC_IVAR_$_AWSAutoScalingDescribeTagsType._nextToken
+_OBJC_IVAR_$_AWSAutoScalingDescribeTerminationPolicyTypesAnswer._terminationPolicyTypes
+_OBJC_IVAR_$_AWSAutoScalingDetachInstancesAnswer._activities
+_OBJC_IVAR_$_AWSAutoScalingDetachInstancesQuery._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingDetachInstancesQuery._instanceIds
+_OBJC_IVAR_$_AWSAutoScalingDetachInstancesQuery._shouldDecrementDesiredCapacity
+_OBJC_IVAR_$_AWSAutoScalingDetachLoadBalancerTargetGroupsType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingDetachLoadBalancerTargetGroupsType._targetGroupARNs
+_OBJC_IVAR_$_AWSAutoScalingDetachLoadBalancersType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingDetachLoadBalancersType._loadBalancerNames
+_OBJC_IVAR_$_AWSAutoScalingDisableMetricsCollectionQuery._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingDisableMetricsCollectionQuery._metrics
+_OBJC_IVAR_$_AWSAutoScalingEbs._deleteOnTermination
+_OBJC_IVAR_$_AWSAutoScalingEbs._encrypted
+_OBJC_IVAR_$_AWSAutoScalingEbs._iops
+_OBJC_IVAR_$_AWSAutoScalingEbs._snapshotId
+_OBJC_IVAR_$_AWSAutoScalingEbs._volumeSize
+_OBJC_IVAR_$_AWSAutoScalingEbs._volumeType
+_OBJC_IVAR_$_AWSAutoScalingEnableMetricsCollectionQuery._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingEnableMetricsCollectionQuery._granularity
+_OBJC_IVAR_$_AWSAutoScalingEnableMetricsCollectionQuery._metrics
+_OBJC_IVAR_$_AWSAutoScalingEnabledMetric._granularity
+_OBJC_IVAR_$_AWSAutoScalingEnabledMetric._metric
+_OBJC_IVAR_$_AWSAutoScalingEnterStandbyAnswer._activities
+_OBJC_IVAR_$_AWSAutoScalingEnterStandbyQuery._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingEnterStandbyQuery._instanceIds
+_OBJC_IVAR_$_AWSAutoScalingEnterStandbyQuery._shouldDecrementDesiredCapacity
+_OBJC_IVAR_$_AWSAutoScalingExecutePolicyType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingExecutePolicyType._breachThreshold
+_OBJC_IVAR_$_AWSAutoScalingExecutePolicyType._honorCooldown
+_OBJC_IVAR_$_AWSAutoScalingExecutePolicyType._metricValue
+_OBJC_IVAR_$_AWSAutoScalingExecutePolicyType._policyName
+_OBJC_IVAR_$_AWSAutoScalingExitStandbyAnswer._activities
+_OBJC_IVAR_$_AWSAutoScalingExitStandbyQuery._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingExitStandbyQuery._instanceIds
+_OBJC_IVAR_$_AWSAutoScalingFailedScheduledUpdateGroupActionRequest._errorCode
+_OBJC_IVAR_$_AWSAutoScalingFailedScheduledUpdateGroupActionRequest._errorMessage
+_OBJC_IVAR_$_AWSAutoScalingFailedScheduledUpdateGroupActionRequest._scheduledActionName
+_OBJC_IVAR_$_AWSAutoScalingFilter._name
+_OBJC_IVAR_$_AWSAutoScalingFilter._values
+___block_descriptor_tmp.1385
+___block_literal_global.1386
+___block_descriptor_tmp.1413
+___block_literal_global.1414
+_OBJC_IVAR_$_AWSAutoScalingInstance._availabilityZone
+_OBJC_IVAR_$_AWSAutoScalingInstance._healthStatus
+_OBJC_IVAR_$_AWSAutoScalingInstance._instanceId
+_OBJC_IVAR_$_AWSAutoScalingInstance._launchConfigurationName
+_OBJC_IVAR_$_AWSAutoScalingInstance._launchTemplate
+_OBJC_IVAR_$_AWSAutoScalingInstance._lifecycleState
+_OBJC_IVAR_$_AWSAutoScalingInstance._protectedFromScaleIn
+_OBJC_IVAR_$_AWSAutoScalingInstanceMonitoring._enabled
+_OBJC_IVAR_$_AWSAutoScalingInstancesDistribution._onDemandAllocationStrategy
+_OBJC_IVAR_$_AWSAutoScalingInstancesDistribution._onDemandBaseCapacity
+_OBJC_IVAR_$_AWSAutoScalingInstancesDistribution._onDemandPercentageAboveBaseCapacity
+_OBJC_IVAR_$_AWSAutoScalingInstancesDistribution._spotAllocationStrategy
+_OBJC_IVAR_$_AWSAutoScalingInstancesDistribution._spotInstancePools
+_OBJC_IVAR_$_AWSAutoScalingInstancesDistribution._spotMaxPrice
+___block_descriptor_tmp.1490
+___block_literal_global.1491
+___block_descriptor_tmp.1492
+___block_literal_global.1493
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfiguration._associatePublicIpAddress
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfiguration._blockDeviceMappings
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfiguration._classicLinkVPCId
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfiguration._classicLinkVPCSecurityGroups
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfiguration._createdTime
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfiguration._ebsOptimized
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfiguration._iamInstanceProfile
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfiguration._imageId
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfiguration._instanceMonitoring
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfiguration._instanceType
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfiguration._kernelId
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfiguration._keyName
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfiguration._launchConfigurationARN
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfiguration._launchConfigurationName
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfiguration._placementTenancy
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfiguration._ramdiskId
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfiguration._securityGroups
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfiguration._spotPrice
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfiguration._userData
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfigurationNameType._launchConfigurationName
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfigurationNamesType._launchConfigurationNames
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfigurationNamesType._maxRecords
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfigurationNamesType._nextToken
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfigurationsType._launchConfigurations
+_OBJC_IVAR_$_AWSAutoScalingLaunchConfigurationsType._nextToken
+_OBJC_IVAR_$_AWSAutoScalingLaunchTemplate._launchTemplateSpecification
+_OBJC_IVAR_$_AWSAutoScalingLaunchTemplate._overrides
+_OBJC_IVAR_$_AWSAutoScalingLaunchTemplateOverrides._instanceType
+_OBJC_IVAR_$_AWSAutoScalingLaunchTemplateSpecification._launchTemplateId
+_OBJC_IVAR_$_AWSAutoScalingLaunchTemplateSpecification._launchTemplateName
+_OBJC_IVAR_$_AWSAutoScalingLaunchTemplateSpecification._version
+_OBJC_IVAR_$_AWSAutoScalingLifecycleHook._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingLifecycleHook._defaultResult
+_OBJC_IVAR_$_AWSAutoScalingLifecycleHook._globalTimeout
+_OBJC_IVAR_$_AWSAutoScalingLifecycleHook._heartbeatTimeout
+_OBJC_IVAR_$_AWSAutoScalingLifecycleHook._lifecycleHookName
+_OBJC_IVAR_$_AWSAutoScalingLifecycleHook._lifecycleTransition
+_OBJC_IVAR_$_AWSAutoScalingLifecycleHook._notificationMetadata
+_OBJC_IVAR_$_AWSAutoScalingLifecycleHook._notificationTargetARN
+_OBJC_IVAR_$_AWSAutoScalingLifecycleHook._roleARN
+_OBJC_IVAR_$_AWSAutoScalingLifecycleHookSpecification._defaultResult
+_OBJC_IVAR_$_AWSAutoScalingLifecycleHookSpecification._heartbeatTimeout
+_OBJC_IVAR_$_AWSAutoScalingLifecycleHookSpecification._lifecycleHookName
+_OBJC_IVAR_$_AWSAutoScalingLifecycleHookSpecification._lifecycleTransition
+_OBJC_IVAR_$_AWSAutoScalingLifecycleHookSpecification._notificationMetadata
+_OBJC_IVAR_$_AWSAutoScalingLifecycleHookSpecification._notificationTargetARN
+_OBJC_IVAR_$_AWSAutoScalingLifecycleHookSpecification._roleARN
+_OBJC_IVAR_$_AWSAutoScalingLoadBalancerState._loadBalancerName
+_OBJC_IVAR_$_AWSAutoScalingLoadBalancerState._state
+_OBJC_IVAR_$_AWSAutoScalingLoadBalancerTargetGroupState._loadBalancerTargetGroupARN
+_OBJC_IVAR_$_AWSAutoScalingLoadBalancerTargetGroupState._state
+_OBJC_IVAR_$_AWSAutoScalingMetricCollectionType._metric
+_OBJC_IVAR_$_AWSAutoScalingMetricDimension._name
+_OBJC_IVAR_$_AWSAutoScalingMetricDimension._value
+_OBJC_IVAR_$_AWSAutoScalingMetricGranularityType._granularity
+_OBJC_IVAR_$_AWSAutoScalingMixedInstancesPolicy._instancesDistribution
+_OBJC_IVAR_$_AWSAutoScalingMixedInstancesPolicy._launchTemplate
+_OBJC_IVAR_$_AWSAutoScalingNotificationConfiguration._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingNotificationConfiguration._notificationType
+_OBJC_IVAR_$_AWSAutoScalingNotificationConfiguration._topicARN
+_OBJC_IVAR_$_AWSAutoScalingPoliciesType._nextToken
+_OBJC_IVAR_$_AWSAutoScalingPoliciesType._scalingPolicies
+_OBJC_IVAR_$_AWSAutoScalingPolicyARNType._alarms
+_OBJC_IVAR_$_AWSAutoScalingPolicyARNType._policyARN
+___block_descriptor_tmp.1765
+___block_literal_global.1766
+___block_descriptor_tmp.1775
+___block_literal_global.1776
+_OBJC_IVAR_$_AWSAutoScalingPredefinedMetricSpecification._predefinedMetricType
+_OBJC_IVAR_$_AWSAutoScalingPredefinedMetricSpecification._resourceLabel
+_OBJC_IVAR_$_AWSAutoScalingProcessType._processName
+_OBJC_IVAR_$_AWSAutoScalingProcessesType._processes
+_OBJC_IVAR_$_AWSAutoScalingPutLifecycleHookType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingPutLifecycleHookType._defaultResult
+_OBJC_IVAR_$_AWSAutoScalingPutLifecycleHookType._heartbeatTimeout
+_OBJC_IVAR_$_AWSAutoScalingPutLifecycleHookType._lifecycleHookName
+_OBJC_IVAR_$_AWSAutoScalingPutLifecycleHookType._lifecycleTransition
+_OBJC_IVAR_$_AWSAutoScalingPutLifecycleHookType._notificationMetadata
+_OBJC_IVAR_$_AWSAutoScalingPutLifecycleHookType._notificationTargetARN
+_OBJC_IVAR_$_AWSAutoScalingPutLifecycleHookType._roleARN
+_OBJC_IVAR_$_AWSAutoScalingPutNotificationConfigurationType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingPutNotificationConfigurationType._notificationTypes
+_OBJC_IVAR_$_AWSAutoScalingPutNotificationConfigurationType._topicARN
+_OBJC_IVAR_$_AWSAutoScalingPutScalingPolicyType._adjustmentType
+_OBJC_IVAR_$_AWSAutoScalingPutScalingPolicyType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingPutScalingPolicyType._cooldown
+_OBJC_IVAR_$_AWSAutoScalingPutScalingPolicyType._estimatedInstanceWarmup
+_OBJC_IVAR_$_AWSAutoScalingPutScalingPolicyType._metricAggregationType
+_OBJC_IVAR_$_AWSAutoScalingPutScalingPolicyType._minAdjustmentMagnitude
+_OBJC_IVAR_$_AWSAutoScalingPutScalingPolicyType._minAdjustmentStep
+_OBJC_IVAR_$_AWSAutoScalingPutScalingPolicyType._policyName
+_OBJC_IVAR_$_AWSAutoScalingPutScalingPolicyType._policyType
+_OBJC_IVAR_$_AWSAutoScalingPutScalingPolicyType._scalingAdjustment
+_OBJC_IVAR_$_AWSAutoScalingPutScalingPolicyType._stepAdjustments
+_OBJC_IVAR_$_AWSAutoScalingPutScalingPolicyType._targetTrackingConfiguration
+___block_descriptor_tmp.1924
+___block_literal_global.1925
+___block_descriptor_tmp.1926
+___block_literal_global.1927
+___block_descriptor_tmp.1928
+___block_literal_global.1929
+___block_descriptor_tmp.1930
+___block_literal_global.1931
+___block_descriptor_tmp.1932
+___block_literal_global.1933
+___block_descriptor_tmp.1934
+___block_literal_global.1935
+_OBJC_IVAR_$_AWSAutoScalingPutScheduledUpdateGroupActionType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingPutScheduledUpdateGroupActionType._desiredCapacity
+_OBJC_IVAR_$_AWSAutoScalingPutScheduledUpdateGroupActionType._endTime
+_OBJC_IVAR_$_AWSAutoScalingPutScheduledUpdateGroupActionType._maxSize
+_OBJC_IVAR_$_AWSAutoScalingPutScheduledUpdateGroupActionType._minSize
+_OBJC_IVAR_$_AWSAutoScalingPutScheduledUpdateGroupActionType._recurrence
+_OBJC_IVAR_$_AWSAutoScalingPutScheduledUpdateGroupActionType._scheduledActionName
+_OBJC_IVAR_$_AWSAutoScalingPutScheduledUpdateGroupActionType._startTime
+_OBJC_IVAR_$_AWSAutoScalingPutScheduledUpdateGroupActionType._time
+_OBJC_IVAR_$_AWSAutoScalingRecordLifecycleActionHeartbeatType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingRecordLifecycleActionHeartbeatType._instanceId
+_OBJC_IVAR_$_AWSAutoScalingRecordLifecycleActionHeartbeatType._lifecycleActionToken
+_OBJC_IVAR_$_AWSAutoScalingRecordLifecycleActionHeartbeatType._lifecycleHookName
+_OBJC_IVAR_$_AWSAutoScalingScalingPolicy._adjustmentType
+_OBJC_IVAR_$_AWSAutoScalingScalingPolicy._alarms
+_OBJC_IVAR_$_AWSAutoScalingScalingPolicy._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingScalingPolicy._cooldown
+_OBJC_IVAR_$_AWSAutoScalingScalingPolicy._estimatedInstanceWarmup
+_OBJC_IVAR_$_AWSAutoScalingScalingPolicy._metricAggregationType
+_OBJC_IVAR_$_AWSAutoScalingScalingPolicy._minAdjustmentMagnitude
+_OBJC_IVAR_$_AWSAutoScalingScalingPolicy._minAdjustmentStep
+_OBJC_IVAR_$_AWSAutoScalingScalingPolicy._policyARN
+_OBJC_IVAR_$_AWSAutoScalingScalingPolicy._policyName
+_OBJC_IVAR_$_AWSAutoScalingScalingPolicy._policyType
+_OBJC_IVAR_$_AWSAutoScalingScalingPolicy._scalingAdjustment
+_OBJC_IVAR_$_AWSAutoScalingScalingPolicy._stepAdjustments
+_OBJC_IVAR_$_AWSAutoScalingScalingPolicy._targetTrackingConfiguration
+_OBJC_IVAR_$_AWSAutoScalingScalingProcessQuery._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingScalingProcessQuery._scalingProcesses
+_OBJC_IVAR_$_AWSAutoScalingScheduledActionsType._nextToken
+_OBJC_IVAR_$_AWSAutoScalingScheduledActionsType._scheduledUpdateGroupActions
+___block_descriptor_tmp.1972
+___block_literal_global.1973
+___block_descriptor_tmp.1974
+___block_literal_global.1975
+___block_descriptor_tmp.1976
+___block_literal_global.1977
+___block_descriptor_tmp.1978
+___block_literal_global.1979
+___block_descriptor_tmp.1980
+___block_literal_global.1981
+___block_descriptor_tmp.1982
+___block_literal_global.1983
+_OBJC_IVAR_$_AWSAutoScalingScheduledUpdateGroupAction._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingScheduledUpdateGroupAction._desiredCapacity
+_OBJC_IVAR_$_AWSAutoScalingScheduledUpdateGroupAction._endTime
+_OBJC_IVAR_$_AWSAutoScalingScheduledUpdateGroupAction._maxSize
+_OBJC_IVAR_$_AWSAutoScalingScheduledUpdateGroupAction._minSize
+_OBJC_IVAR_$_AWSAutoScalingScheduledUpdateGroupAction._recurrence
+_OBJC_IVAR_$_AWSAutoScalingScheduledUpdateGroupAction._scheduledActionARN
+_OBJC_IVAR_$_AWSAutoScalingScheduledUpdateGroupAction._scheduledActionName
+_OBJC_IVAR_$_AWSAutoScalingScheduledUpdateGroupAction._startTime
+_OBJC_IVAR_$_AWSAutoScalingScheduledUpdateGroupAction._time
+___block_descriptor_tmp.1991
+___block_literal_global.1992
+___block_descriptor_tmp.1993
+___block_literal_global.1994
+___block_descriptor_tmp.1995
+___block_literal_global.1996
+___block_descriptor_tmp.1997
+___block_literal_global.1998
+_OBJC_IVAR_$_AWSAutoScalingScheduledUpdateGroupActionRequest._desiredCapacity
+_OBJC_IVAR_$_AWSAutoScalingScheduledUpdateGroupActionRequest._endTime
+_OBJC_IVAR_$_AWSAutoScalingScheduledUpdateGroupActionRequest._maxSize
+_OBJC_IVAR_$_AWSAutoScalingScheduledUpdateGroupActionRequest._minSize
+_OBJC_IVAR_$_AWSAutoScalingScheduledUpdateGroupActionRequest._recurrence
+_OBJC_IVAR_$_AWSAutoScalingScheduledUpdateGroupActionRequest._scheduledActionName
+_OBJC_IVAR_$_AWSAutoScalingScheduledUpdateGroupActionRequest._startTime
+_OBJC_IVAR_$_AWSAutoScalingSetDesiredCapacityType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingSetDesiredCapacityType._desiredCapacity
+_OBJC_IVAR_$_AWSAutoScalingSetDesiredCapacityType._honorCooldown
+_OBJC_IVAR_$_AWSAutoScalingSetInstanceHealthQuery._healthStatus
+_OBJC_IVAR_$_AWSAutoScalingSetInstanceHealthQuery._instanceId
+_OBJC_IVAR_$_AWSAutoScalingSetInstanceHealthQuery._shouldRespectGracePeriod
+_OBJC_IVAR_$_AWSAutoScalingSetInstanceProtectionQuery._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingSetInstanceProtectionQuery._instanceIds
+_OBJC_IVAR_$_AWSAutoScalingSetInstanceProtectionQuery._protectedFromScaleIn
+_OBJC_IVAR_$_AWSAutoScalingStepAdjustment._metricIntervalLowerBound
+_OBJC_IVAR_$_AWSAutoScalingStepAdjustment._metricIntervalUpperBound
+_OBJC_IVAR_$_AWSAutoScalingStepAdjustment._scalingAdjustment
+_OBJC_IVAR_$_AWSAutoScalingSuspendedProcess._processName
+_OBJC_IVAR_$_AWSAutoScalingSuspendedProcess._suspensionReason
+_OBJC_IVAR_$_AWSAutoScalingTag._key
+_OBJC_IVAR_$_AWSAutoScalingTag._propagateAtLaunch
+_OBJC_IVAR_$_AWSAutoScalingTag._resourceId
+_OBJC_IVAR_$_AWSAutoScalingTag._resourceType
+_OBJC_IVAR_$_AWSAutoScalingTag._value
+_OBJC_IVAR_$_AWSAutoScalingTagDescription._key
+_OBJC_IVAR_$_AWSAutoScalingTagDescription._propagateAtLaunch
+_OBJC_IVAR_$_AWSAutoScalingTagDescription._resourceId
+_OBJC_IVAR_$_AWSAutoScalingTagDescription._resourceType
+_OBJC_IVAR_$_AWSAutoScalingTagDescription._value
+_OBJC_IVAR_$_AWSAutoScalingTagsType._nextToken
+_OBJC_IVAR_$_AWSAutoScalingTagsType._tags
+_OBJC_IVAR_$_AWSAutoScalingTargetTrackingConfiguration._customizedMetricSpecification
+_OBJC_IVAR_$_AWSAutoScalingTargetTrackingConfiguration._disableScaleIn
+_OBJC_IVAR_$_AWSAutoScalingTargetTrackingConfiguration._predefinedMetricSpecification
+_OBJC_IVAR_$_AWSAutoScalingTargetTrackingConfiguration._targetValue
+_OBJC_IVAR_$_AWSAutoScalingTerminateInstanceInAutoScalingGroupType._instanceId
+_OBJC_IVAR_$_AWSAutoScalingTerminateInstanceInAutoScalingGroupType._shouldDecrementDesiredCapacity
+_OBJC_IVAR_$_AWSAutoScalingUpdateAutoScalingGroupType._autoScalingGroupName
+_OBJC_IVAR_$_AWSAutoScalingUpdateAutoScalingGroupType._availabilityZones
+_OBJC_IVAR_$_AWSAutoScalingUpdateAutoScalingGroupType._defaultCooldown
+_OBJC_IVAR_$_AWSAutoScalingUpdateAutoScalingGroupType._desiredCapacity
+_OBJC_IVAR_$_AWSAutoScalingUpdateAutoScalingGroupType._healthCheckGracePeriod
+_OBJC_IVAR_$_AWSAutoScalingUpdateAutoScalingGroupType._healthCheckType
+_OBJC_IVAR_$_AWSAutoScalingUpdateAutoScalingGroupType._launchConfigurationName
+_OBJC_IVAR_$_AWSAutoScalingUpdateAutoScalingGroupType._launchTemplate
+_OBJC_IVAR_$_AWSAutoScalingUpdateAutoScalingGroupType._maxSize
+_OBJC_IVAR_$_AWSAutoScalingUpdateAutoScalingGroupType._minSize
+_OBJC_IVAR_$_AWSAutoScalingUpdateAutoScalingGroupType._mixedInstancesPolicy
+_OBJC_IVAR_$_AWSAutoScalingUpdateAutoScalingGroupType._latestInstancesProtectedFromScaleIn
+_OBJC_IVAR_$_AWSAutoScalingUpdateAutoScalingGroupType._placementGroup
+_OBJC_IVAR_$_AWSAutoScalingUpdateAutoScalingGroupType._serviceLinkedRoleARN
+_OBJC_IVAR_$_AWSAutoScalingUpdateAutoScalingGroupType._terminationPolicies
+_OBJC_IVAR_$_AWSAutoScalingUpdateAutoScalingGroupType._VPCZoneIdentifier
+/Users/distiller/project/AWSAutoScaling/AWSAutoScalingModel.m
+/Users/distiller/project/AWSAutoScaling/AWSAutoScalingModel.h
+__75+[AWSAutoScalingScheduledUpdateGroupActionRequest startTimeJSONTransformer]_block_invoke_2
+__75+[AWSAutoScalingScheduledUpdateGroupActionRequest startTimeJSONTransformer]_block_invoke
+__73+[AWSAutoScalingScheduledUpdateGroupActionRequest endTimeJSONTransformer]_block_invoke_2
+__73+[AWSAutoScalingScheduledUpdateGroupActionRequest endTimeJSONTransformer]_block_invoke
+__63+[AWSAutoScalingScheduledUpdateGroupAction timeJSONTransformer]_block_invoke_2
+__63+[AWSAutoScalingScheduledUpdateGroupAction timeJSONTransformer]_block_invoke
+__68+[AWSAutoScalingScheduledUpdateGroupAction startTimeJSONTransformer]_block_invoke_2
+__68+[AWSAutoScalingScheduledUpdateGroupAction startTimeJSONTransformer]_block_invoke
+__66+[AWSAutoScalingScheduledUpdateGroupAction endTimeJSONTransformer]_block_invoke_2
+__66+[AWSAutoScalingScheduledUpdateGroupAction endTimeJSONTransformer]_block_invoke
+__70+[AWSAutoScalingPutScheduledUpdateGroupActionType timeJSONTransformer]_block_invoke_2
+__70+[AWSAutoScalingPutScheduledUpdateGroupActionType timeJSONTransformer]_block_invoke
+__75+[AWSAutoScalingPutScheduledUpdateGroupActionType startTimeJSONTransformer]_block_invoke_2
+__75+[AWSAutoScalingPutScheduledUpdateGroupActionType startTimeJSONTransformer]_block_invoke
+__73+[AWSAutoScalingPutScheduledUpdateGroupActionType endTimeJSONTransformer]_block_invoke_2
+__73+[AWSAutoScalingPutScheduledUpdateGroupActionType endTimeJSONTransformer]_block_invoke
+__82+[AWSAutoScalingPredefinedMetricSpecification predefinedMetricTypeJSONTransformer]_block_invoke_2
+__82+[AWSAutoScalingPredefinedMetricSpecification predefinedMetricTypeJSONTransformer]_block_invoke
+__63+[AWSAutoScalingLaunchConfiguration createdTimeJSONTransformer]_block_invoke_2
+__63+[AWSAutoScalingLaunchConfiguration createdTimeJSONTransformer]_block_invoke
+__55+[AWSAutoScalingInstance lifecycleStateJSONTransformer]_block_invoke_2
+__55+[AWSAutoScalingInstance lifecycleStateJSONTransformer]_block_invoke
+__70+[AWSAutoScalingDescribeScheduledActionsType startTimeJSONTransformer]_block_invoke_2
+__70+[AWSAutoScalingDescribeScheduledActionsType startTimeJSONTransformer]_block_invoke
+__68+[AWSAutoScalingDescribeScheduledActionsType endTimeJSONTransformer]_block_invoke_2
+__68+[AWSAutoScalingDescribeScheduledActionsType endTimeJSONTransformer]_block_invoke
+__71+[AWSAutoScalingCustomizedMetricSpecification statisticJSONTransformer]_block_invoke_2
+__71+[AWSAutoScalingCustomizedMetricSpecification statisticJSONTransformer]_block_invoke
+__60+[AWSAutoScalingAutoScalingGroup createdTimeJSONTransformer]_block_invoke_2
+__60+[AWSAutoScalingAutoScalingGroup createdTimeJSONTransformer]_block_invoke
+__51+[AWSAutoScalingActivity statusCodeJSONTransformer]_block_invoke_2
+__51+[AWSAutoScalingActivity statusCodeJSONTransformer]_block_invoke
+__50+[AWSAutoScalingActivity startTimeJSONTransformer]_block_invoke_2
+__50+[AWSAutoScalingActivity startTimeJSONTransformer]_block_invoke
+__48+[AWSAutoScalingActivity endTimeJSONTransformer]_block_invoke_2
+__48+[AWSAutoScalingActivity endTimeJSONTransformer]_block_invoke
+/Users/distiller/Library/Developer/Xcode/DerivedData/AWSiOSSDKv2-bvcffhrgbfjnfybjecennhscmaho/Build/Intermediates.noindex/ArchiveIntermediates/AWSAutoScaling/IntermediateBuildFilesPath/AWSiOSSDKv2.build/Release-iphoneos/AWSAutoScaling.build/DerivedSources/AWSAutoScaling_vers.c
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=409.12
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter

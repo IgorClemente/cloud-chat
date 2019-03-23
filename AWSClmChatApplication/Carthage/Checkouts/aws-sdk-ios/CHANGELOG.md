@@ -1,6 +1,36 @@
 
 # AWS Mobile SDK for iOS CHANGELOG
 
+## 2.9.3
+
+### New Features
+
+* **AWSMobileClient**
+  * Added support for SAML in `federatedSignIn()`.
+  * Added support Cognito Hosted UI in `showSignIn()`.
+  * Added support to use OAuth 2.0 provider like `Auth0` in `showSignIn()`. Federation for AWS credentials requires OpenID support from the provider.
+  * Added support for global sign out.
+  * Added support for device features which include `list`, `get`, `updateStatus` and `forget`. These APIs are available through `getDeviceOperations()`.
+
+### Bug Fixes
+
+* **Amazon S3**
+  * Fixed TransferUtility issue with serverside encryption using customer provided key. See [PR #1282](https://github.com/aws-amplify/aws-sdk-ios/pull/1282)
+
+## 2.9.2
+
+### New Features
+
+* **AWS IoT**
+  * Added ALPN (Application Layer Protocol Negotiation) support for the AWS IoT client. ALPN support enables the client to connect using TLS client authentication on port 443. This feature is only supported on iOS 11 and above. See [MQTT with TLS client authentication on port 443: Why it is useful and how it works](https://aws.amazon.com/blogs/iot/mqtt-with-tls-client-authentication-on-port-443-why-it-is-useful-and-how-it-works/) for more details.
+
+### Bug Fixes
+
+* **Amazon S3**
+  * Fixed race condition in multipart subtask creation. [issue #1230](https://github.com/aws-amplify/aws-sdk-ios/issues/1230)
+  * Fixed memory issue in multipart subtask creation. [issue #1254](https://github.com/aws-amplify/aws-sdk-ios/issues/1254)
+  * Fixed bug in custom AWSS3TransferUtility instantiation that was setting the `timeoutIntervalForResource` configuration to 0. See [PR #1260](https://github.com/aws/aws-sdk-ios/pull/1260). Thanks @colinhumber
+
 ## 2.9.1
 
 ### Enhancements

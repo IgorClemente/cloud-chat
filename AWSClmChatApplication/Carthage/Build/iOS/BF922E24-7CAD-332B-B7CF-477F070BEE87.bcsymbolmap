@@ -1,0 +1,546 @@
+BCSymbolMap Version: 2.0
++[AWSSimpleDBAttribute JSONKeyPathsByPropertyKey]
+-[AWSSimpleDBAttribute alternateNameEncoding]
+-[AWSSimpleDBAttribute setAlternateNameEncoding:]
+-[AWSSimpleDBAttribute alternateValueEncoding]
+-[AWSSimpleDBAttribute setAlternateValueEncoding:]
+-[AWSSimpleDBAttribute name]
+-[AWSSimpleDBAttribute setName:]
+-[AWSSimpleDBAttribute value]
+-[AWSSimpleDBAttribute setValue:]
+-[AWSSimpleDBAttribute .cxx_destruct]
++[AWSSimpleDBBatchDeleteAttributesRequest JSONKeyPathsByPropertyKey]
++[AWSSimpleDBBatchDeleteAttributesRequest itemsJSONTransformer]
+-[AWSSimpleDBBatchDeleteAttributesRequest domainName]
+-[AWSSimpleDBBatchDeleteAttributesRequest setDomainName:]
+-[AWSSimpleDBBatchDeleteAttributesRequest items]
+-[AWSSimpleDBBatchDeleteAttributesRequest setItems:]
+-[AWSSimpleDBBatchDeleteAttributesRequest .cxx_destruct]
++[AWSSimpleDBBatchPutAttributesRequest JSONKeyPathsByPropertyKey]
++[AWSSimpleDBBatchPutAttributesRequest itemsJSONTransformer]
+-[AWSSimpleDBBatchPutAttributesRequest domainName]
+-[AWSSimpleDBBatchPutAttributesRequest setDomainName:]
+-[AWSSimpleDBBatchPutAttributesRequest items]
+-[AWSSimpleDBBatchPutAttributesRequest setItems:]
+-[AWSSimpleDBBatchPutAttributesRequest .cxx_destruct]
++[AWSSimpleDBCreateDomainRequest JSONKeyPathsByPropertyKey]
+-[AWSSimpleDBCreateDomainRequest domainName]
+-[AWSSimpleDBCreateDomainRequest setDomainName:]
+-[AWSSimpleDBCreateDomainRequest .cxx_destruct]
++[AWSSimpleDBDeletableItem JSONKeyPathsByPropertyKey]
++[AWSSimpleDBDeletableItem attributesJSONTransformer]
+-[AWSSimpleDBDeletableItem attributes]
+-[AWSSimpleDBDeletableItem setAttributes:]
+-[AWSSimpleDBDeletableItem name]
+-[AWSSimpleDBDeletableItem setName:]
+-[AWSSimpleDBDeletableItem .cxx_destruct]
++[AWSSimpleDBDeleteAttributesRequest JSONKeyPathsByPropertyKey]
++[AWSSimpleDBDeleteAttributesRequest attributesJSONTransformer]
++[AWSSimpleDBDeleteAttributesRequest expectedJSONTransformer]
+-[AWSSimpleDBDeleteAttributesRequest attributes]
+-[AWSSimpleDBDeleteAttributesRequest setAttributes:]
+-[AWSSimpleDBDeleteAttributesRequest domainName]
+-[AWSSimpleDBDeleteAttributesRequest setDomainName:]
+-[AWSSimpleDBDeleteAttributesRequest expected]
+-[AWSSimpleDBDeleteAttributesRequest setExpected:]
+-[AWSSimpleDBDeleteAttributesRequest itemName]
+-[AWSSimpleDBDeleteAttributesRequest setItemName:]
+-[AWSSimpleDBDeleteAttributesRequest .cxx_destruct]
++[AWSSimpleDBDeleteDomainRequest JSONKeyPathsByPropertyKey]
+-[AWSSimpleDBDeleteDomainRequest domainName]
+-[AWSSimpleDBDeleteDomainRequest setDomainName:]
+-[AWSSimpleDBDeleteDomainRequest .cxx_destruct]
++[AWSSimpleDBDomainMetadataRequest JSONKeyPathsByPropertyKey]
+-[AWSSimpleDBDomainMetadataRequest domainName]
+-[AWSSimpleDBDomainMetadataRequest setDomainName:]
+-[AWSSimpleDBDomainMetadataRequest .cxx_destruct]
++[AWSSimpleDBDomainMetadataResult JSONKeyPathsByPropertyKey]
+-[AWSSimpleDBDomainMetadataResult attributeNameCount]
+-[AWSSimpleDBDomainMetadataResult setAttributeNameCount:]
+-[AWSSimpleDBDomainMetadataResult attributeNamesSizeBytes]
+-[AWSSimpleDBDomainMetadataResult setAttributeNamesSizeBytes:]
+-[AWSSimpleDBDomainMetadataResult attributeValueCount]
+-[AWSSimpleDBDomainMetadataResult setAttributeValueCount:]
+-[AWSSimpleDBDomainMetadataResult attributeValuesSizeBytes]
+-[AWSSimpleDBDomainMetadataResult setAttributeValuesSizeBytes:]
+-[AWSSimpleDBDomainMetadataResult itemCount]
+-[AWSSimpleDBDomainMetadataResult setItemCount:]
+-[AWSSimpleDBDomainMetadataResult itemNamesSizeBytes]
+-[AWSSimpleDBDomainMetadataResult setItemNamesSizeBytes:]
+-[AWSSimpleDBDomainMetadataResult timestamp]
+-[AWSSimpleDBDomainMetadataResult setTimestamp:]
+-[AWSSimpleDBDomainMetadataResult .cxx_destruct]
++[AWSSimpleDBGetAttributesRequest JSONKeyPathsByPropertyKey]
+-[AWSSimpleDBGetAttributesRequest attributeNames]
+-[AWSSimpleDBGetAttributesRequest setAttributeNames:]
+-[AWSSimpleDBGetAttributesRequest consistentRead]
+-[AWSSimpleDBGetAttributesRequest setConsistentRead:]
+-[AWSSimpleDBGetAttributesRequest domainName]
+-[AWSSimpleDBGetAttributesRequest setDomainName:]
+-[AWSSimpleDBGetAttributesRequest itemName]
+-[AWSSimpleDBGetAttributesRequest setItemName:]
+-[AWSSimpleDBGetAttributesRequest .cxx_destruct]
++[AWSSimpleDBGetAttributesResult JSONKeyPathsByPropertyKey]
++[AWSSimpleDBGetAttributesResult attributesJSONTransformer]
+-[AWSSimpleDBGetAttributesResult attributes]
+-[AWSSimpleDBGetAttributesResult setAttributes:]
+-[AWSSimpleDBGetAttributesResult .cxx_destruct]
++[AWSSimpleDBItem JSONKeyPathsByPropertyKey]
++[AWSSimpleDBItem attributesJSONTransformer]
+-[AWSSimpleDBItem alternateNameEncoding]
+-[AWSSimpleDBItem setAlternateNameEncoding:]
+-[AWSSimpleDBItem attributes]
+-[AWSSimpleDBItem setAttributes:]
+-[AWSSimpleDBItem name]
+-[AWSSimpleDBItem setName:]
+-[AWSSimpleDBItem .cxx_destruct]
++[AWSSimpleDBListDomainsRequest JSONKeyPathsByPropertyKey]
+-[AWSSimpleDBListDomainsRequest maxNumberOfDomains]
+-[AWSSimpleDBListDomainsRequest setMaxNumberOfDomains:]
+-[AWSSimpleDBListDomainsRequest nextToken]
+-[AWSSimpleDBListDomainsRequest setNextToken:]
+-[AWSSimpleDBListDomainsRequest .cxx_destruct]
++[AWSSimpleDBListDomainsResult JSONKeyPathsByPropertyKey]
+-[AWSSimpleDBListDomainsResult domainNames]
+-[AWSSimpleDBListDomainsResult setDomainNames:]
+-[AWSSimpleDBListDomainsResult nextToken]
+-[AWSSimpleDBListDomainsResult setNextToken:]
+-[AWSSimpleDBListDomainsResult .cxx_destruct]
++[AWSSimpleDBPutAttributesRequest JSONKeyPathsByPropertyKey]
++[AWSSimpleDBPutAttributesRequest attributesJSONTransformer]
++[AWSSimpleDBPutAttributesRequest expectedJSONTransformer]
+-[AWSSimpleDBPutAttributesRequest attributes]
+-[AWSSimpleDBPutAttributesRequest setAttributes:]
+-[AWSSimpleDBPutAttributesRequest domainName]
+-[AWSSimpleDBPutAttributesRequest setDomainName:]
+-[AWSSimpleDBPutAttributesRequest expected]
+-[AWSSimpleDBPutAttributesRequest setExpected:]
+-[AWSSimpleDBPutAttributesRequest itemName]
+-[AWSSimpleDBPutAttributesRequest setItemName:]
+-[AWSSimpleDBPutAttributesRequest .cxx_destruct]
++[AWSSimpleDBReplaceableAttribute JSONKeyPathsByPropertyKey]
+-[AWSSimpleDBReplaceableAttribute name]
+-[AWSSimpleDBReplaceableAttribute setName:]
+-[AWSSimpleDBReplaceableAttribute replace]
+-[AWSSimpleDBReplaceableAttribute setReplace:]
+-[AWSSimpleDBReplaceableAttribute value]
+-[AWSSimpleDBReplaceableAttribute setValue:]
+-[AWSSimpleDBReplaceableAttribute .cxx_destruct]
++[AWSSimpleDBReplaceableItem JSONKeyPathsByPropertyKey]
++[AWSSimpleDBReplaceableItem attributesJSONTransformer]
+-[AWSSimpleDBReplaceableItem attributes]
+-[AWSSimpleDBReplaceableItem setAttributes:]
+-[AWSSimpleDBReplaceableItem name]
+-[AWSSimpleDBReplaceableItem setName:]
+-[AWSSimpleDBReplaceableItem .cxx_destruct]
++[AWSSimpleDBSelectRequest JSONKeyPathsByPropertyKey]
+-[AWSSimpleDBSelectRequest consistentRead]
+-[AWSSimpleDBSelectRequest setConsistentRead:]
+-[AWSSimpleDBSelectRequest nextToken]
+-[AWSSimpleDBSelectRequest setNextToken:]
+-[AWSSimpleDBSelectRequest selectExpression]
+-[AWSSimpleDBSelectRequest setSelectExpression:]
+-[AWSSimpleDBSelectRequest .cxx_destruct]
++[AWSSimpleDBSelectResult JSONKeyPathsByPropertyKey]
++[AWSSimpleDBSelectResult itemsJSONTransformer]
+-[AWSSimpleDBSelectResult items]
+-[AWSSimpleDBSelectResult setItems:]
+-[AWSSimpleDBSelectResult nextToken]
+-[AWSSimpleDBSelectResult setNextToken:]
+-[AWSSimpleDBSelectResult .cxx_destruct]
++[AWSSimpleDBUpdateCondition JSONKeyPathsByPropertyKey]
+-[AWSSimpleDBUpdateCondition exists]
+-[AWSSimpleDBUpdateCondition setExists:]
+-[AWSSimpleDBUpdateCondition name]
+-[AWSSimpleDBUpdateCondition setName:]
+-[AWSSimpleDBUpdateCondition value]
+-[AWSSimpleDBUpdateCondition setValue:]
+-[AWSSimpleDBUpdateCondition .cxx_destruct]
+_OBJC_IVAR_$_AWSSimpleDBAttribute._alternateNameEncoding
+_OBJC_IVAR_$_AWSSimpleDBAttribute._alternateValueEncoding
+_OBJC_IVAR_$_AWSSimpleDBAttribute._name
+_OBJC_IVAR_$_AWSSimpleDBAttribute._value
+_OBJC_IVAR_$_AWSSimpleDBBatchDeleteAttributesRequest._domainName
+_OBJC_IVAR_$_AWSSimpleDBBatchDeleteAttributesRequest._items
+_OBJC_IVAR_$_AWSSimpleDBBatchPutAttributesRequest._domainName
+_OBJC_IVAR_$_AWSSimpleDBBatchPutAttributesRequest._items
+_OBJC_IVAR_$_AWSSimpleDBCreateDomainRequest._domainName
+_OBJC_IVAR_$_AWSSimpleDBDeletableItem._attributes
+_OBJC_IVAR_$_AWSSimpleDBDeletableItem._name
+_OBJC_IVAR_$_AWSSimpleDBDeleteAttributesRequest._attributes
+_OBJC_IVAR_$_AWSSimpleDBDeleteAttributesRequest._domainName
+_OBJC_IVAR_$_AWSSimpleDBDeleteAttributesRequest._expected
+_OBJC_IVAR_$_AWSSimpleDBDeleteAttributesRequest._itemName
+_OBJC_IVAR_$_AWSSimpleDBDeleteDomainRequest._domainName
+_OBJC_IVAR_$_AWSSimpleDBDomainMetadataRequest._domainName
+_OBJC_IVAR_$_AWSSimpleDBDomainMetadataResult._attributeNameCount
+_OBJC_IVAR_$_AWSSimpleDBDomainMetadataResult._attributeNamesSizeBytes
+_OBJC_IVAR_$_AWSSimpleDBDomainMetadataResult._attributeValueCount
+_OBJC_IVAR_$_AWSSimpleDBDomainMetadataResult._attributeValuesSizeBytes
+_OBJC_IVAR_$_AWSSimpleDBDomainMetadataResult._itemCount
+_OBJC_IVAR_$_AWSSimpleDBDomainMetadataResult._itemNamesSizeBytes
+_OBJC_IVAR_$_AWSSimpleDBDomainMetadataResult._timestamp
+_OBJC_IVAR_$_AWSSimpleDBGetAttributesRequest._attributeNames
+_OBJC_IVAR_$_AWSSimpleDBGetAttributesRequest._consistentRead
+_OBJC_IVAR_$_AWSSimpleDBGetAttributesRequest._domainName
+_OBJC_IVAR_$_AWSSimpleDBGetAttributesRequest._itemName
+_OBJC_IVAR_$_AWSSimpleDBGetAttributesResult._attributes
+_OBJC_IVAR_$_AWSSimpleDBItem._alternateNameEncoding
+_OBJC_IVAR_$_AWSSimpleDBItem._attributes
+_OBJC_IVAR_$_AWSSimpleDBItem._name
+_OBJC_IVAR_$_AWSSimpleDBListDomainsRequest._maxNumberOfDomains
+_OBJC_IVAR_$_AWSSimpleDBListDomainsRequest._nextToken
+_OBJC_IVAR_$_AWSSimpleDBListDomainsResult._domainNames
+_OBJC_IVAR_$_AWSSimpleDBListDomainsResult._nextToken
+_OBJC_IVAR_$_AWSSimpleDBPutAttributesRequest._attributes
+_OBJC_IVAR_$_AWSSimpleDBPutAttributesRequest._domainName
+_OBJC_IVAR_$_AWSSimpleDBPutAttributesRequest._expected
+_OBJC_IVAR_$_AWSSimpleDBPutAttributesRequest._itemName
+_OBJC_IVAR_$_AWSSimpleDBReplaceableAttribute._name
+_OBJC_IVAR_$_AWSSimpleDBReplaceableAttribute._replace
+_OBJC_IVAR_$_AWSSimpleDBReplaceableAttribute._value
+_OBJC_IVAR_$_AWSSimpleDBReplaceableItem._attributes
+_OBJC_IVAR_$_AWSSimpleDBReplaceableItem._name
+_OBJC_IVAR_$_AWSSimpleDBSelectRequest._consistentRead
+_OBJC_IVAR_$_AWSSimpleDBSelectRequest._nextToken
+_OBJC_IVAR_$_AWSSimpleDBSelectRequest._selectExpression
+_OBJC_IVAR_$_AWSSimpleDBSelectResult._items
+_OBJC_IVAR_$_AWSSimpleDBSelectResult._nextToken
+_OBJC_IVAR_$_AWSSimpleDBUpdateCondition._exists
+_OBJC_IVAR_$_AWSSimpleDBUpdateCondition._name
+_OBJC_IVAR_$_AWSSimpleDBUpdateCondition._value
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/distiller/project/AWSSimpleDB/AWSSimpleDBModel.m
+/Users/distiller/project
+/Users/distiller/project/AWSSimpleDB/AWSSimpleDBModel.h
++[AWSSimpleDBResources sharedInstance]
+___38+[AWSSimpleDBResources sharedInstance]_block_invoke
+-[AWSSimpleDBResources JSONObject]
+-[AWSSimpleDBResources init]
+-[AWSSimpleDBResources definitionString]
+-[AWSSimpleDBResources definitionDictionary]
+-[AWSSimpleDBResources setDefinitionDictionary:]
+-[AWSSimpleDBResources .cxx_destruct]
+_sharedInstance._sharedResources
+_sharedInstance.once_token
+___block_descriptor_tmp
+___block_literal_global
+_OBJC_IVAR_$_AWSSimpleDBResources._definitionDictionary
+/Users/distiller/project/AWSSimpleDB/AWSSimpleDBResources.m
+__38+[AWSSimpleDBResources sharedInstance]_block_invoke
+/Applications/Xcode-10.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/once.h
++[AWSSimpleDBResponseSerializer initialize]
+-[AWSSimpleDBResponseSerializer responseObjectForResponse:originalRequest:currentRequest:data:error:]
++[AWSSimpleDB initialize]
++[AWSSimpleDB defaultSimpleDB]
+___30+[AWSSimpleDB defaultSimpleDB]_block_invoke
++[AWSSimpleDB registerSimpleDBWithConfiguration:forKey:]
+___56+[AWSSimpleDB registerSimpleDBWithConfiguration:forKey:]_block_invoke
++[AWSSimpleDB SimpleDBForKey:]
++[AWSSimpleDB removeSimpleDBForKey:]
+-[AWSSimpleDB init]
+-[AWSSimpleDB initWithConfiguration:]
+-[AWSSimpleDB invokeRequest:HTTPMethod:URLString:targetPrefix:operationName:outputClass:]
+-[AWSSimpleDB batchDeleteAttributes:]
+-[AWSSimpleDB batchDeleteAttributes:completionHandler:]
+___55-[AWSSimpleDB batchDeleteAttributes:completionHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[AWSSimpleDB batchPutAttributes:]
+-[AWSSimpleDB batchPutAttributes:completionHandler:]
+___52-[AWSSimpleDB batchPutAttributes:completionHandler:]_block_invoke
+___copy_helper_block_.212
+___destroy_helper_block_.213
+-[AWSSimpleDB createDomain:]
+-[AWSSimpleDB createDomain:completionHandler:]
+___46-[AWSSimpleDB createDomain:completionHandler:]_block_invoke
+___copy_helper_block_.219
+___destroy_helper_block_.220
+-[AWSSimpleDB deleteAttributes:]
+-[AWSSimpleDB deleteAttributes:completionHandler:]
+___50-[AWSSimpleDB deleteAttributes:completionHandler:]_block_invoke
+___copy_helper_block_.226
+___destroy_helper_block_.227
+-[AWSSimpleDB deleteDomain:]
+-[AWSSimpleDB deleteDomain:completionHandler:]
+___46-[AWSSimpleDB deleteDomain:completionHandler:]_block_invoke
+___copy_helper_block_.233
+___destroy_helper_block_.234
+-[AWSSimpleDB domainMetadata:]
+-[AWSSimpleDB domainMetadata:completionHandler:]
+___48-[AWSSimpleDB domainMetadata:completionHandler:]_block_invoke
+___copy_helper_block_.243
+___destroy_helper_block_.244
+-[AWSSimpleDB getAttributes:]
+-[AWSSimpleDB getAttributes:completionHandler:]
+___47-[AWSSimpleDB getAttributes:completionHandler:]_block_invoke
+___copy_helper_block_.251
+___destroy_helper_block_.252
+-[AWSSimpleDB listDomains:]
+-[AWSSimpleDB listDomains:completionHandler:]
+___45-[AWSSimpleDB listDomains:completionHandler:]_block_invoke
+___copy_helper_block_.259
+___destroy_helper_block_.260
+-[AWSSimpleDB putAttributes:]
+-[AWSSimpleDB putAttributes:completionHandler:]
+___47-[AWSSimpleDB putAttributes:completionHandler:]_block_invoke
+___copy_helper_block_.266
+___destroy_helper_block_.267
+-[AWSSimpleDB select:]
+-[AWSSimpleDB select:completionHandler:]
+___40-[AWSSimpleDB select:completionHandler:]_block_invoke
+___copy_helper_block_.274
+___destroy_helper_block_.275
+-[AWSSimpleDB configuration]
+-[AWSSimpleDB setConfiguration:]
+-[AWSSimpleDB networking]
+-[AWSSimpleDB setNetworking:]
+-[AWSSimpleDB .cxx_destruct]
+_errorCodeDictionary
+__serviceClients
+_defaultSimpleDB._defaultSimpleDB
+_defaultSimpleDB.onceToken
+_registerSimpleDBWithConfiguration:forKey:.onceToken
+___block_descriptor_tmp.104
+___block_literal_global.105
+_OBJC_IVAR_$_AWSSimpleDB._configuration
+_OBJC_IVAR_$_AWSSimpleDB._networking
+___block_descriptor_tmp.205
+___block_descriptor_tmp.214
+___block_descriptor_tmp.221
+___block_descriptor_tmp.228
+___block_descriptor_tmp.235
+___block_descriptor_tmp.245
+___block_descriptor_tmp.253
+___block_descriptor_tmp.261
+___block_descriptor_tmp.268
+___block_descriptor_tmp.276
+/Users/distiller/project/AWSSimpleDB/AWSSimpleDBService.m
+/Users/distiller/project/AWSSimpleDB/AWSSimpleDBService.h
+__destroy_helper_block_
+__copy_helper_block_
+__40-[AWSSimpleDB select:completionHandler:]_block_invoke
+__47-[AWSSimpleDB putAttributes:completionHandler:]_block_invoke
+__45-[AWSSimpleDB listDomains:completionHandler:]_block_invoke
+__47-[AWSSimpleDB getAttributes:completionHandler:]_block_invoke
+__48-[AWSSimpleDB domainMetadata:completionHandler:]_block_invoke
+__46-[AWSSimpleDB deleteDomain:completionHandler:]_block_invoke
+__50-[AWSSimpleDB deleteAttributes:completionHandler:]_block_invoke
+__46-[AWSSimpleDB createDomain:completionHandler:]_block_invoke
+__52-[AWSSimpleDB batchPutAttributes:completionHandler:]_block_invoke
+__55-[AWSSimpleDB batchDeleteAttributes:completionHandler:]_block_invoke
+__56+[AWSSimpleDB registerSimpleDBWithConfiguration:forKey:]_block_invoke
+__30+[AWSSimpleDB defaultSimpleDB]_block_invoke
+/Users/distiller/Library/Developer/Xcode/DerivedData/AWSiOSSDKv2-bvcffhrgbfjnfybjecennhscmaho/Build/Intermediates.noindex/ArchiveIntermediates/AWSSimpleDB/IntermediateBuildFilesPath/AWSiOSSDKv2.build/Release-iphoneos/AWSSimpleDB.build/DerivedSources/AWSSimpleDB_vers.c
+__ZL15__ARCLite__loadv
+__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__ZL23NSAutoreleasePool_class
+__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+l_OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -mlinker-version=409.12 -march=armv7a
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_objc_storeStrong
+__arclite_objc_release
+__arclite_objc_retain
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+__arclite_objc_retainBlock
+__arclite_object_copy
+fixupCopiedReferences
+_class_getInstanceStart
+alignedInstanceStart
+__arclite_class_usesAutomaticRetainRelease
+classOrSuperClassesUseARR
+__arclite_object_setIvar
+isScannedOffset
+_ivar_getClass
+__arclite_object_setInstanceVariable
+add_image_hook_ARC
+patch_t<void (id *, id)>
+patch_t<id (id)>
+patch_t<void (id)>
+patch_t<id (id, unsigned long)>
+patch_t<void (id, objc_ivar *, id)>
+patch_t<objc_ivar *(id, const char *, void *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+__arclite_NSArray_objectAtIndexedSubscript
+patch_lazy_pointers
+__arclite_objc_autoreleasePoolPop
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+patch_t<void (void *)>
+patch_t<void *()>
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_ARC
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
+install_subscripting
+addMethod
+indexedGetter
+install_autoreleasepool

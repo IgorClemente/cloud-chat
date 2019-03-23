@@ -1,0 +1,2216 @@
+BCSymbolMap Version: 2.0
++[AWSSESAddHeaderAction JSONKeyPathsByPropertyKey]
+-[AWSSESAddHeaderAction headerName]
+-[AWSSESAddHeaderAction setHeaderName:]
+-[AWSSESAddHeaderAction headerValue]
+-[AWSSESAddHeaderAction setHeaderValue:]
+-[AWSSESAddHeaderAction .cxx_destruct]
++[AWSSESBody JSONKeyPathsByPropertyKey]
++[AWSSESBody htmlJSONTransformer]
++[AWSSESBody textJSONTransformer]
+-[AWSSESBody html]
+-[AWSSESBody setHtml:]
+-[AWSSESBody text]
+-[AWSSESBody setText:]
+-[AWSSESBody .cxx_destruct]
++[AWSSESBounceAction JSONKeyPathsByPropertyKey]
+-[AWSSESBounceAction message]
+-[AWSSESBounceAction setMessage:]
+-[AWSSESBounceAction sender]
+-[AWSSESBounceAction setSender:]
+-[AWSSESBounceAction smtpReplyCode]
+-[AWSSESBounceAction setSmtpReplyCode:]
+-[AWSSESBounceAction statusCode]
+-[AWSSESBounceAction setStatusCode:]
+-[AWSSESBounceAction topicArn]
+-[AWSSESBounceAction setTopicArn:]
+-[AWSSESBounceAction .cxx_destruct]
++[AWSSESBouncedRecipientInfo JSONKeyPathsByPropertyKey]
++[AWSSESBouncedRecipientInfo bounceTypeJSONTransformer]
+___55+[AWSSESBouncedRecipientInfo bounceTypeJSONTransformer]_block_invoke
+___55+[AWSSESBouncedRecipientInfo bounceTypeJSONTransformer]_block_invoke_2
++[AWSSESBouncedRecipientInfo recipientDsnFieldsJSONTransformer]
+-[AWSSESBouncedRecipientInfo bounceType]
+-[AWSSESBouncedRecipientInfo setBounceType:]
+-[AWSSESBouncedRecipientInfo recipient]
+-[AWSSESBouncedRecipientInfo setRecipient:]
+-[AWSSESBouncedRecipientInfo recipientArn]
+-[AWSSESBouncedRecipientInfo setRecipientArn:]
+-[AWSSESBouncedRecipientInfo recipientDsnFields]
+-[AWSSESBouncedRecipientInfo setRecipientDsnFields:]
+-[AWSSESBouncedRecipientInfo .cxx_destruct]
++[AWSSESBulkEmailDestination JSONKeyPathsByPropertyKey]
++[AWSSESBulkEmailDestination destinationJSONTransformer]
++[AWSSESBulkEmailDestination replacementTagsJSONTransformer]
+-[AWSSESBulkEmailDestination destination]
+-[AWSSESBulkEmailDestination setDestination:]
+-[AWSSESBulkEmailDestination replacementTags]
+-[AWSSESBulkEmailDestination setReplacementTags:]
+-[AWSSESBulkEmailDestination replacementTemplateData]
+-[AWSSESBulkEmailDestination setReplacementTemplateData:]
+-[AWSSESBulkEmailDestination .cxx_destruct]
++[AWSSESBulkEmailDestinationStatus JSONKeyPathsByPropertyKey]
++[AWSSESBulkEmailDestinationStatus statusJSONTransformer]
+___57+[AWSSESBulkEmailDestinationStatus statusJSONTransformer]_block_invoke
+___57+[AWSSESBulkEmailDestinationStatus statusJSONTransformer]_block_invoke_2
+-[AWSSESBulkEmailDestinationStatus error]
+-[AWSSESBulkEmailDestinationStatus setError:]
+-[AWSSESBulkEmailDestinationStatus messageId]
+-[AWSSESBulkEmailDestinationStatus setMessageId:]
+-[AWSSESBulkEmailDestinationStatus status]
+-[AWSSESBulkEmailDestinationStatus setStatus:]
+-[AWSSESBulkEmailDestinationStatus .cxx_destruct]
++[AWSSESCloneReceiptRuleSetRequest JSONKeyPathsByPropertyKey]
+-[AWSSESCloneReceiptRuleSetRequest originalRuleSetName]
+-[AWSSESCloneReceiptRuleSetRequest setOriginalRuleSetName:]
+-[AWSSESCloneReceiptRuleSetRequest ruleSetName]
+-[AWSSESCloneReceiptRuleSetRequest setRuleSetName:]
+-[AWSSESCloneReceiptRuleSetRequest .cxx_destruct]
++[AWSSESCloudWatchDestination JSONKeyPathsByPropertyKey]
++[AWSSESCloudWatchDestination dimensionConfigurationsJSONTransformer]
+-[AWSSESCloudWatchDestination dimensionConfigurations]
+-[AWSSESCloudWatchDestination setDimensionConfigurations:]
+-[AWSSESCloudWatchDestination .cxx_destruct]
++[AWSSESCloudWatchDimensionConfiguration JSONKeyPathsByPropertyKey]
++[AWSSESCloudWatchDimensionConfiguration dimensionValueSourceJSONTransformer]
+___77+[AWSSESCloudWatchDimensionConfiguration dimensionValueSourceJSONTransformer]_block_invoke
+___77+[AWSSESCloudWatchDimensionConfiguration dimensionValueSourceJSONTransformer]_block_invoke_2
+-[AWSSESCloudWatchDimensionConfiguration defaultDimensionValue]
+-[AWSSESCloudWatchDimensionConfiguration setDefaultDimensionValue:]
+-[AWSSESCloudWatchDimensionConfiguration dimensionName]
+-[AWSSESCloudWatchDimensionConfiguration setDimensionName:]
+-[AWSSESCloudWatchDimensionConfiguration dimensionValueSource]
+-[AWSSESCloudWatchDimensionConfiguration setDimensionValueSource:]
+-[AWSSESCloudWatchDimensionConfiguration .cxx_destruct]
++[AWSSESConfigurationSet JSONKeyPathsByPropertyKey]
+-[AWSSESConfigurationSet name]
+-[AWSSESConfigurationSet setName:]
+-[AWSSESConfigurationSet .cxx_destruct]
++[AWSSESContent JSONKeyPathsByPropertyKey]
+-[AWSSESContent charset]
+-[AWSSESContent setCharset:]
+-[AWSSESContent data]
+-[AWSSESContent setData:]
+-[AWSSESContent .cxx_destruct]
++[AWSSESCreateConfigurationSetEventDestinationRequest JSONKeyPathsByPropertyKey]
++[AWSSESCreateConfigurationSetEventDestinationRequest eventDestinationJSONTransformer]
+-[AWSSESCreateConfigurationSetEventDestinationRequest configurationSetName]
+-[AWSSESCreateConfigurationSetEventDestinationRequest setConfigurationSetName:]
+-[AWSSESCreateConfigurationSetEventDestinationRequest eventDestination]
+-[AWSSESCreateConfigurationSetEventDestinationRequest setEventDestination:]
+-[AWSSESCreateConfigurationSetEventDestinationRequest .cxx_destruct]
++[AWSSESCreateConfigurationSetRequest JSONKeyPathsByPropertyKey]
++[AWSSESCreateConfigurationSetRequest configurationSetJSONTransformer]
+-[AWSSESCreateConfigurationSetRequest configurationSet]
+-[AWSSESCreateConfigurationSetRequest setConfigurationSet:]
+-[AWSSESCreateConfigurationSetRequest .cxx_destruct]
++[AWSSESCreateConfigurationSetTrackingOptionsRequest JSONKeyPathsByPropertyKey]
++[AWSSESCreateConfigurationSetTrackingOptionsRequest trackingOptionsJSONTransformer]
+-[AWSSESCreateConfigurationSetTrackingOptionsRequest configurationSetName]
+-[AWSSESCreateConfigurationSetTrackingOptionsRequest setConfigurationSetName:]
+-[AWSSESCreateConfigurationSetTrackingOptionsRequest trackingOptions]
+-[AWSSESCreateConfigurationSetTrackingOptionsRequest setTrackingOptions:]
+-[AWSSESCreateConfigurationSetTrackingOptionsRequest .cxx_destruct]
++[AWSSESCreateCustomVerificationEmailTemplateRequest JSONKeyPathsByPropertyKey]
+-[AWSSESCreateCustomVerificationEmailTemplateRequest failureRedirectionURL]
+-[AWSSESCreateCustomVerificationEmailTemplateRequest setFailureRedirectionURL:]
+-[AWSSESCreateCustomVerificationEmailTemplateRequest fromEmailAddress]
+-[AWSSESCreateCustomVerificationEmailTemplateRequest setFromEmailAddress:]
+-[AWSSESCreateCustomVerificationEmailTemplateRequest successRedirectionURL]
+-[AWSSESCreateCustomVerificationEmailTemplateRequest setSuccessRedirectionURL:]
+-[AWSSESCreateCustomVerificationEmailTemplateRequest templateContent]
+-[AWSSESCreateCustomVerificationEmailTemplateRequest setTemplateContent:]
+-[AWSSESCreateCustomVerificationEmailTemplateRequest templateName]
+-[AWSSESCreateCustomVerificationEmailTemplateRequest setTemplateName:]
+-[AWSSESCreateCustomVerificationEmailTemplateRequest templateSubject]
+-[AWSSESCreateCustomVerificationEmailTemplateRequest setTemplateSubject:]
+-[AWSSESCreateCustomVerificationEmailTemplateRequest .cxx_destruct]
++[AWSSESCreateReceiptFilterRequest JSONKeyPathsByPropertyKey]
++[AWSSESCreateReceiptFilterRequest filterJSONTransformer]
+-[AWSSESCreateReceiptFilterRequest filter]
+-[AWSSESCreateReceiptFilterRequest setFilter:]
+-[AWSSESCreateReceiptFilterRequest .cxx_destruct]
++[AWSSESCreateReceiptRuleRequest JSONKeyPathsByPropertyKey]
++[AWSSESCreateReceiptRuleRequest ruleJSONTransformer]
+-[AWSSESCreateReceiptRuleRequest after]
+-[AWSSESCreateReceiptRuleRequest setAfter:]
+-[AWSSESCreateReceiptRuleRequest rule]
+-[AWSSESCreateReceiptRuleRequest setRule:]
+-[AWSSESCreateReceiptRuleRequest ruleSetName]
+-[AWSSESCreateReceiptRuleRequest setRuleSetName:]
+-[AWSSESCreateReceiptRuleRequest .cxx_destruct]
++[AWSSESCreateReceiptRuleSetRequest JSONKeyPathsByPropertyKey]
+-[AWSSESCreateReceiptRuleSetRequest ruleSetName]
+-[AWSSESCreateReceiptRuleSetRequest setRuleSetName:]
+-[AWSSESCreateReceiptRuleSetRequest .cxx_destruct]
++[AWSSESCreateTemplateRequest JSONKeyPathsByPropertyKey]
++[AWSSESCreateTemplateRequest templateJSONTransformer]
+-[AWSSESCreateTemplateRequest template]
+-[AWSSESCreateTemplateRequest setTemplate:]
+-[AWSSESCreateTemplateRequest .cxx_destruct]
++[AWSSESCustomVerificationEmailTemplate JSONKeyPathsByPropertyKey]
+-[AWSSESCustomVerificationEmailTemplate failureRedirectionURL]
+-[AWSSESCustomVerificationEmailTemplate setFailureRedirectionURL:]
+-[AWSSESCustomVerificationEmailTemplate fromEmailAddress]
+-[AWSSESCustomVerificationEmailTemplate setFromEmailAddress:]
+-[AWSSESCustomVerificationEmailTemplate successRedirectionURL]
+-[AWSSESCustomVerificationEmailTemplate setSuccessRedirectionURL:]
+-[AWSSESCustomVerificationEmailTemplate templateName]
+-[AWSSESCustomVerificationEmailTemplate setTemplateName:]
+-[AWSSESCustomVerificationEmailTemplate templateSubject]
+-[AWSSESCustomVerificationEmailTemplate setTemplateSubject:]
+-[AWSSESCustomVerificationEmailTemplate .cxx_destruct]
++[AWSSESDeleteConfigurationSetEventDestinationRequest JSONKeyPathsByPropertyKey]
+-[AWSSESDeleteConfigurationSetEventDestinationRequest configurationSetName]
+-[AWSSESDeleteConfigurationSetEventDestinationRequest setConfigurationSetName:]
+-[AWSSESDeleteConfigurationSetEventDestinationRequest eventDestinationName]
+-[AWSSESDeleteConfigurationSetEventDestinationRequest setEventDestinationName:]
+-[AWSSESDeleteConfigurationSetEventDestinationRequest .cxx_destruct]
++[AWSSESDeleteConfigurationSetRequest JSONKeyPathsByPropertyKey]
+-[AWSSESDeleteConfigurationSetRequest configurationSetName]
+-[AWSSESDeleteConfigurationSetRequest setConfigurationSetName:]
+-[AWSSESDeleteConfigurationSetRequest .cxx_destruct]
++[AWSSESDeleteConfigurationSetTrackingOptionsRequest JSONKeyPathsByPropertyKey]
+-[AWSSESDeleteConfigurationSetTrackingOptionsRequest configurationSetName]
+-[AWSSESDeleteConfigurationSetTrackingOptionsRequest setConfigurationSetName:]
+-[AWSSESDeleteConfigurationSetTrackingOptionsRequest .cxx_destruct]
++[AWSSESDeleteCustomVerificationEmailTemplateRequest JSONKeyPathsByPropertyKey]
+-[AWSSESDeleteCustomVerificationEmailTemplateRequest templateName]
+-[AWSSESDeleteCustomVerificationEmailTemplateRequest setTemplateName:]
+-[AWSSESDeleteCustomVerificationEmailTemplateRequest .cxx_destruct]
++[AWSSESDeleteIdentityPolicyRequest JSONKeyPathsByPropertyKey]
+-[AWSSESDeleteIdentityPolicyRequest identity]
+-[AWSSESDeleteIdentityPolicyRequest setIdentity:]
+-[AWSSESDeleteIdentityPolicyRequest policyName]
+-[AWSSESDeleteIdentityPolicyRequest setPolicyName:]
+-[AWSSESDeleteIdentityPolicyRequest .cxx_destruct]
++[AWSSESDeleteIdentityRequest JSONKeyPathsByPropertyKey]
+-[AWSSESDeleteIdentityRequest identity]
+-[AWSSESDeleteIdentityRequest setIdentity:]
+-[AWSSESDeleteIdentityRequest .cxx_destruct]
++[AWSSESDeleteReceiptFilterRequest JSONKeyPathsByPropertyKey]
+-[AWSSESDeleteReceiptFilterRequest filterName]
+-[AWSSESDeleteReceiptFilterRequest setFilterName:]
+-[AWSSESDeleteReceiptFilterRequest .cxx_destruct]
++[AWSSESDeleteReceiptRuleRequest JSONKeyPathsByPropertyKey]
+-[AWSSESDeleteReceiptRuleRequest ruleName]
+-[AWSSESDeleteReceiptRuleRequest setRuleName:]
+-[AWSSESDeleteReceiptRuleRequest ruleSetName]
+-[AWSSESDeleteReceiptRuleRequest setRuleSetName:]
+-[AWSSESDeleteReceiptRuleRequest .cxx_destruct]
++[AWSSESDeleteReceiptRuleSetRequest JSONKeyPathsByPropertyKey]
+-[AWSSESDeleteReceiptRuleSetRequest ruleSetName]
+-[AWSSESDeleteReceiptRuleSetRequest setRuleSetName:]
+-[AWSSESDeleteReceiptRuleSetRequest .cxx_destruct]
++[AWSSESDeleteTemplateRequest JSONKeyPathsByPropertyKey]
+-[AWSSESDeleteTemplateRequest templateName]
+-[AWSSESDeleteTemplateRequest setTemplateName:]
+-[AWSSESDeleteTemplateRequest .cxx_destruct]
++[AWSSESDeleteVerifiedEmailAddressRequest JSONKeyPathsByPropertyKey]
+-[AWSSESDeleteVerifiedEmailAddressRequest emailAddress]
+-[AWSSESDeleteVerifiedEmailAddressRequest setEmailAddress:]
+-[AWSSESDeleteVerifiedEmailAddressRequest .cxx_destruct]
++[AWSSESDescribeActiveReceiptRuleSetResponse JSONKeyPathsByPropertyKey]
++[AWSSESDescribeActiveReceiptRuleSetResponse metadataJSONTransformer]
++[AWSSESDescribeActiveReceiptRuleSetResponse rulesJSONTransformer]
+-[AWSSESDescribeActiveReceiptRuleSetResponse metadata]
+-[AWSSESDescribeActiveReceiptRuleSetResponse setMetadata:]
+-[AWSSESDescribeActiveReceiptRuleSetResponse rules]
+-[AWSSESDescribeActiveReceiptRuleSetResponse setRules:]
+-[AWSSESDescribeActiveReceiptRuleSetResponse .cxx_destruct]
++[AWSSESDescribeConfigurationSetRequest JSONKeyPathsByPropertyKey]
+-[AWSSESDescribeConfigurationSetRequest configurationSetAttributeNames]
+-[AWSSESDescribeConfigurationSetRequest setConfigurationSetAttributeNames:]
+-[AWSSESDescribeConfigurationSetRequest configurationSetName]
+-[AWSSESDescribeConfigurationSetRequest setConfigurationSetName:]
+-[AWSSESDescribeConfigurationSetRequest .cxx_destruct]
++[AWSSESDescribeConfigurationSetResponse JSONKeyPathsByPropertyKey]
++[AWSSESDescribeConfigurationSetResponse configurationSetJSONTransformer]
++[AWSSESDescribeConfigurationSetResponse eventDestinationsJSONTransformer]
++[AWSSESDescribeConfigurationSetResponse reputationOptionsJSONTransformer]
++[AWSSESDescribeConfigurationSetResponse trackingOptionsJSONTransformer]
+-[AWSSESDescribeConfigurationSetResponse configurationSet]
+-[AWSSESDescribeConfigurationSetResponse setConfigurationSet:]
+-[AWSSESDescribeConfigurationSetResponse eventDestinations]
+-[AWSSESDescribeConfigurationSetResponse setEventDestinations:]
+-[AWSSESDescribeConfigurationSetResponse reputationOptions]
+-[AWSSESDescribeConfigurationSetResponse setReputationOptions:]
+-[AWSSESDescribeConfigurationSetResponse trackingOptions]
+-[AWSSESDescribeConfigurationSetResponse setTrackingOptions:]
+-[AWSSESDescribeConfigurationSetResponse .cxx_destruct]
++[AWSSESDescribeReceiptRuleRequest JSONKeyPathsByPropertyKey]
+-[AWSSESDescribeReceiptRuleRequest ruleName]
+-[AWSSESDescribeReceiptRuleRequest setRuleName:]
+-[AWSSESDescribeReceiptRuleRequest ruleSetName]
+-[AWSSESDescribeReceiptRuleRequest setRuleSetName:]
+-[AWSSESDescribeReceiptRuleRequest .cxx_destruct]
++[AWSSESDescribeReceiptRuleResponse JSONKeyPathsByPropertyKey]
++[AWSSESDescribeReceiptRuleResponse ruleJSONTransformer]
+-[AWSSESDescribeReceiptRuleResponse rule]
+-[AWSSESDescribeReceiptRuleResponse setRule:]
+-[AWSSESDescribeReceiptRuleResponse .cxx_destruct]
++[AWSSESDescribeReceiptRuleSetRequest JSONKeyPathsByPropertyKey]
+-[AWSSESDescribeReceiptRuleSetRequest ruleSetName]
+-[AWSSESDescribeReceiptRuleSetRequest setRuleSetName:]
+-[AWSSESDescribeReceiptRuleSetRequest .cxx_destruct]
++[AWSSESDescribeReceiptRuleSetResponse JSONKeyPathsByPropertyKey]
++[AWSSESDescribeReceiptRuleSetResponse metadataJSONTransformer]
++[AWSSESDescribeReceiptRuleSetResponse rulesJSONTransformer]
+-[AWSSESDescribeReceiptRuleSetResponse metadata]
+-[AWSSESDescribeReceiptRuleSetResponse setMetadata:]
+-[AWSSESDescribeReceiptRuleSetResponse rules]
+-[AWSSESDescribeReceiptRuleSetResponse setRules:]
+-[AWSSESDescribeReceiptRuleSetResponse .cxx_destruct]
++[AWSSESDestination JSONKeyPathsByPropertyKey]
+-[AWSSESDestination bccAddresses]
+-[AWSSESDestination setBccAddresses:]
+-[AWSSESDestination ccAddresses]
+-[AWSSESDestination setCcAddresses:]
+-[AWSSESDestination toAddresses]
+-[AWSSESDestination setToAddresses:]
+-[AWSSESDestination .cxx_destruct]
++[AWSSESEventDestination JSONKeyPathsByPropertyKey]
++[AWSSESEventDestination cloudWatchDestinationJSONTransformer]
++[AWSSESEventDestination kinesisFirehoseDestinationJSONTransformer]
++[AWSSESEventDestination SNSDestinationJSONTransformer]
+-[AWSSESEventDestination cloudWatchDestination]
+-[AWSSESEventDestination setCloudWatchDestination:]
+-[AWSSESEventDestination enabled]
+-[AWSSESEventDestination setEnabled:]
+-[AWSSESEventDestination kinesisFirehoseDestination]
+-[AWSSESEventDestination setKinesisFirehoseDestination:]
+-[AWSSESEventDestination matchingEventTypes]
+-[AWSSESEventDestination setMatchingEventTypes:]
+-[AWSSESEventDestination name]
+-[AWSSESEventDestination setName:]
+-[AWSSESEventDestination SNSDestination]
+-[AWSSESEventDestination setSNSDestination:]
+-[AWSSESEventDestination .cxx_destruct]
++[AWSSESExtensionField JSONKeyPathsByPropertyKey]
+-[AWSSESExtensionField name]
+-[AWSSESExtensionField setName:]
+-[AWSSESExtensionField value]
+-[AWSSESExtensionField setValue:]
+-[AWSSESExtensionField .cxx_destruct]
++[AWSSESGetAccountSendingEnabledResponse JSONKeyPathsByPropertyKey]
+-[AWSSESGetAccountSendingEnabledResponse enabled]
+-[AWSSESGetAccountSendingEnabledResponse setEnabled:]
+-[AWSSESGetAccountSendingEnabledResponse .cxx_destruct]
++[AWSSESGetCustomVerificationEmailTemplateRequest JSONKeyPathsByPropertyKey]
+-[AWSSESGetCustomVerificationEmailTemplateRequest templateName]
+-[AWSSESGetCustomVerificationEmailTemplateRequest setTemplateName:]
+-[AWSSESGetCustomVerificationEmailTemplateRequest .cxx_destruct]
++[AWSSESGetCustomVerificationEmailTemplateResponse JSONKeyPathsByPropertyKey]
+-[AWSSESGetCustomVerificationEmailTemplateResponse failureRedirectionURL]
+-[AWSSESGetCustomVerificationEmailTemplateResponse setFailureRedirectionURL:]
+-[AWSSESGetCustomVerificationEmailTemplateResponse fromEmailAddress]
+-[AWSSESGetCustomVerificationEmailTemplateResponse setFromEmailAddress:]
+-[AWSSESGetCustomVerificationEmailTemplateResponse successRedirectionURL]
+-[AWSSESGetCustomVerificationEmailTemplateResponse setSuccessRedirectionURL:]
+-[AWSSESGetCustomVerificationEmailTemplateResponse templateContent]
+-[AWSSESGetCustomVerificationEmailTemplateResponse setTemplateContent:]
+-[AWSSESGetCustomVerificationEmailTemplateResponse templateName]
+-[AWSSESGetCustomVerificationEmailTemplateResponse setTemplateName:]
+-[AWSSESGetCustomVerificationEmailTemplateResponse templateSubject]
+-[AWSSESGetCustomVerificationEmailTemplateResponse setTemplateSubject:]
+-[AWSSESGetCustomVerificationEmailTemplateResponse .cxx_destruct]
++[AWSSESGetIdentityDkimAttributesRequest JSONKeyPathsByPropertyKey]
+-[AWSSESGetIdentityDkimAttributesRequest identities]
+-[AWSSESGetIdentityDkimAttributesRequest setIdentities:]
+-[AWSSESGetIdentityDkimAttributesRequest .cxx_destruct]
++[AWSSESGetIdentityDkimAttributesResponse JSONKeyPathsByPropertyKey]
++[AWSSESGetIdentityDkimAttributesResponse dkimAttributesJSONTransformer]
+___72+[AWSSESGetIdentityDkimAttributesResponse dkimAttributesJSONTransformer]_block_invoke
+___72+[AWSSESGetIdentityDkimAttributesResponse dkimAttributesJSONTransformer]_block_invoke_2
+-[AWSSESGetIdentityDkimAttributesResponse dkimAttributes]
+-[AWSSESGetIdentityDkimAttributesResponse setDkimAttributes:]
+-[AWSSESGetIdentityDkimAttributesResponse .cxx_destruct]
++[AWSSESGetIdentityMailFromDomainAttributesRequest JSONKeyPathsByPropertyKey]
+-[AWSSESGetIdentityMailFromDomainAttributesRequest identities]
+-[AWSSESGetIdentityMailFromDomainAttributesRequest setIdentities:]
+-[AWSSESGetIdentityMailFromDomainAttributesRequest .cxx_destruct]
++[AWSSESGetIdentityMailFromDomainAttributesResponse JSONKeyPathsByPropertyKey]
++[AWSSESGetIdentityMailFromDomainAttributesResponse mailFromDomainAttributesJSONTransformer]
+___92+[AWSSESGetIdentityMailFromDomainAttributesResponse mailFromDomainAttributesJSONTransformer]_block_invoke
+___92+[AWSSESGetIdentityMailFromDomainAttributesResponse mailFromDomainAttributesJSONTransformer]_block_invoke_2
+-[AWSSESGetIdentityMailFromDomainAttributesResponse mailFromDomainAttributes]
+-[AWSSESGetIdentityMailFromDomainAttributesResponse setMailFromDomainAttributes:]
+-[AWSSESGetIdentityMailFromDomainAttributesResponse .cxx_destruct]
++[AWSSESGetIdentityNotificationAttributesRequest JSONKeyPathsByPropertyKey]
+-[AWSSESGetIdentityNotificationAttributesRequest identities]
+-[AWSSESGetIdentityNotificationAttributesRequest setIdentities:]
+-[AWSSESGetIdentityNotificationAttributesRequest .cxx_destruct]
++[AWSSESGetIdentityNotificationAttributesResponse JSONKeyPathsByPropertyKey]
++[AWSSESGetIdentityNotificationAttributesResponse notificationAttributesJSONTransformer]
+___88+[AWSSESGetIdentityNotificationAttributesResponse notificationAttributesJSONTransformer]_block_invoke
+___88+[AWSSESGetIdentityNotificationAttributesResponse notificationAttributesJSONTransformer]_block_invoke_2
+-[AWSSESGetIdentityNotificationAttributesResponse notificationAttributes]
+-[AWSSESGetIdentityNotificationAttributesResponse setNotificationAttributes:]
+-[AWSSESGetIdentityNotificationAttributesResponse .cxx_destruct]
++[AWSSESGetIdentityPoliciesRequest JSONKeyPathsByPropertyKey]
+-[AWSSESGetIdentityPoliciesRequest identity]
+-[AWSSESGetIdentityPoliciesRequest setIdentity:]
+-[AWSSESGetIdentityPoliciesRequest policyNames]
+-[AWSSESGetIdentityPoliciesRequest setPolicyNames:]
+-[AWSSESGetIdentityPoliciesRequest .cxx_destruct]
++[AWSSESGetIdentityPoliciesResponse JSONKeyPathsByPropertyKey]
+-[AWSSESGetIdentityPoliciesResponse policies]
+-[AWSSESGetIdentityPoliciesResponse setPolicies:]
+-[AWSSESGetIdentityPoliciesResponse .cxx_destruct]
++[AWSSESGetIdentityVerificationAttributesRequest JSONKeyPathsByPropertyKey]
+-[AWSSESGetIdentityVerificationAttributesRequest identities]
+-[AWSSESGetIdentityVerificationAttributesRequest setIdentities:]
+-[AWSSESGetIdentityVerificationAttributesRequest .cxx_destruct]
++[AWSSESGetIdentityVerificationAttributesResponse JSONKeyPathsByPropertyKey]
++[AWSSESGetIdentityVerificationAttributesResponse verificationAttributesJSONTransformer]
+___88+[AWSSESGetIdentityVerificationAttributesResponse verificationAttributesJSONTransformer]_block_invoke
+___88+[AWSSESGetIdentityVerificationAttributesResponse verificationAttributesJSONTransformer]_block_invoke_2
+-[AWSSESGetIdentityVerificationAttributesResponse verificationAttributes]
+-[AWSSESGetIdentityVerificationAttributesResponse setVerificationAttributes:]
+-[AWSSESGetIdentityVerificationAttributesResponse .cxx_destruct]
++[AWSSESGetSendQuotaResponse JSONKeyPathsByPropertyKey]
+-[AWSSESGetSendQuotaResponse max24HourSend]
+-[AWSSESGetSendQuotaResponse setMax24HourSend:]
+-[AWSSESGetSendQuotaResponse maxSendRate]
+-[AWSSESGetSendQuotaResponse setMaxSendRate:]
+-[AWSSESGetSendQuotaResponse sentLast24Hours]
+-[AWSSESGetSendQuotaResponse setSentLast24Hours:]
+-[AWSSESGetSendQuotaResponse .cxx_destruct]
++[AWSSESGetSendStatisticsResponse JSONKeyPathsByPropertyKey]
++[AWSSESGetSendStatisticsResponse sendDataPointsJSONTransformer]
+-[AWSSESGetSendStatisticsResponse sendDataPoints]
+-[AWSSESGetSendStatisticsResponse setSendDataPoints:]
+-[AWSSESGetSendStatisticsResponse .cxx_destruct]
++[AWSSESGetTemplateRequest JSONKeyPathsByPropertyKey]
+-[AWSSESGetTemplateRequest templateName]
+-[AWSSESGetTemplateRequest setTemplateName:]
+-[AWSSESGetTemplateRequest .cxx_destruct]
++[AWSSESGetTemplateResponse JSONKeyPathsByPropertyKey]
++[AWSSESGetTemplateResponse templateJSONTransformer]
+-[AWSSESGetTemplateResponse template]
+-[AWSSESGetTemplateResponse setTemplate:]
+-[AWSSESGetTemplateResponse .cxx_destruct]
++[AWSSESIdentityDkimAttributes JSONKeyPathsByPropertyKey]
++[AWSSESIdentityDkimAttributes dkimVerificationStatusJSONTransformer]
+___69+[AWSSESIdentityDkimAttributes dkimVerificationStatusJSONTransformer]_block_invoke
+___69+[AWSSESIdentityDkimAttributes dkimVerificationStatusJSONTransformer]_block_invoke_2
+-[AWSSESIdentityDkimAttributes dkimEnabled]
+-[AWSSESIdentityDkimAttributes setDkimEnabled:]
+-[AWSSESIdentityDkimAttributes dkimTokens]
+-[AWSSESIdentityDkimAttributes setDkimTokens:]
+-[AWSSESIdentityDkimAttributes dkimVerificationStatus]
+-[AWSSESIdentityDkimAttributes setDkimVerificationStatus:]
+-[AWSSESIdentityDkimAttributes .cxx_destruct]
++[AWSSESIdentityMailFromDomainAttributes JSONKeyPathsByPropertyKey]
++[AWSSESIdentityMailFromDomainAttributes behaviorOnMXFailureJSONTransformer]
+___76+[AWSSESIdentityMailFromDomainAttributes behaviorOnMXFailureJSONTransformer]_block_invoke
+___76+[AWSSESIdentityMailFromDomainAttributes behaviorOnMXFailureJSONTransformer]_block_invoke_2
++[AWSSESIdentityMailFromDomainAttributes mailFromDomainStatusJSONTransformer]
+___77+[AWSSESIdentityMailFromDomainAttributes mailFromDomainStatusJSONTransformer]_block_invoke
+___77+[AWSSESIdentityMailFromDomainAttributes mailFromDomainStatusJSONTransformer]_block_invoke_2
+-[AWSSESIdentityMailFromDomainAttributes behaviorOnMXFailure]
+-[AWSSESIdentityMailFromDomainAttributes setBehaviorOnMXFailure:]
+-[AWSSESIdentityMailFromDomainAttributes mailFromDomain]
+-[AWSSESIdentityMailFromDomainAttributes setMailFromDomain:]
+-[AWSSESIdentityMailFromDomainAttributes mailFromDomainStatus]
+-[AWSSESIdentityMailFromDomainAttributes setMailFromDomainStatus:]
+-[AWSSESIdentityMailFromDomainAttributes .cxx_destruct]
++[AWSSESIdentityNotificationAttributes JSONKeyPathsByPropertyKey]
+-[AWSSESIdentityNotificationAttributes bounceTopic]
+-[AWSSESIdentityNotificationAttributes setBounceTopic:]
+-[AWSSESIdentityNotificationAttributes complaintTopic]
+-[AWSSESIdentityNotificationAttributes setComplaintTopic:]
+-[AWSSESIdentityNotificationAttributes deliveryTopic]
+-[AWSSESIdentityNotificationAttributes setDeliveryTopic:]
+-[AWSSESIdentityNotificationAttributes forwardingEnabled]
+-[AWSSESIdentityNotificationAttributes setForwardingEnabled:]
+-[AWSSESIdentityNotificationAttributes headersInBounceNotificationsEnabled]
+-[AWSSESIdentityNotificationAttributes setHeadersInBounceNotificationsEnabled:]
+-[AWSSESIdentityNotificationAttributes headersInComplaintNotificationsEnabled]
+-[AWSSESIdentityNotificationAttributes setHeadersInComplaintNotificationsEnabled:]
+-[AWSSESIdentityNotificationAttributes headersInDeliveryNotificationsEnabled]
+-[AWSSESIdentityNotificationAttributes setHeadersInDeliveryNotificationsEnabled:]
+-[AWSSESIdentityNotificationAttributes .cxx_destruct]
++[AWSSESIdentityVerificationAttributes JSONKeyPathsByPropertyKey]
++[AWSSESIdentityVerificationAttributes verificationStatusJSONTransformer]
+___73+[AWSSESIdentityVerificationAttributes verificationStatusJSONTransformer]_block_invoke
+___73+[AWSSESIdentityVerificationAttributes verificationStatusJSONTransformer]_block_invoke_2
+-[AWSSESIdentityVerificationAttributes verificationStatus]
+-[AWSSESIdentityVerificationAttributes setVerificationStatus:]
+-[AWSSESIdentityVerificationAttributes verificationToken]
+-[AWSSESIdentityVerificationAttributes setVerificationToken:]
+-[AWSSESIdentityVerificationAttributes .cxx_destruct]
++[AWSSESKinesisFirehoseDestination JSONKeyPathsByPropertyKey]
+-[AWSSESKinesisFirehoseDestination deliveryStreamARN]
+-[AWSSESKinesisFirehoseDestination setDeliveryStreamARN:]
+-[AWSSESKinesisFirehoseDestination IAMRoleARN]
+-[AWSSESKinesisFirehoseDestination setIAMRoleARN:]
+-[AWSSESKinesisFirehoseDestination .cxx_destruct]
++[AWSSESLambdaAction JSONKeyPathsByPropertyKey]
++[AWSSESLambdaAction invocationTypeJSONTransformer]
+___51+[AWSSESLambdaAction invocationTypeJSONTransformer]_block_invoke
+___51+[AWSSESLambdaAction invocationTypeJSONTransformer]_block_invoke_2
+-[AWSSESLambdaAction functionArn]
+-[AWSSESLambdaAction setFunctionArn:]
+-[AWSSESLambdaAction invocationType]
+-[AWSSESLambdaAction setInvocationType:]
+-[AWSSESLambdaAction topicArn]
+-[AWSSESLambdaAction setTopicArn:]
+-[AWSSESLambdaAction .cxx_destruct]
++[AWSSESListConfigurationSetsRequest JSONKeyPathsByPropertyKey]
+-[AWSSESListConfigurationSetsRequest maxItems]
+-[AWSSESListConfigurationSetsRequest setMaxItems:]
+-[AWSSESListConfigurationSetsRequest nextToken]
+-[AWSSESListConfigurationSetsRequest setNextToken:]
+-[AWSSESListConfigurationSetsRequest .cxx_destruct]
++[AWSSESListConfigurationSetsResponse JSONKeyPathsByPropertyKey]
++[AWSSESListConfigurationSetsResponse configurationSetsJSONTransformer]
+-[AWSSESListConfigurationSetsResponse configurationSets]
+-[AWSSESListConfigurationSetsResponse setConfigurationSets:]
+-[AWSSESListConfigurationSetsResponse nextToken]
+-[AWSSESListConfigurationSetsResponse setNextToken:]
+-[AWSSESListConfigurationSetsResponse .cxx_destruct]
++[AWSSESListCustomVerificationEmailTemplatesRequest JSONKeyPathsByPropertyKey]
+-[AWSSESListCustomVerificationEmailTemplatesRequest maxResults]
+-[AWSSESListCustomVerificationEmailTemplatesRequest setMaxResults:]
+-[AWSSESListCustomVerificationEmailTemplatesRequest nextToken]
+-[AWSSESListCustomVerificationEmailTemplatesRequest setNextToken:]
+-[AWSSESListCustomVerificationEmailTemplatesRequest .cxx_destruct]
++[AWSSESListCustomVerificationEmailTemplatesResponse JSONKeyPathsByPropertyKey]
++[AWSSESListCustomVerificationEmailTemplatesResponse customVerificationEmailTemplatesJSONTransformer]
+-[AWSSESListCustomVerificationEmailTemplatesResponse customVerificationEmailTemplates]
+-[AWSSESListCustomVerificationEmailTemplatesResponse setCustomVerificationEmailTemplates:]
+-[AWSSESListCustomVerificationEmailTemplatesResponse nextToken]
+-[AWSSESListCustomVerificationEmailTemplatesResponse setNextToken:]
+-[AWSSESListCustomVerificationEmailTemplatesResponse .cxx_destruct]
++[AWSSESListIdentitiesRequest JSONKeyPathsByPropertyKey]
++[AWSSESListIdentitiesRequest identityTypeJSONTransformer]
+___58+[AWSSESListIdentitiesRequest identityTypeJSONTransformer]_block_invoke
+___58+[AWSSESListIdentitiesRequest identityTypeJSONTransformer]_block_invoke_2
+-[AWSSESListIdentitiesRequest identityType]
+-[AWSSESListIdentitiesRequest setIdentityType:]
+-[AWSSESListIdentitiesRequest maxItems]
+-[AWSSESListIdentitiesRequest setMaxItems:]
+-[AWSSESListIdentitiesRequest nextToken]
+-[AWSSESListIdentitiesRequest setNextToken:]
+-[AWSSESListIdentitiesRequest .cxx_destruct]
++[AWSSESListIdentitiesResponse JSONKeyPathsByPropertyKey]
+-[AWSSESListIdentitiesResponse identities]
+-[AWSSESListIdentitiesResponse setIdentities:]
+-[AWSSESListIdentitiesResponse nextToken]
+-[AWSSESListIdentitiesResponse setNextToken:]
+-[AWSSESListIdentitiesResponse .cxx_destruct]
++[AWSSESListIdentityPoliciesRequest JSONKeyPathsByPropertyKey]
+-[AWSSESListIdentityPoliciesRequest identity]
+-[AWSSESListIdentityPoliciesRequest setIdentity:]
+-[AWSSESListIdentityPoliciesRequest .cxx_destruct]
++[AWSSESListIdentityPoliciesResponse JSONKeyPathsByPropertyKey]
+-[AWSSESListIdentityPoliciesResponse policyNames]
+-[AWSSESListIdentityPoliciesResponse setPolicyNames:]
+-[AWSSESListIdentityPoliciesResponse .cxx_destruct]
++[AWSSESListReceiptFiltersResponse JSONKeyPathsByPropertyKey]
++[AWSSESListReceiptFiltersResponse filtersJSONTransformer]
+-[AWSSESListReceiptFiltersResponse filters]
+-[AWSSESListReceiptFiltersResponse setFilters:]
+-[AWSSESListReceiptFiltersResponse .cxx_destruct]
++[AWSSESListReceiptRuleSetsRequest JSONKeyPathsByPropertyKey]
+-[AWSSESListReceiptRuleSetsRequest nextToken]
+-[AWSSESListReceiptRuleSetsRequest setNextToken:]
+-[AWSSESListReceiptRuleSetsRequest .cxx_destruct]
++[AWSSESListReceiptRuleSetsResponse JSONKeyPathsByPropertyKey]
++[AWSSESListReceiptRuleSetsResponse ruleSetsJSONTransformer]
+-[AWSSESListReceiptRuleSetsResponse nextToken]
+-[AWSSESListReceiptRuleSetsResponse setNextToken:]
+-[AWSSESListReceiptRuleSetsResponse ruleSets]
+-[AWSSESListReceiptRuleSetsResponse setRuleSets:]
+-[AWSSESListReceiptRuleSetsResponse .cxx_destruct]
++[AWSSESListTemplatesRequest JSONKeyPathsByPropertyKey]
+-[AWSSESListTemplatesRequest maxItems]
+-[AWSSESListTemplatesRequest setMaxItems:]
+-[AWSSESListTemplatesRequest nextToken]
+-[AWSSESListTemplatesRequest setNextToken:]
+-[AWSSESListTemplatesRequest .cxx_destruct]
++[AWSSESListTemplatesResponse JSONKeyPathsByPropertyKey]
++[AWSSESListTemplatesResponse templatesMetadataJSONTransformer]
+-[AWSSESListTemplatesResponse nextToken]
+-[AWSSESListTemplatesResponse setNextToken:]
+-[AWSSESListTemplatesResponse templatesMetadata]
+-[AWSSESListTemplatesResponse setTemplatesMetadata:]
+-[AWSSESListTemplatesResponse .cxx_destruct]
++[AWSSESListVerifiedEmailAddressesResponse JSONKeyPathsByPropertyKey]
+-[AWSSESListVerifiedEmailAddressesResponse verifiedEmailAddresses]
+-[AWSSESListVerifiedEmailAddressesResponse setVerifiedEmailAddresses:]
+-[AWSSESListVerifiedEmailAddressesResponse .cxx_destruct]
++[AWSSESMessage JSONKeyPathsByPropertyKey]
++[AWSSESMessage bodyJSONTransformer]
++[AWSSESMessage subjectJSONTransformer]
+-[AWSSESMessage body]
+-[AWSSESMessage setBody:]
+-[AWSSESMessage subject]
+-[AWSSESMessage setSubject:]
+-[AWSSESMessage .cxx_destruct]
++[AWSSESMessageDsn JSONKeyPathsByPropertyKey]
++[AWSSESMessageDsn arrivalDateJSONTransformer]
+___46+[AWSSESMessageDsn arrivalDateJSONTransformer]_block_invoke
+___46+[AWSSESMessageDsn arrivalDateJSONTransformer]_block_invoke_2
++[AWSSESMessageDsn extensionFieldsJSONTransformer]
+-[AWSSESMessageDsn arrivalDate]
+-[AWSSESMessageDsn setArrivalDate:]
+-[AWSSESMessageDsn extensionFields]
+-[AWSSESMessageDsn setExtensionFields:]
+-[AWSSESMessageDsn reportingMta]
+-[AWSSESMessageDsn setReportingMta:]
+-[AWSSESMessageDsn .cxx_destruct]
++[AWSSESMessageTag JSONKeyPathsByPropertyKey]
+-[AWSSESMessageTag name]
+-[AWSSESMessageTag setName:]
+-[AWSSESMessageTag value]
+-[AWSSESMessageTag setValue:]
+-[AWSSESMessageTag .cxx_destruct]
++[AWSSESPutIdentityPolicyRequest JSONKeyPathsByPropertyKey]
+-[AWSSESPutIdentityPolicyRequest identity]
+-[AWSSESPutIdentityPolicyRequest setIdentity:]
+-[AWSSESPutIdentityPolicyRequest policy]
+-[AWSSESPutIdentityPolicyRequest setPolicy:]
+-[AWSSESPutIdentityPolicyRequest policyName]
+-[AWSSESPutIdentityPolicyRequest setPolicyName:]
+-[AWSSESPutIdentityPolicyRequest .cxx_destruct]
++[AWSSESRawMessage JSONKeyPathsByPropertyKey]
+-[AWSSESRawMessage data]
+-[AWSSESRawMessage setData:]
+-[AWSSESRawMessage .cxx_destruct]
++[AWSSESReceiptAction JSONKeyPathsByPropertyKey]
++[AWSSESReceiptAction addHeaderActionJSONTransformer]
++[AWSSESReceiptAction bounceActionJSONTransformer]
++[AWSSESReceiptAction lambdaActionJSONTransformer]
++[AWSSESReceiptAction s3ActionJSONTransformer]
++[AWSSESReceiptAction SNSActionJSONTransformer]
++[AWSSESReceiptAction stopActionJSONTransformer]
++[AWSSESReceiptAction workmailActionJSONTransformer]
+-[AWSSESReceiptAction addHeaderAction]
+-[AWSSESReceiptAction setAddHeaderAction:]
+-[AWSSESReceiptAction bounceAction]
+-[AWSSESReceiptAction setBounceAction:]
+-[AWSSESReceiptAction lambdaAction]
+-[AWSSESReceiptAction setLambdaAction:]
+-[AWSSESReceiptAction s3Action]
+-[AWSSESReceiptAction setS3Action:]
+-[AWSSESReceiptAction SNSAction]
+-[AWSSESReceiptAction setSNSAction:]
+-[AWSSESReceiptAction stopAction]
+-[AWSSESReceiptAction setStopAction:]
+-[AWSSESReceiptAction workmailAction]
+-[AWSSESReceiptAction setWorkmailAction:]
+-[AWSSESReceiptAction .cxx_destruct]
++[AWSSESReceiptFilter JSONKeyPathsByPropertyKey]
++[AWSSESReceiptFilter ipFilterJSONTransformer]
+-[AWSSESReceiptFilter ipFilter]
+-[AWSSESReceiptFilter setIpFilter:]
+-[AWSSESReceiptFilter name]
+-[AWSSESReceiptFilter setName:]
+-[AWSSESReceiptFilter .cxx_destruct]
++[AWSSESReceiptIpFilter JSONKeyPathsByPropertyKey]
++[AWSSESReceiptIpFilter policyJSONTransformer]
+___46+[AWSSESReceiptIpFilter policyJSONTransformer]_block_invoke
+___46+[AWSSESReceiptIpFilter policyJSONTransformer]_block_invoke_2
+-[AWSSESReceiptIpFilter cidr]
+-[AWSSESReceiptIpFilter setCidr:]
+-[AWSSESReceiptIpFilter policy]
+-[AWSSESReceiptIpFilter setPolicy:]
+-[AWSSESReceiptIpFilter .cxx_destruct]
++[AWSSESReceiptRule JSONKeyPathsByPropertyKey]
++[AWSSESReceiptRule actionsJSONTransformer]
++[AWSSESReceiptRule tlsPolicyJSONTransformer]
+___45+[AWSSESReceiptRule tlsPolicyJSONTransformer]_block_invoke
+___45+[AWSSESReceiptRule tlsPolicyJSONTransformer]_block_invoke_2
+-[AWSSESReceiptRule actions]
+-[AWSSESReceiptRule setActions:]
+-[AWSSESReceiptRule enabled]
+-[AWSSESReceiptRule setEnabled:]
+-[AWSSESReceiptRule name]
+-[AWSSESReceiptRule setName:]
+-[AWSSESReceiptRule recipients]
+-[AWSSESReceiptRule setRecipients:]
+-[AWSSESReceiptRule scanEnabled]
+-[AWSSESReceiptRule setScanEnabled:]
+-[AWSSESReceiptRule tlsPolicy]
+-[AWSSESReceiptRule setTlsPolicy:]
+-[AWSSESReceiptRule .cxx_destruct]
++[AWSSESReceiptRuleSetMetadata JSONKeyPathsByPropertyKey]
++[AWSSESReceiptRuleSetMetadata createdTimestampJSONTransformer]
+___63+[AWSSESReceiptRuleSetMetadata createdTimestampJSONTransformer]_block_invoke
+___63+[AWSSESReceiptRuleSetMetadata createdTimestampJSONTransformer]_block_invoke_2
+-[AWSSESReceiptRuleSetMetadata createdTimestamp]
+-[AWSSESReceiptRuleSetMetadata setCreatedTimestamp:]
+-[AWSSESReceiptRuleSetMetadata name]
+-[AWSSESReceiptRuleSetMetadata setName:]
+-[AWSSESReceiptRuleSetMetadata .cxx_destruct]
++[AWSSESRecipientDsnFields JSONKeyPathsByPropertyKey]
++[AWSSESRecipientDsnFields actionJSONTransformer]
+___49+[AWSSESRecipientDsnFields actionJSONTransformer]_block_invoke
+___49+[AWSSESRecipientDsnFields actionJSONTransformer]_block_invoke_2
++[AWSSESRecipientDsnFields extensionFieldsJSONTransformer]
++[AWSSESRecipientDsnFields lastAttemptDateJSONTransformer]
+___58+[AWSSESRecipientDsnFields lastAttemptDateJSONTransformer]_block_invoke
+___58+[AWSSESRecipientDsnFields lastAttemptDateJSONTransformer]_block_invoke_2
+-[AWSSESRecipientDsnFields action]
+-[AWSSESRecipientDsnFields setAction:]
+-[AWSSESRecipientDsnFields diagnosticCode]
+-[AWSSESRecipientDsnFields setDiagnosticCode:]
+-[AWSSESRecipientDsnFields extensionFields]
+-[AWSSESRecipientDsnFields setExtensionFields:]
+-[AWSSESRecipientDsnFields finalRecipient]
+-[AWSSESRecipientDsnFields setFinalRecipient:]
+-[AWSSESRecipientDsnFields lastAttemptDate]
+-[AWSSESRecipientDsnFields setLastAttemptDate:]
+-[AWSSESRecipientDsnFields remoteMta]
+-[AWSSESRecipientDsnFields setRemoteMta:]
+-[AWSSESRecipientDsnFields status]
+-[AWSSESRecipientDsnFields setStatus:]
+-[AWSSESRecipientDsnFields .cxx_destruct]
++[AWSSESReorderReceiptRuleSetRequest JSONKeyPathsByPropertyKey]
+-[AWSSESReorderReceiptRuleSetRequest ruleNames]
+-[AWSSESReorderReceiptRuleSetRequest setRuleNames:]
+-[AWSSESReorderReceiptRuleSetRequest ruleSetName]
+-[AWSSESReorderReceiptRuleSetRequest setRuleSetName:]
+-[AWSSESReorderReceiptRuleSetRequest .cxx_destruct]
++[AWSSESReputationOptions JSONKeyPathsByPropertyKey]
++[AWSSESReputationOptions lastFreshStartJSONTransformer]
+___56+[AWSSESReputationOptions lastFreshStartJSONTransformer]_block_invoke
+___56+[AWSSESReputationOptions lastFreshStartJSONTransformer]_block_invoke_2
+-[AWSSESReputationOptions lastFreshStart]
+-[AWSSESReputationOptions setLastFreshStart:]
+-[AWSSESReputationOptions reputationMetricsEnabled]
+-[AWSSESReputationOptions setReputationMetricsEnabled:]
+-[AWSSESReputationOptions sendingEnabled]
+-[AWSSESReputationOptions setSendingEnabled:]
+-[AWSSESReputationOptions .cxx_destruct]
++[AWSSESS3Action JSONKeyPathsByPropertyKey]
+-[AWSSESS3Action bucketName]
+-[AWSSESS3Action setBucketName:]
+-[AWSSESS3Action kmsKeyArn]
+-[AWSSESS3Action setKmsKeyArn:]
+-[AWSSESS3Action objectKeyPrefix]
+-[AWSSESS3Action setObjectKeyPrefix:]
+-[AWSSESS3Action topicArn]
+-[AWSSESS3Action setTopicArn:]
+-[AWSSESS3Action .cxx_destruct]
++[AWSSESSNSAction JSONKeyPathsByPropertyKey]
++[AWSSESSNSAction encodingJSONTransformer]
+___42+[AWSSESSNSAction encodingJSONTransformer]_block_invoke
+___42+[AWSSESSNSAction encodingJSONTransformer]_block_invoke_2
+-[AWSSESSNSAction encoding]
+-[AWSSESSNSAction setEncoding:]
+-[AWSSESSNSAction topicArn]
+-[AWSSESSNSAction setTopicArn:]
+-[AWSSESSNSAction .cxx_destruct]
++[AWSSESSNSDestination JSONKeyPathsByPropertyKey]
+-[AWSSESSNSDestination topicARN]
+-[AWSSESSNSDestination setTopicARN:]
+-[AWSSESSNSDestination .cxx_destruct]
++[AWSSESSendBounceRequest JSONKeyPathsByPropertyKey]
++[AWSSESSendBounceRequest bouncedRecipientInfoListJSONTransformer]
++[AWSSESSendBounceRequest messageDsnJSONTransformer]
+-[AWSSESSendBounceRequest bounceSender]
+-[AWSSESSendBounceRequest setBounceSender:]
+-[AWSSESSendBounceRequest bounceSenderArn]
+-[AWSSESSendBounceRequest setBounceSenderArn:]
+-[AWSSESSendBounceRequest bouncedRecipientInfoList]
+-[AWSSESSendBounceRequest setBouncedRecipientInfoList:]
+-[AWSSESSendBounceRequest explanation]
+-[AWSSESSendBounceRequest setExplanation:]
+-[AWSSESSendBounceRequest messageDsn]
+-[AWSSESSendBounceRequest setMessageDsn:]
+-[AWSSESSendBounceRequest originalMessageId]
+-[AWSSESSendBounceRequest setOriginalMessageId:]
+-[AWSSESSendBounceRequest .cxx_destruct]
++[AWSSESSendBounceResponse JSONKeyPathsByPropertyKey]
+-[AWSSESSendBounceResponse messageId]
+-[AWSSESSendBounceResponse setMessageId:]
+-[AWSSESSendBounceResponse .cxx_destruct]
++[AWSSESSendBulkTemplatedEmailRequest JSONKeyPathsByPropertyKey]
++[AWSSESSendBulkTemplatedEmailRequest defaultTagsJSONTransformer]
++[AWSSESSendBulkTemplatedEmailRequest destinationsJSONTransformer]
+-[AWSSESSendBulkTemplatedEmailRequest configurationSetName]
+-[AWSSESSendBulkTemplatedEmailRequest setConfigurationSetName:]
+-[AWSSESSendBulkTemplatedEmailRequest defaultTags]
+-[AWSSESSendBulkTemplatedEmailRequest setDefaultTags:]
+-[AWSSESSendBulkTemplatedEmailRequest defaultTemplateData]
+-[AWSSESSendBulkTemplatedEmailRequest setDefaultTemplateData:]
+-[AWSSESSendBulkTemplatedEmailRequest destinations]
+-[AWSSESSendBulkTemplatedEmailRequest setDestinations:]
+-[AWSSESSendBulkTemplatedEmailRequest replyToAddresses]
+-[AWSSESSendBulkTemplatedEmailRequest setReplyToAddresses:]
+-[AWSSESSendBulkTemplatedEmailRequest returnPath]
+-[AWSSESSendBulkTemplatedEmailRequest setReturnPath:]
+-[AWSSESSendBulkTemplatedEmailRequest returnPathArn]
+-[AWSSESSendBulkTemplatedEmailRequest setReturnPathArn:]
+-[AWSSESSendBulkTemplatedEmailRequest source]
+-[AWSSESSendBulkTemplatedEmailRequest setSource:]
+-[AWSSESSendBulkTemplatedEmailRequest sourceArn]
+-[AWSSESSendBulkTemplatedEmailRequest setSourceArn:]
+-[AWSSESSendBulkTemplatedEmailRequest template]
+-[AWSSESSendBulkTemplatedEmailRequest setTemplate:]
+-[AWSSESSendBulkTemplatedEmailRequest templateArn]
+-[AWSSESSendBulkTemplatedEmailRequest setTemplateArn:]
+-[AWSSESSendBulkTemplatedEmailRequest .cxx_destruct]
++[AWSSESSendBulkTemplatedEmailResponse JSONKeyPathsByPropertyKey]
++[AWSSESSendBulkTemplatedEmailResponse statusJSONTransformer]
+-[AWSSESSendBulkTemplatedEmailResponse status]
+-[AWSSESSendBulkTemplatedEmailResponse setStatus:]
+-[AWSSESSendBulkTemplatedEmailResponse .cxx_destruct]
++[AWSSESSendCustomVerificationEmailRequest JSONKeyPathsByPropertyKey]
+-[AWSSESSendCustomVerificationEmailRequest configurationSetName]
+-[AWSSESSendCustomVerificationEmailRequest setConfigurationSetName:]
+-[AWSSESSendCustomVerificationEmailRequest emailAddress]
+-[AWSSESSendCustomVerificationEmailRequest setEmailAddress:]
+-[AWSSESSendCustomVerificationEmailRequest templateName]
+-[AWSSESSendCustomVerificationEmailRequest setTemplateName:]
+-[AWSSESSendCustomVerificationEmailRequest .cxx_destruct]
++[AWSSESSendCustomVerificationEmailResponse JSONKeyPathsByPropertyKey]
+-[AWSSESSendCustomVerificationEmailResponse messageId]
+-[AWSSESSendCustomVerificationEmailResponse setMessageId:]
+-[AWSSESSendCustomVerificationEmailResponse .cxx_destruct]
++[AWSSESSendDataPoint JSONKeyPathsByPropertyKey]
++[AWSSESSendDataPoint timestampJSONTransformer]
+___47+[AWSSESSendDataPoint timestampJSONTransformer]_block_invoke
+___47+[AWSSESSendDataPoint timestampJSONTransformer]_block_invoke_2
+-[AWSSESSendDataPoint bounces]
+-[AWSSESSendDataPoint setBounces:]
+-[AWSSESSendDataPoint complaints]
+-[AWSSESSendDataPoint setComplaints:]
+-[AWSSESSendDataPoint deliveryAttempts]
+-[AWSSESSendDataPoint setDeliveryAttempts:]
+-[AWSSESSendDataPoint rejects]
+-[AWSSESSendDataPoint setRejects:]
+-[AWSSESSendDataPoint timestamp]
+-[AWSSESSendDataPoint setTimestamp:]
+-[AWSSESSendDataPoint .cxx_destruct]
++[AWSSESSendEmailRequest JSONKeyPathsByPropertyKey]
++[AWSSESSendEmailRequest destinationJSONTransformer]
++[AWSSESSendEmailRequest messageJSONTransformer]
++[AWSSESSendEmailRequest tagsJSONTransformer]
+-[AWSSESSendEmailRequest configurationSetName]
+-[AWSSESSendEmailRequest setConfigurationSetName:]
+-[AWSSESSendEmailRequest destination]
+-[AWSSESSendEmailRequest setDestination:]
+-[AWSSESSendEmailRequest message]
+-[AWSSESSendEmailRequest setMessage:]
+-[AWSSESSendEmailRequest replyToAddresses]
+-[AWSSESSendEmailRequest setReplyToAddresses:]
+-[AWSSESSendEmailRequest returnPath]
+-[AWSSESSendEmailRequest setReturnPath:]
+-[AWSSESSendEmailRequest returnPathArn]
+-[AWSSESSendEmailRequest setReturnPathArn:]
+-[AWSSESSendEmailRequest source]
+-[AWSSESSendEmailRequest setSource:]
+-[AWSSESSendEmailRequest sourceArn]
+-[AWSSESSendEmailRequest setSourceArn:]
+-[AWSSESSendEmailRequest tags]
+-[AWSSESSendEmailRequest setTags:]
+-[AWSSESSendEmailRequest .cxx_destruct]
++[AWSSESSendEmailResponse JSONKeyPathsByPropertyKey]
+-[AWSSESSendEmailResponse messageId]
+-[AWSSESSendEmailResponse setMessageId:]
+-[AWSSESSendEmailResponse .cxx_destruct]
++[AWSSESSendRawEmailRequest JSONKeyPathsByPropertyKey]
++[AWSSESSendRawEmailRequest rawMessageJSONTransformer]
++[AWSSESSendRawEmailRequest tagsJSONTransformer]
+-[AWSSESSendRawEmailRequest configurationSetName]
+-[AWSSESSendRawEmailRequest setConfigurationSetName:]
+-[AWSSESSendRawEmailRequest destinations]
+-[AWSSESSendRawEmailRequest setDestinations:]
+-[AWSSESSendRawEmailRequest fromArn]
+-[AWSSESSendRawEmailRequest setFromArn:]
+-[AWSSESSendRawEmailRequest rawMessage]
+-[AWSSESSendRawEmailRequest setRawMessage:]
+-[AWSSESSendRawEmailRequest returnPathArn]
+-[AWSSESSendRawEmailRequest setReturnPathArn:]
+-[AWSSESSendRawEmailRequest source]
+-[AWSSESSendRawEmailRequest setSource:]
+-[AWSSESSendRawEmailRequest sourceArn]
+-[AWSSESSendRawEmailRequest setSourceArn:]
+-[AWSSESSendRawEmailRequest tags]
+-[AWSSESSendRawEmailRequest setTags:]
+-[AWSSESSendRawEmailRequest .cxx_destruct]
++[AWSSESSendRawEmailResponse JSONKeyPathsByPropertyKey]
+-[AWSSESSendRawEmailResponse messageId]
+-[AWSSESSendRawEmailResponse setMessageId:]
+-[AWSSESSendRawEmailResponse .cxx_destruct]
++[AWSSESSendTemplatedEmailRequest JSONKeyPathsByPropertyKey]
++[AWSSESSendTemplatedEmailRequest destinationJSONTransformer]
++[AWSSESSendTemplatedEmailRequest tagsJSONTransformer]
+-[AWSSESSendTemplatedEmailRequest configurationSetName]
+-[AWSSESSendTemplatedEmailRequest setConfigurationSetName:]
+-[AWSSESSendTemplatedEmailRequest destination]
+-[AWSSESSendTemplatedEmailRequest setDestination:]
+-[AWSSESSendTemplatedEmailRequest replyToAddresses]
+-[AWSSESSendTemplatedEmailRequest setReplyToAddresses:]
+-[AWSSESSendTemplatedEmailRequest returnPath]
+-[AWSSESSendTemplatedEmailRequest setReturnPath:]
+-[AWSSESSendTemplatedEmailRequest returnPathArn]
+-[AWSSESSendTemplatedEmailRequest setReturnPathArn:]
+-[AWSSESSendTemplatedEmailRequest source]
+-[AWSSESSendTemplatedEmailRequest setSource:]
+-[AWSSESSendTemplatedEmailRequest sourceArn]
+-[AWSSESSendTemplatedEmailRequest setSourceArn:]
+-[AWSSESSendTemplatedEmailRequest tags]
+-[AWSSESSendTemplatedEmailRequest setTags:]
+-[AWSSESSendTemplatedEmailRequest template]
+-[AWSSESSendTemplatedEmailRequest setTemplate:]
+-[AWSSESSendTemplatedEmailRequest templateArn]
+-[AWSSESSendTemplatedEmailRequest setTemplateArn:]
+-[AWSSESSendTemplatedEmailRequest templateData]
+-[AWSSESSendTemplatedEmailRequest setTemplateData:]
+-[AWSSESSendTemplatedEmailRequest .cxx_destruct]
++[AWSSESSendTemplatedEmailResponse JSONKeyPathsByPropertyKey]
+-[AWSSESSendTemplatedEmailResponse messageId]
+-[AWSSESSendTemplatedEmailResponse setMessageId:]
+-[AWSSESSendTemplatedEmailResponse .cxx_destruct]
++[AWSSESSetActiveReceiptRuleSetRequest JSONKeyPathsByPropertyKey]
+-[AWSSESSetActiveReceiptRuleSetRequest ruleSetName]
+-[AWSSESSetActiveReceiptRuleSetRequest setRuleSetName:]
+-[AWSSESSetActiveReceiptRuleSetRequest .cxx_destruct]
++[AWSSESSetIdentityDkimEnabledRequest JSONKeyPathsByPropertyKey]
+-[AWSSESSetIdentityDkimEnabledRequest dkimEnabled]
+-[AWSSESSetIdentityDkimEnabledRequest setDkimEnabled:]
+-[AWSSESSetIdentityDkimEnabledRequest identity]
+-[AWSSESSetIdentityDkimEnabledRequest setIdentity:]
+-[AWSSESSetIdentityDkimEnabledRequest .cxx_destruct]
++[AWSSESSetIdentityFeedbackForwardingEnabledRequest JSONKeyPathsByPropertyKey]
+-[AWSSESSetIdentityFeedbackForwardingEnabledRequest forwardingEnabled]
+-[AWSSESSetIdentityFeedbackForwardingEnabledRequest setForwardingEnabled:]
+-[AWSSESSetIdentityFeedbackForwardingEnabledRequest identity]
+-[AWSSESSetIdentityFeedbackForwardingEnabledRequest setIdentity:]
+-[AWSSESSetIdentityFeedbackForwardingEnabledRequest .cxx_destruct]
++[AWSSESSetIdentityHeadersInNotificationsEnabledRequest JSONKeyPathsByPropertyKey]
++[AWSSESSetIdentityHeadersInNotificationsEnabledRequest notificationTypeJSONTransformer]
+___88+[AWSSESSetIdentityHeadersInNotificationsEnabledRequest notificationTypeJSONTransformer]_block_invoke
+___88+[AWSSESSetIdentityHeadersInNotificationsEnabledRequest notificationTypeJSONTransformer]_block_invoke_2
+-[AWSSESSetIdentityHeadersInNotificationsEnabledRequest enabled]
+-[AWSSESSetIdentityHeadersInNotificationsEnabledRequest setEnabled:]
+-[AWSSESSetIdentityHeadersInNotificationsEnabledRequest identity]
+-[AWSSESSetIdentityHeadersInNotificationsEnabledRequest setIdentity:]
+-[AWSSESSetIdentityHeadersInNotificationsEnabledRequest notificationType]
+-[AWSSESSetIdentityHeadersInNotificationsEnabledRequest setNotificationType:]
+-[AWSSESSetIdentityHeadersInNotificationsEnabledRequest .cxx_destruct]
++[AWSSESSetIdentityMailFromDomainRequest JSONKeyPathsByPropertyKey]
++[AWSSESSetIdentityMailFromDomainRequest behaviorOnMXFailureJSONTransformer]
+___76+[AWSSESSetIdentityMailFromDomainRequest behaviorOnMXFailureJSONTransformer]_block_invoke
+___76+[AWSSESSetIdentityMailFromDomainRequest behaviorOnMXFailureJSONTransformer]_block_invoke_2
+-[AWSSESSetIdentityMailFromDomainRequest behaviorOnMXFailure]
+-[AWSSESSetIdentityMailFromDomainRequest setBehaviorOnMXFailure:]
+-[AWSSESSetIdentityMailFromDomainRequest identity]
+-[AWSSESSetIdentityMailFromDomainRequest setIdentity:]
+-[AWSSESSetIdentityMailFromDomainRequest mailFromDomain]
+-[AWSSESSetIdentityMailFromDomainRequest setMailFromDomain:]
+-[AWSSESSetIdentityMailFromDomainRequest .cxx_destruct]
++[AWSSESSetIdentityNotificationTopicRequest JSONKeyPathsByPropertyKey]
++[AWSSESSetIdentityNotificationTopicRequest notificationTypeJSONTransformer]
+___76+[AWSSESSetIdentityNotificationTopicRequest notificationTypeJSONTransformer]_block_invoke
+___76+[AWSSESSetIdentityNotificationTopicRequest notificationTypeJSONTransformer]_block_invoke_2
+-[AWSSESSetIdentityNotificationTopicRequest identity]
+-[AWSSESSetIdentityNotificationTopicRequest setIdentity:]
+-[AWSSESSetIdentityNotificationTopicRequest notificationType]
+-[AWSSESSetIdentityNotificationTopicRequest setNotificationType:]
+-[AWSSESSetIdentityNotificationTopicRequest snsTopic]
+-[AWSSESSetIdentityNotificationTopicRequest setSnsTopic:]
+-[AWSSESSetIdentityNotificationTopicRequest .cxx_destruct]
++[AWSSESSetReceiptRulePositionRequest JSONKeyPathsByPropertyKey]
+-[AWSSESSetReceiptRulePositionRequest after]
+-[AWSSESSetReceiptRulePositionRequest setAfter:]
+-[AWSSESSetReceiptRulePositionRequest ruleName]
+-[AWSSESSetReceiptRulePositionRequest setRuleName:]
+-[AWSSESSetReceiptRulePositionRequest ruleSetName]
+-[AWSSESSetReceiptRulePositionRequest setRuleSetName:]
+-[AWSSESSetReceiptRulePositionRequest .cxx_destruct]
++[AWSSESStopAction JSONKeyPathsByPropertyKey]
++[AWSSESStopAction scopeJSONTransformer]
+___40+[AWSSESStopAction scopeJSONTransformer]_block_invoke
+___40+[AWSSESStopAction scopeJSONTransformer]_block_invoke_2
+-[AWSSESStopAction scope]
+-[AWSSESStopAction setScope:]
+-[AWSSESStopAction topicArn]
+-[AWSSESStopAction setTopicArn:]
+-[AWSSESStopAction .cxx_destruct]
++[AWSSESTemplate JSONKeyPathsByPropertyKey]
+-[AWSSESTemplate htmlPart]
+-[AWSSESTemplate setHtmlPart:]
+-[AWSSESTemplate subjectPart]
+-[AWSSESTemplate setSubjectPart:]
+-[AWSSESTemplate templateName]
+-[AWSSESTemplate setTemplateName:]
+-[AWSSESTemplate textPart]
+-[AWSSESTemplate setTextPart:]
+-[AWSSESTemplate .cxx_destruct]
++[AWSSESTemplateMetadata JSONKeyPathsByPropertyKey]
++[AWSSESTemplateMetadata createdTimestampJSONTransformer]
+___57+[AWSSESTemplateMetadata createdTimestampJSONTransformer]_block_invoke
+___57+[AWSSESTemplateMetadata createdTimestampJSONTransformer]_block_invoke_2
+-[AWSSESTemplateMetadata createdTimestamp]
+-[AWSSESTemplateMetadata setCreatedTimestamp:]
+-[AWSSESTemplateMetadata name]
+-[AWSSESTemplateMetadata setName:]
+-[AWSSESTemplateMetadata .cxx_destruct]
++[AWSSESTestRenderTemplateRequest JSONKeyPathsByPropertyKey]
+-[AWSSESTestRenderTemplateRequest templateData]
+-[AWSSESTestRenderTemplateRequest setTemplateData:]
+-[AWSSESTestRenderTemplateRequest templateName]
+-[AWSSESTestRenderTemplateRequest setTemplateName:]
+-[AWSSESTestRenderTemplateRequest .cxx_destruct]
++[AWSSESTestRenderTemplateResponse JSONKeyPathsByPropertyKey]
+-[AWSSESTestRenderTemplateResponse renderedTemplate]
+-[AWSSESTestRenderTemplateResponse setRenderedTemplate:]
+-[AWSSESTestRenderTemplateResponse .cxx_destruct]
++[AWSSESTrackingOptions JSONKeyPathsByPropertyKey]
+-[AWSSESTrackingOptions customRedirectDomain]
+-[AWSSESTrackingOptions setCustomRedirectDomain:]
+-[AWSSESTrackingOptions .cxx_destruct]
++[AWSSESUpdateAccountSendingEnabledRequest JSONKeyPathsByPropertyKey]
+-[AWSSESUpdateAccountSendingEnabledRequest enabled]
+-[AWSSESUpdateAccountSendingEnabledRequest setEnabled:]
+-[AWSSESUpdateAccountSendingEnabledRequest .cxx_destruct]
++[AWSSESUpdateConfigurationSetEventDestinationRequest JSONKeyPathsByPropertyKey]
++[AWSSESUpdateConfigurationSetEventDestinationRequest eventDestinationJSONTransformer]
+-[AWSSESUpdateConfigurationSetEventDestinationRequest configurationSetName]
+-[AWSSESUpdateConfigurationSetEventDestinationRequest setConfigurationSetName:]
+-[AWSSESUpdateConfigurationSetEventDestinationRequest eventDestination]
+-[AWSSESUpdateConfigurationSetEventDestinationRequest setEventDestination:]
+-[AWSSESUpdateConfigurationSetEventDestinationRequest .cxx_destruct]
++[AWSSESUpdateConfigurationSetReputationMetricsEnabledRequest JSONKeyPathsByPropertyKey]
+-[AWSSESUpdateConfigurationSetReputationMetricsEnabledRequest configurationSetName]
+-[AWSSESUpdateConfigurationSetReputationMetricsEnabledRequest setConfigurationSetName:]
+-[AWSSESUpdateConfigurationSetReputationMetricsEnabledRequest enabled]
+-[AWSSESUpdateConfigurationSetReputationMetricsEnabledRequest setEnabled:]
+-[AWSSESUpdateConfigurationSetReputationMetricsEnabledRequest .cxx_destruct]
++[AWSSESUpdateConfigurationSetSendingEnabledRequest JSONKeyPathsByPropertyKey]
+-[AWSSESUpdateConfigurationSetSendingEnabledRequest configurationSetName]
+-[AWSSESUpdateConfigurationSetSendingEnabledRequest setConfigurationSetName:]
+-[AWSSESUpdateConfigurationSetSendingEnabledRequest enabled]
+-[AWSSESUpdateConfigurationSetSendingEnabledRequest setEnabled:]
+-[AWSSESUpdateConfigurationSetSendingEnabledRequest .cxx_destruct]
++[AWSSESUpdateConfigurationSetTrackingOptionsRequest JSONKeyPathsByPropertyKey]
++[AWSSESUpdateConfigurationSetTrackingOptionsRequest trackingOptionsJSONTransformer]
+-[AWSSESUpdateConfigurationSetTrackingOptionsRequest configurationSetName]
+-[AWSSESUpdateConfigurationSetTrackingOptionsRequest setConfigurationSetName:]
+-[AWSSESUpdateConfigurationSetTrackingOptionsRequest trackingOptions]
+-[AWSSESUpdateConfigurationSetTrackingOptionsRequest setTrackingOptions:]
+-[AWSSESUpdateConfigurationSetTrackingOptionsRequest .cxx_destruct]
++[AWSSESUpdateCustomVerificationEmailTemplateRequest JSONKeyPathsByPropertyKey]
+-[AWSSESUpdateCustomVerificationEmailTemplateRequest failureRedirectionURL]
+-[AWSSESUpdateCustomVerificationEmailTemplateRequest setFailureRedirectionURL:]
+-[AWSSESUpdateCustomVerificationEmailTemplateRequest fromEmailAddress]
+-[AWSSESUpdateCustomVerificationEmailTemplateRequest setFromEmailAddress:]
+-[AWSSESUpdateCustomVerificationEmailTemplateRequest successRedirectionURL]
+-[AWSSESUpdateCustomVerificationEmailTemplateRequest setSuccessRedirectionURL:]
+-[AWSSESUpdateCustomVerificationEmailTemplateRequest templateContent]
+-[AWSSESUpdateCustomVerificationEmailTemplateRequest setTemplateContent:]
+-[AWSSESUpdateCustomVerificationEmailTemplateRequest templateName]
+-[AWSSESUpdateCustomVerificationEmailTemplateRequest setTemplateName:]
+-[AWSSESUpdateCustomVerificationEmailTemplateRequest templateSubject]
+-[AWSSESUpdateCustomVerificationEmailTemplateRequest setTemplateSubject:]
+-[AWSSESUpdateCustomVerificationEmailTemplateRequest .cxx_destruct]
++[AWSSESUpdateReceiptRuleRequest JSONKeyPathsByPropertyKey]
++[AWSSESUpdateReceiptRuleRequest ruleJSONTransformer]
+-[AWSSESUpdateReceiptRuleRequest rule]
+-[AWSSESUpdateReceiptRuleRequest setRule:]
+-[AWSSESUpdateReceiptRuleRequest ruleSetName]
+-[AWSSESUpdateReceiptRuleRequest setRuleSetName:]
+-[AWSSESUpdateReceiptRuleRequest .cxx_destruct]
++[AWSSESUpdateTemplateRequest JSONKeyPathsByPropertyKey]
++[AWSSESUpdateTemplateRequest templateJSONTransformer]
+-[AWSSESUpdateTemplateRequest template]
+-[AWSSESUpdateTemplateRequest setTemplate:]
+-[AWSSESUpdateTemplateRequest .cxx_destruct]
++[AWSSESVerifyDomainDkimRequest JSONKeyPathsByPropertyKey]
+-[AWSSESVerifyDomainDkimRequest domain]
+-[AWSSESVerifyDomainDkimRequest setDomain:]
+-[AWSSESVerifyDomainDkimRequest .cxx_destruct]
++[AWSSESVerifyDomainDkimResponse JSONKeyPathsByPropertyKey]
+-[AWSSESVerifyDomainDkimResponse dkimTokens]
+-[AWSSESVerifyDomainDkimResponse setDkimTokens:]
+-[AWSSESVerifyDomainDkimResponse .cxx_destruct]
++[AWSSESVerifyDomainIdentityRequest JSONKeyPathsByPropertyKey]
+-[AWSSESVerifyDomainIdentityRequest domain]
+-[AWSSESVerifyDomainIdentityRequest setDomain:]
+-[AWSSESVerifyDomainIdentityRequest .cxx_destruct]
++[AWSSESVerifyDomainIdentityResponse JSONKeyPathsByPropertyKey]
+-[AWSSESVerifyDomainIdentityResponse verificationToken]
+-[AWSSESVerifyDomainIdentityResponse setVerificationToken:]
+-[AWSSESVerifyDomainIdentityResponse .cxx_destruct]
++[AWSSESVerifyEmailAddressRequest JSONKeyPathsByPropertyKey]
+-[AWSSESVerifyEmailAddressRequest emailAddress]
+-[AWSSESVerifyEmailAddressRequest setEmailAddress:]
+-[AWSSESVerifyEmailAddressRequest .cxx_destruct]
++[AWSSESVerifyEmailIdentityRequest JSONKeyPathsByPropertyKey]
+-[AWSSESVerifyEmailIdentityRequest emailAddress]
+-[AWSSESVerifyEmailIdentityRequest setEmailAddress:]
+-[AWSSESVerifyEmailIdentityRequest .cxx_destruct]
++[AWSSESWorkmailAction JSONKeyPathsByPropertyKey]
+-[AWSSESWorkmailAction organizationArn]
+-[AWSSESWorkmailAction setOrganizationArn:]
+-[AWSSESWorkmailAction topicArn]
+-[AWSSESWorkmailAction setTopicArn:]
+-[AWSSESWorkmailAction .cxx_destruct]
+_OBJC_IVAR_$_AWSSESAddHeaderAction._headerName
+_OBJC_IVAR_$_AWSSESAddHeaderAction._headerValue
+_OBJC_IVAR_$_AWSSESBody._html
+_OBJC_IVAR_$_AWSSESBody._text
+_OBJC_IVAR_$_AWSSESBounceAction._message
+_OBJC_IVAR_$_AWSSESBounceAction._sender
+_OBJC_IVAR_$_AWSSESBounceAction._smtpReplyCode
+_OBJC_IVAR_$_AWSSESBounceAction._statusCode
+_OBJC_IVAR_$_AWSSESBounceAction._topicArn
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp.136
+___block_literal_global.137
+_OBJC_IVAR_$_AWSSESBouncedRecipientInfo._bounceType
+_OBJC_IVAR_$_AWSSESBouncedRecipientInfo._recipient
+_OBJC_IVAR_$_AWSSESBouncedRecipientInfo._recipientArn
+_OBJC_IVAR_$_AWSSESBouncedRecipientInfo._recipientDsnFields
+_OBJC_IVAR_$_AWSSESBulkEmailDestination._destination
+_OBJC_IVAR_$_AWSSESBulkEmailDestination._replacementTags
+_OBJC_IVAR_$_AWSSESBulkEmailDestination._replacementTemplateData
+___block_descriptor_tmp.220
+___block_literal_global.221
+___block_descriptor_tmp.250
+___block_literal_global.251
+_OBJC_IVAR_$_AWSSESBulkEmailDestinationStatus._error
+_OBJC_IVAR_$_AWSSESBulkEmailDestinationStatus._messageId
+_OBJC_IVAR_$_AWSSESBulkEmailDestinationStatus._status
+_OBJC_IVAR_$_AWSSESCloneReceiptRuleSetRequest._originalRuleSetName
+_OBJC_IVAR_$_AWSSESCloneReceiptRuleSetRequest._ruleSetName
+_OBJC_IVAR_$_AWSSESCloudWatchDestination._dimensionConfigurations
+___block_descriptor_tmp.316
+___block_literal_global.317
+___block_descriptor_tmp.324
+___block_literal_global.325
+_OBJC_IVAR_$_AWSSESCloudWatchDimensionConfiguration._defaultDimensionValue
+_OBJC_IVAR_$_AWSSESCloudWatchDimensionConfiguration._dimensionName
+_OBJC_IVAR_$_AWSSESCloudWatchDimensionConfiguration._dimensionValueSource
+_OBJC_IVAR_$_AWSSESConfigurationSet._name
+_OBJC_IVAR_$_AWSSESContent._charset
+_OBJC_IVAR_$_AWSSESContent._data
+_OBJC_IVAR_$_AWSSESCreateConfigurationSetEventDestinationRequest._configurationSetName
+_OBJC_IVAR_$_AWSSESCreateConfigurationSetEventDestinationRequest._eventDestination
+_OBJC_IVAR_$_AWSSESCreateConfigurationSetRequest._configurationSet
+_OBJC_IVAR_$_AWSSESCreateConfigurationSetTrackingOptionsRequest._configurationSetName
+_OBJC_IVAR_$_AWSSESCreateConfigurationSetTrackingOptionsRequest._trackingOptions
+_OBJC_IVAR_$_AWSSESCreateCustomVerificationEmailTemplateRequest._failureRedirectionURL
+_OBJC_IVAR_$_AWSSESCreateCustomVerificationEmailTemplateRequest._fromEmailAddress
+_OBJC_IVAR_$_AWSSESCreateCustomVerificationEmailTemplateRequest._successRedirectionURL
+_OBJC_IVAR_$_AWSSESCreateCustomVerificationEmailTemplateRequest._templateContent
+_OBJC_IVAR_$_AWSSESCreateCustomVerificationEmailTemplateRequest._templateName
+_OBJC_IVAR_$_AWSSESCreateCustomVerificationEmailTemplateRequest._templateSubject
+_OBJC_IVAR_$_AWSSESCreateReceiptFilterRequest._filter
+_OBJC_IVAR_$_AWSSESCreateReceiptRuleRequest._after
+_OBJC_IVAR_$_AWSSESCreateReceiptRuleRequest._rule
+_OBJC_IVAR_$_AWSSESCreateReceiptRuleRequest._ruleSetName
+_OBJC_IVAR_$_AWSSESCreateReceiptRuleSetRequest._ruleSetName
+_OBJC_IVAR_$_AWSSESCreateTemplateRequest._template
+_OBJC_IVAR_$_AWSSESCustomVerificationEmailTemplate._failureRedirectionURL
+_OBJC_IVAR_$_AWSSESCustomVerificationEmailTemplate._fromEmailAddress
+_OBJC_IVAR_$_AWSSESCustomVerificationEmailTemplate._successRedirectionURL
+_OBJC_IVAR_$_AWSSESCustomVerificationEmailTemplate._templateName
+_OBJC_IVAR_$_AWSSESCustomVerificationEmailTemplate._templateSubject
+_OBJC_IVAR_$_AWSSESDeleteConfigurationSetEventDestinationRequest._configurationSetName
+_OBJC_IVAR_$_AWSSESDeleteConfigurationSetEventDestinationRequest._eventDestinationName
+_OBJC_IVAR_$_AWSSESDeleteConfigurationSetRequest._configurationSetName
+_OBJC_IVAR_$_AWSSESDeleteConfigurationSetTrackingOptionsRequest._configurationSetName
+_OBJC_IVAR_$_AWSSESDeleteCustomVerificationEmailTemplateRequest._templateName
+_OBJC_IVAR_$_AWSSESDeleteIdentityPolicyRequest._identity
+_OBJC_IVAR_$_AWSSESDeleteIdentityPolicyRequest._policyName
+_OBJC_IVAR_$_AWSSESDeleteIdentityRequest._identity
+_OBJC_IVAR_$_AWSSESDeleteReceiptFilterRequest._filterName
+_OBJC_IVAR_$_AWSSESDeleteReceiptRuleRequest._ruleName
+_OBJC_IVAR_$_AWSSESDeleteReceiptRuleRequest._ruleSetName
+_OBJC_IVAR_$_AWSSESDeleteReceiptRuleSetRequest._ruleSetName
+_OBJC_IVAR_$_AWSSESDeleteTemplateRequest._templateName
+_OBJC_IVAR_$_AWSSESDeleteVerifiedEmailAddressRequest._emailAddress
+_OBJC_IVAR_$_AWSSESDescribeActiveReceiptRuleSetResponse._metadata
+_OBJC_IVAR_$_AWSSESDescribeActiveReceiptRuleSetResponse._rules
+_OBJC_IVAR_$_AWSSESDescribeConfigurationSetRequest._configurationSetAttributeNames
+_OBJC_IVAR_$_AWSSESDescribeConfigurationSetRequest._configurationSetName
+_OBJC_IVAR_$_AWSSESDescribeConfigurationSetResponse._configurationSet
+_OBJC_IVAR_$_AWSSESDescribeConfigurationSetResponse._eventDestinations
+_OBJC_IVAR_$_AWSSESDescribeConfigurationSetResponse._reputationOptions
+_OBJC_IVAR_$_AWSSESDescribeConfigurationSetResponse._trackingOptions
+_OBJC_IVAR_$_AWSSESDescribeReceiptRuleRequest._ruleName
+_OBJC_IVAR_$_AWSSESDescribeReceiptRuleRequest._ruleSetName
+_OBJC_IVAR_$_AWSSESDescribeReceiptRuleResponse._rule
+_OBJC_IVAR_$_AWSSESDescribeReceiptRuleSetRequest._ruleSetName
+_OBJC_IVAR_$_AWSSESDescribeReceiptRuleSetResponse._metadata
+_OBJC_IVAR_$_AWSSESDescribeReceiptRuleSetResponse._rules
+_OBJC_IVAR_$_AWSSESDestination._bccAddresses
+_OBJC_IVAR_$_AWSSESDestination._ccAddresses
+_OBJC_IVAR_$_AWSSESDestination._toAddresses
+_OBJC_IVAR_$_AWSSESEventDestination._cloudWatchDestination
+_OBJC_IVAR_$_AWSSESEventDestination._enabled
+_OBJC_IVAR_$_AWSSESEventDestination._kinesisFirehoseDestination
+_OBJC_IVAR_$_AWSSESEventDestination._matchingEventTypes
+_OBJC_IVAR_$_AWSSESEventDestination._name
+_OBJC_IVAR_$_AWSSESEventDestination._SNSDestination
+_OBJC_IVAR_$_AWSSESExtensionField._name
+_OBJC_IVAR_$_AWSSESExtensionField._value
+_OBJC_IVAR_$_AWSSESGetAccountSendingEnabledResponse._enabled
+_OBJC_IVAR_$_AWSSESGetCustomVerificationEmailTemplateRequest._templateName
+_OBJC_IVAR_$_AWSSESGetCustomVerificationEmailTemplateResponse._failureRedirectionURL
+_OBJC_IVAR_$_AWSSESGetCustomVerificationEmailTemplateResponse._fromEmailAddress
+_OBJC_IVAR_$_AWSSESGetCustomVerificationEmailTemplateResponse._successRedirectionURL
+_OBJC_IVAR_$_AWSSESGetCustomVerificationEmailTemplateResponse._templateContent
+_OBJC_IVAR_$_AWSSESGetCustomVerificationEmailTemplateResponse._templateName
+_OBJC_IVAR_$_AWSSESGetCustomVerificationEmailTemplateResponse._templateSubject
+_OBJC_IVAR_$_AWSSESGetIdentityDkimAttributesRequest._identities
+___block_descriptor_tmp.814
+___block_literal_global.815
+___block_descriptor_tmp.820
+___block_literal_global.821
+_OBJC_IVAR_$_AWSSESGetIdentityDkimAttributesResponse._dkimAttributes
+_OBJC_IVAR_$_AWSSESGetIdentityMailFromDomainAttributesRequest._identities
+___block_descriptor_tmp.839
+___block_literal_global.840
+___block_descriptor_tmp.842
+___block_literal_global.843
+_OBJC_IVAR_$_AWSSESGetIdentityMailFromDomainAttributesResponse._mailFromDomainAttributes
+_OBJC_IVAR_$_AWSSESGetIdentityNotificationAttributesRequest._identities
+___block_descriptor_tmp.858
+___block_literal_global.859
+___block_descriptor_tmp.861
+___block_literal_global.862
+_OBJC_IVAR_$_AWSSESGetIdentityNotificationAttributesResponse._notificationAttributes
+_OBJC_IVAR_$_AWSSESGetIdentityPoliciesRequest._identity
+_OBJC_IVAR_$_AWSSESGetIdentityPoliciesRequest._policyNames
+_OBJC_IVAR_$_AWSSESGetIdentityPoliciesResponse._policies
+_OBJC_IVAR_$_AWSSESGetIdentityVerificationAttributesRequest._identities
+___block_descriptor_tmp.899
+___block_literal_global.900
+___block_descriptor_tmp.902
+___block_literal_global.903
+_OBJC_IVAR_$_AWSSESGetIdentityVerificationAttributesResponse._verificationAttributes
+_OBJC_IVAR_$_AWSSESGetSendQuotaResponse._max24HourSend
+_OBJC_IVAR_$_AWSSESGetSendQuotaResponse._maxSendRate
+_OBJC_IVAR_$_AWSSESGetSendQuotaResponse._sentLast24Hours
+_OBJC_IVAR_$_AWSSESGetSendStatisticsResponse._sendDataPoints
+_OBJC_IVAR_$_AWSSESGetTemplateRequest._templateName
+_OBJC_IVAR_$_AWSSESGetTemplateResponse._template
+___block_descriptor_tmp.970
+___block_literal_global.971
+___block_descriptor_tmp.976
+___block_literal_global.977
+_OBJC_IVAR_$_AWSSESIdentityDkimAttributes._dkimEnabled
+_OBJC_IVAR_$_AWSSESIdentityDkimAttributes._dkimTokens
+_OBJC_IVAR_$_AWSSESIdentityDkimAttributes._dkimVerificationStatus
+___block_descriptor_tmp.1008
+___block_literal_global.1009
+___block_descriptor_tmp.1014
+___block_literal_global.1015
+___block_descriptor_tmp.1016
+___block_literal_global.1017
+___block_descriptor_tmp.1018
+___block_literal_global.1019
+_OBJC_IVAR_$_AWSSESIdentityMailFromDomainAttributes._behaviorOnMXFailure
+_OBJC_IVAR_$_AWSSESIdentityMailFromDomainAttributes._mailFromDomain
+_OBJC_IVAR_$_AWSSESIdentityMailFromDomainAttributes._mailFromDomainStatus
+_OBJC_IVAR_$_AWSSESIdentityNotificationAttributes._bounceTopic
+_OBJC_IVAR_$_AWSSESIdentityNotificationAttributes._complaintTopic
+_OBJC_IVAR_$_AWSSESIdentityNotificationAttributes._deliveryTopic
+_OBJC_IVAR_$_AWSSESIdentityNotificationAttributes._forwardingEnabled
+_OBJC_IVAR_$_AWSSESIdentityNotificationAttributes._headersInBounceNotificationsEnabled
+_OBJC_IVAR_$_AWSSESIdentityNotificationAttributes._headersInComplaintNotificationsEnabled
+_OBJC_IVAR_$_AWSSESIdentityNotificationAttributes._headersInDeliveryNotificationsEnabled
+___block_descriptor_tmp.1112
+___block_literal_global.1113
+___block_descriptor_tmp.1114
+___block_literal_global.1115
+_OBJC_IVAR_$_AWSSESIdentityVerificationAttributes._verificationStatus
+_OBJC_IVAR_$_AWSSESIdentityVerificationAttributes._verificationToken
+_OBJC_IVAR_$_AWSSESKinesisFirehoseDestination._deliveryStreamARN
+_OBJC_IVAR_$_AWSSESKinesisFirehoseDestination._IAMRoleARN
+___block_descriptor_tmp.1155
+___block_literal_global.1156
+___block_descriptor_tmp.1161
+___block_literal_global.1162
+_OBJC_IVAR_$_AWSSESLambdaAction._functionArn
+_OBJC_IVAR_$_AWSSESLambdaAction._invocationType
+_OBJC_IVAR_$_AWSSESLambdaAction._topicArn
+_OBJC_IVAR_$_AWSSESListConfigurationSetsRequest._maxItems
+_OBJC_IVAR_$_AWSSESListConfigurationSetsRequest._nextToken
+_OBJC_IVAR_$_AWSSESListConfigurationSetsResponse._configurationSets
+_OBJC_IVAR_$_AWSSESListConfigurationSetsResponse._nextToken
+_OBJC_IVAR_$_AWSSESListCustomVerificationEmailTemplatesRequest._maxResults
+_OBJC_IVAR_$_AWSSESListCustomVerificationEmailTemplatesRequest._nextToken
+_OBJC_IVAR_$_AWSSESListCustomVerificationEmailTemplatesResponse._customVerificationEmailTemplates
+_OBJC_IVAR_$_AWSSESListCustomVerificationEmailTemplatesResponse._nextToken
+___block_descriptor_tmp.1236
+___block_literal_global.1237
+___block_descriptor_tmp.1240
+___block_literal_global.1241
+_OBJC_IVAR_$_AWSSESListIdentitiesRequest._identityType
+_OBJC_IVAR_$_AWSSESListIdentitiesRequest._maxItems
+_OBJC_IVAR_$_AWSSESListIdentitiesRequest._nextToken
+_OBJC_IVAR_$_AWSSESListIdentitiesResponse._identities
+_OBJC_IVAR_$_AWSSESListIdentitiesResponse._nextToken
+_OBJC_IVAR_$_AWSSESListIdentityPoliciesRequest._identity
+_OBJC_IVAR_$_AWSSESListIdentityPoliciesResponse._policyNames
+_OBJC_IVAR_$_AWSSESListReceiptFiltersResponse._filters
+_OBJC_IVAR_$_AWSSESListReceiptRuleSetsRequest._nextToken
+_OBJC_IVAR_$_AWSSESListReceiptRuleSetsResponse._nextToken
+_OBJC_IVAR_$_AWSSESListReceiptRuleSetsResponse._ruleSets
+_OBJC_IVAR_$_AWSSESListTemplatesRequest._maxItems
+_OBJC_IVAR_$_AWSSESListTemplatesRequest._nextToken
+_OBJC_IVAR_$_AWSSESListTemplatesResponse._nextToken
+_OBJC_IVAR_$_AWSSESListTemplatesResponse._templatesMetadata
+_OBJC_IVAR_$_AWSSESListVerifiedEmailAddressesResponse._verifiedEmailAddresses
+_OBJC_IVAR_$_AWSSESMessage._body
+_OBJC_IVAR_$_AWSSESMessage._subject
+___block_descriptor_tmp.1346
+___block_literal_global.1347
+___block_descriptor_tmp.1352
+___block_literal_global.1353
+_OBJC_IVAR_$_AWSSESMessageDsn._arrivalDate
+_OBJC_IVAR_$_AWSSESMessageDsn._extensionFields
+_OBJC_IVAR_$_AWSSESMessageDsn._reportingMta
+_OBJC_IVAR_$_AWSSESMessageTag._name
+_OBJC_IVAR_$_AWSSESMessageTag._value
+_OBJC_IVAR_$_AWSSESPutIdentityPolicyRequest._identity
+_OBJC_IVAR_$_AWSSESPutIdentityPolicyRequest._policy
+_OBJC_IVAR_$_AWSSESPutIdentityPolicyRequest._policyName
+_OBJC_IVAR_$_AWSSESRawMessage._data
+_OBJC_IVAR_$_AWSSESReceiptAction._addHeaderAction
+_OBJC_IVAR_$_AWSSESReceiptAction._bounceAction
+_OBJC_IVAR_$_AWSSESReceiptAction._lambdaAction
+_OBJC_IVAR_$_AWSSESReceiptAction._s3Action
+_OBJC_IVAR_$_AWSSESReceiptAction._SNSAction
+_OBJC_IVAR_$_AWSSESReceiptAction._stopAction
+_OBJC_IVAR_$_AWSSESReceiptAction._workmailAction
+_OBJC_IVAR_$_AWSSESReceiptFilter._ipFilter
+_OBJC_IVAR_$_AWSSESReceiptFilter._name
+___block_descriptor_tmp.1497
+___block_literal_global.1498
+___block_descriptor_tmp.1503
+___block_literal_global.1504
+_OBJC_IVAR_$_AWSSESReceiptIpFilter._cidr
+_OBJC_IVAR_$_AWSSESReceiptIpFilter._policy
+___block_descriptor_tmp.1531
+___block_literal_global.1532
+___block_descriptor_tmp.1537
+___block_literal_global.1538
+_OBJC_IVAR_$_AWSSESReceiptRule._actions
+_OBJC_IVAR_$_AWSSESReceiptRule._enabled
+_OBJC_IVAR_$_AWSSESReceiptRule._name
+_OBJC_IVAR_$_AWSSESReceiptRule._recipients
+_OBJC_IVAR_$_AWSSESReceiptRule._scanEnabled
+_OBJC_IVAR_$_AWSSESReceiptRule._tlsPolicy
+___block_descriptor_tmp.1567
+___block_literal_global.1568
+___block_descriptor_tmp.1569
+___block_literal_global.1570
+_OBJC_IVAR_$_AWSSESReceiptRuleSetMetadata._createdTimestamp
+_OBJC_IVAR_$_AWSSESReceiptRuleSetMetadata._name
+___block_descriptor_tmp.1599
+___block_literal_global.1600
+___block_descriptor_tmp.1611
+___block_literal_global.1612
+___block_descriptor_tmp.1613
+___block_literal_global.1614
+___block_descriptor_tmp.1615
+___block_literal_global.1616
+_OBJC_IVAR_$_AWSSESRecipientDsnFields._action
+_OBJC_IVAR_$_AWSSESRecipientDsnFields._diagnosticCode
+_OBJC_IVAR_$_AWSSESRecipientDsnFields._extensionFields
+_OBJC_IVAR_$_AWSSESRecipientDsnFields._finalRecipient
+_OBJC_IVAR_$_AWSSESRecipientDsnFields._lastAttemptDate
+_OBJC_IVAR_$_AWSSESRecipientDsnFields._remoteMta
+_OBJC_IVAR_$_AWSSESRecipientDsnFields._status
+_OBJC_IVAR_$_AWSSESReorderReceiptRuleSetRequest._ruleNames
+_OBJC_IVAR_$_AWSSESReorderReceiptRuleSetRequest._ruleSetName
+___block_descriptor_tmp.1671
+___block_literal_global.1672
+___block_descriptor_tmp.1673
+___block_literal_global.1674
+_OBJC_IVAR_$_AWSSESReputationOptions._lastFreshStart
+_OBJC_IVAR_$_AWSSESReputationOptions._reputationMetricsEnabled
+_OBJC_IVAR_$_AWSSESReputationOptions._sendingEnabled
+_OBJC_IVAR_$_AWSSESS3Action._bucketName
+_OBJC_IVAR_$_AWSSESS3Action._kmsKeyArn
+_OBJC_IVAR_$_AWSSESS3Action._objectKeyPrefix
+_OBJC_IVAR_$_AWSSESS3Action._topicArn
+___block_descriptor_tmp.1726
+___block_literal_global.1727
+___block_descriptor_tmp.1732
+___block_literal_global.1733
+_OBJC_IVAR_$_AWSSESSNSAction._encoding
+_OBJC_IVAR_$_AWSSESSNSAction._topicArn
+_OBJC_IVAR_$_AWSSESSNSDestination._topicARN
+_OBJC_IVAR_$_AWSSESSendBounceRequest._bounceSender
+_OBJC_IVAR_$_AWSSESSendBounceRequest._bounceSenderArn
+_OBJC_IVAR_$_AWSSESSendBounceRequest._bouncedRecipientInfoList
+_OBJC_IVAR_$_AWSSESSendBounceRequest._explanation
+_OBJC_IVAR_$_AWSSESSendBounceRequest._messageDsn
+_OBJC_IVAR_$_AWSSESSendBounceRequest._originalMessageId
+_OBJC_IVAR_$_AWSSESSendBounceResponse._messageId
+_OBJC_IVAR_$_AWSSESSendBulkTemplatedEmailRequest._configurationSetName
+_OBJC_IVAR_$_AWSSESSendBulkTemplatedEmailRequest._defaultTags
+_OBJC_IVAR_$_AWSSESSendBulkTemplatedEmailRequest._defaultTemplateData
+_OBJC_IVAR_$_AWSSESSendBulkTemplatedEmailRequest._destinations
+_OBJC_IVAR_$_AWSSESSendBulkTemplatedEmailRequest._replyToAddresses
+_OBJC_IVAR_$_AWSSESSendBulkTemplatedEmailRequest._returnPath
+_OBJC_IVAR_$_AWSSESSendBulkTemplatedEmailRequest._returnPathArn
+_OBJC_IVAR_$_AWSSESSendBulkTemplatedEmailRequest._source
+_OBJC_IVAR_$_AWSSESSendBulkTemplatedEmailRequest._sourceArn
+_OBJC_IVAR_$_AWSSESSendBulkTemplatedEmailRequest._template
+_OBJC_IVAR_$_AWSSESSendBulkTemplatedEmailRequest._templateArn
+_OBJC_IVAR_$_AWSSESSendBulkTemplatedEmailResponse._status
+_OBJC_IVAR_$_AWSSESSendCustomVerificationEmailRequest._configurationSetName
+_OBJC_IVAR_$_AWSSESSendCustomVerificationEmailRequest._emailAddress
+_OBJC_IVAR_$_AWSSESSendCustomVerificationEmailRequest._templateName
+_OBJC_IVAR_$_AWSSESSendCustomVerificationEmailResponse._messageId
+___block_descriptor_tmp.1931
+___block_literal_global.1932
+___block_descriptor_tmp.1933
+___block_literal_global.1934
+_OBJC_IVAR_$_AWSSESSendDataPoint._bounces
+_OBJC_IVAR_$_AWSSESSendDataPoint._complaints
+_OBJC_IVAR_$_AWSSESSendDataPoint._deliveryAttempts
+_OBJC_IVAR_$_AWSSESSendDataPoint._rejects
+_OBJC_IVAR_$_AWSSESSendDataPoint._timestamp
+_OBJC_IVAR_$_AWSSESSendEmailRequest._configurationSetName
+_OBJC_IVAR_$_AWSSESSendEmailRequest._destination
+_OBJC_IVAR_$_AWSSESSendEmailRequest._message
+_OBJC_IVAR_$_AWSSESSendEmailRequest._replyToAddresses
+_OBJC_IVAR_$_AWSSESSendEmailRequest._returnPath
+_OBJC_IVAR_$_AWSSESSendEmailRequest._returnPathArn
+_OBJC_IVAR_$_AWSSESSendEmailRequest._source
+_OBJC_IVAR_$_AWSSESSendEmailRequest._sourceArn
+_OBJC_IVAR_$_AWSSESSendEmailRequest._tags
+_OBJC_IVAR_$_AWSSESSendEmailResponse._messageId
+_OBJC_IVAR_$_AWSSESSendRawEmailRequest._configurationSetName
+_OBJC_IVAR_$_AWSSESSendRawEmailRequest._destinations
+_OBJC_IVAR_$_AWSSESSendRawEmailRequest._fromArn
+_OBJC_IVAR_$_AWSSESSendRawEmailRequest._rawMessage
+_OBJC_IVAR_$_AWSSESSendRawEmailRequest._returnPathArn
+_OBJC_IVAR_$_AWSSESSendRawEmailRequest._source
+_OBJC_IVAR_$_AWSSESSendRawEmailRequest._sourceArn
+_OBJC_IVAR_$_AWSSESSendRawEmailRequest._tags
+_OBJC_IVAR_$_AWSSESSendRawEmailResponse._messageId
+_OBJC_IVAR_$_AWSSESSendTemplatedEmailRequest._configurationSetName
+_OBJC_IVAR_$_AWSSESSendTemplatedEmailRequest._destination
+_OBJC_IVAR_$_AWSSESSendTemplatedEmailRequest._replyToAddresses
+_OBJC_IVAR_$_AWSSESSendTemplatedEmailRequest._returnPath
+_OBJC_IVAR_$_AWSSESSendTemplatedEmailRequest._returnPathArn
+_OBJC_IVAR_$_AWSSESSendTemplatedEmailRequest._source
+_OBJC_IVAR_$_AWSSESSendTemplatedEmailRequest._sourceArn
+_OBJC_IVAR_$_AWSSESSendTemplatedEmailRequest._tags
+_OBJC_IVAR_$_AWSSESSendTemplatedEmailRequest._template
+_OBJC_IVAR_$_AWSSESSendTemplatedEmailRequest._templateArn
+_OBJC_IVAR_$_AWSSESSendTemplatedEmailRequest._templateData
+_OBJC_IVAR_$_AWSSESSendTemplatedEmailResponse._messageId
+_OBJC_IVAR_$_AWSSESSetActiveReceiptRuleSetRequest._ruleSetName
+_OBJC_IVAR_$_AWSSESSetIdentityDkimEnabledRequest._dkimEnabled
+_OBJC_IVAR_$_AWSSESSetIdentityDkimEnabledRequest._identity
+_OBJC_IVAR_$_AWSSESSetIdentityFeedbackForwardingEnabledRequest._forwardingEnabled
+_OBJC_IVAR_$_AWSSESSetIdentityFeedbackForwardingEnabledRequest._identity
+___block_descriptor_tmp.2032
+___block_literal_global.2033
+___block_descriptor_tmp.2040
+___block_literal_global.2041
+_OBJC_IVAR_$_AWSSESSetIdentityHeadersInNotificationsEnabledRequest._enabled
+_OBJC_IVAR_$_AWSSESSetIdentityHeadersInNotificationsEnabledRequest._identity
+_OBJC_IVAR_$_AWSSESSetIdentityHeadersInNotificationsEnabledRequest._notificationType
+___block_descriptor_tmp.2051
+___block_literal_global.2052
+___block_descriptor_tmp.2053
+___block_literal_global.2054
+_OBJC_IVAR_$_AWSSESSetIdentityMailFromDomainRequest._behaviorOnMXFailure
+_OBJC_IVAR_$_AWSSESSetIdentityMailFromDomainRequest._identity
+_OBJC_IVAR_$_AWSSESSetIdentityMailFromDomainRequest._mailFromDomain
+___block_descriptor_tmp.2062
+___block_literal_global.2063
+___block_descriptor_tmp.2064
+___block_literal_global.2065
+_OBJC_IVAR_$_AWSSESSetIdentityNotificationTopicRequest._identity
+_OBJC_IVAR_$_AWSSESSetIdentityNotificationTopicRequest._notificationType
+_OBJC_IVAR_$_AWSSESSetIdentityNotificationTopicRequest._snsTopic
+_OBJC_IVAR_$_AWSSESSetReceiptRulePositionRequest._after
+_OBJC_IVAR_$_AWSSESSetReceiptRulePositionRequest._ruleName
+_OBJC_IVAR_$_AWSSESSetReceiptRulePositionRequest._ruleSetName
+___block_descriptor_tmp.2081
+___block_literal_global.2082
+___block_descriptor_tmp.2085
+___block_literal_global.2086
+_OBJC_IVAR_$_AWSSESStopAction._scope
+_OBJC_IVAR_$_AWSSESStopAction._topicArn
+_OBJC_IVAR_$_AWSSESTemplate._htmlPart
+_OBJC_IVAR_$_AWSSESTemplate._subjectPart
+_OBJC_IVAR_$_AWSSESTemplate._templateName
+_OBJC_IVAR_$_AWSSESTemplate._textPart
+___block_descriptor_tmp.2124
+___block_literal_global.2125
+___block_descriptor_tmp.2126
+___block_literal_global.2127
+_OBJC_IVAR_$_AWSSESTemplateMetadata._createdTimestamp
+_OBJC_IVAR_$_AWSSESTemplateMetadata._name
+_OBJC_IVAR_$_AWSSESTestRenderTemplateRequest._templateData
+_OBJC_IVAR_$_AWSSESTestRenderTemplateRequest._templateName
+_OBJC_IVAR_$_AWSSESTestRenderTemplateResponse._renderedTemplate
+_OBJC_IVAR_$_AWSSESTrackingOptions._customRedirectDomain
+_OBJC_IVAR_$_AWSSESUpdateAccountSendingEnabledRequest._enabled
+_OBJC_IVAR_$_AWSSESUpdateConfigurationSetEventDestinationRequest._configurationSetName
+_OBJC_IVAR_$_AWSSESUpdateConfigurationSetEventDestinationRequest._eventDestination
+_OBJC_IVAR_$_AWSSESUpdateConfigurationSetReputationMetricsEnabledRequest._configurationSetName
+_OBJC_IVAR_$_AWSSESUpdateConfigurationSetReputationMetricsEnabledRequest._enabled
+_OBJC_IVAR_$_AWSSESUpdateConfigurationSetSendingEnabledRequest._configurationSetName
+_OBJC_IVAR_$_AWSSESUpdateConfigurationSetSendingEnabledRequest._enabled
+_OBJC_IVAR_$_AWSSESUpdateConfigurationSetTrackingOptionsRequest._configurationSetName
+_OBJC_IVAR_$_AWSSESUpdateConfigurationSetTrackingOptionsRequest._trackingOptions
+_OBJC_IVAR_$_AWSSESUpdateCustomVerificationEmailTemplateRequest._failureRedirectionURL
+_OBJC_IVAR_$_AWSSESUpdateCustomVerificationEmailTemplateRequest._fromEmailAddress
+_OBJC_IVAR_$_AWSSESUpdateCustomVerificationEmailTemplateRequest._successRedirectionURL
+_OBJC_IVAR_$_AWSSESUpdateCustomVerificationEmailTemplateRequest._templateContent
+_OBJC_IVAR_$_AWSSESUpdateCustomVerificationEmailTemplateRequest._templateName
+_OBJC_IVAR_$_AWSSESUpdateCustomVerificationEmailTemplateRequest._templateSubject
+_OBJC_IVAR_$_AWSSESUpdateReceiptRuleRequest._rule
+_OBJC_IVAR_$_AWSSESUpdateReceiptRuleRequest._ruleSetName
+_OBJC_IVAR_$_AWSSESUpdateTemplateRequest._template
+_OBJC_IVAR_$_AWSSESVerifyDomainDkimRequest._domain
+_OBJC_IVAR_$_AWSSESVerifyDomainDkimResponse._dkimTokens
+_OBJC_IVAR_$_AWSSESVerifyDomainIdentityRequest._domain
+_OBJC_IVAR_$_AWSSESVerifyDomainIdentityResponse._verificationToken
+_OBJC_IVAR_$_AWSSESVerifyEmailAddressRequest._emailAddress
+_OBJC_IVAR_$_AWSSESVerifyEmailIdentityRequest._emailAddress
+_OBJC_IVAR_$_AWSSESWorkmailAction._organizationArn
+_OBJC_IVAR_$_AWSSESWorkmailAction._topicArn
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/distiller/project/AWSSES/AWSSESModel.m
+/Users/distiller/project
+/Users/distiller/project/AWSSES/AWSSESModel.h
+__57+[AWSSESTemplateMetadata createdTimestampJSONTransformer]_block_invoke_2
+__57+[AWSSESTemplateMetadata createdTimestampJSONTransformer]_block_invoke
+__40+[AWSSESStopAction scopeJSONTransformer]_block_invoke_2
+__40+[AWSSESStopAction scopeJSONTransformer]_block_invoke
+__76+[AWSSESSetIdentityNotificationTopicRequest notificationTypeJSONTransformer]_block_invoke_2
+__76+[AWSSESSetIdentityNotificationTopicRequest notificationTypeJSONTransformer]_block_invoke
+__76+[AWSSESSetIdentityMailFromDomainRequest behaviorOnMXFailureJSONTransformer]_block_invoke_2
+__76+[AWSSESSetIdentityMailFromDomainRequest behaviorOnMXFailureJSONTransformer]_block_invoke
+__88+[AWSSESSetIdentityHeadersInNotificationsEnabledRequest notificationTypeJSONTransformer]_block_invoke_2
+__88+[AWSSESSetIdentityHeadersInNotificationsEnabledRequest notificationTypeJSONTransformer]_block_invoke
+__47+[AWSSESSendDataPoint timestampJSONTransformer]_block_invoke_2
+__47+[AWSSESSendDataPoint timestampJSONTransformer]_block_invoke
+__42+[AWSSESSNSAction encodingJSONTransformer]_block_invoke_2
+__42+[AWSSESSNSAction encodingJSONTransformer]_block_invoke
+__56+[AWSSESReputationOptions lastFreshStartJSONTransformer]_block_invoke_2
+__56+[AWSSESReputationOptions lastFreshStartJSONTransformer]_block_invoke
+__58+[AWSSESRecipientDsnFields lastAttemptDateJSONTransformer]_block_invoke_2
+__58+[AWSSESRecipientDsnFields lastAttemptDateJSONTransformer]_block_invoke
+__49+[AWSSESRecipientDsnFields actionJSONTransformer]_block_invoke_2
+__49+[AWSSESRecipientDsnFields actionJSONTransformer]_block_invoke
+__63+[AWSSESReceiptRuleSetMetadata createdTimestampJSONTransformer]_block_invoke_2
+__63+[AWSSESReceiptRuleSetMetadata createdTimestampJSONTransformer]_block_invoke
+__45+[AWSSESReceiptRule tlsPolicyJSONTransformer]_block_invoke_2
+__45+[AWSSESReceiptRule tlsPolicyJSONTransformer]_block_invoke
+__46+[AWSSESReceiptIpFilter policyJSONTransformer]_block_invoke_2
+__46+[AWSSESReceiptIpFilter policyJSONTransformer]_block_invoke
+__46+[AWSSESMessageDsn arrivalDateJSONTransformer]_block_invoke_2
+__46+[AWSSESMessageDsn arrivalDateJSONTransformer]_block_invoke
+__58+[AWSSESListIdentitiesRequest identityTypeJSONTransformer]_block_invoke_2
+__58+[AWSSESListIdentitiesRequest identityTypeJSONTransformer]_block_invoke
+__51+[AWSSESLambdaAction invocationTypeJSONTransformer]_block_invoke_2
+__51+[AWSSESLambdaAction invocationTypeJSONTransformer]_block_invoke
+__73+[AWSSESIdentityVerificationAttributes verificationStatusJSONTransformer]_block_invoke_2
+__73+[AWSSESIdentityVerificationAttributes verificationStatusJSONTransformer]_block_invoke
+__77+[AWSSESIdentityMailFromDomainAttributes mailFromDomainStatusJSONTransformer]_block_invoke_2
+__77+[AWSSESIdentityMailFromDomainAttributes mailFromDomainStatusJSONTransformer]_block_invoke
+__76+[AWSSESIdentityMailFromDomainAttributes behaviorOnMXFailureJSONTransformer]_block_invoke_2
+__76+[AWSSESIdentityMailFromDomainAttributes behaviorOnMXFailureJSONTransformer]_block_invoke
+__69+[AWSSESIdentityDkimAttributes dkimVerificationStatusJSONTransformer]_block_invoke_2
+__69+[AWSSESIdentityDkimAttributes dkimVerificationStatusJSONTransformer]_block_invoke
+__88+[AWSSESGetIdentityVerificationAttributesResponse verificationAttributesJSONTransformer]_block_invoke_2
+__88+[AWSSESGetIdentityVerificationAttributesResponse verificationAttributesJSONTransformer]_block_invoke
+__88+[AWSSESGetIdentityNotificationAttributesResponse notificationAttributesJSONTransformer]_block_invoke_2
+__88+[AWSSESGetIdentityNotificationAttributesResponse notificationAttributesJSONTransformer]_block_invoke
+__92+[AWSSESGetIdentityMailFromDomainAttributesResponse mailFromDomainAttributesJSONTransformer]_block_invoke_2
+__92+[AWSSESGetIdentityMailFromDomainAttributesResponse mailFromDomainAttributesJSONTransformer]_block_invoke
+__72+[AWSSESGetIdentityDkimAttributesResponse dkimAttributesJSONTransformer]_block_invoke_2
+__72+[AWSSESGetIdentityDkimAttributesResponse dkimAttributesJSONTransformer]_block_invoke
+__77+[AWSSESCloudWatchDimensionConfiguration dimensionValueSourceJSONTransformer]_block_invoke_2
+__77+[AWSSESCloudWatchDimensionConfiguration dimensionValueSourceJSONTransformer]_block_invoke
+__57+[AWSSESBulkEmailDestinationStatus statusJSONTransformer]_block_invoke_2
+__57+[AWSSESBulkEmailDestinationStatus statusJSONTransformer]_block_invoke
+__55+[AWSSESBouncedRecipientInfo bounceTypeJSONTransformer]_block_invoke_2
+__55+[AWSSESBouncedRecipientInfo bounceTypeJSONTransformer]_block_invoke
++[AWSSESResponseSerializer initialize]
+-[AWSSESResponseSerializer responseObjectForResponse:originalRequest:currentRequest:data:error:]
++[AWSSES initialize]
++[AWSSES defaultSES]
+___20+[AWSSES defaultSES]_block_invoke
++[AWSSES registerSESWithConfiguration:forKey:]
+___46+[AWSSES registerSESWithConfiguration:forKey:]_block_invoke
++[AWSSES SESForKey:]
++[AWSSES removeSESForKey:]
+-[AWSSES init]
+-[AWSSES initWithConfiguration:]
+-[AWSSES invokeRequest:HTTPMethod:URLString:targetPrefix:operationName:outputClass:]
+-[AWSSES cloneReceiptRuleSet:]
+-[AWSSES cloneReceiptRuleSet:completionHandler:]
+___48-[AWSSES cloneReceiptRuleSet:completionHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[AWSSES createConfigurationSet:]
+-[AWSSES createConfigurationSet:completionHandler:]
+___51-[AWSSES createConfigurationSet:completionHandler:]_block_invoke
+___copy_helper_block_.248
+___destroy_helper_block_.249
+-[AWSSES createConfigurationSetEventDestination:]
+-[AWSSES createConfigurationSetEventDestination:completionHandler:]
+___67-[AWSSES createConfigurationSetEventDestination:completionHandler:]_block_invoke
+___copy_helper_block_.256
+___destroy_helper_block_.257
+-[AWSSES createConfigurationSetTrackingOptions:]
+-[AWSSES createConfigurationSetTrackingOptions:completionHandler:]
+___66-[AWSSES createConfigurationSetTrackingOptions:completionHandler:]_block_invoke
+___copy_helper_block_.264
+___destroy_helper_block_.265
+-[AWSSES createCustomVerificationEmailTemplate:]
+-[AWSSES createCustomVerificationEmailTemplate:completionHandler:]
+___66-[AWSSES createCustomVerificationEmailTemplate:completionHandler:]_block_invoke
+___copy_helper_block_.271
+___destroy_helper_block_.272
+-[AWSSES createReceiptFilter:]
+-[AWSSES createReceiptFilter:completionHandler:]
+___48-[AWSSES createReceiptFilter:completionHandler:]_block_invoke
+___copy_helper_block_.279
+___destroy_helper_block_.280
+-[AWSSES createReceiptRule:]
+-[AWSSES createReceiptRule:completionHandler:]
+___46-[AWSSES createReceiptRule:completionHandler:]_block_invoke
+___copy_helper_block_.287
+___destroy_helper_block_.288
+-[AWSSES createReceiptRuleSet:]
+-[AWSSES createReceiptRuleSet:completionHandler:]
+___49-[AWSSES createReceiptRuleSet:completionHandler:]_block_invoke
+___copy_helper_block_.295
+___destroy_helper_block_.296
+-[AWSSES createTemplate:]
+-[AWSSES createTemplate:completionHandler:]
+___43-[AWSSES createTemplate:completionHandler:]_block_invoke
+___copy_helper_block_.303
+___destroy_helper_block_.304
+-[AWSSES deleteConfigurationSet:]
+-[AWSSES deleteConfigurationSet:completionHandler:]
+___51-[AWSSES deleteConfigurationSet:completionHandler:]_block_invoke
+___copy_helper_block_.311
+___destroy_helper_block_.312
+-[AWSSES deleteConfigurationSetEventDestination:]
+-[AWSSES deleteConfigurationSetEventDestination:completionHandler:]
+___67-[AWSSES deleteConfigurationSetEventDestination:completionHandler:]_block_invoke
+___copy_helper_block_.319
+___destroy_helper_block_.320
+-[AWSSES deleteConfigurationSetTrackingOptions:]
+-[AWSSES deleteConfigurationSetTrackingOptions:completionHandler:]
+___66-[AWSSES deleteConfigurationSetTrackingOptions:completionHandler:]_block_invoke
+___copy_helper_block_.327
+___destroy_helper_block_.328
+-[AWSSES deleteCustomVerificationEmailTemplate:]
+-[AWSSES deleteCustomVerificationEmailTemplate:completionHandler:]
+___66-[AWSSES deleteCustomVerificationEmailTemplate:completionHandler:]_block_invoke
+___copy_helper_block_.334
+___destroy_helper_block_.335
+-[AWSSES deleteIdentity:]
+-[AWSSES deleteIdentity:completionHandler:]
+___43-[AWSSES deleteIdentity:completionHandler:]_block_invoke
+___copy_helper_block_.342
+___destroy_helper_block_.343
+-[AWSSES deleteIdentityPolicy:]
+-[AWSSES deleteIdentityPolicy:completionHandler:]
+___49-[AWSSES deleteIdentityPolicy:completionHandler:]_block_invoke
+___copy_helper_block_.350
+___destroy_helper_block_.351
+-[AWSSES deleteReceiptFilter:]
+-[AWSSES deleteReceiptFilter:completionHandler:]
+___48-[AWSSES deleteReceiptFilter:completionHandler:]_block_invoke
+___copy_helper_block_.358
+___destroy_helper_block_.359
+-[AWSSES deleteReceiptRule:]
+-[AWSSES deleteReceiptRule:completionHandler:]
+___46-[AWSSES deleteReceiptRule:completionHandler:]_block_invoke
+___copy_helper_block_.366
+___destroy_helper_block_.367
+-[AWSSES deleteReceiptRuleSet:]
+-[AWSSES deleteReceiptRuleSet:completionHandler:]
+___49-[AWSSES deleteReceiptRuleSet:completionHandler:]_block_invoke
+___copy_helper_block_.374
+___destroy_helper_block_.375
+-[AWSSES deleteTemplate:]
+-[AWSSES deleteTemplate:completionHandler:]
+___43-[AWSSES deleteTemplate:completionHandler:]_block_invoke
+___copy_helper_block_.382
+___destroy_helper_block_.383
+-[AWSSES deleteVerifiedEmailAddress:]
+-[AWSSES deleteVerifiedEmailAddress:completionHandler:]
+___55-[AWSSES deleteVerifiedEmailAddress:completionHandler:]_block_invoke
+___copy_helper_block_.389
+___destroy_helper_block_.390
+-[AWSSES describeActiveReceiptRuleSet:]
+-[AWSSES describeActiveReceiptRuleSet:completionHandler:]
+___57-[AWSSES describeActiveReceiptRuleSet:completionHandler:]_block_invoke
+___copy_helper_block_.397
+___destroy_helper_block_.398
+-[AWSSES describeConfigurationSet:]
+-[AWSSES describeConfigurationSet:completionHandler:]
+___53-[AWSSES describeConfigurationSet:completionHandler:]_block_invoke
+___copy_helper_block_.405
+___destroy_helper_block_.406
+-[AWSSES describeReceiptRule:]
+-[AWSSES describeReceiptRule:completionHandler:]
+___48-[AWSSES describeReceiptRule:completionHandler:]_block_invoke
+___copy_helper_block_.413
+___destroy_helper_block_.414
+-[AWSSES describeReceiptRuleSet:]
+-[AWSSES describeReceiptRuleSet:completionHandler:]
+___51-[AWSSES describeReceiptRuleSet:completionHandler:]_block_invoke
+___copy_helper_block_.421
+___destroy_helper_block_.422
+-[AWSSES getAccountSendingEnabled:]
+-[AWSSES getAccountSendingEnabled:completionHandler:]
+___53-[AWSSES getAccountSendingEnabled:completionHandler:]_block_invoke
+___copy_helper_block_.429
+___destroy_helper_block_.430
+-[AWSSES getCustomVerificationEmailTemplate:]
+-[AWSSES getCustomVerificationEmailTemplate:completionHandler:]
+___63-[AWSSES getCustomVerificationEmailTemplate:completionHandler:]_block_invoke
+___copy_helper_block_.437
+___destroy_helper_block_.438
+-[AWSSES getIdentityDkimAttributes:]
+-[AWSSES getIdentityDkimAttributes:completionHandler:]
+___54-[AWSSES getIdentityDkimAttributes:completionHandler:]_block_invoke
+___copy_helper_block_.445
+___destroy_helper_block_.446
+-[AWSSES getIdentityMailFromDomainAttributes:]
+-[AWSSES getIdentityMailFromDomainAttributes:completionHandler:]
+___64-[AWSSES getIdentityMailFromDomainAttributes:completionHandler:]_block_invoke
+___copy_helper_block_.453
+___destroy_helper_block_.454
+-[AWSSES getIdentityNotificationAttributes:]
+-[AWSSES getIdentityNotificationAttributes:completionHandler:]
+___62-[AWSSES getIdentityNotificationAttributes:completionHandler:]_block_invoke
+___copy_helper_block_.461
+___destroy_helper_block_.462
+-[AWSSES getIdentityPolicies:]
+-[AWSSES getIdentityPolicies:completionHandler:]
+___48-[AWSSES getIdentityPolicies:completionHandler:]_block_invoke
+___copy_helper_block_.469
+___destroy_helper_block_.470
+-[AWSSES getIdentityVerificationAttributes:]
+-[AWSSES getIdentityVerificationAttributes:completionHandler:]
+___62-[AWSSES getIdentityVerificationAttributes:completionHandler:]_block_invoke
+___copy_helper_block_.477
+___destroy_helper_block_.478
+-[AWSSES getSendQuota:]
+-[AWSSES getSendQuota:completionHandler:]
+___41-[AWSSES getSendQuota:completionHandler:]_block_invoke
+___copy_helper_block_.485
+___destroy_helper_block_.486
+-[AWSSES getSendStatistics:]
+-[AWSSES getSendStatistics:completionHandler:]
+___46-[AWSSES getSendStatistics:completionHandler:]_block_invoke
+___copy_helper_block_.493
+___destroy_helper_block_.494
+-[AWSSES getTemplate:]
+-[AWSSES getTemplate:completionHandler:]
+___40-[AWSSES getTemplate:completionHandler:]_block_invoke
+___copy_helper_block_.501
+___destroy_helper_block_.502
+-[AWSSES listConfigurationSets:]
+-[AWSSES listConfigurationSets:completionHandler:]
+___50-[AWSSES listConfigurationSets:completionHandler:]_block_invoke
+___copy_helper_block_.509
+___destroy_helper_block_.510
+-[AWSSES listCustomVerificationEmailTemplates:]
+-[AWSSES listCustomVerificationEmailTemplates:completionHandler:]
+___65-[AWSSES listCustomVerificationEmailTemplates:completionHandler:]_block_invoke
+___copy_helper_block_.517
+___destroy_helper_block_.518
+-[AWSSES listIdentities:]
+-[AWSSES listIdentities:completionHandler:]
+___43-[AWSSES listIdentities:completionHandler:]_block_invoke
+___copy_helper_block_.525
+___destroy_helper_block_.526
+-[AWSSES listIdentityPolicies:]
+-[AWSSES listIdentityPolicies:completionHandler:]
+___49-[AWSSES listIdentityPolicies:completionHandler:]_block_invoke
+___copy_helper_block_.533
+___destroy_helper_block_.534
+-[AWSSES listReceiptFilters:]
+-[AWSSES listReceiptFilters:completionHandler:]
+___47-[AWSSES listReceiptFilters:completionHandler:]_block_invoke
+___copy_helper_block_.541
+___destroy_helper_block_.542
+-[AWSSES listReceiptRuleSets:]
+-[AWSSES listReceiptRuleSets:completionHandler:]
+___48-[AWSSES listReceiptRuleSets:completionHandler:]_block_invoke
+___copy_helper_block_.549
+___destroy_helper_block_.550
+-[AWSSES listTemplates:]
+-[AWSSES listTemplates:completionHandler:]
+___42-[AWSSES listTemplates:completionHandler:]_block_invoke
+___copy_helper_block_.557
+___destroy_helper_block_.558
+-[AWSSES listVerifiedEmailAddresses:]
+-[AWSSES listVerifiedEmailAddresses:completionHandler:]
+___55-[AWSSES listVerifiedEmailAddresses:completionHandler:]_block_invoke
+___copy_helper_block_.565
+___destroy_helper_block_.566
+-[AWSSES putIdentityPolicy:]
+-[AWSSES putIdentityPolicy:completionHandler:]
+___46-[AWSSES putIdentityPolicy:completionHandler:]_block_invoke
+___copy_helper_block_.573
+___destroy_helper_block_.574
+-[AWSSES reorderReceiptRuleSet:]
+-[AWSSES reorderReceiptRuleSet:completionHandler:]
+___50-[AWSSES reorderReceiptRuleSet:completionHandler:]_block_invoke
+___copy_helper_block_.581
+___destroy_helper_block_.582
+-[AWSSES sendBounce:]
+-[AWSSES sendBounce:completionHandler:]
+___39-[AWSSES sendBounce:completionHandler:]_block_invoke
+___copy_helper_block_.589
+___destroy_helper_block_.590
+-[AWSSES sendBulkTemplatedEmail:]
+-[AWSSES sendBulkTemplatedEmail:completionHandler:]
+___51-[AWSSES sendBulkTemplatedEmail:completionHandler:]_block_invoke
+___copy_helper_block_.597
+___destroy_helper_block_.598
+-[AWSSES sendCustomVerificationEmail:]
+-[AWSSES sendCustomVerificationEmail:completionHandler:]
+___56-[AWSSES sendCustomVerificationEmail:completionHandler:]_block_invoke
+___copy_helper_block_.605
+___destroy_helper_block_.606
+-[AWSSES sendEmail:]
+-[AWSSES sendEmail:completionHandler:]
+___38-[AWSSES sendEmail:completionHandler:]_block_invoke
+___copy_helper_block_.613
+___destroy_helper_block_.614
+-[AWSSES sendRawEmail:]
+-[AWSSES sendRawEmail:completionHandler:]
+___41-[AWSSES sendRawEmail:completionHandler:]_block_invoke
+___copy_helper_block_.621
+___destroy_helper_block_.622
+-[AWSSES sendTemplatedEmail:]
+-[AWSSES sendTemplatedEmail:completionHandler:]
+___47-[AWSSES sendTemplatedEmail:completionHandler:]_block_invoke
+___copy_helper_block_.629
+___destroy_helper_block_.630
+-[AWSSES setActiveReceiptRuleSet:]
+-[AWSSES setActiveReceiptRuleSet:completionHandler:]
+___52-[AWSSES setActiveReceiptRuleSet:completionHandler:]_block_invoke
+___copy_helper_block_.637
+___destroy_helper_block_.638
+-[AWSSES setIdentityDkimEnabled:]
+-[AWSSES setIdentityDkimEnabled:completionHandler:]
+___51-[AWSSES setIdentityDkimEnabled:completionHandler:]_block_invoke
+___copy_helper_block_.645
+___destroy_helper_block_.646
+-[AWSSES setIdentityFeedbackForwardingEnabled:]
+-[AWSSES setIdentityFeedbackForwardingEnabled:completionHandler:]
+___65-[AWSSES setIdentityFeedbackForwardingEnabled:completionHandler:]_block_invoke
+___copy_helper_block_.653
+___destroy_helper_block_.654
+-[AWSSES setIdentityHeadersInNotificationsEnabled:]
+-[AWSSES setIdentityHeadersInNotificationsEnabled:completionHandler:]
+___69-[AWSSES setIdentityHeadersInNotificationsEnabled:completionHandler:]_block_invoke
+___copy_helper_block_.661
+___destroy_helper_block_.662
+-[AWSSES setIdentityMailFromDomain:]
+-[AWSSES setIdentityMailFromDomain:completionHandler:]
+___54-[AWSSES setIdentityMailFromDomain:completionHandler:]_block_invoke
+___copy_helper_block_.669
+___destroy_helper_block_.670
+-[AWSSES setIdentityNotificationTopic:]
+-[AWSSES setIdentityNotificationTopic:completionHandler:]
+___57-[AWSSES setIdentityNotificationTopic:completionHandler:]_block_invoke
+___copy_helper_block_.677
+___destroy_helper_block_.678
+-[AWSSES setReceiptRulePosition:]
+-[AWSSES setReceiptRulePosition:completionHandler:]
+___51-[AWSSES setReceiptRulePosition:completionHandler:]_block_invoke
+___copy_helper_block_.685
+___destroy_helper_block_.686
+-[AWSSES testRenderTemplate:]
+-[AWSSES testRenderTemplate:completionHandler:]
+___47-[AWSSES testRenderTemplate:completionHandler:]_block_invoke
+___copy_helper_block_.693
+___destroy_helper_block_.694
+-[AWSSES updateAccountSendingEnabled:]
+-[AWSSES updateAccountSendingEnabled:completionHandler:]
+___56-[AWSSES updateAccountSendingEnabled:completionHandler:]_block_invoke
+___copy_helper_block_.700
+___destroy_helper_block_.701
+-[AWSSES updateConfigurationSetEventDestination:]
+-[AWSSES updateConfigurationSetEventDestination:completionHandler:]
+___67-[AWSSES updateConfigurationSetEventDestination:completionHandler:]_block_invoke
+___copy_helper_block_.708
+___destroy_helper_block_.709
+-[AWSSES updateConfigurationSetReputationMetricsEnabled:]
+-[AWSSES updateConfigurationSetReputationMetricsEnabled:completionHandler:]
+___75-[AWSSES updateConfigurationSetReputationMetricsEnabled:completionHandler:]_block_invoke
+___copy_helper_block_.715
+___destroy_helper_block_.716
+-[AWSSES updateConfigurationSetSendingEnabled:]
+-[AWSSES updateConfigurationSetSendingEnabled:completionHandler:]
+___65-[AWSSES updateConfigurationSetSendingEnabled:completionHandler:]_block_invoke
+___copy_helper_block_.722
+___destroy_helper_block_.723
+-[AWSSES updateConfigurationSetTrackingOptions:]
+-[AWSSES updateConfigurationSetTrackingOptions:completionHandler:]
+___66-[AWSSES updateConfigurationSetTrackingOptions:completionHandler:]_block_invoke
+___copy_helper_block_.730
+___destroy_helper_block_.731
+-[AWSSES updateCustomVerificationEmailTemplate:]
+-[AWSSES updateCustomVerificationEmailTemplate:completionHandler:]
+___66-[AWSSES updateCustomVerificationEmailTemplate:completionHandler:]_block_invoke
+___copy_helper_block_.737
+___destroy_helper_block_.738
+-[AWSSES updateReceiptRule:]
+-[AWSSES updateReceiptRule:completionHandler:]
+___46-[AWSSES updateReceiptRule:completionHandler:]_block_invoke
+___copy_helper_block_.745
+___destroy_helper_block_.746
+-[AWSSES updateTemplate:]
+-[AWSSES updateTemplate:completionHandler:]
+___43-[AWSSES updateTemplate:completionHandler:]_block_invoke
+___copy_helper_block_.753
+___destroy_helper_block_.754
+-[AWSSES verifyDomainDkim:]
+-[AWSSES verifyDomainDkim:completionHandler:]
+___45-[AWSSES verifyDomainDkim:completionHandler:]_block_invoke
+___copy_helper_block_.761
+___destroy_helper_block_.762
+-[AWSSES verifyDomainIdentity:]
+-[AWSSES verifyDomainIdentity:completionHandler:]
+___49-[AWSSES verifyDomainIdentity:completionHandler:]_block_invoke
+___copy_helper_block_.769
+___destroy_helper_block_.770
+-[AWSSES verifyEmailAddress:]
+-[AWSSES verifyEmailAddress:completionHandler:]
+___47-[AWSSES verifyEmailAddress:completionHandler:]_block_invoke
+___copy_helper_block_.776
+___destroy_helper_block_.777
+-[AWSSES verifyEmailIdentity:]
+-[AWSSES verifyEmailIdentity:completionHandler:]
+___48-[AWSSES verifyEmailIdentity:completionHandler:]_block_invoke
+___copy_helper_block_.784
+___destroy_helper_block_.785
+-[AWSSES configuration]
+-[AWSSES setConfiguration:]
+-[AWSSES networking]
+-[AWSSES setNetworking:]
+-[AWSSES .cxx_destruct]
+_errorCodeDictionary
+__serviceClients
+_defaultSES._defaultSES
+_defaultSES.onceToken
+_registerSESWithConfiguration:forKey:.onceToken
+_OBJC_IVAR_$_AWSSES._configuration
+_OBJC_IVAR_$_AWSSES._networking
+___block_descriptor_tmp.240
+___block_descriptor_tmp.258
+___block_descriptor_tmp.266
+___block_descriptor_tmp.273
+___block_descriptor_tmp.281
+___block_descriptor_tmp.289
+___block_descriptor_tmp.297
+___block_descriptor_tmp.305
+___block_descriptor_tmp.313
+___block_descriptor_tmp.321
+___block_descriptor_tmp.329
+___block_descriptor_tmp.336
+___block_descriptor_tmp.344
+___block_descriptor_tmp.352
+___block_descriptor_tmp.360
+___block_descriptor_tmp.368
+___block_descriptor_tmp.376
+___block_descriptor_tmp.384
+___block_descriptor_tmp.391
+___block_descriptor_tmp.399
+___block_descriptor_tmp.407
+___block_descriptor_tmp.415
+___block_descriptor_tmp.423
+___block_descriptor_tmp.431
+___block_descriptor_tmp.439
+___block_descriptor_tmp.447
+___block_descriptor_tmp.455
+___block_descriptor_tmp.463
+___block_descriptor_tmp.471
+___block_descriptor_tmp.479
+___block_descriptor_tmp.487
+___block_descriptor_tmp.495
+___block_descriptor_tmp.503
+___block_descriptor_tmp.511
+___block_descriptor_tmp.519
+___block_descriptor_tmp.527
+___block_descriptor_tmp.535
+___block_descriptor_tmp.543
+___block_descriptor_tmp.551
+___block_descriptor_tmp.559
+___block_descriptor_tmp.567
+___block_descriptor_tmp.575
+___block_descriptor_tmp.583
+___block_descriptor_tmp.591
+___block_descriptor_tmp.599
+___block_descriptor_tmp.607
+___block_descriptor_tmp.615
+___block_descriptor_tmp.623
+___block_descriptor_tmp.631
+___block_descriptor_tmp.639
+___block_descriptor_tmp.647
+___block_descriptor_tmp.655
+___block_descriptor_tmp.663
+___block_descriptor_tmp.671
+___block_descriptor_tmp.679
+___block_descriptor_tmp.687
+___block_descriptor_tmp.695
+___block_descriptor_tmp.702
+___block_descriptor_tmp.710
+___block_descriptor_tmp.717
+___block_descriptor_tmp.724
+___block_descriptor_tmp.732
+___block_descriptor_tmp.739
+___block_descriptor_tmp.747
+___block_descriptor_tmp.755
+___block_descriptor_tmp.763
+___block_descriptor_tmp.771
+___block_descriptor_tmp.778
+___block_descriptor_tmp.786
+/Users/distiller/project/AWSSES/AWSSESService.m
+/Users/distiller/project/AWSSES/AWSSESService.h
+__destroy_helper_block_
+__copy_helper_block_
+__48-[AWSSES verifyEmailIdentity:completionHandler:]_block_invoke
+__47-[AWSSES verifyEmailAddress:completionHandler:]_block_invoke
+__49-[AWSSES verifyDomainIdentity:completionHandler:]_block_invoke
+__45-[AWSSES verifyDomainDkim:completionHandler:]_block_invoke
+__43-[AWSSES updateTemplate:completionHandler:]_block_invoke
+__46-[AWSSES updateReceiptRule:completionHandler:]_block_invoke
+__66-[AWSSES updateCustomVerificationEmailTemplate:completionHandler:]_block_invoke
+__66-[AWSSES updateConfigurationSetTrackingOptions:completionHandler:]_block_invoke
+__65-[AWSSES updateConfigurationSetSendingEnabled:completionHandler:]_block_invoke
+__75-[AWSSES updateConfigurationSetReputationMetricsEnabled:completionHandler:]_block_invoke
+__67-[AWSSES updateConfigurationSetEventDestination:completionHandler:]_block_invoke
+__56-[AWSSES updateAccountSendingEnabled:completionHandler:]_block_invoke
+__47-[AWSSES testRenderTemplate:completionHandler:]_block_invoke
+__51-[AWSSES setReceiptRulePosition:completionHandler:]_block_invoke
+__57-[AWSSES setIdentityNotificationTopic:completionHandler:]_block_invoke
+__54-[AWSSES setIdentityMailFromDomain:completionHandler:]_block_invoke
+__69-[AWSSES setIdentityHeadersInNotificationsEnabled:completionHandler:]_block_invoke
+__65-[AWSSES setIdentityFeedbackForwardingEnabled:completionHandler:]_block_invoke
+__51-[AWSSES setIdentityDkimEnabled:completionHandler:]_block_invoke
+__52-[AWSSES setActiveReceiptRuleSet:completionHandler:]_block_invoke
+__47-[AWSSES sendTemplatedEmail:completionHandler:]_block_invoke
+__41-[AWSSES sendRawEmail:completionHandler:]_block_invoke
+__38-[AWSSES sendEmail:completionHandler:]_block_invoke
+__56-[AWSSES sendCustomVerificationEmail:completionHandler:]_block_invoke
+__51-[AWSSES sendBulkTemplatedEmail:completionHandler:]_block_invoke
+__39-[AWSSES sendBounce:completionHandler:]_block_invoke
+__50-[AWSSES reorderReceiptRuleSet:completionHandler:]_block_invoke
+__46-[AWSSES putIdentityPolicy:completionHandler:]_block_invoke
+__55-[AWSSES listVerifiedEmailAddresses:completionHandler:]_block_invoke
+__42-[AWSSES listTemplates:completionHandler:]_block_invoke
+__48-[AWSSES listReceiptRuleSets:completionHandler:]_block_invoke
+__47-[AWSSES listReceiptFilters:completionHandler:]_block_invoke
+__49-[AWSSES listIdentityPolicies:completionHandler:]_block_invoke
+__43-[AWSSES listIdentities:completionHandler:]_block_invoke
+__65-[AWSSES listCustomVerificationEmailTemplates:completionHandler:]_block_invoke
+__50-[AWSSES listConfigurationSets:completionHandler:]_block_invoke
+__40-[AWSSES getTemplate:completionHandler:]_block_invoke
+__46-[AWSSES getSendStatistics:completionHandler:]_block_invoke
+__41-[AWSSES getSendQuota:completionHandler:]_block_invoke
+__62-[AWSSES getIdentityVerificationAttributes:completionHandler:]_block_invoke
+__48-[AWSSES getIdentityPolicies:completionHandler:]_block_invoke
+__62-[AWSSES getIdentityNotificationAttributes:completionHandler:]_block_invoke
+__64-[AWSSES getIdentityMailFromDomainAttributes:completionHandler:]_block_invoke
+__54-[AWSSES getIdentityDkimAttributes:completionHandler:]_block_invoke
+__63-[AWSSES getCustomVerificationEmailTemplate:completionHandler:]_block_invoke
+__53-[AWSSES getAccountSendingEnabled:completionHandler:]_block_invoke
+__51-[AWSSES describeReceiptRuleSet:completionHandler:]_block_invoke
+__48-[AWSSES describeReceiptRule:completionHandler:]_block_invoke
+__53-[AWSSES describeConfigurationSet:completionHandler:]_block_invoke
+__57-[AWSSES describeActiveReceiptRuleSet:completionHandler:]_block_invoke
+__55-[AWSSES deleteVerifiedEmailAddress:completionHandler:]_block_invoke
+__43-[AWSSES deleteTemplate:completionHandler:]_block_invoke
+__49-[AWSSES deleteReceiptRuleSet:completionHandler:]_block_invoke
+__46-[AWSSES deleteReceiptRule:completionHandler:]_block_invoke
+__48-[AWSSES deleteReceiptFilter:completionHandler:]_block_invoke
+__49-[AWSSES deleteIdentityPolicy:completionHandler:]_block_invoke
+__43-[AWSSES deleteIdentity:completionHandler:]_block_invoke
+__66-[AWSSES deleteCustomVerificationEmailTemplate:completionHandler:]_block_invoke
+__66-[AWSSES deleteConfigurationSetTrackingOptions:completionHandler:]_block_invoke
+__67-[AWSSES deleteConfigurationSetEventDestination:completionHandler:]_block_invoke
+__51-[AWSSES deleteConfigurationSet:completionHandler:]_block_invoke
+__43-[AWSSES createTemplate:completionHandler:]_block_invoke
+__49-[AWSSES createReceiptRuleSet:completionHandler:]_block_invoke
+__46-[AWSSES createReceiptRule:completionHandler:]_block_invoke
+__48-[AWSSES createReceiptFilter:completionHandler:]_block_invoke
+__66-[AWSSES createCustomVerificationEmailTemplate:completionHandler:]_block_invoke
+__66-[AWSSES createConfigurationSetTrackingOptions:completionHandler:]_block_invoke
+__67-[AWSSES createConfigurationSetEventDestination:completionHandler:]_block_invoke
+__51-[AWSSES createConfigurationSet:completionHandler:]_block_invoke
+__48-[AWSSES cloneReceiptRuleSet:completionHandler:]_block_invoke
+__46+[AWSSES registerSESWithConfiguration:forKey:]_block_invoke
+/Applications/Xcode-10.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/once.h
+__20+[AWSSES defaultSES]_block_invoke
++[AWSSESResources sharedInstance]
+___33+[AWSSESResources sharedInstance]_block_invoke
+-[AWSSESResources JSONObject]
+-[AWSSESResources init]
+-[AWSSESResources definitionString]
+-[AWSSESResources definitionDictionary]
+-[AWSSESResources setDefinitionDictionary:]
+-[AWSSESResources .cxx_destruct]
+_sharedInstance._sharedResources
+_sharedInstance.once_token
+_OBJC_IVAR_$_AWSSESResources._definitionDictionary
+/Users/distiller/project/AWSSES/AWSSESResources.m
+__33+[AWSSESResources sharedInstance]_block_invoke
+/Users/distiller/Library/Developer/Xcode/DerivedData/AWSiOSSDKv2-bvcffhrgbfjnfybjecennhscmaho/Build/Intermediates.noindex/ArchiveIntermediates/AWSSES/IntermediateBuildFilesPath/AWSiOSSDKv2.build/Release-iphoneos/AWSSES.build/DerivedSources/AWSSES_vers.c
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=409.12
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-70
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
