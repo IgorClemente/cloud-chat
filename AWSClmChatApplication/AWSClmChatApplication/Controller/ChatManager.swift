@@ -22,10 +22,6 @@ class ChatManager {
         conversations = [Chat:[Message]?]()
     }
     
-    func clearFriendList() {
-        friendList?.removeAll()
-    }
-    
     func addFriend(user: User) {
         friendList?.append(user)
     }
@@ -71,8 +67,135 @@ class ChatManager {
         return nil
     }
     
+    func loadChat(fromUserID: String, toUserID: String, completion: @escaping (Error?,Chat?)->Void) {
+        if let chat = findChat(fromUserID: fromUserID, toUserID: toUserID) {
+            completion(nil,chat)
+            return
+        }
+    
+        let dynamoDBController = DynamoDBController.sharedInstance
+        dynamoDBController.retrieveChat(fromUserID: fromUserID, toUserID: toUserID) { (error) in
+            if let error = error as NSError? {
+                if error.code != 210 {
+                    completion(error,nil)
+                    return
+                }
+                
+                dynamoDBController.createChat(fromUserID: fromUserID, toUserID: toUserID, completion: { (error) in
+                    if let error = error {
+                        completion(error,nil)
+                        return
+                    }
+                    
+                    if let chat = self.findChat(fromUserID: fromUserID, toUserID: toUserID) {
+                        completion(nil,chat)
+                        return
+                    }
+                    
+                    let error = NSError(domain: "com.igorclemente.AWSClmChatApplication", code: 400,
+                                        userInfo: ["__type":"Unknown Error","message":"DynamoDB error."])
+                    completion(error,nil)
+                    return
+                })
+                return
+            }
+            
+            if let chat = self.findChat(fromUserID: fromUserID, toUserID: toUserID) {
+                completion(nil,chat)
+                return
+            }
+            
+            let error = NSError(domain: "com.igorclemente", code: 400, userInfo: ["__type":"Unknown Error",
+                                                                                  "message":"DynamoDB error."])
+            completion(error,nil)
+            return
+        }
+    }
+    
+    func sendTextMessage(chat: Chat, messageText: String, completion: @escaping (Error?)->Void) {
+        let timeSent = Date()
+        
+        let cognitoIdentityPoolController = CognitoIdentityPoolController.sharedInstance
+        guard let senderID = cognitoIdentityPoolController.currentIdentityID else {
+            let error = NSError(domain: "com.igorclemente.AWSClmChatApplication", code: 402,
+                                userInfo: ["__type":"Unauthenticated","message":"Sender is no longer authenticated."])
+            completion(error)
+            return
+        }
+        
+        let dynamoDBController = DynamoDBController.sharedInstance
+        dynamoDBController.sendMessageText(fromUserID: senderID, chatID: chat.id!, messageText: messageText) { (error) in
+            if let error = error {
+                completion(error)
+                return
+            }
+            
+            dynamoDBController.retrieveAllMessages(chatID: chat.id!, fromDate: timeSent, completion: { (error) in
+                if let error = error {
+                    completion(error)
+                } else {
+                    completion(nil)
+                }
+            })
+        }
+    }
+    
+    func sendImage(chat: Chat, message: UIImage, completion: @escaping (Error?)->Void) {
+        let timeSent = Date()
+        
+        let cognitoIdentityPoolController = CognitoIdentityPoolController.sharedInstance
+        guard let senderID = cognitoIdentityPoolController.currentIdentityID else {
+            let error = NSError(domain: "com.igorclemente.AWSClmChatApplication", code: 402,
+                                userInfo: ["__type":"Unauthenticated","message":"Sender is no longer authenticated."])
+            completion(error)
+            return
+        }
+        
+        let imageData = message.pngData()
+        let documentsDirectory = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
+        let fileName = NSUUID().uuidString
+        let previewFileName = "NA"
+        let localFilePath = documentsDirectory.appending("\(fileName).png")
+        
+        do {
+            try imageData?.write(to: URL(fileURLWithPath: localFilePath), options: .atomicWrite)
+        } catch {
+            let error = NSError(domain: "com.igorclemente.AWSClmChatApplication", code: 406,
+                                userInfo: ["__type":"Error","message":"Could not save image to documents directory."])
+            completion(error)
+        }
+        
+        let s3Controller = S3Controller.sharedInstance
+        s3Controller.uploadImage(localFilePath: localFilePath, remoteFileName: fileName) { (error) in
+            if let error = error {
+                completion(error)
+                return
+            }
+            
+            let dynamoDBController = DynamoDBController.sharedInstance
+            dynamoDBController.sendImage(fromUserID: senderID, chatID: chat.id!, imageFile: fileName, previewFile: previewFileName, completion: { (error) in
+                if let error = error {
+                    completion(error)
+                    return
+                }
+                
+                dynamoDBController.retrieveAllMessages(chatID: chat.id!, fromDate: timeSent, completion: { (error) in
+                    if let error = error {
+                        completion(error)
+                    } else {
+                        completion(nil)
+                    }
+                })
+            })
+        }
+    }
+    
     func clearPotentialFriendList() {
         potentialFriendList?.removeAll()
+    }
+    
+    func clearFriendList() {
+        friendList?.removeAll()
     }
     
     func addPotentialFriend(user: User) {

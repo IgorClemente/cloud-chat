@@ -256,6 +256,19 @@ class DynamoDBController {
         }
     }
     
+    func refreshAllMessages(chat: Chat, completion: @escaping (Error?)->Void) {
+        let earliestDate = Date(timeIntervalSince1970: 0)
+        
+        let dynamoDBController = DynamoDBController.sharedInstance
+        dynamoDBController.retrieveAllMessages(chatID: chat.id!, fromDate: earliestDate) { (error) in
+            if let error = error {
+                completion(error)
+            } else {
+                completion(nil)
+            }
+        }
+    }
+    
     func sendMessageText(fromUserID: String, chatID: String, messageText: String, completion: @escaping (Error?)->Void) {
         let message = Message()
         message.chat_id = chatID
