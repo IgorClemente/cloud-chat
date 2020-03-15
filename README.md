@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Cloud Chat" src="logo.png" width="200px" />
+    <img alt="Cloud Chat" src="logo.png" width="500px" />
 </h1>
 
 <h3 align="center">
