@@ -1,62 +1,68 @@
 <h1 align="center">
-    <img alt="GoStack" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-header.png" width="200px" />
+    <img alt="Cloud Chat" src="logo.png" width="200px" />
 </h1>
 
 <h3 align="center">
-  AWS Chat: iOS Application
+  Cloud Chat: iOS Application
 </h3>
 
 <p align="center">“Não espere para plantar, apenas tenha paciência para colher”!</blockquote>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/IgorClemente/bootcamp-gostack-module14?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/IgorClemente/cloud-chat?color=%2304D361">
 
   <a href="https://rocketseat.com.br">
     <img alt="Made by Igor Clemente" src="https://img.shields.io/badge/made%20by-Igor Clemente-%2304D361">
   </a>
 
-  <img alt="Issues" src="https://img.shields.io/github/issues/IgorClemente/bootcamp-gostack-module14">
+  <img alt="Issues" src="https://img.shields.io/github/issues/IgorClemente/cloud-chat">
 
-  <img alt="Forks" src="https://img.shields.io/github/forks/IgorClemente/bootcamp-gostack-module14">
+  <img alt="Forks" src="https://img.shields.io/github/forks/IgorClemente/cloud-chat">
 
-  <a href="https://github.com/IgorClemente/bootcamp-gostack-module14/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/IgorClemente/bootcamp-gostack-module14">
+  <a href="https://github.com/IgorClemente/cloud-chat/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/IgorClemente/cloud-chat">
   </a>
 
-  <img alt="License" src="https://img.shields.io/github/license/IgorClemente/bootcamp-gostack-module14">
+  <img alt="License" src="https://img.shields.io/github/license/IgorClemente/cloud-chat">
 </p>
 
 <p align="center">
   <a href="#rocket-descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#hammer-iniciando-a-aplicação">Iniciando aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-tecnologias-e-ferramentas">Tecnologias e Ferramentas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#iphone-screenshot">Screenshot</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#movie_camera-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
 ## :rocket: Descrição
 
-Esse repositório possuí um projeto configurado para integração CD/CI, As ferramentas utilizadas são: [Microsoft AppCenter](https://appcenter.ms) e [Codepush](https://microsoft.github.io/code-push/). Microsoft AppCenter possibilita a distríbuição do aplicativo em modo teste para colaboradores e times responsáveis por essas ações. Em modo de distribuição, conecta a loja ao AppCenter, sendo possível gerar novas versões, executar testes automáticos e finalmente a publicação na loja (PlayStore, Apple Store).
+O Cloud Chat é um aplicativo de conversas, onde é possível escolher um amigo em uma lista de contatos, iniciar a conversa via texto e enviar imagens.
 
-O [Codepush](https://microsoft.github.io/code-push/) possibilita a atualização de determinadas funcionalidades em tempo real, atualizando todos os dispositivos que rodam o aplicativo. Permite integracões com Crash Analitycs, Testes Automatizados entre outras.
+A aplicação utiliza a infraestrutura da Amazon AWS, serviços como [AWSCognito](https://aws.amazon.com/pt/cognito/), [AWSDynamoDB](https://pixel.everesttech.net/4422/cq?ev_sid=3&ev_ln=dynamodb%20aws&ev_lx=kwd-64246267482&ev_crx=89108950468&ev_mt=e&ev_n=g&ev_ltx=&ev_pl=&ev_pos=&ev_dvc=c&ev_dvm=&ev_phy=1001773&ev_loc=&ev_cx=377183548&ev_ax=22645460548&ev_efid=Cj0KCQjwpLfzBRCRARIsAHuj6qVR2RNZyhIV60iY3EUubEqErSUeiM6xSRwzxeiHlvACrjh98YO07yEaAiPqEALw_wcB:G:s&url=http://aws.amazon.com/dynamodb/%3Fsc_channel%3DPS%26sc_campaign%3Dacquisition_BR%26sc_publisher%3Dgoogle%26sc_medium%3Denglish_dynamodb_b%26sc_content%3Ddynamodb_e%26sc_detail%3Ddynamodb%2520aws%26sc_category%3Ddynamodb%26sc_segment%3D89108950468%26sc_matchtype%3De%26sc_country%3DBR%26s_kwcid%3DAL!4422!3!89108950468!e!!g!!dynamodb%2520aws%26ef_id%3DCj0KCQjwpLfzBRCRARIsAHuj6qVR2RNZyhIV60iY3EUubEqErSUeiM6xSRwzxeiHlvACrjh98YO07yEaAiPqEALw_wcB:G:s), [AWSS3](https://aws.amazon.com/s3/?sc_channel=PS&sc_campaign=acquisition_BR&sc_publisher=google&sc_medium=english_s3_b&sc_content=s3_e&sc_detail=aws%20s3&sc_category=s3&sc_segment=89108864428&sc_matchtype=e&sc_country=BR&s_kwcid=AL!4422!3!89108864428!e!!g!!aws%20s3&ef_id=Cj0KCQjwpLfzBRCRARIsAHuj6qUVrOSIgG-c0fpiDg13sNmO6CtOYEBfW6VVRsWUXwmdDZMSSDWYyowaAhgjEALw_wcB:G:s) e [AWSLambda](https://aws.amazon.com/pt/lambda/).
+Esses serviços são acessíveis através do AWSSDK iOS ou Android.
 
-## :hammer: Iniciando a aplicação
+## :computer: Tecnologias e Ferramentas
 
-Para executar os testes execute os seguintes comandos:
+- [Swift](https://www.apple.com/br/swift/)
+- [AWS SDK](https://aws.amazon.com/pt/tools/)
+- [AWS Cognito](https://aws.amazon.com/pt/cognito/)
+- [AWS DynamoDB](https://pixel.everesttech.net/4422/cq?ev_sid=3&ev_ln=dynamodb%20aws&ev_lx=kwd-64246267482&ev_crx=89108950468&ev_mt=e&ev_n=g&ev_ltx=&ev_pl=&ev_pos=&ev_dvc=c&ev_dvm=&ev_phy=1001773&ev_loc=&ev_cx=377183548&ev_ax=22645460548&ev_efid=Cj0KCQjwpLfzBRCRARIsAHuj6qVR2RNZyhIV60iY3EUubEqErSUeiM6xSRwzxeiHlvACrjh98YO07yEaAiPqEALw_wcB:G:s&url=http://aws.amazon.com/dynamodb/%3Fsc_channel%3DPS%26sc_campaign%3Dacquisition_BR%26sc_publisher%3Dgoogle%26sc_medium%3Denglish_dynamodb_b%26sc_content%3Ddynamodb_e%26sc_detail%3Ddynamodb%2520aws%26sc_category%3Ddynamodb%26sc_segment%3D89108950468%26sc_matchtype%3De%26sc_country%3DBR%26s_kwcid%3DAL!4422!3!89108950468!e!!g!!dynamodb%2520aws%26ef_id%3DCj0KCQjwpLfzBRCRARIsAHuj6qVR2RNZyhIV60iY3EUubEqErSUeiM6xSRwzxeiHlvACrjh98YO07yEaAiPqEALw_wcB:G:s)
+- [AWS S3](https://aws.amazon.com/s3/?sc_channel=PS&sc_campaign=acquisition_BR&sc_publisher=google&sc_medium=english_s3_b&sc_content=s3_e&sc_detail=aws%20s3&sc_category=s3&sc_segment=89108864428&sc_matchtype=e&sc_country=BR&s_kwcid=AL!4422!3!89108864428!e!!g!!aws%20s3&ef_id=Cj0KCQjwpLfzBRCRARIsAHuj6qUVrOSIgG-c0fpiDg13sNmO6CtOYEBfW6VVRsWUXwmdDZMSSDWYyowaAhgjEALw_wcB:G:s)
+- [AWS Lambda](https://aws.amazon.com/pt/lambda/)
 
-Instale todas as dependências, de acordo com projeto a ser utilizado. (ReactJS, React Native) :
+## :movie_camera: Preview
 
-```bash
+<h2>
+  [![](preview/trevalone01.gif)](https://www.youtube.com/watch?v=BSpLC6BmtvA)
+  [![](preview/trevalone01.gif)](https://www.youtube.com/watch?v=HGe0YBPlL2M)
+</h2>
 
-yarn
+## :iphone: Screenshot
 
-```
-
-Depois, execute os testes:
-
-```bash
-
-yarn test
-
-```
+<h2 align="center">
+  <img src="https://github.com/IgorClemente/CoreData/blob/master/Screenshots/screenshot01.png" width="428" height="970" />
+  <img src="https://github.com/IgorClemente/CoreData/blob/master/Screenshots/screenshot02.png" width="428" height="970" />
+</h2>
 
 ## :memo: Licença
 
