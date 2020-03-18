@@ -60,8 +60,8 @@ Esses serviços são acessíveis através do AWSSDK iOS ou Android.
 ## :iphone: Screenshot
 
 <h2 align="center">
-  <img src="https://github.com/IgorClemente/CoreData/blob/master/screenshots/screenshot01.png" width="428" height="970" />
-  <img src="https://github.com/IgorClemente/CoreData/blob/master/screenshots/screenshot02.png" width="428" height="970" />
+  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot01.png" width="428" height="970" />
+  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot02.png" width="428" height="970" />
 </h2>
 
 ## :memo: Licença
