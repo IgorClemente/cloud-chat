@@ -50,6 +50,7 @@ class CognitoUserPoolController {
                 completion(error)
                 return nil
             }
+            
             completion(nil)
             return nil
         })
@@ -62,7 +63,8 @@ class CognitoUserPoolController {
         
         attributes.append(emailAttribute)
         
-        let task = self.userPool?.signUp(username,password: password, userAttributes: attributes, validationData: nil)
+        let task = self.userPool?.signUp(username, password: password, userAttributes: attributes, validationData: nil)
+        
         task?.continueWith(block: { (task) -> Any? in
             if let error = task.error {
                 completion(error,nil)
@@ -71,11 +73,13 @@ class CognitoUserPoolController {
             
             guard let result = task.result else {
                 let error: NSError = NSError(domain: "com.clemente.AWSChatApplication",
-                                             code: 100, userInfo: ["__type":"Unknown Error","message":"Cognito user pool error."])
-                completion(error,nil)
+                                             code: 100,
+                                             userInfo: ["__type":"Unknown Error","message":"Cognito user pool error."])
+                completion(error, nil)
                 return nil
             }
-            completion(nil,result.user)
+            
+            completion(nil, result.user)
             return nil
         })
     }
@@ -87,6 +91,7 @@ class CognitoUserPoolController {
                 completion(error)
                 return nil
             }
+            
             completion(nil)
             return nil
         }

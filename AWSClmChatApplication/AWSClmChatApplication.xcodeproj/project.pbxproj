@@ -110,7 +110,7 @@
 		D09FA17F223F0DD700F652F4 /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
 		D0D459812234C1B300367600 /* AWSDynamoDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSDynamoDB.framework; path = Carthage/Build/iOS/AWSDynamoDB.framework; sourceTree = "<group>"; };
 		D0D459872234CCD500367600 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		D0EC5594221BBA5A00B99170 /* AWSClmChatApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSClmChatApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EC5594221BBA5A00B99170 /* Cloud Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cloud Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EC5597221BBA5A00B99170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0EC559E221BBA5C00B99170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0EC55A3221BBA5C00B99170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -210,7 +210,7 @@
 		D0EC5595221BBA5A00B99170 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D0EC5594221BBA5A00B99170 /* AWSClmChatApplication.app */,
+				D0EC5594221BBA5A00B99170 /* Cloud Chat.app */,
 			);
 			name = Products;
 			path = ../..;
@@ -226,7 +226,6 @@
 				D0EC55CE221BC6D800B99170 /* Supporting Files */,
 				D0EC55BD221BC63100B99170 /* Controller */,
 				D0EC55C6221BC68100B99170 /* Storyboard */,
-				D04639C822206E6B00509CF5 /* ObjCBridging-Header.h */,
 				D019999A2235765C00233500 /* Model */,
 			);
 			path = AWSClmChatApplication;
@@ -264,6 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				D0EC5595221BBA5A00B99170 /* Products */,
+				D04639C822206E6B00509CF5 /* ObjCBridging-Header.h */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -304,7 +304,7 @@
 			);
 			name = AWSClmChatApplication;
 			productName = AWSClmChatApplication;
-			productReference = D0EC5594221BBA5A00B99170 /* AWSClmChatApplication.app */;
+			productReference = D0EC5594221BBA5A00B99170 /* Cloud Chat.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -562,10 +562,10 @@
 				OTHER_LDFLAGS = "-ObjC";
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clemente.AWSClmChatApplication;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/AWSClmChatApplication/ObjCBridging-Header.h";
+				PRODUCT_NAME = "Cloud Chat";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/AWSClmChatApplication/Supporting Files/ObjCBridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -594,10 +594,10 @@
 				OTHER_LDFLAGS = "-ObjC";
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clemente.AWSClmChatApplication;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/AWSClmChatApplication/ObjCBridging-Header.h";
+				PRODUCT_NAME = "Cloud Chat";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/AWSClmChatApplication/Supporting Files/ObjCBridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

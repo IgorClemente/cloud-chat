@@ -15,11 +15,11 @@ class AddFriendViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "AddFriend"
+        self.title = "Adicionar amigo"
         
         let cognitoIdentityPoolController = CognitoIdentityPoolController.sharedInstance
+        
         guard let currentIdentityID = cognitoIdentityPoolController.currentIdentityID else {
-            print("Cognito identity is missing.")
             return
         }
         
@@ -29,6 +29,7 @@ class AddFriendViewController: UIViewController {
                 self.displayAddFriendError(error: error as NSError)
                 return
             }
+            
             DispatchQueue.main.async {
                 self.tableView.reloadData()
             }
@@ -37,7 +38,8 @@ class AddFriendViewController: UIViewController {
     
     private func displayAddFriendError(error: NSError) {
         let alertController = UIAlertController(title: error.userInfo["__type"] as? String,
-                                                message: error.userInfo["message"] as? String, preferredStyle: .alert)
+                                                message: error.userInfo["message"] as? String,
+                                                preferredStyle: .alert)
         
         let alertAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
         alertController.addAction(alertAction)
@@ -52,6 +54,7 @@ extension AddFriendViewController : UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         let chatManager = ChatManager.sharedInstance
+        
         if let potentialFriendList = chatManager.potentialFriendList {
             print("Potential Friends \(potentialFriendList.count).")
             return potentialFriendList.count
@@ -76,6 +79,7 @@ extension AddFriendViewController : UITableViewDelegate, UITableViewDataSource {
         let potentialFriend = potentialFriendList[indexPath.row]
         
         let cognitoIdentityPoolController = CognitoIdentityPoolController.sharedInstance
+        
         guard let currentIdentityID = cognitoIdentityPoolController.currentIdentityID else {
             print("Missing identity ID.")
             return
@@ -86,6 +90,7 @@ extension AddFriendViewController : UITableViewDelegate, UITableViewDataSource {
                 self.displayAddFriendError(error: error as NSError)
                 return
             }
+            
             DispatchQueue.main.async {
                 self.navigationController?.popViewController(animated: true)
             }

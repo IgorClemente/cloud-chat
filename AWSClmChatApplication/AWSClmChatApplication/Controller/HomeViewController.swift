@@ -15,7 +15,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.title = "Friend List"
+        self.title = "Lista de amigos"
         
         let refreshControl = UIRefreshControl()
         refreshControl.addTarget(self, action: #selector(refresh(_:)), for: .valueChanged)
@@ -23,6 +23,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         tableView?.refreshControl = refreshControl
         
         let cognitoIdentityPoolController = CognitoIdentityPoolController.sharedInstance
+        
         guard let currentIdentityID = cognitoIdentityPoolController.currentIdentityID else {
             return
         }
@@ -54,6 +55,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
                     return
                 }
             }
+            
             DispatchQueue.main.async {
                 refreshControl.endRefreshing()
                 self.tableView?.reloadData()
