@@ -29,7 +29,7 @@ class Message : AWSDynamoDBObjectModel, AWSDynamoDBModeling {
         chat_id = dictionaryValue["chat_id"] as? String
         message_text = dictionaryValue["message_text"] as? String
         message_image = dictionaryValue["message_image"] as? String
-        message_image_preview = dictionaryValue["mesage_image_preview"] as? String
+        message_image_preview = dictionaryValue["message_image_preview"] as? String
         sender_id = dictionaryValue["sender_id"] as? String
         date_sent = dictionaryValue["date_sent"] as? NSNumber
     }

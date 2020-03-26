@@ -7,18 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D013809B222610E600998C61 /* SocialIdentityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D013809A222610E500998C61 /* SocialIdentityManager.swift */; };
+		C457F8E5242C346000E64A12 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457F8E4242C346000E64A12 /* Button.swift */; };
+		C4BEF1AA242C3CD700F79A75 /* CognitoUserPoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BEF1A7242C3CD700F79A75 /* CognitoUserPoolViewController.swift */; };
+		C4BEF1AB242C3CD700F79A75 /* SocialIdentityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BEF1A8242C3CD700F79A75 /* SocialIdentityManager.swift */; };
+		C4BEF1AC242C3CD700F79A75 /* CognitoIdentityPoolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BEF1A9242C3CD700F79A75 /* CognitoIdentityPoolController.swift */; };
+		C4BEF1AE242C3CF400F79A75 /* DynamoDBController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BEF1AD242C3CF400F79A75 /* DynamoDBController.swift */; };
+		C4BEF1B0242C3D2A00F79A75 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BEF1AF242C3D2A00F79A75 /* AddFriendViewController.swift */; };
+		C4BEF1B3242C3E3700F79A75 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BEF1B1242C3E3700F79A75 /* SignupViewController.swift */; };
+		C4BEF1B4242C3E3700F79A75 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BEF1B2242C3E3700F79A75 /* LoginViewController.swift */; };
+		C4BEF1B6242C3E6C00F79A75 /* UploadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BEF1B5242C3E6C00F79A75 /* UploadImageViewController.swift */; };
+		C4BEF1B8242C3EF100F79A75 /* S3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BEF1B7242C3EF100F79A75 /* S3Controller.swift */; };
 		D0199994223573BB00233500 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0199993223573BB00233500 /* Friend.swift */; };
 		D0199999223574DE00233500 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0199998223574DE00233500 /* Chat.swift */; };
 		D019999C2235775400233500 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019999B2235775400233500 /* Message.swift */; };
 		D019999E22357A5D00233500 /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019999D22357A5D00233500 /* ChatManager.swift */; };
-		D01999A022357ED300233500 /* DynamoDBController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019999F22357ED300233500 /* DynamoDBController.swift */; };
+		D0340A07224959C1007D472C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0340A06224959C1007D472C /* ChatViewController.swift */; };
+		D03C9F5722499B5400DB4072 /* ReceivedImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03C9F5322499B5200DB4072 /* ReceivedImageTableViewCell.swift */; };
+		D03C9F5822499B5400DB4072 /* SentImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03C9F5422499B5200DB4072 /* SentImageTableViewCell.swift */; };
+		D03C9F5922499B5400DB4072 /* ReceivedTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03C9F5522499B5300DB4072 /* ReceivedTextTableViewCell.swift */; };
+		D03C9F5A22499B5400DB4072 /* SentTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03C9F5622499B5400DB4072 /* SentTextTableViewCell.swift */; };
 		D0421CFB223CB1CB00A9033E /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0421CFA223CB1CB00A9033E /* FriendTableViewCell.swift */; };
-		D044144522442E6900164D2D /* S3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D044144422442E6800164D2D /* S3Controller.swift */; };
 		D044144722442EF100164D2D /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D044144622442EF000164D2D /* AWSS3.framework */; };
 		D044144822442EF100164D2D /* AWSS3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D044144622442EF000164D2D /* AWSS3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D04BE946222D980B00D7A0C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D04BE945222D980B00D7A0C7 /* GoogleService-Info.plist */; };
-		D0529F862225D6F000EC0EE4 /* CognitoIdentityPoolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0529F852225D6F000EC0EE4 /* CognitoIdentityPoolController.swift */; };
 		D052ED91224426090074212C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D052ED8E224426080074212C /* FBSDKShareKit.framework */; };
 		D052ED92224426090074212C /* FBSDKShareKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D052ED8E224426080074212C /* FBSDKShareKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D052ED93224426090074212C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D052ED8F224426080074212C /* FBSDKCoreKit.framework */; };
@@ -29,7 +40,6 @@
 		D074ADB6222DABAA004F9E79 /* GoogleSignIn.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D074ADB4222DABAA004F9E79 /* GoogleSignIn.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D09692C92229A33300AA5D0B /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09692C82229A33300AA5D0B /* SafariServices.framework */; };
 		D09692CB2229A33B00AA5D0B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09692CA2229A33B00AA5D0B /* SystemConfiguration.framework */; };
-		D09FA180223F0DD700F652F4 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09FA17F223F0DD700F652F4 /* AddFriendViewController.swift */; };
 		D0D459852234C1B300367600 /* AWSDynamoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D459812234C1B300367600 /* AWSDynamoDB.framework */; };
 		D0D459862234C1B300367600 /* AWSDynamoDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0D459812234C1B300367600 /* AWSDynamoDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D0D459882234CCD500367600 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D459872234CCD500367600 /* User.swift */; };
@@ -43,10 +53,7 @@
 		D0EC55B9221BC0E400B99170 /* AWSCognitoIdentityProvider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0EC55B7221BC0E400B99170 /* AWSCognitoIdentityProvider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D0EC55BB221BC12900B99170 /* AWSCognitoIdentityProviderASF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EC55BA221BC12900B99170 /* AWSCognitoIdentityProviderASF.framework */; };
 		D0EC55BC221BC12900B99170 /* AWSCognitoIdentityProviderASF.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0EC55BA221BC12900B99170 /* AWSCognitoIdentityProviderASF.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D0EC55BF221BC63100B99170 /* CognitoUserPoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EC55BE221BC63100B99170 /* CognitoUserPoolViewController.swift */; };
 		D0EC55C1221BC65400B99170 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EC55C0221BC65400B99170 /* HomeViewController.swift */; };
-		D0EC55C4221BC66700B99170 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EC55C2221BC66700B99170 /* LoginViewController.swift */; };
-		D0EC55C5221BC66700B99170 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EC55C3221BC66700B99170 /* SignupViewController.swift */; };
 		D0EC55CB221BC68100B99170 /* ChatJourney.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EC55C7221BC68100B99170 /* ChatJourney.storyboard */; };
 		D0EC55CC221BC68100B99170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EC55C8221BC68100B99170 /* LaunchScreen.storyboard */; };
 		D0EC55CD221BC68100B99170 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EC55CA221BC68100B99170 /* MainStoryboard.storyboard */; };
@@ -86,18 +93,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D013809A222610E500998C61 /* SocialIdentityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialIdentityManager.swift; sourceTree = "<group>"; };
+		C457F8E4242C346000E64A12 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		C4BEF1A7242C3CD700F79A75 /* CognitoUserPoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CognitoUserPoolViewController.swift; path = AWSClmChatApplication/Services/Auth/CognitoUserPoolViewController.swift; sourceTree = SOURCE_ROOT; };
+		C4BEF1A8242C3CD700F79A75 /* SocialIdentityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocialIdentityManager.swift; path = AWSClmChatApplication/Services/Auth/SocialIdentityManager.swift; sourceTree = SOURCE_ROOT; };
+		C4BEF1A9242C3CD700F79A75 /* CognitoIdentityPoolController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CognitoIdentityPoolController.swift; path = AWSClmChatApplication/Services/Auth/CognitoIdentityPoolController.swift; sourceTree = SOURCE_ROOT; };
+		C4BEF1AD242C3CF400F79A75 /* DynamoDBController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynamoDBController.swift; path = AWSClmChatApplication/Services/DynamoDB/DynamoDBController.swift; sourceTree = SOURCE_ROOT; };
+		C4BEF1AF242C3D2A00F79A75 /* AddFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		C4BEF1B1242C3E3700F79A75 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		C4BEF1B2242C3E3700F79A75 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C4BEF1B5242C3E6C00F79A75 /* UploadImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadImageViewController.swift; sourceTree = "<group>"; };
+		C4BEF1B7242C3EF100F79A75 /* S3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S3Controller.swift; sourceTree = "<group>"; };
 		D0199993223573BB00233500 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		D0199998223574DE00233500 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		D019999B2235775400233500 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		D019999D22357A5D00233500 /* ChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
-		D019999F22357ED300233500 /* DynamoDBController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamoDBController.swift; sourceTree = "<group>"; };
+		D0340A06224959C1007D472C /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		D03C9F5322499B5200DB4072 /* ReceivedImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceivedImageTableViewCell.swift; sourceTree = "<group>"; };
+		D03C9F5422499B5200DB4072 /* SentImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SentImageTableViewCell.swift; sourceTree = "<group>"; };
+		D03C9F5522499B5300DB4072 /* ReceivedTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceivedTextTableViewCell.swift; sourceTree = "<group>"; };
+		D03C9F5622499B5400DB4072 /* SentTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SentTextTableViewCell.swift; sourceTree = "<group>"; };
 		D0421CFA223CB1CB00A9033E /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
-		D044144422442E6800164D2D /* S3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = S3Controller.swift; path = Carthage/Build/iOS/S3Controller.swift; sourceTree = SOURCE_ROOT; };
 		D044144622442EF000164D2D /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = Carthage/Build/iOS/AWSS3.framework; sourceTree = "<group>"; };
 		D04639C822206E6B00509CF5 /* ObjCBridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjCBridging-Header.h"; sourceTree = "<group>"; };
 		D04BE945222D980B00D7A0C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		D0529F852225D6F000EC0EE4 /* CognitoIdentityPoolController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitoIdentityPoolController.swift; sourceTree = "<group>"; };
 		D052ED8E224426080074212C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = Carthage/Build/iOS/FBSDKShareKit.framework; sourceTree = "<group>"; };
 		D052ED8F224426080074212C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Carthage/Build/iOS/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		D052ED90224426080074212C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Carthage/Build/iOS/FBSDKLoginKit.framework; sourceTree = "<group>"; };
@@ -107,10 +125,9 @@
 		D074ADB4222DABAA004F9E79 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = Carthage/Build/iOS/GoogleSignIn.framework; sourceTree = "<group>"; };
 		D09692C82229A33300AA5D0B /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		D09692CA2229A33B00AA5D0B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		D09FA17F223F0DD700F652F4 /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
 		D0D459812234C1B300367600 /* AWSDynamoDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSDynamoDB.framework; path = Carthage/Build/iOS/AWSDynamoDB.framework; sourceTree = "<group>"; };
 		D0D459872234CCD500367600 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		D0EC5594221BBA5A00B99170 /* Cloud Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cloud Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EC5594221BBA5A00B99170 /* AWSClmChatApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSClmChatApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EC5597221BBA5A00B99170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0EC559E221BBA5C00B99170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0EC55A3221BBA5C00B99170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -118,10 +135,7 @@
 		D0EC55AE221BBC6B00B99170 /* AWSCognito.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognito.framework; path = Carthage/Build/iOS/AWSCognito.framework; sourceTree = "<group>"; };
 		D0EC55B7221BC0E400B99170 /* AWSCognitoIdentityProvider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognitoIdentityProvider.framework; path = Carthage/Build/iOS/AWSCognitoIdentityProvider.framework; sourceTree = "<group>"; };
 		D0EC55BA221BC12900B99170 /* AWSCognitoIdentityProviderASF.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognitoIdentityProviderASF.framework; path = Carthage/Build/iOS/AWSCognitoIdentityProviderASF.framework; sourceTree = "<group>"; };
-		D0EC55BE221BC63100B99170 /* CognitoUserPoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CognitoUserPoolViewController.swift; sourceTree = "<group>"; };
 		D0EC55C0221BC65400B99170 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		D0EC55C2221BC66700B99170 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		D0EC55C3221BC66700B99170 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		D0EC55C7221BC68100B99170 /* ChatJourney.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ChatJourney.storyboard; sourceTree = "<group>"; };
 		D0EC55C9221BC68100B99170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0EC55CA221BC68100B99170 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -150,6 +164,99 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C457F8E2242C1EC900E64A12 /* Chat Journey */ = {
+			isa = PBXGroup;
+			children = (
+				C457F8ED242C385500E64A12 /* Choose Image */,
+				C457F8EC242C384400E64A12 /* AddFriend */,
+				C457F8E7242C36C200E64A12 /* Chat */,
+			);
+			path = "Chat Journey";
+			sourceTree = "<group>";
+		};
+		C457F8E3242C33BF00E64A12 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C457F8E4242C346000E64A12 /* Button.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C457F8E6242C367700E64A12 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D0EC55C0221BC65400B99170 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C457F8E7242C36C200E64A12 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				D0340A06224959C1007D472C /* ChatViewController.swift */,
+				D019999D22357A5D00233500 /* ChatManager.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		C457F8E8242C37AB00E64A12 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D044144322442E4600164D2D /* S3 */,
+				D05CBF49223C2CDE004D4A5D /* DynamoDB */,
+				C457F8E9242C37B400E64A12 /* Auth */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C457F8E9242C37B400E64A12 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				C4BEF1A9242C3CD700F79A75 /* CognitoIdentityPoolController.swift */,
+				C4BEF1A7242C3CD700F79A75 /* CognitoUserPoolViewController.swift */,
+				C4BEF1A8242C3CD700F79A75 /* SocialIdentityManager.swift */,
+			);
+			name = Auth;
+			path = "../New Group/Auth";
+			sourceTree = "<group>";
+		};
+		C457F8EA242C37CD00E64A12 /* Access Flow */ = {
+			isa = PBXGroup;
+			children = (
+				C4BEF1B2242C3E3700F79A75 /* LoginViewController.swift */,
+				C4BEF1B1242C3E3700F79A75 /* SignupViewController.swift */,
+			);
+			path = "Access Flow";
+			sourceTree = "<group>";
+		};
+		C457F8EB242C382800E64A12 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D03C9F5622499B5400DB4072 /* SentTextTableViewCell.swift */,
+				D03C9F5422499B5200DB4072 /* SentImageTableViewCell.swift */,
+				D03C9F5522499B5300DB4072 /* ReceivedTextTableViewCell.swift */,
+				D03C9F5322499B5200DB4072 /* ReceivedImageTableViewCell.swift */,
+				D0421CFA223CB1CB00A9033E /* FriendTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C457F8EC242C384400E64A12 /* AddFriend */ = {
+			isa = PBXGroup;
+			children = (
+				C4BEF1AF242C3D2A00F79A75 /* AddFriendViewController.swift */,
+			);
+			path = AddFriend;
+			sourceTree = "<group>";
+		};
+		C457F8ED242C385500E64A12 /* Choose Image */ = {
+			isa = PBXGroup;
+			children = (
+				C4BEF1B5242C3E6C00F79A75 /* UploadImageViewController.swift */,
+			);
+			path = "Choose Image";
+			sourceTree = "<group>";
+		};
 		D019999A2235765C00233500 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +271,7 @@
 		D044144322442E4600164D2D /* S3 */ = {
 			isa = PBXGroup;
 			children = (
-				D044144422442E6800164D2D /* S3Controller.swift */,
+				C4BEF1B7242C3EF100F79A75 /* S3Controller.swift */,
 			);
 			path = S3;
 			sourceTree = "<group>";
@@ -172,9 +279,10 @@
 		D05CBF49223C2CDE004D4A5D /* DynamoDB */ = {
 			isa = PBXGroup;
 			children = (
-				D019999F22357ED300233500 /* DynamoDBController.swift */,
+				C4BEF1AD242C3CF400F79A75 /* DynamoDBController.swift */,
 			);
-			path = DynamoDB;
+			name = DynamoDB;
+			path = ../Controller/DynamoDB;
 			sourceTree = "<group>";
 		};
 		D0D1FB5122248F4300A05063 /* Frameworks */ = {
@@ -210,7 +318,7 @@
 		D0EC5595221BBA5A00B99170 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D0EC5594221BBA5A00B99170 /* Cloud Chat.app */,
+				D0EC5594221BBA5A00B99170 /* AWSClmChatApplication.app */,
 			);
 			name = Products;
 			path = ../..;
@@ -219,11 +327,13 @@
 		D0EC5596221BBA5A00B99170 /* AWSClmChatApplication */ = {
 			isa = PBXGroup;
 			children = (
+				C457F8EB242C382800E64A12 /* View */,
+				C457F8E8242C37AB00E64A12 /* Services */,
 				D04BE945222D980B00D7A0C7 /* GoogleService-Info.plist */,
-				D0EC55A3221BBA5C00B99170 /* Info.plist */,
 				D0EC55D0221BC73200B99170 /* Application Delegate */,
 				D0EC55CF221BC6FE00B99170 /* Resources Files */,
 				D0EC55CE221BC6D800B99170 /* Supporting Files */,
+				C457F8E3242C33BF00E64A12 /* Extensions */,
 				D0EC55BD221BC63100B99170 /* Controller */,
 				D0EC55C6221BC68100B99170 /* Storyboard */,
 				D019999A2235765C00233500 /* Model */,
@@ -234,17 +344,9 @@
 		D0EC55BD221BC63100B99170 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D044144322442E4600164D2D /* S3 */,
-				D05CBF49223C2CDE004D4A5D /* DynamoDB */,
-				D0EC55C0221BC65400B99170 /* HomeViewController.swift */,
-				D0EC55BE221BC63100B99170 /* CognitoUserPoolViewController.swift */,
-				D0EC55C2221BC66700B99170 /* LoginViewController.swift */,
-				D0EC55C3221BC66700B99170 /* SignupViewController.swift */,
-				D0529F852225D6F000EC0EE4 /* CognitoIdentityPoolController.swift */,
-				D013809A222610E500998C61 /* SocialIdentityManager.swift */,
-				D019999D22357A5D00233500 /* ChatManager.swift */,
-				D0421CFA223CB1CB00A9033E /* FriendTableViewCell.swift */,
-				D09FA17F223F0DD700F652F4 /* AddFriendViewController.swift */,
+				C457F8EA242C37CD00E64A12 /* Access Flow */,
+				C457F8E6242C367700E64A12 /* Home */,
+				C457F8E2242C1EC900E64A12 /* Chat Journey */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -264,6 +366,7 @@
 			children = (
 				D0EC5595221BBA5A00B99170 /* Products */,
 				D04639C822206E6B00509CF5 /* ObjCBridging-Header.h */,
+				D0EC55A3221BBA5C00B99170 /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -304,7 +407,7 @@
 			);
 			name = AWSClmChatApplication;
 			productName = AWSClmChatApplication;
-			productReference = D0EC5594221BBA5A00B99170 /* Cloud Chat.app */;
+			productReference = D0EC5594221BBA5A00B99170 /* AWSClmChatApplication.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -380,21 +483,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0EC55C5221BC66700B99170 /* SignupViewController.swift in Sources */,
-				D013809B222610E600998C61 /* SocialIdentityManager.swift in Sources */,
-				D0EC55BF221BC63100B99170 /* CognitoUserPoolViewController.swift in Sources */,
+				C457F8E5242C346000E64A12 /* Button.swift in Sources */,
+				D03C9F5822499B5400DB4072 /* SentImageTableViewCell.swift in Sources */,
+				C4BEF1B3242C3E3700F79A75 /* SignupViewController.swift in Sources */,
+				C4BEF1B4242C3E3700F79A75 /* LoginViewController.swift in Sources */,
 				D019999E22357A5D00233500 /* ChatManager.swift in Sources */,
 				D0199999223574DE00233500 /* Chat.swift in Sources */,
+				D03C9F5922499B5400DB4072 /* ReceivedTextTableViewCell.swift in Sources */,
+				C4BEF1AC242C3CD700F79A75 /* CognitoIdentityPoolController.swift in Sources */,
+				D03C9F5722499B5400DB4072 /* ReceivedImageTableViewCell.swift in Sources */,
+				C4BEF1B0242C3D2A00F79A75 /* AddFriendViewController.swift in Sources */,
+				C4BEF1AA242C3CD700F79A75 /* CognitoUserPoolViewController.swift in Sources */,
+				C4BEF1B6242C3E6C00F79A75 /* UploadImageViewController.swift in Sources */,
 				D0EC5598221BBA5A00B99170 /* AppDelegate.swift in Sources */,
+				C4BEF1AB242C3CD700F79A75 /* SocialIdentityManager.swift in Sources */,
 				D0D459882234CCD500367600 /* User.swift in Sources */,
-				D044144522442E6900164D2D /* S3Controller.swift in Sources */,
 				D019999C2235775400233500 /* Message.swift in Sources */,
-				D0529F862225D6F000EC0EE4 /* CognitoIdentityPoolController.swift in Sources */,
-				D01999A022357ED300233500 /* DynamoDBController.swift in Sources */,
+				D0340A07224959C1007D472C /* ChatViewController.swift in Sources */,
+				D03C9F5A22499B5400DB4072 /* SentTextTableViewCell.swift in Sources */,
 				D0199994223573BB00233500 /* Friend.swift in Sources */,
-				D0EC55C4221BC66700B99170 /* LoginViewController.swift in Sources */,
-				D09FA180223F0DD700F652F4 /* AddFriendViewController.swift in Sources */,
+				C4BEF1AE242C3CF400F79A75 /* DynamoDBController.swift in Sources */,
 				D0EC55C1221BC65400B99170 /* HomeViewController.swift in Sources */,
+				C4BEF1B8242C3EF100F79A75 /* S3Controller.swift in Sources */,
 				D0421CFB223CB1CB00A9033E /* FriendTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -551,7 +661,7 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/google_signin_sdk_4_4_0",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/AWSClmChatApplication/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/AWSClmChatApplication/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -562,10 +672,10 @@
 				OTHER_LDFLAGS = "-ObjC";
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clemente.AWSClmChatApplication;
-				PRODUCT_NAME = "Cloud Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/AWSClmChatApplication/Supporting Files/ObjCBridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -582,7 +692,7 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/google_signin_sdk_4_4_0",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/AWSClmChatApplication/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/AWSClmChatApplication/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				"LD_MAP_FILE_PATH[arch=*]" = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -594,10 +704,10 @@
 				OTHER_LDFLAGS = "-ObjC";
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clemente.AWSClmChatApplication;
-				PRODUCT_NAME = "Cloud Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/AWSClmChatApplication/Supporting Files/ObjCBridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

@@ -12,6 +12,8 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     @IBOutlet weak var tableView: UITableView?
     
+    private var selectedUserId: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,7 +25,6 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         tableView?.refreshControl = refreshControl
         
         let cognitoIdentityPoolController = CognitoIdentityPoolController.sharedInstance
-        
         guard let currentIdentityID = cognitoIdentityPoolController.currentIdentityID else {
             return
         }
@@ -55,7 +56,6 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
                     return
                 }
             }
-            
             DispatchQueue.main.async {
                 refreshControl.endRefreshing()
                 self.tableView?.reloadData()
@@ -98,8 +98,31 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         return cell!
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let chatManager = ChatManager.sharedInstance
+        
+        if let friendList = chatManager.friendList {
+            let user = friendList[indexPath.row]
+            self.selectedUserId = user.id
+        }
+        self.performSegue(withIdentifier: "chatSegue", sender: nil)
+    }
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier?.compare("chatSegue") != .orderedSame {
+            return
+        }
+        
+        let cognitoIdentityPoolController = CognitoIdentityPoolController.sharedInstance
+        
+        if let destinationViewController = segue.destination as? ChatViewController {
+            destinationViewController.from_userId = cognitoIdentityPoolController.currentIdentityID
+            destinationViewController.to_userId = self.selectedUserId
+        }
     }
     
     override func didReceiveMemoryWarning() {

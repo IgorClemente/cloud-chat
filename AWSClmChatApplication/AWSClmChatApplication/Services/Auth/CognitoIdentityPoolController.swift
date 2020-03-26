@@ -26,12 +26,9 @@ class CognitoIdentityPoolController {
         let identityProvider = SocialIdentityManager.sharedInstance
         
         credentialsProvider = AWSCognitoCredentialsProvider(regionType: identityPoolRegion,
-                                                            identityPoolId: identityPoolID,
-                                                            identityProviderManager: identityProvider)
+                                                            identityPoolId: identityPoolID, identityProviderManager: identityProvider)
         
-        configuration = AWSServiceConfiguration(region: identityPoolRegion,
-                                                credentialsProvider: credentialsProvider)
-        
+        configuration = AWSServiceConfiguration(region: identityPoolRegion, credentialsProvider: credentialsProvider)
         AWSServiceManager.default()?.defaultServiceConfiguration = configuration
     }
     
@@ -107,7 +104,7 @@ class CognitoIdentityPoolController {
     
     func getFederatedIdentityForAmazon(idToken: String, username: String, emailAddress: String?,
                                        userPoolID: String, userPoolRegion: String, completion: @escaping (Error?)->Void) {
-
+        
         let identityProviderManager = SocialIdentityManager.sharedInstance
         let key: String = "cognito-idp.\(userPoolRegion).amazonaws.com/\(userPoolID)"
         

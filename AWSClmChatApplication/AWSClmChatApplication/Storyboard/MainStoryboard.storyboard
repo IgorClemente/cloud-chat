@@ -24,21 +24,21 @@
                                     <outlet property="delegate" destination="9aB-a4-493" id="3ok-Mc-QV9"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome de usuário:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XgB-l4-kEX">
-                                <rect key="frame" x="15" y="94" width="135" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XgB-l4-kEX">
+                                <rect key="frame" x="15" y="94" width="83.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Senha:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="orz-qh-tMU">
-                                <rect key="frame" x="15" y="194" width="53" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="orz-qh-tMU">
+                                <rect key="frame" x="15" y="194" width="78.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2GN-T3-BmX">
-                                <rect key="frame" x="15" y="294" width="90" height="30"/>
-                                <state key="normal" title="Cadastrar-se"/>
+                                <rect key="frame" x="15" y="294" width="52" height="30"/>
+                                <state key="normal" title="Sign up"/>
                                 <connections>
                                     <segue destination="b26-wU-uc4" kind="show" id="hfT-2U-hgf"/>
                                 </connections>
@@ -49,7 +49,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="90" id="Vbf-Sz-lBb"/>
                                 </constraints>
-                                <state key="normal" title="Entrar"/>
+                                <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="onLogin:" destination="9aB-a4-493" eventType="touchUpInside" id="emP-W2-FF5"/>
                                 </connections>
@@ -73,14 +73,14 @@
                                 </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ajH-Ji-aXK" customClass="GIDSignInButton">
-                                <rect key="frame" x="15" y="424" width="345" height="50"/>
+                                <rect key="frame" x="15" y="424" width="345" height="60"/>
                                 <color key="backgroundColor" red="0.7843137255" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="c8Y-d4-8Qt"/>
+                                    <constraint firstAttribute="height" constant="60" id="c8Y-d4-8Qt"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.24705882352941178" green="0.20392156862745098" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="dfF-yO-ygn" firstAttribute="width" secondItem="4F4-Z8-Yot" secondAttribute="width" id="3jd-Fe-Jbh"/>
                             <constraint firstItem="ajH-Ji-aXK" firstAttribute="top" secondItem="dfF-yO-ygn" secondAttribute="bottom" constant="20" id="4j5-8k-0E8"/>
@@ -105,7 +105,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="arR-3g-nJh"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Entrar" id="xQZ-nQ-3ry"/>
+                    <navigationItem key="navigationItem" id="xQZ-nQ-3ry"/>
                     <connections>
                         <outlet property="facebookButton" destination="dfF-yO-ygn" id="6Xp-Ax-iaf"/>
                         <outlet property="loginButton" destination="Wuj-XA-s7T" id="o98-1g-JAL"/>
@@ -150,25 +150,25 @@
                                     <outlet property="delegate" destination="b26-wU-uc4" id="i7z-Fm-jIl"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome de usuário:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zyj-ff-Osx">
-                                <rect key="frame" x="40" y="63" width="135" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zyj-ff-Osx">
+                                <rect key="frame" x="40" y="63" width="84" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Senha:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4xv-fK-G8L">
-                                <rect key="frame" x="40" y="147" width="53" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4xv-fK-G8L">
+                                <rect key="frame" x="40" y="147" width="79" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ywr-6Q-YXi">
-                                <rect key="frame" x="185" y="331" width="150" height="30"/>
+                                <rect key="frame" x="255" y="331" width="80" height="30"/>
                                 <color key="backgroundColor" red="0.7843137255" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="Ja9-ZE-9Gm"/>
+                                    <constraint firstAttribute="width" constant="80" id="Ja9-ZE-9Gm"/>
                                 </constraints>
-                                <state key="normal" title="Confirmar Cadastro"/>
+                                <state key="normal" title="Signup"/>
                                 <connections>
                                     <action selector="onCreateAccount:" destination="b26-wU-uc4" eventType="touchUpInside" id="Kjb-zx-w1f"/>
                                 </connections>
@@ -202,6 +202,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="DrA-Df-Hi6"/>
                     </view>
+                    <navigationItem key="navigationItem" id="UJQ-KY-vme"/>
                     <connections>
                         <outlet property="createAccountButton" destination="Ywr-6Q-YXi" id="CWz-hN-J1v"/>
                         <outlet property="emailField" destination="QrL-tS-nmR" id="wMg-4M-MDN"/>

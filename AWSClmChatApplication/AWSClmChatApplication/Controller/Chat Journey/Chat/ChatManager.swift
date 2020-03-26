@@ -22,6 +22,19 @@ class ChatManager {
         conversations = [Chat:[Message]?]()
     }
     
+    func refreshAllMessages(chat: Chat, completion: @escaping (Error?)->Void) {
+        let earliestDate = Date(timeIntervalSince1970: 0)
+        
+        let dynamoDBController = DynamoDBController.sharedInstance
+        dynamoDBController.retrieveAllMessages(chatID: chat.id!, fromDate: earliestDate) { (error) in
+            if let error = error {
+                completion(error)
+            } else {
+                completion(nil)
+            }
+        }
+    }
+    
     func addFriend(user: User) {
         friendList?.append(user)
     }
@@ -154,7 +167,7 @@ class ChatManager {
         let imageData = message.pngData()
         let documentsDirectory = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
         let fileName = NSUUID().uuidString
-        let previewFileName = "NA"
+        let previewFileName = "thumbnail-\(fileName)"
         let localFilePath = documentsDirectory.appending("\(fileName).png")
         
         do {

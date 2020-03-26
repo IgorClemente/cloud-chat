@@ -21,6 +21,7 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.loginButton.isEnabled = false
         
         let facebookLoginManager = LoginManager()
@@ -32,6 +33,8 @@ class LoginViewController: UIViewController {
         GIDSignIn.sharedInstance()?.uiDelegate = self
         GIDSignIn.sharedInstance()?.shouldFetchBasicProfile = true
         GIDSignIn.sharedInstance()?.signOut()
+        
+        self.navigationController?.navigationBar.backgroundColor = nil
     }
 
     override func didReceiveMemoryWarning() {
@@ -45,11 +48,10 @@ class LoginViewController: UIViewController {
         let userpoolController = CognitoUserPoolController.sharedInstance
         userpoolController.login(username: username, password: password) { (error) in
             if let error = error {
-                print("Login Error!", error)
                 self.displayLoginError(error: error as NSError)
                 return
             }
-            print("Login Successful!")
+            
             DispatchQueue.main.async {
                 self.getFederatedIdentity(userpoolController.currentUser!)
             }
@@ -68,6 +70,7 @@ class LoginViewController: UIViewController {
 extension LoginViewController : UITextFieldDelegate {
     func textField(_ textField: UITextField,
                    shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        
         if let username = self.usernameField.text,
            let password = self.passwordField.text {
             if ((username.count > 0) && (password.count > 0)) {
@@ -91,7 +94,9 @@ extension LoginViewController {
         var errorMessage: String = String()
         
         if let title = error.userInfo["__type"] as? String {
+            
             errorTitle = title
+            
             if let message = error.userInfo["message"] as? String {
                 errorMessage = message
             } else {
@@ -123,7 +128,9 @@ extension LoginViewController {
                 self.present(successViewController, animated: true, completion: nil)
             }
         }
+        
         alertController.addAction(okAction)
+        
         DispatchQueue.main.async {
             self.present(alertController, animated: true, completion: nil)
         }
@@ -132,17 +139,17 @@ extension LoginViewController {
 
 extension LoginViewController: LoginButtonDelegate {
     
-    func loginButtonDidLogOut(_ loginButton: FBLoginButton!) {
+    func loginButtonDidLogOut(_ loginButton: FBLoginButton) {
         print("Facebook Signout.")
     }
     
-    func loginButton(_ loginButton: FBLoginButton!, didCompleteWith result: LoginManagerLoginResult!, error: Error!) {
+    func loginButton(_ loginButton: FBLoginButton, didCompleteWith result: LoginManagerLoginResult?, error: Error?) {
         if error != nil {
-            self.displayLoginError(error: error as NSError)
+            self.displayLoginError(error: error! as NSError)
             return
         }
         
-        if result.isCancelled {
+        if result!.isCancelled {
             return
         }
         
@@ -153,6 +160,7 @@ extension LoginViewController: LoginButtonDelegate {
         }
         
         let graphRequest = GraphRequest(graphPath: "me", parameters: ["fields":"email,name"])
+        
         graphRequest.start { (connection, result, error) in
             if let error = error {
                 self.displayLoginError(error: error as NSError)
@@ -162,7 +170,9 @@ extension LoginViewController: LoginButtonDelegate {
             if let result = result as? [String:AnyObject],
                let emailAddress = result["email"] as? String,
                let username = result["name"] as? String {
+                
                 let identityPoolController = CognitoIdentityPoolController.sharedInstance
+                
                 identityPoolController.getFederatedIdentityForFacebook(idToken: idToken.tokenString, username: username, emailAddress: emailAddress, completion: { (error) in
                     if let error = error {
                         print("Facebook SDK Login Error: \(error)")

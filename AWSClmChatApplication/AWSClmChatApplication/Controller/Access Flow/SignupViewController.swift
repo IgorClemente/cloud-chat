@@ -34,21 +34,16 @@ class SignupViewController: UIViewController {
         
         let poolController = CognitoUserPoolController.sharedInstance
         poolController.signup(username: username, password: password, emailAddress: emailAddress) { (error, user) in
-
             if let error = error {
-                DispatchQueue.main.async {
-                    self.displaySignupError(error: error as NSError,completion: nil)
-                }
+                print("Signup Error! \(error)")
+                self.displaySignupError(error: error as NSError,completion: nil)
                 return
             }
             
             guard let user = user else {
                 let userInfo: [String:Any] = ["__type":"Unknowm Error","message":"Cognito User Pool Error"]
                 let error: NSError = NSError(domain: "com.igorclemente.AWSClmChatApplication", code: 1021, userInfo: userInfo)
-                
-                DispatchQueue.main.async {
-                    self.displaySignupError(error: error,completion: nil)
-                }
+                self.displaySignupError(error: error,completion: nil)
                 return
             }
             
@@ -57,7 +52,9 @@ class SignupViewController: UIViewController {
                     self.requestConfirmationCode(user, completion: nil)
                 }
             } else {
-                self.getFederatedIdentity(user)
+                DispatchQueue.main.async {
+                    self.getFederatedIdentity(user)
+                }
             }
         }
     }
@@ -107,7 +104,6 @@ extension SignupViewController {
         }
         
         alertController.addAction(okAction)
-        
         DispatchQueue.main.async {
             self.present(alertController,animated: true)
         }
@@ -123,9 +119,7 @@ extension SignupViewController {
                 }
             }
         }
-        
         alertController.addAction(okAction)
-        
         DispatchQueue.main.async {
             self.present(alertController, animated: true, completion: nil)
         }
@@ -141,47 +135,37 @@ extension SignupViewController {
         let okAction = UIAlertAction(title: "Ok", style: .default) { (action) in
             if let textField = alertController.textFields?.first {
                 if let confirmationCode = textField.text {
-                    
                     let poolController = CognitoUserPoolController.sharedInstance
                     poolController.confirmSignup(user: user, confirmationCode: confirmationCode, completion: { (error) in
-                        
                         if let error = error {
-                            DispatchQueue.main.async {
-                                self.displaySignupError(error: error as NSError, completion: {
-                                    self.requestConfirmationCode(user, completion: nil)
-                                })
-                            }
+                            self.displaySignupError(error: error as NSError, completion: {
+                                self.requestConfirmationCode(user, completion: nil)
+                            })
                             return
                         }
-                        
-                        self.getFederatedIdentity(user)
+                        DispatchQueue.main.async {
+                            self.getFederatedIdentity(user)
+                        }
                     })
                 }
             }
         }
         
         let resendAction = UIAlertAction(title: "Resend code", style: .default) { (action) in
-            
             let poolController = CognitoUserPoolController.sharedInstance
             poolController.resendConfirmationCode(user: user, completion: { (error) in
                 if let error = error {
-                    DispatchQueue.main.async {
-                        self.displaySignupError(error: error as NSError, completion: {
-                            self.requestConfirmationCode(user, completion: nil)
-                        })
-                    }
+                    self.displaySignupError(error: error as NSError, completion: {
+                        self.requestConfirmationCode(user, completion: nil)
+                    })
                     return
                 }
-                
-                DispatchQueue.main.async {
-                    self.displayCodeResentMessage(user)
-                }
+                self.displayCodeResentMessage(user)
             })
         }
         
         alertController.addAction(okAction)
         alertController.addAction(resendAction)
-        
         DispatchQueue.main.async {
             self.present(alertController, animated: true, completion: nil)
         }
@@ -192,15 +176,14 @@ extension SignupViewController {
         let okAction = UIAlertAction(title: "Ok", style: .default) { (action) in
             self.requestConfirmationCode(user, completion: nil)
         }
-        
         alertController.addAction(okAction)
-        
         DispatchQueue.main.async {
             self.present(alertController, animated: true, completion: nil)
         }
     }
     
     fileprivate func getFederatedIdentity(_ user: AWSCognitoIdentityUser) {
+        
         let username = self.usernameField.text!
         let emailAddress = self.emailField.text!
         let password = self.passwordField.text!
@@ -208,9 +191,7 @@ extension SignupViewController {
         let task = user.getSession(username, password: password, validationData: nil)
         task.continueWith { (task) -> Any? in
             if let error = task.error {
-                DispatchQueue.main.async {
-                    self.displaySignupError(error: error as NSError, completion: nil)
-                }
+                self.displaySignupError(error: error as NSError, completion: nil)
                 return nil
             }
             
@@ -225,15 +206,11 @@ extension SignupViewController {
                                                                  userPoolRegion: userPoolController.userPoolRegionString,
                                                                  completion: { (error) in
                 if let error = error {
-                    DispatchQueue.main.async {
-                        self.displaySignupError(error: error as NSError, completion: nil)
-                    }
+                    print("Signup Error \(error).")
+                    self.displaySignupError(error: error as NSError, completion: nil)
                     return
                 }
-                                                                    
-                DispatchQueue.main.async {
-                    self.displaySuccessMessage()
-                }
+                self.displaySuccessMessage()
                 return
             })
             return nil

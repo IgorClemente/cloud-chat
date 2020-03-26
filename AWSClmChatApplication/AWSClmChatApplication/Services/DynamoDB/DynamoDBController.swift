@@ -222,13 +222,14 @@ class DynamoDBController {
     
     func retrieveAllMessages(chatID: String, fromDate: Date, completion: @escaping (Error?)->Void) {
         let fromDateAsNumber = fromDate.timeIntervalSince1970
-        
+        print(chatID, fromDateAsNumber)
         let queryExpression = AWSDynamoDBQueryExpression()
-        queryExpression.keyConditionExpression = "chatId = :chatIdentifier AND data_sent > :earliestDate"
+        queryExpression.keyConditionExpression = "chat_id = :chatIdentifier AND date_sent > :earliestDate"
         queryExpression.expressionAttributeValues = [":chatIdentifier" : chatID, ":earliestDate" : fromDateAsNumber]
         
         let dynamoDBObjectMapper = AWSDynamoDBObjectMapper.default()
         let task = dynamoDBObjectMapper.query(Message.self, expression: queryExpression)
+        
         task.continueWith { (task) -> Any? in
             if let error = task.error {
                 completion(error)
@@ -253,19 +254,6 @@ class DynamoDBController {
             }
             completion(nil)
             return nil
-        }
-    }
-    
-    func refreshAllMessages(chat: Chat, completion: @escaping (Error?)->Void) {
-        let earliestDate = Date(timeIntervalSince1970: 0)
-        
-        let dynamoDBController = DynamoDBController.sharedInstance
-        dynamoDBController.retrieveAllMessages(chatID: chat.id!, fromDate: earliestDate) { (error) in
-            if let error = error {
-                completion(error)
-            } else {
-                completion(nil)
-            }
         }
     }
     
@@ -298,12 +286,12 @@ class DynamoDBController {
     func sendImage(fromUserID: String, chatID: String, imageFile: String, previewFile: String, completion: @escaping (Error?)->Void) {
         let message = Message()
         message.chat_id = chatID
-        message.date_sent = Date().timeIntervalSince1970 as NSNumber
+        message.message_text = "NA"
         message.message_id = NSUUID().uuidString
+        message.date_sent = Date().timeIntervalSince1970 as NSNumber
         message.message_image = imageFile
         message.message_image_preview = previewFile
         message.sender_id = fromUserID
-        message.message_text = "NA"
         
         let dynamoDBObjectMapper = AWSDynamoDBObjectMapper.default()
         let task = dynamoDBObjectMapper.save(message)
