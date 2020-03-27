@@ -3,4 +3,102 @@
    uuid = "1AD7EF14-B714-4C12-A08F-CF3D0B10581E"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99C702B6-58F1-43DC-9694-AE238F0D7624"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AWSClmChatApplication/Controller/Access Flow/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "286"
+            endingLineNumber = "286"
+            landmarkName = "getFederatedIdentity(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "99C702B6-58F1-43DC-9694-AE238F0D7624 - 18adcc7b8479779c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 () -&gt; () in closure #1 (__C.AWSTask&lt;__C.AWSCognitoIdentityUserSession&gt;) -&gt; Swift.Optional&lt;Any&gt; in closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;Swift.Error&gt;, Swift.Optional&lt;__C.AWSCognitoIdentityUserGetDetailsResponse&gt;) -&gt; () in AWSClmChatApplication.LoginViewController.(getFederatedIdentity in _6AE62A6A45ECB35D3B00D90CE3E49514)(__C.AWSCognitoIdentityUser) -&gt; ()"
+                  moduleName = "AWSClmChatApplication"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/igorclemente/Desktop/cloud-chat/AWSClmChatApplication/AWSClmChatApplication/Controller/Access%20Flow/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "287"
+                  endingLineNumber = "287"
+                  offsetFromSymbolStart = "270">
+               </Location>
+               <Location
+                  uuid = "99C702B6-58F1-43DC-9694-AE238F0D7624 - fa55fdb5d47f1f9c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 () -&gt; () in closure #1 (__C.AWSTask&lt;__C.AWSCognitoIdentityUserSession&gt;) -&gt; Swift.Optional&lt;Any&gt; in closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;Swift.Error&gt;, Swift.Optional&lt;__C.AWSCognitoIdentityUserGetDetailsResponse&gt;) -&gt; () in AWSClmChatApplication.LoginViewController.(getFederatedIdentity in _6AE62A6A45ECB35D3B00D90CE3E49514)(__C.AWSCognitoIdentityUser) -&gt; ()"
+                  moduleName = "AWSClmChatApplication"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/igorclemente/Desktop/cloud-chat/AWSClmChatApplication/AWSClmChatApplication/Controller/Access%20Flow/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "288"
+                  endingLineNumber = "288"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4CBF5A93-F3BA-4695-803D-C22C2F46D3F8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AWSClmChatApplication/Controller/Access Flow/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "253"
+            endingLineNumber = "253"
+            landmarkName = "getFederatedIdentity(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD524F60-5EEC-4361-917D-D39791098790"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AWSClmChatApplication/Controller/Access Flow/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "264"
+            endingLineNumber = "264"
+            landmarkName = "getFederatedIdentity(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C25B0661-6796-4D07-8FA0-69ADD25042D1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AWSClmChatApplication/Controller/Access Flow/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "271"
+            endingLineNumber = "271"
+            landmarkName = "getFederatedIdentity(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
