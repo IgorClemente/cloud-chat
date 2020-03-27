@@ -16,6 +16,10 @@ class SignupViewController: UIViewController {
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var createAccountButton: UIButton!
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.createAccountButton.isEnabled = false

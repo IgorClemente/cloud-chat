@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4142A3E242D4C0900FBDB02 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4142A3D242D4C0900FBDB02 /* LoginTextField.swift */; };
 		C457F8E5242C346000E64A12 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457F8E4242C346000E64A12 /* Button.swift */; };
+		C49DA892242C76E300DBBD38 /* Rounder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DA891242C76E300DBBD38 /* Rounder.swift */; };
+		C49DA894242C795700DBBD38 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DA893242C795700DBBD38 /* UIView.swift */; };
 		C4BEF1AA242C3CD700F79A75 /* CognitoUserPoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BEF1A7242C3CD700F79A75 /* CognitoUserPoolViewController.swift */; };
 		C4BEF1AB242C3CD700F79A75 /* SocialIdentityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BEF1A8242C3CD700F79A75 /* SocialIdentityManager.swift */; };
 		C4BEF1AC242C3CD700F79A75 /* CognitoIdentityPoolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BEF1A9242C3CD700F79A75 /* CognitoIdentityPoolController.swift */; };
@@ -93,7 +96,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C4142A3D242D4C0900FBDB02 /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
 		C457F8E4242C346000E64A12 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		C49DA891242C76E300DBBD38 /* Rounder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rounder.swift; sourceTree = "<group>"; };
+		C49DA893242C795700DBBD38 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		C4BEF1A7242C3CD700F79A75 /* CognitoUserPoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CognitoUserPoolViewController.swift; path = AWSClmChatApplication/Services/Auth/CognitoUserPoolViewController.swift; sourceTree = SOURCE_ROOT; };
 		C4BEF1A8242C3CD700F79A75 /* SocialIdentityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocialIdentityManager.swift; path = AWSClmChatApplication/Services/Auth/SocialIdentityManager.swift; sourceTree = SOURCE_ROOT; };
 		C4BEF1A9242C3CD700F79A75 /* CognitoIdentityPoolController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CognitoIdentityPoolController.swift; path = AWSClmChatApplication/Services/Auth/CognitoIdentityPoolController.swift; sourceTree = SOURCE_ROOT; };
@@ -164,6 +170,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C4142A3C242D4BB000FBDB02 /* Text Field */ = {
+			isa = PBXGroup;
+			children = (
+				C4142A3D242D4C0900FBDB02 /* LoginTextField.swift */,
+			);
+			path = "Text Field";
+			sourceTree = "<group>";
+		};
 		C457F8E2242C1EC900E64A12 /* Chat Journey */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				C457F8E4242C346000E64A12 /* Button.swift */,
+				C49DA893242C795700DBBD38 /* UIView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -232,6 +247,8 @@
 		C457F8EB242C382800E64A12 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C4142A3C242D4BB000FBDB02 /* Text Field */,
+				C49DA890242C76C300DBBD38 /* Utils */,
 				D03C9F5622499B5400DB4072 /* SentTextTableViewCell.swift */,
 				D03C9F5422499B5200DB4072 /* SentImageTableViewCell.swift */,
 				D03C9F5522499B5300DB4072 /* ReceivedTextTableViewCell.swift */,
@@ -255,6 +272,14 @@
 				C4BEF1B5242C3E6C00F79A75 /* UploadImageViewController.swift */,
 			);
 			path = "Choose Image";
+			sourceTree = "<group>";
+		};
+		C49DA890242C76C300DBBD38 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C49DA891242C76E300DBBD38 /* Rounder.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		D019999A2235765C00233500 /* Model */ = {
@@ -486,10 +511,12 @@
 				C457F8E5242C346000E64A12 /* Button.swift in Sources */,
 				D03C9F5822499B5400DB4072 /* SentImageTableViewCell.swift in Sources */,
 				C4BEF1B3242C3E3700F79A75 /* SignupViewController.swift in Sources */,
+				C4142A3E242D4C0900FBDB02 /* LoginTextField.swift in Sources */,
 				C4BEF1B4242C3E3700F79A75 /* LoginViewController.swift in Sources */,
 				D019999E22357A5D00233500 /* ChatManager.swift in Sources */,
 				D0199999223574DE00233500 /* Chat.swift in Sources */,
 				D03C9F5922499B5400DB4072 /* ReceivedTextTableViewCell.swift in Sources */,
+				C49DA892242C76E300DBBD38 /* Rounder.swift in Sources */,
 				C4BEF1AC242C3CD700F79A75 /* CognitoIdentityPoolController.swift in Sources */,
 				D03C9F5722499B5400DB4072 /* ReceivedImageTableViewCell.swift in Sources */,
 				C4BEF1B0242C3D2A00F79A75 /* AddFriendViewController.swift in Sources */,
@@ -502,6 +529,7 @@
 				D0340A07224959C1007D472C /* ChatViewController.swift in Sources */,
 				D03C9F5A22499B5400DB4072 /* SentTextTableViewCell.swift in Sources */,
 				D0199994223573BB00233500 /* Friend.swift in Sources */,
+				C49DA894242C795700DBBD38 /* UIView.swift in Sources */,
 				C4BEF1AE242C3CF400F79A75 /* DynamoDBController.swift in Sources */,
 				D0EC55C1221BC65400B99170 /* HomeViewController.swift in Sources */,
 				C4BEF1B8242C3EF100F79A75 /* S3Controller.swift in Sources */,
@@ -675,7 +703,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/AWSClmChatApplication/Supporting Files/ObjCBridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -707,7 +735,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/AWSClmChatApplication/Supporting Files/ObjCBridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

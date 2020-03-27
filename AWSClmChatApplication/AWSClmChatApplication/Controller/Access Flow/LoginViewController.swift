@@ -17,7 +17,11 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var signupButton: UIButton!
     
-    @IBOutlet weak var facebookButton: FBLoginButton!
+    //@IBOutlet weak var facebookButton: FBLoginButton!
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,14 +31,15 @@ class LoginViewController: UIViewController {
         let facebookLoginManager = LoginManager()
         facebookLoginManager.logOut()
         
-        facebookButton.readPermissions = ["public_profile","email"]
+        //facebookButton.readPermissions = ["public_profile","email"]
         
         GIDSignIn.sharedInstance()?.delegate = self
         GIDSignIn.sharedInstance()?.uiDelegate = self
         GIDSignIn.sharedInstance()?.shouldFetchBasicProfile = true
         GIDSignIn.sharedInstance()?.signOut()
         
-        self.navigationController?.navigationBar.backgroundColor = nil
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
     }
 
     override func didReceiveMemoryWarning() {
@@ -216,12 +221,15 @@ extension LoginViewController {
     private func getFederatedIdentity(_ user: AWSCognitoIdentityUser) {
         let userPoolController = CognitoUserPoolController.sharedInstance
         userPoolController.getUserDetails(user: user) { (error, details) in
+            DispatchQueue.main.async {
+            
             if let error = error {
                 self.displayLoginError(error: error as NSError)
                 return
             }
             
             var email: String? = nil
+            
             if let userAttributes = details?.userAttributes {
                 for attribute in userAttributes {
                     if attribute.name?.compare("email") == .orderedSame {
@@ -232,40 +240,50 @@ extension LoginViewController {
             
             guard let emailAddress = email else {
                 let error: NSError = NSError(domain: "com.clemente.AWSClmChatApplication", code: 100,
-                                             userInfo: ["__type":"Cognito error", "message":"Missing email address."])
+                                             userInfo: ["__type" : "Cognito error",
+                                                        "message":"Missing email address."])
                 self.displayLoginError(error: error)
                 return
             }
             
-            DispatchQueue.main.async {
-                guard let username = self.usernameField.text,
-                      let password = self.passwordField.text else { return }
+            guard let username = self.usernameField.text,
+                  let password = self.passwordField.text else {
+                return
+            }
                 
-                let task = user.getSession(username, password: password, validationData: nil)
+            let task = user.getSession(username, password: password, validationData: nil)
                 task.continueWith(block: { (task) -> Any? in
-                    if let error = task.error {
-                        self.displayLoginError(error: error as NSError)
-                        return nil
-                    }
                     
-                    let userSession = task.result!
-                    let idToken = userSession.idToken!
+                  if let error = task.error {
+                    self.displayLoginError(error: error as NSError)
+                    return nil
+                  }
                     
-                    let userPoolController = CognitoUserPoolController.sharedInstance
-                    let identityPoolController = CognitoIdentityPoolController.sharedInstance
+                  let userSession = task.result!
+                  let idToken = userSession.idToken!
                     
-                    identityPoolController.getFederatedIdentityForAmazon(idToken: idToken.tokenString,
-                                                                         username: username, emailAddress: emailAddress,
-                                                                         userPoolID: userPoolController.userPoolID,
-                                                                         userPoolRegion: userPoolController.userPoolRegionString,
-                                                                         completion: { (error) in
+                  let userPoolController = CognitoUserPoolController.sharedInstance
+                  let identityPoolController = CognitoIdentityPoolController.sharedInstance
+                    
+                  identityPoolController.getFederatedIdentityForAmazon(idToken: idToken.tokenString,
+                                                                       username: username,
+                                                                       emailAddress: emailAddress,
+                                                                       userPoolID: userPoolController.userPoolID,
+                                                                       userPoolRegion: userPoolController.userPoolRegionString,
+                                                                       completion: { (error) in
                         if let error = error {
                            let userInfo: [String:Any] = ["__type":"Unknown Error","message": error.localizedDescription]
                            let errorInfo = NSError(domain: "com.clemente.AWSClmChatApplication", code: 100, userInfo: userInfo)
-                           self.displayLoginError(error: errorInfo)
+                            
+                           DispatchQueue.main.async {
+                             self.displayLoginError(error: errorInfo)
+                           }
                            return
                         }
-                        self.displaySuccessMessage()
+                        
+                        DispatchQueue.main.async {
+                            self.displaySuccessMessage()
+                        }
                         return
                     })
                     return nil

@@ -10,10 +10,15 @@ import Foundation
 import UIKit
 
 @IBDesignable
-class RoundedButton : UIButton {
-    @IBInspectable var radi: Float = 0.0 {
+class RoundedButton : NSObject {
+    
+    @IBInspectable var radi: CGFloat = 5.0
+    
+    @IBOutlet var views: [UIView] = [] {
         didSet {
-            
+            self.views.forEach { (view) in
+                view.layer.cornerRadius = radi
+            }
         }
     }
 }

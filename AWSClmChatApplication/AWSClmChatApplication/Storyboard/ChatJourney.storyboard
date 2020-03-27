@@ -426,7 +426,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B1O-hL-HV7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2132" y="454.72263868065971"/>
+            <point key="canvasLocation" x="2132" y="563"/>
         </scene>
         <!--Upload Image View Controller-->
         <scene sceneID="K8h-Bf-pT7">
@@ -520,7 +520,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PPt-Ch-G0M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3174" y="86"/>
+            <point key="canvasLocation" x="3095" y="185"/>
         </scene>
     </scenes>
     <resources>
