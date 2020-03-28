@@ -10,7 +10,23 @@ import Foundation
 
 class Rounder : UIView {
     
+    @IBInspectable var raddi: CGFloat = 10.0
+    
+    @IBInspectable var top: Bool = false
+    @IBInspectable var bottom: Bool = false
+    @IBInspectable var both: Bool = false
+    
     override func layoutSubviews() {
-        self.roundCorners([.topLeft, .topRight], radius: 20.0)
+        if both {
+            self.roundCorners([.allCorners], radius: raddi)
+            return
+        }
+        
+        if top {
+            self.roundCorners([.topLeft, .topRight], radius: raddi)
+            return
+        }
+        
+        self.roundCorners([.bottomLeft, .bottomRight], radius: raddi)
     }
 }

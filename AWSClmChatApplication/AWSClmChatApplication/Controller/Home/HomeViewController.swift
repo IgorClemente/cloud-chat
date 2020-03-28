@@ -14,6 +14,10 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     private var selectedUserId: String?
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -39,6 +43,9 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
                 self.tableView?.reloadData()
             }
         }
+        
+        navigationController?.navigationBar.shadowImage = UIImage()
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
     }
 
     @objc func refresh(_ refreshControl: UIRefreshControl) {

@@ -15,7 +15,7 @@ class AddFriendViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "Escolher amigo..."
+        self.title = "Adicionar amigo"
         
         let cognitoIdentityPoolController = CognitoIdentityPoolController.sharedInstance
         guard let currentIdentityID = cognitoIdentityPoolController.currentIdentityID else {
@@ -29,10 +29,14 @@ class AddFriendViewController: UIViewController {
                 self.displayAddFriendError(error: error as NSError)
                 return
             }
+            
             DispatchQueue.main.async {
                 self.tableView.reloadData()
             }
         }
+        
+        navigationController?.navigationBar.shadowImage = UIImage()
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
     }
     
     private func displayAddFriendError(error: NSError) {

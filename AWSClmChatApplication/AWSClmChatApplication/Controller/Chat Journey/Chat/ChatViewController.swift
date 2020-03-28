@@ -36,6 +36,9 @@ class ChatViewController: UIViewController {
         
         self.activityIndicator.hidesWhenStopped = true
         self.activityIndicator.stopAnimating()
+        
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -237,6 +240,8 @@ extension ChatViewController : UITableViewDelegate, UITableViewDataSource {
             if senderID.compare(currentIdentityID) == .orderedSame {
                 let cell = tableView.dequeueReusableCell(withIdentifier: "SentTextTableViewCell", for: indexPath) as? SentTextTableViewCell
                 cell?.messageTextLabel.text = messageText
+                cell?.messageBalloon?.leftArrow = true
+                cell?.messageBalloon?.changeColor(withSeed: indexPath.first ?? 0)
                 return cell!
             } else {
                 let cell = tableView.dequeueReusableCell(withIdentifier: "ReceivedTextTableViewCell", for: indexPath) as? ReceivedTextTableViewCell

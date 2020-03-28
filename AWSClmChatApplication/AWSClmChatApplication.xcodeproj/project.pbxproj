@@ -20,6 +20,7 @@
 		C4BEF1B4242C3E3700F79A75 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BEF1B2242C3E3700F79A75 /* LoginViewController.swift */; };
 		C4BEF1B6242C3E6C00F79A75 /* UploadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BEF1B5242C3E6C00F79A75 /* UploadImageViewController.swift */; };
 		C4BEF1B8242C3EF100F79A75 /* S3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BEF1B7242C3EF100F79A75 /* S3Controller.swift */; };
+		C4F869B7242EA11F00C92634 /* Balloon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F869B6242EA11F00C92634 /* Balloon.swift */; };
 		D0199994223573BB00233500 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0199993223573BB00233500 /* Friend.swift */; };
 		D0199999223574DE00233500 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0199998223574DE00233500 /* Chat.swift */; };
 		D019999C2235775400233500 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019999B2235775400233500 /* Message.swift */; };
@@ -109,6 +110,7 @@
 		C4BEF1B2242C3E3700F79A75 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C4BEF1B5242C3E6C00F79A75 /* UploadImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadImageViewController.swift; sourceTree = "<group>"; };
 		C4BEF1B7242C3EF100F79A75 /* S3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S3Controller.swift; sourceTree = "<group>"; };
+		C4F869B6242EA11F00C92634 /* Balloon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balloon.swift; sourceTree = "<group>"; };
 		D0199993223573BB00233500 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		D0199998223574DE00233500 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		D019999B2235775400233500 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 				D03C9F5522499B5300DB4072 /* ReceivedTextTableViewCell.swift */,
 				D03C9F5322499B5200DB4072 /* ReceivedImageTableViewCell.swift */,
 				D0421CFA223CB1CB00A9033E /* FriendTableViewCell.swift */,
+				C4F869B6242EA11F00C92634 /* Balloon.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -521,6 +524,7 @@
 				D03C9F5722499B5400DB4072 /* ReceivedImageTableViewCell.swift in Sources */,
 				C4BEF1B0242C3D2A00F79A75 /* AddFriendViewController.swift in Sources */,
 				C4BEF1AA242C3CD700F79A75 /* CognitoUserPoolViewController.swift in Sources */,
+				C4F869B7242EA11F00C92634 /* Balloon.swift in Sources */,
 				C4BEF1B6242C3E6C00F79A75 /* UploadImageViewController.swift in Sources */,
 				D0EC5598221BBA5A00B99170 /* AppDelegate.swift in Sources */,
 				C4BEF1AB242C3CD700F79A75 /* SocialIdentityManager.swift in Sources */,
@@ -604,7 +608,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = NO;
@@ -663,7 +667,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = NO;

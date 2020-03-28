@@ -33,6 +33,7 @@ class UploadImageViewController: UIViewController {
     
     @IBAction func selectImage(_ sender: Any) {
         let imagePicker = UIImagePickerController()
+        
         imagePicker.delegate = self
         imagePicker.sourceType = UIImagePickerController.SourceType.photoLibrary
         imagePicker.allowsEditing = false
@@ -52,15 +53,16 @@ class UploadImageViewController: UIViewController {
         let chatManager = ChatManager.sharedInstance
         chatManager.sendImage(chat: chat, message: image) { (error) in
             if let error = error {
-                print("UPLOAD IMAGE ERROR", error)
                 self.displayError(error: error as NSError)
                 return
             }
             
             DispatchQueue.main.async {
                 self.activityIndicator.stopAnimating()
+                
                 UIApplication.shared.endIgnoringInteractionEvents()
-                self.dismiss(animated: true, completion: nil)
+            
+                self.navigationController?.popViewController(animated: true)
             }
             return
         }
@@ -76,7 +78,9 @@ class UploadImageViewController: UIViewController {
         
         DispatchQueue.main.async {
             self.activityIndicator.stopAnimating()
+            
             UIApplication.shared.endIgnoringInteractionEvents()
+            
             self.present(alertController, animated: true, completion: nil)
         }
     }
@@ -86,10 +90,12 @@ class UploadImageViewController: UIViewController {
 extension UploadImageViewController : UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        
         if let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
             selectedImage = image
             self.imageView.image = selectedImage
         }
+        
         self.dismiss(animated: true, completion: nil)
     }
     
