@@ -154,12 +154,13 @@ class ChatManager {
     }
     
     func sendImage(chat: Chat, message: UIImage, completion: @escaping (Error?)->Void) {
-        let timeSent = Date()
         
+        let timeSent = Date()
         let cognitoIdentityPoolController = CognitoIdentityPoolController.sharedInstance
+        
         guard let senderID = cognitoIdentityPoolController.currentIdentityID else {
             let error = NSError(domain: "com.igorclemente.AWSClmChatApplication", code: 402,
-                                userInfo: ["__type":"Unauthenticated","message":"Sender is no longer authenticated."])
+                                userInfo: ["__type" : "Unauthenticated", "message" : "Sender is no longer authenticated."])
             completion(error)
             return
         }

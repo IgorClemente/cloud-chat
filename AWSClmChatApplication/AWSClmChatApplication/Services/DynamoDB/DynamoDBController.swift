@@ -222,7 +222,7 @@ class DynamoDBController {
     
     func retrieveAllMessages(chatID: String, fromDate: Date, completion: @escaping (Error?)->Void) {
         let fromDateAsNumber = fromDate.timeIntervalSince1970
-        print(chatID, fromDateAsNumber)
+        
         let queryExpression = AWSDynamoDBQueryExpression()
         queryExpression.keyConditionExpression = "chat_id = :chatIdentifier AND date_sent > :earliestDate"
         queryExpression.expressionAttributeValues = [":chatIdentifier" : chatID, ":earliestDate" : fromDateAsNumber]
@@ -295,6 +295,7 @@ class DynamoDBController {
         
         let dynamoDBObjectMapper = AWSDynamoDBObjectMapper.default()
         let task = dynamoDBObjectMapper.save(message)
+        
         task.continueWith { (task) -> Any? in
             if let error = task.error {
                 completion(error)

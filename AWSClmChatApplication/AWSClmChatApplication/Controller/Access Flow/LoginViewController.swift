@@ -12,12 +12,12 @@ import AWSCognitoIdentityProvider
 
 class LoginViewController: UIViewController {
 
-    @IBOutlet weak var usernameField: UITextField!
-    @IBOutlet weak var passwordField: UITextField!
-    @IBOutlet weak var loginButton: UIButton!
-    @IBOutlet weak var signupButton: UIButton!
+    @IBOutlet weak var usernameField: UITextField?
+    @IBOutlet weak var passwordField: UITextField?
+    @IBOutlet weak var loginButton: UIButton?
+    @IBOutlet weak var signupButton: UIButton?
     
-    //@IBOutlet weak var facebookButton: FBLoginButton!
+    private var facebookLoginManager: LoginManager = LoginManager()
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
@@ -25,14 +25,6 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.loginButton.isEnabled = false
-        
-        let facebookLoginManager = LoginManager()
-        facebookLoginManager.logOut()
-        
-        //facebookButton.readPermissions = ["public_profile","email"]
-        
         
         GIDSignIn.sharedInstance()?.delegate = self
         GIDSignIn.sharedInstance()?.uiDelegate = self
@@ -47,8 +39,8 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func onLogin(_ sender: Any) {
-        guard let username = self.usernameField.text,
-              let password = self.passwordField.text else { return }
+        guard let username = self.usernameField?.text,
+              let password = self.passwordField?.text else { return }
         
         let userpoolController = CognitoUserPoolController.sharedInstance
         userpoolController.login(username: username, password: password) { (error) in
@@ -72,7 +64,8 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func onFacebookLogin(_ sender: Any) {
-        
+        print("Facebook Sign")
+        self.facebookLoginManager.logIn(readPermissions: [""], from: self, handler: nil)
     }
     
     @IBAction func onGoogleLogin(_ sender: Any) {
@@ -85,10 +78,11 @@ extension LoginViewController : UITextFieldDelegate {
     func textField(_ textField: UITextField,
                    shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
-        if let username = self.usernameField.text,
-           let password = self.passwordField.text {
+        if let username = self.usernameField?.text,
+           let password = self.passwordField?.text {
+            
             if ((username.count > 0) && (password.count > 0)) {
-                self.loginButton.isEnabled = true
+                self.loginButton?.isEnabled = true
             }
         }
         return true
@@ -99,8 +93,8 @@ extension LoginViewController : UITextFieldDelegate {
 extension LoginViewController {
     
     fileprivate func dismissKeyboard() {
-        usernameField.resignFirstResponder()
-        passwordField.resignFirstResponder()
+        usernameField?.resignFirstResponder()
+        passwordField?.resignFirstResponder()
     }
     
     fileprivate func displayLoginError(error: NSError) {
@@ -255,8 +249,8 @@ extension LoginViewController {
                     return
                 }
                 
-                guard let username = self.usernameField.text,
-                      let password = self.passwordField.text else {
+                guard let username = self.usernameField?.text,
+                      let password = self.passwordField?.text else {
                     return
                 }
             
