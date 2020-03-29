@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C40FAFA7242FEC6D0084BB16 /* GenericWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40FAFA6242FEC6D0084BB16 /* GenericWithImage.swift */; };
 		C4142A3E242D4C0900FBDB02 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4142A3D242D4C0900FBDB02 /* LoginTextField.swift */; };
 		C457F8E5242C346000E64A12 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457F8E4242C346000E64A12 /* Button.swift */; };
 		C49DA892242C76E300DBBD38 /* Rounder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DA891242C76E300DBBD38 /* Rounder.swift */; };
@@ -21,6 +22,7 @@
 		C4BEF1B6242C3E6C00F79A75 /* UploadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BEF1B5242C3E6C00F79A75 /* UploadImageViewController.swift */; };
 		C4BEF1B8242C3EF100F79A75 /* S3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BEF1B7242C3EF100F79A75 /* S3Controller.swift */; };
 		C4F869B7242EA11F00C92634 /* Balloon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F869B6242EA11F00C92634 /* Balloon.swift */; };
+		C4F869B9242F1AFD00C92634 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F869B8242F1AFD00C92634 /* Circle.swift */; };
 		D0199994223573BB00233500 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0199993223573BB00233500 /* Friend.swift */; };
 		D0199999223574DE00233500 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0199998223574DE00233500 /* Chat.swift */; };
 		D019999C2235775400233500 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019999B2235775400233500 /* Message.swift */; };
@@ -97,6 +99,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C40FAFA6242FEC6D0084BB16 /* GenericWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericWithImage.swift; sourceTree = "<group>"; };
 		C4142A3D242D4C0900FBDB02 /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
 		C457F8E4242C346000E64A12 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		C49DA891242C76E300DBBD38 /* Rounder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rounder.swift; sourceTree = "<group>"; };
@@ -111,6 +114,7 @@
 		C4BEF1B5242C3E6C00F79A75 /* UploadImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadImageViewController.swift; sourceTree = "<group>"; };
 		C4BEF1B7242C3EF100F79A75 /* S3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S3Controller.swift; sourceTree = "<group>"; };
 		C4F869B6242EA11F00C92634 /* Balloon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balloon.swift; sourceTree = "<group>"; };
+		C4F869B8242F1AFD00C92634 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 		D0199993223573BB00233500 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		D0199998223574DE00233500 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		D019999B2235775400233500 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
@@ -176,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				C4142A3D242D4C0900FBDB02 /* LoginTextField.swift */,
+				C40FAFA6242FEC6D0084BB16 /* GenericWithImage.swift */,
 			);
 			path = "Text Field";
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				C49DA891242C76E300DBBD38 /* Rounder.swift */,
+				C4F869B8242F1AFD00C92634 /* Circle.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -514,6 +520,7 @@
 				C457F8E5242C346000E64A12 /* Button.swift in Sources */,
 				D03C9F5822499B5400DB4072 /* SentImageTableViewCell.swift in Sources */,
 				C4BEF1B3242C3E3700F79A75 /* SignupViewController.swift in Sources */,
+				C40FAFA7242FEC6D0084BB16 /* GenericWithImage.swift in Sources */,
 				C4142A3E242D4C0900FBDB02 /* LoginTextField.swift in Sources */,
 				C4BEF1B4242C3E3700F79A75 /* LoginViewController.swift in Sources */,
 				D019999E22357A5D00233500 /* ChatManager.swift in Sources */,
@@ -532,6 +539,7 @@
 				D019999C2235775400233500 /* Message.swift in Sources */,
 				D0340A07224959C1007D472C /* ChatViewController.swift in Sources */,
 				D03C9F5A22499B5400DB4072 /* SentTextTableViewCell.swift in Sources */,
+				C4F869B9242F1AFD00C92634 /* Circle.swift in Sources */,
 				D0199994223573BB00233500 /* Friend.swift in Sources */,
 				C49DA894242C795700DBBD38 /* UIView.swift in Sources */,
 				C4BEF1AE242C3CF400F79A75 /* DynamoDBController.swift in Sources */,

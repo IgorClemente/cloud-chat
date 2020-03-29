@@ -11,6 +11,7 @@ import UIKit
 class ReceivedImageTableViewCell: UITableViewCell {
 
     @IBOutlet weak var messageImageView: UIImageView!
+    @IBOutlet weak var messageBalloon: Balloon?
     
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -11,6 +11,7 @@ import UIKit
 class SentImageTableViewCell: UITableViewCell {
 
     @IBOutlet weak var messageImageView: UIImageView!
+    @IBOutlet weak var messageBalloon: Balloon?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -26,7 +27,7 @@ class SentImageTableViewCell: UITableViewCell {
         
         let fileManager = FileManager.default
         if fileManager.fileExists(atPath: localFilePath) == true {
-            
+
             self.messageImageView.image = UIImage(contentsOfFile: localFilePath)
             return
         }

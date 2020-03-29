@@ -8,16 +8,13 @@
 
 import UIKit
 
-class ChatViewController: UIViewController {
-
+class ChatViewController: UIViewController, SentImageDelegate {
+    
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var messageTextField: UITextField!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
-    @IBOutlet weak var uploadImageButton: UIButton!
     @IBOutlet weak var sendTextButton: UIButton!
-    
-    @IBOutlet weak var scrollView: UIScrollView!
     
     var from_userId: String?
     var to_userId: String?
@@ -32,10 +29,14 @@ class ChatViewController: UIViewController {
         
         let refreshControl = UIRefreshControl()
         refreshControl.addTarget(self, action: #selector(refresh(_:)), for: .valueChanged)
+        
         tableView.refreshControl = refreshControl
         
         self.activityIndicator.hidesWhenStopped = true
         self.activityIndicator.stopAnimating()
+        
+        let field = messageTextField as! GenericWithImage
+        field.sendImageController = self
         
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
@@ -59,7 +60,6 @@ class ChatViewController: UIViewController {
         self.activityIndicator.startAnimating()
         self.messageTextField.isEnabled = false
         self.sendTextButton.isEnabled = false
-        self.uploadImageButton.isEnabled = false
         
         guard let sourceUserID = sourceUserID, let destinationUserID = destinationUserID else {
             let error = NSError(domain: "com.igorclemente.AWSClmChatApplication",code: 100,
@@ -88,7 +88,6 @@ class ChatViewController: UIViewController {
                     self.activityIndicator.stopAnimating()
                     self.messageTextField.isEnabled = true
                     self.sendTextButton.isEnabled = true
-                    self.uploadImageButton.isEnabled = true
                 }
             })
         }
@@ -97,7 +96,6 @@ class ChatViewController: UIViewController {
     private func disableUI() {
         DispatchQueue.main.async {
             self.messageTextField.isEnabled = false
-            self.uploadImageButton.isEnabled = false
             self.sendTextButton.isEnabled = false
             self.activityIndicator.startAnimating()
             UIApplication.shared.beginIgnoringInteractionEvents()
@@ -107,7 +105,6 @@ class ChatViewController: UIViewController {
     private func enableUI() {
         DispatchQueue.main.async {
             self.messageTextField.isEnabled = true
-            self.uploadImageButton.isEnabled = true
             self.sendTextButton.isEnabled = true
             self.activityIndicator.stopAnimating()
             UIApplication.shared.endIgnoringInteractionEvents()
@@ -149,12 +146,10 @@ class ChatViewController: UIViewController {
     @objc private func refresh(_ refreshControl: UIRefreshControl) {
         self.messageTextField.isEnabled = false
         self.sendTextButton.isEnabled = false
-        self.uploadImageButton.isEnabled = false
         
         self.refreshMessages {
             self.messageTextField.isEnabled = true
             self.sendTextButton.isEnabled = true
-            self.uploadImageButton.isEnabled = true
             refreshControl.endRefreshing()
         }
     }
@@ -168,20 +163,23 @@ class ChatViewController: UIViewController {
         }
         
         self.disableUI()
+        
         let chatManager = ChatManager.sharedInstance
         chatManager.sendTextMessage(chat: currentChat, messageText: sendText) { (error) in
             if let error = error {
                 self.displayError(error: error as NSError)
                 return
             }
+            
             self.enableUI()
+            
             DispatchQueue.main.async {
                 self.tableView.reloadData()
             }
         }
     }
     
-    @IBAction func uploadImage(_ sender: Any) {
+    func uploadImage() {
         self.performSegue(withIdentifier: "uploadImage", sender: nil)
     }
     
@@ -205,6 +203,10 @@ extension ChatViewController {
 
 extension ChatViewController : UITableViewDelegate, UITableViewDataSource {
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100.0
+    }
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -222,6 +224,7 @@ extension ChatViewController : UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let chatManager = ChatManager.sharedInstance
+        
         guard let chat = self.currentChat,
               let messages = chatManager.conversations?[chat],
               let message = messages?[indexPath.row],
@@ -238,24 +241,38 @@ extension ChatViewController : UITableViewDelegate, UITableViewDataSource {
         
         if messageText.compare("NA") != .orderedSame {
             if senderID.compare(currentIdentityID) == .orderedSame {
-                let cell = tableView.dequeueReusableCell(withIdentifier: "SentTextTableViewCell", for: indexPath) as? SentTextTableViewCell
+                let cell = tableView.dequeueReusableCell(withIdentifier: "SentTextTableViewCell",
+                                                         for: indexPath) as? SentTextTableViewCell
+                
+                cell?.messageTextLabel.text = messageText
+                cell?.messageBalloon?.leftArrow = false
+                cell?.messageBalloon?.color = UIColor.gray
+                return cell!
+            } else {
+                let cell = tableView.dequeueReusableCell(withIdentifier: "ReceivedTextTableViewCell",
+                                                         for: indexPath) as? ReceivedTextTableViewCell
+                
                 cell?.messageTextLabel.text = messageText
                 cell?.messageBalloon?.leftArrow = true
                 cell?.messageBalloon?.changeColor(withSeed: indexPath.first ?? 0)
                 return cell!
-            } else {
-                let cell = tableView.dequeueReusableCell(withIdentifier: "ReceivedTextTableViewCell", for: indexPath) as? ReceivedTextTableViewCell
-                cell?.messageTextLabel.text = messageText
-                return cell!
             }
         } else {
             if senderID.compare(currentIdentityID) == .orderedSame {
-                let cell = tableView.dequeueReusableCell(withIdentifier: "SentImageTableViewCell", for: indexPath) as? SentImageTableViewCell
+                let cell = tableView.dequeueReusableCell(withIdentifier: "SentImageTableViewCell",
+                                                         for: indexPath) as? SentImageTableViewCell
+                
                 cell?.loadImage(imageFile: messageImagePreview)
+                cell?.messageBalloon?.leftArrow = false
+                cell?.messageBalloon?.color = UIColor.gray
                 return cell!
             } else {
-                let cell = tableView.dequeueReusableCell(withIdentifier: "ReceivedImageTableViewCell", for: indexPath) as? ReceivedImageTableViewCell
+                let cell = tableView.dequeueReusableCell(withIdentifier: "ReceivedImageTableViewCell",
+                                                         for: indexPath) as? ReceivedImageTableViewCell
+                
                 cell?.loadImage(imageFile: messageImagePreview)
+                cell?.messageBalloon?.leftArrow = true
+                cell?.messageBalloon?.changeColor(withSeed: indexPath.first ?? 0)
                 return cell!
             }
         }
