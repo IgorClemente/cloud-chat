@@ -33,10 +33,10 @@ class LoginViewController: UIViewController {
         
         //facebookButton.readPermissions = ["public_profile","email"]
         
+        
         GIDSignIn.sharedInstance()?.delegate = self
         GIDSignIn.sharedInstance()?.uiDelegate = self
         GIDSignIn.sharedInstance()?.shouldFetchBasicProfile = true
-        GIDSignIn.sharedInstance()?.signOut()
         
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
@@ -69,6 +69,15 @@ class LoginViewController: UIViewController {
     
     @IBAction func passwordDidEndOnExit(_ sender: Any) {
         dismissKeyboard()
+    }
+    
+    @IBAction func onFacebookLogin(_ sender: Any) {
+        
+    }
+    
+    @IBAction func onGoogleLogin(_ sender: Any) {
+        print("Google Sign")
+        GIDSignIn.sharedInstance()?.signIn()
     }
 }
 

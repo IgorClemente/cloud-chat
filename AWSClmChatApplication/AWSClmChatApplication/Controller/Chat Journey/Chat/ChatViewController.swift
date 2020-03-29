@@ -10,9 +10,9 @@ import UIKit
 
 class ChatViewController: UIViewController, SentImageDelegate {
     
-    @IBOutlet weak var tableView: UITableView!
-    @IBOutlet weak var messageTextField: UITextField!
-    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var tableView: UITableView?
+    @IBOutlet weak var messageTextField: UITextField?
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView?
     
     @IBOutlet weak var sendTextButton: UIButton!
     
@@ -30,10 +30,10 @@ class ChatViewController: UIViewController, SentImageDelegate {
         let refreshControl = UIRefreshControl()
         refreshControl.addTarget(self, action: #selector(refresh(_:)), for: .valueChanged)
         
-        tableView.refreshControl = refreshControl
+        tableView?.refreshControl = refreshControl
         
-        self.activityIndicator.hidesWhenStopped = true
-        self.activityIndicator.stopAnimating()
+        self.activityIndicator?.hidesWhenStopped = true
+        self.activityIndicator?.stopAnimating()
         
         let field = messageTextField as! GenericWithImage
         field.sendImageController = self
@@ -50,15 +50,15 @@ class ChatViewController: UIViewController, SentImageDelegate {
         } else {
             disableUI()
             self.refreshMessages {
-                self.messageTextField.isEnabled = true
+                self.messageTextField?.isEnabled = true
                 self.enableUI()
             }
         }
     }
     
     private func prepareForChat(between sourceUserID: String?,and destinationUserID: String?) {
-        self.activityIndicator.startAnimating()
-        self.messageTextField.isEnabled = false
+        self.activityIndicator?.startAnimating()
+        self.messageTextField?.isEnabled = false
         self.sendTextButton.isEnabled = false
         
         guard let sourceUserID = sourceUserID, let destinationUserID = destinationUserID else {
@@ -85,8 +85,8 @@ class ChatViewController: UIViewController, SentImageDelegate {
                 }
                 
                 DispatchQueue.main.async {
-                    self.activityIndicator.stopAnimating()
-                    self.messageTextField.isEnabled = true
+                    self.activityIndicator?.stopAnimating()
+                    self.messageTextField?.isEnabled = true
                     self.sendTextButton.isEnabled = true
                 }
             })
@@ -95,18 +95,18 @@ class ChatViewController: UIViewController, SentImageDelegate {
     
     private func disableUI() {
         DispatchQueue.main.async {
-            self.messageTextField.isEnabled = false
+            self.messageTextField?.isEnabled = false
             self.sendTextButton.isEnabled = false
-            self.activityIndicator.startAnimating()
+            self.activityIndicator?.startAnimating()
             UIApplication.shared.beginIgnoringInteractionEvents()
         }
     }
     
     private func enableUI() {
         DispatchQueue.main.async {
-            self.messageTextField.isEnabled = true
+            self.messageTextField?.isEnabled = true
             self.sendTextButton.isEnabled = true
-            self.activityIndicator.stopAnimating()
+            self.activityIndicator?.stopAnimating()
             UIApplication.shared.endIgnoringInteractionEvents()
         }
     }
@@ -120,7 +120,7 @@ class ChatViewController: UIViewController, SentImageDelegate {
         alertController.addAction(okAction)
         
         DispatchQueue.main.async {
-            self.activityIndicator.stopAnimating()
+            self.activityIndicator?.stopAnimating()
             self.present(alertController, animated: true, completion: nil)
         }
     }
@@ -138,26 +138,26 @@ class ChatViewController: UIViewController, SentImageDelegate {
             }
             
             DispatchQueue.main.async {
-                self.tableView.reloadData()
+                self.tableView?.reloadData()
             }
         }
     }
     
     @objc private func refresh(_ refreshControl: UIRefreshControl) {
-        self.messageTextField.isEnabled = false
+        self.messageTextField?.isEnabled = false
         self.sendTextButton.isEnabled = false
         
         self.refreshMessages {
-            self.messageTextField.isEnabled = true
+            self.messageTextField?.isEnabled = true
             self.sendTextButton.isEnabled = true
             refreshControl.endRefreshing()
         }
     }
     
     @IBAction func sendText(_ sender: Any) {
-        self.messageTextField.resignFirstResponder()
+        self.messageTextField?.resignFirstResponder()
         
-        guard let sendText = self.messageTextField.text,
+        guard let sendText = self.messageTextField?.text,
               let currentChat = self.currentChat else {
             return
         }
@@ -167,6 +167,7 @@ class ChatViewController: UIViewController, SentImageDelegate {
         let chatManager = ChatManager.sharedInstance
         chatManager.sendTextMessage(chat: currentChat, messageText: sendText) { (error) in
             if let error = error {
+                self.enableUI()
                 self.displayError(error: error as NSError)
                 return
             }
@@ -174,7 +175,7 @@ class ChatViewController: UIViewController, SentImageDelegate {
             self.enableUI()
             
             DispatchQueue.main.async {
-                self.tableView.reloadData()
+                self.tableView?.reloadData()
             }
         }
     }
@@ -184,7 +185,7 @@ class ChatViewController: UIViewController, SentImageDelegate {
     }
     
     @IBAction func didEndOnExit(_ sender: Any) {
-        self.messageTextField.resignFirstResponder()
+        self.messageTextField?.resignFirstResponder()
     }
 }
 

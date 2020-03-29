@@ -30,7 +30,7 @@ class UploadImageViewController: UIViewController {
     }
     
     @IBAction func cancel(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
+        self.navigationController?.popViewController(animated: true)
     }
     
     @IBAction func selectImage(_ sender: Any) {
