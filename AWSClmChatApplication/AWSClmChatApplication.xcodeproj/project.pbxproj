@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C40FAFA7242FEC6D0084BB16 /* GenericWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40FAFA6242FEC6D0084BB16 /* GenericWithImage.swift */; };
 		C4142A3E242D4C0900FBDB02 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4142A3D242D4C0900FBDB02 /* LoginTextField.swift */; };
+		C44F3C18243042CD006F639A /* ImageViewRounder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44F3C17243042CD006F639A /* ImageViewRounder.swift */; };
 		C457F8E5242C346000E64A12 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457F8E4242C346000E64A12 /* Button.swift */; };
 		C49DA892242C76E300DBBD38 /* Rounder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DA891242C76E300DBBD38 /* Rounder.swift */; };
 		C49DA894242C795700DBBD38 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DA893242C795700DBBD38 /* UIView.swift */; };
@@ -101,6 +102,7 @@
 /* Begin PBXFileReference section */
 		C40FAFA6242FEC6D0084BB16 /* GenericWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericWithImage.swift; sourceTree = "<group>"; };
 		C4142A3D242D4C0900FBDB02 /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		C44F3C17243042CD006F639A /* ImageViewRounder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewRounder.swift; sourceTree = "<group>"; };
 		C457F8E4242C346000E64A12 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		C49DA891242C76E300DBBD38 /* Rounder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rounder.swift; sourceTree = "<group>"; };
 		C49DA893242C795700DBBD38 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
@@ -262,6 +264,7 @@
 				D03C9F5322499B5200DB4072 /* ReceivedImageTableViewCell.swift */,
 				D0421CFA223CB1CB00A9033E /* FriendTableViewCell.swift */,
 				C4F869B6242EA11F00C92634 /* Balloon.swift */,
+				C44F3C17243042CD006F639A /* ImageViewRounder.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -525,6 +528,7 @@
 				C4BEF1B4242C3E3700F79A75 /* LoginViewController.swift in Sources */,
 				D019999E22357A5D00233500 /* ChatManager.swift in Sources */,
 				D0199999223574DE00233500 /* Chat.swift in Sources */,
+				C44F3C18243042CD006F639A /* ImageViewRounder.swift in Sources */,
 				D03C9F5922499B5400DB4072 /* ReceivedTextTableViewCell.swift in Sources */,
 				C49DA892242C76E300DBBD38 /* Rounder.swift in Sources */,
 				C4BEF1AC242C3CD700F79A75 /* CognitoIdentityPoolController.swift in Sources */,

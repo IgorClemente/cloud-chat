@@ -21,6 +21,8 @@ class UploadImageViewController: UIViewController {
 
         activityIndicator.hidesWhenStopped = true
         activityIndicator.stopAnimating()
+        
+        self.title = "Carregar imagem"
     }
 
     override func didReceiveMemoryWarning() {

@@ -10,13 +10,12 @@ import Foundation
 
 class Circle : UIView {
     
-    @IBOutlet var views: [UIView]?
-    
-    override func layoutSubviews() {
-        self.views?.forEach({ (view) in
-            view.clipsToBounds = true
-            view.translatesAutoresizingMaskIntoConstraints = true
-            view.layer.cornerRadius = view.frame.width * 0.5
-        })
+    @IBOutlet var views: [UIView]? {
+        didSet {
+            self.views?.forEach({ (view) in
+                view.clipsToBounds = true
+                view.layer.cornerRadius = max(view.frame.width, view.frame.height) * 0.5
+            })
+        }
     }
 }

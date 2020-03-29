@@ -22,17 +22,17 @@ class GenericWithImage : UITextField {
     
     var asideView : UIView? {
         if let image = self.image {
-            let view = UIView(frame: CGRect(x: 0, y: 0, width: 40, height: 25))
             
-            let xPosition = left ? -5 : 5
+            let view = UIView(frame: CGRect(x: 0, y: 0, width: 40, height: 25))
             
             let attachmentButton = UIButton()
             attachmentButton.frame = CGRect(x: 0, y: 0, width: 25, height: 25)
             attachmentButton.setImage(image, for: .normal)
-            attachmentButton.contentMode = .scaleAspectFill
+            attachmentButton.contentMode = .scaleAspectFit
             attachmentButton.addTarget(self, action: #selector(tapAttachment), for: .touchUpInside)
             
             view.addSubview(attachmentButton)
+            
             return view
         }
         
