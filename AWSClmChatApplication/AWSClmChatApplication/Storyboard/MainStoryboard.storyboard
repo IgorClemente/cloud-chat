@@ -19,19 +19,21 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="Nqb-Pv-dEd">
                                 <rect key="frame" x="25" y="138" width="364" height="120"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Usuário" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MD9-eI-bgG" customClass="LoginTextField" customModule="AWSClmChatApplication" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Usuário" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="MD9-eI-bgG" customClass="LoginTextField" customModule="AWSClmChatApplication" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="364" height="30"/>
+                                        <color key="tintColor" red="0.2470588235" green="0.20392156859999999" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="SOi-Ug-JW8"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="alphabet" keyboardAppearance="light" returnKeyType="continue" enablesReturnKeyAutomatically="YES" textContentType="username"/>
                                         <connections>
                                             <outlet property="delegate" destination="9aB-a4-493" id="3ok-Mc-QV9"/>
                                         </connections>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Senha" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4F4-Z8-Yot" customClass="LoginTextField" customModule="AWSClmChatApplication" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Senha" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="4F4-Z8-Yot" customClass="LoginTextField" customModule="AWSClmChatApplication" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="90" width="364" height="30"/>
+                                        <color key="tintColor" red="0.2470588235" green="0.20392156859999999" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="rTU-Rr-ekM"/>
                                         </constraints>
@@ -229,35 +231,38 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Yk4-X2-Lwj">
                                 <rect key="frame" x="25" y="148" width="364" height="190"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nome de Usuário" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="if7-GQ-Qbm" customClass="LoginTextField" customModule="AWSClmChatApplication" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nome de Usuário" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="if7-GQ-Qbm" customClass="LoginTextField" customModule="AWSClmChatApplication" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="364" height="30"/>
+                                        <color key="tintColor" red="0.2470588235" green="0.20392156859999999" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="Cy4-gj-05O"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="alphabet" keyboardAppearance="light" returnKeyType="continue" enablesReturnKeyAutomatically="YES" textContentType="username"/>
                                         <connections>
                                             <outlet property="delegate" destination="b26-wU-uc4" id="PoC-ub-3Hf"/>
                                         </connections>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Senha" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xvv-pH-8bv" customClass="LoginTextField" customModule="AWSClmChatApplication" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Senha" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="xvv-pH-8bv" customClass="LoginTextField" customModule="AWSClmChatApplication" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="80" width="364" height="30"/>
+                                        <color key="tintColor" red="0.2470588235" green="0.20392156859999999" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="ANe-4s-O20"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="alphabet" keyboardAppearance="light" returnKeyType="continue" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" textContentType="password"/>
                                         <connections>
                                             <outlet property="delegate" destination="b26-wU-uc4" id="QuU-WR-QpQ"/>
                                         </connections>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QrL-tS-nmR" customClass="LoginTextField" customModule="AWSClmChatApplication" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="QrL-tS-nmR" customClass="LoginTextField" customModule="AWSClmChatApplication" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="160" width="364" height="30"/>
+                                        <color key="tintColor" red="0.2470588235" green="0.20392156859999999" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="YPk-T3-yyA"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="alphabet" keyboardAppearance="light" returnKeyType="go" enablesReturnKeyAutomatically="YES" textContentType="email"/>
                                         <connections>
                                             <outlet property="delegate" destination="b26-wU-uc4" id="i7z-Fm-jIl"/>
                                         </connections>

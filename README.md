@@ -50,18 +50,17 @@ Esses serviços são acessíveis através do AWSSDK iOS ou Android.
 - [AWS S3](https://aws.amazon.com/s3/?sc_channel=PS&sc_campaign=acquisition_BR&sc_publisher=google&sc_medium=english_s3_b&sc_content=s3_e&sc_detail=aws%20s3&sc_category=s3&sc_segment=89108864428&sc_matchtype=e&sc_country=BR&s_kwcid=AL!4422!3!89108864428!e!!g!!aws%20s3&ef_id=Cj0KCQjwpLfzBRCRARIsAHuj6qUVrOSIgG-c0fpiDg13sNmO6CtOYEBfW6VVRsWUXwmdDZMSSDWYyowaAhgjEALw_wcB:G:s)
 - [AWS Lambda](https://aws.amazon.com/pt/lambda/)
 
-## :movie_camera: Preview
-
-<h2>
-  [![](preview/trevalone01.gif)](https://www.youtube.com/watch?v=BSpLC6BmtvA)
-  [![](preview/trevalone01.gif)](https://www.youtube.com/watch?v=HGe0YBPlL2M)
-</h2>
-
 ## :iphone: Screenshot
 
 <h2 align="center">
   <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot01.png" width="428" height="970" />
   <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot02.png" width="428" height="970" />
+  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot03.png" width="428" height="970" />
+  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot04.png" width="428" height="970" />
+  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot05.png" width="428" height="970" />
+  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot06.png" width="428" height="970" />
+  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot07.png" width="428" height="970" />
+  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot08.png" width="428" height="970" />
 </h2>
 
 ## :memo: Licença
