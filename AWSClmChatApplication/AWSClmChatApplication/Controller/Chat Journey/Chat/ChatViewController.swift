@@ -34,12 +34,12 @@ class ChatViewController: UIViewController, SentImageDelegate {
         
         self.activityIndicator?.hidesWhenStopped = true
         self.activityIndicator?.stopAnimating()
-        
-        let field = messageTextField as! GenericWithImage
-        field.sendImageController = self
-        
+                
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        
+        guard let field = messageTextField as? GenericWithImage else { return }
+        field.sendImageController = self
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -62,7 +62,8 @@ class ChatViewController: UIViewController, SentImageDelegate {
         self.sendTextButton?.isEnabled = false
         
         guard let sourceUserID = sourceUserID, let destinationUserID = destinationUserID else {
-            let error = NSError(domain: "com.igorclemente.AWSClmChatApplication",code: 100,
+            let error = NSError(domain: "com.igorclemente.AWSClmChatApplication",
+                                code: 100,
                                 userInfo: ["__type":"Error", "message":"Could not load chat."])
             
             self.displayError(error: error)
@@ -83,8 +84,10 @@ class ChatViewController: UIViewController, SentImageDelegate {
                     self.displayError(error: error as NSError)
                     return
                 }
-                
+                                
                 DispatchQueue.main.async {
+                    self.refresh(nil)
+                    
                     self.activityIndicator?.stopAnimating()
                     self.messageTextField?.isEnabled = true
                     self.sendTextButton?.isEnabled = true
@@ -145,14 +148,14 @@ class ChatViewController: UIViewController, SentImageDelegate {
         }
     }
     
-    @objc private func refresh(_ refreshControl: UIRefreshControl) {
+    @objc private func refresh(_ refreshControl: UIRefreshControl?) {
         self.messageTextField?.isEnabled = false
         self.sendTextButton?.isEnabled = false
         
         self.refreshMessages {
             self.messageTextField?.isEnabled = true
             self.sendTextButton?.isEnabled = true
-            refreshControl.endRefreshing()
+            refreshControl?.endRefreshing()
         }
     }
     
@@ -247,7 +250,7 @@ extension ChatViewController : UITableViewDelegate, UITableViewDataSource {
                 let cell = tableView.dequeueReusableCell(withIdentifier: "SentTextTableViewCell",
                                                          for: indexPath) as? SentTextTableViewCell
                 
-                cell?.messageTextLabel.text = messageText
+                cell?.messageTextLabel?.text = messageText
                 cell?.messageBalloon?.leftArrow = false
                 cell?.messageBalloon?.color = UIColor.gray
                 return cell!
@@ -255,7 +258,7 @@ extension ChatViewController : UITableViewDelegate, UITableViewDataSource {
                 let cell = tableView.dequeueReusableCell(withIdentifier: "ReceivedTextTableViewCell",
                                                          for: indexPath) as? ReceivedTextTableViewCell
                 
-                cell?.messageTextLabel.text = messageText
+                cell?.messageTextLabel?.text = messageText
                 cell?.messageBalloon?.leftArrow = true
                 cell?.messageBalloon?.changeColor(withSeed: indexPath.first ?? 0)
                 return cell!

@@ -13,11 +13,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     @IBOutlet weak var tableView: UITableView?
     
     private var selectedUserId: String?
-    
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
-    }
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -29,9 +25,8 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         tableView?.refreshControl = refreshControl
         
         let cognitoIdentityPoolController = CognitoIdentityPoolController.sharedInstance
-        guard let currentIdentityID = cognitoIdentityPoolController.currentIdentityID else {
-            return
-        }
+        
+        guard let currentIdentityID = cognitoIdentityPoolController.currentIdentityID else { return }
         
         let dynamoDBController = DynamoDBController.sharedInstance
         dynamoDBController.refreshFriendList(userId: currentIdentityID) { (error) in
@@ -39,6 +34,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
                 self.displayError(error: error as NSError)
                 return
             }
+            
             DispatchQueue.main.async {
                 self.tableView?.reloadData()
             }
@@ -47,24 +43,34 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         navigationController?.navigationBar.shadowImage = UIImage()
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.refresh(nil)
+    }
 
-    @objc func refresh(_ refreshControl: UIRefreshControl) {
+    @objc func refresh(_ refreshControl: UIRefreshControl?) {
+        self.disableUI()
+        
         let cognitoIdentityPoolController = CognitoIdentityPoolController.sharedInstance
-        guard let currentIdentityID = cognitoIdentityPoolController.currentIdentityID else {
-            return
-        }
+        
+        guard let currentIdentityID = cognitoIdentityPoolController.currentIdentityID else { return }
         
         let dynamoDBController = DynamoDBController.sharedInstance
         dynamoDBController.refreshFriendList(userId: currentIdentityID) { (error) in
             if let error = error {
                 DispatchQueue.main.async {
-                    refreshControl.endRefreshing()
+                    refreshControl?.endRefreshing()
+                    self.enableUI()
                     self.displayError(error: error as NSError)
                     return
                 }
             }
+            
             DispatchQueue.main.async {
-                refreshControl.endRefreshing()
+                refreshControl?.endRefreshing()
+                self.enableUI()
                 self.tableView?.reloadData()
             }
         }
@@ -82,6 +88,18 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
     }
     
+    private func disableUI() {
+        DispatchQueue.main.async {
+            UIApplication.shared.beginIgnoringInteractionEvents()
+        }
+    }
+    
+    private func enableUI() {
+        DispatchQueue.main.async {
+            UIApplication.shared.endIgnoringInteractionEvents()
+        }
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         let chatManager = ChatManager.sharedInstance
         
@@ -92,17 +110,19 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "FriendTableViewCell", for: indexPath) as? FriendTableViewCell
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "FriendTableViewCell", for: indexPath) as? FriendTableViewCell else {
+            return UITableViewCell()
+        }
         
         let chatManager = ChatManager.sharedInstance
         
-        if let cell = cell,
-           let friendList = chatManager.friendList {
+        if let friendList = chatManager.friendList {
            let user = friendList[indexPath.row]
-            cell.nameLabel.text = user.username
-            cell.emailAddressLabel.text = user.email_address
+            cell.nameLabel?.text = user.username
+            cell.emailAddressLabel?.text = user.email_address
         }
-        return cell!
+        
+        return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -112,6 +132,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
             let user = friendList[indexPath.row]
             self.selectedUserId = user.id
         }
+        
         self.performSegue(withIdentifier: "chatSegue", sender: nil)
     }
     

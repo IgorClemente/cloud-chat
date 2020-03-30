@@ -10,7 +10,7 @@ import UIKit
 
 class SentImageTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var messageImageView: UIImageView!
+    @IBOutlet weak var messageImageView: UIImageView?
     @IBOutlet weak var messageBalloon: Balloon?
     
     override func awakeFromNib() {
@@ -28,11 +28,11 @@ class SentImageTableViewCell: UITableViewCell {
         let fileManager = FileManager.default
         if fileManager.fileExists(atPath: localFilePath) == true {
 
-            self.messageImageView.image = UIImage(contentsOfFile: localFilePath)
+            self.messageImageView?.image = UIImage(contentsOfFile: localFilePath)
             return
         }
         
-        self.messageImageView.image = UIImage(named: "placeholder")
+        self.messageImageView?.image = UIImage(named: "camera_preview")
         
         let s3Controller = S3Controller.sharedInstance
         s3Controller.downloadThumbnail(localFilePath: localFilePath, remoteFileName: imageFile) { (error) in
@@ -41,7 +41,7 @@ class SentImageTableViewCell: UITableViewCell {
             }
             
             DispatchQueue.main.async {
-                self.messageImageView.image = UIImage(contentsOfFile: localFilePath)
+                self.messageImageView?.image = UIImage(contentsOfFile: localFilePath)
                 self.setNeedsLayout()
             }
         }

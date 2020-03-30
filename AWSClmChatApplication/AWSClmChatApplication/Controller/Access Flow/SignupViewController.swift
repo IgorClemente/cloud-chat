@@ -11,18 +11,14 @@ import AWSCognitoIdentityProvider
 
 class SignupViewController: UIViewController {
 
-    @IBOutlet weak var usernameField: UITextField!
-    @IBOutlet weak var passwordField: UITextField!
-    @IBOutlet weak var emailField: UITextField!
-    @IBOutlet weak var createAccountButton: UIButton!
-    
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
-    }
+    @IBOutlet weak var usernameField: UITextField?
+    @IBOutlet weak var passwordField: UITextField?
+    @IBOutlet weak var emailField: UITextField?
+    @IBOutlet weak var createAccountButton: UIButton?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.createAccountButton.isEnabled = false
+        self.createAccountButton?.isEnabled = false
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,14 +26,14 @@ class SignupViewController: UIViewController {
     }
     
     @IBAction func onCreateAccount(_ sender: Any) {
-        guard let username = self.usernameField.text,
-              let password = self.passwordField.text,
-              let emailAddress = self.emailField.text else {
+        guard let usernameText = self.usernameField?.text,
+              let passwordText = self.passwordField?.text,
+              let emailAddressText = self.emailField?.text else {
             return
         }
         
         let poolController = CognitoUserPoolController.sharedInstance
-        poolController.signup(username: username, password: password, emailAddress: emailAddress) { (error, user) in
+        poolController.signup(username: usernameText, password: passwordText, emailAddress: emailAddressText) { (error, user) in
             if let error = error {
                 print("Signup Error! \(error)")
                 self.displaySignupError(error: error as NSError,completion: nil)
@@ -79,11 +75,12 @@ class SignupViewController: UIViewController {
 
 extension SignupViewController : UITextFieldDelegate {
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        if let username = self.usernameField.text,
-           let password = self.passwordField.text,
-           let emailAddress = self.emailField.text {
+        if let username = self.usernameField?.text,
+           let password = self.passwordField?.text,
+           let emailAddress = self.emailField?.text {
+            
             if (username.count > 0) && (password.count > 0) && (emailAddress.count > 0) {
-                self.createAccountButton.isEnabled = true
+                self.createAccountButton?.isEnabled = true
             }
         }
         return true
@@ -93,6 +90,12 @@ extension SignupViewController : UITextFieldDelegate {
 extension SignupViewController {
     
     fileprivate func dismissKeyboard() {
+        guard let usernameField = self.usernameField,
+              let passwordField = self.passwordField,
+              let emailField = self.emailField else {
+            return
+        }
+        
         usernameField.resignFirstResponder()
         passwordField.resignFirstResponder()
         emailField.resignFirstResponder()
@@ -108,6 +111,7 @@ extension SignupViewController {
         }
         
         alertController.addAction(okAction)
+        
         DispatchQueue.main.async {
             self.present(alertController,animated: true)
         }
@@ -123,7 +127,9 @@ extension SignupViewController {
                 }
             }
         }
+        
         alertController.addAction(okAction)
+        
         DispatchQueue.main.async {
             self.present(alertController, animated: true, completion: nil)
         }
@@ -156,6 +162,7 @@ extension SignupViewController {
         }
         
         let resendAction = UIAlertAction(title: "Resend code", style: .default) { (action) in
+            
             let poolController = CognitoUserPoolController.sharedInstance
             poolController.resendConfirmationCode(user: user, completion: { (error) in
                 if let error = error {
@@ -170,6 +177,7 @@ extension SignupViewController {
         
         alertController.addAction(okAction)
         alertController.addAction(resendAction)
+        
         DispatchQueue.main.async {
             self.present(alertController, animated: true, completion: nil)
         }
@@ -180,7 +188,9 @@ extension SignupViewController {
         let okAction = UIAlertAction(title: "Ok", style: .default) { (action) in
             self.requestConfirmationCode(user, completion: nil)
         }
+        
         alertController.addAction(okAction)
+        
         DispatchQueue.main.async {
             self.present(alertController, animated: true, completion: nil)
         }
@@ -188,9 +198,11 @@ extension SignupViewController {
     
     fileprivate func getFederatedIdentity(_ user: AWSCognitoIdentityUser) {
         
-        let username = self.usernameField.text!
-        let emailAddress = self.emailField.text!
-        let password = self.passwordField.text!
+        guard let username = self.usernameField?.text,
+              let emailAddress = self.emailField?.text,
+              let password = self.passwordField?.text else {
+            return
+        }
         
         let task = user.getSession(username, password: password, validationData: nil)
         task.continueWith { (task) -> Any? in

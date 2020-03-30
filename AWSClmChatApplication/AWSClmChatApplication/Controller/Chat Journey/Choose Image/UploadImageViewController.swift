@@ -2,27 +2,30 @@
 //  UploadImageViewController.swift
 //  AWSChat
 //
-//  Created by Igor Clemente on 13/04/2017.
-//  Copyright © 2019 ASM Technology Ltd. All rights reserved.
+//  Created by Igor Clemente on 13/04/2019.
+//  Copyright © 2019 MACBOOKAIR All rights reserved.
 //
 
 import UIKit
 
 class UploadImageViewController: UIViewController {
 
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var imageView: UIImageView?
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView?
     
     var currentChat:Chat?
+    
     fileprivate var selectedImage:UIImage?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.title = "Carregar imagem"
+        
+        guard let activityIndicator = self.activityIndicator else { return }
+        
         activityIndicator.hidesWhenStopped = true
         activityIndicator.stopAnimating()
-        
-        self.title = "Carregar imagem"
     }
 
     override func didReceiveMemoryWarning() {
@@ -49,7 +52,7 @@ class UploadImageViewController: UIViewController {
             return
         }
         
-        activityIndicator.startAnimating()
+        activityIndicator?.startAnimating()
         UIApplication.shared.beginIgnoringInteractionEvents()
         
         let chatManager = ChatManager.sharedInstance
@@ -60,10 +63,8 @@ class UploadImageViewController: UIViewController {
             }
             
             DispatchQueue.main.async {
-                self.activityIndicator.stopAnimating()
-                
+                self.activityIndicator?.stopAnimating()
                 UIApplication.shared.endIgnoringInteractionEvents()
-            
                 self.navigationController?.popViewController(animated: true)
             }
             return
@@ -79,10 +80,8 @@ class UploadImageViewController: UIViewController {
         alertController.addAction(okAction)
         
         DispatchQueue.main.async {
-            self.activityIndicator.stopAnimating()
-            
+            self.activityIndicator?.stopAnimating()
             UIApplication.shared.endIgnoringInteractionEvents()
-            
             self.present(alertController, animated: true, completion: nil)
         }
     }
@@ -95,13 +94,13 @@ extension UploadImageViewController : UINavigationControllerDelegate, UIImagePic
         
         if let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
             selectedImage = image
-            self.imageView.image = selectedImage
+            self.imageView?.image = selectedImage
         }
         
-        self.dismiss(animated: true, completion: nil)
+        picker.dismiss(animated: true, completion: nil)
     }
     
     public func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
-        self.dismiss(animated: true, completion: nil)
+        picker.dismiss(animated: true, completion: nil)
     }
 }

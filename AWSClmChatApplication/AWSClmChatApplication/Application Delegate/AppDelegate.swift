@@ -27,8 +27,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
         
         if url.scheme?.compare("com.googleusercontent.apps.491396832892-t391raf0mj70g8g2pvuv6kth9f7aue5h") == .orderedSame {
+            guard let url = url as URL? else { return false }
+            
             return ApplicationDelegate.shared.application(application,
-                                                          open: url as URL!,
+                                                          open: url,
                                                           sourceApplication: sourceApplication,
                                                           annotation: annotation)
         }

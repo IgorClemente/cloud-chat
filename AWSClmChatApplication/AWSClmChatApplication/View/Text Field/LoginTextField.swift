@@ -32,17 +32,12 @@ class LoginTextField : UITextField {
         let defaultColor: UIColor = UIColor.white
         let defaultColorPlaceholder: UIColor = UIColor(red: 0.867, green: 0.867, blue: 0.867, alpha: 1)
         
-        let borderWidth: CGFloat = 1.0
-        
-        let defaultFont: UIFont = UIFont(name: "Roboto-Medium", size: 15) ?? UIFont()
-
-        if let placeholderText = self.placeholder {
-            let attributesDictionary: [NSAttributedString.Key : Any] = [.foregroundColor : defaultColorPlaceholder]
-            
-            let attributes: NSAttributedString = NSAttributedString(string: placeholderText, attributes: attributesDictionary)
-            
-            self.attributedPlaceholder = attributes
+        if let placeholder = self.placeholder {
+            let attributes: [NSAttributedString.Key : Any] = [.foregroundColor : defaultColorPlaceholder]
+            self.attributedPlaceholder = NSAttributedString(string: placeholder, attributes: attributes)
         }
+        
+        let borderWidth: CGFloat = 1.0
         
         let border = CALayer()
         border.backgroundColor = defaultColor.cgColor

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C40FAFA7242FEC6D0084BB16 /* GenericWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40FAFA6242FEC6D0084BB16 /* GenericWithImage.swift */; };
 		C4142A3E242D4C0900FBDB02 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4142A3D242D4C0900FBDB02 /* LoginTextField.swift */; };
+		C44D274324318B0200C921A5 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44D274224318B0200C921A5 /* UINavigationController.swift */; };
 		C44F3C18243042CD006F639A /* ImageViewRounder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44F3C17243042CD006F639A /* ImageViewRounder.swift */; };
 		C457F8E5242C346000E64A12 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457F8E4242C346000E64A12 /* Button.swift */; };
 		C49DA892242C76E300DBBD38 /* Rounder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DA891242C76E300DBBD38 /* Rounder.swift */; };
@@ -102,6 +103,7 @@
 /* Begin PBXFileReference section */
 		C40FAFA6242FEC6D0084BB16 /* GenericWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericWithImage.swift; sourceTree = "<group>"; };
 		C4142A3D242D4C0900FBDB02 /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		C44D274224318B0200C921A5 /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		C44F3C17243042CD006F639A /* ImageViewRounder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewRounder.swift; sourceTree = "<group>"; };
 		C457F8E4242C346000E64A12 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		C49DA891242C76E300DBBD38 /* Rounder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rounder.swift; sourceTree = "<group>"; };
@@ -187,6 +189,14 @@
 			path = "Text Field";
 			sourceTree = "<group>";
 		};
+		C44D274124318AC400C921A5 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				C44D274224318B0200C921A5 /* UINavigationController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		C457F8E2242C1EC900E64A12 /* Chat Journey */ = {
 			isa = PBXGroup;
 			children = (
@@ -256,6 +266,7 @@
 		C457F8EB242C382800E64A12 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C44D274124318AC400C921A5 /* Navigation */,
 				C4142A3C242D4BB000FBDB02 /* Text Field */,
 				C49DA890242C76C300DBBD38 /* Utils */,
 				D03C9F5622499B5400DB4072 /* SentTextTableViewCell.swift */,
@@ -366,7 +377,6 @@
 			children = (
 				C457F8EB242C382800E64A12 /* View */,
 				C457F8E8242C37AB00E64A12 /* Services */,
-				D04BE945222D980B00D7A0C7 /* GoogleService-Info.plist */,
 				D0EC55D0221BC73200B99170 /* Application Delegate */,
 				D0EC55CF221BC6FE00B99170 /* Resources Files */,
 				D0EC55CE221BC6D800B99170 /* Supporting Files */,
@@ -401,6 +411,7 @@
 		D0EC55CE221BC6D800B99170 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D04BE945222D980B00D7A0C7 /* GoogleService-Info.plist */,
 				D0EC5595221BBA5A00B99170 /* Products */,
 				D04639C822206E6B00509CF5 /* ObjCBridging-Header.h */,
 				D0EC55A3221BBA5C00B99170 /* Info.plist */,
@@ -454,11 +465,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Igor Clemente";
 				TargetAttributes = {
 					D0EC5593221BBA5A00B99170 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -548,6 +560,7 @@
 				C49DA894242C795700DBBD38 /* UIView.swift in Sources */,
 				C4BEF1AE242C3CF400F79A75 /* DynamoDBController.swift in Sources */,
 				D0EC55C1221BC65400B99170 /* HomeViewController.swift in Sources */,
+				C44D274324318B0200C921A5 /* UINavigationController.swift in Sources */,
 				C4BEF1B8242C3EF100F79A75 /* S3Controller.swift in Sources */,
 				D0421CFB223CB1CB00A9033E /* FriendTableViewCell.swift in Sources */,
 			);
@@ -623,7 +636,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -718,7 +731,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.clemente.AWSClmChatApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/AWSClmChatApplication/Supporting Files/ObjCBridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -750,7 +763,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.clemente.AWSClmChatApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/AWSClmChatApplication/Supporting Files/ObjCBridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

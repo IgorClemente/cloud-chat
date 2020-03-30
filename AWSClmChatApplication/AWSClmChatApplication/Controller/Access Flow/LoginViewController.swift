@@ -19,10 +19,6 @@ class LoginViewController: UIViewController {
     
     private var facebookLoginManager: LoginManager = LoginManager()
     
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -33,7 +29,7 @@ class LoginViewController: UIViewController {
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
@@ -64,12 +60,10 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func onFacebookLogin(_ sender: Any) {
-        print("Facebook Sign")
         self.facebookLoginManager.logIn(readPermissions: [""], from: self, handler: nil)
     }
     
     @IBAction func onGoogleLogin(_ sender: Any) {
-        print("Google Sign")
         GIDSignIn.sharedInstance()?.signIn()
     }
 }

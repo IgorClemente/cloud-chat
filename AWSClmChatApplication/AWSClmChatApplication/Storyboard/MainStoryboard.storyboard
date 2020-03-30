@@ -316,10 +316,10 @@
             </objects>
             <point key="canvasLocation" x="1829.5999999999999" y="153.37331334332833"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Light Status Bar Navigation Controller-->
         <scene sceneID="Mi8-3A-PSG">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="J1o-wb-lit" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="J1o-wb-lit" customClass="LightStatusBarNavigationController" customModule="AWSClmChatApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cbn-dY-twd">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

@@ -10,7 +10,7 @@ import UIKit
 
 class SentTextTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var messageTextLabel: UILabel!
+    @IBOutlet weak var messageTextLabel: UILabel?
     @IBOutlet weak var messageBalloon: Balloon?
     
     override func awakeFromNib() {
