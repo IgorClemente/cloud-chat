@@ -53,14 +53,14 @@ Esses serviços são acessíveis através do AWSSDK iOS ou Android.
 ## :iphone: Screenshot
 
 <h2 align="center">
-  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot01.png" width="428" height="940" />
-  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot02.png" width="428" height="940" />
-  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot03.png" width="428" height="940" />
-  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot04.png" width="428" height="940" />
-  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot05.png" width="428" height="940" />
-  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot06.png" width="428" height="940" />
-  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot07.png" width="428" height="940" />
-  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot08.png" width="428" height="940" />
+  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot01.png" width="428" height="930" />
+  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot02.png" width="428" height="930" />
+  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot03.png" width="428" height="930" />
+  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot04.png" width="428" height="930" />
+  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot05.png" width="428" height="930" />
+  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot06.png" width="428" height="930" />
+  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot07.png" width="428" height="930" />
+  <img src="https://github.com/IgorClemente/cloud-chat/blob/master/screenshots/screenshot08.png" width="428" height="930" />
 </h2>
 
 ## :memo: Licença
