@@ -1,6 +1,6 @@
 //
 //  ChatManager.swift
-//  AWSClmChatApplication
+//  Cloud Chat
 //
 //  Created by Igor Clemente on 3/10/19.
 //  Copyright © 2019 Igor Clemente. All rights reserved.
@@ -166,16 +166,19 @@ class ChatManager {
         }
         
         let imageData = message.pngData()
+        
         let documentsDirectory = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
         let fileName = NSUUID().uuidString
         let previewFileName = "thumbnail-\(fileName)"
-        let localFilePath = documentsDirectory.appending("\(fileName).png")
+        let localFilePath = documentsDirectory.appending("/\(fileName).png")
+        
+        print(localFilePath)
         
         do {
             try imageData?.write(to: URL(fileURLWithPath: localFilePath), options: .atomicWrite)
         } catch {
             let error = NSError(domain: "com.igorclemente.AWSClmChatApplication", code: 406,
-                                userInfo: ["__type":"Error","message":"Could not save image to documents directory."])
+                                userInfo: ["__type" : "Error", "message" : "Could not save image to documents directory."])
             completion(error)
         }
         

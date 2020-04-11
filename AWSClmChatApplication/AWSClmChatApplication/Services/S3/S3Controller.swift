@@ -1,6 +1,6 @@
 //
 //  S3Controller.swift
-//  AWSClmChatApplication
+//  Cloud Chat
 //
 //  Created by Igor Clemente on 3/21/19.
 //  Copyright © 2019 Igor Clemente. All rights reserved.
@@ -69,10 +69,12 @@ class S3Controller {
             }
             
             let data = NSData(contentsOf: fileURL)
+            
             if data?.length == 0 {
                 try? fileManager.removeItem(atPath: localFilePath)
                 
                 let error = NSError(domain: "com.igorclemente.AWSClmChatApplication", code: 600, userInfo: nil)
+                
                 completion(error)
                 return
             }

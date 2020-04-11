@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="J1o-wb-lit">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -11,16 +11,16 @@
         <!--Login View Controller-->
         <scene sceneID="bBu-G8-M1h">
             <objects>
-                <viewController id="9aB-a4-493" customClass="LoginViewController" customModule="AWSClmChatApplication" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9aB-a4-493" customClass="LoginViewController" customModule="Cloud_Chat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dea-N8-WCs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="Nqb-Pv-dEd">
-                                <rect key="frame" x="25" y="138" width="364" height="120"/>
+                                <rect key="frame" x="25" y="138" width="460" height="120"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Usuário" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="MD9-eI-bgG" customClass="LoginTextField" customModule="AWSClmChatApplication" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="364" height="30"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Usuário" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="MD9-eI-bgG" customClass="LoginTextField" customModule="Cloud_Chat" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="460" height="30"/>
                                         <color key="tintColor" red="0.2470588235" green="0.20392156859999999" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="SOi-Ug-JW8"/>
@@ -31,8 +31,8 @@
                                             <outlet property="delegate" destination="9aB-a4-493" id="3ok-Mc-QV9"/>
                                         </connections>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Senha" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="4F4-Z8-Yot" customClass="LoginTextField" customModule="AWSClmChatApplication" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="90" width="364" height="30"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Senha" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="4F4-Z8-Yot" customClass="LoginTextField" customModule="Cloud_Chat" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="90" width="460" height="30"/>
                                         <color key="tintColor" red="0.2470588235" green="0.20392156859999999" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="rTU-Rr-ekM"/>
@@ -49,11 +49,8 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wuj-XA-s7T">
-                                <rect key="frame" x="25" y="308" width="364" height="50"/>
+                                <rect key="frame" x="25" y="308" width="460" height="84"/>
                                 <color key="backgroundColor" red="0.96078431372549022" green="0.63921568627450975" blue="0.027450980392156862" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="Hco-AN-6sD"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="16"/>
                                 <state key="normal" title="Entrar">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -62,17 +59,17 @@
                                     <action selector="onLogin:" destination="9aB-a4-493" eventType="touchUpInside" id="emP-W2-FF5"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZkZ-25-S4N" customClass="Rounder" customModule="AWSClmChatApplication" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="596" width="414" height="300"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZkZ-25-S4N" customClass="Rounder" customModule="Cloud_Chat" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="627.33333333333337" width="510" height="268.66666666666663"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="tT9-xW-3fh">
-                                        <rect key="frame" x="25" y="75" width="364" height="150"/>
+                                        <rect key="frame" x="25" y="40.333333333333258" width="460" height="188"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Af-DX-zgs">
-                                                <rect key="frame" x="0.0" y="0.0" width="364" height="65"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="460" height="84"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yOU-qS-hGW">
-                                                        <rect key="frame" x="141.5" y="22.5" width="81" height="20"/>
+                                                        <rect key="frame" x="189.66666666666666" y="32" width="80.999999999999972" height="20"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Facebook" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tvz-hv-7S4">
                                                                 <rect key="frame" x="0.0" y="0.0" width="81" height="20"/>
@@ -93,21 +90,21 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Oq-NK-HSa">
-                                                <rect key="frame" x="0.0" y="85" width="364" height="65"/>
+                                                <rect key="frame" x="0.0" y="104" width="460" height="84"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="alh-F9-smV">
-                                                        <rect key="frame" x="152.5" y="22.5" width="59.5" height="20"/>
+                                                        <rect key="frame" x="200.33333333333334" y="32" width="59.333333333333343" height="20"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Google" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J7V-oQ-pyZ">
-                                                                <rect key="frame" x="0.0" y="0.0" width="59.5" height="20"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="59.333333333333336" height="20"/>
                                                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
-                                                                <nil key="textColor"/>
+                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
                                                     </stackView>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstItem="alh-F9-smV" firstAttribute="centerX" secondItem="8Oq-NK-HSa" secondAttribute="centerX" id="GQ8-7X-jtt"/>
                                                     <constraint firstItem="alh-F9-smV" firstAttribute="centerY" secondItem="8Oq-NK-HSa" secondAttribute="centerY" id="hOs-tV-LTS"/>
@@ -117,18 +114,14 @@
                                                 </connections>
                                             </view>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstItem="9Af-DX-zgs" firstAttribute="centerX" secondItem="tT9-xW-3fh" secondAttribute="centerX" id="Pxz-iX-AFI"/>
-                                            <constraint firstAttribute="height" constant="150" id="oSO-0L-7F4"/>
-                                        </constraints>
                                     </stackView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="tT9-xW-3fh" secondAttribute="trailing" constant="25" id="He8-LW-iDx"/>
                                     <constraint firstItem="tT9-xW-3fh" firstAttribute="leading" secondItem="ZkZ-25-S4N" secondAttribute="leading" constant="25" id="Re7-w9-s0e"/>
-                                    <constraint firstAttribute="height" constant="300" id="oZd-cf-Fht"/>
-                                    <constraint firstItem="tT9-xW-3fh" firstAttribute="centerY" secondItem="ZkZ-25-S4N" secondAttribute="centerY" id="uhs-Ew-8sx"/>
+                                    <constraint firstItem="tT9-xW-3fh" firstAttribute="centerY" secondItem="ZkZ-25-S4N" secondAttribute="centerY" id="Xto-Tu-EAK"/>
+                                    <constraint firstItem="tT9-xW-3fh" firstAttribute="height" secondItem="ZkZ-25-S4N" secondAttribute="height" multiplier="0.7" id="ph6-Fd-Yz5"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="top" value="YES"/>
@@ -138,32 +131,30 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="JC0-Wd-5Ft">
-                                <rect key="frame" x="20" y="373" width="374" height="208"/>
+                                <rect key="frame" x="20" y="407" width="470" height="205.33333333333337"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" text="Ainda não tem conta ?, " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60M-D1-xze">
-                                        <rect key="frame" x="0.0" y="94" width="214" height="20"/>
-                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2GN-T3-BmX">
-                                        <rect key="frame" x="224" y="88" width="150" height="32"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="150" id="0PK-Q1-wrC"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
-                                        <state key="normal" title="Cadastrar-se">
-                                            <color key="titleColor" red="0.96078431369999995" green="0.63921568630000003" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="b26-wU-uc4" kind="show" id="hfT-2U-hgf"/>
-                                        </connections>
-                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="p4g-DS-NIm">
+                                        <rect key="frame" x="0.0" y="87.666666666666686" width="470" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" text="Ainda não tem conta ?, " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60M-D1-xze">
+                                                <rect key="frame" x="0.0" y="6" width="300.66666666666669" height="17.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2GN-T3-BmX">
+                                                <rect key="frame" x="300.66666666666669" y="0.0" width="169.33333333333331" height="30"/>
+                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="15"/>
+                                                <state key="normal" title="Cadastrar-se">
+                                                    <color key="titleColor" red="0.96078431369999995" green="0.63921568630000003" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="b26-wU-uc4" kind="show" id="hfT-2U-hgf"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="2GN-T3-BmX" firstAttribute="centerY" secondItem="JC0-Wd-5Ft" secondAttribute="centerY" id="NCS-no-Ybq"/>
-                                    <constraint firstItem="60M-D1-xze" firstAttribute="centerY" secondItem="JC0-Wd-5Ft" secondAttribute="centerY" id="xUJ-i9-Mat"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.2470588235" green="0.20392156859999999" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
@@ -176,10 +167,13 @@
                             <constraint firstItem="JC0-Wd-5Ft" firstAttribute="top" secondItem="Wuj-XA-s7T" secondAttribute="bottom" constant="15" id="Rsc-DY-26Q"/>
                             <constraint firstItem="JC0-Wd-5Ft" firstAttribute="leading" secondItem="arR-3g-nJh" secondAttribute="leading" constant="20" id="U5R-SF-t8y"/>
                             <constraint firstItem="ZkZ-25-S4N" firstAttribute="leading" secondItem="dea-N8-WCs" secondAttribute="leading" id="bhh-zH-Hvw"/>
+                            <constraint firstItem="Wuj-XA-s7T" firstAttribute="height" secondItem="9Af-DX-zgs" secondAttribute="height" id="f55-9d-x9S"/>
+                            <constraint firstItem="ZkZ-25-S4N" firstAttribute="height" secondItem="dea-N8-WCs" secondAttribute="height" multiplier="0.3" id="hjq-2O-qX8"/>
                             <constraint firstItem="arR-3g-nJh" firstAttribute="trailing" secondItem="Nqb-Pv-dEd" secondAttribute="trailing" constant="25" id="i20-E7-v94"/>
                             <constraint firstAttribute="bottom" secondItem="ZkZ-25-S4N" secondAttribute="bottom" id="inN-Nx-8sv"/>
                             <constraint firstItem="Nqb-Pv-dEd" firstAttribute="leading" secondItem="arR-3g-nJh" secondAttribute="leading" constant="25" id="jyp-Ys-q9d"/>
                             <constraint firstItem="Wuj-XA-s7T" firstAttribute="leading" secondItem="dea-N8-WCs" secondAttribute="leading" constant="25" id="qwG-xp-AZS"/>
+                            <constraint firstItem="p4g-DS-NIm" firstAttribute="width" secondItem="Nqb-Pv-dEd" secondAttribute="width" multiplier="1.02747" id="r1c-co-Paz"/>
                             <constraint firstItem="Nqb-Pv-dEd" firstAttribute="top" secondItem="arR-3g-nJh" secondAttribute="top" constant="50" id="rNO-5v-NT1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="arR-3g-nJh"/>
@@ -195,7 +189,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8CB-an-oTW" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="MrI-Am-A0H" customClass="RoundedButton" customModule="AWSClmChatApplication" customModuleProvider="target">
+                <customObject id="MrI-Am-A0H" customClass="RoundedButton" customModule="Cloud_Chat" customModuleProvider="target">
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="radi">
                             <real key="value" value="20"/>
@@ -223,7 +217,7 @@
         <!--Signup View Controller-->
         <scene sceneID="6dc-7c-eTd">
             <objects>
-                <viewController id="b26-wU-uc4" customClass="SignupViewController" customModule="AWSClmChatApplication" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="b26-wU-uc4" customClass="SignupViewController" customModule="Cloud_Chat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZpG-De-NYN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -231,7 +225,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Yk4-X2-Lwj">
                                 <rect key="frame" x="25" y="148" width="364" height="190"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nome de Usuário" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="if7-GQ-Qbm" customClass="LoginTextField" customModule="AWSClmChatApplication" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nome de Usuário" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="if7-GQ-Qbm" customClass="LoginTextField" customModule="Cloud_Chat" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="364" height="30"/>
                                         <color key="tintColor" red="0.2470588235" green="0.20392156859999999" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -243,7 +237,7 @@
                                             <outlet property="delegate" destination="b26-wU-uc4" id="PoC-ub-3Hf"/>
                                         </connections>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Senha" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="xvv-pH-8bv" customClass="LoginTextField" customModule="AWSClmChatApplication" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Senha" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="xvv-pH-8bv" customClass="LoginTextField" customModule="Cloud_Chat" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="80" width="364" height="30"/>
                                         <color key="tintColor" red="0.2470588235" green="0.20392156859999999" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -255,7 +249,7 @@
                                             <outlet property="delegate" destination="b26-wU-uc4" id="QuU-WR-QpQ"/>
                                         </connections>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="QrL-tS-nmR" customClass="LoginTextField" customModule="AWSClmChatApplication" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="QrL-tS-nmR" customClass="LoginTextField" customModule="Cloud_Chat" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="160" width="364" height="30"/>
                                         <color key="tintColor" red="0.2470588235" green="0.20392156859999999" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -308,7 +302,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jhe-ao-kPu" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="jwh-Eg-dYq" customClass="RoundedButton" customModule="AWSClmChatApplication" customModuleProvider="target">
+                <customObject id="jwh-Eg-dYq" customClass="RoundedButton" customModule="Cloud_Chat" customModuleProvider="target">
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="radi">
                             <real key="value" value="20"/>
@@ -324,7 +318,7 @@
         <!--Light Status Bar Navigation Controller-->
         <scene sceneID="Mi8-3A-PSG">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="J1o-wb-lit" customClass="LightStatusBarNavigationController" customModule="AWSClmChatApplication" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="J1o-wb-lit" customClass="LightStatusBarNavigationController" customModule="Cloud_Chat" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cbn-dY-twd">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

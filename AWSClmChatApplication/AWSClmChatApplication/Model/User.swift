@@ -1,6 +1,6 @@
 //
 //  User.swift
-//  AWSClmChatApplication
+//  Cloud Chat
 //
 //  Created by Igor Clemente on 3/10/19.
 //  Copyright © 2019 Igor Clemente. All rights reserved.

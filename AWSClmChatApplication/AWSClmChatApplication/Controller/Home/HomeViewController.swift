@@ -1,9 +1,9 @@
 //
 //  HomeViewController.swift
-//  AWSChat
+//  Cloud Chat
 //
-//  Created by Abhishek Mishra on 07/03/2017.
-//  Copyright © 2017 ASM Technology Ltd. All rights reserved.
+//  Created by Igor Clemente on 07/03/2019.
+//  Copyright © 2019 Igor Clemente All rights reserved.
 //
 
 import UIKit

@@ -1,9 +1,9 @@
 //
 //  UploadImageViewController.swift
-//  AWSChat
+//  Cloud Chat
 //
 //  Created by Igor Clemente on 13/04/2019.
-//  Copyright © 2019 MACBOOKAIR All rights reserved.
+//  Copyright © 2019 Igor Clemente rights reserved.
 //
 
 import UIKit

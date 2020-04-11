@@ -1,6 +1,6 @@
 //
 //  ImageViewRounder.swift
-//  AWSClmChatApplication
+//  Cloud Chat
 //
 //  Created by Igor Clemente on 28/03/20.
 //  Copyright © 2020 Igor Clemente. All rights reserved.

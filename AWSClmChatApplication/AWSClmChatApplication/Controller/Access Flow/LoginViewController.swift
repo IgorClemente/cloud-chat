@@ -1,9 +1,9 @@
 //
 //  LoginViewController.swift
-//  AWSChat
+//  Cloud Chat
 //
-//  Created by Abhishek Mishra on 07/03/2017.
-//  Copyright © 2017 ASM Technology Ltd. All rights reserved.
+//  Created by Igor Clemente on 07/03/2019.
+//  Copyright © 2019 Igor Clemente Ltd. All rights reserved.
 //
 
 import UIKit
@@ -119,9 +119,10 @@ extension LoginViewController {
     }
     
     fileprivate func displaySuccessMessage() {
-        let alertController = UIAlertController(title: "Success!", message: "Login successful.", preferredStyle: .alert)
+        let alertController = UIAlertController(title: "Sucesso!", message: "Você logou com sucesso.", preferredStyle: .alert)
         
         let okAction = UIAlertAction(title: "OK", style: .default) { (action) in
+            
             let storyboard = UIStoryboard(name: "ChatJourney", bundle: Bundle.main)
             
             guard let successViewController = storyboard.instantiateInitialViewController() else { return }
@@ -161,7 +162,7 @@ extension LoginViewController: LoginButtonDelegate {
             return
         }
         
-        let graphRequest = GraphRequest(graphPath: "me", parameters: ["fields":"email,name"])
+        let graphRequest = GraphRequest(graphPath: "me", parameters: ["fields" : "email,name"])
         
         graphRequest.start { (connection, result, error) in
             if let error = error {
@@ -177,7 +178,6 @@ extension LoginViewController: LoginButtonDelegate {
                 
                 identityPoolController.getFederatedIdentityForFacebook(idToken: idToken.tokenString, username: username, emailAddress: emailAddress, completion: { (error) in
                     if let error = error {
-                        print("Facebook SDK Login Error: \(error)")
                         self.displayLoginError(error: error as NSError)
                         return
                     }
@@ -253,7 +253,6 @@ extension LoginViewController {
                     task.continueWith(block: { (task) -> Any? in
                     
                         DispatchQueue.main.async {
-                        
                             if let error = task.error {
                                 self.displayLoginError(error: error as NSError)
                                 return
@@ -281,11 +280,11 @@ extension LoginViewController {
                                return
                             }
                         
-                        DispatchQueue.main.async {
-                            self.displaySuccessMessage()
-                        }
-                        return
-                    })
+                            DispatchQueue.main.async {
+                              self.displaySuccessMessage()
+                            }
+                            return
+                        })
                     }
                     return nil
                 })

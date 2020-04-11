@@ -1,9 +1,9 @@
 //
 //  FriendTableViewCell.swift
-//  AWSClmChatApplication
+//  Cloud Chat
 //
-//  Created by MACBOOK AIR on 3/16/19.
-//  Copyright © 2019 Igor Clemente. All rights reserved.
+//  Created by Igor Clemente on 28/03/20.
+//  Copyright © 2020 Igor Clemente. All rights reserved.
 //
 
 import UIKit

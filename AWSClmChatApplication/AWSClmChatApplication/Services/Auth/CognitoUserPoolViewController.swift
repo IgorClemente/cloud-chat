@@ -1,6 +1,6 @@
 //
 //  CognitoUserPoolViewController.swift
-//  AWSChatApplication
+//  Cloud Chat
 //
 //  Created by Igor Clemente on 2/12/19.
 //  Copyright © 2019 Igor Clemente. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  UINavigationController.swift
-//  AWSClmChatApplication
+//  Cloud Chat
 //
 //  Created by Igor Clemente on 29/03/20.
 //  Copyright © 2020 Igor Clemente. All rights reserved.

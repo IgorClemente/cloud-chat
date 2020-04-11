@@ -1,8 +1,8 @@
 //
 //  ObjCBridging-Header.h
-//  AWSClmChatApplication
+//  Cloud Chat
 //
-//  Created by MACBOOK AIR on 2/22/19.
+//  Created by Igor Clemente on 2/22/19.
 //  Copyright © 2019 Igor Clemente. All rights reserved.
 //
 

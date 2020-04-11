@@ -1,9 +1,9 @@
 //
 //  SignupViewController.swift
-//  AWSChat
+//  Cloud Chat
 //
-//  Created by Abhishek Mishra on 07/03/2017.
-//  Copyright © 2017 ASM Technology Ltd. All rights reserved.
+//  Created by Igor Clemente on 07/03/2019.
+//  Copyright © 2019 Igor Clemente All rights reserved.
 //
 
 import UIKit
@@ -35,7 +35,6 @@ class SignupViewController: UIViewController {
         let poolController = CognitoUserPoolController.sharedInstance
         poolController.signup(username: usernameText, password: passwordText, emailAddress: emailAddressText) { (error, user) in
             if let error = error {
-                print("Signup Error! \(error)")
                 self.displaySignupError(error: error as NSError,completion: nil)
                 return
             }
@@ -136,7 +135,7 @@ extension SignupViewController {
     }
     
     fileprivate func requestConfirmationCode(_ user: AWSCognitoIdentityUser, completion: (()->Void)?) {
-        let alertController = UIAlertController(title: "Confirmation Code", message: "Please type the 6-digit confirmation code that has been sent to your email address.", preferredStyle: .alert)
+        let alertController = UIAlertController(title: "Código de confirmação", message: "Digite o código de confirmação de 6 dígitos que foi enviado para o seu endereço de e-mail.", preferredStyle: .alert)
         
         alertController.addTextField { (textField) in
             textField.placeholder = "######"
@@ -184,7 +183,10 @@ extension SignupViewController {
     }
     
     fileprivate func displayCodeResentMessage(_ user: AWSCognitoIdentityUser) {
-        let alertController = UIAlertController(title: "Resent.", message: "A 6-digit confirmation code has been sent to your email address.", preferredStyle: .alert)
+        let alertController = UIAlertController(title: "Resent.",
+                                                message: "Um código de confirmação de 6 dígitos foi enviado para o seu endereço de e-mail.",
+                                                preferredStyle: .alert)
+        
         let okAction = UIAlertAction(title: "Ok", style: .default) { (action) in
             self.requestConfirmationCode(user, completion: nil)
         }
@@ -222,10 +224,10 @@ extension SignupViewController {
                                                                  userPoolRegion: userPoolController.userPoolRegionString,
                                                                  completion: { (error) in
                 if let error = error {
-                    print("Signup Error \(error).")
                     self.displaySignupError(error: error as NSError, completion: nil)
                     return
                 }
+                                                                    
                 self.displaySuccessMessage()
                 return
             })

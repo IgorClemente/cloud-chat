@@ -1,6 +1,6 @@
 //
 //  GenericWithImage.swift
-//  AWSClmChatApplication
+//  Cloud Chat
 //
 //  Created by Igor Clemente on 28/03/20.
 //  Copyright © 2020 Igor Clemente. All rights reserved.
@@ -22,24 +22,25 @@ class GenericWithImage : UITextField {
     
     var asideView : UIView? {
         if let image = self.image {
-            
-            let view = UIView(frame: CGRect(x: 0, y: 0, width: 40, height: 25))
+            let view = UIView(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
             
             let attachmentButton = UIButton()
-            attachmentButton.frame = CGRect(x: 0, y: 0, width: 25, height: 25)
+            attachmentButton.frame = CGRect(x: 0, y: 8, width: 25, height: 25)
             attachmentButton.setImage(image, for: .normal)
             attachmentButton.contentMode = .scaleAspectFit
             attachmentButton.addTarget(self, action: #selector(tapAttachment), for: .touchUpInside)
             
             view.addSubview(attachmentButton)
-            
             return view
         }
-        
         return nil
     }
     
     override func draw(_ rect: CGRect) {
+        
+        clipsToBounds = true
+        layer.cornerRadius = 20.0
+        
         if left && !right {
             guard let asideView = self.asideView else { return }
             
@@ -59,6 +60,12 @@ class GenericWithImage : UITextField {
                         
             return
         }
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        layer.borderColor = UIColor.gray.withAlphaComponent(0.3).cgColor
+        layer.borderWidth = 2.0
     }
     
     @objc func tapAttachment() {

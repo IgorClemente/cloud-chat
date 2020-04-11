@@ -1,9 +1,9 @@
 //
 //  SentTextTableViewCell.swift
-//  AWSChat
+//  Cloud Chat
 //
-//  Created by Abhishek Mishra on 14/04/2017.
-//  Copyright © 2017 ASM Technology Ltd. All rights reserved.
+//  Created by Igor Clemente on 28/03/20.
+//  Copyright © 2020 Igor Clemente. All rights reserved.
 //
 
 import UIKit

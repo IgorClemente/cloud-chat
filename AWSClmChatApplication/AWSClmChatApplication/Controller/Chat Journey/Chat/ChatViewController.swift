@@ -1,8 +1,8 @@
 //
 //  ChatViewController.swift
-//  AWSClmChatApplication
+//  Cloud Chat
 //
-//  Created by MACBOOK AIR on 3/25/19.
+//  Created by Igor Clemente on 3/25/19.
 //  Copyright © 2019 Igor Clemente. All rights reserved.
 //
 
